@@ -1,0 +1,221 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    margin: 3vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1vw 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1vw;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.list-container {
+    text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 1vw;
+}
+
+.list-container ul {
+    padding-left: 1vw;
+    list-style-type: disc;
+}
+
+.list-container li {
+    text-align: left;
+}
+
+.code-example {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    text-align: left;
+    padding: 0;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.description {
+    margin-bottom: 0;
+}
+
+.example {
+    padding: 1vw;
+    margin-bottom: 1vw;
+    width: 95%;
+}
+
+.example p {
+    margin-bottom: 0;
+}
+
+.modes {
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.mode-option {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    border-radius: 1em;
+    margin: 0 0.5em;
+}
+
+.mode-option:hover, .mode-input:checked + .mode-option {
+    background-color: #4CAF50;
+}
+
+.mode-input {
+    display: none;
+}
+
+.mode-input:focus + .mode-option {
+    box-shadow: 0 0 0.5em #4CAF50;
+}
+
+.logo {
+    background: url('logo.png') no-repeat center center;
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    text-indent: -9999px;
+}
+
+section {
+    margin: 2vw;
+}
+
+h1, h2 {
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1vw 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+textarea {
+    width: calc(100% - 4vw);
+    margin: 1vw;
+    padding: 1vw;
+}
+
+button {
+    display: inline-block;
+    padding: 1vw 2vw;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1em;
+    margin-bottom: 1vw;
+    min-width: 10vw;
+}
+
+button:hover {
+    background-color: #3c9041;
+}
+
+#download-json-btn {
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+}
+
+#result, .result-block {
+    margin: 1vw;
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    margin: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+}
+
+.space-holder {
+    flex: 1;
+    height: 1vh;
+}
+
+@media screen and (max-width: 600px) {
+    .content-row {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+
+    .left-side, .right-side {
+        width: 100%; /* Full width for each side */
+    }
+
+    .button-container button {
+        width: 90%; /* Wider buttons for easier interaction */
+    }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citation Intent Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Classifier.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Citation Intent Classifier</h1>
+        <h3>Alpha release</h3>
+        <nav>
+            <ul>
+              <li><a href="{{ url_for('index') }}">Home</a></li>
+              <li><a href="{{ url_for('classifier_page') }}">Classifier</a></li>
+              <li><a href="/page-3">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Classify Your Sentences</h2>
+        <p class="description">
+            This is a tool to classify your sentences according to the categories presented in the landing page.</br>
+            You can either enter your sentences in the form below, or upload a JSON file containing them.</br>
+            The result will be displayed in the form of a table, and you will be able to download it as a JSON file.</br>
+            It is <b>important to notice</b> that:
+        </p>
+        <div class="list-container">
+            <ul>
+                <li>if you upload a JSON file, you will have to click the "Classify JSON" button,</li>
+                <li>if you enter your sentences manually, you will have to click the "Classify" button.</li>
+            </ul>
+        </div>
+        <p>
+            In both scenarios, the result will be displayed in the table below, and you will be able to download it as a JSON file.</br>
+            Please, do not forget to select your classification mode before classifying your sentences.
+        </p>
+
+        <h2>How to use</h2>
+        <div class="content-row">
+            <div class="left-side">
+                <h3>Manually inserted sentences (Manual upload)</h3>
+                <p class="description">Enter your sentences below in the form of a list of tuples.</p>
+                <div class="example">
+                    <p>
+                        Each tuple <b>MUST</b> contain both section title and citation context.<br>
+                        The format is a LIST, so please do not forget to put squared brackets around it, and 
+                        the commas to divide the tuples.<br>
+                        In case you do not have the section title, it has to be replaced by an empty string.
+                    </p>
+                    <p>
+                        <b>Example:</b><br>
+                    </p>
+                    <pre class="code-example">
+                    <code>
+                        [
+                            ('Introduction', "In his 1945 essay 'As We May Think',...record [Bush, 1945]."),
+                            ('', 'The problem has only ... nine years [Bornmann and Mutz, 2015].'),
+                            (..., ...),
+                            ...
+                        ]
+                    </code>
+                    </pre>
+                </div>
+            </div>
+    
+            <div class="right-side">
+                <h3>Automatically inserted sentences (JSON upload)</h3>
+                <p class="description">Or you can upload a JSON file:</p>
+                <div class="example">
+                    <p>
+                        The structure of the JSON file has to follow some rules.</br>
+                        Each data entry needs an ID as key, and as value it asks for a dictionary with two keys: 'SECTION' and 'CITATION'. 
+                        The value of 'SECTION' is a string of the section title, and the value of 'CITATION' is a string of the citation context.</br>
+                        For empty elements, the value of 'SECTION' has to be an empty string.
+                    </p>
+                    <p>
+                        <b>Example:</b><br>
+                    </p>
+                    <pre class="code-example">
+                    <code>
+                    {
+                        ID1:{
+                            'SECTION': 'Introduction',
+                            'CITATION': 'In his 1945 essay 'As We May Think',...record [Bush, 1945].'
+                        },
+                        ID2:{
+                            'SECTION': '',
+                            'CITATION': 'The problem has only ... nine years [Bornmann and Mutz, 2015].'
+                        },
+                        ID3: ...
+                    }
+                    </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <p>Select your classification mode:</p>
+        <!-- Here is the switch button for mode selection -->
+        <div class="modes">
+            <input type="radio" class="mode-input" id="mode1" name="mode" value="mixed" checked>
+            <label class="mode-option" for="mode1">Mixed</label>
+            
+            <input type="radio" class="mode-input" id="mode2" name="mode" value="with sections">
+            <label class="mode-option" for="mode2">With Section Titles</label>
+            
+            <input type="radio" class="mode-input" id="mode3" name="mode" value="without sections">
+            <label class="mode-option" for="mode3">Without Section Titles</label>
+        </div>
+
+        <div class="file-upload">
+            <input type="file" id="json-file" name="file" accept=".json">
+            <button type="button" id="upload-json-btn">Classify JSON</button>
+        </div>
+        
+
+        <form id="classify-form">
+            <textarea id="input-text" name="sentences" rows="10" placeholder="[('Section title 1', 'Citation context 1'), ('Section title 2', 'Citation context 2'), ...]"></textarea>
+            <button type="button" id="classify-btn">Classify</button>
+        </form>
+        
+    </section>
+    <section>
+        <div class="space-holder"></div>
+        <div id="loading" style="display:none;">
+            <p>Loading...</p>
+        </div>
+        <div id="result"></div>
+        <button type="button" id="download-json-btn" style="display:none;">Download JSON</button>
+        <div class="space-holder"></div>
+    </section>
+    <footer>
+        <p>Your Company &copy; 2023</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/classifier.js') }}"></script>
+</body>
+</html>
