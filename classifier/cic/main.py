@@ -1,20 +1,25 @@
 from flask import Flask, request, jsonify, render_template
 import ast
-from predictor import *
-from data_processor import *
+from src.predictor import *
+from src.data_processor import *
 
 
-app = Flask(__name__)
+PREFIX="/cic/"
+SRC_PATH="src/"
+app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
 
-@app.route('/')
+@app.route(PREFIX)
+#@app.route('/<prefix>')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',prefix=PREFIX)
 
-@app.route('/classifier')
+@app.route(PREFIX+'classifier')
+#@app.route('/<prefix>classifier')
 def classifier_page():
-    return render_template('classifier.html')
+    return render_template('classifier.html',prefix=PREFIX)
 
-@app.route('/upload_json', methods=['POST'])
+#@app.route(PREFIX+'/upload_json', methods=['POST'])
+@app.route(PREFIX+'upload_json', methods=['POST'])
 def upload_json():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'})
@@ -51,17 +56,17 @@ def upload_json():
                 selected_mode,
                 "allenai/scibert_scivocab_cased",
                 [
-                    "./models/ModelsWithSections/background_model.pt",
-                    "./models/ModelsWithSections/method_model.pt",
-                    "./models/ModelsWithSections/result_model.pt"
+                    SRC_PATH+"models/ModelsWithSections/background_model.pt",
+                    SRC_PATH+"models/ModelsWithSections/method_model.pt",
+                    SRC_PATH+"models/ModelsWithSections/result_model.pt"
                 ],
                 [
-                    "./models/ModelsWithoutSections/background_model_no_sections.pt",
-                    "./models/ModelsWithoutSections/method_model_no_sections.pt",
-                    "./models/ModelsWithoutSections/result_model_no_sections.pt"
+                    SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
+                    SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
+                    SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
                 ],
-                "./models/ModelsWithSections/CNN.pt",
-                "./models/ModelsWithoutSections/CNN_no_sections.pt",
+                SRC_PATH+"models/ModelsWithSections/CNN.pt",
+                SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
                 data,
                 temporary_data,
                 from_json=True
@@ -78,29 +83,30 @@ def upload_json():
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() == 'json'
 
-@app.route('/classify', methods=['POST'])
+#@app.route(PREFIX+'/classify', methods=['POST'])
+@app.route(PREFIX+'classify', methods=['POST'])
 def classify_text():
     data = request.json
-    selected_mode = data.get('mode') 
+    selected_mode = data.get('mode')
     sentences = data.get('sentences')
     # Safely evaluate the string and convert it to a list of tuples
     datapoints = ast.literal_eval(sentences)
     print("Datapoints (processed in route):", datapoints) # Debug print
     processor = Predictor(
         selected_mode,
-        "allenai/scibert_scivocab_cased", 
+        "allenai/scibert_scivocab_cased",
         [
-            "./models/ModelsWithSections/background_model.pt",
-            "./models/ModelsWithSections/method_model.pt",
-            "./models/ModelsWithSections/result_model.pt"
+            SRC_PATH+"models/ModelsWithSections/background_model.pt",
+            SRC_PATH+"models/ModelsWithSections/method_model.pt",
+            SRC_PATH+"models/ModelsWithSections/result_model.pt"
         ],
         [
-            "./models/ModelsWithoutSections/background_model_no_sections.pt",
-            "./models/ModelsWithoutSections/method_model_no_sections.pt",
-            "./models/ModelsWithoutSections/result_model_no_sections.pt"
+            SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
+            SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
+            SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
         ],
-        "./models/ModelsWithSections/CNN.pt",
-        "./models/ModelsWithoutSections/CNN_no_sections.pt",
+        SRC_PATH+"models/ModelsWithSections/CNN.pt",
+        SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
         datapoints,
         from_json=False
     )
@@ -111,7 +117,7 @@ def classify_text():
 if __name__ == '__main__':
     app.run(debug=True)
 
-    
+
 """
 [
 ("Literature Review", "In their comprehensive review, Smith and colleagues (2019) delineate the historical development of nanomaterials in modern applications."),

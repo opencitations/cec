@@ -11,7 +11,7 @@ $(document).ready(function(){
         var inputData = $('#input-text').val();
         $('#loading').show();
         $.ajax({
-            url: '/classify',
+            url: conf["prefix"]+'classify',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({ 'sentences': inputData, 'mode': selectedMode }), // include the selected mode in the request
@@ -52,7 +52,7 @@ $(document).ready(function(){
         $('#loading').show();
 
         $.ajax({
-            url: '/upload_json',
+            url: conf["prefix"]+'upload_json',
             method: 'POST',
             processData: false,
             contentType: false,
