@@ -17,7 +17,7 @@ myv=`timeout 10s curl -s http://localhost:5000/cic/`
 
 if [[ -z "$myv" ]] || [[ $myv = "Traceback"*  ]]; then
     source ../../pyvenv/bin/activate
-    python ../main.py
+    nohup python ../main.py &
     exit 0
 fi
 
