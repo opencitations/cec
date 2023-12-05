@@ -1,4 +1,4 @@
-from metaclassifiers import *
+from src.metaclassifiers import *
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 class EnsembleClassifier:
@@ -6,7 +6,7 @@ class EnsembleClassifier:
         """
         To initialize the classifier, we need to provide the following:
             - model_ckp: the checkpoint of the model used to fine-tune
-            - state_dict_paths_list: a list of paths to the state_dict of each model in the ensemble. 
+            - state_dict_paths_list: a list of paths to the state_dict of each model in the ensemble.
                                         The order of the paths must be the same as the order of the models in the ensemble.
                                         Here it is important to follow the following order:
                                             1. Background model
@@ -31,7 +31,7 @@ class EnsembleClassifier:
         """
         Retrieve the device on which to run the model.
         """
-        
+
         if torch.cuda.is_available():
             device = torch.device("cuda")
         if torch.backends.mps.is_available():
@@ -68,12 +68,12 @@ class EnsembleClassifier:
         result_model = result_model.to(self.device).eval()
 
         return (background_model, method_model, result_model)
-    
+
     def load_metaclassifier(self):
         """
         Load the CNN metaclassifier.
         """
         metaclassifier = SectionsMetaClassifierCNN()  # create instance of CNN_1d metaclassifier
-        metaclassifier.load_state_dict(torch.load(self.metaclassifier_state_dict_path)) 
+        metaclassifier.load_state_dict(torch.load(self.metaclassifier_state_dict_path))
         metaclassifier = metaclassifier.to(self.device).eval()
         return metaclassifier

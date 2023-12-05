@@ -1,5 +1,5 @@
-from binary_classifiers import *
-from data_processor import *
+from src.binary_classifiers import *
+from src.data_processor import *
 from tqdm import tqdm
 
 
@@ -75,7 +75,7 @@ class Predictor:
         """
         Retrieve the device on which to run the model.
         """
-        
+
         if torch.cuda.is_available():
             device = torch.device("cuda")
         elif torch.backends.mps.is_available():
@@ -109,7 +109,7 @@ class Predictor:
             NO_SECTIONS_metaclassifier_CNN.load_state_dict(torch.load(self.NO_SECTIONS_metaclassifier_state_dict_path, map_location=self.device))
             NO_SECTIONS_metaclassifier_CNN = NO_SECTIONS_metaclassifier_CNN.to(self.device).eval()
             return (SECTIONS_metaclassifier_CNN, NO_SECTIONS_metaclassifier_CNN)
-        
+
         raise ValueError(f"Invalid case: {self.case}. Expected one of: ['with sections', 'without sections', 'mixed']")
 
     def tokenize(self):
@@ -133,7 +133,7 @@ class Predictor:
         return self.data
 
     def binary_predictions(self):
-        self.data = self.tokenize()   
+        self.data = self.tokenize()
 
         if self.case != "mixed":
             model1 = self.binary_classifier.background_model.to(self.device).eval()
@@ -153,7 +153,7 @@ class Predictor:
                     # The probabilities predicted for each class, for each model, are stacked
                     out = torch.stack([out1, out2, out3], dim=-1)
                     all_predictions[datapoint] = out
-        
+
         else:
             model1_sections = self.sections_classifier.background_model.to(self.device).eval()
             model2_sections = self.sections_classifier.method_model.to(self.device).eval()
@@ -191,7 +191,7 @@ class Predictor:
                         all_predictions['SECTIONS'][datapoint] = out
 
         return all_predictions
-  
+
     def final_classification(self):
         """
         Please be careful:
@@ -212,16 +212,16 @@ class Predictor:
             model = self.metaclassifier_CNN.to(self.device).eval()
             with torch.no_grad():
                 for id, prediction in all_predictions.items():
-                    input_data = prediction.view(-1, prediction.numel()).to(self.device)  # Flatten the inputs and move to device 
+                    input_data = prediction.view(-1, prediction.numel()).to(self.device)  # Flatten the inputs and move to device
                     # The .numel in pytorch returns the entire number of elements in a tensor
-                    
+
                     # Inference
                     output_probabilities = model(input_data) # It directly returns probabilities since the softmax has been applied in the model
 
                     # Get the predicted class (0 - method, 1 - background, or 2 - result)
                     _, predicted_class = torch.max(output_probabilities, 1)  # 1 = dimension over which to return the maximum
-                    final_predictions[id] = {'FinalPrediction': (predicted_class.item(), output_probabilities[0].tolist())}  
-        
+                    final_predictions[id] = {'FinalPrediction': (predicted_class.item(), output_probabilities[0].tolist())}
+
         else:
             final_predictions = {
                 "NO-SECTIONS": {},
@@ -248,7 +248,7 @@ class Predictor:
         output_dict = self.create_json(all_predictions, final_predictions)
         print("Final output:", output_dict)  # Debug print
         return output_dict  # return a new dictionary containing final predictions
-    
+
     def create_json(self, predictions, final_predictions):
 
         def final_prediction_string(prediction_integer, metaclassifier_probabilities, background_positive_probability, method_positive_probability, result_positive_probability):
@@ -256,7 +256,7 @@ class Predictor:
             OLD THRESHOLD BASED ON BINARY PROBABILITIES
             if background_positive_probability >= 0.6 or method_positive_probability >= 0.6 or result_positive_probability >= 0.6:
             """
-            # New threshold based on metaclassifier probabilities 
+            # New threshold based on metaclassifier probabilities
             if metaclassifier_probabilities[0] >= 0.9 or metaclassifier_probabilities[1] >= 0.9 or metaclassifier_probabilities[2] >= 0.9:
                 if prediction_integer == 0:
                     return "usesMethodIn (METHOD)"
@@ -318,10 +318,10 @@ class Predictor:
         if self.temporary_dict is not None:
             merged_dict = self.update_with_original_metadata_dict(merged_dict)
         return merged_dict
-    
+
     def update_with_original_metadata_dict(self, result_dict):
         final_dict = {}
-        for id in result_dict: 
+        for id in result_dict:
             if id in self.temporary_dict:
                 final_dict[id] = {**self.temporary_dict[id], **result_dict[id]}
             else:
@@ -361,7 +361,7 @@ data = [
 
 p = Predictor(
     "mixed",
-    "allenai/scibert_scivocab_cased", 
+    "allenai/scibert_scivocab_cased",
     [
         "./models/ModelsWithSections/background_model.pt",
         "./models/ModelsWithSections/method_model.pt",
@@ -395,7 +395,7 @@ tensor([[[0.0447, 0.9534, 0.9897],
 Thus, percentages are coupled the one above with the one below, but which is which is a mistery now...
 
 Rsults have the following format:
-[ 
+[
     [NO- Background_probability, NO- Method_probability, NO- Result_probability],
     [YES-Background_probability, YES-Method_probability, YES-Result_probability]
 ]
