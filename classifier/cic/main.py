@@ -5,7 +5,7 @@ from src.data_processor import *
 
 
 PREFIX="/cic/"
-SRC_PATH="src/"
+SRC_PATH="../src/"
 app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
 
 @app.route(PREFIX)
@@ -56,17 +56,17 @@ def upload_json():
                 selected_mode,
                 "allenai/scibert_scivocab_cased",
                 [
-                    "models/ModelsWithSections/background_model.pt",
-                    "models/ModelsWithSections/method_model.pt",
-                    "models/ModelsWithSections/result_model.pt"
+                    SRC_PATH+"models/ModelsWithSections/background_model.pt",
+                    SRC_PATH+"models/ModelsWithSections/method_model.pt",
+                    SRC_PATH+"models/ModelsWithSections/result_model.pt"
                 ],
                 [
-                    "models/ModelsWithoutSections/background_model_no_sections.pt",
-                    "models/ModelsWithoutSections/method_model_no_sections.pt",
-                    "models/ModelsWithoutSections/result_model_no_sections.pt"
+                    SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
+                    SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
+                    SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
                 ],
-                "models/ModelsWithSections/CNN.pt",
-                "models/ModelsWithoutSections/CNN_no_sections.pt",
+                SRC_PATH+"models/ModelsWithSections/CNN.pt",
+                SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
                 data,
                 temporary_data,
                 from_json=True
@@ -96,17 +96,17 @@ def classify_text():
         selected_mode,
         "allenai/scibert_scivocab_cased",
         [
-            "models/ModelsWithSections/background_model.pt",
-            "models/ModelsWithSections/method_model.pt",
-            "models/ModelsWithSections/result_model.pt"
+            SRC_PATH+"models/ModelsWithSections/background_model.pt",
+            SRC_PATH+"models/ModelsWithSections/method_model.pt",
+            SRC_PATH+"models/ModelsWithSections/result_model.pt"
         ],
         [
-            "models/ModelsWithoutSections/background_model_no_sections.pt",
-            "models/ModelsWithoutSections/method_model_no_sections.pt",
-            "models/ModelsWithoutSections/result_model_no_sections.pt"
+            SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
+            SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
+            SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
         ],
-        "models/ModelsWithSections/CNN.pt",
-        "models/ModelsWithoutSections/CNN_no_sections.pt",
+        SRC_PATH+"models/ModelsWithSections/CNN.pt",
+        SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
         datapoints,
         from_json=False
     )
