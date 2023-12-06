@@ -49,6 +49,7 @@ def create_app():
     @app.route(PREFIX,methods=['GET', "POST"])
     @app.route(PREFIX+'home', methods=['GET', 'POST'])
     def home():
+        os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
         if form.validate_on_submit():
 
