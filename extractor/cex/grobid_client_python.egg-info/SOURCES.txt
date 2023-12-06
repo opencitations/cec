@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+grobid_client/__init__.py
+grobid_client/client.py
+grobid_client/grobid_client.py
+grobid_client_python.egg-info/PKG-INFO
+grobid_client_python.egg-info/SOURCES.txt
+grobid_client_python.egg-info/dependency_links.txt
+grobid_client_python.egg-info/entry_points.txt
+grobid_client_python.egg-info/requires.txt
+grobid_client_python.egg-info/top_level.txt
