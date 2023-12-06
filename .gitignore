@@ -2,6 +2,7 @@
 classifier/cic/src/models/*/
 classifier/pyvenv
 extractor/pyvenv
+extractor/cex/src/grobid*
 extractor/cex/target
 extractor/cex/.project
 extractor/cex/.settings

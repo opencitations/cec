@@ -38,9 +38,14 @@ def create_app():
     # PREFIX="/"
 
     app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
+
     app.config['SECRET_KEY'] = 'supersecretkey'
     app.config['UPLOAD_FOLDER'] = 'static/files'
     app.config['DOWNLOAD_FOLDER'] = 'static/output'
+
+    os.makedirs(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exist_ok=True)
+    os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
+
     @app.route(PREFIX,methods=['GET', "POST"])
     @app.route(PREFIX+'home', methods=['GET', 'POST'])
     def home():
