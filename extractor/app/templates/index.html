@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+</head>
+<body>
+
+    <section id="disclaimer">
+        <h1>PDF Processor</h1>
+      <h2 id="about">Overview</h2>
+      <p>
+        This tool allows you to upload a PDF file, process it using Grobid <br>
+        and obtain a JSON file containing all the sentences <br>
+        where an intext citation is present. Both the grobid output (XML-TEI) <br>
+          and the JSON can be downloaded.
+          N.B. You can process only <b>ONE PDF</b> at the time.
+      </p>
+    </section>
+
+    <section id="pdflist">
+        <h4>Some sample PDFs you can use to test the service</h4>
+        <ul>
+            <li><a href="{{ url_for('download_file', filename='AGR-BIO-SCI_3.pdf') }}">PDF_1</a></li>
+            <li><a href="{{ url_for('download_file', filename='DEC-SCI_31.pdf') }}">PDF_2</a></li>
+            <li><a href="{{ url_for('download_file', filename='MUL_79.pdf') }}">PDF_3</a></li>
+            <li><a href="{{ url_for('download_file', filename='SOC-SCI_103.pdf') }}">PDF_4</a></li>
+        </ul>
+    </section>
+
+
+
+<form method='POST' enctype="multipart/form-data">
+    {{form.hidden_tag()}}
+    {{form.file()}}
+    {{form.submit()}}
+</form>
+
+
+    <footer>
+      <p>Copyright © 2023 PDF PROCESSOR</p>
+    </footer>
+
+</body>
+</html>

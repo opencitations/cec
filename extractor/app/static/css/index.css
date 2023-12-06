@@ -1,0 +1,100 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #FEFFF5;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* Ensures the header remains above other content */
+  }
+
+
+  header nav ul {
+    list-style: none;
+  }
+
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    background: url('logo.png') no-repeat center center; /* Add your logo image */
+    display: inline-block;
+    width: 50px; /* Adjust to your logo's dimensions */
+    height: 50px; /* Adjust to your logo's dimensions */
+    text-indent: -9999px; /* Hide the text */
+  }
+
+  #disclaimer {
+    margin-top: 10%;
+    padding-bottom: 1%;
+  }
+
+  #pdflist {
+    margin-top: 5%;
+    padding-bottom: 1%;
+  }
+
+  h1, h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+#download {
+    margin-top: 10%;
+}
+
+button {
+    margin-top: 10%;
+}
+
+  form {
+    margin-top: 10%;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 100%;
+  }
