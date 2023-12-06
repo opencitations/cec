@@ -5,7 +5,7 @@ from src.data_processor import *
 
 
 PREFIX="/cic/"
-SRC_PATH="../src/"
+SRC_PATH="src/"
 app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
 
 @app.route(PREFIX)
