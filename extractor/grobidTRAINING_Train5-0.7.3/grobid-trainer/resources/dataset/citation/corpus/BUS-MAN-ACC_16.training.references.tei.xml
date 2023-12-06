@@ -1,0 +1,2405 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Ajzen</surname></persName>
+		</author>
+		<title level="a">The theory of planned behaviour</title>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Process</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="211" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Ajzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Fishbein</surname></persName>
+		</author>
+		<title level="a">The influence of attitudes on behaviour</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>D</forename><surname>Albarracin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Johnson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Zanna</surname></persName>
+		</editor>
+		<title level="m">The handbook of attitudes</title>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates Publishers</publisher>
+			<pubPlace>Mahwah, NJ</pubPlace>
+			<date when="2005">2005</date>
+			<biblScope unit="page" from="173" to="221" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Ajzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Madden</surname></persName>
+		</author>
+		<title level="a">Prediction of goal-directed behavior: Attitudes, intentions, and perceived behavioral control</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="453" to="474" />
+			<date when="1986">1986</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Algesheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">M</forename><surname>Dholakia</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Herrmann</surname></persName>
+		</author>
+		<title level="a">The Social Influence of Brand Community: Evidence from European Car Clubs</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="19" to="34" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Armitage</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Conner</surname></persName>
+		</author>
+		<title level="a">Efficacy of the Theory of Planned Behaviour: A meta-analytic review</title>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="471" to="499" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Bagozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yi</surname></persName>
+		</author>
+		<title level="a">On the evaluation of structural equation models</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Academy of Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="74" to="94" />
+			<date when="1988">1988</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+	
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Bagozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kimmel</surname></persName>
+		</author>
+		<title level="a">A comparison of leading theories for the prediction of goal-directed behaviours</title>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="437" to="461" />
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<title level="a">Predicting adolescents’ use of social networking sites from an extended theory of planned behaviour perspective</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1591" to="1597" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Bandura</surname></persName>
+		</author>
+		<title level="a">Self-efficacy mechanism in human agency</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="122" to="147" />
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b9">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Bandura</surname></persName>
+		</author>
+		<title level="m">Social foundations of thought and action: A social cognitive theory</title>
+		<imprint>
+			<date when="1986">1986</date>
+			<publisher>Prentice-Hall, Inc</publisher>
+			<pubPlace>Englewood Cliffs, NJ, US</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Bareket-Bojmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Shahar</surname></persName>
+		</author>
+		<title level="a">Strategic self-presentation on Facebook: Personal motives and audience response to online behavior</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="788" to="795" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Belleflamme</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Schwienbacher</surname></persName>
+		</author>
+		<title level="a">Crowdfunding: Tapping the right crowd</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="585" to="609" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bentler</surname></persName>
+		</author>
+		<title level="a">Comparative fit indexes in structural models</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="238" to="246" />
+			<date when="1990">1990</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bentler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Bonett</surname></persName>
+		</author>
+		<title level="a">Significance tests and goodness of fit in the analysis of covariance structures</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="588" to="606" />
+			<date when="1980">1980</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Berliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Kenworthy</surname></persName>
+		</author>
+		<title level="a">Producing a worthy illness: Personal crowdfunding amidst financial crisis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="233" to="242" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Usman</surname></persName>
+		</author>
+		<title level="a">The influence of online information on investing decisions of reward-based crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Bollen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Long</surname></persName>
+		</author>
+		<title level="a">Tests for Structural Equation Models: Introduction</title>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Methods and Research</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="123" to="131" />
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Borst</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ferguson</surname></persName>
+		</author>
+		<title level="a">From friendfunding to crowdfunding: Relevance of relationships, social media, and platform activities to crowdfunding performance</title>
+	</analytic>
+	<monogr>
+		<title level="j">New Media &amp; Society</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="9" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>U</forename><surname>Bretschneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Leimeister</surname></persName>
+		</author>
+		<title level="a">Not just an ego-trip: Exploring backers’ motivation for funding in incentive-based crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Strategic Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="246" to="260" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Burtch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Ghose</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wattal</surname></persName>
+		</author>
+		<title level="a">An Empirical Examination of the Antecedents and Consequences of Contribution Patterns in Crowd-Funded Markets</title>
+	</analytic>
+	<monogr>
+		<title level="j">Information Systems Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="499" to="519" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Butticè</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Colombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wright</surname></persName>
+		</author>
+		<title level="a">Serial Crowdfunding, Social Capital, and Project Success</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="207" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Shavelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Muthén</surname></persName>
+		</author>
+		<title level="a">Testing for the equivalence of factor covariance and mean structures: The issue of partial measurement invariance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="456" to="466" />
+			<date when="1989">1989</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bonacci</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Shelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Exline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Bushman</surname></persName>
+		</author>
+		<title level="a">Psychological entitlement: Interpersonal consequences and validation of a self-report measure</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality Assessment</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="45" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Casaló</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Flavián</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Guinalíu</surname></persName>
+		</author>
+		<title level="a">Determinants of the intention to participate in firm-hosted online travel communities and effects on consumer behavioral intentions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Tourism Management</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="898" to="911" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Petrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Wardell</surname></persName>
+		</author>
+		<title level="a">Fundraising through online social networks: A field experiment on peer-to-peer solicitation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="29" to="35" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">What happens if we compare chopsticks with forks? The impact of making inappropriate comparisons in cross-cultural research</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1005" to="1018" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><forename type="last">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><forename type="last">O</forename><surname>Lee</surname></persName>
+		</author>
+		<title level="a">What drives consumers to spread electronic word of mouth in online consumer-opinion platforms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Support Systems</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="218" to="225" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><forename type="last">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>To</surname></persName>
+		</author>
+		<title level="a">Service co-creation in social media: An extension of the theory of planned behavior</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="260" to="266" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><forename type="last">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>To</surname></persName>
+		</author>
+		<title level="a">The influence of the propensity to trust on mobile users&apos; attitudes toward in-app advertisements: An extension of the theory of planned behavior</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="102" to="111" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">A cross-cultural comparative analysis of crowdfunding projects in the United States and South Korea</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="312" to="320" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Cholakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Clarysse</surname></persName>
+		</author>
+		<title level="a">Does the Possibility to Make Equity Investments in Crowdfunding Projects Crowd Out Reward–Based Investments?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="145" to="172" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Cochran</surname></persName>
+		</author>
+		<title level="m">Sampling techniques</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York, NY</pubPlace>
+			<date when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note>3rd ed.</note>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Colombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Franzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Rossi–lamastra</surname></persName>
+		</author>
+		<title level="a">Internal Social Capital and the Attraction of Early Contributions in Crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="100" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Conway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lance</surname></persName>
+		</author>
+		<title level="a">What Reviewers Should Expect from Authors Regarding Common Method Bias in Organizational Research</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business and Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="325" to="334" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Thorpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Ishizaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chakhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Meech</surname></persName>
+		</author>
+		<title level="a">Being seen to care: The relationship between self-presentation and contributions to online pro-social crowdfunding campaigns</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Cumming</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Johan</surname></persName>
+		</author>
+		<title level="a">Demand-driven securities regulation: evidence from crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Venture Capital</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="361" to="379" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b36">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Daskalakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Yue</surname></persName>
+		</author>
+		<title level="a">User's Perceptions of Motivations and Risks in Crowdfunding with Financial Returns</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b37">
+	<monogr>
+		
+		<author>
+			<persName><forename>D</forename><surname>Dillman</surname></persName>
+		</author>
+		<title level="m">Mail and internet surveys, the tailored designed method</title>
+		<imprint>
+			<date when="2006">2006</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Dushnitsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Guerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Piva</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Rossi-Lamastra</surname></persName>
+		</author>
+		<title level="a">Crowdfunding in Europe: Determinants of Platform Creation across Countries</title>
+	</analytic>
+	<monogr>
+		<title level="j">California Management Review</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="44" to="71" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b39">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<title level="m">Common method variance techniques</title>
+		<imprint>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Farrell</surname></persName>
+		</author>
+		<title level="a">Talk is cheap</title>
+	</analytic>
+	<monogr>
+		<title level="j">The American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="190" />
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Feller</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Gleasure</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Treacy</surname></persName>
+		</author>
+		<title level="a">Information Sharing and User Behavior in Internet-enabled Peer-to-peer Lending Systems: An Empirical Study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Information Technology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="146" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b42">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Fishbein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Ajzen</surname></persName>
+		</author>
+		<title level="m">Belief, attitude, intention, and behavior: An introduction to theory and research</title>
+		<imprint>
+			<date when="1975">1975</date>
+			<publisher>Addison-Wesley</publisher>
+			<pubPlace>Reading, MA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Fornell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Larcker</surname></persName>
+		</author>
+		<title level="a">Structural Equation Models with Unobservable Variables and Measurement Error: Algebra and Statistics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="382" to="388" />
+			<date when="1981">1981</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Meier</surname></persName>
+		</author>
+		<title level="a">Social Comparisons and Pro-social Behavior: Testing “Conditional Cooperation” in a Field Experiment</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1717" to="1722" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Frydrych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Kinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Koeck</surname></persName>
+		</author>
+		<title level="a">Exploring entrepreneurial legitimacy in reward-based crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Venture Capital</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="247" to="269" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>J-R</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P-H</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-W</forename><surname>Hsu</surname></persName>
+		</author>
+		<title level="a">Understanding why consumers engage in electronic word-of-mouth communication: Perspectives from theory of planned behavior and justice theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Commerce Research and Applications</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="616" to="630" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b47">
+	<monogr>
+		
+		<author>
+			<persName><forename>O</forename><surname>Gajda</surname></persName>
+		</author>
+		<title level="a">Review of crowdfunding regulation 2017: Interpretations of existing regulation concerning crowdfunding in Europe, North America and Israel</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<publisher>European Crowdfunding Network</publisher>
+			<pubPlace>Brussels</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="technical-report" xml:id="b48">
+	<monogr>
+		
+		<author>
+			<persName><forename>K</forename><surname>Garvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H-Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Buckingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Ralston</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Katiforis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">The 2nd Asia Pacific Region Alternative Finance Industry Report</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<publisher>Cambridge Centre for Alternative Finance.</publisher>
+			<pubPlace>Cambridge, UK</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>George</surname></persName>
+		</author>
+		<title level="a">The theory of planned behavior and Internet purchasing</title>
+	</analytic>
+	<monogr>
+		<title level="j">Internet Research</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="198" to="212" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Hui</surname></persName>
+		</author>
+		<title level="a">Crowdfunding: Motivations and deterrents for participation</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Computer-Human Interaction</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Gopi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Ramayah</surname></persName>
+		</author>
+		<title level="a">Applicability of theory of planned behavior in predicting intention to trade online: Some evidence from a developing country</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Emerging Markets</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="348" to="360" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Grandón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Nasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Mykytyn</surname></persName>
+		</author>
+		<title level="a">Comparing theories to explain e-commerce adoption</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="292" to="298" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Gunawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K-H</forename><surname>Huarng</surname></persName>
+		</author>
+		<title level="a">Viral effects of social network and media on consumers’ purchase intention</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2237" to="2241" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b54">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><forename type="last">J</forename><surname>Hair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Babin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+		<title level="m">Multivariate data analysis</title>
+		<imprint>
+			<publisher>Pearson</publisher>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>7th ed.</note>
+</bibl>
+
+<bibl type="article" xml:id="b55">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Heminway</surname></persName>
+		</author>
+		<title level="a">Investor and market protection in the crowdfunding era: Disclosing to and for the 'crowd'</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vermont Law Review</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="827" to="847" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Hobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Grigore</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Molesworth</surname></persName>
+		</author>
+		<title level="a">Success in the management of crowdfunding projects in the creative industries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Internet Research</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="146" to="166" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b57">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Homans</surname></persName>
+		</author>
+		<title level="a">Social Behavior as Exchange</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="597" to="606" />
+			<date when="1958">1958</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b58">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Hooghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Marien</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>De Vroome</surname></persName>
+		</author>
+		<title level="a">The cognitive basis of trust. The relation between education, cognitive ability, and generalized and political trust</title>
+	</analytic>
+	<monogr>
+		<title level="j">Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="604" to="613" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b59">
+	<analytic>
+		
+		<author>
+			<persName><forename>C-L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C-C</forename><surname>Lin</surname></persName>
+		</author>
+		<title level="a">Acceptance of blog usage: The roles of technology acceptance, social influence and knowledge sharing motivation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Information &amp; Management</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="74" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="60">
+	<analytic>
+		
+		<author>
+			<persName><forename>M-H</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-M</forename><surname>Chiu</surname></persName>
+		</author>
+		<title level="a">Internet self-efficacy and electronic service acceptance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Support Systems</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="369" to="381" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b61">
+	<analytic>
+		
+		<author>
+			<persName><forename>M-H</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-H</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-M</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-M</forename><surname>Chang</surname></persName>
+		</author>
+		<title level="a">A longitudinal investigation of continued online shopping behavior: An extension of the theory of planned behavior</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Human-Computer Studies</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="889" to="904" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b62">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">t</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bentler</surname></persName>
+		</author>
+		<title level="a">Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives</title>
+	</analytic>
+	<monogr>
+		<title level="j">Structural Equation Modeling: A Multidisciplinary Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="55" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b63">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Josefy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Albert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fitza</surname></persName>
+		</author>
+		<title level="a">The Role of Community in Crowdfunding Success: Evidence on Cultural Attributes in Funding Campaigns to 'Save the Local Theater'</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="182" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b64">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Zheng</surname></persName>
+		</author>
+		<title level="a">Understanding the determinants of funders’ investment intentions on crowdfunding platforms: A trust-based perspective</title>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial Management &amp; Data Systems</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1800" to="1819" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b65">
+	<monogr>
+		
+		<author>
+			<persName><forename>K</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Marom</surname></persName>
+		</author>
+		<title level="m">The crowdfunding revolution: How to raise venture capital using social media</title>
+		<imprint>
+			<date when="2012">2012</date>
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b66">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<title level="a">Understanding the behavioural intention to play online games: An extension of the theory of planned behaviour</title>
+	</analytic>
+	<monogr>
+		<title level="j">Online Information Review</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="849" to="872" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b67">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Lehner</surname></persName>
+		</author>
+		<title level="a">The formation and interplay of social capital in crowdfunded social ventures</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship &amp; Regional Development</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5/6</biblScope>
+			<biblScope unit="page" from="478" to="499" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b68">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><forename type="last">Y</forename><surname>Chung</surname></persName>
+		</author>
+		<title level="a">The impact of word-of-mouth communication on attribute evaluation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="18" to="23" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b69">
+	<analytic>
+	
+		<author>
+			<persName><forename>A</forename><surname>Lukkarinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Teich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Wallenius</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wallenius</surname></persName>
+		</author>
+			<title level="a">Success drivers of online equity crowdfunding campaigns</title>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Support Systems</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="26" to="38" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b70">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Lukkarinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wallenius</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Seppälä</surname></persName>
+		</author>
+		<title level="m">Investor Motivations and Decision Criteria in Equity Crowdfunding</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b71">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Macht</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Weatherston</surname></persName>
+		</author>
+		<title level="a">Academic research on crowdfunders: What's been done and what's to come?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Change</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="191" to="205" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b72">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Manes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Tchetchik</surname></persName>
+		</author>
+		<title level="a">The role of electronic word of mouth in reducing information asymmetry: An empirical investigation of online hotel booking</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="185" to="196" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b73">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Manning</surname></persName>
+		</author>
+		<title level="a">The effects of subjective norms on behaviour in the theory of planned behaviour: A meta-analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="649" to="705" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b74">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S R</forename><surname>Manstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><forename type="last">M</forename><surname>Eekelen</surname></persName>
+		</author>
+		<title level="a">Distinguishing Between Perceived Behavioral Control and Self-Efficacy in the Domain of Academic Achievement Intentions and Behaviors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="1375" to="1392" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b75">
+	<analytic>
+		<title level="a">How should crowdfunding research evolve? A survey of the Entrepreneurship Theory and Practice editorial board</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Mckenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ketchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Ireland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="291" to="304" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b76">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Meer</surname></persName>
+		</author>
+		<title level="a">Brother, can you spare a dime? Peer pressure in charitable solicitation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="926" to="941" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b77">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Mollick</surname></persName>
+		</author>
+		<title level="a">The dynamics of crowdfunding: An exploratory study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b78">
+	<monogr>
+		<title level="m">After the Campaign: Outcomes of Crowdfunding</title>
+		<author>
+			<persName><forename>E</forename><surname>Mollick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Kuppuswamy</surname></persName>
+		</author>
+
+		<imprint>
+			<date when="2014">2014</date>
+			<publisher>UNC Kenan-Flagler Research.</publisher>
+			<pubPlace>Chapel Hill, NC</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b79">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Nahapiet</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Ghoshal</surname></persName>
+		</author>
+		<title level="a">Social Capital, Intellectual Capital, and the Organizational Advantage</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Academy of Management Review</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="242" to="266" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b80">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Niemand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Angerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Thies</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Hebenstreit</surname></persName>
+		</author>
+		<title level="a">Equity crowdfunding across borders: a conjoint experiment</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Entrepreneurial Behavior &amp; Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="911" to="932" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b81">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Nucciarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Goumagias</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Cabras</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Kudenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename>PetPer</forename><surname>Cowling</surname></persName>
+		</author>
+		<title level="a">From value chains to technological platforms: The effects of crowdfunding in the digital game industry</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="341" to="352" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b82">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Ordanini</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Miceli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Pizzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Parasuraman</surname></persName>
+		</author>
+		<title level="a">Crowd‐funding: transforming customers into investors through innovative service platforms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Service Management</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="443" to="470" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b83">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pavlou</surname></persName>
+		</author>
+		<title level="a">Consumer Acceptance of Electronic Commerce: Integrating Trust and Risk with the Technology Acceptance Model</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Electronic Commerce</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="101" to="134" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b84">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Podsakoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Podsakoff</surname></persName>
+		</author>
+		<title level="a">Common method biases in behavioral research: A critical review of the literature and recommended remedies</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Psychology</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="879" to="903" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b85">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Renwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Mossialos</surname></persName>
+		</author>
+		<title level="a">Crowdfunding our health: Economic risks and benefits</title>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="48" to="56" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b86">
+	<analytic>
+		<title level="a">Lavaan: An R package for structural equation modeling and more. Version 0.5–12 (BETA)</title>
+		<author>
+			<persName><forename>Y</forename><surname>Rosseel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="3" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b87">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y-G</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">A typology of crowdfunding sponsors: Birds of a feather flock together?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Commerce Research and Applications</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="43" to="54" />
+			<date when="2016">2016</date>
+
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b88">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Schlenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Leary</surname></persName>
+		</author>
+		<title level="a">Audiences' reactions to self-enhancing, self-denigrating, and accurate self-presentations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="89" to="104" />
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b89">
+	<monogr>
+		
+		<author>
+			<persName><forename>U</forename><surname>Sekaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Bougie</surname></persName>
+		</author>
+		<title level="m">Research methods for business: A skill building approach</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>Chichester, West Sussex, UK</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b90">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Sheeran</surname></persName>
+		</author>
+		<title level="a">Intention—Behavior Relations: A Conceptual and Empirical Review</title>
+	</analytic>
+	<monogr>
+		<title level="j">European Review of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="36" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b91">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="first">Y</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Fang</surname></persName>
+		</author>
+		<title level="a">The use of a decomposed theory of planned behavior to study Internet banking in Taiwan</title>
+	</analytic>
+	<monogr>
+		<title level="j">Internet Research</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="213" to="223" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b92">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Shneor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B-T</forename><surname>Flåten</surname></persName>
+		</author>
+		<title level="a">Opportunities for Entrepreneurial Development and Growth through Online Communities, Collaboration, and Value Creating and Co-Creating Activities</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Kaufmann</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><forename type="last">R</forename><surname>Shams</surname></persName>
+		</editor>
+		<title level="m">Entrepreneurial Challenges in the 21st Century</title>
+		<imprint>
+			<publisher>Palgrave Macmillan UK</publisher>
+			<pubPlace>Basingstoke</pubPlace>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="178" to="199" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b93">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Shneor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Jenssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Vissak</surname></persName>
+		</author>
+		<title level="a">Introduction to the special issue: Current challenges and future prospects of entrepreneurship in Nordic and Baltic Europe</title>
+	</analytic>
+	<monogr>
+		<title level="j">Baltic Journal of Management</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="134" to="141" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b94">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ketchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>McKenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Ireland</surname></persName>
+		</author>
+		<title level="a">Research on crowdfunding: Reviewing the (very recent) past and celebrating the present</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="149" to="160" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b95">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Skirnevskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bendig</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Brettel</surname></persName>
+		</author>
+		<title level="a">The influence of internal social capital on serial creators&apos; success in crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="236" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b96">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Leary</surname></persName>
+		</author>
+		<title level="a">The theory of planned behaviour: The effects of perceived behavioural control and self-efficacy</title>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="199" to="220" />
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b97">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Vandenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lance</surname></persName>
+		</author>
+		<title level="a">A review and synthesis of the measurement invariance literature: Suggestions, practices, and recommendations for organizational research</title>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="70" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b98">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Venkatesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Davis</surname></persName>
+		</author>
+		<title level="a">A theoretical extension of the technology acceptance model: Four longitudinal field studies</title>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="204" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b99">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Configurational paths to sponsor satisfaction in crowdfunding</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="915" to="927" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b100">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+		<title level="a">Exploring the effect of e-WOM participation on e-loyalty in e-commerce</title>
+	</analytic>
+	<monogr>
+		<title level="j">EDecision Support Systems</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="669" to="678" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b101">
+	<analytic>
+		
+		<author>
+			<persName><forename>Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P-C</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Determinants of backers' funding intention in crowdfunding: Social exchange theory and regulatory focus</title>
+	</analytic>
+	<monogr>
+		<title level="j">Telematics and Informatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="370" to="384" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="technical-report" xml:id="b102">
+	<monogr>
+		<author>
+			<persName><forename>T</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Reedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kroszner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Garvey</surname></persName>
+		</author>
+		<title level="m">The 2nd Americas alternative finance industry report</title>
+		
+		<imprint>
+			<publisher>Cambridge Centre for Alternative Finance</publisher>
+			<pubPlace>Cambridge, UK</pubPlace>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="technical-report" xml:id="b103">
+	<monogr>
+		<author>
+			<persName><forename>T</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Shneor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Garvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Wenzlaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Yerolemou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Hao</surname></persName>
+		</author>
+		<title level="m">Expanding horizons: The 3rd European alternative finance industry report</title>
+		<imprint>
+			<publisher>Cambridge Centre for Alternative Finance</publisher>
+			<pubPlace>Cambridge, UK</pubPlace>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

@@ -1,0 +1,909 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Califf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Krucoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Laks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Sommargren</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Swiryn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Van Hare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="2721" to="2746" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>E</forename><surname>Scurati-Manzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Fossali</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Agostoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Riva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Simonetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Zanolari-Calderari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Bianchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A G</forename><surname>Lava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1015" to="1023" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Heikenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Jajack</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Gutruf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Khine</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="217" to="248" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>A</forename><surname>Mclister</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="5732" to="5737" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bandodkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Jeerapan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Sensors</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="464" to="482" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Haick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1705024</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>A</forename><surname>Cadogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Lewenstam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Ivaska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="2496" to="2501" />
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Bobacka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="4932" to="4937" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>M</forename><surname>Cuartero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Crespo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Electrochem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="98" to="106" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Janata</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Josowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Vanýsek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Devaney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="179" to="208" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>M</forename><surname>Bamsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Berinstain</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="13349" to="13392" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">U</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Bühlmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="7111" to="7118" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Niu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="60" to="63" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Macho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Rius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="1316" to="1322" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Macho</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Bobacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Rius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="676" to="681" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>P</forename><surname>Yáñez-Sedeño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pingarrón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Riu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Rius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">TrAC Trends Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="939" to="953" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>M</forename><surname>López-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Bernal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Moyá</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>López-Cornejo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="31" to="34" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Niu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Analyst</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="618" to="623" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>O'neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Fouskaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Kounaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Chaniotakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="51" to="54" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Ying</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1529" to="1532" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>M</forename><surname>Novell</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Parrilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Crespo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Rius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Andrade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="4695" to="4702" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>J</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Qin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="13033" to="13037" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Glavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Subramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><forename type="last">D</forename><surname>Nunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Thuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Whitesides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="60" to="70" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Niu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green Chem</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="2142" to="2146" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>A</forename><surname>Michalska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Hulanicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Lewenstam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Analyst</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="2417" to="2420" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>R</forename><surname>Zielińska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Mulik</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Michalska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Achmatowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Maj-Żurawska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">451</biblScope>
+			<biblScope unit="page" from="243" to="249" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>A</forename><surname>Kisiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kijewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Maksymiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Michalska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electroanalysis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>K</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Leng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Gallop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Novoselov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5197</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Ricciardulli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Lohe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Squillaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Samorì</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Müllen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="6669" to="6675" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>A</forename><surname>Konopka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Sokalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Michalska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Lewenstam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Maj-Zurawska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="6410" to="6418" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

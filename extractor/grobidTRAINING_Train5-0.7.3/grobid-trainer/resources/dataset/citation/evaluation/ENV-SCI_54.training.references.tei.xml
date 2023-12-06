@@ -1,0 +1,1891 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Artioli</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Acuto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McArthur</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">The water-energy-food nexus: An integration agenda and implications for urban governance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Political Geography</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="215" to="223" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="book" xml:id="b1">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Baccini</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brunner</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="m">Metabolism of the Anthroposhpere: Analysis, evaluation, design</title>
+			<imprint>
+				<publisher>The MIT Press</publisher>
+				<pubPlace>Cambridge</pubPlace>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b2">
+		<monogr>
+			<author>BiPRO/CRI</author>
+			<title level="m">Assessment of separate collection schemes in the 28 capitals of the EU</title>
+			<imprint>
+				<publisher>European Commission</publisher>
+				<pubPlace>Brussels</pubPlace>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bossuyt</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Savini</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Urban sustainability and political parties: Eco-development in Stockholm and Amsterdam. Environment and Planning C</title>
+		</analytic>
+		<monogr>
+			<title level="j">Politics and Space</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">36</biblScope>
+				<biblScope unit="page" from="1006" to="1026" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b4">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Boyer</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="m">Théorie de la régulation: 1. Les fondamentaux</title>
+			<imprint>
+				<publisher>La découverte</publisher>
+				<pubPlace>Paris</pubPlace>
+				<date when="2004">2004</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Boyer</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Marx’s legacy, régulation theory and contemporary capitalism</title>
+		</analytic>
+		<monogr>
+			<title level="j">Review of Political Economy</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="1" to="33" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b6">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Buclet</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Godard</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<title level="m">Municipal waste management in Europe: A comparative study in building regimes</title>
+			<imprint>
+				<publisher>Springer Science &amp; Business Media</publisher>
+				<pubPlace>Berlin</pubPlace>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bulkeley</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watson</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hudson</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Modes of governing municipal waste</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environment and Planning A</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="2733" to="2753" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Caprotti</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Eco-urbanism and the eco-city, or, denying the right to the city?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Antipode</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">46</biblScope>
+				<biblScope unit="page" from="1285" to="1303" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b9">
+		<monogr>
+			<author>CBS</author>
+			<author>PBL</author>
+			<author>RIVM</author>
+			<author>WUR</author>
+			<title level="m">Afvalproductie en wijze van verwerking, 1985–2014</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b10">
+		<monogr>
+			<author>Cities Foundation</author>
+			<title level="m">Wasted: Approaches to circular city making</title>
+			<imprint>
+				<publisher>TrancityValiz</publisher>
+				<pubPlace>Amsterdam</pubPlace>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cooper</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">War on waste?: The politics of waste and recycling in post-war Britain, 1950–1975</title>
+		</analytic>
+		<monogr>
+			<title level="j">Capitalism Nature Socialism</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="53" to="72" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>D’Alisa</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Armiero</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">What happened to the trash? Political miracles and real statistics in an emergency regime</title>
+		</analytic>
+		<monogr>
+			<title level="j">Capitalism Nature Socialism</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="29" to="45" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Davoudi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Planning for waste management: Changing discourses and institutional relationships</title>
+		</analytic>
+		<monogr>
+			<title level="j">Progress in Planning</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">53</biblScope>
+				<biblScope unit="page" from="165" to="216" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Davoudi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sturzaker</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Urban form, policy packaging and sustainable urban metabolism</title>
+		</analytic>
+		<monogr>
+			<title level="j">Resources, Conservation and Recycling</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">120</biblScope>
+				<biblScope unit="page" from="55" to="64" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b15">
+		<monogr>
+			<author>Dutch Government</author>
+			<title level="m">Klimaatakkord - Draft</title>
+			<imprint>
+				<publisher>Rijksoverheid</publisher>
+				<pubPlace>The Hague</pubPlace>
+				<date when="2019">2019</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b16">
+		<monogr>
+			<author>EC</author>
+			<title level="m">Study on the review of the list of critical raw materials critical raw materials factsheets</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b17">
+		<monogr>
+			<author>EC</author>
+			<title level="m">Report on critical raw materials and the circular economy</title>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b18">
+		<monogr>
+			<author>Ellen Macarthur Foundation</author>
+			<title level="m">Towards the circular economy, economic and business rationale for accelerated transition</title>
+			<imprint>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b19">
+		<monogr>
+			<author>Ellen Macarthur Foundation</author>
+			<title level="m">Why the circular economy matters. Delivering the Circular Economy: A Toolkit for Policymakers</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b20">
+		<monogr>
+			<author>Eurocities</author>
+			<title level="m">Full circle: cities and circular economy</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Frow</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Invidious distinction: Waste, difference, and classy stuff</title>
+		</analytic>
+		<monogr>
+			<title level="m">Culture and waste: The creation and destruction of value</title>
+			<editor>
+				<persName>
+					<surname>Hawkins</surname>
+					<forename>G</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Muecke</surname>
+					<forename>S</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Rowman &amp; Littlefiel</publisher>
+				<pubPlace>Oxford</pubPlace>
+				<date when="2003">2003</date>
+				<biblScope unit="page" from="25" to="38" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gandy</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Rethinking urban metabolism: Water, space and the modern city</title>
+		</analytic>
+		<monogr>
+			<title level="j">City</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="363" to="379" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b23">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Ganzevles</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Potting</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hanemaaijer</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="m">Evaluatie Green Deals circulaire economie</title>
+			<ref target="https://www.pbl.nl/publicaties/evaluatie-green-deals-circulaire-economie">https://www.pbl.nl/publicaties/evaluatie-green-deals-circulaire-economie</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Geissdoerfer</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Savaget</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bocken</surname>
+					<forename type="first">N</forename><forename type="middle">M</forename><forename type="last">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hultink</surname>
+					<forename type="first">E</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">The circular economy: A new sustainability paradigm?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Cleaner Production</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">143</biblScope>
+				<biblScope unit="page" from="757" to="768" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ghisellini</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cialani</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ulgiati</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">A review on circular economy: The expected transition to a balanced interplay of environmental and economic systems</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Cleaner Production</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">114</biblScope>
+				<biblScope unit="page" from="11" to="32" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gidwani</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reddy</surname>
+					<forename type="first">R</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<title level="a">The afterlives of “waste”: Notes from India for a minor history of capitalist surplus</title>
+		</analytic>
+		<monogr>
+			<title level="j">Antipode</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="1625" to="1658" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gille</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Actor networks, modes of production, and waste regimes: Reassembling the macro-social</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environment and Planning A</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="1049" to="1064" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b28">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Girardet</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="m">Creating regenerative cities</title>
+			<imprint>
+				<publisher>Routledge</publisher>
+				<pubPlace>London</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="book" xml:id="b29">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Graham</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marvin</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="m">Splintering urbanism</title>
+			<imprint>
+				<publisher>Routledge</publisher>
+				<pubPlace>London</pubPlace>
+				<date when="2001">2001</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gregson</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Crang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">From waste to resource: The trade in wastes and global recycling economies</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annual Review of Environment and Resources</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="151" to="176" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gregson</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Crang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fuller</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holmes</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Interrogating the circular economy: The moral economy of resource recovery in the EU</title>
+		</analytic>
+		<monogr>
+			<title level="j">Economy and Society</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">44</biblScope>
+				<biblScope unit="page" from="218" to="243" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b32">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Harvey</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Marx, capital, and the madness of economic Reason</title>
+			<imprint>
+				<publisher>Oxford University Press</publisher>
+				<pubPlace>Oxford</pubPlace>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b33">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Hesse</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">The city as a terminal: The urban context of logistics and freight transport</title>
+			<imprint>
+				<publisher>Ashgate</publisher>
+				<pubPlace>Aldershot</pubPlace>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hobson</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Closing the loop or squaring the circle? Locating generative spaces for the circular economy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Progress in Human Geography</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="88" to="104" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hobson</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lynch</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Diversifying and de-growing the circular economy: Radical social transformation in a resource-scarce world</title>
+		</analytic>
+		<monogr>
+			<title level="j">Futures</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">82</biblScope>
+				<biblScope unit="page" from="15" to="25" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hult</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bradley</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Planning for sharing – Providing infrastructure for citizens to be makers and sharers</title>
+		</analytic>
+		<monogr>
+			<title level="j">Planning Theory &amp; Practice</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="597" to="615" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Humphreys</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grayson</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">The intersecting roles of consumer and producer: A critical perspective on co-production, co-creation and prosumption</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sociology Compass</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="963" to="980" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b38">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Jackson</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="m">Material concerns: Pollution, profit and the quality of life</title>
+			<imprint>
+				<publisher>Routledge</publisher>
+				<pubPlace>London</pubPlace>
+				<date when="1996">1996</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b39">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Jacobs</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">The economy of cities</title>
+			<imprint>
+				<publisher>Random House</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="1969">1969</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jessop</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Survey article: The regulation approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Political Philosophy</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="287" to="326" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jessop</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brenner</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Theorizing sociospatial relations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environment and planning D, Society and Space</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="389" to="389" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaika</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Swyngedouw</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Fetishizing the modern city: The phantasmagoria of urban technological networks</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Urban and Regional Research</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="120" to="138" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b43">
+		<monogr>
+			<author>
+				<persName>
+					<surname>van Koophandel</surname>
+					<forename>Kamer</forename>
+				</persName>
+			</author>
+			<title level="m">Logistieke Monitor Regionale Benchmark 1e kwartaal 2014</title>
+			<imprint>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kennedy</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pincetl</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bunje</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">The study of urban metabolism and its applications to urban planning and design</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Pollution</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">159</biblScope>
+				<biblScope unit="page" from="1965" to="1973" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b45">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Lacy</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rutqvist</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Waste to wealth: The circular economy advantage</title>
+			<imprint>
+				<publisher>Palgrave Macmillan</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b46">
+		<monogr>
+			<title level="m">Global garbage: Urban imaginaries of waste, excess, and abandonment</title>
+			<editor>
+				<persName>
+					<surname>Lindner</surname>
+					<forename>C</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Meissner</surname>
+					<forename>M</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Routledge</publisher>
+				<pubPlace>Oxon</pubPlace>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b47">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Lyle</surname>
+					<forename type="first">J</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="m">Regenerative design for sustainable development</title>
+			<imprint>
+				<publisher>Wiley</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="1996">1996</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Machin</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Changing the story? The discourse of ecological modernisation in the European Union</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Politics</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="208" to="227" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Massarutto</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Municipal waste management as a local utility: Options for competition in an environmentally-regulated industry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Utilities Policy</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="9" to="19" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mathews</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Naturalizing capitalism: The next Great Transformation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Futures</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="868" to="879" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b51">
+		<monogr>
+			<author>
+				<persName>
+					<surname>McDonough</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braungart</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">Cradle to cradle: Remaking the way We make Things</title>
+			<imprint>
+				<publisher>North Point Press</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b52">
+		<monogr>
+			<author>Ministry of Infrastructure and Environment</author>
+			<title level="m">Meer waarde uit afval, note to the Parliament</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b53">
+		<monogr>
+			<author>Ministry of Infrastructure and Environment</author>
+			<title level="m">Landlijk Afvalbeheerplan 2</title>
+			<imprint>
+				<publisher>Rijksoverheid</publisher>
+				<pubPlace>The Hague</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl  type="manual" xml:id="b54">
+		<monogr>
+			<author>Ministry of Infrastructure and Environment</author>
+			<title level="m">Netherlands Circulair in 2050</title>
+			<imprint>
+				<publisher>Rijksoverheid</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl  type="manual" xml:id="b55">
+		<monogr>
+			<author>Ministry of Infrastructure and Environment</author>
+			<title level="m">Landlijk Afvalbeheerplan 3</title>
+			<imprint>
+				<publisher>Rijksoverheid</publisher>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="newspaper" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Morozov</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Making it: Pick up a spot welder and join the revolution</title>
+		</analytic>
+		<monogr>
+			<title level="j">The New Yorker</title>
+			<imprint>
+				<date when="2014-01-01">2014, January 1</date>
+			</imprint>
+			<ref target="www.newyorker.com/magazine/2014/01/13/making-it-2">www.newyorker.com/magazine/2014/01/13/making-it-2</ref>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="manual" xml:id="b57">
+		<monogr>
+			<author>Municipality of Amsterdam</author>
+			<title level="m">Towards the Amsterdam Circular Economy</title>
+			<imprint>
+				<date when="2014">2014a</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b58">
+		<monogr>
+			<author>Municipality of Amsterdam</author>
+			<title level="m">De circulaire metropool Amsterdam 2014-2018</title>
+			<imprint>
+				<date when="2014">2014b</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b59">
+		<monogr>
+			<author>Municipality of Amsterdam</author>
+			<title level="m">Amsterdamse Ambachtseconomie 2010-2014</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl  type="manual" xml:id="b60">
+		<monogr>
+			<author>Municipality of Amsterdam</author>
+			<title level="m">Circular Amsterdam</title>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl  type="manual" xml:id="b61">
+		<monogr>
+			<author>Municipality of Amsterdam</author>
+			<title level="m">Roadmap Circulaire Gronduitgifte</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b62">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Murray</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Skene</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Haynes</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">The circular economy: An interdisciplinary exploration of the concept and application in a global context</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Business Ethics</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">140</biblScope>
+				<biblScope unit="page" from="369" to="380" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b63">
+		<monogr>
+			<author>OECD</author>
+			<title level="m">Competition in local services: Solid waste management</title>
+			<imprint>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b64">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Pauli</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="m">Upcycling</title>
+			<imprint>
+				<publisher>Riemann Verlag</publisher>
+				<pubPlace>Munich</pubPlace>
+				<date when="1999">1999</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b65">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pollans</surname>
+					<forename type="first">L</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Trapped in trash: “modes of governing”and barriers to transitioning to sustainable waste management</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environment and Planning A</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="2300" to="2323" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b66">
+		<monogr>
+			<author>Port of Amsterdam</author>
+			<title level="m">Visie 2030: Port of Amsterdam, Port of Partnerships</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b67">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Prendeville</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cherim</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bocken</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Circular cities: Mapping six cities in transition</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Innovation and Societal Transitions</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="171" to="194" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b68">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ranta</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aarikka-Stenroos</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ritala</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mäkinen</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Exploring institutional drivers and barriers of the circular economy: A cross-regional comparison of China, the US, and Europe</title>
+		</analytic>
+		<monogr>
+			<title level="j">Resources, Conservation and Recycling</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+		<note>Online First</note>
+	</bibl>
+	
+	<bibl type="book" xml:id="b69">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Raworth</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="m">Doughnut economics: Seven ways to think like a 21st-century economist</title>
+			<imprint>
+				<publisher>Chelsea Green Publishing</publisher>
+				<pubPlace>Vermont</pubPlace>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b70">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Reike</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vermeulen</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename><forename type="last">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Witjes</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">The circular economy: New or Refurbished as CE 3.0?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Resources, Conservation and Recycling</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Online First</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b71">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ritzer</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">The “McDonaldization” of society</title>
+		</analytic>
+		<monogr>
+			<title level="j">The Journal of American Culture</title>
+			<imprint>
+				<date when="1983">1983</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="100" to="107" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b72">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ritzer</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dean</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jurgenson</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">The coming of age of the prosumer</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Behavioral Scientist</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">56</biblScope>
+				<biblScope unit="page" from="379" to="398" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b73">
+		<monogr>
+			<author>RIVM</author>
+			<title level="m">Evaluation of From Waste to Resources (VANG) programme 2014–2016</title>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b74">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Savini</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dembski</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Manufacturing the creative city: Symbols and politics of Amsterdam North</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cities</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="139" to="147" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl  type="online-database" xml:id="b75">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Savini</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Habdank</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="m">A database of circular economy policies and projects: Europe (A) and initial exploration worldwide (B</title>
+			<imprint>
+				<publisher>University of Amsterdam</publisher>
+				<pubPlace>Amsterdam</pubPlace>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b76">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Schmidt</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>2.-0 Consultants</author>
+			<title level="m">25-year forecasts of the cumulated physical stocks, waste generation, and environmental impacts for each scenario for EU-27 and for the case study countries</title>
+			<imprint>
+				<date when="2009">2009</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b77">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Seyring</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dollhofer</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weißenbacher</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bakas</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McKinnon</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Assessment of collection schemes for packaging and other recyclable waste in European Union-28 Member states and capital cities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Waste Management &amp; Research</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="947" to="956" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b78">
+		<monogr>
+			<author>Taskforce Biomas and Food</author>
+			<title level="m">Transition agenda circular Economa</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b79">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Urbinati</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chiaroni</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chiesa</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Towards a new taxonomy of circular economy business models</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Cleaner Production</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">168</biblScope>
+				<biblScope unit="page" from="487" to="498" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b80">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Valenzuela</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Böhm</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Against wasted politics: A critique of the circular economy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ephemera</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="23" to="60" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b81">
+		<analytic>
+			<author>
+				<persName>
+					<surname>van Buren</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Demmers</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>van der Heijden</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Witlox</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Towards a circular economy: The role of Dutch logistics industries and governments</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sustainability</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="647" to="647" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b82">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Van Wee</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Banister</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Annema</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Geurs</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Transport and the environment</title>
+		</analytic>
+		<monogr>
+			<title level="m">The transport system and transport policy: An Introduction</title>
+			<editor>
+				<persName>
+					<surname>Wee</surname>
+					<forename>B</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Annema</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Banister</surname>
+					<forename>D</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Edward Elgar</publisher>
+				<pubPlace>Cheltenham</pubPlace>
+				<date when="2013">2013</date>
+				<biblScope unit="page" from="227" to="253" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b83">
+		<analytic>
+			<author>
+				<persName>
+					<surname>While</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gibbs</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">The environment and the entrepreneurial city: Searching for the urban “sustainability fix” in Manchester and Leeds</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Urban and Regional Research</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="549" to="569" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b84">
+		<analytic>
+			<author>
+				<persName>
+					<surname>While</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gibbs</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">From sustainable development to carbon control: Eco-state restructuring and the politics of urban and regional development</title>
+		</analytic>
+		<monogr>
+			<title level="j">Transactions of the Institute of British Geographers</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="76" to="93" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b85">
+		<analytic>
+			<author>
+				<persName>
+					<surname>While</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jonas</surname>
+					<forename type="first">A</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gibbs</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">The environment and the entrepreneurial city: Searching for the urban ‘sustainability fix’in Manchester and Leeds</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Urban and Regional Research</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="549" to="569" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b86">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Circular cities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Urban Studies</title>
+			<imprint>
+				<date when="2019">2019</date>
+			</imprint>
+			<note>Online First</note>
+		</monogr>
+	</bibl>
+	
+	</listBibl>
+	</back>
+	</text>
+</TEI>

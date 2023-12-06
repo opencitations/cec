@@ -1,0 +1,652 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="proceeding" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Allen</surname>
+					<forename type="first">R</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pereira</surname>
+					<forename type="first">L</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raes</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">FAO irrigation and drainage paper no. 56</title>
+		</analytic>
+		<monogr>
+			<title level="m">Rome: Food and Agriculture Organization of the United Nations</title>
+			<imprint>
+				<date when="1998">1998</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bertrand</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roux</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Forey</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guinet</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wery</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Simulating plant water stress dynamics in a wide range of bi-specific agrosystems in a region using the BISWAT model</title>
+		</analytic>
+		<monogr>
+			<title level="j">European Journal of Agronomy</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">99</biblScope>
+				<biblScope unit="page" from="116" to="128" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheviron</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vervoort</surname>
+					<forename type="first">R</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Albasha</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dairon</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Le Priol</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mailhol</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">A framework to use crop models for multi-objective constrained op- timization of irrigation strategies</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Modelling &amp; Software</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="145" to="157" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Faulwasser</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Korda</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bonvin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">On turnpike and disspativity properties of continuous-time optimal control problems</title>
+		</analytic>
+		<monogr>
+			<title level="j">Automatica</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">81</biblScope>
+				<biblScope unit="page" from="297" to="304" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hartl</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Feichtinger</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">A new sufficient condition for most rapid approach paths</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Optimization Theory and Applications</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">54</biblScope>
+				<biblScope unit="page" from="402" to="411" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="series" xml:id="b5">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Hermes</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lasalle</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Functional analysis and time optimal control</title>
+			<imprint>
+				<publisher>Elsevier</publisher>
+				<date when="1969">1969</date>
+			</imprint>
+		</monogr>
+		<series>
+			<title level="s">Mathematics in Science and Engineering</title>
+			<biblScope unit="volume">56</biblScope>
+		</series>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Adeloye</surname>
+					<forename type="first">A</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Optimization of irrigation schedul- ing for spring wheat based on simulation-optimization model under uncertainty</title>
+		</analytic>
+		<monogr>
+			<title level="j">Agricultural Water Management</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">208</biblScope>
+				<biblScope unit="page" from="245" to="260" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cournède</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mailhol</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Irrigation optimization by modeling of plant-soil interaction</title>
+		</analytic>
+		<monogr>
+			<title level="m">2011 Proceedings of the Conference on Applied Simula- tion and Modelling</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miele</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Extremization of linear integrals by green’s theorem</title>
+		</analytic>
+		<monogr>
+			<title level="m">Optimization Techniques</title>
+			<editor>
+				<persName>
+					<surname>Leitmann</surname>
+					<forename>G</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Academic Press</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="1962">1962</date>
+				<biblScope unit="page" from="69" to="98" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pelak</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Revellia</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Porporato</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">A dynamical systems framework for crop models: Toward optimal fertilization and irrigation strategies under climatic variability</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ecological Modelling</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">365</biblScope>
+				<biblScope unit="page" from="80" to="92" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ramanathan</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cournede</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Optimal control of crop irrigation based on the Hamilton-Jacobi-Bellman equation</title>
+		</analytic>
+		<monogr>
+			<title level="m">2013 Proceedings of the Conference on Control and its Applications</title>
+			<imprint>
+				<publisher>SIAM</publisher>
+				<date when="2013">2013</date>
+				<biblScope unit="page" from="21" to="28" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rapaport</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cartigny</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Turnpike theorems by a value function approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">ESAIM Control, Optimizationa and Calculus of variations</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="123" to="141" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Saseendran</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahuja</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nielsen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trout</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Use of crop simulation models to evaluate limited irrigation management options for corn in a semiarid environment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resources Research</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">44</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shani</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tsur</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zemel</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Optimal dynamic irrigation schemes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Optimal Control Applications and Methods</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="91" to="106" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Steduto</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hsiao</surname>
+					<forename type="first">T</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raes</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fereres</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Aquacrop - the FAO crop model to simulate yield response to water: I. concepts and underlying principles</title>
+		</analytic>
+		<monogr>
+			<title level="j">Agronomy Journal</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">101</biblScope>
+				<biblScope unit="page" from="426" to="437" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Trélat</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zuazua</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">The turnpike property in finite-dimensional nonlinear optimal control</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Differential Equations</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">258</biblScope>
+				<biblScope unit="page" from="81" to="114" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Vico</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Porporato</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Probabilistic description of crop development and irrigation water requirements with stochastic rainfall</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resources Research</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="1466" to="1482" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Walter</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="m">Ordinary differential equations</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="1998">1998</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Optimization of irrigation scheduling for spring wheat with mulching and limited irrigation water in an arid climate</title>
+		</analytic>
+		<monogr>
+			<title level="j">Agricultural Water Management</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">192</biblScope>
+				<biblScope unit="page" from="33" to="44" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

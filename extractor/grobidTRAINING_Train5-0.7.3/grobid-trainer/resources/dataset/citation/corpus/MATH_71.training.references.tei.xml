@@ -1,0 +1,1256 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+			<bibl type="webpage" xml:id="b0">
+				<monogr>
+					<ref target="https://commons.wikimedia.org/wiki/User:Splette-Thomas Splettstoesser, https://www.scistyle.com">https://commons.wikimedia.org/wiki/User:Splette-Thomas Splettstoesser, https://www.scistyle.com./</ref>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b1">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">B</forename>
+							<surname>Gilbert</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">W</forename>
+							<surname>Mckeague</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Eisen</surname>
+						</persName>
+					</author>
+					<title level="a">Comparison of HIV-1 and HIV-2 infectivity from a prospective cohort study in Senegal</title>
+				</analytic>
+				<monogr>
+					<title level="j">Statistics in Medicine</title>
+					<imprint>
+						<biblScope unit="volume">22</biblScope>
+						<biblScope unit="issue">4</biblScope>
+						<biblScope unit="page" from="573" to="593" />
+						<date when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b2">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">W</forename>
+							<surname>Doms</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Reeves</surname>
+						</persName>
+					</author>
+					<title level="a">Human immunodeficiency virus type 2</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of General Virology</title>
+					<imprint>
+						<biblScope unit="volume">83</biblScope>
+						<biblScope unit="issue">6</biblScope>
+						<biblScope unit="page" from="1253" to="1265" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b3">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">S</forename>
+							<surname>Perelson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">E</forename>
+							<surname>Kirschner</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">D</forename>
+							<surname>Boer</surname>
+						</persName>
+					</author>
+					<title level="a">Dynamics of HIV infection of CD4+ T cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical Biosciences</title>
+					<imprint>
+						<biblScope unit="volume">114</biblScope>
+						<biblScope unit="issue">1</biblScope>
+						<biblScope unit="page" from="81" to="125" />
+						<date when="1993">1993</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b4">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">P</forename>
+							<surname>Duffin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">H</forename>
+							<surname>Tullis</surname>
+						</persName>
+					</author>
+					<title level="a">Mathematical Models of the Complete Course of HIV Infection and AIDS</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of Theoretical Medicine</title>
+					<imprint>
+						<biblScope unit="volume">4</biblScope>
+						<biblScope unit="issue">4</biblScope>
+						<biblScope unit="page" from="215" to="221" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b5">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">V</forename>
+							<surname>Culshaw</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Ruan</surname>
+						</persName>
+					</author>
+					<title level="a">A delay-differential equation model of HIV infection of CD4+ T-cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical Biosciences</title>
+					<imprint>
+						<biblScope unit="volume">165</biblScope>
+						<biblScope unit="issue">1</biblScope>
+						<biblScope unit="page" from="27" to="39" />
+						<date when="2000">2000</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b6">
+				<analytic>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Kirschner</surname>
+						</persName>
+					</author>
+					<title level="a">Using mathematics to understand HIV immune dynamics</title>
+				</analytic>
+				<monogr>
+					<title level="j">Notices</title>
+					<imprint>
+						<biblScope unit="volume">43</biblScope>
+						<biblScope unit="issue">2</biblScope>
+						<biblScope unit="page" from="191" to="202" />
+						<date when="1996">1996</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b7">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">S</forename>
+							<surname>Perelson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">W</forename>
+							<surname>Nelson</surname>
+						</persName>
+					</author>
+					<title level="a" >Mathematical Analysis of HIV-1 Dynamics in Vivo</title>
+				</analytic>
+				<monogr>
+					<title level="j">SIAM Review</title>
+					<imprint>
+						<biblScope unit="volume">41</biblScope>
+						<biblScope unit="issue">1</biblScope>
+						<biblScope unit="page" from="3" to="44" />
+						<date when="1999">1999</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b8">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">W</forename>
+							<surname>Nelson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">S</forename>
+							<surname>Perelson</surname>
+						</persName>
+					</author>
+					<title level="a">Mathematical analysis of delay differential equation models of HIV-1 infection</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical Biosciences</title>
+					<imprint>
+						<biblScope unit="volume">179</biblScope>
+						<biblScope unit="issue">1</biblScope>
+						<biblScope unit="page" from="73" to="94" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b9">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">O</forename>
+							<forename type="middle">M</forename>
+							<surname>Ogunlaran</surname>
+						</persName>
+						
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">C</forename>
+							<forename type="last">O</forename>
+							<surname>Noutchie</surname>
+						</persName>
+					</author>
+					<title level="a">Mathematical Model for an Effective Management of HIV Infection</title>
+				</analytic>
+				<monogr>
+					<title level="j">BioMed Research International</title>
+					<imprint>
+						<biblScope unit="volume">2016</biblScope>
+						<biblScope unit="page" from="1" to="6" />
+						<date when="2016">2016</date>
+					</imprint>
+				</monogr>
+				<note>Article ID 4217548</note>
+			</bibl>
+
+			<bibl type="article" xml:id="b10">
+				<analytic>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Mora</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Serzanti</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Consiglio</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Memo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Dell’era</surname>
+						</persName>
+					</author>
+					<title level="a">Clinical potentials of human pluripotent stem cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cell Biology and Toxicology</title>
+					<imprint>
+						<biblScope unit="volume">33</biblScope>
+						<biblScope unit="issue">4</biblScope>
+						<biblScope unit="page" from="351" to="360" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b11">
+				<analytic>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Nishio</surname>
+						</persName>
+					</author>
+					<title level="a">Human pluripotent stem cells: Towards therapeutic development for the treatment of lifestyle diseases</title>
+				</analytic>
+				<monogr>
+					<title level="j">World Journal of Stem Cells</title>
+					<imprint>
+						<biblScope unit="volume">8</biblScope>
+						<biblScope unit="issue">2</biblScope>
+						<biblScope unit="page">56</biblScope>
+						<date when="2016">2016</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b12">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Li</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Xie</surname>
+						</persName>
+					</author>
+					<title level="a">Stem cell niche: Structure and Function</title>
+				</analytic>
+				<monogr>
+					<title level="j">Annual Review of Cell and Developmental Biology</title>
+					<imprint>
+						<biblScope unit="volume">21</biblScope>
+						<biblScope unit="page" from="605" to="631" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b13">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">A</forename>
+							<surname>Thomson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Itskovitz-Eldor</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">S</forename>
+							<surname>Shapiro</surname>
+						</persName>
+					</author>
+					<title level="a">Embryonic Stem Cell Lines Derived from Human Blastocysts</title>
+				</analytic>
+				<monogr>
+					<title level="j">Science</title>
+					<imprint>
+						<biblScope unit="volume">282</biblScope>
+						<biblScope unit="issue">5391</biblScope>
+						<biblScope unit="page" from="1145" to="1147" />
+						<date when="1998">1998</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b14">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">M</forename>
+							<surname>Hoffman</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">K</forename>
+							<surname>Carpenter</surname>
+						</persName>
+					</author>
+					<title level="a">Characterization and culture of human embryonic stem cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nature Biotechnology</title>
+					<imprint>
+						<biblScope unit="volume">23</biblScope>
+						<biblScope unit="issue">6</biblScope>
+						<biblScope unit="page" from="699" to="708" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b15">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">K</forename>
+							<surname>Nguyen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Nag</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<title level="a">Methods to assess stem cell lineage, fate and function</title>
+				</analytic>
+				<monogr>
+					<title level="j">Advanced Drug Delivery Reviews</title>
+					<imprint>
+						<biblScope unit="volume">62</biblScope>
+						<biblScope unit="issue">12</biblScope>
+						<biblScope unit="page" from="1175" to="1186" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b16">
+				<analytic>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Hernigou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Beaujean</surname>
+						</persName>
+					</author>
+					<title level="a">Treatment of Osteonecrosis With Autologous Bone Marrow Grafting</title>
+				</analytic>
+				<monogr>
+					<title level="j">Clinical Orthopaedics and Related Research</title>
+					<imprint>
+						<biblScope unit="volume">405</biblScope>
+						<biblScope unit="page" from="14" to="23" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b17">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">M</forename>
+							<surname>Bonab</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Alimoghaddam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Talebian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">H</forename>
+							<surname>Ghaffari</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Ghavamzadeh</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Nikbin</surname>
+						</persName>
+					</author>
+					<title level="a">Aging of mesenchymal stem cell in vitro</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMC Cell Biology</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="issue">14</biblScope>
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b18">
+				<analytic>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Loeffler</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">E</forename>
+							<surname>Wichmann</surname>
+						</persName>
+					</author>
+					<title level="a">A comprehensive mathematical model of stem cell proliferation which reproduces most of the published experimental results</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cell Proliferation</title>
+					<imprint>
+						<biblScope unit="volume">13</biblScope>
+						<biblScope unit="issue">5</biblScope>
+						<biblScope unit="page" from="543" to="561" />
+						<date when="1980">1980</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b19">
+				<analytic>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Cowan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">V</forename>
+							<forename type="middle">B</forename>
+							<surname>Morris</surname>
+						</persName>
+					</author>
+					<title level="a">Determination of proliferative parameters from growth curves</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cell Proliferation</title>
+					<imprint>
+						<biblScope unit="volume">20</biblScope>
+						<biblScope unit="issue">2</biblScope>
+						<biblScope unit="page" from="153" to="159" />
+						<date when="1987">1987</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b20">
+				<analytic>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Körbling</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Estrov</surname>
+						</persName>
+					</author>
+					<title level="a" >Adult Stem Cells for Tissue Repair — A New Therapeutic Concept?</title>
+				</analytic>
+				<monogr>
+					<title level="j">The New England Journal of Medicine</title>
+					<imprint>
+						<biblScope unit="volume">349</biblScope>
+						<biblScope unit="issue">6</biblScope>
+						<biblScope unit="page" from="570" to="582" />
+						<date when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			<bibl type="article" xml:id="b21">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">L</forename>
+							<forename type="middle">M</forename>
+							<forename type="last">A</forename>
+							<surname>Beeres</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">M</forename>
+							<surname>Bengel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Bartunek</surname>
+						</persName>
+					</author>
+					<title level="a">Role of Imaging in Cardiac Stem Cell Therapy</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of the American College of Cardiology</title>
+					<imprint>
+						<biblScope unit="volume">49</biblScope>
+						<biblScope unit="issue">11</biblScope>
+						<biblScope unit="page" from="1137" to="1148" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b22">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">Y</forename>
+							<surname>Chen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Sundaresan</surname>
+						</persName>
+					</author>
+					<title level="a">Molecular Imaging of Cardiac Cell Transplantation in Living Animals Using Optical Bioluminescence and Positron Emission Tomography</title>
+				</analytic>
+				<monogr>
+					<title level="j">Circulation</title>
+					<imprint>
+						<biblScope unit="volume">108</biblScope>
+						<biblScope unit="issue">11</biblScope>
+						<biblScope unit="page" from="1302" to="1305" />
+						<date when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b23">
+				<analytic>
+					<author>
+						<persName>
+							<forename>O</forename>
+							<surname>Lindvall</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Kokaia</surname>
+						</persName>
+					</author>
+					<title level="a">Review stem cells for the treatment of neurological disorders</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nature</title>
+					<imprint>
+						<biblScope unit="volume">441</biblScope>
+						<biblScope unit="issue">7097</biblScope>
+						<biblScope unit="page" from="1094" to="1096" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b24">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">U</forename>
+							<surname>Kim</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">H</forename>
+							<surname>Park</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">H</forename>
+							<surname>Kim</surname>
+						</persName>
+					</author>
+					<title level="a">Brain transplantation of human neural stem cells transduced with tyrosine hydroxylase and GTP cyclohydrolase 1 provides functional improvement in animal models of Parkinson disease</title>
+				</analytic>
+				<monogr>
+					<title level="j">Neuropathology</title>
+					<imprint>
+						<biblScope unit="volume">26</biblScope>
+						<biblScope unit="issue">2</biblScope>
+						<biblScope unit="page" from="129" to="140" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b25">
+				<analytic>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Hagell</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Brundin</surname>
+						</persName>
+					</author>
+					<title level="a">Cell Survival and Clinical Outcome Following Intrastriatal Transplantation in Parkinson Disease</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of Neuropathology and Experimental Neurology</title>
+					<imprint>
+						<biblScope unit="volume">60</biblScope>
+						<biblScope unit="issue">8</biblScope>
+						<biblScope unit="page" from="741" to="752" />
+						<date when="2001">2001</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b26">
+				<analytic>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Chakrabarty</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Shetty</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Ghosh</surname>
+						</persName>
+					</author>
+					<title level="a">Corneal cell therapy: with iPSCs, it is no more a far-sight</title>
+				</analytic>
+				<monogr>
+					<title level="j">Stem Cell Research and Therapy</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="issue">287</biblScope>
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b27">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">E</forename>
+							<surname>Couri</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">C</forename>
+							<surname>Oliveira</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">B</forename>
+							<surname>Stracieri</surname>
+						</persName>
+					</author>
+					<title level="a">C-Peptide Levels and Insulin Independence Following Autologous Nonmyeloablative Hematopoietic Stem Cell Transplantation in Newly Diagnosed Type 1 Diabetes Mellitus</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of the American Medical Association</title>
+					<imprint>
+						<biblScope unit="volume">301</biblScope>
+						<biblScope unit="issue">15</biblScope>
+						<biblScope unit="page" from="1573" to="1579" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b28">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">A</forename>
+							<surname>D'amour</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">G</forename>
+							<surname>Bang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Eliazer</surname>
+						</persName>
+					</author>
+					<title level="a">Production of pancreatic hormone–expressing endocrine cells from human embryonic stem cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nature Biotechnology</title>
+					<imprint>
+						<biblScope unit="volume">24</biblScope>
+						<biblScope unit="issue">11</biblScope>
+						<biblScope unit="page" from="1392" to="1401" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b29">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Stiehl</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Marciniak-Czochra</surname>
+						</persName>
+					</author>
+					<title level="a">Characterization of stem cells using mathematical models of multistage cell lineages</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical and Computer Modelling</title>
+					<imprint>
+						<biblScope unit="volume">53</biblScope>
+						<biblScope unit="issue">7-8</biblScope>
+						<biblScope unit="page" from="1505" to="1517" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b30">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">A</forename>
+							<surname>Alqudah</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">A</forename>
+							<surname>Kallel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Zarea</surname>
+						</persName>
+					</author>
+					<title level="a">Stability of a modified mathematical model of AIDS epidemic can stem cells offer a new hope of cure for HIV1?</title>
+				</analytic>
+				<monogr>
+					<title level="j">Life Science Journal</title>
+					<imprint>
+						<biblScope unit="volume">13</biblScope>
+						<biblScope unit="issue">11</biblScope>
+						<date when="2016">2016</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b31">
+				<analytic>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">Y</forename>
+							<surname>Kwon</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Rattis</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Blum</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Zhao</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Ashkenazi</surname>
+						</persName>
+					</author>
+					<title level="a">Imaging Hematopoietic Precursor Division in Real Time</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cell Stem Cell</title>
+					<imprint>
+						<biblScope unit="volume">1</biblScope>
+						<biblScope unit="issue">5</biblScope>
+						<biblScope unit="page" from="541" to="554" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b32">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">D</forename>
+							<surname>Johnston</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Edwards</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">F</forename>
+							<surname>Bodmer</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">K</forename>
+							<surname>Maini</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">J</forename>
+							<surname>Chapman</surname>
+						</persName>
+					</author>
+					<title level="a">Examples of Mathematical Modeling</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cell Cycle</title>
+					<imprint>
+						<biblScope unit="volume">6</biblScope>
+						<biblScope unit="issue">17</biblScope>
+						<biblScope unit="page" from="2106" to="2112" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b33">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Stiehl</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Marciniak-Czochra</surname>
+						</persName>
+					</author>
+					<title level="a">Mathematical Modeling of Leukemogenesis and Cancer Stem Cell Dynamics</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical Modelling of Natural Phenomena</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="issue">1</biblScope>
+						<biblScope unit="page" from="166" to="202" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b34">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Marciniak-Czochra</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Stiehl</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">D</forename>
+							<surname>Ho</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Jäger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Wagner</surname>
+						</persName>
+					</author>
+					<title level="a">Modeling of Asymmetric Cell Division in Hematopoietic Stem Cells—Regulation of Self-Renewal Is Essential for Efficient Repopulation</title>
+				</analytic>
+				<monogr>
+					<title level="j">Stem Cells and Development</title>
+					<imprint>
+						<biblScope unit="volume">18</biblScope>
+						<biblScope unit="issue">3</biblScope>
+						<biblScope unit="page" from="377" to="386" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b35">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">R</forename>
+							<surname>Paździorek</surname>
+						</persName>
+					</author>
+					<title level="a">Mathematical Model of Stem Cell Differentiation and Tissue Regeneration with Stochastic Noise</title>
+				</analytic>
+				<monogr>
+					<title level="j">Bulletin of Mathematical Biology</title>
+					<imprint>
+						<biblScope unit="volume">76</biblScope>
+						<biblScope unit="issue">7</biblScope>
+						<biblScope unit="page" from="1642" to="1669" />
+						<date when="2014">2014</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b36">
+				<analytic>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Naresh</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Tripathi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Sharma</surname>
+						</persName>
+					</author>
+					<title level="a">A nonlinear AIDS epidemic model with screening and time delay</title>
+				</analytic>
+				<monogr>
+					<title level="j">Applied Mathematics and Computation</title>
+					<imprint>
+						<biblScope unit="volume">217</biblScope>
+						<biblScope unit="issue">9</biblScope>
+						<biblScope unit="page" from="4416" to="4426" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b37">
+				<analytic>
+					<author>
+						<persName>
+							<forename>Y</forename>
+							<surname>Ding</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Ye</surname>
+						</persName>
+					</author>
+					<title level="a">A fractional-order differential equation model of HIV infection of CD4+ T-cells</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mathematical and Computer Modelling</title>
+					<imprint>
+						<biblScope unit="volume">50</biblScope>
+						<biblScope unit="issue">3-4</biblScope>
+						<biblScope unit="page" from="386" to="392" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b38">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">A</forename>
+							<surname>Arafa</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">Z</forename>
+							<surname>Rida</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Khalil</surname>
+						</persName>
+					</author>
+					<title level="a">A fractional-order model of HIV infection with drug therapy effect</title>
+				</analytic>
+				<monogr>
+					<title level="j">Journal of the Egyptian Mathematical Society</title>
+					<imprint>
+						<biblScope unit="volume">22</biblScope>
+						<biblScope unit="issue">3</biblScope>
+						<biblScope unit="page" from="538" to="543" />
+						<date when="2014">2014</date>
+					</imprint>
+				</monogr>
+			</bibl>
+		</listBibl>
+	</back>
+	</text>
+</TEI>

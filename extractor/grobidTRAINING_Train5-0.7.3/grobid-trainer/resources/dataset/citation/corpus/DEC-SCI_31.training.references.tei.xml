@@ -1,0 +1,1209 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Andradottir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">Fully sequential procedures for comparing constrained systems via simulation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nav Res Logist</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="403" to="421" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Bader</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Zitzler</surname></persName>
+		</author>
+		<title level="a">Hype: an algorithm for fast hypervolume-based many-objective optimization</title>
+	</analytic>
+	<monogr>
+		<title level="j">Evol Comput</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="76" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Beume</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Naujoks</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Emmerich</surname></persName>
+		</author>
+		<title level="a">SMS-EMOA: multiobjective selection based on dominated hypervolume</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1663" to="1669" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b3">
+	<analytic>
+		<title level="a">F-race and iterated f-race: an overview</title>
+		<author>
+			<persName><forename>M</forename><surname>Birattari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Balaprakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Stützle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Experimental methods for the analysis of optimization algorithms</title>
+		<editor>
+			<persName><forename>T</forename><surname>Bartz-Beielstein</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>M</forename><surname>Chiarandini</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>L</forename><surname>Paquete</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>M</forename><surname>Preuss</surname></persName>
+		</editor>
+		<imprint>
+			<date when="2010">2010</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+			<biblScope unit="page" from="311" to="336" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schmidt</surname></persName>
+		</author>
+		<title level="a">Selecting a selection procedure</title>
+	</analytic>
+	<monogr>
+		<title level="j">Manag Sci</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1916" to="1932" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schmidt</surname></persName>
+		</author>
+		<title level="a">New developments in ranking and selection: an empirical comparison of the three main approaches</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2005">2005</date>
+			<biblScope unit="page" from="708" to="717" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Gamer</surname></persName>
+		</author>
+		<title level="a">Efficient sampling in interactive multi-criteria selection</title>
+	</analytic>
+	<monogr>
+		<title level="m">INFORMS simulation society research workshop</title>
+		<imprint>
+			<date when="2007">2007</date>
+			<biblScope unit="page" from="42" to="46" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">A new myopic sequential sampling algorithm for multi-objective problems</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="3589" to="3598" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Tao</surname></persName>
+		</author>
+		<title level="a">Multiobjective ranking and selection based on hypervolume</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2016">2016</date>
+			<biblScope unit="page" from="859" to="870" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Morrice</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mullarkey</surname></persName>
+		</author>
+		<title level="a">A multiple attribute utility theory approach to ranking and selection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Manag Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="800" to="816" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Chau</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Ryzhov</surname></persName>
+		</author>
+		<title level="a">Simulation optimization: a tutorial overview and recent developments in gradient-based methods</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2014">2014</date>
+			<biblScope unit="page" from="21" to="35" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">A lower bound for the correct subset-selection probability and its application to discreteevent system simulations</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Autom Control</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">81</biblScope>
+			<biblScope unit="page" from="1227" to="1231" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<title level="m">Stochastic simulation optimization: an optimal computing budget allocation</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>World Scientific</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Inoue</surname></persName>
+		</author>
+		<title level="a">New two-stage and sequential procedures for selecting the best simulated system</title>
+	</analytic>
+	<monogr>
+		<title level="j">Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="732" to="743" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wu</surname></persName>
+		</author>
+		<title level="a">Selection procedures with frequentist expected opportunity cost bounds</title>
+	</analytic>
+	<monogr>
+		<title level="j">Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="867" to="878" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Branke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schmidt</surname></persName>
+		</author>
+		<title level="a">Sequential sampling to myopically maximize the expected value of information</title>
+	</analytic>
+	<monogr>
+		<title level="j">INFORMS J Comput</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="80" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename>M</forename><surname>Degroot</surname></persName>
+		</author>
+		<title level="m">Optimal statistical decisions</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<biblScope unit="volume">82</biblScope>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		<author>
+			<persName><forename>G</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="second">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<title level="a">Score allocations for bi-objective ranking and selection</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Model Comput Simul (TOMACS)</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Pasupathy</surname></persName>
+		</author>
+		<title level="a">Multi-objective simulation optimization on finite sets: optimal allocation via scalarization</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="3610" to="3621" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Frazier</surname></persName>
+		</author>
+		<title level="a">A fully sequential elimination procedure for indifference-zone ranking and selection with tight bounds on probability of correct selection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="926" to="942" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Dayanik</surname></persName>
+		</author>
+		<title level="a">A knowledge-gradient policy for sequential information collection</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM J Control Optim</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2410" to="2439" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kazachkov</surname></persName>
+		</author>
+		<title level="a">Guessing preferences: A new approach to multi-attribute ranking and selection</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2011">2011</date>
+			<biblScope unit="page" from="4319" to="4331" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Xiong</surname></persName>
+		</author>
+		<title level="a">Simulation allocation for determining the best design in the presence of correlated sampling</title>
+	</analytic>
+	<monogr>
+		<title level="j">INFORMS J Comput</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="101" to="111" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Shi</surname></persName>
+		</author>
+		<title level="a">Some topics for simulation optimization</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2008">2008</date>
+			<biblScope unit="page" from="27" to="38" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b24">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Gittins</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Glazebrook</surname></persName>
+		</author>
+		<title level="m">Multi-armed bandit allocation indices</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>York He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">The opportunity cost and ocba selection procedures in ordinal optimization for a fixed number of alternative systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Syst Man Cybern Part C Appl Rev</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="951" to="961" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Feldman</surname></persName>
+		</author>
+		<title level="a" >Optimal sampling laws for bi-objective simulation optimization on finite sets</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<date when="2015">2015</date>
+			<publisher>IEEE</publisher>
+			<biblScope unit="page" from="3749" to="3757" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Pasupathy</surname></persName>
+		</author>
+		<title level="a">Optimal sampling laws for stochastically constrained simulation optimization on finite sets</title>
+	</analytic>
+	<monogr>
+		<title level="j">INFORMS J Comput</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="527" to="542" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Applegate</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Rincon-Guevara</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Vivas-Valencia</surname></persName>
+		</author>
+		<title level="a">An introduction to multiobjective simulation optimization</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Model Comput Simul</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7:1" to="7:36" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b29">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Keeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Raiffa</surname></persName>
+		</author>
+		<title level="m">Decisions with multiple objectives: preferences and value trade-offs</title>
+		<imprint>
+			<date when="1993">1993</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Nelson</surname></persName>
+		</author>
+		<title level="a">Chapter 17 Selecting the best system</title>
+	</analytic>
+	<monogr>
+		<title level="m">Handbooks in operations research and management science</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Henderson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Nelson</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date when="2006">2006</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="501" to="534" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Chew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Teng</surname></persName>
+		</author>
+		<title level="a">Finding the Pareto set for multi-objective simulation models by minimization of expected opportunity cost</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<date when="2007">2007</date>
+			<biblScope unit="page" from="513" to="521" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Chew</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Teng</surname></persName>
+		</author>
+		<title level="a">Computing budget allocation rules for multi-objective simulation models based on different measures of selection quality</title>
+	</analytic>
+	<monogr>
+		<title level="j">Automatica</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1935" to="1950" />
+			<date when="2010a">2010a</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Chew</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Goldsman</surname></persName>
+		</author>
+		<title level="a">Finding the non-dominated pareto set for multi-objective simulation models</title>
+	</analytic>
+	<monogr>
+		<title level="j">IIE Trans</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="656" to="674" />
+			<date when="2010b">2010b</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Nelson</surname></persName>
+		</author>
+		<title level="a">Computational improvements in bootstrap ranking &amp; selection procedures via multiple comparison with the best</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="3758" to="3767" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Mattila</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Virtanen</surname></persName>
+		</author>
+		<title level="a">Ranking and selection for multiple performance measures using incomplete preference information</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="568" to="579" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Morrice</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Butler</surname></persName>
+		</author>
+		<title level="a">Ranking and selection with multiple targets</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2006">2006</date>
+			<biblScope unit="page" from="222" to="230" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Morrice</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mullarkey</surname></persName>
+		</author>
+		<title level="a">An approach to ranking and selection for multiple performance measures</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<date when="1998">1998</date>
+			<biblScope unit="page" from="719" to="726" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">Handling stochastic constraints in discrete optimization via simulation</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<date when="2011">2011</date>
+			<biblScope unit="page" from="4217" to="4226" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Pasupathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Pujowidianto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Stochastically constrained ranking and selection via SCORE</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Model Comput Simul</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Pujowidianto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Pasupathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Closed-form sampling laws for stochastically constrained simulation optimization on large finite sets</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2012">2012</date>
+			<biblScope unit="page" from="1" to="10" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Ryzhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Frazier</surname></persName>
+		</author>
+		<title level="a">The knowledge gradient algorithm for a general class of online learning problems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="180" to="195" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Shahriari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Swersky</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>De Freitas</surname></persName>
+		</author>
+		<title level="a">Taking the human out of the loop: a review of bayesian optimization</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc IEEE</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="148" to="175" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Chew</surname></persName>
+		</author>
+		<title level="a">Integration of indifference-zone with multi-objective OCBA</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Oper Res</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page" from="419" to="429" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Sequential probability ratio testing for multiple-objective ranking and selection</title>
+	</analytic>
+	<monogr>
+		<title level="m">Winter simulation conference</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date when="2017">2017</date>
+			<biblScope unit="page" from="1998" to="2009" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Georgiopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Anagnostopoulos</surname></persName>
+		</author>
+		<title level="a">Pareto-optimal model selection via SPRINT-race</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Cybern</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="596" to="610" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Georgiopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Anagnostopoulos</surname></persName>
+		</author>
+		<title level="a">S-race: a multi-objective racing algorithm</title>
+	</analytic>
+	<monogr>
+		<title level="m">Genetic and evolutionary computation conference</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date when="2013">2013</date>
+			<biblScope unit="page" from="1565" to="1572" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceding" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Georgiopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Anagnostopoulos</surname></persName>
+		</author>
+		<title level="a">Sprint multi-objective model racing</title>
+	</analytic>
+	<monogr>
+		<title level="m">Genetic and evolutionary computation conference</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="1383" to="1390" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Zitzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Thiele</surname></persName>
+		</author>
+		<title level="a">Multiobjective evolutionary algorithms: a comparative case study and the strength pareto approach</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Evol Comput</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="257" to="271" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Zitzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Laumanns</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Grunert</surname></persName>
+		</author>
+		<title level="a">Performance assessment of multiobjective optimizers: an analysis and review</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Evol Comput</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="132" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

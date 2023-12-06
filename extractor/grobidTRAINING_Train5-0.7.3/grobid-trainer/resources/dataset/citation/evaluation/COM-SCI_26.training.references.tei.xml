@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="technical-report" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Bradbury</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferris</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mullins</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Tagged memory and minion cores in the lowRISC SoC</title>
+			<imprint>
+				<year>2014</year>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>de Clercq</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Verbauwhede</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<title level="a">A survey of hardware-based control flow integrity (CFI)</title>
+		</analytic>
+		<monogr>
+			<title level="j">CoRR</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dhawan</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hritcu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rubin</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vasilakis</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chiricescu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Knight</surname>
+					<forename type="first">T</forename><forename type="middle">F</forename>
+					<genName>Jr</genName>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pierce</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>DeHon</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Architectural support for software-defined metadata processing</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. 20th Int. Conf. Archit. Support Program. Languages Operating Syst</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="page" from="487" to="502" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kuznetsov</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Szekeres</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Payer</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Candea</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sekar</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Code-pointer integrity</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. 11th USENIX Symp. Operating Syst. Des. Implementation</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="page" from="147" to="163" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liljestrand</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nyman</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Perez</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ekberg</surname>
+					<forename>J-E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Asokan</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">PAC it up: Towards pointer integrity using ARM pointer authentication</title>
+		</analytic>
+		<monogr>
+			<title level="j">CoRR</title>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nagarakatte</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martin</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zdancewic</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">WatchdogLite: Hardware-accelerated compiler-based pointer checking</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Annu. IEEE/ACM Int. Symp. Code Generation Optimization</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="page" from="175" to="184" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Necula</surname>
+					<forename type="first">G</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McPeak</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rahul</surname>
+					<forename type="first">S</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weimer</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">CIL: Intermediate language and tools for analysis and transformation of C programs</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Int. Conf. Compiler Construction</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="page" from="213" to="228" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Oleksenko</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuvaiskii</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhatotia</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Felber</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fetzer</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Intel MPX explained: An empirical study of Intel MPX and software-based bounds checking approaches</title>
+		</analytic>
+		<monogr>
+			<title level="j">CoRR</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moon</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alam</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yun</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paek</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">HDFI: Hardware-assisted data-flow isolation</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. IEEE Symp. Secur. Privacy</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="page" from="1" to="17" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b9">
+		<monogr>
+			<author>Synopsys</author>
+			<title level="m">ASIP designer</title>
+			<ref target="https://www.synopsys.com/dw/ipdir.php?ds=asip-designer">https://www.synopsys.com/dw/ipdir.php?ds=asip-designer</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Szekeres</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Payer</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wei</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">SoK: Eternal war in memory</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. IEEE Symp. Secur. Privacy</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="page" from="48" to="62" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wilander</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nikiforakis</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Younan</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kamkar</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Joosen</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">RIPE: Runtime intrusion prevention evaluator</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. 27th Annu. Comput. Secur. Appl. Conf.</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+
+	</back>
+	</text>
+</TEI>

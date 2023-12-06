@@ -1,0 +1,585 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Al-Shenqiti</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ibrahim</surname>
+					<forename type="first">M</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Exploring physical performance using basic fitness test among adolescent athletes</title>
+		</analytic>
+		<monogr>
+			<title level="j">IJHRS</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="1" to="12" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Emara</surname>
+					<forename type="first">H</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Awadallah</surname>
+					<forename type="first">M</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">Total assessment-reassessment &amp; evaluation using bioKinesiologic (TAREK) approach: case presentation for theoretical formulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Phys Ther Sci</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="439" to="442" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Post traumatic cervical anterolithesis: comprehensive evaluation and expert opinion</title>
+		</analytic>
+		<monogr>
+			<title level="j">JTUMS</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="479" to="482" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Khaled</surname>
+					<forename type="first">O</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ibrahim</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of proprioception cross training on repositioning accuracy and balance among healthy individuals</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Phys Ther Sci</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="3178" to="3182" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Teyhen</surname>
+					<forename type="first">D</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shaffer</surname>
+					<forename type="first">S</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lorenson</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">The functional movement screen: a reliability study</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Orthop Sports Phys Ther</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="530" to="540" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Al-Shenqiti</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ibrahim</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">The effect of hands position on balance timing during single-leg-standing test among healthy collegiate physical therapy students</title>
+		</analytic>
+		<monogr>
+			<title level="j">IJHRS</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="100" to="107" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nassar</surname>
+					<forename type="first">H</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Al-Shenqiti</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Static balance ability as an indication of static stability among healthy physical therapy students at Taibah University</title>
+		</analytic>
+		<monogr>
+			<title level="j">IJHRS</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="27" to="37" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jonsson</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seiger</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirschfeld</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">One-leg stance in healthy young and elderly adults: a measure of postural steadiness?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin Biomech (Bristol, Avon)</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="688" to="694" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miklitsch</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krewer</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Freivogel</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Effects of a predefined mini-trampoline training programme on balance, mobility and activities of daily living after stroke: a randomized controlled pilot study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin Rehabil</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="939" to="947" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gonzalo-Skok</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Serna</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rhea</surname>
+					<forename type="first">M</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Relationships between functional movement tests and performance tests in young elite male basketball players</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Sports Phys Ther</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="628" to="638" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Haskell</surname>
+					<forename type="first">W</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">I</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pate</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart Association</title>
+		</analytic>
+		<monogr>
+			<title level="j">Med Sci Sports Exerc</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="1423" to="1434" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Leyk</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Witzki</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Willi</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Even one is too much: Sole presence of one of the risk factors overweight, lack of exercise, and smoking reduces physical fitness of young soldiers</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Strength Cond Res</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="S199" to="S203" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zamunér</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moreno</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Camargo</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Assessment of subjective perceived exertion at the anaerobic threshold with the Borg CR-10 scale</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Sports Sci Med</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="130" to="136" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hellman</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ibrahim</surname>
+					<forename type="first">M</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Partial versus full range of back extension endurance testing using the Swiss ball in discogenic low back pain patients: a comparative study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur J Physiother</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="113" to="120" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abd Elkader</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Emara</surname>
+					<forename type="first">H</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Right versus left side bridge static endurance ability among healthy collegiate students at Taibah University</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Back Musculoskeletal Rehabil</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="231" to="237" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Romberg test is a good indicator to reflect the performance of functional outcome measures among elderly: a Saudi experience along with simple biomechanical analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">IJHRS</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="192" to="199" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tanabe</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fujii</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kouzaki</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Large postural fluctuations but unchanged postural sway dynamics during tiptoe standing compared to quiet standing</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Electromyogr Kinesiol</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="975" to="982" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Portney</surname>
+					<forename type="first">L</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watkins</surname>
+					<forename type="first">M</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="m">Foundations of clinical research. Application to practice</title>
+			<imprint>
+				<publisher>Prentice Hall</publisher>
+				<pubPlace>Upper Saddle River</pubPlace>
+				<date when="2009">2009</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>El-gohary</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abdelkader</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Deconditioning and functional- physical decline: clinical reasoning and clinical judgment using TAREK approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">IJHRS</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="63" to="68" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	</listBibl>
+	</back>
+	</text>
+</TEI>

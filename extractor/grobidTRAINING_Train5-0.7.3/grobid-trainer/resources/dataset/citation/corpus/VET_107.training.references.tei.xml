@@ -1,0 +1,738 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Lascelles</surname></persName>
+		</author>
+		<title level="a">Changes in thermal threshold response in eight cats after administration of buprenorphine, butorphanol and morphine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="462" to="465" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Pain management in catspast, present and future. Part 2. Treatment of pain -clinical pharmacology</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="321" to="333" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Lascelles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">PK-PD modeling of buprenorphine in cats: intravenous and oral transmucosal administration</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="453" to="460" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Pelligand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Giordano</surname></persName>
+		</author>
+		<title level="a">Pharmacokinetic and pharmacodynamic modelling of intravenous, intramuscular and subcutaneous buprenorphine in conscious cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Anaesth Analg</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="83" to="95" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kirby</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Robinson</surname></persName>
+		</author>
+		<title level="a">A prospective multicentre clinical trial to compare buprenorphine and butorphanol for postoperative analgesia in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="247" to="255" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Warne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Beths</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Holm</surname></persName>
+		</author>
+		<title level="a">Evaluation of the perioperative analgesic efficacy of buprenorphine, compared with butorphanol, in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Vet Med Assoc</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Wright</surname></persName>
+		</author>
+		<title level="a">Clinical pain management techniques for cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Tech Small Anim Pract</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Arnould</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Pinaud</surname></persName>
+		</author>
+		<title level="a">Pharmacology of buprenorphine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Fr Anesth Reanim</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="559" to="564" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Lutfy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Cowan</surname></persName>
+		</author>
+		<title level="a">Buprenorphine: a unique drug with complex pharmacology</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Neuropharmacol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="395" to="402" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Pypendop</surname></persName>
+		</author>
+		<title level="a">Antinociceptive effects of butorphanol, buprenorphine, or both, administered intramuscularly in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Vet Res</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="699" to="703" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Stanway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Brodbelt</surname></persName>
+		</author>
+		<title level="a">A preliminary investigation comparing pre-operative morphine and buprenorphine for postoperative analgesia and sedation in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Anaesth Analg</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="29" to="35" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Bortolami</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Slingsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Love</surname></persName>
+		</author>
+		<title level="a">Comparison of two formulations of buprenorphine in cats administered by the oral transmucosal route</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="534" to="539" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Pypendop</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Shilo-Benjamini</surname></persName>
+		</author>
+		<title level="a">Pharmacokinetics of buprenorphine following intravenous and buccal administration in cats, and effects on thermal threshold</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="252" to="259" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Sear</surname></persName>
+		</author>
+		<title level="a">Systemic uptake of buprenorphine by cats after oral mucosal administration</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="675" to="678" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Doodnaught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Benito</surname></persName>
+		</author>
+		<title level="a">Pharmacokinetic and pharmacodynamic modelling after subcutaneous, intravenous and buccal administration of a high-concentration formulation of buprenorphine in conscious cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">e0176443</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Sramek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Coleman</surname></persName>
+		</author>
+		<title level="a">The safety of high-dose buprenorphine administered subcutaneously in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="434" to="442" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Carnicelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Effects of subcutaneous methadone, morphine, buprenorphine or saline on thermal and pressure thresholds in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="531" to="537" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Luangdilok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Sear</surname></persName>
+		</author>
+		<title level="a">Pharmacokinetic and pharmacodynamic evaluation of high doses of buprenorphine delivered via high-concentration formulations in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="290" to="302" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Duke-Novakovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Ambros</surname></persName>
+		</author>
+		<title level="a">Plasma concentrations of buprenorphine after epidural administration in conscious cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Res Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="480" to="483" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Millette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Mantovani</surname></persName>
+		</author>
+		<title level="a">Antinociceptive effects of epidural buprenorphine or medetomidine, or the combination, in conscious cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="477" to="484" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Murrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Use of a transdermal matrix patch of buprenorphine in cats: preliminary pharmacokinetic and pharmacodynamic data</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="578" to="583" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Brewster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcleavy</surname></persName>
+		</author>
+		<title level="a">The systemic bioavailability of buprenorphine by various routes of administration</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharm Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="500" to="506" />
+			<date when="1981">1981</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Moolenaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>De Leede</surname></persName>
+		</author>
+		<title level="a">Rectal drug administration: clinical pharmacokinetic considerations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Pharmacokinet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="285" to="311" />
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Choonara</surname></persName>
+		</author>
+		<title level="a">Giving drugs per rectum for systemic effect</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dis Child</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="771" to="772" />
+			<date when="1987">1987</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><forename type="last">B</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Schug</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Krishnarajah</surname></persName>
+		</author>
+		<title level="a">The pharmacokinetics and local tolerability of a novel sublingual formulation of buprenorphine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="143" to="152" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Akatsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Otsuka</surname></persName>
+		</author>
+		<title level="a">The relief of postoperative pain by suppositories of buprenorphine or NSAID</title>
+	</analytic>
+	<monogr>
+		<title level="j">Masui</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="298" to="303" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Jansen</surname></persName>
+		</author>
+		<title level="a">Liquid chromatography-mass spectrometric analysis of buprenorphine and its N-dealkylated metabolite norbuprenorphine in rat brain tissue and plasma</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharmacol Toxicol Methods</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="314" to="322" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhou</surname></persName>
+		</author>
+		<title level="a">PKSolver: an add-in program for pharmacokinetic and pharmacodynamic data analysis in Microsoft Excel</title>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="306" to="314" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Yakou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Takayama</surname></persName>
+		</author>
+		<title level="a">Rectal absorption and mucosal irritation of rectal gels containing buprenorphine hydrochloride prepared with water-soluble dietary fibers, xanthan gum and locust bean gum</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Control Release</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="29" to="37" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">A thermal threshold testing device for evaluation of analgesics in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Res Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="205" to="210" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Mantovani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Dose-related antinociceptive effects of intravenous buprenorphine in cats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vet J</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

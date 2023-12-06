@@ -1,0 +1,1518 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="manual" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Achenbach</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Integrative guide for the 1991 CBCL/4–18, YSR, and TRF profiles</title>
+			<imprint>
+				<publisher>University of Vermont Department of Psychiatry</publisher>
+				<date when="1991">1991a</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="manual" xml:id="b1">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Achenbach</surname>
+					<forename type="first">T</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Manual for the Child Behavior Checklist/4–18 and 1991 profile</title>
+			<imprint>
+				<publisher>University of Vermont Department of Psychiatry</publisher>
+				<date when="1991">1991b</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b2">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Aiken</surname>
+					<forename type="first">L</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>West</surname>
+					<forename type="first">S</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="m">Multiple regression: Testing and interpreting interactions</title>
+			<imprint>
+				<publisher>Sage</publisher>
+				<pubPlace>Newbury Park, CA</pubPlace>
+				<date when="1991">1991</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Anderson</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Assessment and development of executive function (EF) during childhood</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child Neuropsychology</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="71" to="82" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Block</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Block</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">The role of ego‐control and ego resiliency in the organization of behavior</title>
+		</analytic>
+		<monogr>
+			<title level="m">Minnesota symposium on child psychology</title>
+			<editor>
+				<persName>
+					<surname>Collins</surname>
+					<forename type="first">W</forename><forename type="middle">A</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Erlbaum</publisher>
+				<pubPlace>Hillsdale, NJ</pubPlace>
+				<date when="1980">1980</date>
+				<biblScope unit="page" from="39" to="101" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename type="first">F</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>West</surname>
+					<forename type="first">S</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sousa</surname>
+					<forename type="first">K</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">A comparison of bifactor and second‐order models of quality of life</title>
+		</analytic>
+		<monogr>
+			<title level="j">Multivariate Behavioral Research</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">41</biblScope>
+				<biblScope unit="page" from="189" to="225" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chuang</surname>
+					<forename type="first">S</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lamb</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hwang</surname>
+					<forename type="first">C</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Personality development from childhood to adolescence: A longitudinal study of ego‐control and ego‐resiliency in Sweden</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Behavioral Development</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="338" to="343" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Costa</surname>
+					<forename type="first">P</forename><forename type="middle">T</forename>
+					<genName>Jr</genName>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McCrae</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Domains and facets: Hierarchical personality assessment using the revised NEO personality inventory</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Personality Assessment</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">64</biblScope>
+				<biblScope unit="page" from="21" to="50" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cumberland‐Li</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Relations of young children’s agreeableness and resiliency to effortful control and impulsivity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Social Development</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="193" to="212" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dennis</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brotman</surname>
+					<forename type="first">L</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename type="first">K</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gouley</surname>
+					<forename type="first">K</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Effortful control, social competence, and adjustment problems in children at risk for psychopathology</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Clinical Child and Adolescent Psychology</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">36</biblScope>
+				<biblScope unit="page" from="442" to="454" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cumberland</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shepard</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guthrie</surname>
+					<forename type="first">I</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of regulation and emotionality to children’s externalizing and internalizing problem behavior</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child development</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">72</biblScope>
+				<biblScope unit="page" from="1112" to="1134" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Edwards</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sallquist</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eggum</surname>
+					<forename type="first">N</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Are effortful and reactive control unique constructs in young children?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Developmental Psychology</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="2082" to="2094" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guthrie</surname>
+					<forename type="first">I</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Murphy</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maszk</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holmgren</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Suh</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of regulation and emotionality to problem behavior in elementary school children</title>
+		</analytic>
+		<monogr>
+			<title level="j">Development and Psychopathology</title>
+			<imprint>
+				<date when="1996">1996</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="141" to="162" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guthrie</surname>
+					<forename type="first">I</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Dispositional emotionality and regulation: Their role in predicting quality of social functioning</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Personality and Social Psychology</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="136" to="157" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morris</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Regulation, resiliency, and quality of social functioning</title>
+		</analytic>
+		<monogr>
+			<title level="j">Self and Identity</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">1</biblScope>
+				<biblScope unit="page" from="121" to="128" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cumberland</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shepard</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thompson</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of effortful control and impulsivity to children’s resiliency and adjustment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child Development</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">75</biblScope>
+				<biblScope unit="page" from="25" to="46" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Valiente</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shepard</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cumberland</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of effortful control and ego control to children’s resiliency and social functioning</title>
+		</analytic>
+		<monogr>
+			<title level="j">Developmental Psychology</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="761" to="776" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Conceptions of executive functioning and regulation: When and to what degree do they overlap?</title>
+		</analytic>
+		<monogr>
+			<title level="m">Executive function in preschool age children: Integrating measurement, neurodevelopment and translational research</title>
+			<editor>
+				<persName>
+					<surname>Griffin</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Freund</surname>
+					<forename type="first">L</forename><forename type="middle">S</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>McCardle</surname>
+					<forename>P</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>American Psychological Association</publisher>
+				<pubPlace>Washington, DC</pubPlace>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Else‐Quest</surname>
+					<forename type="first">N</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hyde</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goldsmith</surname>
+					<forename type="first">H</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Hulle</surname>
+					<forename type="first">C</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Gender differences in temperament: A meta‐ analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Psychological Bulletin</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">132</biblScope>
+				<biblScope unit="page" from="33" to="72" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Friedman</surname>
+					<forename type="first">N</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Miyake</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">The relations among inhibition and interference control functions: A latent‐variable analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Experimental Psychology: General</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">133</biblScope>
+				<biblScope unit="page" from="101" to="135" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Geiser</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bishop</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lockhart</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Collapsing factors in multitrait‐multimethod models: Examining consequences of a mismatch between measurement design and model</title>
+		</analytic>
+		<monogr>
+			<title level="j">Frontiers in Psychology</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">6</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huey</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+					<genName>Jr</genName>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weisz</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Ego control, ego resiliency, and the Five‐Factor Model as predictors of behavioral and emotional problems in clinic‐referred children and adolescents</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Abnormal Psychology</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">106</biblScope>
+				<biblScope unit="page" from="404" to="415" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Keiley</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lofthouse</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bates</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dodge</surname>
+					<forename type="first">K</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pettit</surname>
+					<forename type="first">G</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Differential risks of covarying and pure components in mother and teacher reports of externalizing and internalizing behavior across ages 5 to 14</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Abnormal Child Psychology</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="267" to="283" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kochanska</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Murray</surname>
+					<forename type="first">K</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Harlan</surname>
+					<forename type="first">E</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">Effortful control in early childhood: Continuity and change, antecedents, and implications for social development</title>
+		</analytic>
+		<monogr>
+			<title level="j">Developmental Psychology</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">36</biblScope>
+				<biblScope unit="page" from="220" to="232" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Masten</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Ordinary magic: Resilience processes in development</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Psychologist</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">56</biblScope>
+				<biblScope unit="page" from="227" to="238" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Murphy</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shepard</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guthrie</surname>
+					<forename type="first">I</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Consistency and change in children’s emotionality and regulation: A longitudinal study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Merrill‐Palmer Quarterly</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">45</biblScope>
+				<biblScope unit="page" from="413" to="444" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b26">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Muthén</surname>
+					<forename type="first">L</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Muthén</surname>
+					<forename type="first">B</forename><forename type="middle">O</forename>
+				</persName>
+			</author>
+			<title level="m">MPlus user’s guide</title>
+			<imprint>
+				<publisher>Author</publisher>
+				<date from="1998" to="2013">1998–2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nigg</surname>
+					<forename type="first">J</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">On the relations among self‐regulation, self‐control, executive functioning, effortful control, cognitive control, impulsivity, risk‐taking, and inhibition for developmental psychopathology</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Child Psychology and Psychiatry</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="361" to="363" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rothbart</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahadi</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Evans</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Temperament and personality: Origins and outcomes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Personality and Social Psychology</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="122" to="135" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rothbart</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahadi</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hershey</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fisher</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Investigations of temperament at three to seven years: The children’s behavior questionnaire</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child Development</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">72</biblScope>
+				<biblScope unit="page" from="1287" to="1604" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rothbart</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bates</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Temperament</title>
+		</analytic>
+		<monogr>
+			<title level="m">Handbook of child psychology: Vol. 3. Social, emotional, and personality development</title>
+			<editor>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Damon</surname>
+					<forename>W</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Lerner</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>John Wiley &amp; Sons Inc</publisher>
+				<pubPlace>Hoboken, NJ</pubPlace>
+				<date when="2006">2006</date>
+				<biblScope unit="page" from="99" to="166" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rothbart</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sheese</surname>
+					<forename type="first">B</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Posner</surname>
+					<forename type="first">M</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Executive attention and effortful control: Linking temperament, brain networks, and genes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child Development Perspectives</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">1</biblScope>
+				<biblScope unit="page" from="2" to="7" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rushton</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bons</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hur</surname>
+					<forename type="first">Y</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">The genetics and evolution of the general factor of personality</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Research in Personality</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="1173" to="1185" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cumberland</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Valiente</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shepard</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guthrie</surname>
+					<forename type="first">I</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of temperamentally based control processes to children’s social competence: A longitudinal study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Emotion</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="498" to="510" />
+			</imprint>
+		</monogr>
+	</bibl>
+
+	<bibl type="webpage" xml:id="b34">
+		<monogr>
+			<author>U.S. Census Bureau</author>
+			<title level="m">Census 2000 data for the state of Arizona</title>
+			<ref src="https://www.census.gov/census2000/states/az.html">https://www.census.gov/census2000/states/az.html</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Valiente</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fabes</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Losoya</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Murphy</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">The relations of effortful control and reactive control to children’s externalizing problems: A longitudinal assessment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Personality</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">71</biblScope>
+				<biblScope unit="page" from="1171" to="1196" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Valiente</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reiser</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cumberland</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Losoya</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liew</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Relations among mothers’ expressivity, children’s effortful control, and their problem behaviors: A four‐year longitudinal study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Emotion</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="459" to="472" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wade</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cairney</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pevalin</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Emergence of gender differences in depression during adolescence: National panel results from three countries</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of the American Academy of Child &amp; Adolescent Psychiatry</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">41</biblScope>
+				<biblScope unit="page" from="190" to="198" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wadlinger</surname>
+					<forename type="first">H</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Isaacowitz</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Fixing our focus: Training attention to regulate emotion</title>
+		</analytic>
+		<monogr>
+			<title level="j">Personality and Social Psychology Review</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="75" to="102" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">F</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chassin</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Effortful control predicts adolescent antisocial‐aggressive behaviors and depressive symptoms: Co‐occurrence and moderation by impulsivity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child Development</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="1812" to="1829" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">F</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Valiente</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinrad</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Role of temperament in early adolescent pure and co‐occurring internalizing and externalizing problems using a bifactor model: Moderation by parenting and gender</title>
+		</analytic>
+		<monogr>
+			<title level="j">Development and Psychopathology</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="1487" to="1504" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Whiteside</surname>
+					<forename type="first">S</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lynam</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">The five factor model and impulsivity: Using a structural model of personality to understand impulsivity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Personality and individual differences</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="669" to="689" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collins</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">US socioeconomic and racial differences in health: Patterns and explanations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annual Review of Psychology</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="349" to="386" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

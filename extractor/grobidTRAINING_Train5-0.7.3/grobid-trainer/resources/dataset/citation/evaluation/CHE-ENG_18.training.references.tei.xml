@@ -1,0 +1,1999 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>De Faveri</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ilyashenko</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watkinson</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Soc. Rev.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="1722" to="" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cornwall</surname>
+					<forename type="first">R</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Rev.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">114</biblScope>
+				<biblScope unit="page" from="8199" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Loebach</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wilson</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jacobsen</surname>
+					<forename type="first">E</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="1990">1990</date>
+				<biblScope unit="volume">112</biblScope>
+				<biblScope unit="page" from="2801" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Irie</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Noda</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ito</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matsumoto</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Katsuki</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Tetrahedron Lett.</title>
+			<imprint>
+				<date when="1990">1990</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="7345" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bryliakov</surname>
+					<forename type="first">K</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Talsi</surname>
+					<forename type="first">E</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Inorg. Chem.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="7258" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kureshy</surname>
+					<forename type="first">R</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Prathap</surname>
+					<forename type="first">K</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roy</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maity</surname>
+					<forename type="first">N</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Khan</surname>
+					<forename type="first">N</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abdi</surname>
+					<forename type="first">S</forename><forename type="middle">H</forename><forename type="last">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bajaj</surname>
+					<forename type="first">H</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Synth. Catal.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">352</biblScope>
+				<biblScope unit="page" from="3053" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nishikawa</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yamamoto</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">133</biblScope>
+				<biblScope unit="page" from="8432" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bhadra</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Akakura</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yamamoto</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">137</biblScope>
+				<biblScope unit="page" from="15612" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Saracini</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fukuzumi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nam</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2016">201</date>
+				<biblScope unit="volume">138</biblScope>
+				<biblScope unit="page" from="15857" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ryan</surname>
+					<forename type="first">K</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bousquet</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gilheany</surname>
+					<forename type="first">D</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Tetrahedron Lett.</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="3613" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>McGarrigle</surname>
+					<forename type="first">E</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gilheany</surname>
+					<forename type="first">D</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Rev.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">105</biblScope>
+				<biblScope unit="page" from="1563" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chanda</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fokin</surname>
+					<forename type="first">V</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Rev.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">109</biblScope>
+				<biblScope unit="page" from="725" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Paparatto</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gregorioa</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Tetrahedron Lett.</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="1471" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>O'Reilly</surname>
+					<forename type="first">R</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Opin. Biotechnol.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="639" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rothfuss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Knöfel</surname>
+					<forename type="first">N</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roesky</surname>
+					<forename type="first">P</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barner-Kowollik</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">140</biblScope>
+				<biblScope unit="page" from="5875" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huerta</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stals</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meijer</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palmans</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem., Int. Ed.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">52</biblScope>
+				<biblScope unit="page" from="2906" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hosono</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kushner</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chung</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palmans</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meijer</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">137</biblScope>
+				<biblScope unit="page" from="6880" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matsumoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Terashima</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matsumoto</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Takenaka</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sawamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">139</biblScope>
+				<biblScope unit="page" from="7164" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Frisch</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Menzel</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bloesser</surname>
+					<forename type="first">F</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marschner</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mundsinger</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kowollik</surname>
+					<forename type="first">C</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">140</biblScope>
+				<biblScope unit="page" from="9551" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bai</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Garcia</surname>
+					<forename type="first">E</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferguson</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zimmerman</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">140</biblScope>
+				<biblScope unit="page" from="13695" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pujals</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stals</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulöhrl</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Presolski</surname>
+					<forename type="first">S</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meijer</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Albertazzi</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palmans</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">140</biblScope>
+				<biblScope unit="page" from="3423" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Commun.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">54</biblScope>
+				<biblScope unit="page" from="9430" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Katsuki</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Synth. Catal.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">344</biblScope>
+				<biblScope unit="page" from="131" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="2849" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qing</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="57" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Buchecker</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schmid</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grillo</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Prévost</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Drechsler</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Diat</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pfitzner</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bauduin</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">141</biblScope>
+				<biblScope unit="page" from="6890" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Moad</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Polym. Chem.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="177" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ji</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lou</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Tetrahedron</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">65</biblScope>
+				<biblScope unit="page" from="305" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lou</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ding</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peng</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dong</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Catal.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">249</biblScope>
+				<biblScope unit="page" from="102" to="" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Machajewski</surname>
+					<forename type="first">T</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wong</surname>
+					<forename type="first">C</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem., Int. Ed.</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="1352" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lam</surname>
+					<forename>Y-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kheirabadi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Houk</surname>
+					<forename type="first">K</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schafmeister</surname>
+					<forename type="first">C</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Org. Chem.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">77</biblScope>
+				<biblScope unit="page" from="4784" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mlynarski</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bas</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Soc. Rev.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="577" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gröger</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hummel</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Opin. Chem. Biol.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="171" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Helms</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guillaudeu</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xie</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McMurdo</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hawker</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fréchet</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename><forename type="last">J</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem., Int. Ed.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">44</biblScope>
+				<biblScope unit="page" from="6384" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Helms</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fréchet</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename><forename type="last">J</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Synth. Catal.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">348</biblScope>
+				<biblScope unit="page" from="1125" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huerta</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stals</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meijer</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palmans</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem., Int. Ed.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">52</biblScope>
+				<biblScope unit="page" from="2906" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Terashima</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sugita</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fukae</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sawamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Macromolecules</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">47</biblScope>
+				<biblScope unit="page" from="589" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hirai</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Terashima</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Takenaka</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sawamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Macromolecules</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="5084" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shibata</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matsumoto</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirai</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Takenaka</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sawamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Terashima</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Macromolecules</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">51</biblScope>
+				<biblScope unit="page" from="3738" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Qiao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Theyssen</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hou</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Rev.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">117</biblScope>
+				<biblScope unit="page" from="6881" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pauloehrl</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Presolski</surname>
+					<forename type="first">S</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Albertazzi</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palmans</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meijer</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">137</biblScope>
+				<biblScope unit="page" from="13096" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yao</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Colloids Surf.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">123</biblScope>
+				<biblScope unit="page" from="852" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Green Energy Environ.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="419" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Karimi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tavakolian</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname type="first">Mansouri</surname><surname type="middle">Akbari</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">ChemCatChem</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="3173" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Commun.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="592" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>x</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hou</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ettelaie</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">141</biblScope>
+				<biblScope unit="page" from="5220" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brandt</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Norrby</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Daly</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gilheany</surname>
+					<forename type="first">D</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. – Eur. J.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="4299" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schoonen</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>van Hest</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="1109" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zou</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. – Eur. J.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="7830" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Catal. Sci. Technol.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="2092" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Luo</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+		</analytic>
+		<monogr>
+			<title level="j">Catal. Sci. Technol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="488" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	</listBibl>
+	</back>
+	</text>
+</TEI>

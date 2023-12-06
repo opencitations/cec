@@ -1,0 +1,568 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="series" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Huisman</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>By</surname>
+					<forename type="first">R</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="m">Principles of Geographic Information Systems</title>
+			<imprint>
+				<date when="2009">2009</date>
+			</imprint>
+		</monogr>
+		<series>
+			<title level="s">ITC Educational Textbook Series</title>
+		</series>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tim</surname>
+					<forename type="first">U</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">The Application of GIS in Environmental Health Sciences: Opportunities and Limitations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Research</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">71</biblScope>
+				<biblScope unit="page" from="75" to="88" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nyerges</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Robkin</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moore</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Geographic Information Systems for Risk Evaluation: Perspectives on Applications to Environmental Health</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cartography and Geographic Information Systems</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="123" to="144" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kistemann</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>ClaBen</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Koch</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dangendorf</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fischeder</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gebel</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Microbial Load of Drinking Water Reservoir Tributaries During Extreme Rainfall and Runoff</title>
+		</analytic>
+		<monogr>
+			<title level="j">Applied and Environmental Microbiology</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">68</biblScope>
+				<biblScope unit="page" from="2188" to="2197" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brown</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">The Use of Geographic Information Systems in Risk Assessment with Specific Focus on the RiVAMP Methodology</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the Sixth Caribbean GIS Conference</title>
+			<imprint>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Peggion</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bernardini</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Masera</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">Geographic Information Systems and Risk Assessment</title>
+			<imprint>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<monogr>
+			<author>
+				<persName>
+					<surname>H</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>T</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kiat</surname>
+					<forename type="first">T</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="m">Global Estimates of Occupational Accidents and Work-related Illnesses</title>
+			<imprint>
+				<publisher>Workplace Safety and Health Institute</publisher>
+				<pubPlace>Singapore</pubPlace>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b7">
+		<monogr>
+			<author>ILO</author>
+			<title level="m">Calls for Urgent Global Action to Flight Occupational Diseases</title>
+			<ref target="http://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_211627/lang--en/index.htm">http://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_211627/lang--en/index.htm</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zakaria</surname>
+					<forename type="first">N</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mansor</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abdullah</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Workplace Accident in Malaysia: Most Common Causes and Solutions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Business and Management Review</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="75" to="88" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Delaunay</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Westhuizen</surname>
+					<forename type="first">H</forename><forename type="middle">V</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Godard</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Agius</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barbier</surname>
+					<forename type="first">M</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Godderis</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Use of GIS in Visualization of Work-Related Health Problems</title>
+		</analytic>
+		<monogr>
+			<title level="j">Occupational Medicine</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">65</biblScope>
+				<biblScope unit="page" from="682" to="692" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b10">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Schroeder</surname>
+					<forename type="first">W</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dickenson</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Warrington</surname>
+					<forename type="first">D</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="m">Soils in Construction</title>
+			<imprint>
+				<publisher>Waveland Press</publisher>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Suh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yi</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Choi</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">An Overview of GIS-based Modeling and Assessment of Mining-Induced Hazards: Soil, Water, and Forest</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Environmental Research and Public Health</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="1463" to="1463" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mark</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gauna</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Evaluating the Risk of Coal Bursts in Underground Coal Mines</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Mining Science and Technology</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="47" to="52" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>White</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">National Institute for Occupational Safety and Health (NIOSH) Prevention Through Design (PtD) Workshop Closing Remarks</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Safety Research</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="203" to="204" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yamaguchi</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<title level="a">Lessons Learned from Radiation Risk Communication Activities Regarding the Fukushima Nuclear Accident</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of the National Institute of Public Health</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">67</biblScope>
+				<biblScope unit="page" from="93" to="102" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b15">
+		<monogr>
+			<author>HSE</author>
+			<title level="m">Brıef Guıde to Controlıng Rısk in Work Place</title>
+			<imprint>
+				<publisher>Health and Safety Executive</publisher>
+				<pubPlace>Merseyside</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b16">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Chaparro</surname>
+					<forename type="first">M</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="m">A New Dimension to Risk Assessment</title>
+			<imprint>
+				<publisher>Centre for Mathematical Sciences Lund University</publisher>
+				<pubPlace>Lund</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Watson</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="m">Risk Assessment using the Three Dimensions of Probability (Likelihood), Severity, and Level of Control</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Antoniadis</surname>
+					<forename type="first">T</forename><forename type="middle">T</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<title level="a">3D Risk Matrix Methodology</title>
+		</analytic>
+		<monogr>
+			<title level="m">ISEC-02</title>
+			<imprint>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b19">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Labor</surname>
+					<forename type="first">O</forename><forename type="middle">M</forename><forename type="last">O</forename>
+				</persName>
+			</author>
+			<title level="m">Excavation Hazards</title>
+			<ref target="http://www.labour.gov.on.ca/english/hs/sawo/pubs/fs_trenches.php">http://www.labour.gov.on.ca/english/hs/sawo/pubs/fs_trenches.php</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b20">
+		<monogr>
+			<author>IOSH</author>
+			<title level="m">ISOH Managing Safely</title>
+			<imprint>
+				<publisher>Institute of Occupational Safety and Health</publisher>
+				<pubPlace>Wigston</pubPlace>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b21">
+		<analytic>
+			<author>organization</author>
+			<title level="a">I.c.a.</title>
+		</analytic>
+		<monogr>
+			<title level="m">High Level Safety Conference</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Atay</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ergen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Toz</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">GIS based Decision Support System for Health and Safety Management in Linear Projects</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the International Conference on Computing in Civil and Building Engineering</title>
+			<imprint>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

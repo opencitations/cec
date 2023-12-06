@@ -1,0 +1,714 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="grey-literature" xml:id="b0">
+	<monogr>
+		
+		<author>
+			<persName><forename>Kathy</forename><surname>Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kelsey</forename><surname>Henke</surname></persName>
+		</author>
+		<title level="a">ALA Demographic Survey</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">L</forename><surname>Cohn</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+		<title level="a">An Overview of ARL Directors, 1933-1973</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">140</biblScope>
+			<date when="1976">1976</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b2">
+	<monogr>
+		
+		<author>
+			<persName><surname>Cohn</surname></persName>
+		</author>
+		<title level="m">An Overview of ARL Directors, 1933-1973</title>
+		<imprint>
+			<biblScope unit="page">143</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Jerry</forename><forename type="middle">L</forename><surname>Parsons</surname></persName>
+		</author>
+		<title level="a">How Have They Changed? Characteristics of Research Library Directors, 1958 and 1973</title>
+	</analytic>
+	<monogr>
+		<title level="j">Wilson Library Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">614</biblScope>
+			<date when="Apr. 1976">Apr. 1976</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b4">
+	<monogr>
+		
+		<author>
+			<persName><surname>Parsons</surname></persName>
+		</author>
+		<title level="m">How Have They Changed</title>
+		<imprint>
+			<biblScope unit="page">614</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b5">
+	<monogr>
+		
+		<author>
+			<persName><surname>Cohn</surname></persName>
+		</author>
+		<title level="m">An Overview of ARL Directors, 1933-1973</title>
+		<imprint>
+			<biblScope unit="page">141</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b6">
+	<monogr>
+		
+		<author>
+			<persName><surname>Cohn</surname></persName>
+		</author>
+		<title level="m">An Overview of ARL Directors, 1933-1973</title>
+		<imprint>
+			<biblScope unit="page">141</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Barbara</forename><forename type="middle">B</forename><surname>Moran</surname></persName>
+		</author>
+		<title level="a">Career Patterns of Academic Library Directors</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">335</biblScope>
+			<date when="1983">1983</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b8">
+	<monogr>
+		
+		<author>
+			<persName><surname>Moran</surname></persName>
+		</author>
+		<title level="m">Career Patterns of Academic Library Directors</title>
+		<imprint>
+			<biblScope unit="page">334</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b9">
+	<monogr>
+		
+		<author>
+			<persName><surname>Moran</surname></persName>
+		</author>
+		<title level="m">Career Patterns of Academic Library Directors</title>
+		<imprint>
+			<biblScope unit="page">340</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Terrence</forename><forename type="middle">F</forename><surname>Mech</surname></persName>
+		</author>
+		<title level="a">Small College Library Directors of the Midwest</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Academic Librarianship</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Rush</forename><forename type="middle">G</forename><surname>Miller</surname></persName>
+		</author>
+		<title level="a">The Influx of PhDs into Librarianship: Intrusion or Transfusion?</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="165" />
+			<date when="1976">1976</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Albert</forename><forename type="middle">F</forename><surname>Maag</surname></persName>
+		</author>
+		<title level="a">Design of the Library Director Interview: The Candidate's Perspective</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="112" to="121" />
+			<date when="1980">1980</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">N</forename><surname>Olsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jane</forename><forename type="middle">Kinch</forename><surname>Olsgaard</surname></persName>
+		</author>
+		<title level="a">Post-MLS Educational Requirements for Academic Librarians</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">224</biblScope>
+			<date when="1981">1981</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b14">
+	<monogr>
+		
+		<author>
+			<persName><surname>Olsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Olsgaard</surname></persName>
+		</author>
+		<title level="m">Post-MLS Educational Requirements for Academic Librarians</title>
+		<imprint>
+			<biblScope unit="page">226</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b15">
+	<monogr>
+		
+		<author>
+			<persName><surname>Parsons</surname></persName>
+		</author>
+		<title level="m">How Have They Changed?</title>
+		<imprint>
+			<biblScope unit="page" from="613" to="617" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b16">
+	<monogr>
+		
+		<author>
+			<persName><surname>Cohn</surname></persName>
+		</author>
+		<title level="m">An Overview of ARL Directors, 1933-1973</title>
+		<imprint>
+			<biblScope unit="page" from="137" to="144" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Paul</forename><surname>Metz</surname></persName>
+		</author>
+		<title level="a">Administrative Succession in Academic Libraries</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date when="1978">1978</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-litearture" xml:id="b18">
+	<monogr>
+		
+		<author>
+			<persName><surname>Olsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Olsgaard</surname></persName>
+		</author>
+		<title level="m">Post-MLIS Educational Requirements for Academic Librarians</title>
+		<imprint>
+			<biblScope unit="page">226</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-litearture" xml:id="b19">
+	<monogr>
+		
+		<author>
+			<persName><surname>Moran</surname></persName>
+		</author>
+		<title level="m">Career Patterns of Academic Library Directors</title>
+		<imprint>
+			<biblScope unit="page" from="334" to="344" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Karen</forename><forename type="middle">A</forename><surname>Hatcher</surname></persName>
+		</author>
+		<title level="a">Succession Paths for Academic Library Directors</title>
+	</analytic>
+	<monogr>
+		<title level="m">The Academic Library Director: Reflections on a Position in Transition</title>
+		<editor>
+			<persName><forename>Frank</forename><surname>D’Andraia</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="1997">1997</date>
+			<biblScope unit="page" from="38" to="39" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b21">
+	<monogr>
+		
+		<author>
+			<persName><surname>Hatcher</surname></persName>
+		</author>
+		<title level="m">Succession Paths for Academic Library Directors</title>
+		<imprint>
+			<biblScope unit="page" from="38" to="39" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b22">
+	<monogr>
+		
+		<author>
+			<persName><surname>Hatcher</surname></persName>
+		</author>
+		<title level="m">Succession Paths for Academic Library Directors</title>
+		<imprint>
+			<biblScope unit="page">38</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Mccracken</surname></persName>
+		</author>
+		<title level="a">The Presence of the Doctorate among Small College Library Directors</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">401</biblScope>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b24">
+	<monogr>
+		
+		<author>
+			<persName><surname>Mccracken</surname></persName>
+		</author>
+		<title level="m">The Presence of the Doctorate among Small College Library Directors</title>
+		<imprint>
+			<biblScope unit="page">404</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>Julie</forename><surname>O'Keefe</surname></persName>
+		</author>
+		<title level="a">Small College Library Directors: Getting in the Door and Surviving on the Job</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="152" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>Rhonda</forename><surname>Huisman</surname></persName>
+		</author>
+		<title level="a">Lifelong Learning: Moving beyond the Library Degree</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries News</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">289</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b27">
+	<monogr>
+		
+		<author>
+			<persName><surname>Huisman</surname></persName>
+		</author>
+		<title level="m">Lifelong Learning</title>
+		<imprint>
+			<biblScope unit="page">289</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b28">
+	<monogr>
+		
+		<author>
+			<persName><surname>Huisman</surname></persName>
+		</author>
+		<title level="m">Lifelong Learning</title>
+		<imprint>
+			<biblScope unit="page">289</biblScope>
+		</imprint>
+		
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b29">
+	<monogr>
+		<title level="m">Educational Requirement beyond the MLS for Academic Librarians in 1990</title>
+		<author>
+			<persName><forename type="first">Kathleen</forename><forename type="middle">E</forename><surname>Aufderhaar</surname></persName>
+		</author>
+		<imprint>
+			<date when="1991">1991</date>
+		</imprint>
+		<note>master’s dissertation, Kent State University</note>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">Lee</forename><forename type="middle">A</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><forename type="middle">C</forename><surname>Blixrud</surname></persName>
+		</author>
+		<title level="m">Systems and Procedures Exchange: The MLIS Hiring Requirement</title>
+		<imprint>
+			<publisher>Association of Research Libraries</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Hernon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">R</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arthur</forename><forename type="middle">P</forename><surname>Young</surname></persName>
+		</author>
+		<title level="a">University Library Directors in the Association of Research Libraries: The Next Generation, Part One</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">122</biblScope>
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b32">
+	<monogr>
+		<author>
+			<persName><surname>Hernon</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Young</surname></persName>
+		</author>
+		<title level="m">University Library Directors in the Association of Research Libraries</title>
+		<imprint>
+			<biblScope unit="page">122</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b33">
+	<monogr>
+		<title level="m">Ibid.</title>
+		<imprint>
+			<biblScope unit="page">130</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b34">
+	<monogr>
+		<title level="m">Ibid.</title>
+		<imprint>
+			<biblScope unit="page">130</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b35">
+	<monogr>
+		<title level="m">Ibid.</title>
+		<imprint>
+			<biblScope unit="page">130</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b36">
+	<monogr>
+		<title level="m">Ibid.</title>
+		<imprint>
+			<biblScope unit="page">130</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">W</forename><surname>Lewis</surname></persName>
+		</author>
+		<title level="a">Academic Library Staffing: A Decade from Now</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>S</forename><surname>Walker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>K</forename><surname>Williams</surname></persName>
+		</editor>
+		<title level="m">The Expert Library: Staffing, Sustaining, and Advancing the Academic Library in the 21st Century</title>
+		<imprint>
+			<publisher>Association of College &amp; Research Libraries</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+			<date when="2010">2010</date>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b38">
+	<monogr>
+		
+		<author>
+			<persName><surname>Lewis</surname></persName>
+		</author>
+		<title level="m">Academic Library Staffing</title>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b39">
+	<monogr>
+		
+		<author>
+			<persName><surname>Lewis</surname></persName>
+		</author>
+		<title level="m">Academic Library Staffing</title>
+		<imprint>
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>Maggie</forename><surname>Farrell</surname></persName>
+		</author>
+		<title level="a">The Lifecycle of Leadership</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Library Administration</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">256</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b41">
+	<monogr>
+		
+		<author>
+			<persName><surname>Farrell</surname></persName>
+		</author>
+		<title level="m">The Lifecycle of Leadership</title>
+		<imprint>
+			<biblScope unit="page">256</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>Anja</forename><surname>Smit</surname></persName>
+		</author>
+		<title level="a">‘I Can’t Look at Hobbles and I Can’t Stand Fences’: The Evolving Education Needs for Libraries</title>
+	</analytic>
+	<monogr>
+		<title level="m">Charleston Voices</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Marta</forename><forename type="middle">L</forename><surname>Brunner</surname></persName>
+		</author>
+		<title level="a">PhD Holders in the Academic Library: The CLIR Postdoctoral Fellowship Program</title>
+	</analytic>
+	<monogr>
+		<title level="m">The Expert Library: Staffing, Sustaining, and Advancing the Academic Library in the 21st Century</title>
+		<editor>
+			<persName><forename>S</forename><surname>Walker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>K</forename><surname>Williams</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Association of Research Libraries</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+			<biblScope unit="page" from="158" to="189" />
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

@@ -1,0 +1,2952 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="webpage" xml:id="b0">
+		<monogr>
+			<ref target="http://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death">http://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death</ref>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Adivitiya</surname>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Khasa</surname>
+					<forename type="first">Y</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">The evolution of recombinant thrombolytics: current status and future directions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioengineered</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="331" to="358" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stenflos</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ohlins</surname>
+					<forename>A-K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Owen</surname>
+					<forename type="first">W</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schneidernll</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">beta-hydroxyaspartic acid or 6-hydroxyasparagine in bovine low density lipoprotein receptor and in bovine thrombomodulin*</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">263</biblScope>
+				<biblScope unit="page" from="21" to="24" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename type="first">P</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sherman</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rich</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schwartz</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schechtman</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Geltman</surname>
+					<forename type="first">E</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sobel</surname>
+					<forename type="first">B</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jaffe</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Importance of continued activation of thrombin reflected by fibrinopeptide A to the efficacy of thrombolysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Coll. Cardiol.</title>
+			<imprint>
+				<date when="1986">1986</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="1255" to="1262" />
+			</imprint>
+		</monogr>
+	</bibl>
+
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Landi</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barbarotto</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morabito</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Angelo</surname>
+					<forename type="first">A</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mannucci</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Prognostic significance of fibrinopeptide a in survivors of cerebral infarction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Stroke</title>
+			<imprint>
+				<date when="1990">1990</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="424" to="427" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Eisenberg</surname>
+					<forename type="first">P</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sherman</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jaffe</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename type="first">Fa</forename><forename type="middle">St</forename>
+				</persName>
+			</author>
+			<title level="a">Paradoxic elevation of fibrinopeptide A after streptokinase: evidence for continued thrombosis despite intense fibrinolysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Coll. Cardiol.</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="527" to="529" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Angelica Merlini</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bauer</surname>
+					<forename type="first">K</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oltrona</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ardissino</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spinola</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cattaneo</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Broccolino</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mannuccio Mannucci</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rosenberg</surname>
+					<forename type="first">R</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Thrombin generation and activity during thrombolysis and concomitant heparin therapy in patients with acute myocardial infarction</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Coll. Cardiol.</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="203" to="209" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mosesson</surname>
+					<forename type="first">M</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">The roles of fibrinogen and fibrin in hemostasis and thrombosis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Semin. Hematol.</title>
+			<imprint>
+				<date when="1992">1992</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="177" to="188" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>DAVEY</surname>
+					<forename type="first">M</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>LÜSCHER</surname>
+					<forename type="first">E</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">Actions of thrombin and other coagulant and pro- teolytic enzymes on blood platelets</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="1967">1967</date>
+				<biblScope unit="volume">216</biblScope>
+				<biblScope unit="page" from="857" to="858" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mann</surname>
+					<forename type="first">K</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jenny</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krishnaswamy</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Cofactor proteins in the assembly and expression ofblood clotting enzyme complexes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annu. Rev. Biochem.</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">57</biblScope>
+				<biblScope unit="page" from="915" to="956" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fay</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Subunit structure of thrombin-activated human factor VIIIa</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biochim. Biophys. Acta</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">952</biblScope>
+				<biblScope unit="page" from="181" to="190" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gailani</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Broze</surname>
+					<forename type="first">G</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Factor XI activation in a revised model of blood coagulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="1991">1991</date>
+				<biblScope unit="volume">253</biblScope>
+				<biblScope unit="page" from="909" to="912" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lorand</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Konishi</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Activation of the fibrin stabilizing factor of plasma by thrombin</title>
+		</analytic>
+		<monogr>
+			<title level="j">Arch. Biochem. Biophys.</title>
+			<imprint>
+				<date when="1964">1964</date>
+				<biblScope unit="volume">105</biblScope>
+				<biblScope unit="page" from="58" to="67" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<forename type="first">M</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bajzar Laszlo</surname>
+					<forename type="first">N</forename><forename type="middle">M</forename><forename type="last">E</forename>
+				</persName>
+			</author>
+			<title level="a">Purification and characterization of TAFI, a thrombin-activable fibrinolysis inhibitor *</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">270</biblScope>
+				<biblScope unit="page" from="14477" to="14484" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weitz</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leslie</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hudoba</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Thrombin binds to soluble fibrin degradation products where it is protected from inhibition by heparin-antithrombin but susceptible to inactivation by antithrombin-independent inhibitors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Circulation</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">97</biblScope>
+				<biblScope unit="page" from="544" to="552" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weitz</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maraganore</surname>
+					<forename>j</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirsh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Clot-bound thrombin is protected from inhibition by heparin-antithrombin III but is susceptible to inactivation by antithrombin III-independent inhibitors</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Clin. Investig.</title>
+			<imprint>
+				<date when="1990">1990</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="385" to="385" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hogg</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jacksont</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Fibrin monomer protects thrombin from inactivation by heparin-antithrombin III: implications for heparin efficacy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="3619" to="3623" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Hoef</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schlott</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hartmann</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gührs</surname>
+					<forename type="first">K</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lijnen</surname>
+					<forename type="first">H</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Mechanisms of activation of mammalian plasma fibrinolytic systems with streptokinase and with recombinant staphylokinase</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Biochem.</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">216</biblScope>
+				<biblScope unit="page" from="307" to="314" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Roger Lijnen</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Hoef</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>De Cock</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Okada</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ueshima</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matsuo</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">On the mechanism of fibrin-specific plasminogen activation by staphylokinase</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1991">1991</date>
+				<biblScope unit="volume">266</biblScope>
+				<biblScope unit="page" from="11826" to="11832" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matsuo</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Okada</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fukao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tomioka</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ueshima</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watanuki</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sakai</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Thrombolytic properties of staphylokinase</title>
+		</analytic>
+		<monogr>
+			<title level="j">Blood</title>
+			<imprint>
+				<date when="1990">1990</date>
+				<biblScope unit="volume">76</biblScope>
+				<biblScope unit="page" from="925" to="929" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Silence</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lijnen</surname>
+					<forename type="first">H</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">The interaction between staphylokinase, plasmin (ogen) and α2-antiplasmin. Recycling of staphylokinase after neutralization of the plasmin-staphylokinase complex by α2-antiplasmin</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">268</biblScope>
+				<biblScope unit="page" from="9811" to="9816" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Esmon</surname>
+					<forename type="first">C</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">The regulation of natural anticoagulant pathways</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">235</biblScope>
+				<biblScope unit="page" from="1348" to="1352" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Esmon</surname>
+					<forename type="first">C</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">The roles of protein C and thrombomodulin in the regulation of blood coagulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">264</biblScope>
+				<biblScope unit="page" from="4743" to="4746" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Suzuki</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stenflo</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dahlbäck</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Teodorsson</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Inactivation of human coagulation factor V by activated protein C</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1983">1983</date>
+				<biblScope unit="volume">258</biblScope>
+				<biblScope unit="page" from="1914" to="2" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kurosawa</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stearns</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jackson</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Esmon</surname>
+					<forename type="first">C</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">A10-kDa cyanogen bromide fragment from the epidermal growth factor homology domain of rabbit thrombomodulin contains the primary thrombinbinding site</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">263</biblScope>
+				<biblScope unit="page" from="5993" to="5996" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stearns</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kurosawa</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Esmon</surname>
+					<forename type="first">C</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">Micro-thrombomodulin Residues 310–486 from the epidermal growth factor precursor homology domain of thrombomodulin will accelerate protein activation</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">264</biblScope>
+				<biblScope unit="page" from="3352" to="3356" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="standard" xml:id="b26">
+		<monogr>
+			<author>Life Technologies</author>
+			<title level="m">Pichia Expression Kit</title>
+			<imprint>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="standard" xml:id="b27">
+		<monogr>
+			<author>
+				<persName>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Higgins</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="m">Pichia Protocols(methods in Molecular Biology)</title>
+			<imprint>
+				<date when="1998">1998</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ho</surname>
+					<forename type="first">S</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hunt</surname>
+					<forename type="first">H</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Horton</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pullen</surname>
+					<forename type="first">J</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pease</surname>
+					<forename type="first">L</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Site-directed mutagenesis by overlap extension using the polymerase chain reaction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Gene</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">77</biblScope>
+				<biblScope unit="page" from="51" to="59" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Castellino</surname>
+					<forename type="first">F</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wong</surname>
+					<forename type="first">S</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">A fast-acting, modular-structured staphylokinase fusion with Kringle-1 from human plasminogen as the fibrin-targeting domain offers improved clot lysis efficacy</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">278</biblScope>
+				<biblScope unit="page" from="18199" to="18206" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Clarke</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Light</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Blasko</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parkinson</surname>
+					<forename type="first">J</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nagashima</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McLean</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vilander</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Andrews</surname>
+					<forename type="first">W</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morser</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Glaser</surname>
+					<forename type="first">C</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">The short loop between epidermal growth factor-like domains 4 and 5 is critical for human thrombomodulin function</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">268</biblScope>
+				<biblScope unit="page" from="6309" to="6315" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Joshi</surname>
+					<forename type="first">K</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sahni</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Molecular cloning, expression, purification and characterization of truncated forms of human plasminogen in Pichia pastoris expression system</title>
+		</analytic>
+		<monogr>
+			<title level="j">Process Biochem.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">45</biblScope>
+				<biblScope unit="page" from="1251" to="1260" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sagar</surname>
+					<forename type="first">A</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pandit</surname>
+					<forename type="first">M</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Denaturations studies on bovine pancreatic ribonuclease: effect of trichloroacetic acid</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biochim. Biophys. Acta Protein Struct. Mol. Enzymol.</title>
+			<imprint>
+				<date when="1983">1983</date>
+				<biblScope unit="volume">743</biblScope>
+				<biblScope unit="page" from="303" to="309" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Laemmli</surname>
+					<forename type="first">U</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Cleavage of structural proteins during the assembly of the head of bacteriophage T4</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="1970">1970</date>
+				<biblScope unit="volume">227</biblScope>
+				<biblScope unit="page" from="680" to="685" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Towbin</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Staehelin</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gordon</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci. Unit. States Am.</title>
+			<imprint>
+				<date when="1979">1979</date>
+				<biblScope unit="volume">76</biblScope>
+				<biblScope unit="page" from="4350" to="4354" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bradford</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding</title>
+		</analytic>
+		<monogr>
+			<title level="j">Anal. Biochem.</title>
+			<imprint>
+				<date when="1976">1976</date>
+				<biblScope unit="volume">72</biblScope>
+				<biblScope unit="page" from="248" to="254" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Icke</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schlott</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ohlenschl</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hartmann</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Glusa</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Fusion proteins with anticoagulant and fibrinolytic properties: functional studies and structural considerations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol. Pharmacol.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">62</biblScope>
+				<biblScope unit="page" from="203" to="209" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lougheed</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bowman</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meininger</surname>
+					<forename type="first">D</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Komives</surname>
+					<forename type="first">E</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Thrombin inhibition by cyclic peptides from thrombomodulin</title>
+		</analytic>
+		<monogr>
+			<title level="j">Protein Sci.</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="773" to="780" />
+			</imprint>
+		</monogr>
+	</bibl>
+
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van de Werf</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Coronary thrombolysis with recombinant staphylokinase in patients with evolving myocardial infarction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Circulation</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">87</biblScope>
+				<biblScope unit="page" from="1850" to="1853" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Vanderschueren</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stockx</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wilms</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lacroix</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Verhaeghe</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vermylen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Thrombolytic therapy of peripheral arterial occlusion with recombinant staphylokinase</title>
+		</analytic>
+		<monogr>
+			<title level="j">Circulation</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">92</biblScope>
+				<biblScope unit="page" from="2050" to="2057" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Heymans</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vanderschueren</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Verhaeghe</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stockx</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lacroix</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nevelsteen</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Laroche</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Outcome and one year follow-up of intra-arterial staphylo- kinase in 191 patients with peripheral arterial occlusion</title>
+		</analytic>
+		<monogr>
+			<title level="j">Thromb. Haemostasis</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">83</biblScope>
+				<biblScope unit="page" from="666" to="671" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Moreadith</surname>
+					<forename type="first">R</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Clinical development of PEGylated recombinant staphylokinase (PEG–Sak) for bolus thrombolytic treatment of patients with acute myocardial infarction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Drug Deliv. Rev.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="1337" to="1345" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Verhamme</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goossens</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maleux</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stas</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">A dose-finding clinical trial of staphylokinase SY162 in patients with long-term venous access catheter thrombotic occlusion</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Thromb. Thrombolysis</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="1" to="5" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sako</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sawaki</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sakurai</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ito</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yoshizawa</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kondo</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<title level="a">Cloning and expression of the staphylokinase gene of Staphylococcus aureus in Escherichia coli</title>
+		</analytic>
+		<monogr>
+			<title level="j">MGG Mol. Gen. Genet.</title>
+			<imprint>
+				<date when="1983">1983</date>
+				<biblScope unit="volume">190</biblScope>
+				<biblScope unit="page" from="271" to="277" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sako</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Overproduction of staphylokinase in Escherichia coli and its characterization</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Biochem.</title>
+			<imprint>
+				<date when="1985">1985</date>
+				<biblScope unit="volume">149</biblScope>
+				<biblScope unit="page" from="557" to="563" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Behnke</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gerlach</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Cloning and expression in Escherichia coli, Bacillus subtilis, and Streptococcus sanguis of a gene for staphylokinase — a bacterial plasminogen activator</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol. Gen. Genet.</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">210</biblScope>
+				<biblScope unit="page" from="528" to="534" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miele</surname>
+					<forename type="first">R</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Prorok</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Costa</surname>
+					<forename type="first">V</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Castellino</surname>
+					<forename type="first">F</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Glycosylation of asparagine-28 of recombinant staphylokinase with high-mannose-type oligosaccharides results in a protein with highly attenuated plasminogen activator activity</title>
+		</analytic>
+		<monogr>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">274</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Apte-Deshpnade</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mandal</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Soorapaneni</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Prasad</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Padmanabhan</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">High-level expression of non-glycosylated and active staphylokinase from Pichia pastoris</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biotechnol. Lett.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="811" to="817" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Faraji</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ramezani</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sadeghnia</surname>
+					<forename type="first">H</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abnous</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Soltani</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mashkani</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">High- level expression of a biologically active staphylokinase in Pichia pastoris</title>
+		</analytic>
+		<monogr>
+			<title level="j">Prep. Biochem. Biotechnol.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">47</biblScope>
+				<biblScope unit="page" from="379" to="387" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Glaser</surname>
+					<forename type="first">C</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Andrews</surname>
+					<forename type="first">W</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Light</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Glaser</surname>
+					<forename type="first">C</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morser</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Clarke</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Blasko</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mclean</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuhn</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename>R-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>J-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vilander</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Andrews</surname>
+					<forename type="first">W</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Oxidation of a specific methionine in thrombomodulin by activated neutrophil products blocks cofactor activity. A potential rapid mechanism for modulation of coagulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Clin. Investig.</title>
+			<imprint>
+				<date when="1992">1992</date>
+				<biblScope unit="volume">90</biblScope>
+				<biblScope unit="page" from="2565" to="2573" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Szarka</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sihota EG</surname>
+					<forename type="first">W</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Staphylokinase as a plasminogen activator component in recombinant fusion proteins</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Environ. Microbiol.</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">65</biblScope>
+				<biblScope unit="page" from="506" to="513" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Van Zyl</surname>
+					<forename type="first">W</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pretorius</surname>
+					<forename type="first">G</forename><forename type="middle">H</forename><forename type="last">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lamprecht</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roodt</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kotzé</surname>
+					<forename type="first">H</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">PLATSAK, a potent antithrombotic and fibrinolytic protein, inhibits arterial and venous thrombosis in a baboon model</title>
+		</analytic>
+		<monogr>
+			<title level="j">Thromb. Res.</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">98</biblScope>
+				<biblScope unit="page" from="435" to="443" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Icke</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schlott</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ohlenschl</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hartmann</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Glusa</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Fusion proteins with anticoagulant and fibrinolytic properties: functional studies and structural considerations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol. Pharmacol.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">62</biblScope>
+				<biblScope unit="page" from="203" to="209" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wirsching</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Luge</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schwienhorst</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Modular design of a novel chimeric protein with combined thrombin inhibitory activity and plasminogen-activating potential</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol. Genet. Metab.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">75</biblScope>
+				<biblScope unit="page" from="250" to="259" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b54">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lian</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Szarka</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ng</surname>
+					<forename type="first">K</forename><forename type="middle">K</forename><forename type="last">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wong</surname>
+					<forename>S-L</forename>
+				</persName>
+			</author>
+			<title level="a">Engineering of a staphylokinase-based fibrinolytic agent with antithrombotic activity and targeting capability toward thrombin-rich fibrin and plasma clots*</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">278</biblScope>
+				<biblScope unit="page" from="26677" to="26686" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Szemraj</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Walkowiak</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kawecka</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Janiszewska</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">A new recombinant thrombolytic and antithrombotic agent with higher fibrin affinity - a staphylokinase variant - an in-vivo study</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Thromb. Haemost.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page" from="2156" to="2165" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Locally activity-released bifunctional fusion protein enhances antithrombosis and alleviates bleeding risk</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Thromb. Thrombolysis</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="283" to="292" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kowalski</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brown</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bieniasz</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oszajca</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Cloning and expression of a new recombinant thrombolytic and anthithrombotic agent - a staphylokinase variant</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Biochim. Pol.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">56</biblScope>
+				<biblScope unit="page" from="41" to="53" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b58">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Szemraj</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zakrzeska</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brown</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stankiewicz</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gromotowicz</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">New derivative of staphylokinase SAK-RGD-K2-Hirul exerts thrombolytic effects in the arterial thrombosis model in rats</title>
+		</analytic>
+		<monogr>
+			<title level="j">Pharmacol. Rep.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">63</biblScope>
+				<biblScope unit="page" from="1169" to="1179" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b59">
+		<analytic>
+			<author>
+				<persName>
+					<surname>CHIOU</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>WOON</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>CHENG</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>HSU</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>CHERNG</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Staphylokinase-annexin XI chimera exhibited efficient in vitro thrombolytic activities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biosci. Biotechnol. Biochem.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">71</biblScope>
+				<biblScope unit="page" from="1122" to="1129" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b60">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pulicherla</surname>
+					<forename type="first">K</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seetharam</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rekha</surname>
+					<forename type="first">V</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Cloning and high level expression of recombinant heterologous fusion protein SAK RGD in methanol inducible Pichia pastoris GS115</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Res. Pharm. Biomed. Sci.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page" from="1008" to="1013" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b61">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schulman</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Advantages and limitations of the new anticoagulants</title>
+		</analytic>
+		<monogr>
+			<title level="j">Intern. Med.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">275</biblScope>
+				<biblScope unit="page" from="1" to="11" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b62">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mekaj</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mekaj</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Duci</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Miftari</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">New oral anticoagulants: their advantages and disadvantages compared with vitamin K antagonists in the prevention and treatment of patients with thromboembolic events</title>
+		</analytic>
+		<monogr>
+			<title level="j">Therapeut. Clin. Risk Manag.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="967" to="967" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b63">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cherubini</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carrieri</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marinelli</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Advantages and disadvantages of direct oral anticoagulants in older patients</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geriatr. Care</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="7227" to="7229" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b64">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Michelson</surname>
+					<forename type="first">A</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Antiplatelet therapies for the treatment of cardiovascular disease</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Rev. Drug Discov.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="154" to="169" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b65">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yeung</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holinstat</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Newer agents in antiplatelet therapy-:a review</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Blood Med.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">2012</biblScope>
+				<biblScope unit="page" from="33" to="42" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b66">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mauri</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kereiakes</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yeh</surname>
+					<forename type="first">R</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Driscoll-Shempp</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cutlip</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Steg</surname>
+					<forename type="first">P</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Normand</surname>
+					<forename type="first">S-L</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braunwald</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wiviott</surname>
+					<forename type="first">S</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cohen</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holmes</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krucoff</surname>
+					<forename type="first">M</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hermiller</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dauerman</surname>
+					<forename type="first">H</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Simon</surname>
+					<forename type="first">D</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kandzari</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Garratt</surname>
+					<forename type="first">K</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">D</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pow</surname>
+					<forename type="first">T</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ver Lee</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rinaldi</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Massaro</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Twelve or 30 Months of dual antiplatelet therapy after drug-eluting stents</title>
+		</analytic>
+		<monogr>
+			<title level="j">NEJM.Org. N Engl J Med.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="2155" to="2166" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b67">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pooria</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Teimouri</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheraghi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baharvand Ahmadi</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Namdari</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alipoor</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Professor</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Comparison of postoperative bleeding in patients undergoing coronary artery bypass surgery in two groups taking aspirin and aspirin plus CLS clopidogrel</title>
+		</analytic>
+		<monogr>
+			<title level="j">WORLD Fam. Med. EAST J. Fam. Med.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="17" to="23" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b68">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gremmel</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Michelson</surname>
+					<forename type="first">A</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Frelinger</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhatt</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Novel aspects of antiplatelet therapy in cardiovascular disease</title>
+		</analytic>
+		<monogr>
+			<title level="j">Res. Pract. Thromb. Haemost.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="439" to="449" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b69">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Maheshwari</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kantipudi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maheshwari</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arora</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vandana</surname>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kwatra</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sahni</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Amino-terminal fusion of epidermal growth factor 4,5,6 domains of human thrombomodulin on streptokinase confers anti-reocclusion characteristics along with plasmin-mediated clot specificity</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="1" to="22" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b70">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Loy</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename type="first">X</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Crystal structure of the catalytic domain of human plasmin complexed with streptokinase</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">281</biblScope>
+				<biblScope unit="page" from="1662" to="1665" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b71">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rabijns</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>De Bondt</surname>
+					<forename type="first">H</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>De Ranter</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Three-dimensional structure of staphylokinase, a plasminogen activator with therapeutic potential</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Struct. Mol. Biol.</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="357" to="360" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b72">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Qureshi</surname>
+					<forename type="first">A</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Siddiqui</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename type="first">S</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hanel</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xavier</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kirmani</surname>
+					<forename type="first">J</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fareed</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Suri</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boulos</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hopkins</surname>
+					<forename type="first">L</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<title level="a">Reocclusion of recanalized arteries during intra-arterial thrombolysis for acute ischemic stroke</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am. J. Neuroradiol.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="322" to="328" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b73">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rubiera</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alvarez-Sabín</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ribo</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Montaner</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santamarina</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arenillas</surname>
+					<forename type="first">J</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huertas</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Delgado</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Purroy</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Molina</surname>
+					<forename type="first">C</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Predictors of early arterial reocclusion after Tissue plasminogen activator-induced recanalization in acute ischemic stroke</title>
+		</analytic>
+		<monogr>
+			<title level="j">Stroke</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">36</biblScope>
+				<biblScope unit="page" from="1452" to="1456" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b74">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Janjua</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alkawi</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Suri</surname>
+					<forename type="first">M</forename><forename type="middle">F</forename><forename type="last">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qureshi</surname>
+					<forename type="first">A</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Impact of arterial reocclusion and distal fragmentation during thrombolysis among patients with acute ischemic stroke</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am. J. Neuroradiol.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="253" to="258" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	</listBibl>
+
+	</back>
+	</text>
+</TEI>

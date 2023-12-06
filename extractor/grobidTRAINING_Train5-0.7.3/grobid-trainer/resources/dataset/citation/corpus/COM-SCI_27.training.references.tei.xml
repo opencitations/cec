@@ -1,0 +1,1332 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="standard" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename>Martín</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ashish</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Paul</forename><surname>Barham</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Eugene</forename><surname>Brevdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Zhifeng</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Craig</forename><surname>Citro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Andy</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jeffrey</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matthieu</forename><surname>Devin</surname></persName>
+		</author>
+		<title level="m">TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems</title>
+		<imprint>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>Robert</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>David</forename><surname>Gallup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">T</forename><surname>Barron</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Janne</forename><surname>Kontkanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Noah</forename><surname>Snavely</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Carlos</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Sameer</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">M</forename><surname>Seitz</surname></persName>
+		</author>
+		<title level="a">Jump: Virtual Reality Video</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>Chris</forename><surname>Buehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Bosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Leonard</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Steven</forename><surname>Gortler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="a">Unstructured Lumigraph Rendering</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jin-Xiang</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Xin</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Sing-Chow</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Heung-Yeung</forename><surname>Shum</surname></persName>
+		</author>
+		<title level="a">Plenoptic Sampling</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="aarticle" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>Gaurav</forename><surname>Chaurasia</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Sylvain</forename><surname>Duchêne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Olga</forename><surname>Sorkine-Hornung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>George</forename><surname>Drettakis</surname></persName>
+		</author>
+		<title level="a">Depth Synthesis and Local Warps for Plausible Image-based Navigation</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>Qifeng</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Vladlen</forename><surname>Koltun</surname></persName>
+		</author>
+		<title level="a">Photographic Image Synthesis With Cascaded Refinement Networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">ICCV</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>Eric</forename><surname>Shenchang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Lance</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Williams</surname></persName>
+		</author>
+		<title level="a">View Interpolation for Image Synthesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1993">1993</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>Abe</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Levoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fredo</forename><surname>Durand</surname></persName>
+		</author>
+		<title level="a">Unstructured Light Fields</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Graphics Forum</title>
+		<imprint>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>Paul</forename><surname>Debevec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camillo</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jitendra</forename><surname>Malik</surname></persName>
+		</author>
+		<title level="a">Modeling and Rendering Architecture from Photographs: A Hybrid Geometry-and Image-Based Approach</title>
+	</analytic>
+	
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>Piotr</forename><surname>Didyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pitchaya</forename><surname>Sitthi-Amorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">T</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fredo</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Wojciech</forename><surname>Matusik</surname></persName>
+		</author>
+		<title level="a">3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion</title>
+	</analytic>
+	
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>John</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ivan</forename><surname>Neulander</surname></persName>
+		</author>
+		<author>
+			<persName><forename>James</forename><surname>Philbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Noah</forename><surname>Snavely</surname></persName>
+		</author>
+		<title level="a">DeepStereo: Learning to Predict New Views From the World's Imagery</title>
+	</analytic>
+	
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Gortler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Radek</forename><surname>Grzeszczuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">F</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="a">The Lumigraph</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Hedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Suhib</forename><surname>Alsisan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Johannes</forename><surname>Kopf</surname></persName>
+		</author>
+		<title level="a">Casual 3D Photography</title>
+	</analytic>
+	
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Hedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Johannes</forename><surname>Kopf</surname></persName>
+		</author>
+		<title level="a">Instant 3D Photography</title>
+	</analytic>
+
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Hedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Julien</forename><surname>Philip</surname></persName>
+		</author>
+		<author>
+			<persName><forename>True</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jan-Michael</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>George</forename><surname>Drettakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Gabriel</forename><surname>Brostow</surname></persName>
+		</author>
+		<title level="a">Deep Blending for Free-Viewpoint Image-Based Rendering</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>Peter</forename><surname>Hedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tobias</forename><surname>Ritschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>George</forename><surname>Drettakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Gabriel</forename><surname>Brostow</surname></persName>
+		</author>
+		<title level="a">Scalable Inside-Out Image-Based Rendering</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>Po-Han</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kevin</forename><surname>Matzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Johannes</forename><surname>Kopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Narendra</forename><surname>Ahuja</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jia-Bin</forename><surname>Huang</surname></persName>
+		</author>
+		<title level="a">DeepMVS: Learning Multi-View Stereopsis</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Nima</forename><surname>Khademi Kalantari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ting-Chun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ravi</forename><surname>Ramamoorthi</surname></persName>
+		</author>
+		<title level="a">Learning-Based View Synthesis for Light Field Cameras</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>Michael</forename><surname>Kazhdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Hugues</forename><surname>Hoppe</surname></persName>
+		</author>
+		<title level="a">Screened Poisson Surface Reconstruction</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>Petr</forename><surname>Kellnhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Piotr</forename><surname>Didyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Szu-Po</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pitchaya</forename><surname>Sitthi-Amorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>William</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fredo</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Wojciech</forename><surname>Matusik</surname></persName>
+		</author>
+		<title level="a">3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>Alex</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Hayk</forename><surname>Martirosyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Saumitro</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Peter</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ryan</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Abraham</forename><surname>Bachrach</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Adam</forename><surname>Bry</surname></persName>
+		</author>
+		<title level="a">End-to-End Learning of Geometry and Context for Deep Stereo Regression</title>
+	</analytic>
+	<monogr>
+		<title level="j">ICCV</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Diederik</forename><forename type="middle">P</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jimmy</forename><surname>Ba</surname></persName>
+		</author>
+		<title level="a">Adam: A Method for Stochastic Optimization</title>
+	</analytic>
+	<monogr>
+		<title level="j">ICLR</title>
+		<imprint>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>Johannes</forename><surname>Kopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fabian</forename><surname>Langguth</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Daniel</forename><surname>Scharstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Goesele</surname></persName>
+		</author>
+		<title level="a">Image-Based Rendering in the Gradient Domain</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		<author>
+			<persName><forename>Philippe</forename><surname>Lacroute</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Levoy</surname></persName>
+		</author>
+		<title level="a">Fast Volume Rendering Using a Shear-Warp Factorization of the Viewing Transformation</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		<author>
+			<persName><forename>Douglas</forename><surname>Lanman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ramesh</forename><surname>Raskar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Amit</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Gabriel</forename><surname>Taubin</surname></persName>
+		</author>
+		<title level="a">Shield Fields: Modeling and Capturing 3D Occluders</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jimmy</forename><surname>Lei Ba</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jamie</forename><surname>Ryan Kiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+		<title level="a">Layer Normalization</title>
+	</analytic>
+	<monogr>
+		<title level="j">arXiv:1607.06450</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>Marc</forename><surname>Levoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pat</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<title level="a">Light Field Rendering</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>Leonard</forename><surname>McMillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Gary</forename><surname>Bishop</surname></persName>
+		</author>
+		<title level="a">Plenoptic Modeling: An Image-Based Rendering System</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>Rodrigo</forename><surname>Ortiz-Cayon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Abdelaziz</forename><surname>Djelouah</surname></persName>
+		</author>
+		<author>
+			<persName><forename>George</forename><surname>Drettakis</surname></persName>
+		</author>
+		<title level="a">A Bayesian Approach for Selective Image-Based Rendering using Superpixels</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Conference on 3D Vision (3DV)</title>
+		<imprint>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Ryan</forename><forename type="middle">S</forename><surname>Overbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Daniel</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Daniel</forename><surname>Evangelakos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matt</forename><surname>Pharr</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Paul</forename><surname>Debevec</surname></persName>
+		</author>
+		<title level="a">A System for Acquiring, Processing, and Rendering Panoramic Light Field Stills for Virtual Reality</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>Eric</forename><surname>Penner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Li</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">Soft 3D Reconstruction for View Synthesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH Asia</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>Thomas</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tom</forename><surname>Duff</surname></persName>
+		</author>
+		<title level="a">Compositing Digital Images</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1984">1984</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>Weichao</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fangwei</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yi</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Siyuan</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Zihao</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tae</forename><surname>Soo Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yizhou</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Alan</forename><surname>Yuille</surname></persName>
+		</author>
+		<title level="a">UnrealCV: Virtual Worlds for Computer Vision</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Multimedia Open Source Software Competition</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>Johannes</forename><surname>Lutz Schönberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jan-Michael</forename><surname>Frahm</surname></persName>
+		</author>
+		<title level="a">Structure-from-Motion Revisited</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>Johannes</forename><surname>Lutz Schönberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Enliang</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Pollefeys</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jan-Michael</forename><surname>Frahm</surname></persName>
+		</author>
+		<title level="a">Pixelwise View Selection for Unstructured Multi-View Stereo</title>
+	</analytic>
+	<monogr>
+		<title level="j">ECCV</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jonathan</forename><surname>Shade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Gortler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Li</forename><surname>Wei He</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<title level="a">Layered depth images</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>Heung-Yeung</forename><surname>Shum</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Bing</forename><surname>Sing Kang</surname></persName>
+		</author>
+		<title level="a">A Review of Image-Based Rendering Techniques</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of Visual Communications and Image Processing</title>
+		<imprint>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>Sudipta</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Johannes</forename><surname>Kopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Goesele</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Daniel</forename><surname>Scharstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<title level="a">Image-Based Rendering for Scenes with Reflections</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>Shuran</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fisher</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Andy</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angel</forename><forename type="middle">X</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Manolis</forename><surname>Savva</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Thomas</forename><surname>Funkhouser</surname></persName>
+		</author>
+		<title level="a">Semantic Scene Completion from a Single Depth Image</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Pratul</forename><forename type="middle">P</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tongzhou</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ashwin</forename><surname>Sreelal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ravi</forename><surname>Ramamoorthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ren</forename><surname>Ng</surname></persName>
+		</author>
+		<title level="a">Learning to Synthesize a 4D RGBD Light Field from a Single Image</title>
+	</analytic>
+	<monogr>
+		<title level="j">ICCV</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>Rahul</forename><surname>Swaminathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Sing</forename><surname>Bing Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Szeliski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Antonio</forename><surname>Criminisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shree</forename><forename type="middle">K</forename><surname>Nayar</surname></persName>
+		</author>
+		<title level="a">On the Motion and Appearance of Specularities in Image Sequences</title>
+	</analytic>
+	<monogr>
+		<title level="j">ECCV</title>
+		<imprint>
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>Gordon</forename><surname>Wetzstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Douglas</forename><surname>Lanman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Wolfgang</forename><surname>Heidrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ramesh</forename><surname>Raskar</surname></persName>
+		</author>
+		<title level="a">Layered 3D: Tomographic Image Synthesis for Attenuation-based Light Field and High Dynamic Range Displays</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>Gordon</forename><surname>Wetzstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Douglas</forename><surname>Lanman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matthew</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ramesh</forename><surname>Raskar</surname></persName>
+		</author>
+		<title level="a">Tensor Displays: Compressive Light Field Synthesis using Multilayer Displays with Directional Backlighting</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>Bennett</forename><surname>Wilburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Neel</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Vaibhav</forename><surname>Vaish</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Eino-Ville</forename><surname>Talvala</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Emilio</forename><surname>Antunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Adam</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Andrew</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Levoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mark</forename><surname>Horowitz</surname></persName>
+		</author>
+		<title level="a">High Performance Imaging Using Large Camera Arrays</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">N</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">I</forename><surname>Azuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ken</forename><surname>Aldinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Brian</forename><surname>Curless</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tom</forename><surname>Duchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">H</forename><surname>Salesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Werner</forename><surname>Stuetzle</surname></persName>
+		</author>
+		<title level="a">Surface Light Fields for 3D Photography</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>Gaochang</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mandan</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Liangyong</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Qionghai</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tianyou</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yebin</forename><surname>Liu</surname></persName>
+		</author>
+		<title level="a">Light Field Reconstruction Using Deep Convolutional Network on EPI</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>Henry</forename><surname>Wing Fung Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Junhui</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jie</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yuk</forename><surname>Ying Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Xiaoming</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yebin</forename><surname>Liu</surname></persName>
+		</author>
+		<title level="a">Fast Light Field Reconstruction with Deep Coarse-to-Fine Modeling of Spatial-Angular Clues</title>
+	</analytic>
+	<monogr>
+		<title level="j">ECCV</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename>Cha</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tsuhan</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Spectral Analysis for Sampling Image-Based Rendering Data</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Circuits and Systems for Video Technology</title>
+		<imprint>
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename>Richard</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Phillip</forename><surname>Isola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><forename type="middle">A</forename><surname>Efros</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Eli</forename><surname>Shechtman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Oliver</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">The Unreasonable Effectiveness of Deep Features as a Perceptual Metric</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>Zhoutong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yebin</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Qionghai</forename><surname>Dai</surname></persName>
+		</author>
+		<title level="a">Light Field from Micro-Baseline Image Pair</title>
+	</analytic>
+	<monogr>
+		<title level="j">CVPR</title>
+		<imprint>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		<author>
+			<persName><forename>Tinghui</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Richard</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename>John</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Graham</forename><surname>Fyffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Noah</forename><surname>Snavely</surname></persName>
+		</author>
+		<title level="a">Stereo Magnification: Learning View Synthesis using Multiplane Images</title>
+	</analytic>
+	<monogr>
+		<title level="j">SIGGRAPH</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

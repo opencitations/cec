@@ -1,0 +1,998 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bowers</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vaidya</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lloyd-Jones</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Softwood hydrolysate as a carbon source for polyhydroxyalkanoate production</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Chem Technol Biotechnol</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">89</biblScope>
+				<biblScope unit="page" from="1030" to="1037" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cavalheiro</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raposo</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Almeida</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename><forename type="middle">M</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cesàrio</surname>
+					<forename type="first">M</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sevrin</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grandfils</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>da Fonseca</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">R</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of cultivation parameters on the production of poly(3-hydroxybutyrate-co-4-hydroxybutyrate) and poly(3-hydroxybutyrate-4-hydroxybutyrate-3-hydroxyvalerate) by Cupriavidus necator using waste glycerol</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioresour Technol</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">111</biblScope>
+				<biblScope unit="page" from="391" to="397" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cesàrio</surname>
+					<forename type="first">M</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Almeida</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename><forename type="middle">M</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<title level="a">Lignocellulosic hydrolysates for the production of polyhydroxyalkanoates</title>
+		</analytic>
+		<monogr>
+			<title level="m">Kamm B (ed) Microorganisms in biorefineries</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<pubPlace>Berlin</pubPlace>
+				<date when="2015">2015</date>
+				<biblScope unit="page" from="79" to="104" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cesàrio</surname>
+					<forename type="first">M</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raposo</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Almeida</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename><forename type="middle">M</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>van Keulen</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferreira</surname>
+					<forename type="first">B</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>da Fonseca</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">R</forename>
+				</persName>
+			</author>
+			<title level="a">Enhanced bioproduction of poly-3-hydroxybutyrate from wheat straw lignocellulosic hydrolysates</title>
+		</analytic>
+		<monogr>
+			<title level="j">New Biotechnol</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="104" to="113" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="series" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>G-Q</forename>
+				</persName>
+			</author>
+			<title level="a">Industrial production of PHA</title>
+			<idno type="DOI">https://doi.org/10.1007/978-3-642-03287-5_6</idno>
+		</analytic>
+		<monogr>
+			<editor>
+				<persName>
+					<surname>Chen</surname>
+					<forename>G-Q</forename>
+				</persName>
+			</editor>
+			<title level="m">Plastics from bacteria: natural functions and applications</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="2010">2010</date>
+				<biblScope unit="page" from="121" />
+			</imprint>
+		</monogr>
+		<series>
+			<title level="s">Microbiology monographs</title>
+			<biblScope unit="volume">14</biblScope>
+		</series>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Clements</surname>
+					<forename type="first">L</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Dyne</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">The lignocellulosic biorefinery—a strategy for returning to a sustainable source of fuels and industrial organic chemicals</title>
+		</analytic>
+		<monogr>
+			<title level="m">Biorefineries—industrial processes and products</title>
+			<editor>
+				<persName>
+					<surname>Kamm</surname>
+					<forename>B</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Gruber</surname>
+					<forename type="first">P</forename><forename type="middle">R</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Kamm</surname>
+					<forename>M</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Wiley</publisher>
+				<pubPlace>Weinheim</pubPlace>
+				<date when="2008">2008</date>
+				<biblScope unit="page" from="115" to="128" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dietrich</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dumont</surname>
+					<forename>M-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Del Rio</surname>
+					<forename type="first">L</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Orsat</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Producing PHAs in the bioeconomy towards a sustainable bioplastic</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sustain Prod Consum</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="58" to="70" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dietrich</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dumont</surname>
+					<forename>M-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schwinghamer</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Del Rio</surname>
+					<forename type="first">L</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Orsat</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Model study to assess softwood hemicellulose hydrolysates as the carbon source for PHB production in Paraburkholderia sacchari IPT 101</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomacromolecules</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="188" to="200" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b8">
+		<monogr>
+			<author>European Bioplastics</author>
+			<title level="m">Bioplastics market data</title>
+			<ref target="http://www.european-bioplastics.org">http://www.european-bioplastics.org</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fatehi</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ni</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Integrated forest biorefinery—prehydrolysis/dissolving pulping process</title>
+		</analytic>
+		<monogr>
+			<title level="m">Sustainable production of fuels, chemicals, and fibers from forest biomass</title>
+			<editor>
+				<persName>
+					<surname>Zhu</surname>
+					<forename type="first">J</forename><forename type="middle">Y</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>X</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Pan</surname>
+					<forename type="first">X</forename><forename type="middle">J</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>American Chemical Society</publisher>
+				<pubPlace>Washington</pubPlace>
+				<date when="2011">2011</date>
+				<biblScope unit="page" from="475" to="506" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Geyer</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jambeck</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Law</surname>
+					<forename type="first">K</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Production, use, and fate of all plastics ever made</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci Adv</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page" from="1" to="5" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gìrio</surname>
+					<forename type="first">F</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fonseca</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carvalheiro</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Duarte</surname>
+					<forename type="first">L</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marques</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bogel-Łukasik</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Hemicelluloses for fuel ethanol: a review</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioresour Technol</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">101</biblScope>
+				<biblScope unit="page" from="4775" to="4800" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jönsson</surname>
+					<forename type="first">L</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martín</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Pretreatment of lignocellulose: formation of inhibitory by-products and strategies for minimizing their effects</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioresour Technol</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">199</biblScope>
+				<biblScope unit="page" from="103" to="112" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename type="first">B</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">S</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename type="first">H</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename type="first">Y</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Woo</surname>
+					<forename type="first">S</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Production of poly(3-hydroxybutyric acid) by fedbatch culture of Alcaligenes eutrophus with glucose concentration control</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biotechnol Bioeng</title>
+			<imprint>
+				<date when="1994">1994</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="892" to="898" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Koller</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dias</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rodriguez-Contreras</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kunaver</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zagar</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krzan</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braunegg</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Liquefied wood as inexpensive precursor-feedstock for bio-mediated incorporation of (R)-3-hydroxyvalerate into polyhydroxyalkanoates.</title>
+		</analytic>
+		<monogr>
+			<title level="j">Materials</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="6543" to="6557" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Koller</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marsálek</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Sousa Dias</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braunegg</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Producing microbial polyhydroxyalkanoate (PHA) biopolyesters in a sustainable manner</title>
+		</analytic>
+		<monogr>
+			<title level="j">New Biotechnol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">37</biblScope>
+				<biblScope unit="page" from="24" to="38" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kucera</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Benesova</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ladicky</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pekar</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sedlacek</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Obruca</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Production of polyhydroxyalkanoates using hydrolyzates of spruce sawdust: comparison of hydrolyzates detoxification by application of overliming, active carbon, and lignite</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioengineering</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="53" to="53" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barrett</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Delwiche</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stroeve</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Methods for pretreatment of lignocellulosic biomass for efficient hydrolysis and biofuel production</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ind Eng Chem Res</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">48</biblScope>
+				<biblScope unit="page" from="3713" to="3729" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b18">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Lehninger</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nelson</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cox</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Lehninger principles of biochemistry</title>
+			<imprint>
+				<publisher>Freeman</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mao</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Del Rio</surname>
+					<forename type="first">L</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wafa Al Dajani</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wong</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Browne</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">FPInnovations’ TMP-bio for lignocel- lulosic biomass: current state and scaling up</title>
+		</analytic>
+		<monogr>
+			<title level="m">The 6th Nordic wood biorefinery conference</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Raposo</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Almeida</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename><forename type="middle">M</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Oliveira</surname>
+					<forename type="first">M</forename><forename type="middle">dC</forename><forename type="middle">M</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>da Fonseca</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cesàrio</surname>
+					<forename type="first">M</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">A Burkholderia sacchari cell factory: production of poly-3-hydroxybutyrate, xylitol and xylonic acid from xylose-rich sugar mixtures</title>
+		</analytic>
+		<monogr>
+			<title level="j">New Biotechnol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="12" to="22" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Silva</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tobella</surname>
+					<forename type="first">L</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Becerra</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Godoy</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martínez</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Biosynthesis of poly-b-hydroxyalkanoate by Brevundimonas vesicularis LMG P-23615 and Sphingopyxis macrogoltabida LMG 17324 using acid-hydrolyzed saw-dust as carbon source</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Biosci Bioeng</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">103</biblScope>
+				<biblScope unit="page" from="542" to="546" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Singleton</surname>
+					<forename type="first">V</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Orthofer</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lamuela-Raventós</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Analysis of total phenols and other oxidation substrates and antioxidants by means of folin-ciocalteu reagent</title>
+		</analytic>
+		<monogr>
+			<title level="m">Methods in enzymology</title>
+			<editor>
+				<persName>
+					<surname>Packer</surname>
+					<forename>L</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Elsevier</publisher>
+				<pubPlace>Amsterdam</pubPlace>
+				<date when="1999">1999</date>
+				<biblScope unit="page" from="152" to="178" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b23">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Sjöström</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alén</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="m">Analytical methods in wood chemistry, pulping, and papermaking</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<pubPlace>Berlin</pubPlace>
+				<date when="1999">1999</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b24">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Wafa Al Dajani</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mao</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Browne</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="m">Fermentation of TMP-bio process sugar hydrolysate to produce lactic acid</title>
+			<imprint>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

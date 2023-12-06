@@ -1,0 +1,1190 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Chua</surname></persName>
+		</author>
+		<title level="a">Memristor-The missing circuit element</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Circuit Theory</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="507" to="519" />
+			<date when="1971">1971</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kang</surname></persName>
+		</author>
+		<title level="a">Memristive devices and systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the IEEE</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="223" />
+			<date when="1976">1976</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Tseng</surname></persName>
+		</author>
+		<title level="a">A memristive circuit model for p-n junction diodes</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Circuit Theory and Applications</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="389" />
+			<date when="1974">1974</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Strukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Snider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Stanley</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="a">The missing memristor found</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="80" to="83" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">HyuHn</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Ebong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Bhadviya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Lu</surname></persName>
+		</author>
+		<title level="a">Nanoscale Memristor Device as Synapse in Neuromorphic Systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1297" to="1301" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Sana</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Bioengineered Tunable Memristor Based on Protein Nanocage</title>
+	</analytic>
+	<monogr>
+		<title level="j">Small</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="277" to="283" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Chua</surname></persName>
+		</author>
+		<title level="a">Memristor Bridge Synapse-Based Neural Network and Its Learning</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Neural Networks and Learning Systems</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1426" to="1435" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Joglekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wolf</surname></persName>
+		</author>
+		<title level="a">The elusive memristor: properties of basic electrical circuits</title>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Physics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="661" to="675" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Xu</surname></persName>
+		</author>
+		<title level="a">Compound synchronization of four memristor chaotic oscillator systems and secure communication</title>
+	</analytic>
+	<monogr>
+		<title level="j">Chaos: An Interdisciplinary Journal of Nonlinear Science</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Article ID 013140</note>
+</bibl>
+
+<bibl type="proceeding" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Yang</surname></persName>
+		</author>
+		<title level="a">Training itself: Mixed-signal training acceleration for memristor-based neural network</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Asia and South Pacific Design Automation Conference (ASP-DAC)</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<biblScope unit="page" from="361" to="366" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Liu</surname></persName>
+		</author>
+		<title level="a">Multilayer RTD-memristor-based cellular neural networks for color image processing</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="150" to="162" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Jiang</surname></persName>
+		</author>
+		<title level="a">GST-memristor-based online learning neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="677" to="682" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yang</surname></persName>
+		</author>
+		<title level="a">Adaptive synchronization of memristor-based BAM neural networks with mixed delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematics and Computation</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="100" to="110" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Fixed-time synchronization of delayed memristor-based recurrent neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Science China Information Sciences</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Article ID 032201</note>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Huang</surname></persName>
+		</author>
+		<title level="a">Global exponential synchronization of memristor-based recurrent neural networks with time-varying delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+	
+		<author>
+			<persName><forename>Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wang</surname></persName>
+		</author>
+			<title level="a">Robust Finite-Time Stabilization of Fractional-Order Neural Networks With Discontinuous and Continuous Activation Functions Under Uncertainty</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Neural Networks and Learning Systems</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1477" to="1490" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">New results on passivity of fractional-order uncertain neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="51" to="59" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Tenreiro Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Yang</surname></persName>
+		</author>
+		<title level="a">Stability and synchronization of fractional-order memristive neural networks with multiple delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="76" to="85" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Yan</surname></persName>
+		</author>
+		<title level="a">Stability analysis of memristor-based time-delay fractional-order neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+	
+		<author>
+			<persName><forename>A</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+			<title level="a">Global Mittag–Leffler Stabilization of Fractional-Order Memristive Neural Networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Neural Networks and Learning Systems</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="206" to="217" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Velmurugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Rakkiyappan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jinde</forename><surname>Cao</surname></persName>
+		</author>
+		<title level="a">Finite-time synchronization of fractional-order memristor-based neural networks with time delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="36" to="46" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Kurths</surname></persName>
+		</author>
+		<title level="a">State estimation of fractional-order delayed memristive neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1215" to="1225" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Kurths</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Alsaedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Ahmad</surname></persName>
+		</author>
+		<title level="a">H∞ state estimation of stochastic memristor-based neural networks with time-varying delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="79" to="91" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Pecora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Carroll</surname></persName>
+		</author>
+		<title level="a">Synchronization in chaotic systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="821" to="824" />
+			<date when="1990">1990</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Jiang</surname></persName>
+		</author>
+		<title level="a">Global Mittag-Leffler stability and synchronization of memristor-based fractional-order neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Razminia</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Baleanu</surname></persName>
+		</author>
+		<title level="a">Complete synchronization of commensurate fractional order chaotic systems using sliding mode control</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mechatronics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="873" to="879" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cao</surname></persName>
+		</author>
+		<title level="a">Synchronization analysis of fractional-order three-neuron BAM neural networks with multiple time delays</title>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematics and Computation</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="441" to="450" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y T</forename><surname>Leung</surname></persName>
+		</author>
+		<title level="a">Anti-synchronization between identical and non-identical fractional-order chaotic systems using active control method</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="905" to="914" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<title level="a">Lag projective synchronization in fractional-order chaotic (hyperchaotic) systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Physics Letters A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="2099" to="2110" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Lag synchronization for fractional-order memristive neural networks via period intermittent control</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="367" to="381" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Martínez-Guerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mata-Machuca</surname></persName>
+		</author>
+		<title level="a">Fractional generalized synchronization in a class of nonlinear fractional order systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1237" to="1244" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>Z</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Shen</surname></persName>
+		</author>
+		<title level="a">Projective synchronization of nonidentical fractional-order neural networks based on sliding mode controller</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="97" to="105" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>H-B</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-D</forename><surname>Cao</surname></persName>
+		</author>
+		<title level="a">Projective synchronization of fractional-order memristor-based neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Fang</surname></persName>
+		</author>
+		<title level="a">Global Mittag-Leffler projective synchronization for fractional-order neural networks: an LMI-based approach</title>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Difference Equations</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Zhao</surname></persName>
+		</author>
+		<title level="a">Finite-time projective synchronization of memristor-based delay fractional-order neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2641" to="2655" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Das</surname></persName>
+		</author>
+		<title level="a">Combination–combination phase synchronization among non-identical fractional order complex chaotic systems via nonlinear control</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Dynamics and Control</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Chandrasekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Rakkiyappan</surname></persName>
+		</author>
+		<title level="a">Impulsive controller design for exponential synchronization of delayed stochastic memristor-based recurrent neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="1348" to="1355" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Improved quasi-synchronization criteria for delayed fractional-order memristor-based neural networks via linear feedback control</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="68" to="79" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cao</surname></persName>
+		</author>
+		<title level="a">Adaptive synchronization of fractional-order memristor-based neural networks with time delay</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1343" to="1354" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y-H</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H-B</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y-P</forename><surname>Luo</surname></persName>
+		</author>
+		<title level="a">An indirect Lyapunov approach to the observer-based robust control for fractional-order complex dynamic networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Podlubny</surname></persName>
+		</author>
+		<title level="a">Other Methods for Solution of Fractional Order Equations</title>
+	</analytic>
+	<monogr>
+		<title level="m">Mathematics in Science and Engineering</title>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+			<date when="1999">1999</date>
+			<biblScope unit="volume">198</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Aguila-Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Duarte-Mermoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gallegos</surname></persName>
+		</author>
+		<title level="a">Lyapunov functions for fractional order systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Communications in Nonlinear Science and Numerical Simulation</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2951" to="2957" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Filippov</surname></persName>
+		</author>
+		<title level="a">Differential equations with discontinuous right- hand side</title>
+	</analytic>
+	<monogr>
+		<title level="m">Control Systems</title>
+		<imprint>
+			<publisher>Kluwer, Dordrecht, The Netherlands</publisher>
+			<date when="1988">1988</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename>C</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Spurgeon</surname></persName>
+		</author>
+		<title level="a">Sliding Mode Control: Theory and Applications</title>
+		<imprint>
+			<publisher>Taylor and Francis</publisher>
+			<pubPlace>London, UK</pubPlace>
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">MohMammad</forename><forename type="middle">P</forename><surname>Aghababa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Khanmohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Alizadeh</surname></persName>
+		</author>
+		<title level="a">Finite-time synchronization of two different chaotic systems with unknown parameters via sliding mode technique</title>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematical Modelling</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3080" to="3091" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Aghababa</surname></persName>
+		</author>
+		<title level="a">A novel terminal sliding mode controller for a class of non-autonomous fractional-order systems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="679" to="688" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

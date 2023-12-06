@@ -1,0 +1,1853 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="software" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Akima</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gebhardt</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="m">akima: Interpolation of irregularly and regularly spaced data</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Alpert</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Neumann</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">An ancient “correlation” between streamflow and distant rainfall in the Near East</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Near Eastern Studies</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">48</biblScope>
+				<biblScope unit="page" from="313" to="314" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bernhardt</surname>
+					<forename type="first">C</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Horton</surname>
+					<forename type="first">B</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stanley</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Nile Delta vegetation response to Holocene climate variability</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geology</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="615" to="618" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b3">
+		<monogr>
+			<title level="m">About Tell Tweini (Syria): Artefacts, ecofacts and landscape: Research results of the Belgian mission</title>
+			<editor>
+				<persName>
+					<surname>Bretschneider</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Jans</surname>
+					<forename>G</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Peeters Publishers</publisher>
+				<pubPlace>Leuven, Netherlands</pubPlace>
+				<date when="2019">2019</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bryson</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lamb</surname>
+					<forename type="first">H</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Donley</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Drought and the decline of Mycenae</title>
+		</analytic>
+		<monogr>
+			<title level="j">Antiquity</title>
+			<imprint>
+				<date when="1974">1974</date>
+				<biblScope unit="volume">48</biblScope>
+				<biblScope unit="page" from="46" to="50" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Büntgen</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<title level="a">Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature Geoscience</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="231" to="236" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b6">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Butzer</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="m">Early Hydraulic Civilization in Egypt: A Study in Cultural Ecology</title>
+			<imprint>
+				<publisher>University of Chicago Press</publisher>
+				<pubPlace>Chicago</pubPlace>
+				<date when="1976">1976</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b7">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Carpenter</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="m">Discontinuity in Greek Civilization</title>
+			<imprint>
+				<publisher>Cambridge University Press</publisher>
+				<pubPlace>Cambridge, UK</pubPlace>
+				<date when="1966">1966</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheddadi</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Khater</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Climate change since the last glacial period in Lebanon and the persistence of Mediterranean species</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Science Reviews</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">150</biblScope>
+				<biblScope unit="page" from="146" to="157" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheddadi</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Araújo</surname>
+					<forename type="first">M</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maiorano</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Edwards</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guisan</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carré</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chevalier</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pearman</surname>
+					<forename type="first">P</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Temperature range shifts for three European tree species over the last 10,000 years</title>
+		</analytic>
+		<monogr>
+			<title level="j">Frontiers in Plant Science</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="1581" to="1581" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheddadi</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Microrefugia, climate change, and conservation of Cedrus atlantica in the Rif Mountains, Morocco</title>
+		</analytic>
+		<monogr>
+			<title level="j">Frontiers in Ecology and Evolution</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="114" to="114" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">The climate variability in northern Levant over the past 20,000 years</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophysical Research Letters</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="8641" to="8650" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="grey-literature" xml:id="b12">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Donlay</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">Analysis of the winter climate pattern at the time of the Mycenaean decline</title>
+			<note>Ph.D. thesis</note>
+			<imprint>
+				<publisher>University of Wisconsin</publisher>
+				<date when="1971">1971</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Elias</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">The mutual climatic range method of palaeoclimate reconstruction based on insect fossils: New applications and interhemispheric comparisons</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Science Reviews</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="1217" to="1225" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Faegri</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Iversen</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<title level="m">Textbook of Pollen Analysis</title>
+			<imprint>
+				<publisher>Wiley</publisher>
+				<pubPlace>London</pubPlace>
+				<date when="1989">1989</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Finné</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holmgren</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>C-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>H-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boyd</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stocker</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Late Bronze Age climate change and the destruction of the Mycenaean Palace of Nestor at Pylos</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page">e0189447</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gilboa</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Fragmenting the Sea Peoples, with an emphasis on Cyprus, Syria and Egypt: A Tel Dor perspective</title>
+		</analytic>
+		<monogr>
+			<title level="j">Scripta Mediterranea</title>
+			<imprint>
+				<date from="2006" to="2007">2006–2007</date>
+				<biblScope unit="volume">27–28</biblScope>
+				<biblScope unit="page" from="209" to="244" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hijmans</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cameron</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parra</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jarvis</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Very high resolution interpolated climate surfaces for global land areas</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Climatology</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="1965" to="1978" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Horne</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">A Mutual Temperature Range method for Quaternary palaeoclimatic analysis using European nonmarine Ostracoda</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Science Reviews</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="1398" to="1415" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jackson</surname>
+					<forename type="first">S</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">J</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Modern analogs in Quaternary paleoecology: Here today, gone yesterday, gone tomorrow</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annual Review of Earth and Planetary Sciences</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">32</biblScope>
+				<biblScope unit="page" from="495" to="537" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b20">
+		<monogr>
+			<title level="m">Atlas Florae Europaeae: Distribution of vascular plants in Europe</title>
+			<editor>
+				<persName>
+					<surname>Jalas</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Suominen</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Committee for Mapping the Flora of Europe and Societas Biologica Fennica</publisher>
+				<pubPlace>Helsinki</pubPlace>
+				<date when="1973">1973</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b21">
+		<monogr>
+			<title level="m">Atlas Florae Europaeae: Distribution of vascular plants in Europe</title>
+			<editor>
+				<persName>
+					<surname>Jalas</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Suominen</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Committee for Mapping the Flora of Europe and Societas Biologica Fennica</publisher>
+				<pubPlace>Helsinki</pubPlace>
+				<date when="1979">1979</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b22">
+		<monogr>
+			<title level="m">Atlas Florae Europaeae: Distribution of vascular plants in Europe</title>
+			<editor>
+				<persName>
+					<surname>Jalas</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Suominen</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Committee for Mapping the Flora of Europe and Societas Biologica Fennica</publisher>
+				<pubPlace>Helsinki</pubPlace>
+				<date when="1980">1980</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Osborn</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Briffa</surname>
+					<forename type="first">K</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">The evolution of climate over the last millennium</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">292</biblScope>
+				<biblScope unit="page" from="662" to="667" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulissen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Al-Maqdissi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bretschneider</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Lerberghe</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Middle East coastal ecosystem response to middle-to-late Holocene abrupt climate changes</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="page" from="13,941" to="13,946" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulissen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bakker</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Lerberghe</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Waelkens</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Wild or cultivated Olea europaea L. in the Eastern Mediterranean during the middle–late Holocene?: A pollen-numerical approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">The Holocene</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="1039" to="1047" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulissen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Otto</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bretschneider</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Lerberghe</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Late second–early first millennium BC abrupt climate changes in coastal Syria and their possible significance for the history of the Eastern Mediterranean</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Research</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">74</biblScope>
+				<biblScope unit="page" from="207" to="215" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulissen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bakker</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rossignol</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Lerberghe</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">The Medieval Climate Anomaly and the Little Ice Age in coastal Syria inferred from pollen-derived palaeoclimatic patterns</title>
+		</analytic>
+		<monogr>
+			<title level="j">Global and Planetary Change</title>
+			<imprint>
+				<date when="2011">2011a</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="178" to="187" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paulissen</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Otto</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bakker</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rossignol</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Lerberghe</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Medieval coastal Syrian vegetation patterns in the principality of Antioch</title>
+		</analytic>
+		<monogr>
+			<title level="j">The Holocene</title>
+			<imprint>
+				<date when="2011">2011b</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="251" to="262" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guiot</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Le Burel</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Otto</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baeteman</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Environmental roots of the Late Bronze Age crisis</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2013">2013a</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page">e71004</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morhange</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guiot</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zviely</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shaked</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Otto</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Artzy</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Early urban impact on Mediterranean coastal environments</title>
+		</analytic>
+		<monogr>
+			<title level="j">Scientific Reports</title>
+			<imprint>
+				<date when="2013">2013b</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page" from="3540" to="3540" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guiot</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Drought and societal collapse 3200 years ago in the Eastern Mediterranean: A review</title>
+		</analytic>
+		<monogr>
+			<title level="j">Wiley Interdisciplinary Reviews: Climate Change</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="369" to="382" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kaniewski</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marriner</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ilan</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morhange</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thareani</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Campo</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Climate change and water management in the biblical city of Dan</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science Advances</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page">e1700954</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b33">
+		<monogr>
+			<title level="m">The Philistines and Other Sea Peoples in Text and Archaeology</title>
+			<editor>
+				<persName>
+					<surname>Killebrew</surname>
+					<forename type="first">A</forename><forename type="middle">E</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Lehmann</surname>
+					<forename>G</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Society of Biblical Literature</publisher>
+				<pubPlace>Atlanta</pubPlace>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Klus</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Prange</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Varma</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tremblay</surname>
+					<forename type="first">L</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schulz</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Abrupt cold events in the North Atlantic Ocean in a transient Holocene simulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Climate of the Past</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="1165" to="1178" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kobashi</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kawamure</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Severinghaus</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barnola</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nakaegawa</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vinther</surname>
+					<forename type="first">B</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Johnsen</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Box</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">High variability of Greenland surface temperature over the past 4000 years estimated from trapped air in an ice core</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophysical Research Letters</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page">L21501</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kühl</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gebhardt</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Litt</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hense</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Probability density functions as botanical-climatological transfer functions for climate reconstruction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Research</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="381" to="392" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Langgut</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Finkelstein</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Litt</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Climate and the Late Bronze collapse: New evidence from the southern Levant</title>
+		</analytic>
+		<monogr>
+			<title level="j">Tel Aviv</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="149" to="175" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Litt</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ohlwein</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Neumann</surname>
+					<forename type="first">F</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hense</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stein</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Holocene climate variability in the Levant from the Dead Sea pollen record</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Science Reviews</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="95" to="105" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Moine</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rousseau</surname>
+					<forename>D-D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jolly</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vianey-Liaud</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Paleoclimatic reconstruction using mutual climatic range on terrestrial mollusks</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Research</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">57</biblScope>
+				<biblScope unit="page" from="162" to="172" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Morley</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rosenthal</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>deMenocal</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Ocean-atmosphere climate shift during the mid-to-late Holocene transition</title>
+		</analytic>
+		<monogr>
+			<title level="j">Earth and Planetary Science Letters</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">388</biblScope>
+				<biblScope unit="page" from="18" to="26" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mosbrugger</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Utescher</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">The coexistence approach—A method for quantitative reconstructions of Tertiary terrestrial palaeoclimate data using plant fossils</title>
+		</analytic>
+		<monogr>
+			<title level="j">Palaeogeography, Palaeoclimatology, Palaeoecology</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">134</biblScope>
+				<biblScope unit="page" from="61" to="86" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Neumann</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Climate change as a topic in the classical Greek and Roman literature</title>
+		</analytic>
+		<monogr>
+			<title level="j">Climatic Change</title>
+			<imprint>
+				<date when="1985">1985</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="441" to="454" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Neumann</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parpola</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Climatic change and the eleventh-tenth-century eclipse of Assyria and Babylonia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Near Eastern Studies</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">46</biblScope>
+				<biblScope unit="page" from="161" to="182" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="online-database" xml:id="b44">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Ooms</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>James</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>DebRoy</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wickham</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Horner</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">RMySQL: Database interface and “MySQL” driver for R</title>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pross</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klotz</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mosbrugger</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Reconstructing palaeotemperatures for the Early and Middle Pleistocene using the mutual climatic range method based on plant fossils</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quaternary Science Reviews</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="1785" to="1799" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="software" xml:id="b46">
+		<monogr>
+			<author>R Core Team</author>
+			<title level="m">The R Project for Statistical Computing</title>
+			<imprint>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schiebel</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Litt</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Holocene vegetation history of the southern Levant based on a pollen record from Lake Kinneret (Sea of Galilee), Israel</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vegetation History and Archaeobotany</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="577" to="590" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b48">
+		<monogr>
+			<title level="m">The Oxford History of Ancient Egypt</title>
+			<editor>
+				<persName>
+					<surname>Shaw</surname>
+					<forename>I</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>New York, Oxford University Press</publisher>
+				<pubPlace>Oxford, UK</pubPlace>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sorrel</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mathis</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Mid- to late-Holocene coastal vegetation patterns in Northern Levant (Tell Sukas, Syria): Olive tree cultivation history and climatic change</title>
+		</analytic>
+		<monogr>
+			<title level="m">The Holocene</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="858" to="873" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Vinther</surname>
+					<forename type="first">B</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Holocene thinning of the Greenland ice sheet</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">461</biblScope>
+				<biblScope unit="page" from="385" to="388" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weiberg</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Finné</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Resilience and persistence of ancient societies in the face of climate change: A case study from Late Bronze Age Peloponnese</title>
+		</analytic>
+		<monogr>
+			<title level="j">World Archaeology</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">50</biblScope>
+				<biblScope unit="page" from="584" to="602" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">The decline of Late Bronze Age civilization as a possible response to climatic change</title>
+		</analytic>
+		<monogr>
+			<title level="j">Climatic Change</title>
+			<imprint>
+				<date when="1982">1982</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="173" to="198" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Global megadrought, societal collapse and resilience at 4.2–3.9 ka BP across the Mediterranean and west Asia</title>
+		</analytic>
+		<monogr>
+			<title level="j">PAGES</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="62" to="63" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b54">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weiss</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Courty</surname>
+					<forename>M-A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wetterstrom</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guichard</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Senior</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meadow</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Curnow</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">The genesis and collapse of 3rd millennium north Mesopotamian civilization</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">261</biblScope>
+				<biblScope unit="page" from="995" to="1004" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yavuz</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Akçar</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schlüchter</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">The frozen Bosphorus and its paleoclimatic implications based on a summary of the historical data</title>
+		</analytic>
+		<monogr>
+			<title level="m">TheBlackSea Flood Question: Changes in Coastline, Climate, and Human Settlement</title>
+			<editor>
+				<persName>
+					<surname>Yanko-Hombach</surname>
+					<forename>V</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Springer</publisher>
+				<pubPlace>Dordrecht</pubPlace>
+				<date when="2007">2007</date>
+				<biblScope unit="page" from="633" to="649" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b56">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Yon</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">The City of Ugarit at Tell Ras Shamra</title>
+			<imprint>
+				<publisher>Eisenbrauns</publisher>
+				<pubPlace>Winona Lake, Indiana</pubPlace>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

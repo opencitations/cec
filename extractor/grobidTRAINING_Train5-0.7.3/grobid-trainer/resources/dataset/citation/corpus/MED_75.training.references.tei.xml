@@ -1,0 +1,1215 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+			<bibl type="article" xml:id="b0">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">Q</forename>
+							<forename type="middle">R</forename>
+							<surname>Huang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Qin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Zhang</surname>
+						</persName>
+					</author>
+					<title level="a">Clinical Patterns of Obstructive Sleep Apnea and Its Comorbid Conditions: A Data Mining Approach</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Sleep Med</title>
+					<imprint>
+						<biblScope unit="volume">4</biblScope>
+						<biblScope unit="page" from="543" to="50" />
+						<date  when="2008">2008</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b1">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">J</forename>
+							<surname>Nieto</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">B</forename>
+							<surname>Young</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">K</forename>
+							<surname>Lind</surname>
+						</persName>
+					</author>
+					<title level="a">Association of Sleep-Disordered Breathing, Sleep Apnea, and Hypertension in a Large Community-Based study. Sleep Heart Health Study</title>
+				</analytic>
+				<monogr>
+					<title level="j">JAMA</title>
+					<imprint>
+						<biblScope unit="volume">283</biblScope>
+						<biblScope unit="page" from="1829" to="36" />
+						<date when="2000">2000</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b2">
+				<analytic>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Shahar</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">W</forename>
+							<surname>Whitney</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Redline</surname>
+						</persName>
+					</author>
+					<title level="a">Sleep-disordered breathing and cardiovascular disease: cross-sectional results of the Sleep Heart Health Study</title>
+				</analytic>
+				<monogr>
+					<title level="j">Am J Respir Crit Care Med</title>
+					<imprint>
+						<biblScope unit="volume">163</biblScope>
+						<biblScope unit="page" from="19" to="25" />
+						<date when="2001">2001</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b3">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">A</forename>
+							<surname>Martínez-García</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Gómez-Aldaraví</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Gil-Martínez</surname>
+						</persName>
+					</author>
+					<title level="a">Sleep-Disordered Breathing in Patients With Difficult-to-Control Hypertension</title>
+				</analytic>
+				<monogr>
+					<title level="j">Arch Bronconeumol</title>
+					<imprint>
+						<biblScope unit="volume">42</biblScope>
+						<biblScope unit="page" from="14" to="20" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b4">
+				<monogr>
+					<author>Hypertension Professional Committee of Chinese Medical Association</author>
+					<title level="m">Expert consensus on clinical diagnosis and treatment of obstructive sleep apnea-related hypertension</title>
+					<imprint>
+						<date when="2013">2013</date>
+						<biblScope unit="volume">12</biblScope>
+						<biblScope unit="page" from="435" to="441" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b5">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Young</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">E</forename>
+							<surname>Peppard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">J</forename>
+							<surname>Gottlieb</surname>
+						</persName>
+					</author>
+					<title level="a">Epidemiology of obstructive sleep apnea: a population health perspective</title>
+				</analytic>
+				<monogr>
+					<title level="j">Am J Respir Crit Care Med</title>
+					<imprint>
+						<biblScope unit="volume">165</biblScope>
+						<biblScope unit="page" from="1217" to="1239" />
+						<date  when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b6">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">E</forename>
+							<surname>Peppard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Young</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">H</forename>
+							<surname>Barnet</surname>
+						</persName>
+					</author>
+					<title level="a">Increased Prevalence of Sleep-Disordered Breathing in Adults</title>
+				</analytic>
+				<monogr>
+					<title level="j">Am J Epidemiol</title>
+					<imprint>
+						<biblScope unit="volume">177</biblScope>
+						<biblScope unit="page" from="1006" to="1014" />
+						<date  when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b7">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Lavie</surname>
+						</persName>
+					</author>
+					<title level="a">Obstructive sleep apnoea syndrome – an oxidative stress disorder</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep Med Rev</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="page" from="35" to="51" />
+						<date  when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b8">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">M</forename>
+							<surname>Dopp</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">J</forename>
+							<surname>Reichmuth</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">J</forename>
+							<surname>Morgan</surname>
+						</persName>
+					</author>
+					<title level="a">Obstructive sleep apnea and hypertension: Mechanisms, evaluation, and management</title>
+				</analytic>
+				<monogr>
+					<title level="j">Curr Hypertens Rep</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page" from="529" to="534" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b9">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Duran-Cantolla</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Aizpuru</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">M</forename>
+							<surname>Montserrat</surname>
+						</persName>
+					</author>
+					<title level="a">Continuous positive airway pressure as treatment for systemic hypertension in people with obstructive sleep apnoea: randomised controlled trial</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMJ</title>
+					<imprint>
+						<biblScope unit="volume">341</biblScope>
+						<biblScope unit="page">c5991</biblScope>
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b10">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">A</forename>
+							<surname>Bazzano</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Khan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Reynolds</surname>
+						</persName>
+					</author>
+					<title level="a">Effect of Nocturnal Nasal Continuous Positive Airway Pressure on Blood Pressure in Obstructive Sleep Apnea</title>
+				</analytic>
+				<monogr>
+					<title level="j">Hypertension</title>
+					<imprint>
+						<biblScope unit="volume">50</biblScope>
+						<biblScope unit="page" from="417" to="423" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b11">
+				<analytic>
+					<author>China Hypertension Prevention and Treatment Guidelines Revision Committee</author>
+					<title level="a">China hypertension prevention and treatment guidelines</title>
+				</analytic>
+				<monogr>
+					<title level="j">Chin J Cardiol</title>
+					<imprint>
+						<date when="2010">2010</date>
+						<biblScope unit="volume">5</biblScope>
+						<biblScope unit="page" from="573" to="581" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b12">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Tregear</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Reston</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Schoelles</surname>
+						</persName>
+					</author>
+					<title level="a">Obstructive Sleep Apnea and Risk of Motor Vehicle Crash: Systematic Review and Meta-Analysis</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Sleep Med</title>
+					<imprint>
+						<biblScope unit="volume">5</biblScope>
+						<biblScope unit="page" from="573" to="581" />
+						<date  when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b13">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">C</forename>
+							<surname>Kessler</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">A</forename>
+							<surname>Berglund</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Coulouvrat</surname>
+						</persName>
+					</author>
+					<title level="a">Insomnia and the Performance of US Workers: Results from the America Insomnia Survey</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep</title>
+					<imprint>
+						<biblScope unit="volume">34</biblScope>
+						<biblScope unit="page" from="1161" to="571" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b14">
+				<analytic>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Vila</surname>
+						</persName>
+					</author>
+					<title level="a">Impact of long work hours on police officers and the communities they serve</title>
+				</analytic>
+				<monogr>
+					<title level="j">Am J Ind Med</title>
+					<imprint>
+						<biblScope unit="volume">49</biblScope>
+						<biblScope unit="page" from="972" to="980" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b15">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Garbarino</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>De Carli</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Nobili</surname>
+						</persName>
+					</author>
+					<title level="a">Sleepiness and Sleep Disorders in Shift Workers: A Study on a Group of Italian Police Officers</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep</title>
+					<imprint>
+						<biblScope unit="volume">25</biblScope>
+						<biblScope unit="page" from="648" to="653" />
+						<date  when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b16">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">C</forename>
+							<surname>Neylan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">J</forename>
+							<surname>Metzler</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">R</forename>
+							<surname>Best</surname>
+						</persName>
+					</author>
+					<title level="a">Critical Incident Exposure and Sleep Quality in Police Officers</title>
+				</analytic>
+				<monogr>
+					<title level="j">Psychosom Med</title>
+					<imprint>
+						<biblScope unit="volume">64</biblScope>
+						<biblScope unit="page" from="345" to="352" />
+						<date  when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b17">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">Murray</forename>
+							<surname>Johns</surname>
+						</persName>
+					</author>
+					<title level="a">A New Method for Measuring Daytime Sleepiness: The Epworth Sleepiness Scale</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep</title>
+					<imprint>
+						<biblScope unit="volume">14</biblScope>
+						<biblScope unit="page" from="540" to="545" />
+						<date when="1991">1991</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b18">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">C</forename>
+							<surname>Netzer</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">A</forename>
+							<surname>Stoohs</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Netzer</surname>
+						</persName>
+					</author>
+					<title level="a">Using the Berlin Questionnaire To Identify Patients at Risk for the Sleep Apnea Syndrome</title>
+				</analytic>
+				<monogr>
+					<title level="j">Ann Intern Med</title>
+					<imprint>
+						<biblScope unit="volume">131</biblScope>
+						<biblScope unit="page" from="485" to="491" />
+						<date when="1999">1999</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b19">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">P</forename>
+							<surname>Snaith</surname>
+						</persName>
+					</author>
+					<title level="a">The Hospital Anxiety and Depression Scale</title>
+				</analytic>
+				<monogr>
+					<title level="j">Health Qual Life Outcomes</title>
+					<imprint>
+						<biblScope unit="volume">1</biblScope>
+						<biblScope unit="page">29</biblScope>
+						<date when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b20">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Morin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Belleville</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Bélanger</surname>
+						</persName>
+					</author>
+					<title level="a">The Insomnia Severity Index: Psychometric Indicators to Detect Insomnia Cases and Evaluate Treatment Response</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep</title>
+					<imprint>
+						<biblScope unit="volume">34</biblScope>
+						<biblScope unit="page">601</biblScope>
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b21">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">A</forename>
+							<surname>Collop</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">M</forename>
+							<surname>Anderson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Boehlecke</surname>
+						</persName>
+					</author>
+					<title level="a">Clinical Guidelines for the Use of Unattended Portable Monitors in the Diagnosis of Obstructive Sleep Apnea in Adult Patients</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Sleep Med</title>
+					<imprint>
+						<biblScope unit="volume">3</biblScope>
+						<biblScope unit="page" from="737" to="747" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b22">
+				<analytic>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Jia</surname>
+						</persName>
+					</author>
+					<title level="a">Obesity in China: its characteristics, diagnostic criteria, and implications</title>
+				</analytic>
+				<monogr>
+					<title level="j">Front Med</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page" from="129" to="133" />
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b23">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Lesske</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">C</forename>
+							<surname>Fletcher</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Bao</surname>
+						</persName>
+					</author>
+					<title level="a">Hypertension caused by chronic intermittent hypoxia – influence of chemoreceptors and sympathetic nervous system</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Hypertens</title>
+					<imprint>
+						<biblScope unit="volume">15</biblScope>
+						<biblScope unit="page" from="1593" to="1603" />
+						<date when="1997">1997</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b24">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Hoyos</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">L</forename>
+							<surname>Melehan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">Y</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<title level="a">Does obstructive sleep apnea cause endothelial dysfunction? A critical review of the literature</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep Med Rev</title>
+					<imprint>
+						<biblScope unit="volume">20</biblScope>
+						<biblScope unit="page" from="15" to="26" />
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b25">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Lattanzi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Brigo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Silvestrini</surname>
+						</persName>
+					</author>
+					<title level="a">Blood pressure profile and nocturnal oxygen desaturation</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Hypertens</title>
+					<imprint>
+						<biblScope unit="volume">20</biblScope>
+						<biblScope unit="page" from="656" to="658" />
+						<date  when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b26">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Lattanzi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Brigo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Silvestrini</surname>
+						</persName>
+					</author>
+					<title level="a">Obstructive sleep apnea syndrome and the nocturnal blood pressure profile</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Hypertens (Greenwich)</title>
+					<imprint>
+						<biblScope unit="volume">20</biblScope>
+						<biblScope unit="page" from="1036" to="1038" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b27">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">A</forename>
+							<surname>Calhoun</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">K</forename>
+							<surname>Nishizaka</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">A</forename>
+							<surname>Zaman</surname>
+						</persName>
+					</author>
+					<title level="a">Aldosterone Excretion Among Subjects With Resistant Hypertension and Symptoms of Sleep Apnea</title>
+				</analytic>
+				<monogr>
+					<title level="j">Chest</title>
+					<imprint>
+						<biblScope unit="volume">125</biblScope>
+						<biblScope unit="page" from="112" to="117" />
+						<date  when="2004">2004</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b28">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">G</forename>
+							<surname>Logan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">M</forename>
+							<surname>Perlikowski</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Mente</surname>
+						</persName>
+					</author>
+					<title level="a">High prevalence of unrecognized sleep apnoea in drug-resistant hypertension</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Hypertens</title>
+					<imprint>
+						<biblScope unit="volume">19</biblScope>
+						<biblScope unit="page" from="2271" to="2277" />
+						<date when="2001">2001</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			<bibl type="article" xml:id="b29">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">P</forename>
+							<surname>Webber</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Lee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Soo</surname>
+						</persName>
+					</author>
+					<title level="a">Prevalence and incidence of high risk for obstructive sleep apnea in World Trade Center-exposed rescue/recovery workers</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sleep Breath</title>
+					<imprint>
+						<biblScope unit="volume">15</biblScope>
+						<biblScope unit="page" from="283" to="294" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b30">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">K</forename>
+							<surname>Barger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">M</forename>
+							<surname>Rajaratnam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Wang</surname>
+						</persName>
+					</author>
+					<title level="a">Common Sleep Disorders Increase Risk of Motor Vehicle Crashes and Adverse Health Outcomes in Firefighters</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Clin Sleep Med</title>
+					<imprint>
+						<biblScope unit="volume">11</biblScope>
+						<biblScope unit="page" from="233" to="240" />
+						<date  when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b31">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">M</forename>
+							<surname>Rajaratnam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">K</forename>
+							<surname>Barger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">W</forename>
+							<surname>Lockley</surname>
+						</persName>
+					</author>
+					<title level="a">Sleep Disorders, Health, and Safety in Police Officers</title>
+				</analytic>
+				<monogr>
+					<title level="j">JAMA</title>
+					<imprint>
+						<biblScope unit="volume">306</biblScope>
+						<biblScope unit="page" from="2567" to="2578" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b32">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">E</forename>
+							<surname>Howard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">V</forename>
+							<surname>Desai</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">R</forename>
+							<surname>Grunstein</surname>
+						</persName>
+					</author>
+					<title level="a">Sleepiness, Sleep-disordered Breathing, and Accident Risk Factors in Commercial Vehicle Drivers</title>
+				</analytic>
+				<monogr>
+					<title level="j">Am J Respir Crit Care Med</title>
+					<imprint>
+						<biblScope unit="volume">170</biblScope>
+						<biblScope unit="page" from="1014" to="1021" />
+						<date when="2004">2004</date>
+					</imprint>
+				</monogr>
+			</bibl>
+		
+			<bibl type="article" xml:id="b33">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Parati</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Lombardi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Hedner</surname>
+						</persName>
+					</author>
+					<title level="a">Recommendations for the management of patients with obstructive sleep apnoea and hypertension</title>
+				</analytic>
+				<monogr>
+					<title level="j">Eur Respir J</title>
+					<imprint>
+						<biblScope unit="volume">41</biblScope>
+						<biblScope unit="page" from="523" to="538" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b34">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Parati</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Lombardi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Hedner</surname>
+						</persName>
+					</author>
+					<title level="a">Position paper on the management of patients with obstructive sleep apnea and hypertension: joint recommendations by the European Society of Hypertension, by the European Respiratory Society and by the members of European COST (COoperation in Scientific and Technological Research) ACTION B26 on obstructive sleep apnea</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Hypertens</title>
+					<imprint>
+						<biblScope unit="volume">30</biblScope>
+						<biblScope unit="page" from="633" to="646" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b35">
+				<analytic>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Pankow</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Lies</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">W</forename>
+							<surname>Lohmann</surname>
+						</persName>
+					</author>
+					<title level="a">Sleep-Disordered Breathing and Hypertension</title>
+				</analytic>
+				<monogr>
+					<title level="j">N Engl J Med</title>
+					<imprint>
+						<biblScope unit="volume">343</biblScope>
+						<biblScope unit="page">966</biblScope>
+						<date when="2000">2000</date>
+					</imprint>
+				</monogr>
+				<note>author reply 967</note>
+			</bibl>
+
+			<bibl type="article" xml:id="b36">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">E</forename>
+							<surname>Peppard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Young</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Palta</surname>
+						</persName>
+					</author>
+					<title level="a">Prospective Study of the Association between Sleep-Disordered Breathing and Hypertension</title>
+				</analytic>
+				<monogr>
+					<title level="j">N Engl J Med</title>
+					<imprint>
+						<biblScope unit="volume">342</biblScope>
+						<biblScope unit="page" from="1378" to="1384" />
+						<date when="2000">2000</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b37">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>MacMahon</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Peto</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Cutler</surname>
+						</persName>
+					</author>
+					<title level="a">Blood pressure, stroke, and coronary heart disease *1Part 1, prolonged differences in blood pressure: prospective observational studies corrected for the regression dilution bias</title>
+				</analytic>
+				<monogr>
+					<title level="j">Lancet</title>
+					<imprint>
+						<biblScope unit="volume">335</biblScope>
+						<biblScope unit="page" from="765" to="774" />
+						<date when="1990">1990</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b38">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">D</forename>
+							<surname>Mcevoy</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">A</forename>
+							<surname>Antic</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Heeley</surname>
+						</persName>
+					</author>
+					<title level="a">CPAP for Prevention of Cardiovascular Events in Obstructive Sleep Apnea</title>
+				</analytic>
+				<monogr>
+					<title level="j">N Engl J Med</title>
+					<imprint>
+						<biblScope unit="volume">375</biblScope>
+						<biblScope unit="page" from="919" to="931" />
+						<date when="2016">2016</date>
+					</imprint>
+				</monogr>
+			</bibl>
+		</listBibl>
+	</back>
+	</text>
+</TEI>

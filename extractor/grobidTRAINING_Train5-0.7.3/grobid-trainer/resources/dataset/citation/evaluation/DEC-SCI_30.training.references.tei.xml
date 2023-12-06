@@ -1,0 +1,1808 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="proceeding" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Agrawal</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Srikant</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Fast algorithms for mining association rules</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. 20th Int. Conf. Very Large Data Bases, VLDB</title>
+			<imprint>
+				<date when="1994">1994</date>
+				<biblScope unit="page" from="487" to="499" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="proceeding" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bayardo</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+					<genName>Jr</genName>
+				</persName>
+			</author>
+			<title level="a">Efficiently mining long patterns from databases</title>
+		</analytic>
+		<monogr>
+			<title level="m">ACM Sigmod Record</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="1998">1998</date>
+				<biblScope unit="page" from="85" to="93" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Mining frequent patterns without candidate generation</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACM Sigmod Record</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="2000">2000</date>
+				<biblScope unit="page" from="1" to="12" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>K-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liao</surname>
+					<forename>I-E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename>T-P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>S-F</forename>
+				</persName>
+			</author>
+			<title level="a">A frequent itemset mining algorithm based on the principle of inclusion–exclusion and transaction mapping</title>
+		</analytic>
+		<monogr>
+			<title level="j">Inform. Sci.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">276</biblScope>
+				<biblScope unit="page" from="278" to="289" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="proceeding" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename type="first">J</forename><forename type="middle">X</forename>
+				</persName>
+			</author>
+			<title level="a">Ascending frequency ordered prefix-tree: efficient mining of frequent patterns</title>
+		</analytic>
+		<monogr>
+			<title level="m">Database Systems for Advanced Applications, 2003.(DASFAA 2003). Proceedings. Eighth International Conference on</title>
+			<imprint>
+				<publisher>IEEE</publisher>
+				<date when="2003">2003</date>
+				<biblScope unit="page" from="65" to="72" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename type="first">J</forename><forename type="middle">X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xiao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Afopt: An efficient implementation of pattern growth approach</title>
+		</analytic>
+		<monogr>
+			<title level="m">FIMI</title>
+			<imprint>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Qiu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lan</surname>
+					<forename>Y-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xie</surname>
+					<forename>Q-S</forename>
+				</persName>
+			</author>
+			<title level="a">An improved algorithm of mining from fp-tree</title>
+		</analytic>
+		<monogr>
+			<title level="m">Machine Learning and Cybernetics, 2004. Proceedings of 2004 International Conference on</title>
+			<imprint>
+				<publisher>IEEE</publisher>
+				<date when="2004">2004</date>
+				<biblScope unit="page" from="1665" to="1670" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tanbeer</surname>
+					<forename type="first">S</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahmed</surname>
+					<forename type="first">C</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jeong</surname>
+					<forename>B-S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>Y-K</forename>
+				</persName>
+			</author>
+			<title level="a">Efficient single-pass frequent pattern mining using a prefix-tree</title>
+		</analytic>
+		<monogr>
+			<title level="j">Inform. Sci.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">179</biblScope>
+				<biblScope unit="page" from="559" to="583" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yildiz</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Selale</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Mining frequent patterns from microarray data</title>
+		</analytic>
+		<monogr>
+			<title level="m">Health Informatics and Bioinformatics (HIBIT), 2011 6th International Symposium on</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Index-bittablefi: An improved algorithm for mining frequent itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="j">Knowl.-Based Syst.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="507" to="513" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Javed</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Khokhar</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Frequent pattern mining on message passing multiprocessor systems</title>
+		</analytic>
+		<monogr>
+			<title level="j">Distrib. Parallel Databases</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="321" to="334" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deng</surname>
+					<forename>D-J</forename>
+				</persName>
+			</author>
+			<title level="a">A novel parallel algorithm for frequent pattern mining with privacy preserved in cloud computing environments</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Ad Hoc Ubiquitous Comput.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="205" to="215" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>K-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Parallel tid-based frequent pattern mining algorithm on a pc cluster and grid computing system</title>
+		</analytic>
+		<monogr>
+			<title level="j">Expert Syst. Appl.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">37</biblScope>
+				<biblScope unit="page" from="2486" to="2494" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>K-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Balanced tidset-based parallel fp-tree algorithm for the frequent pattern mining on grid system</title>
+		</analytic>
+		<monogr>
+			<title level="m">Semantics, Knowledge and Grid, 2008. SKG’08. Fourth International Conference on</title>
+			<imprint>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>K-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Tidset-based parallel fp-tree algorithm for the frequent pattern mining problem on pc clusters</title>
+		</analytic>
+		<monogr>
+			<title level="m">Advances in Grid and Pervasive Computing</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="2008">2008</date>
+				<biblScope unit="page" from="18" to="28" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sohrabi</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barforoush</surname>
+					<forename type="first">A</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Parallel frequent itemset mining using systolic arrays</title>
+		</analytic>
+		<monogr>
+			<title level="j">Knowl.-Based Syst.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">37</biblScope>
+				<biblScope unit="page" from="462" to="471" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lo</surname>
+					<forename>Y-C</forename>
+				</persName>
+			</author>
+			<title level="a">Efficient algorithms for frequent pattern mining in many-task computing environments</title>
+		</analytic>
+		<monogr>
+			<title level="j">Knowl.-Based Syst.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="10" to="21" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="conference" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lucchese</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Orlando</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Perego</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Parallel mining of frequent closed patterns: Harnessing modern computer architectures</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Mining, 2007. ICDM 2007. Seventh IEEE International Conference on</title>
+			<imprint>
+				<date when="2007">2007</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Buehrer</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parthasarathy</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y-K</forename>
+				</persName>
+			</author>
+			<title level="a">Adaptive parallel graph mining for cmp architectures</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Mining, 2006. ICDM’06. Sixth International Conference on</title>
+			<imprint>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S-Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>Y-B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>G-P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Mapreduce-based closed frequent itemset mining with efficient redundancy filtering</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Mining Workshops (ICDMW), 2012 IEEE 12th International Conference on</title>
+			<imprint>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Apiletti</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baralis</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cerquitelli</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Garza</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Michiardi</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pulvirenti</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Pampa-hd: a parallel mapreduce-based frequent pattern miner for high-dimensional data</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Mining Workshop (ICDMW), 2015 IEEE International Conference on</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Negrevergne</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Termier</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Méhaut</surname>
+					<forename>J-F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Uno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Discovering closed frequent itemsets on multicore: Parallelizing computations and optimizing memory accesses</title>
+		</analytic>
+		<monogr>
+			<title level="m">High Performance Computing and Simulation (HPCS), 2010 International Conference on</title>
+			<imprint>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lucchese</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Orlando</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Perego</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Fast and memory efficient mining of frequent closed itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE Trans. Knowl. Data Eng.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="21" to="36" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pasquier</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bastide</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Taouil</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lakhal</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Discovering frequent closed itemsets for association rules</title>
+		</analytic>
+		<monogr>
+			<title level="m">Database Theory—ICDT’99</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="1999">1999</date>
+				<biblScope unit="page" from="398" to="416" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mao</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Closet: An efficient algorithm for mining frequent closed itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="m">ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery</title>
+			<imprint>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Uno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Asai</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Uchida</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arimura</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Lcm: An efficient algorithm for enumerating frequent closed item sets</title>
+		</analytic>
+		<monogr>
+			<title level="m">FIMI</title>
+			<imprint>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Uno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kiyomi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arimura</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Lcm ver 2: Efficient mining algorithms for frequent/closed/maximal itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="m">FIMI</title>
+			<imprint>
+				<date when="2004">2004</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Uno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kiyomi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arimura</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Lcm ver. 3: collaboration of array, bitmap and prefix tree for frequent itemset mining</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the 1st International Workshop on Open Source Data Mining: Frequent Pattern Mining Implementations</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="2005">2005</date>
+				<biblScope unit="page" from="77" to="86" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Closet+: Searching for the best strategies for mining frequent closed itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="2003">2003</date>
+				<biblScope unit="page" from="236" to="245" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="conference" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zaki</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hsiao</surname>
+					<forename>C-J</forename>
+				</persName>
+			</author>
+			<title level="a">Charm: An efficient algorithm for closed itemset mining</title>
+		</analytic>
+		<monogr>
+			<title level="m">SDM</title>
+			<imprint>
+				<date when="2002">2002</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zaki</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hsiao</surname>
+					<forename>C-J</forename>
+				</persName>
+			</author>
+			<title level="a">Efficient algorithms for mining closed itemsets and their lattice structure</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE Trans. Knowl. Data Eng.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="462" to="478" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="conference" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cong</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>K-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tung</surname>
+					<forename type="first">A</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pan</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Mining frequent closed patterns in microarray data</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Mining, 2004. ICDM’04. Fourth IEEE International Conference on</title>
+			<imprint>
+				<date when="2004">2004</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shao</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Mining frequent patterns on very high dimensional data: a topdown row enumeration approach</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceeding of the 2006 SIAM International Conference on Data Mining (SDM’06)</title>
+			<imprint>
+				<publisher>SIAM</publisher>
+				<date when="2006">2006</date>
+				<biblScope unit="page" from="280" to="291" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shao</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Top-down mining of frequent closed patterns from very high dimensional data</title>
+		</analytic>
+		<monogr>
+			<title level="j">Inform. Sci.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">179</biblScope>
+				<biblScope unit="page" from="899" to="924" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="proceeding" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pan</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cong</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tung</surname>
+					<forename type="first">A</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zaki</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Carpenter: Finding closed patterns in long biological datasets</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="2003">2003</date>
+				<biblScope unit="page" from="637" to="642" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sohrabi</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ghods</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Top-down vertical itemset mining</title>
+		</analytic>
+		<monogr>
+			<title level="m">Sixth International Conference on Graphic and Image Processing (ICGIP 2014)</title>
+			<imprint>
+				<publisher>International Society for Optics and Photonics</publisher>
+				<date when="2015">2015</date>
+				<biblScope unit="page">94431V</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Vimieiro</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moscato</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Disclosed: An efficient depth-first, top-down algorithm for mining disjunctive closed itemsets in high-dimensional data</title>
+		</analytic>
+		<monogr>
+			<title level="j">Inform. Sci.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">280</biblScope>
+				<biblScope unit="page" from="171" to="187" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pan</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tung</surname>
+					<forename type="first">A</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cong</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Cobbler: combining column and row enumeration for closed pattern discovery</title>
+		</analytic>
+		<monogr>
+			<title level="m">Scientific and Statistical Database Management, 2004. Proceedings. 16th International Conference on</title>
+			<imprint>
+				<publisher>IEEE</publisher>
+				<date when="2004">2004</date>
+				<biblScope unit="page" from="21" to="30" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Alves</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rodriguez-Baena</surname>
+					<forename type="first">D</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aguilar-Ruiz</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Gene association analysis: a survey of frequent pattern mining from gene expression data</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brief. Bioinform.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="page">bbp042</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Carmona-Saez</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chagoyen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rodriguez</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trelles</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carazo</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pascual-Montano</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Integrated analysis of gene expression by association rules discovery</title>
+		</analytic>
+		<monogr>
+			<title level="j">BMC Bioinform.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="54" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Koyutürk</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Subramaniam</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Szpankowski</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grama</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Detecting conserved interaction patterns in biological networks</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Comput. Biol.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="1299" to="1322" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manda</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ozkan</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McCarthy</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bridges</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Cross-ontology multi-level association rule mining in the gene ontology</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page">e47411</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Naulaerts</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meysman</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bittremieux</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vu</surname>
+					<forename type="first">T</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Berghe</surname>
+					<forename type="first">W</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goethals</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Laukens</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">A primer to frequent itemset mining for bioinformatics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brief. Bioinform.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="216" to="231" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename>T-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vo</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Snasel</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Efficient algorithms for mining colossal patterns in high dimensional databases</title>
+		</analytic>
+		<monogr>
+			<title level="j">Knowl.-Based Syst.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">122</biblScope>
+				<biblScope unit="page" from="75" to="89" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sohrabi</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barforoush</surname>
+					<forename type="first">A</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Efficient colossal pattern mining in high dimensional datasets</title>
+		</analytic>
+		<monogr>
+			<title level="j">Knowl.-Based Syst.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">33</biblScope>
+				<biblScope unit="page" from="41" to="52" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yoon</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">G</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="a">Subcellular localization prediction through boosting association rules</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE/ACM Trans. Comput. Biol. Bioinform.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="609" to="618" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yan</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename type="first">P</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Mining colossal frequent patterns by core pattern fusion</title>
+		</analytic>
+		<monogr>
+			<title level="m">Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference on</title>
+			<imprint>
+				<publisher>IEEE</publisher>
+				<date when="2007">2007</date>
+				<biblScope unit="page" from="706" to="715" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Okubo</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Haraguchi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Finding top-n colossal patterns based on clique search with dynamic update of graph</title>
+		</analytic>
+		<monogr>
+			<title level="m">Formal Concept Analysis</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="2012">2012</date>
+				<biblScope unit="page" from="244" to="259" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zulkurnain</surname>
+					<forename type="first">N</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Haglin</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Keane</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Disclose: discovering colossal closed itemsets via a memory efficient compact row-tree</title>
+		</analytic>
+		<monogr>
+			<title level="m">Emerging Trends in Knowledge Discovery and Data Mining</title>
+			<imprint>
+				<publisher>Springer</publisher>
+				<date when="2012">2012</date>
+				<biblScope unit="page" from="141" to="156" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename>T-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vo</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename typr="first">L</forename><forename typr="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">A new method for mining colossal patterns</title>
+		</analytic>
+		<monogr>
+			<title level="m">Systems, Man, and Cybernetics (SMC), 2016 IEEE International Conference on</title>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename>T-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vo</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huynh</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Snasel</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename typr="first">L</forename><forename typr="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">Constraint-based method for mining colossal patterns in high dimensional databases</title>
+		</analytic>
+		<monogr>
+			<title level="m">International Conference on Information Systems Architecture and Technology</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Besson</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Robardet</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boulicaut</surname>
+					<forename>J-F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rome</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Constraint-based concept mining and its application to microarray data analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Intell. Data Anal.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="59" to="82" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tzvetkov</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Tfp: An efficient algorithm for mining top-k frequent closed itemsets</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE Trans. Knowl. Data Eng.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="652" to="663" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="online-database" xml:id="b53">
+		<monogr>
+			<title level="m">Biological-Datasets</title>
+			<ref target="http://datam.i2r.a-star.edu.sg/datasets/krbd/index.html">http://datam.i2r.a-star.edu.sg/datasets/krbd/index.html</ref>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

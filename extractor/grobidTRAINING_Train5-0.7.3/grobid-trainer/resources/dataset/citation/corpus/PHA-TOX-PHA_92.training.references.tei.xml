@@ -1,0 +1,1359 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Baynes</surname></persName>
+		</author>
+		<title level="a">Role of Oxidative Stress in Development of Complications in Diabetes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="405" to="412" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Kakkar</surname></persName>
+		</author>
+		<title level="a">Modulation of liver function, antioxidant responses, insulin resistance and glucose transport by Oroxylum indicum stem bark in STZ induced diabetic rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Food Chem. Toxicol.</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="722" to="731" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Sang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Xiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Dong</surname></persName>
+		</author>
+		<title level="a">Synergistic effects of acarbose and an Oroxylum indicum seed extract in streptozotocin and high-fat-diet induced prediabetic mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Pharmacother.</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="160" to="170" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Xiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Dong</surname></persName>
+		</author>
+		<title level="a">Oroxin A from Oroxylum indicum prevents the progression from prediabetes to diabetes in streptozotocin and high-fat diet induced mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phytomedicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="24" to="34" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Ying</surname></persName>
+		</author>
+		<title level="a">Ethanol extract of Atractylodis macrocephalae Rhizoma ameliorates insulin resistance and gut microbiota in type 2 diabetic db/db mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Foods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="139" to="151" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jing</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mei</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Zhen</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Xiangliang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Minghua</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Qiong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yanhong</forename><surname>Zhu</surname></persName>
+		</author>
+		<title level="a">Transcriptome profiling reveals the anti-diabetic molecular mechanism of Cyclocarya paliurus polysaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Foods</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Parillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Riccardi</surname></persName>
+		</author>
+		<title level="a">Diet composition and the risk of type 2 diabetes: epidemiological and clinical evidence</title>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Nutr.</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="7" to="19" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Long-chain bases from sea cucumber inhibits renal fibrosis and apoptosis in type 2 diabetic mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Foods</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="760" to="768" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kannel</surname></persName>
+		</author>
+		<title level="a">Lipids, diabetes, and coronary heart disease: Insights from the Framingham Study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Heart J.</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1100" to="1107" />
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ming</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Li</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">The Characterization of High-Fat Diet and Multiple Low-Dose Streptozotocin Induced Type 2 Diabetes Rat Model</title>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Diabetes Res.</title>
+		<imprint>
+			<biblScope unit="volume">2008</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Antidiabetic effect of Lactobacillus casei CCFM0412 on mice with type 2 diabetes induced by a high-fat diet and streptozotocin</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1061" to="1068" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Yan</surname></persName>
+		</author>
+		<title level="a">Antioxidant activities of agaro-oligosaccharides with different degrees of polymerization in cell-based system</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1722</biblScope>
+			<biblScope unit="page" from="103" to="111" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Lin</surname></persName>
+		</author>
+		<title level="a">Antioxidant activity and hepatoprotective potential of agaro-oligosaccharides in vitro and in vivo</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nutr. J.</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="31" to="42" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Pan</surname></persName>
+		</author>
+		<title level="a">Algal-oligosaccharide-lysates prepared by two bacterial agarases stepwise hydrolyzed and their anti-oxidative properties</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fish. Sci.</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1149" to="1159" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Rahmati</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Ramli</surname></persName>
+		</author>
+		<title level="a">Novel agaro-oligosaccharide production through enzymatic hydrolysis: Physicochemical properties and antioxidant activities</title>
+	</analytic>
+	<monogr>
+		<title level="j">Food Hydrocoll.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="304" to="308" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Enoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Tanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Ohnogi</surname></persName>
+		</author>
+		<title level="a">Induction Mechanism of Heme Oxygenase-1 and Anti-inflammatory Activity by Agaro-oligosaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nippon Shokuhin Kogyo Gakkaishi</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="157" to="162" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Enoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Tominaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Takashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Ohnogi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Sagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Kato</surname></persName>
+		</author>
+		<title level="a">Anti-tumor-Promoting Activities of Agaro-Oligosaccharides on Two-Stage Mouse Skin Carcinogenesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Pharm. Bull.</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1145" to="1149" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Higashimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Naito</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Tanimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Mizushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Harusato</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Yoriki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Handa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Ohnogi</surname></persName>
+		</author>
+		<title level="a">Preventive effect of agaro-oligosaccharides on non-steroidal anti-inflammatory drug-induced small intestinal injury in mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gastroenterol. Hepatol.</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="310" to="317" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>Reijiro</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mikimasa</forename><surname>Takisada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tadashi</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kohtaro</forename><surname>Kirimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Shoji</forename><surname>Usamiab</surname></persName>
+		</author>
+		<title level="a">Neoagarobiose as a Novel Moisturizer with Whitening Effect</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Biotechnol. Biochem.</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="162" to="163" />
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Kang</surname></persName>
+		</author>
+		<title level="a">Different Levels of Skin Whitening Activity among 3,6-Anhydro-l-galactose, Agarooligosaccharides, and Neoagarooligosaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">321</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hong</surname></persName>
+		</author>
+		<title level="a">Anti-Obesity and Anti-Diabetic Effect of Neoagarooligosaccharides on High-Fat Diet-Induced Obesity in Mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eun</forename><forename type="middle">Joo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ki</surname></persName>
+		</author>
+		<title level="a">Neoagarooligosaccharides enhance the level and efficiency of LDL receptor and improve cholesterol homeostasis</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Foods</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="529" to="539" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Mao</surname></persName>
+		</author>
+		<title level="a">Neoagaro-oligosaccharide monomers inhibit inflammation in LPS-stimulated macrophages through suppression of MAPK and NF-κB pathways</title>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep.</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">44252</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Yoon</surname></persName>
+		</author>
+		<title level="a">Neoagarooligosaccharides prevent septic shock by modulating A20-and cyclooxygenase-2-mediated interleukin-10 secretion in a septic-shock mouse model</title>
+		
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<biblScope unit="page" from="998" to="1004" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Coumarins improved type 2 diabetes induced by high-fat diet and streptozotocin in mice via antioxidation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Physiol. Pharmacol.</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Castelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hjortland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kannel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Dawber</surname></persName>
+		</author>
+		<title level="a">High density lipoprotein as a protective factor against coronary heart disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Med.</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="707" to="714" />
+			<date when="1977">1977</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Castelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Garrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kalousdian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kannel</surname></persName>
+		</author>
+		<title level="a">Incidence of Coronary Heart Disease and Lipoprotein Cholesterol Levels. The Framingham Study.</title>
+	</analytic>
+	<monogr>
+		<title level="j">Jama</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="2835" to="2838" />
+			<date when="1986">1986</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lavie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Milani</surname></persName>
+		</author>
+		<title level="a">Obesity and cardiovascular disease: The hippocrates paradox?</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Coll. Cardiol.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="677" to="679" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Brunzell</surname></persName>
+		</author>
+		<title level="a">Abdominal Obesity and Dyslipidemia in the Metabolic Syndrome: Importance of Type 2 Diabetes and Familial Combined Hyperlipidemia in Coronary Artery Disease Risk</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Endocrinol. Metab.</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2601" to="2607" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Ansell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Fogelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Navab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Fonarow</surname></persName>
+		</author>
+		<title level="a">High-Density lipoprotein function recent advances</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Coll. Cardiol.</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1792" to="1798" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<title level="a">Chronic Oxidative Stress as a Central Mechanism for Glucose Toxicity in Pancreatic Islet Beta Cells in Diabetes</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem.</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="42351" to="42354" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Rasouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Molavi</surname></persName>
+		</author>
+		<title level="a">Oxidative stress in diabetes: A mechanistic overview of its effects on atherogenesis and myocardial dysfunction</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biochem. Cell Biol.</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="794" to="803" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Iqbal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Karam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Salifu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Mcfarlane</surname></persName>
+		</author>
+		<title level="a">Oxidative Stress, Glucose Metabolism, and the Prevention of Type 2 Diabetes: Pathophysiological Insights</title>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxid. Redox Signal.</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="911" to="929" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Q</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Wei</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Liu</surname></persName>
+		</author>
+		<title level="a">Effects of berberine on diabetes induced by alloxan and a high-fat/high-cholesterol diet in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ethnopharmacol.</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="109" to="115" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">Protective and anti-angiopathy effects of ginsenoside Re against diabetes mellitus via the activation of p38 MAPK, ERK1/2 and JNK signaling</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Med. Rep.</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="4849" to="4856" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>DeNicola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Karreth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Humpton</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gopinathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Frese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Mangal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Calhoun</surname></persName>
+		</author>
+		<title level="a">Oncogene-induced Nrf2 transcription promotes ROS detoxification and tumorigenesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page" from="106" to="109" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Khor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Kong</surname></persName>
+		</author>
+		<title level="a">Mechanism of action of isothiocyanates: the induction of ARE-regulated genes is associated with activation of ERK and JNK and the phosphorylation and nuclear translocation of Nrf2</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cancer Ther.</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1918" to="1926" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Nussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Schirmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Nussler</surname></persName>
+		</author>
+		<title level="a">Quercetin protects human hepatocytes from ethanol-derived oxidative stress by inducing heme oxygenase-1 via the MAPK/Nrf2 pathways</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hepatol.</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="253" to="261" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Walkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Puigserver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Spiegelman</surname></persName>
+		</author>
+		<title level="a">Transcriptional regulation of adipogenesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev.</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1293" to="1307" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Barroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Gurnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><forename type="last">F</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Agostini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Schwabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Soos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Li</forename><surname>Maslen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><forename type="last">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Schafer</surname></persName>
+		</author>
+		<title level="a">Dominant negative mutations in human PPARγ associated with severe insulin resistance, diabetes mellitus and hypertension</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">402</biblScope>
+			<biblScope unit="page" from="880" to="883" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Heilbronn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Albu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Ravussin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><forename type="middle">R</forename><forename type="last">G</forename><surname>Look</surname></persName>
+		</author>
+		<title level="a">Decreased Expression of Adipogenic Genes in Obese Subjects with Type 2 Diabetes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Obesity</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1543" to="1552" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Xiao</surname></persName>
+		</author>
+		<title level="a">Screening and identification of a bacterium capable of converting agar to neoagaro oligosaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Microbiol. Sin</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1126" to="1132" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Xiao</surname></persName>
+		</author>
+		<title level="a">Simple Preparation of Diverse Neoagaro-Oligosaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Processes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">267</biblScope>
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

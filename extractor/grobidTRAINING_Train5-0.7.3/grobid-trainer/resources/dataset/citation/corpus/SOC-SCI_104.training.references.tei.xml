@@ -1,0 +1,997 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>Karen</forename><surname>Kohn</surname></persName>
+		</author>
+		<title level="a">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Resources &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">63</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>Lynn</forename><surname>Wiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Elizabeth</forename><surname>Clarage</surname></persName>
+		</author>
+		<title level="a">Building on success: evolving local and consortium purchase-on-demand programs</title>
+	</analytic>
+	<monogr>
+		<title level="j">Interlending &amp; Document Supply</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="105" to="110" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Tina</forename><forename type="middle">E</forename><surname>Chrzastowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynn</forename><forename type="middle">N</forename><surname>Wiley</surname></persName>
+		</author>
+		<title level="a">E-Book Use and Value in the Humanities</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Resources &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="172" to="186" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">B</forename><surname>Carrico</surname></persName>
+		</author>
+		<title level="a">What Cost and Usage Data Reveals about E-Book Acquisitions: Ramifications for Collection Development</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Resources &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="102" to="111" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>Merinda</forename><surname>Mclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Amy</forename><surname>Hoseth</surname></persName>
+		</author>
+		<title level="a">Patron-driven e-book use and users' e-book perceptions: a snapshot</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collection Building</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="136" to="147" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>Kay</forename><surname>Downey</surname></persName>
+		</author>
+		<title level="a">A Comparative Study of Print Book and DDA Ebook Acquisition and Use</title>
+	</analytic>
+	<monogr>
+		<title level="j">Technical Services Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="160" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b6">
+	<monogr>
+		
+		<author>
+			Kohn
+		</author>
+		<title level="m">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>Amber</forename><surname>Lannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Dawn</forename><surname>McKinnon</surname></persName>
+		</author>
+		<title level="a">Business E-books: What Can Be Learned From Vendor Supplied Statistics?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business &amp; Finance Librarianship</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="89" to="99" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>Lisa</forename><surname>Rose-Wiles</surname></persName>
+		</author>
+		<title level="a">Are Print Books Dead? An Investigation of Book Circulation at a Mid-Sized Academic Library</title>
+	</analytic>
+	<monogr>
+		<title level="j">Technical Services Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="129" to="152" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>Mary</forename><surname>Gilbertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">Chadbourn</forename><surname>McKee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Lutishoor</forename><surname>Salisbury</surname></persName>
+		</author>
+		<title level="a">Just in Case or Just in Time? Outcomes of a 15-Month Patron-Driven Acquisition of E-Books at the University of Arkansas Libraries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Collections, Acquisitions, &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="20" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Catherine</forename><forename type="middle">S Y</forename><forename type="last">Y</forename><surname>Kwok</surname></persName>
+		</author>
+		<title level="a">Demand-Driven Acquisition at HKUST Library: The New Normal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Interlending and Document Supply</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="153" to="158" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b11">
+	<monogr>
+		<author>
+			Carrico
+		</author>
+		<title level="m">What Cost and Usage Data Reveals About E-Book Acquisitions: Ramifications for Collection Development</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jan</forename><surname>Horner</surname></persName>
+		</author>
+		<title level="a">E-Preferred Approval Books at the University of Manitoba: A Comparison of Print and Ebook Usage</title>
+	</analytic>
+	<monogr>
+		<title level="j">Evidence Based Library and Information Practice</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="90" to="105" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>Antje</forename><surname>Mays</surname></persName>
+		</author>
+		<title level="a">Toward Data-Informed Collection Decisions: 4+ Years of PDA Insights at Winthrop</title>
+	</analytic>
+	<monogr>
+		<title level="m">Against the Grain</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<biblScope unit="page" from="98" to="101" />
+		</imprint>
+	</monogr>
+	
+</bibl>
+
+<bibl type="grey-literature" xml:id="b14">
+	<monogr>
+		<author>
+			Mays
+		</author>
+		<title level="m">Toward Data-Informed Collection Decisions</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Philip</forename><forename type="middle">Gregory</forename><surname>Kent</surname></persName>
+		</author>
+		<title level="a">Measuring the Impact: Springer Book Archives at Melbourne</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collection Building</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="137" to="142" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b16">
+	<monogr>
+		
+		<author>
+			Lannon
+		</author>
+		<author>
+			McKinnon
+		</author>
+		<title level="m">Business E-books</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Terry</forename><surname>Bucknell</surname></persName>
+		</author>
+		<title level="a">The 'Big Deal' Approach to Acquiring E-Books: A Usage-Based Studyy</title>
+	</analytic>
+	<monogr>
+		<title level="j">Serials: The Journal for the Serials Community</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="126" to="134" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b18">
+	<monogr>
+		
+		<author>
+			Kohn
+		</author>
+		<title level="m">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b19">
+	<monogr>
+		
+		<author>
+			Kohn
+		</author>
+		<title level="m">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b20">
+	<monogr>
+		
+		<author>
+			Lannon
+		</author>
+		<author>
+			McKinnon
+		</author>
+		<title level="m">Business E-books</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>Weijing</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marlene</forename><surname>Van Ballegooie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Robertson</surname></persName>
+		</author>
+		<title level="a">Ebooks Versus Print Books: Format Preferences in an Academic Library</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collection Management</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="48" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b22">
+	<monogr>
+		
+		<author>
+			Horner
+		</author>
+		<title level="m">E-Preferred Approval Books at the University of Manitoba</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b23">
+	<monogr>
+		
+		<author>
+			Yuan
+		</author>
+		<author>
+			Van Ballegooie
+		</author>
+		<author>
+			Robertson
+		</author>
+		<title level="m">Ebooks Versus Print Books</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b24">
+	<monogr>
+		
+		<author>
+			Carrico
+		</author>
+		
+		<title level="m">What Cost and Usage Data Reveals about E-Book Acquisitions</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b25">
+	<monogr>
+		
+		<author>
+			Lannon
+		</author>
+		<author>
+			McKinnon
+		</author>
+		<title level="m">Business E-books</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b26">
+	<monogr>
+		
+		<author>
+			Yuan
+		</author>
+		<author>
+			Van Ballegooie
+		</author>
+		<author>
+			Robertson
+		</author>
+		<title level="m">Ebooks Versus Print Books</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b27">
+	<monogr>
+		
+		<author>
+			 Rose-Wiles
+		</author>
+		<title level="m">Are Print Books Dead?</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Knowlton</surname></persName>
+		</author>
+		<title level="a">A Two-Step Model for Assessing Relative Interest in E-books Compared to Print</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="33" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b29">
+	<monogr>
+		
+		<author>
+			Kohn
+		</author>
+		<title level="m">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b30">
+	<monogr>
+		
+		<author>
+			Kohn
+		</author>
+		<title level="m">Using Logistic Regression to Examine Multiple Factors Related to E-book Use</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b31">
+	<monogr>
+		
+		<author>
+			Lannon
+		</author>
+		<author>
+			McKinnon
+		</author>
+		<title level="m">Business E-books</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b32">
+	<monogr>
+		
+		<author>
+			Mays
+		</author>
+		<title level="m">Toward Data-Informed Collection Decisions</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b33">
+	<monogr>
+		
+		<author>
+			Lannon
+		</author>
+		<author>
+			McKinnon
+		</author>
+		<title level="m">Business E-books</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>Nancy</forename><surname>Sprague</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ben</forename><surname>Hunter</surname></persName>
+		</author>
+		<title level="a">Assessing e-books: Taking a closer look at e-book statistics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Collections, Acquisitions, and Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="150" to="157" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>Justin</forename><surname>Littman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynn</forename><forename type="middle">Silipigni</forename><surname>Connaway</surname></persName>
+		</author>
+		<title level="a">A Circulation Analysis of Print Books and e-Books in an Academic Research Library</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Resources &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="256" to="262" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>Marilyn</forename><surname>Christianson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marsha</forename><surname>Aucoin</surname></persName>
+		</author>
+		<title level="a">Electronic or Print Books: Which Are Used?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Collections, Acquisitions, &amp; Technical Services</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="81" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>Rusty</forename><surname>Kimball</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Gary</forename><surname>Ives</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kathy</forename><surname>Jackson</surname></persName>
+		</author>
+		<title level="a">Comparative Usage of Science E-Book and Print Collections at Texas A&amp;M University Libraries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collection Management</title>
+		<imprint>
+			<date when="2009">2009</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="28" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename>Michael</forename><surname>Levine-Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">C</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="m">E or P? A Comparative Analysis of Electronic and Print Book Usage</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<pubPlace>Austin, TX</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Electronic Resources &amp; Libraries Conference</note>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		<author>
+			<persName><forename>Cathy</forename><surname>Goodwin</surname></persName>
+		</author>
+		<title level="a">The e-Duke Scholarly Collection: E-Book v. Print Use</title>
+	</analytic>
+	<monogr>
+		<title level="m">Collection Building</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="101" to="105" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b40">
+	<monogr>
+		
+		<author>
+			Knowlton
+		</author>
+		<title level="m">A Two-Step Model for Assessing Relative Interest in E-Books Compared to Print</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>Amy</forename><surname>Fry</surname></persName>
+		</author>
+		<title level="a">Factors Affecting the Use of Print and Electronic Books: A Use Study and Discussion</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="85" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>Marc</forename><surname>Langston</surname></persName>
+		</author>
+		<title level="a">The California State University E-book Pilot Project: implications for cooperative collection development</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Collections, Acquisitions, and Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="32" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>Hazel</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Helen</forename><surname>Henderson</surname></persName>
+		</author>
+		<title level="a">Who are the winners? E-book consortial purchasing</title>
+	</analytic>
+	<monogr>
+		<title level="j">Insights</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="86" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jeremy</forename><surname>Garskof</surname></persName>
+		</author>
+		<title level="a">Towards the Collective Collection: Lessons Learned from PALCI's DDA Pilot Projects and Next Steps</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collaborative Librarianship</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="98" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Alain</forename><forename type="middle">R</forename><surname>Lamothe</surname></persName>
+		</author>
+		<title level="a">Comparing usage between selective and bundled e-monograph purchases</title>
+	</analytic>
+	<monogr>
+		<title level="j">Collection Building</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="116" to="121" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>Robert</forename><surname>Slater</surname></persName>
+		</author>
+		<title level="a">E-books or print books, “big deals” or local selections—What gets more use?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Collections, Acquisitions, &amp; Technical Services</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="31" to="41" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b47">
+	<monogr>
+		<title level="m">Collections of ebooks available to BGSU but not examined for this study include titles purchased locally via DDA and EBA (evidence-based acquisition) programs that did not begin until summer 2016 and the Safari Books Online package, which does not provide title-level usage statistics</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b48">
+	<monogr>
+		<title level="m">OH7's 47 percent rate of use for 2017 titles seems to reflect, in the context of the data overall, abnormal use and not indicative of trends, though this chart does accurately reflect the usage statistics received for that institution</title>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>Amy</forename><surname>Fry</surname></persName>
+		</author>
+		<title level="a">Factors Affecting the Use of Print and Electronic Books: A Use Study and Discussion</title>
+	</analytic>
+	<monogr>
+		<title level="j">College &amp; Research Libraries</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="85" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Quentin</forename><forename type="middle">L</forename><surname>Burrell</surname></persName>
+		</author>
+		<title level="a">The 80/20 Rule: Library Lore or Statistical Law?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Documentation</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date when="1985">1985</date>
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		<author>
+			<persName><forename>Amy</forename><surname>Fry</surname></persName>
+		</author>
+		<title level="a">Conventional Wisdom or Faulty Logic? The Recent Literature on Monograph Use and E-book Acquisition</title>
+	</analytic>
+	<monogr>
+		<title level="j">Library Philosophy &amp; Practice</title>
+		<imprint>
+			<date when="2015">2015</date>
+			<biblScope unit="volume">1307</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b52">
+	<monogr>
+		<title level="j">Lamothe also drew this conclusion for Laurentian University: “Very large packages that are purchased from [a] publisher that has removed as many access restrictions as possible seem to exhibit a high level of us- age.” See Lamothe, “Comparing Usage between Selective and Bundled E-Monograph Purchases,” 120.</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b53">
+	<monogr>
+		
+		<author>
+			Carrico
+		</author>
+		<title level="m">What Cost and Usage Data Reveals about E-Book Acquisitions</title>
+		<imprint>
+			<biblScope unit="page">104</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b54">
+	<monogr>
+		
+		<author>
+			Garskof
+		</author>
+		<title level="m">Towards the Collective Collection</title>
+		<imprint>
+			<biblScope unit="page">89</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b55">
+	<monogr>
+		
+		<author>
+			Kent
+		</author>
+		<title level="m">Measuring the Impact</title>
+		<imprint>
+			<biblScope unit="page">139</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename>Sandra</forename><surname>Bozarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ying</forename><surname>Zhong</surname></persName>
+		</author>
+		<title level="m">E-books: Are We on the Same Page</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electronic Resources Librarianship</title>
+		<imprint>
+			<biblScope unit="page">241</biblScope>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b57">
+	<monogr>
+		
+		<author>
+			Yuan
+		</author>
+		<author>
+			Ballegooie
+		</author>
+		<author>
+			Robertson
+		</author>
+		<title level="m">Ebooks Versus Print Books</title>
+		<imprint>
+			<biblScope unit="page" from="37" to="42" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b58">
+	<monogr>
+		
+		<author>
+			Kent
+		</author>
+		<title level="m">Measuring the Impact</title>
+		<imprint>
+			<biblScope unit="page">137</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b59">
+	<monogr>
+		
+		<author>
+			Carrico
+		</author>
+		<title level="m">What Cost and Usage Data Reveals about E-Book Acquisitions</title>
+		<imprint>
+			<biblScope unit="page">109</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+
+<bibl type="grey-literature" xml:id="b60">
+	<monogr>
+		<title level="m">This is mentioned in Horner, “E-Preferred Approval Books at the University of Manitoba,” 100 and Karen S. Fischer et al., “Give 'Em what they Want: A One-Year Study of Unmediated Patron-Driven Acquisition of e- Books,” College &amp; Research Libraries 73, no. 5 (2012): 476. See also Timothy P. Bailey, Amanda L. Scott, and Rickey D. Best, “Cost Differentials between E-Books and Print in Academic Libraries,” College &amp; Research Libraries 76, no. 1 (2015): 13.</title>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b61">
+	<monogr>
+		
+		<author>
+			Garskof
+		</author>
+		<title level="m">Towards the Collective Collection,</title>
+		<imprint>
+			<biblScope unit="page">90</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

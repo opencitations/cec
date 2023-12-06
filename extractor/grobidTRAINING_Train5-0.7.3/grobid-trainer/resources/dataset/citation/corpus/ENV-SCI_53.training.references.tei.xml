@@ -1,0 +1,2205 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Allen</surname>
+					<forename type="first">M</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ingram</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stainforth</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Constraints on future changes in climate and the hydrologic cycle</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">419</biblScope>
+				<biblScope unit="page" from="224" to="232" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ansari</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bradley</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Rank-sum tests for dispersions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ann. Math. Stat.</title>
+			<imprint>
+				<date when="1960">1960</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="1174" to="1189" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bassingthwaighte</surname>
+					<forename type="first">J</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raymond</surname>
+					<forename type="first">G</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Evaluating rescaled range analysis for time series</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ann. Biomed. Eng.</title>
+			<imprint>
+				<date when="1994">1994</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="432" to="444" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Beighley</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moglen</surname>
+					<forename type="first">G</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Adjusting measured peak discharges from an urbanizing watershed to reflect a stationary land use signal</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page">D1093</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brown</surname>
+					<forename type="first">M</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Forsythe</surname>
+					<forename type="first">A</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">The small sample behavior of some statistics which test the equality of several means</title>
+		</analytic>
+		<monogr>
+			<title level="j">Technometrics</title>
+			<imprint>
+				<date when="1974">1974</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="129" to="132" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Buishand</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Tests for detecting a shift in the mean of hydrological time series</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="1984">1984</date>
+				<biblScope unit="volume">73</biblScope>
+				<biblScope unit="page" from="51" to="69" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Improvement of sequential cluster analysis method for extracting turning point of time series (in Chinese with English abstract)</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. China Hydrol.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="41" to="44" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>AghaKouchak</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gilleland</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Katz</surname>
+					<forename type="first">R</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Non-stationary extreme value analysis in a changing climate</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clim. Change</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">127</biblScope>
+				<biblScope unit="page" from="353" to="369" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Diffenbaugh</surname>
+					<forename type="first">N</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Giorgi</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pal</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Climate change hotspots in the United States</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophys. Res. Lett.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="375" to="402" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Favre</surname>
+					<forename type="first">A</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Adlouni</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Perreault</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thiémonge</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bobée</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Multivariate hydrological frequency analysis using copulas</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="290" to="294" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Feng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Cause of severe droughts in Southwest China during 1951–2010</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clim. Dynam.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="2033" to="2042" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b11">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Geisser</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Johnson</surname>
+					<forename type="first">W</forename><forename type="middle">O</forename>
+				</persName>
+			</author>
+			<title level="m">Modes of Parametric Statistical Inference</title>
+			<imprint>
+				<publisher>John Wiley &amp; Sons</publisher>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gocic</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trajkovic</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Analysis of changes in meteorological variables using Mann-Kendall and Sen's slope estimator statistical tests in Serbia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Global Planet. Change</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">100</biblScope>
+				<biblScope unit="page" from="172" to="182" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Goodwell</surname>
+					<forename type="first">A</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Temporal information partitioning networks (tipnets): a process network approach to infer ecohydrologic shifts</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">53</biblScope>
+				<biblScope unit="page" from="5899" to="5919" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b14">
+		<monogr>
+			<author>IPCC</author>
+			<title level="m">Climate Change 2013: The Physical Science Basis, Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+			<imprint>
+				<publisher>Cambridge University Press</publisher>
+				<pubPlace>USA</pubPlace>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Immerzeel</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pellicciotti</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bierkens</surname>
+					<forename type="first">M</forename><forename type="middle">F</forename><forename type="last">P</forename>
+				</persName>
+			</author>
+			<title level="a">Rising river flows throughout the twenty-first century in two Himalayan glacierized watersheds</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Geosci.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="742" to="745" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jackson</surname>
+					<forename type="first">F</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hannah</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fryer</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Millar</surname>
+					<forename type="first">C</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Malcolm</surname>
+					<forename type="first">I</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Development of spatial regression models for predicting summer river temperatures from landscape characteristics: implications for land and fisheries management</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hydrol. Process</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="1225" to="1238" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jeon</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sung</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chung</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Abrupt change point detection of annual maximum precipitation using fused lasso</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">538</biblScope>
+				<biblScope unit="page" from="831" to="841" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ji</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Increase in flood and drought disasters during 1500–2000 in Southwest China</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Hazards</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">77</biblScope>
+				<biblScope unit="page" from="1853" to="1861" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jo</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jeon</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Bayesian analysis to detect abrupt changes in extreme hydrological processes</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">538</biblScope>
+				<biblScope unit="page" from="63" to="70" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b20">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Kendall</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stuart</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ord</surname>ì
+					<forename type="first">K</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arnold</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="m">Kendall’s Advanced Theory of Statistics: Volume 2A-Classical Inference and the Linear Model (Kendall’s Library of Statistics)</title>
+			<imprint>
+				<publisher>Hodder Arnold</publisher>
+				<date when="1999">1999</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kao</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Govindaraju</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">A bivariate frequency analysis of extreme rainfall with implications for design</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Geophys. Res.: Atmos.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">112</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kisi</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ay</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Comparison of Mann-Kendall and innovative trend method for water quality parameters of the Kizilirmak River</title>
+		</analytic>
+		<monogr>
+			<title level="j">Turkey. J. Hydrol.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">513</biblScope>
+				<biblScope unit="page" from="362" to="375" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">A</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Heghinian</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">A shift of the mean level in a sequence of independent normal random variables: a Bayesian approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">Technometrics</title>
+			<imprint>
+				<date when="1977">1977</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="503" to="506" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lloyd</surname>
+					<forename type="first">C</forename><forename type="middle">E</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Freer</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collins</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Johnes</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Methods for detecting change in hydrochemical time series in response to targeted pollutant mitigation in river catchments</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">514</biblScope>
+				<biblScope unit="page" from="297" to="312" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>López</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Francés</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Non-stationary flood frequency analysis in continental Spanish rivers, using climate and reservoir indices as external covariates</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hydrol. Earth Syst. Sci.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="3189" to="3203" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lutz</surname>
+					<forename type="first">A</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Immerzeel</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shrestha</surname>
+					<forename type="first">A</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bierkens</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Consistent increase in High Asia's runoff due to increasing glacier melt and precipitation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Clim. Change</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="587" to="587" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mallakpour</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Villarini</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">A simulation study to examine the sensitivity of the Pettitt test to detect abrupt changes in mean</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. Assoc. Sci. Hydrol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">61</biblScope>
+				<biblScope unit="page" from="245" to="254" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mandelbrot</surname>
+					<forename type="first">B</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wallis</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Robustness of the rescaled range R/S in the measurement of noncyclic long run statistical dependence</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="1969">1969</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="967" to="988" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>McCabe</surname>
+					<forename type="first">G</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wolock</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">A step increase in streamflow in the conterminous United States</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophys. Res. Lett.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="2185" to="2185" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b30">
+		<monogr>
+			<author>
+				<persName>
+					<surname>McCuen</surname>
+					<forename type="first">R</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="m">Modeling Hydrologic Change: Statistical Methods</title>
+			<imprint>
+				<publisher>CRC Press</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Milly</surname>
+					<forename type="first">P</forename><forename type="middle">C</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Betancourt</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Falkenmark</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirsch</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kundzewicz</surname>
+					<forename type="first">Z</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lettenmaier</surname>
+					<forename type="first">D</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stouffer</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Stationarity is dead: whither water management?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">319</biblScope>
+				<biblScope unit="page" from="573" to="574" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nigro</surname>
+					<forename type="first">M</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pakzad</surname>
+					<forename type="first">S</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dorvash</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Localized structural damage detection: change point analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Comput-Aided Civ. Inf.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="416" to="432" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Perreault</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bernier</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bobée</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parent</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Bayesian change-point analysis in hydrometeorological time series. Part 1. The normal model revisited</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2000">2000a</date>
+				<biblScope unit="volume">235</biblScope>
+				<biblScope unit="page" from="221" to="241" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Perreault</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bernier</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bobée</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parent</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Bayesian change-point analysis in hydrometeorological time series. Part 2. Comparison of change-point models and forecasting</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2000">2000b</date>
+				<biblScope unit="volume">235</biblScope>
+				<biblScope unit="page" from="242" to="263" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pettitt</surname>
+					<forename type="first">A</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<title level="a">A non-parametric approach to the change-point problem</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Roy. Stat. Soc.</title>
+			<imprint>
+				<date when="1979">1979</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="126" to="135" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="book" xml:id="b36">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Raghunath</surname>
+					<forename type="first">H</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Hydrology: principles, analysis and design</title>
+			<imprint>
+				<publisher>New Age Int</publisher>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Renard</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Use of a Gaussian copula for multivariate extreme value analysis: some case studies in hydrology</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Water Resour.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="897" to="912" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sang</surname>
+					<forename type="first">Y</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Probabilistic forecast and uncertainty assessment of hydrologic design values using Bayesian theories</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hum. Ecol. Risk Assess.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="1184" to="1207" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sang</surname>
+					<forename type="first">Y</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gong</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Temporal-spatial climate variability in the headwater drainage basins of the yangtze river and yellow river China</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Climate</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="5061" to="5071" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sang</surname>
+					<forename type="first">Y</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Singh</surname>
+					<forename type="first">V</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gong</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Precipitation variability and response to changing climatic condition in the Yarlung Tsangpo River basin China</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Geophys. Res.: Atmos.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">121</biblScope>
+				<biblScope unit="page" from="8820" to="8831" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sang</surname>
+					<forename type="first">Y</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Urban waterlogs control in China: more effective strategies and actions are needed</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Hazards</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">85</biblScope>
+				<biblScope unit="page" from="1291" to="1294" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shoemaker</surname>
+					<forename type="first">L</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Fixing the F test for equal variances</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am. Stat.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">57</biblScope>
+				<biblScope unit="page" from="105" to="114" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stosic</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Telesca</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Souza Ferreira</surname>
+					<forename type="first">D</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stosic</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Investigating anthropically induced effects in streamflow dynamics by using permutation entropy and statistical complexity analysis: a case study</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">540</biblScope>
+				<biblScope unit="page" from="1136" to="1145" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cai</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>An</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Edwards</surname>
+					<forename type="first">R</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Decreasing monsoon precipitation in southwest China during the last 240 years associated with the warming of tropical ocean</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clim. Dynam.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">48</biblScope>
+				<biblScope unit="page" from="1769" to="1778" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Thompson</surname>
+					<forename type="first">L</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mosley-Thompson</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brecher</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Davis</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>León</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Les</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename type="first">P</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mashiotta</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mountain</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Abrupt tropical climate change: past and present</title>
+		</analytic>
+		<monogr>
+			<title level="j">P. Natl. Acad. Sci. USA</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">103</biblScope>
+				<biblScope unit="page" from="10536" to="10543" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Thorne</surname>
+					<forename type="first">P</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parker</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Christy</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mears</surname>
+					<forename type="first">C</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Uncertainties in climate trends: lessons from upper-air temperature records</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bull. Am. Meteorol. Soc.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="1437" to="1442" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tongal</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Demirel</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moradkhani</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Analysis of dam-induced cyclic patterns on river flow dynamics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hydrol. Sci. J.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">62</biblScope>
+				<biblScope unit="page" from="626" to="641" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Trenberth</surname>
+					<forename type="first">K</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schrier</surname>
+					<forename type="first">G</forename><forename type="middle">V</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barichivich</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Briffa</surname>
+					<forename type="first">K</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sheffield</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Global warming and changes in drought</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Clim. Change</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="17" to="22" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Turner</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>White</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Phillips</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>King</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hosking</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bracegirdle</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marshall</surname>
+					<forename type="first">G</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mulvaney</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deb Others</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Absence of 21st century warming on Antarctic Peninsula consistent with natural variability</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">535</biblScope>
+				<biblScope unit="page" from="411" to="415" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Choice of South Asian summer monsoon indices</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bull. Amer. Meteor. Soc.</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">80</biblScope>
+				<biblScope unit="page" from="629" to="638" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wanner</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ockenfeld</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brunke</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fischer</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pusch</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">The distribution and turnover of benthic organic matter in a lowland river: influence of hydrology, seston load and impoundment</title>
+		</analytic>
+		<monogr>
+			<title level="j">River Res. Appl.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="107" to="122" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Welch</surname>
+					<forename type="first">B</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">The generalization ofstudent's' problem when several different population variances are involved</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biometrika</title>
+			<imprint>
+				<date when="1947">1947</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="28" to="35" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wilby</surname>
+					<forename type="first">R</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Harris</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<title level="a">A framework for assessing uncertainties in climate change impacts: low-flow scenarios for the River Thames UK</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page">W02419</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b54">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Weakening of Indian summer monsoon in recent decades</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Atmos. Sci.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="21" to="29" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Singh</surname>
+					<forename type="first">V</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Review on regional water resources assessment models under stationary and changing climate</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Manag.</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="591" to="612" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yao</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thompson</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Duan</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Different glacier status with atmospheric circulations in Tibetan Plateau and surroundings</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Clim. Change</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="663" to="667" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	 
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yao</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Masson-Delmotte</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Risi</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sturm</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Werner</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">A review of climatic controls on δ18O in precipitation over the Tibetan Plateau: observations and simulations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Rev. Geophys.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">51</biblScope>
+				<biblScope unit="page" from="525" to="548" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b58">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yue</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">C</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<title level="a">Applicability of prewhitening to eliminate the influence of serial correlation on the Mann-Kendall test</title>
+		</analytic>
+		<monogr>
+			<title level="j">Water Resour. Res.</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page">D1068</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b59">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Su</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hao</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tong</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Discharge regime and simulation for the upstream of major rivers over Tibetan Plateau</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Geophys. Res.: Atmos.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">118</biblScope>
+				<biblScope unit="page" from="8500" to="8518" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b60">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Singh</surname>
+					<forename type="first">V</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Trend, periodicity and abrupt change in streamflow of the East River, the Pearl River basin</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hydrol. Process.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="305" to="314" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b61">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Luo</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Using glacier area ratio to quantify effects of melt water on runoff</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Hydrol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">538</biblScope>
+				<biblScope unit="page" from="269" to="277" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b62">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fan</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Characteristics and causes of changes in annual runoff of the Wuding river in 1956–2009</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environ. Earth Sci.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">69</biblScope>
+				<biblScope unit="page" from="225" to="234" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

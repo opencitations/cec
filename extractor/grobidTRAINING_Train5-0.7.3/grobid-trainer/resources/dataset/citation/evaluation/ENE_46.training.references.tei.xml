@@ -1,0 +1,461 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>BROADHEAD</surname>
+					<forename type="first">B</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Sensitivity- and Uncertainty-Based Criticality Safety Validation Techniques</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">146</biblScope>
+				<biblScope unit="page" from="340" to="" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>GALTON</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Regression Towards Mediocrity in Hereditary Stature</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Anthro. Inst. Great Britain and Ireland</title>
+			<imprint>
+				<date when="1886">1886</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="246" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PEARSON</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Notes on Regression and Inheritance in the Case of Two Parents</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. R. Soc. London</title>
+			<imprint>
+				<date when="1895">1895</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="240" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b3">
+		<monogr>
+			<author>
+				<persName>
+					<surname>SCAGLIONE</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">An Approach for Validating Actinide and Fission Product Burnup Credit Criticality Safety Analyses—Criticality (keff) Predictions</title>
+			<imprint>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b4">
+		<monogr>
+			<author>U.S.Nuclear Regulatory Commission, Office of Nuclear Material Safety and Safeguards, Division of Fuel Cycle Safety and Safeguards</author>
+			<title level="m">Justification for Minimum Margin of Subcriticality for Safety</title>
+			<imprint>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b5">
+		<monogr>
+			<title level="m">SCALE Code System</title>
+			<editor>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>JESSEE</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Development and Testing of Neutron Cross Section Covariance Data for SCALE 6.2</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Int. Conf. Nuclear Criticality Safety</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b7">
+		<monogr>
+			<author>
+				<persName>
+					<surname>LICHTENWALTER</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="m">Criticality Benchmark Guide for Light-Water-Reactor Fuel in Transportation and Storage Packages</title>
+			<imprint>
+				<date when="1997">1997</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>KIEDROWSKI</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Whisper: Sensitivity/ Uncertainty-Based Computational Methods and Software for Determining Baseline Upper Subcritical Limits</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">181</biblScope>
+				<biblScope unit="page" from="17" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b9">
+		<monogr>
+			<author>
+				<persName>
+					<surname>WILLIAMS</surname>
+					<forename type="first">M</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">TSURFER: An Adjustment Code to Determine Biases and Uncertainties in Nuclear System Responses by Consolidating Differential Data and Benchmark Integral Experiments</title>
+			<imprint>
+				<date when="2009">2009</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b10">
+		<monogr>
+			<author>
+				<persName>
+					<surname>SANTAMARINA</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="m">Benchmark Phase-V Blind Benchmark on MOX Wet Powders</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Working Party on Nuclear Criticality Safety</publisher>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b11">
+		<monogr>
+			<author>
+				<persName>
+					<surname>IVANOVA</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="m">Specifications for Benchmark Exercises of Phase 1: Comparison of Uncertainty Analysis Methods for Criticality Safety Assessment</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee</publisher>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="manual" xml:id="b12">
+		<monogr>
+			<title level="m">International Handbook of Evaluated Criticality Safety Benchmark Experiments</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b13">
+		<monogr>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="j">Criticality Safety Validation of SCALE 6.1</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>IVANOV</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Approach and Issues of Covariance Matrix Establishment for Systems with Variable Spectra</title>
+			<imprint>
+				<date from="2016-03-09" to="2016-03-11">March 9–11, 2016</date>
+			</imprint>
+			<note>presented at Workshop on Integral Experiment Covariance Data for Criticality Safety Validation</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="grey-literature" xml:id="b15">
+		<monogr><author>
+				<persName>
+					<surname>KIEDROWSKI</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="m">Adjoint Weighting for Continuous- Energy Monte Carlo Radiation Transport</title>
+			<imprint>
+				<publisher>University of Wisconsin</publisher>
+				<date when="2009">2009</date>
+			</imprint>
+			<note>PhD Dissertation</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PERFETTI</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">SCALE Continuous-Energy Eigenvalue Sensitivity Coefficient Calculations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">182</biblScope>
+				<biblScope unit="page" from="332" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="grey-literature" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>BROWN</surname>
+					<forename type="first">F</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>RISING</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>ALWIN</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">Lecture Notes on Criticality Safety Validation Using MCNP &amp; Whisper</title>
+			<imprint>
+				<publisher>Los Alamos National Laboratory</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>ROBERTS</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>WILSON</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Determination and Application of Partial Biases in Criticality Safety Validation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">173</biblScope>
+				<biblScope unit="page" from="43" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>PEVEY</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Determination of Critical Experiment Correlations for Experiments Involving Arrays of Low-Enriched Fuel Rods</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Nuclear Criticality Safety Division (NCSD 2017)</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="series" xml:id="b20">
+		<monogr>
+			<author>
+				<persName>
+					<surname>NATRELLA</surname>
+					<forename type="first">M</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="m">Experimental Statistics</title>
+			<imprint>
+				<publisher>U.S. Department of Commerce</publisher>
+				<date when="1963">1963</date>
+			</imprint>
+		</monogr>
+		<series>
+			<title level="s">National Bureau of Standards Handbook</title>
+			<biblScope unit="volume">91</biblScope>
+		</series>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>SALVATORES</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Methods and Issues for the Combined Use of Integral Experiments and Covariance Data: Results of a NEA International Collaborative Study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Data Sheets</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">118</biblScope>
+				<biblScope unit="page" from="38" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PERFETTI</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">Development of a Generalized Perturbation Theory Method for Sensitivity Analysis Using Continuous-Energy Monte Carlo Methods</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">182</biblScope>
+				<biblScope unit="page" from="354" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

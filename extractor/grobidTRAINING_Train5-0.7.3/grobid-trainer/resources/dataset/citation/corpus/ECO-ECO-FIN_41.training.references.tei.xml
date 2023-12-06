@@ -1,0 +1,982 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="book" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Arrow</surname>
+					<forename>Kenneth</forename>
+				</persName>
+			</author>
+			<title level="m">Essays in the Theory of Risk-Bearing</title>
+			<imprint>
+				<publisher>Markham Publishing Co</publisher>
+				<pubPlace>Chicago</pubPlace>
+				<date when="1971">1971</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="unpublished" xml:id="b1">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Augenblick</surname>
+					<forename>Ned</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matthew</surname>
+					<forename>Rabin</forename>
+				</persName>
+			</author>
+			<title level="m">Belief Movement, Uncertainty Reduction, and Rational Updating</title>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Babaioff</surname>
+					<forename>Moshe</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kleinberg</surname>
+					<forename>Robert</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paes Leme</surname>
+					<forename>Renato</forename>
+				</persName>
+			</author>
+			<title level="a">Optimal Mechanisms for Selling Information</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the 13th ACM Conference on Electronic Commerce</title>
+			<imprint>
+				<publisher>ACM</publisher>
+				<date when="2012">2012</date>
+				<biblScope unit="page" from="92" to="109" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Banerjee</surname>
+					<forename>Arindam</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Merugu</surname>
+					<forename>Srujana</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dhillon</surname>
+					<forename type="first">Inderjit</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ghosh</surname>
+					<forename>Joydeep</forename>
+				</persName>
+			</author>
+			<title level="a">Clustering with Bregman Divergences</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Machine Learning Research</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="1705" to="1749" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bergemann</surname>
+					<forename>Dirk</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bonatti</surname>
+					<forename>Alessandro</forename>
+				</persName>
+			</author>
+			<title level="a">Selling Cookies</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Economic Journal: Microeconomics</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="259" to="94" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bergemann</surname>
+					<forename>Dirk</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bonatti</surname>
+					<forename>Alessandro</forename>
+				</persName>
+			</author>
+			<title level="a">Markets for Information: An Introduction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annual Review of Economics</title>
+			<imprint>
+				<date when="2019">2019</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Blackwell</surname>
+					<forename>David</forename>
+				</persName>
+			</author>
+			<title level="a">Comparison of Experiments</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability</title>
+			<imprint>
+				<publisher>University of California Press</publisher>
+				<date when="1951">1951</date>
+				<biblScope unit="page" from="93" to="102" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Börgers</surname>
+					<forename>Tilman</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hernando-Veciana</surname>
+					<forename>Angel</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krähmer</surname>
+					<forename>Daniel</forename>
+				</persName>
+			</author>
+			<title level="a">When Are Signals Complements or Substitutes?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Economic Theory</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">148</biblScope>
+				<biblScope unit="page" from="165" to="95" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bregman</surname>
+					<forename>Lev</forename>
+				</persName>
+			</author>
+			<title level="a">The Relaxation Method of Finding the Common Points of Convex Sets and Its Application to the Solution of Problems in Convex Programming</title>
+		</analytic>
+		<monogr>
+			<title level="j">USSR Computational Mathematics and Mathematical Physics</title>
+			<imprint>
+				<date when="1967">1967</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="200" to="217" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brier</surname>
+					<forename type="first">Glenn</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Verification of Forecasts Expressed in Terms of Probability</title>
+		</analytic>
+		<monogr>
+			<title level="j">Monthly Weather Review</title>
+			<imprint>
+				<date when="1950">1950</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="1" to="3" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brunnermeier</surname>
+					<forename type="first">Markus</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parker</surname>
+					<forename type="first">Jonathan</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Optimal Expectations</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Economic Review</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">95</biblScope>
+				<biblScope unit="page" from="1092" to="118" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cabrales</surname>
+					<forename>Antonio</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gossner</surname>
+					<forename>Olivier</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Serrano</surname>
+					<forename>Roberto</forename>
+				</persName>
+			</author>
+			<title level="a">Entropy and the Value of Information for Investors</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Economic Review</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">103</biblScope>
+				<biblScope unit="page" from="360" to="77" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b12">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Caplin</surname>
+					<forename>Andrew</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dean</surname>
+					<forename>Mark</forename>
+				</persName>
+			</author>
+			<title level="m">The Behavioral Implications of Rational Inattention with Shannon Entropy</title>
+			<imprint>
+				<date when="2013">2013</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b13">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Caplin</surname>
+					<forename>Andrew</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dean</surname>
+					<forename>Mark</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leahy</surname>
+					<forename>John</forename>
+				</persName>
+			</author>
+			<title level="m">Rationally Inattentive Behavior: Characterizing and Generalizing Shannon Entropy</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Caplin</surname>
+					<forename>Andrew</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dean</surname>
+					<forename>Mark</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leahy</surname>
+					<forename>John</forename>
+				</persName>
+			</author>
+			<title level="a">Psychological Expected Utility Theory and Anticipatory Feelings</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quarterly Journal of Economics</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">116</biblScope>
+				<biblScope unit="page" from="55" to="79" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b15">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cover</surname>
+					<forename type="first">Thomas</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thomas</surname>
+					<forename type="first">Joy</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="m">Elements of Information Theory</title>
+			<imprint>
+				<publisher>John Wiley &amp; Sons</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b16">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cripps</surname>
+					<forename type="first">Martin</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="m">Divisible Updating</title>
+			<imprint>
+				<date when="2019">2019</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Csiszár</surname>
+					<forename>Imre</forename>
+				</persName>
+			</author>
+			<title level="a">Axiomatic Characterizations of Information Measures</title>
+		</analytic>
+		<monogr>
+			<title level="j">Entropy</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="261" to="73" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b18">
+		<monogr>
+			<author>
+				<persName>
+					<surname>De Lara</surname>
+					<forename>Michel</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gossner</surname>
+					<forename>Olivier</forename>
+				</persName>
+			</author>
+			<title level="m">An Instrumental Approach to the Value of Information</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ely</surname>
+					<forename>Jeffrey</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Frankel</surname>
+					<forename>Alexander</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kamenica</surname>
+					<forename>Emir</forename>
+				</persName>
+			</author>
+			<title level="a">Suspense and Surprise</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Political Economy</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">123</biblScope>
+				<biblScope unit="page" from="215" to="60" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b20">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frankel</surname>
+					<forename>Alexander</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kasy</surname>
+					<forename>Maximilian</forename>
+				</persName>
+			</author>
+			<title level="m">Which Findings Should Be Published?</title>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gentzkow</surname>
+					<forename>Matthew</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kamenica</surname>
+					<forename>Emir</forename>
+				</persName>
+			</author>
+			<title level="a">Costly Persuasion</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Economic Review</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">104</biblScope>
+				<biblScope unit="page" from="457" to="462" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gentzkow</surname>
+					<forename>Matthew</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kamenica</surname>
+					<forename>Emir</forename>
+				</persName>
+			</author>
+			<title level="a">Bayesian Persuasion with Multiple Senders and Rich Signal Spaces</title>
+		</analytic>
+		<monogr>
+			<title level="j">Games and Economic Behavior</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">104</biblScope>
+				<biblScope unit="page" from="411" to="429" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gneiting</surname>
+					<forename>Tilmann</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raftery</surname>
+					<forename type="first">Adrian</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Strictly Proper Scoring Rules, Prediction, and Estimation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of the American Statistical Association</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">102</biblScope>
+				<biblScope unit="page" from="359" to="378" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Good</surname>
+					<forename type="first">I</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Rational Decisions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of the Royal Statistical Society Series B (Methodological)</title>
+			<imprint>
+				<date when="1952">1952</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="107" to="114" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gossner</surname>
+					<forename>Olivier</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Steiner</surname>
+					<forename>Jakub</forename>
+				</persName>
+			</author>
+			<title level="a">On the Cost of Misperception: General Results and Behavioral Applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Economic Theory</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">177</biblScope>
+				<biblScope unit="page" from="816" to="847" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b26">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Green</surname>
+					<forename type="first">Jerry</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stokey</surname>
+					<forename type="first">Nancy</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">Two Representations of Information Structures and Their Comparisons</title>
+			<imprint>
+				<date when="1978">1978</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b27">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Hébert</surname>
+					<forename>Benjamin</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Woodford</surname>
+					<forename>Michael</forename>
+				</persName>
+			</author>
+			<title level="m">Rational Inattention with Sequential Information Sampling</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kamenica</surname>
+					<forename>Emir</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gentzkow</surname>
+					<forename>Matthew</forename>
+				</persName>
+			</author>
+			<title level="a">Bayesian Persuasion</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Economic Review</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">101</biblScope>
+				<biblScope unit="page" from="2590" to="2615" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kelly</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">A New Interpretation of Information Rate</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bell Labs Technical Journal</title>
+			<imprint>
+				<date when="1956">1956</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="917" to="926" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lehmann</surname>
+					<forename type="first">Erich</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Comparing Location Experiments</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annals of Statistics</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="521" to="533" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b31">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Mensch</surname>
+					<forename>Jeffrey</forename>
+				</persName>
+			</author>
+			<title level="m">Bayesian Learning by Polling</title>
+			<imprint>
+				<date when="2018">2018b</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b32">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Mensch</surname>
+					<forename>Jeffrey</forename>
+				</persName>
+			</author>
+			<title level="m">Cardinal Representations of Information</title>
+			<imprint>
+				<date when="2018">2018a</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b33">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Morris</surname>
+					<forename>Stephen</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Strack</surname>
+					<forename>Philip</forename>
+				</persName>
+			</author>
+			<title level="m">The Wald Problem and the Equivalence of Sequential Sampling and Static Information Costs</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Persico</surname>
+					<forename>Nicola</forename>
+				</persName>
+			</author>
+			<title level="a">Information Acquisition in Auctions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Econometrica</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">68</biblScope>
+				<biblScope unit="page" from="135" to="148" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b35">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Pomatto</surname>
+					<forename>Luciano</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Strack</surname>
+					<forename>Philipp</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tamuz</surname>
+					<forename>Omer</forename>
+				</persName>
+			</author>
+			<title level="m">The Cost of Information</title>
+			<imprint>
+				<date when="2019">2019</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schervish</surname>
+					<forename type="first">Schervish</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">A General Method for Comparing Probability Assessors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Annals of Statistics</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="1856" to="1879" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sims</surname>
+					<forename type="first">Christopher</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Implications of Rational Inattention</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Monetary Economics</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">50</biblScope>
+				<biblScope unit="page" from="665" to="690" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Steiner</surname>
+					<forename>Jakub</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stewart</surname>
+					<forename>Colin</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matejka</surname>
+					<forename>Filip</forename>
+				</persName>
+			</author>
+			<title level="a">Rational Inattention Dynamics: Inertia and Delay in Decision-Making</title>
+		</analytic>
+		<monogr>
+			<title level="j">Econometrica</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">85</biblScope>
+				<biblScope unit="page" from="521" to="553" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b39">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Yoder</surname>
+					<forename>Nathan</forename>
+				</persName>
+			</author>
+			<title level="m">Designing Incentives for Academic Research</title>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b40">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Zanardo</surname>
+					<forename>Enrico</forename>
+				</persName>
+			</author>
+			<title level="m">How to Measure Disagreement</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+			<note>Unpublished</note>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

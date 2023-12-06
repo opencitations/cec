@@ -1,0 +1,593 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Almutairi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Adlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Nasim</surname></persName>
+		</author>
+		<title level="a">Perceptions of the critical cultural competence of registered nurses in Canada</title>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Nursing</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Bagnasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Timmins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><forename type="last">A</forename><surname>de Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Aleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Zanini</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Catania</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Sasso</surname></persName>
+		</author>
+		<title level="a">Understanding and addressing missed care in clinical placements — Implications for nursing students and nurse educators</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Education Today</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Blackman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Papastavrou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Palese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Vryonides</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Willis</surname></persName>
+		</author>
+		<title level="a">Predicting variations to missed nursing care: A three-nation comparison</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nursing Management</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="webpage" xml:id="b3">
+	<monogr>
+		<author>Central Statistics Office</author>
+		<title level="m">‘Census of Population 2016 – Preliminary Results</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>http://www.cso.ie/en/releasesandpublications/ep/p-cpr/censusofpopulation2016-preliminaryresults/</note>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Curtis</surname></persName>
+		</author>
+		<title level="a">Learning the requirements for compassionate practice: Student Vulnerability and Courage</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nursing Ethics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="210" to="223" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Timmins</surname></persName>
+		</author>
+		<title level="a">Care erosion in hospitals: Problems in reflective nursing practice and the role of cognitive dissonance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Education Today</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="5" to="8" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Timmins</surname></persName>
+		</author>
+		<title level="a">Teaching psychology to nursing students-a discussion of the potential contribution of psychology towards building resilience to lapses in compassionate caring</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Education in Practice</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="27" to="32" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename>L</forename><surname>Festinger</surname></persName>
+		</author>
+		<title level="m">A Theory of Cognitive Dissonance</title>
+		<imprint>
+			<publisher>Stanford University Press</publisher>
+			<pubPlace>Stanford, CA</pubPlace>
+			<date when="1957">1957</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Gibbon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Crane</surname></persName>
+		</author>
+		<title level="a">The impact of ‘missed care’ on the professional socialisation of nursing students: A qualitative research study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Education Today</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="19" to="24" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Babacan</surname></persName>
+		</author>
+		<title level="a">Developing a cultural responsiveness framework in healthcare systems: an Australian example</title>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity and Equality in Health and Care</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b10">
+	<monogr>
+		
+		<author>
+			<persName><forename>B</forename><surname>Glaser</surname></persName>
+		</author>
+		<title level="m">Theoretical Sensitivity: Advances in the Methodology of Grounded Theory</title>
+		<imprint>
+			<publisher>Sage</publisher>
+			<date when="1978">1978</date>
+			<pubPlace>California, CA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename>B</forename><surname>Glaser</surname></persName>
+		</author>
+		<title level="m">Basics of grounded theory analysis</title>
+		<imprint>
+			<publisher>Sociology Press</publisher>
+			<date when="1992">1992</date>
+			<pubPlace>California, CA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Mareno</surname></persName>
+		</author>
+		<title level="a">Cultural challenges and barriers through the voices of nurses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Nursing</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="2223" to="2232" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Horsburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ross</surname></persName>
+		</author>
+		<title level="a">Care and compassion: the experiences of newly qualified staff nurses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Nursing</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">7-8</biblScope>
+			<biblScope unit="page" from="1124" to="1132" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Husband</surname></persName>
+		</author>
+		<title level="a">Counter Narratives to Multiculturalism and the Assimilationist Drift In British Policy: Lessons from the Era of New Labour</title>
+	</analytic>
+	<monogr>
+		<title level="m">Translocations</title>
+		<imprint>
+			<date when="2010">2010</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Murry</surname></persName>
+		</author>
+		<title level="a">Unfinished nursing care, missed care, and implicitly rationed care: State of the science review</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Nursing Studies</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1121" to="1137" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M-J</forename><surname>Johnstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Duke</surname></persName>
+		</author>
+		<title level="a">Recognising and responding to ‘cutting corners’ when providing nursing care: a qualitative study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Nursing</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="2126" to="2133" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Markey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Tilki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Understanding nurses’ concerns when caring for patients from diverse cultural and ethnic backgrounds</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Nursing</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="e259" to="e268" />
+			<date when="2017">2018.</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Mccalman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Jongen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Bainbridge</surname></persName>
+		</author>
+		<title level="a">Organisational systems’ approaches to improving cultural competence in healthcare: a systematic scoping review of the literature</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal for Equity in Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Kotze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wright</surname></persName>
+		</author>
+		<title level="a">Blame and Accountability 1: Understanding Blame and Blame Pathologies</title>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="118" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Ogbolu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Scrandis</surname></persName>
+		</author>
+		<title level="a">Barriers and facilitators of care for diverse patients: Nurse leader perspectives and nurse manager implications</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nursing Management</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3" to="10" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Papadopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Pezzella</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Foley</surname></persName>
+		</author>
+		<title level="a">Developing Tools to Promote Culturally Competent Compassion, Courage, and Intercultural Communication in Healthcare</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Compassionate Health Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Parthab</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Nicole</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Maguire</surname></persName>
+		</author>
+		<title level="a">Cross-cultural communication barriers in health care</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nursing Standard</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page" from="35" to="43" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Truong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Paradies</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Priest</surname></persName>
+		</author>
+		<title level="a">Interventions to improve cultural competency in healthcare: a systematic review of reviews</title>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Services Research</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b24">
+	<monogr>
+		<author>U.S. Department of Health and Human Services, Office of Minority Health</author>
+		<title level="m">National standards for culturally and linguistically appropriate services in health and healthcare</title>
+		<imprint>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Dongxia Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Yasheng</surname></persName>
+		</author>
+		<title level="a">Nursing students’ cultural competence in caring for older people in a multicultural and developing region</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nurse Education Today</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="47" to="53" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

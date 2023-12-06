@@ -1,0 +1,3286 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+			<bibl type="technical-report" xml:id="b0">
+				<monogr>
+					<title level="m">Global tuberculosis report</title>
+					<imprint>
+						<date when="2018">2018</date>
+						<publisher>World Health Organization</publisher>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b1">
+				<analytic>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Segal</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Bloch</surname>
+						</persName>
+					</author>
+					<title level="a">Biochemical Differentiation of Mycobacterium Tuberculosis grown in vivo and in vitro</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol</title>
+					<imprint>
+						<biblScope unit="volume">72</biblScope>
+						<biblScope unit="page" from="132" to="141" />
+						<date when="1956">1956</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b2">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">K</forename>
+							<surname>Pandey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Sassetti</surname>
+						</persName>
+					</author>
+					<title level="a">Mycobacterial persistence requires the utilization of host cholesterol</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">105</biblScope>
+						<biblScope unit="page" from="9130" to="9130" />
+						<date when="2008">2008</date>
+					</imprint>
+					<note>vol 105, pg 4376, 2008</note>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b3">
+				<analytic>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Lee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">C</forename>
+							<surname>Vanderven</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">J</forename>
+							<surname>Fahey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">G</forename>
+							<surname>Russell</surname>
+						</persName>
+					</author>
+					<title level="a">Intracellular Mycobacterium tuberculosis Exploits Host-derived Fatty Acids to Limit Metabolic Stress</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biol. Chem.</title>
+					<imprint>
+						<biblScope unit="volume">288</biblScope>
+						<biblScope unit="page" from="6788" to="6800" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b4">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Savvi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">F</forename>
+							<surname>Warner</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">D</forename>
+							<surname>Kana</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Mckinney</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Mizrahi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">S</forename>
+							<surname>Dawes</surname>
+						</persName>
+					</author>
+					<title level="a">Functional characterization of a vitamin B(12)-dependent methylmalonyl pathway in Mycobacterium tuberculosis: implications for propionate metabolism during growth on fatty acids</title>
+					
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">190</biblScope>
+						<biblScope unit="page" from="3886" to="3895" />
+						<date when="2008">2008</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b5">
+				<analytic>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Ouellet</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">B</forename>
+							<surname>Johnston</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">R</forename>
+							<forename type="last">O</forename>
+							<surname>de Montellano</surname>
+						</persName>
+					</author>
+					<title level="a">Cholesterol catabolism as a therapeutic target in Mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">Trends Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">19</biblScope>
+						<biblScope unit="page" from="530" to="539" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b6">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">T</forename>
+							<surname>Thomas</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">C</forename>
+							<surname>VanderVen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">R</forename>
+							<surname>Sherman</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">G</forename>
+							<surname>Russell</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">S</forename>
+							<surname>Sampson</surname>
+						</persName>
+					</author>
+					<title level="a">Pathway profiling in mycobacterium tuberculosis elucidation of cholesterol-derived catabolite and enzymes that catalyze its metabolism</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biol. Chem.</title>
+					<imprint>
+						<biblScope unit="volume">286</biblScope>
+						<biblScope unit="page" from="43668" to="43678" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b7">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">E</forename>
+							<surname>Griffin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">K</forename>
+							<surname>Pandey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">A</forename>
+							<surname>Gilmore</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Mizrahi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Mckinney</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">R</forename>
+							<surname>Bertozzi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Sassetti</surname>
+						</persName>
+					</author>
+					<title level="a">Cholesterol Catabolism by Mycobacterium tuberculosis Requires Transcriptional and Metabolic Adaptations</title>
+				</analytic>
+				<monogr>
+					<title level="j">Chem. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">19</biblScope>
+						<biblScope unit="page" from="218" to="227" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b8">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">M</forename>
+							<surname>Crowe</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>I</forename>
+							<surname>Casabon</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">L</forename>
+							<surname>Brown</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Lian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Rogalski</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">E</forename>
+							<surname>Hurst</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Snieckus</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">J</forename>
+							<surname>Foster</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">D</forename>
+							<surname>Eltis</surname>
+						</persName>
+					</author>
+					<title level="a">Catabolism of the Last Two Steroid Rings in Mycobacterium tuberculosis and Other Bacteria</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mbio</title>
+					<imprint>
+						<biblScope unit="volume">8</biblScope>
+						<biblScope unit="page">e00321-17</biblScope>
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b9">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">M</forename>
+							<surname>Upton</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>McKinney</surname>
+						</persName>
+					</author>
+					<title level="a">Role of the methylcitrate cycle in propionate metabolism and detoxification in Mycobacterium smegmatis</title>
+				</analytic>
+				<monogr>
+					<title level="j">Microbiology</title>
+					<imprint>
+						<biblScope unit="volume">153</biblScope>
+						<biblScope unit="page" from="3973" to="3982" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b10">
+				<analytic>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Eoh</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">Y</forename>
+							<surname>Rhee</surname>
+						</persName>
+					</author>
+					<title level="a">Methylcitrate cycle defines the bactericidal essentiality of isocitrate lyase for survival of Mycobacterium tuberculosis on fatty acids</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">111</biblScope>
+						<biblScope unit="page" from="4976" to="4981" />
+						<date when="2014">2014</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b11">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">J</forename>
+							<surname>Munoz-Elias</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">M</forename>
+							<surname>Upton</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Cherian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Mckinney</surname>
+						</persName>
+					</author>
+					<title level="a">Role of the methylcitrate cycle in Mycobacterium tuberculosis metabolism, intracellular growth, and virulence</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mol. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">60</biblScope>
+						<biblScope unit="page" from="1109" to="1122" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b12">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">A</forename>
+							<surname>Gould</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">V</forename>
+							<surname>De Langemheen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">J</forename>
+							<surname>Munoz-Elias</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>McKinney</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Sacchettini</surname>
+						</persName>
+					</author>
+					<title level="a">Dual role of isocitrate lyase 1 in the glyoxylate and methylcitrate cycles in Mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mol. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">61</biblScope>
+						<biblScope unit="page" from="940" to="947" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b13">
+				<analytic>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Datta</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">B</forename>
+							<surname>Shi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Bibi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Balázsi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">L</forename>
+							<surname>Gennaro</surname>
+						</persName>
+					</author>
+					<title level="a">Regulation of Central Metabolism Genes of mycobacterium tuberculosis by Parallel Feed-Forward Loops Controlled by Sigma Factor E (sigma(E))</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">193</biblScope>
+						<biblScope unit="page" from="1154" to="1160" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b14">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<surname>Masiewicz</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Brzostek</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Wolański</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Dziadek</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Zakrzewska-Czerwińska</surname>
+						</persName>
+					</author>
+					<title level="a">A Novel Role of the PrpR as a Transcription Factor Involved in the Regulation of Methylcitrate Pathway in Mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">PLoS ONE</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="page">e43651</biblScope>
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b15">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">T</forename>
+							<surname>Zhang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">F</forename>
+							<surname>Li</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">L</forename>
+							<surname>Zhao</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Fleming</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Lin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Wang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Z</forename>
+							<forename type="middle">Y</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">Y</forename>
+							<surname>Li</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Galwey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">Y</forename>
+							<surname>Deng</surname>
+						</persName>
+					</author>
+					<title level="a">Genome sequencing of 161 Mycobacterium tuberculosis isolates from China identifies genes and intergenic regions associated with drug resistance</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nat. Genet.</title>
+					<imprint>
+						<biblScope unit="volume">45</biblScope>
+						<biblScope unit="page" from="1255" to="1260" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b16">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">D</forename>
+							<surname>Hicks</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Yang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>X</forename>
+							<surname>Zhang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Zhao</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Y</forename>
+							<forename type="middle">H</forename>
+							<surname>Grad</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>X</forename>
+							<surname>Ou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Chang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Xia</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Y</forename>
+							<surname>Zhou</surname>
+						</persName>
+					</author>
+					<title level="a">Clinically prevalent mutations in Mycobacterium tuberculosis alter propionate metabolism and mediate multidrug tolerance</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nat. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">3</biblScope>
+						<biblScope unit="page" from="1032" to="1042" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b17">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Plassmeier</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Persicke</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Pühler</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Sterthoff</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Ruckert</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Kalinowski</surname>
+						</persName>
+					</author>
+					<title level="a">Molecular characterization of PrpR, the transcriptional activator of propionate catabolism in Corynebacterium glutamicum</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biotechnol.</title>
+					<imprint>
+						<biblScope unit="volume">159</biblScope>
+						<biblScope unit="page" from="1" to="11" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b18">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">K</forename>
+							<surname>Lee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Newman</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">D</forename>
+							<surname>Keasling</surname>
+						</persName>
+					</author>
+					<title level="a">Catabolite Repression of the Propionate Catabolic Genes in Escherichia coli and Salmonella enterica: Evidence for Involvement of the Cyclic AMP Receptor Protein</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">187</biblScope>
+						<biblScope unit="page" from="2793" to="2800" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b19">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">C</forename>
+							<surname>VanderVen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">J</forename>
+							<surname>Fahey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Lee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Y</forename>
+							<forename type="middle">C</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">B</forename>
+							<surname>Abramovitch</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Memmott</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">M</forename>
+							<surname>Crowe</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">D</forename>
+							<surname>Eltis</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Perola</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">D</forename>
+							<surname>Deininger</surname>
+						</persName>
+					</author>
+					<title level="a">Novel Inhibitors of Cholesterol Degradation in Mycobacterium tuberculosis Reveal How the Bacterium’s Metabolism Is Constrained by the Intracellular Environment</title>
+				</analytic>
+				<monogr>
+					<title level="j">PLOS Pathog.</title>
+					<imprint>
+						<biblScope unit="volume">11</biblScope>
+						<biblScope unit="page">e1004679</biblScope>
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b20">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">D</forename>
+							<surname>Finn</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">K</forename>
+							<surname>Attwood</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">C</forename>
+							<surname>Babbitt</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Bateman</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Bork</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">J</forename>
+							<surname>Bridge</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">Y</forename>
+							<surname>Chang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Dosztányi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>El-Gebali</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Fraser</surname>
+						</persName>
+					</author>
+					<title level="a">InterPro in 2017—beyond protein family and domain annotations</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nucleic Acids Res.</title>
+					<imprint>
+						<biblScope unit="volume">45</biblScope>
+						<biblScope unit="page" from="D190" to="D199" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b21">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Vujicic-Zagar</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Dulermo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Le Gorrec</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Vannier</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Servant</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Sommer</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>de Groot</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Serre</surname>
+						</persName>
+					</author>
+					<title level="a">Crystal structure of the IRRE protein, a central regulator of DNA damage repair in deinococcaceae</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Mol. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">386</biblScope>
+						<biblScope unit="page" from="704" to="716" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b22">
+				<analytic>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Ludanyi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Blanchard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Dulermo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Brandelet</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Bellanger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Pignol</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Lemaire</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>de Groot</surname>
+						</persName>
+					</author>
+					<title level="a">Radiation response in Deinococcus deserti: IrrE is a metalloprotease that cleaves repressor protein DdrO</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mol. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">94</biblScope>
+						<biblScope unit="page" from="434" to="449" />
+						<date when="2014">2014</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b23">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Micklinghoff</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">J</forename>
+							<surname>Breitinger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Schmidt</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Geffers</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">J</forename>
+							<surname>Eikmanns</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">C</forename>
+							<surname>Bange</surname>
+						</persName>
+					</author>
+					<title level="a">Role of the transcriptional regulator RamB (Rv0465c) in the control of the glyoxylate cycle in mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">191</biblScope>
+						<biblScope unit="page" from="7260" to="7269" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b24">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">E</forename>
+							<surname>Galagan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Minch</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Peterson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Lyubetskaya</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Azizi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Sweet</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Gomes</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Rustad</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Dolganov</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>I</forename>
+							<surname>Glotova</surname>
+						</persName>
+					</author>
+					<title level="a">The Mycobacterium tuberculosis regulatory network and hypoxia</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nature</title>
+					<imprint>
+						<biblScope unit="volume">499</biblScope>
+						<biblScope unit="page" from="178" to="183" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b25">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">S</forename>
+							<surname>Carter</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">E</forename>
+							<surname>Alber</surname>
+						</persName>
+					</author>
+					<title level="a">Transcriptional Regulation by the Short-Chain Fatty Acyl Coenzyme A Regulator (ScfR) PccR Controls Propionyl Coenzyme A Assimilation by Rhodobacter sphaeroides</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">197</biblScope>
+						<biblScope unit="page" from="3048" to="3056" />
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b26">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">M</forename>
+							<surname>Rock</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">F</forename>
+							<surname>Hopkins</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Chavez</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Diallo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">R</forename>
+							<surname>Chase</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">R</forename>
+							<surname>Gerrick</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">R</forename>
+							<surname>Pritchard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">M</forename>
+							<surname>Church</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">J</forename>
+							<surname>Rubin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">M</forename>
+							<surname>Sassetti</surname>
+						</persName>
+					</author>
+					<title level="a">Programmable transcriptional repression in mycobacteria using an orthogonal CRISPR interference platform</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nat. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">2</biblScope>
+						<biblScope unit="page">16274</biblScope>
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b27">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Sievers</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Wilm</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Dineen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">J</forename>
+							<surname>Gibson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Karplus</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">Z</forename>
+							<surname>Li</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Lopez</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>McWilliam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Remmert</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Söding</surname>
+						</persName>
+					</author>
+					<title level="a">Fast, scalable generation of high‐quality protein multiple sequence alignments using Clustal Omega</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mol. Syst. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="page">539</biblScope>
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b28">
+				<analytic>
+					<author>
+						<persName>
+							<forename>X</forename>
+							<surname>Robert</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Gouet</surname>
+						</persName>
+					</author>
+					<title level="a">Deciphering key features in protein structures with the new ENDscript server</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nucleic Acids Res.</title>
+					<imprint>
+						<biblScope unit="volume">42</biblScope>
+						<biblScope unit="page" from="W320" to="W324" />
+						<date when="2014">2014</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b29">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">W</forename>
+							<forename type="last">A</forename>
+							<surname>Buchan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Minneci</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">C</forename>
+							<forename type="last">O</forename>
+							<surname>Nugent</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Bryson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">T</forename>
+							<surname>Jones</surname>
+						</persName>
+					</author>
+					<title level="a">Scalable web services for the PSIPRED Protein Analysis Workbench</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nucleic Acids Res.</title>
+					<imprint>
+						<biblScope unit="volume">41</biblScope>
+						<biblScope unit="page" from="W349" to="W357" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b30">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">A</forename>
+							<surname>DeJesus</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Sacchettini</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">R</forename>
+							<surname>Ioerger</surname>
+						</persName>
+					</author>
+					<title level="a">Reannotation of translational start sites in the genome of Mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">Tuberculosis</title>
+					<imprint>
+						<biblScope unit="volume">93</biblScope>
+						<biblScope unit="page" from="18" to="25" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b31">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Stols</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">Y</forename>
+							<surname>Gu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Dieckman</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Raffen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">F</forename>
+							<forename type="middle">R</forename>
+							<surname>Collart</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">I</forename>
+							<surname>Donnelly</surname>
+						</persName>
+					</author>
+					<title level="a">A New Vector for High-Throughput, Ligation-Independent Cloning Encoding a Tobacco Etch Virus Protease Cleavage Site</title>
+				</analytic>
+				<monogr>
+					<title level="j">Protein Expres. Purif</title>
+					<imprint>
+						<biblScope unit="volume">25</biblScope>
+						<biblScope unit="page" from="8" to="15" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b32">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">D</forename>
+							<surname>Vanduyne</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">F</forename>
+							<surname>Standaert</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">A</forename>
+							<surname>Karplus</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">L</forename>
+							<surname>Schreiber</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Clardy</surname>
+						</persName>
+					</author>
+					<title level="a">Atomic Structures of the Human Immunophilin FKBP-12 Complexes with FK506 and Rapamycin</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Mol. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">229</biblScope>
+						<biblScope unit="page" from="105" to="124" />
+						<date when="1993">1993</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b33">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">G</forename>
+							<surname>Blommel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">G</forename>
+							<surname>Fox</surname>
+						</persName>
+					</author>
+					<title level="a">A combined approach to improving large-scale production of tobacco etch virus protease</title>
+				</analytic>
+				<monogr>
+					<title level="j">Protein Expr. Purif.</title>
+					<imprint>
+						<biblScope unit="volume">55</biblScope>
+						<biblScope unit="page" from="53" to="68" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b34">
+				<analytic>
+					<author>
+						<persName>
+							<forename>Z</forename>
+							<surname>Otwinowski</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Minor</surname>
+						</persName>
+					</author>
+					<title level="a">Processing of X-ray diffraction data collected in oscillation mode</title>
+				</analytic>
+				<monogr>
+					<title level="m">Methods Enzymol.</title>
+					<imprint>
+						<date when="1997">1997</date>
+						<biblScope unit="volume">276</biblScope>
+						<biblScope unit="page" from="307" to="326" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b35">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">R</forename>
+							<surname>Schneider</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">M</forename>
+							<surname>Sheldrick</surname>
+						</persName>
+					</author>
+					<title level="a">Substructure solution with SHELXD</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D</title>
+					<imprint>
+						<biblScope unit="volume">58</biblScope>
+						<biblScope unit="page" from="1772" to="1779" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b36">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">D</forename>
+							<surname>Winn</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">C</forename>
+							<surname>Ballard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">D</forename>
+							<surname>Cowtan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">J</forename>
+							<surname>Dodson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Emsley</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">R</forename>
+							<surname>Evans</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">M</forename>
+							<surname>Keegan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">B</forename>
+							<surname>Krissinel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">G </forename>
+							<forename type="last">W</forename>
+							<surname>Leslie</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>McCoy</surname>
+						</persName>
+					</author>
+					<title level="a">Overview of the CCP4 suite and current developments</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D</title>
+					<imprint>
+						<biblScope unit="volume">67</biblScope>
+						<biblScope unit="page" from="235" to="242" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b37">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">M</forename>
+							<surname>Sheldrick</surname>
+						</persName>
+					</author>
+					<title level="a">Macromolecular phasing with SHELXE</title>
+				</analytic>
+				<monogr>
+					<title level="j">Z. Kristallogr.</title>
+					<imprint>
+						<biblScope unit="volume">217</biblScope>
+						<biblScope unit="page" from="644" to="650" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b38">
+				<analytic>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Cowtan</surname>
+						</persName>
+					</author>
+					<title level="a">Recent developments in classical density modification</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D</title>
+					<imprint>
+						<biblScope unit="volume">66</biblScope>
+						<biblScope unit="page" from="470" to="478" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b39">
+				<analytic>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Cowtan</surname>
+						</persName>
+					</author>
+					<title level="a">The Buccaneer software for automated model building. 1. Tracing protein chains</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D</title>
+					<imprint>
+						<biblScope unit="volume">62</biblScope>
+						<biblScope unit="page" from="1002" to="1011" />
+						<date when="2006">2006</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b40">
+				<analytic>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Emsley</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Lohkamp</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">G</forename>
+							<surname>Scott</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Cowtan</surname>
+						</persName>
+					</author>
+					<title level="a">Features and development of Coot</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallog. D Biol. Crystallogr.</title>
+					<imprint>
+						<biblScope unit="volume">66</biblScope>
+						<biblScope unit="page" from="486" to="501" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b41">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">J</forename>
+							<surname>Mccoy</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">W</forename>
+							<surname>Grosse-Kunstleve</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">D</forename>
+							<surname>Adams</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">D</forename>
+							<surname>Winn</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">C</forename>
+							<surname>Storoni</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">J</forename>
+							<surname>Read</surname>
+						</persName>
+					</author>
+					<title level="a">Phaser crystallographic software</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Appl. Crystallogr.</title>
+					<imprint>
+						<biblScope unit="volume">40</biblScope>
+						<biblScope unit="page" from="658" to="674" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b42">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">D</forename>
+							<surname>Adams</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">V</forename>
+							<surname>Afonine</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Bunkoczi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">V</forename>
+							<forename type="middle">B</forename>
+							<surname>Chen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">W</forename>
+							<surname>Davis</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Echols</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">J</forename>
+							<surname>Headd</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">W</forename>
+							<surname>Hung</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">J</forename>
+							<surname>Kapral</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">W</forename>
+							<surname>Grosse-Kunstleve</surname>
+						</persName>
+					</author>
+					<title level="a">PHENIX: a comprehensive Python-based system for macromolecular structure solution</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D Biol. Crystallogr.</title>
+					<imprint>
+						<biblScope unit="volume">66</biblScope>
+						<biblScope unit="page" from="213" to="221" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b43">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">V</forename>
+							<surname>Afonine</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">W</forename>
+							<surname>Grosse-Kunstleve</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Echols</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">J</forename>
+							<surname>Headd</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">W</forename>
+							<surname>Moriarty</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Mustyakimov</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">C</forename>
+							<surname>Terwilliger</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Urzhumtsev</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">H</forename>
+							<surname>Zwart</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">D</forename>
+							<surname>Adams</surname>
+						</persName>
+					</author>
+					<title level="a">Towards automated crystallographic structure refinement with phenix.refine</title>
+				</analytic>
+				<monogr>
+					<title level="j">Acta Crystallogr. D</title>
+					<imprint>
+						<biblScope unit="volume">68</biblScope>
+						<biblScope unit="page" from="352" to="367" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b44">
+				<analytic>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Krissinel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Henrick</surname>
+						</persName>
+					</author>
+					<title level="a">Inference of Macromolecular Assemblies from Crystalline State</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Mol. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">372</biblScope>
+						<biblScope unit="page" from="774" to="797" />
+						<date when="2007">2007</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b45">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Holm</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Rosenstrom</surname>
+						</persName>
+					</author>
+					<title level="a">Dali server: conservation mapping in 3D</title>
+				</analytic>
+				<monogr>
+					<title level="j">Nucleic Acids Res.</title>
+					<imprint>
+						<biblScope unit="volume">38</biblScope>
+						<biblScope unit="page" from="W545" to="W549" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b46">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">F</forename>
+							<surname>Pettersen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">D</forename>
+							<surname>Goddard</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">C</forename>
+							<surname>Huang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">S</forename>
+							<surname>Couch</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">M</forename>
+							<surname>Greenblatt</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">C</forename>
+							<surname>Meng</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">T</forename>
+							<forename type="middle">E</forename>
+							<surname>Ferrin</surname>
+						</persName>
+					</author>
+					<title level="a">UCSF chimera a visualization system for exploratory research and analysis</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Comput. Chem.</title>
+					<imprint>
+						<biblScope unit="volume">25</biblScope>
+						<biblScope unit="page" from="1605" to="1612" />
+						<date when="2004">2004</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b47">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Crack</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">R</forename>
+							<surname>Stapleton</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Green</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">J</forename>
+							<surname>Thomson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">E</forename>
+							<surname>Le Brun</surname>
+						</persName>
+					</author>
+					<title level="a">Mechanism of [4Fe-4S](Cys)4 Cluster Nitrosylation Is Conserved among NO-responsive Regulators</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biol. Chem.</title>
+					<imprint>
+						<biblScope unit="volume">288</biblScope>
+						<biblScope unit="page" from="11492" to="11502" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b48">
+				<analytic>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Cruz-Ramos</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Crack</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">G</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">N</forename>
+							<surname>Hughes</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Scott</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">J</forename>
+							<surname>Thomson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Green</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">K</forename>
+							<surname>Poole</surname>
+						</persName>
+					</author>
+					<title level="a">NO sensing by FNR: regulation of the Escherichia coli NO-detoxifying flavohaemoglobin, Hmp</title>
+				</analytic>
+				<monogr>
+					<title level="j">EMBO J.</title>
+					<imprint>
+						<biblScope unit="volume">21</biblScope>
+						<biblScope unit="page" from="3235" to="3244" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b49">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Zhou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Z</forename>
+							<forename type="middle">G</forename>
+							<surname>Hu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Munck</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">H</forename>
+							<surname>Holm</surname>
+						</persName>
+					</author>
+					<title level="a">The cuboidal Fe3S4 cluster: Synthesis, stability, and geometric and electronic structures in a non-protein environment</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Am. Chem. Soc.</title>
+					<imprint>
+						<biblScope unit="volume">118</biblScope>
+						<biblScope unit="page" from="1966" to="1980" />
+						<date when="1996">1996</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b50">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">B</forename>
+							<forename type="middle">C</forename>
+							<surname>Wang</surname>
+						</persName>
+					</author>
+					<title level="a">Resolution of phase ambiguity in macromolecular crystallography</title>
+				</analytic>
+				<monogr>
+					<title level="j">Methods Enzymol.</title>
+					<imprint>
+						<date when="1985">1985</date>
+						<biblScope unit="volume">115</biblScope>
+						<biblScope unit="page" from="90" to="112" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b51">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">A</forename>
+							<surname>Hendrickson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">R</forename>
+							<surname>Horton</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">M</forename>
+							<surname>Lemaster</surname>
+						</persName>
+					</author>
+					<title level="a">Selenomethionyl proteins produced for analysis by multiwavelength anomalous diffraction (MAD): a vehicle for direct determination of 3-dimensional structure.</title>
+				</analytic>
+				<monogr>
+					<title level="j">EMBO J.</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page" from="1665" to="1672" />
+						<date when="1990">1990</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b52">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Aravind</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">P</forename>
+							<surname>Ponting</surname>
+						</persName>
+					</author>
+					<title level="a">The GAF domain: an evolutionary link between diverse phototransducing proteins</title>
+				</analytic>
+				<monogr>
+					<title level="j">Trends Biochem. Sci.</title>
+					<imprint>
+						<biblScope unit="volume">22</biblScope>
+						<biblScope unit="page" from="458" to="459" />
+						<date when="1997">1997</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b53">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">T</forename>
+							<surname>Henry</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Crosson</surname>
+						</persName>
+					</author>
+					<title level="a">Ligand-Binding PAS Domains in a Genomic, Cellular, and Structural Context</title>
+				</analytic>
+				<monogr>
+					<title level="j">Annu. Rev. Microbiol.</title>
+					<imprint>
+						<biblScope unit="volume">65</biblScope>
+						<biblScope unit="page" from="261" to="286" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b54">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">Y</forename>
+							<forename type="middle">S</forename>
+							<forename type="last">J</forename>
+							<surname>Ho</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">M</forename>
+							<surname>Burden</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">H</forename>
+							<surname>Hurley</surname>
+						</persName>
+					</author>
+					<title level="a">Structure of the GAF domain, a ubiquitous signaling motif and a new class of cyclic GMP receptor</title>
+				</analytic>
+				<monogr>
+					<title level="j">EMBO J.</title>
+					<imprint>
+						<biblScope unit="volume">19</biblScope>
+						<biblScope unit="page" from="5288" to="5299" />
+						<date when="2000">2000</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b55">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">E</forename>
+							<surname>Martinez</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Bruder</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Schultz</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Zheng</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">E</forename>
+							<surname>Schultz</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">A</forename>
+							<surname>Beavo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">U</forename>
+							<surname>Linder</surname>
+						</persName>
+					</author>
+					<title level="a">Crystal Structure of the Tandem GAF Domains from a Cyanobacterial Adenylyl Cyclase: Novel Modes of Ligand-Binding and Dimerization</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">102</biblScope>
+						<biblScope unit="page" from="3082" to="3087" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b56">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">E</forename>
+							<surname>Martinez</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">Y</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">A</forename>
+							<surname>Glavas</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">X</forename>
+							<forename type="middle">B</forename>
+							<surname>Tang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Turley</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">G</forename>
+							<forename type="last">J</forename>
+							<surname>Hol</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">A</forename>
+							<surname>Beavo</surname>
+						</persName>
+					</author>
+					<title level="a">The two GAF domains in phosphodiesterase 2A have distinct roles in dimerization and in cGMP binding</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">99</biblScope>
+						<biblScope unit="page" from="13260" to="13265" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b57">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">A</forename>
+							<surname>Suvorova</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">A</forename>
+							<surname>Ravcheev</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">S</forename>
+							<surname>Gelfand</surname>
+						</persName>
+					</author>
+					<title level="a">Regulation and Evolution of Malonate and Propionate Catabolism in Proteobacteria</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Bacteriol.</title>
+					<imprint>
+						<biblScope unit="volume">194</biblScope>
+						<biblScope unit="page" from="3234" to="3240" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b58">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Tian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Bryk</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Itoh</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Suematsu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Nathan</surname>
+						</persName>
+					</author>
+					<title level="a">Variant tricarboxylic acid cycle in Mycobacterium tuberculosis: Identification of alpha-ketoglutarate decarboxylase.</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">102</biblScope>
+						<biblScope unit="page" from="10670" to="10675" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b59">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Wagner</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Bellinzoni</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Wehenkel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">M</forename>
+							<surname>O'Hare</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">P</forename>
+							<forename type="middle">M</forename>
+							<surname>Alzari</surname>
+						</persName>
+					</author>
+					<title level="a">Functional Plasticity and Allosteric Regulation of α-Ketoglutarate Decarboxylase in Central Mycobacterial Metabolism</title>
+				</analytic>
+				<monogr>
+					<title level="j">Chem. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">18</biblScope>
+						<biblScope unit="page" from="1011" to="1020" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b60">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">D</forename>
+							<surname>Baughn</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">J</forename>
+							<surname>Garforth</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Vilcheze</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">R</forename>
+							<surname>Jacobs</surname>
+						</persName>
+					</author>
+					<title level="a">An Anaerobic-Type alpha-Ketoglutarate ferredoxin oxidoreductase completes the oxidative tricarboxylic acid cycle of mycobacterium tuberculosis</title>
+				</analytic>
+				<monogr>
+					<title level="j">PLoS Pathog.</title>
+					<imprint>
+						<biblScope unit="volume">5</biblScope>
+						<biblScope unit="page">e1000662</biblScope>
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b61">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">X</forename>
+							<surname>Xie</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Liu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Q</forename>
+							<forename type="middle">M</forename>
+							<surname>Li</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">D</forename>
+							<surname>Chen</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">M</forename>
+							<surname>Xu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Q</forename>
+							<forename type="middle">Q</forename>
+							<surname>Huang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Zeng</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">L</forename>
+							<surname>Zhou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">P</forename>
+							<surname>Xie</surname>
+						</persName>
+					</author>
+					<title level="a">First Succinyl-Proteome profiling of extensively drug-resistant mycobacterium tuberculosis revealed involvement of succinylation in cellular physiology.</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Proteome Res.</title>
+					<imprint>
+						<biblScope unit="volume">14</biblScope>
+						<biblScope unit="page" from="107" to="119" />
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b62">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">L</forename>
+							<surname>Zhou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">L</forename>
+							<forename type="middle">X</forename>
+							<surname>Xie</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">Z</forename>
+							<forename type="middle">Z</forename>
+							<surname>Yang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">H</forename>
+							<surname>Zhou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">P</forename>
+							<surname>Xie</surname>
+						</persName>
+					</author>
+					<title level="a">Lysine succinylation of Mycobacterium tuberculosis isocitrate lyase (ICL) fine-tunes the microbial resistance to antibiotics.</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biomol. Struct. Dyn.</title>
+					<imprint>
+						<biblScope unit="volume">35</biblScope>
+						<biblScope unit="page" from="1030" to="1041" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article"  xml:id="b63">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">P</forename>
+							<surname>Cunningham</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Asahara</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">F</forename>
+							<surname>Bank</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">P</forename>
+							<surname>Scholes</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Salerno</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Surerus</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Munck</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Mccracken</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Peisach</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">H</forename>
+							<surname>Emptage</surname>
+						</persName>
+					</author>
+					<title level="a">Endonuclease III is an iron-sulfur protein</title>
+				</analytic>
+				<monogr>
+					<title level="j">Biochemistry</title>
+					<imprint>
+						<biblScope unit="volume">28</biblScope>
+						<biblScope unit="page" from="4450" to="4455" />
+						<date when="1989">1989</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b64">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">W</forename>
+							<forename type="middle">G</forename>
+							<surname>Fu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<surname>Ohandley</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">P</forename>
+							<surname>Cunningham</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">K</forename>
+							<surname>Johnson</surname>
+						</persName>
+					</author>
+					<title level="a">The role of the iron-sulfur cluster in Escherichia coli endonuclease III. A resonance Raman study.</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. Biol. Chem.</title>
+					<imprint>
+						<biblScope unit="volume">267</biblScope>
+						<biblScope unit="page" from="16135" to="16137" />
+						<date when="1992">1992</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b65">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">M</forename>
+							<surname>Boon</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">L</forename>
+							<surname>Livingston</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">H</forename>
+							<surname>Chmiel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">S</forename>
+							<surname>David</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">K</forename>
+							<surname>Barton</surname>
+						</persName>
+					</author>
+					<title level="a">DNA-mediated charge transport for DNA repair</title>
+				</analytic>
+				<monogr>
+					<title level="j">PNAS</title>
+					<imprint>
+						<biblScope unit="volume">100</biblScope>
+						<biblScope unit="page" from="12543" to="12547" />
+						<date when="2003">2003</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b66">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">C</forename>
+							<surname>Crack</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Green</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">J</forename>
+							<surname>Thomson</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">N</forename>
+							<forename type="middle">E</forename>
+							<surname>Le Brun</surname>
+						</persName>
+					</author>
+					<title level="a">Iron sulfur cluster sensor-regulators</title>
+				</analytic>
+				<monogr>
+					<title level="j">Curr. Opin. Chem. Biol.</title>
+					<imprint>
+						<biblScope unit="volume">16</biblScope>
+						<biblScope unit="page" from="35" to="44" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b67">
+				<analytic>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Kurthkoti</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Amin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">J</forename>
+							<surname>Marakalala</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Ghanny</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Subbian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Sakatos</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Livny</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">M</forename>
+							<surname>Fortune</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Berney</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">M</forename>
+							<surname>Rodriguez</surname>
+						</persName>
+					</author>
+					<title level="a">The capacity of mycobacterium tuberculosis to survive iron starvation might enable it to persist in Iron-Deprived microenvironments of human granulomas</title>
+				</analytic>
+				<monogr>
+					<title level="j">Mbio</title>
+					<imprint>
+						<biblScope unit="volume">8</biblScope>
+						<biblScope unit="page" from="e01092" to="e01117" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+		</listBibl>
+	</back>
+	</text>
+</TEI>

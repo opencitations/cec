@@ -1,0 +1,2483 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="book" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename>D</forename><surname>Schulter</surname></persName>
+		</author>
+		<title level="m">The ecology of adaptive radiation</title>
+		<imprint>
+			<date when="2000">2000</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Losos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mahler</surname></persName>
+		</author>
+		<title level="a">Adaptive radiation: the interaction of ecological opportunity, adaptation, and speciation</title>
+	</analytic>
+	<monogr>
+		<title level="m">Evolution Since Darwin: The First 150 Years</title>
+		 <editor>
+            <persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bell</surname></persName>
+       	</editor>
+		<editor>
+            <persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Futuyma</surname></persName>
+       	</editor>
+		<editor>
+            <persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Eanes</surname></persName>
+       	</editor>
+		<editor>
+            <persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Levinton</surname></persName>
+       	</editor>
+		<imprint>
+			<publisher>Sinauer Assoc</publisher>
+			<pubPlace>Sunderland</pubPlace>
+			<date when="2010">2010</date>
+			<biblScope unit="page" from="381" to="420" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Buckling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Craig Maclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Brockhurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Colegrave</surname></persName>
+		</author>
+		<title level="a">The beagle in a bottle</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="824" to="829" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Kawecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Lenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Hollis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Olivieri</surname></persName>
+		</author>
+		<title level="a">Experimental evolution</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="547" to="560" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Dykhuizen</surname></persName>
+		</author>
+		<title level="a">Thoughts toward a theory of natural selection: the importance of microbial experimental evolution</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">a18044</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Bachmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Molenaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename></forename>F<surname>Branco Dos Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Teusink</surname></persName>
+		</author>
+		<title level="a">Experimental evolution and the adjustment of metabolic strategies in lactic acid bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="S201" to="S219" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<title level="a">Detection systems for phyllosphere Pseudomonads</title>
+	</analytic>
+	<monogr>
+		<title level="m">Genetic Interactions Between Microorganisms in the Natural Environment</title>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><forename type="middle">R</forename><surname>Wellington</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Van Elsas</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Pergamon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+			<date when="1992">1992</date>
+			<biblScope unit="page" from="127" to="141" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<title level="a">Physical and genetic map of the Pseudomonas fluorescens SBW25 chromosome</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="521" to="533" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Travisano</surname></persName>
+		</author>
+		<title level="a">Adaptive radiation in a heterogeneous environment</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">394</biblScope>
+			<biblScope unit="page" from="69" to="72" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Koza</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Moshynets</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Otten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Environmental modification and niche construction: developing O2 gradients drive the evolution of the Wrinkly Spreader</title>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="665" to="673" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Kuśmierska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">New insights into the effects of several environmental parameters on the relative fitness of a numerically dominant class of evolved niche specialist</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Evol Biol</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<biblScope unit="page">2016</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Koza</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Kuśmierska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Moshynets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Adaptive radiation of Pseudomonas fluorescens SBW25 in experimental microcosms provides an understanding of the evolutionary ecology and molecular biology of A-L interface biofilm formation</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">fnx109</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+		<title level="a">Fluid interfaces and capillarity</title>
+	</analytic>
+	<monogr>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</editor>
+		<title level="m">Introduction to Interfaces and Colloids</title>
+		<imprint>
+			<date when="2009">2009</date>
+			<publisher>World Scientific Publishing Co</publisher>
+			<biblScope unit="page" from="23" to="106" />
+			<pubPlace>Singapore</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Bohannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Travisano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Adaptive divergence in experimental populations of Pseudomonas fluorescens. I. genetic and phenotypic bases of wrinkly spreader fitness</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="33" to="46" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Moshynets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Viewing biofilms within the larger context of bacterial aggregations</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>D</forename><surname>Dhanasekaran</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>N</forename><surname>Thajuddin</surname></persName>
+		</editor>
+		<title level="m">Microbial biofilms</title>
+		<imprint>
+			<publisher>InTech Publishers</publisher>
+			<pubPlace>Rijeka</pubPlace>
+			<date when="2016">2016</date>
+			<biblScope unit="page" from="3" to="22" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">A mechanistic explanation linking adaptive mutation, niche change, and fitness advantage for the wrinkly spreader</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Evolutionary Biol</title>
+		<imprint>
+			<biblScope unit="volume">675432</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Koza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Hallett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Characterization of a novel air-liquid interface biofilm of Pseudomonas fluorescens SBW25</title>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1397" to="1406" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Bantinaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Kassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Adaptive divergence in experimental populations of Pseudomonas fluorescens. III. mutational origins of wrinkly spreader diversity</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="441" to="453" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gehrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Meintjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X-X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Adaptive divergence in experimental populations of Pseudomonas fluorescens. IV. Genetic constraints guide evolutionary trajectories in a parallel adaptive radiation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1041" to="1053" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><forename type="last">E</forename><surname>Beaumont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">The distribution of fitness effects of new beneficial mutations in Pseudomonas fluorescens</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="98" to="100" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Farr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Experimental evolution reveals hidden diversity in evolutionary pathways</title>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">e07074</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Farr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Evolutionary convergence in experimental Pseudomonas populations</title>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="589" to="600" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Bohannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gehrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Biofilm formation at the air-liquid interface by the Pseudomonas fluorescens SBW25 wrinkly spreader requires an acetylated form of cellulose</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="15" to="27" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">The Pseudomonas fluorescens SBW25 wrinkly spreader biofilm requires attachment factor, cellulose fibre and LPS interactions to maintain strength and integrity</title>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="2829" to="2839" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Arber</surname></persName>
+		</author>
+		<title level="a">Genetic variation: molecular mechanisms and impact on microbial evolution</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Jerlström-Hultqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Näsvall</surname></persName>
+		</author>
+		<title level="a">Evolution of new functions de novo and from preexisting genes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">a017996</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<title level="a">The rewiring of transcription circuits in evolution</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Genet Dev</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Zhulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<title level="a">Aerotaxis and other energysensing behavior in bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="103" to="128" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Lilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ellis</surname></persName>
+		</author>
+		<title level="a">Site directed chromosomal marking of a fluorescent pseudomonad isolated from the phytosphere of sugar beet; stability and potential for marker gene transfer</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="755" to="764" />
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Turnbull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><forename type="last">W</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Whipps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Saunders</surname></persName>
+		</author>
+		<title level="a">The role of bacterial motility in the survival and spread of Pseudomonas fluorescens in soil and in the attachment and colonisation of wheat roots</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="21" to="31" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>De Weert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Vermeiren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="frist">I</forename><forename type="frist">H</forename><forename type="frist">M</forename><surname>Mulders</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Kuiper</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Hendrickx</surname></persName>
+		</author>
+		<title level="a">Flagella-driven chemotaxis towards exudate components is an important trait for tomato root colonization by Pseudomonas fluorescens</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Plant Microbe Interact</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1173" to="1180" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Studholme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Preston</surname></persName>
+		</author>
+		<title level="a">Integrated bioinformatic and phenotypic analysis of RpoN-dependent traits in the plant growth-promoting bacterium Pseudomonas fluorescens SBW25</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="3046" to="3064" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Birkenbeil</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Monajembashi</surname></persName>
+		</author>
+		<title level="a">Swimming behavior of the monotrichous bacterium Pseudomonas fluorescens SBW25</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="36" to="44" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alsohim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Gallie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X-X</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">The biosurfactant viscosin produced by Pseudomonas fluorescens SBW25 aids spreading motility and plant growth promotion</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="2267" to="2281" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Silby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cerdeño-Tárraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Vernikos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Giddens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Jackson</surname></persName>
+		</author>
+		<title level="a">Genomic and genetic analyses of diversity and plant interactions of Pseudomonas fluorescens</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">R51</biblScope>
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Ude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Timms-Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Biofilm formation and cellulose expression among diverse environmental Pseudomonas isolates</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1997" to="2011" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hapca</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Moshynets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Air-liquid interface biofilm formation by psychrotrophic pseudomonads recovered from spoilt meat</title>
+	</analytic>
+	<monogr>
+		<title level="j">Antonie van Leeuwenhoek</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="251" to="259" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Saneoka</surname></persName>
+		</author>
+		<title level="a">Characterization of the ability to form biofilms by plant-associated Pseudomonas species</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="506" to="513" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Armitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Méjean</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Jourlin-Castelli</surname></persName>
+		</author>
+		<title level="a">Gram-negative bacteria can also form pellicles</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="534" to="544" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Vlamakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Beauregard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Losick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Kolter</surname></persName>
+		</author>
+		<title level="a">Sticking together: building a biofilm the Bacillus subtilis way</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="157" to="168" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b40">
+	<analytic>
+		<title level="a">Mechanisms of bacterial adhesion at gas-liquid interfaces</title>
+		<author>
+			<persName><forename>S</forename><surname>Kjelleberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bacterial adhesion: Mechanisms and Physiological Significance</title>
+		<editor>
+			<persName><forename>M</forename><surname>Fletcher</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Savage</surname></persName>
+		</editor>
+		<imprint>
+			<date when="1985">1985</date>
+			<publisher>Plenum Press</publisher>
+			<biblScope unit="page" from="163" to="194" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Burchardt</surname></persName>
+		</author>
+		<title level="a">Neuston: its definition with a historical review regarding its concept and community structure</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Hydrobiol</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="429" to="448" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Wotton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Preston</surname></persName>
+		</author>
+		<title level="a">Surface films: areas of water bodies that are often overlooked</title>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="137" to="145" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Cunliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Upstill-Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Murrell</surname></persName>
+		</author>
+		<title level="a">Microbiology of aquatic surface microlayers</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="233" to="246" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Timms-Wilson</surname></persName>
+		</author>
+		<title level="a">A survey of A-L biofilm formation and cellulose expression amongst soil and plant-associated Pseudomonas isolates</title>
+	</analytic>
+	<monogr>
+		<title level="m">Microbial Ecology of Aerial Plant Surfaces</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Lilley</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Timms-Wilson</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="121" to="132" />
+			<date when="2006">2006</date>
+			<publisher>CABI</publisher>
+			<pubPlace>Wallingford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Holden</surname></persName>
+		</author>
+		<title level="a">How do the microhabitats framed by soil structure impact soil bacteria and the processes they regulate?</title>
+	</analytic>
+	<monogr>
+		<title level="m">The architecture and biology of soils</title>
+		<editor>
+			<persName><forename>K</forename><surname>Ritz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>I</forename><surname>Young</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>CABI</publisher>
+			<pubPlace>Wallingford</pubPlace>
+			<date when="2011">2011</date>
+			<biblScope unit="page" from="118" to="148" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Raney</surname></persName>
+		</author>
+		<title level="a">Two simple media for the demonstration of pyocyanin and fluorescin</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Labor Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="301" to="307" />
+			<date when="1954">1954</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b47">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Sambrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Maniatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Cloning</surname></persName>
+		</author>
+		<title level="m">Laboratory Manual A. Molecular Cloning. A Laboratory Manual, 2nd Edition</title>
+		<imprint>
+			<date when="1989">1989</date>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<pubPlace>Cold Spring Harbor</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Olitsky</surname></persName>
+		</author>
+		<title level="a">Factors influencing anaerobiosis, with special reference to the use of fresh tissue</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="51" to="68" />
+			<date when="1921">1921</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Koza</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Moshynets</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Pajor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Ritchie</surname></persName>
+		</author>
+		<title level="a">Evolution in a test tube: rise of the wrinkly spreaders</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Educ</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="54" to="59" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Lenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Tadler</surname></persName>
+		</author>
+		<title level="a">Long-Term experimental evolution in Escherichia coli. I. adaptation and divergence during 2,000 generations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am Nat</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="1315" to="1341" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Fechtner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Koza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Sterpaio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hapca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Surfactants expressed by soil pseudomonads alter local soil-water distribution, suggesting a hydrological role for these compounds</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="50" to="58" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+		<title level="a">Movement of self-propelled objects</title>
+	</analytic>
+	<monogr>
+		<title level="m">Random walks in biology, Expanded edition</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princetown University Press</publisher>
+			<pubPlace>Princetown</pubPlace>
+			<date when="1993">1993</date>
+			<biblScope unit="page" from="75" to="93" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<title level="a">Life in the diffusive boundary layer</title>
+	</analytic>
+	<monogr>
+		<title level="m">The Benthic Boundary Layer. Transport Processes and Biogeochemistry</title>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Boudreau</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Jørgensen</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+			<date when="2001">2001</date>
+			<biblScope unit="page" from="348" to="373" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b54">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Giddens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X-X</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">Mutational activation of niche-specific genes provides insight into regulatory networks and bacterial function in a complex environment</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="18247" to="18252" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b55">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Pedley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Kessler</surname></persName>
+		</author>
+		<title level="a">Hydrodynamic phenomena in suspensions of swimming microorganisms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Fluid Mech</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="313" to="358" />
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Ardré</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Rainey</surname></persName>
+		</author>
+		<title level="a">Causes and biophysical consequences of cellulose production by Pseudomonas fluorescens SBW25 at the air-liquid interface</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<date when="May 13 2019">May 13 2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b57">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Kjelleberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Stenström</surname></persName>
+		</author>
+		<title level="a">Lipid surface films: interaction of bacteria with free fatty acids and phospholipids at the air/water interface</title>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="417" to="423" />
+			<date when="1980">1980</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b58">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Rühs</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Böni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Inglis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Fischer</surname></persName>
+		</author>
+		<title level="a">In-situ quantification of the interfacial rheological response of bacterial biofilms to environmental stimuli</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">e78524</biblScope>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b59">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">K</forename><surname>Holmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jönsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kronsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lindman</surname></persName>
+		</author>
+		<title level="m">Surfactants and Polymers in Aqueous Solution, 2nd</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>John Wiley and Sons, Ltd</publisher>
+			<pubPlace>Chichester</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b60">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>De Bruijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><forename type="last">D</forename><surname>De Kock</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>De Waard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Van Beek</surname></persName>
+		</author>
+		<title level="a">Genome-based discovery, structure prediction and functional analysis of cyclic lipopeptide antibiotics in Pseudomonas species</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="417" to="428" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b61">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Deleuze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-Y</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Thiriet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><forename type="last">H</forename><surname>Sheu</surname></persName>
+		</author>
+		<title level="a">Numerical study of plume patterns in a chemotaxis-diffusion-convection coupling system</title>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Fluids</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="58" to="70" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b62">
+	<analytic>
+		<author>
+			<persName><forename>R</forename><surname>Armisén</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Galatas</surname></persName>
+		</author>
+		<title level="a">Agar</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Phillips</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</editor>
+		<title level="m">Handbook of hydrocolloids, 2, 2nd Ed.</title>
+		<meeting><address><addrLine> Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Woodhead Publishing Ltd</publisher>
+			<pubPlace>Cambridge</pubPlace>
+			<date when="2009">2009</date>
+			<biblScope unit="page" from="82" to="203" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b63">
+	<analytic>
+		
+		<author>
+			<persName><forename>Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Dimova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Lipowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Liu</surname></persName>
+		</author>
+		<title level="a">Viscoelasticity of poly(ethylene glycol) solutions on supported lipid bilayers via quartz crystal microbalance with dissipation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1824" to="1831" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b64">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Kirinčič</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Klofutar</surname></persName>
+		</author>
+		<title level="a">Viscosity of aqueous solutions of poly(ethylene glycol)s at 298.15 K</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fluid Phase Equilib</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="311" to="325" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b65">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Asyakina</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Asyakina</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Dyshlyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Dyshlyuk</surname></persName>
+		</author>
+		<title level="a">Study of viscosity of aqueous solutions of natural polysaccharides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Science Evolution</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="11" to="19" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b66">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Haines</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Alexander</surname></persName>
+		</author>
+		<title level="a">Microbial degradation of polyethylene glycols</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="621" to="625" />
+			<date when="1975">1975</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b67">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Obradors</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Aguilar</surname></persName>
+		</author>
+		<title level="a">Efficient biodegradation of high-molecularweight polyethylene glycols by pure cultures of Pseudomonas stutzeri</title>
+	</analytic>
+	<monogr>
+		<title level="j">AEM</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="2383" to="2388" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b68">
+	<analytic>
+		
+		<author>
+			<persName><forename>X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Fukutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kimbara</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Kawai</surname></persName>
+		</author>
+		<title level="a">Isolation of bacteria able to grow on both polyethylene glycol (PEG) and polypropylene glycol (PPG) and their PEG/PPG dehydrogenases</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1407" to="1413" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b69">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Udall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Deeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hapca</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Raikes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">The evolution of biofilm-forming wrinkly spreaders in static microcosms and drip-fed columns selects for subtle differences in wrinkleality and fitness</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">fiv057</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b70">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Spiers</surname></persName>
+		</author>
+		<title level="a">Bacterial evolution in simple microcosms</title>
+	</analytic>
+	<monogr>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Harris</surname></persName>
+		</editor>
+		<title level="m">Microcosms: Ecology, Biological Implications and Environmental Impact</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<publisher>Nova Publishers</publisher>
+			<pubPlace>Hauppauge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b71">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Crosby</surname></persName>
+		</author>
+		<title level="a">Studies on reactions to stimuli in unicellular organisms.-VII. The manner in which bacteria react to stimuli, especially to chemical stimuli</title>
+	</analytic>
+	<monogr>
+		<title level="j">Amer J Physiology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="31" to="37" />
+			<date when="1901">1901</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b72">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Acerenza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Constraints</surname></persName>
+		</author>
+		<title level="a">Constraints, trade-offs and the currency of fitness</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Evol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b73">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Ferenci</surname></persName>
+		</author>
+		<title level="a">Trade-off mechanisms shaping the diversity of bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="209" to="223" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b74">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Hölscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y-C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Gallegos-Monterrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Price-Whelan</surname></persName>
+		</author>
+		<title level="a">Motility, chemotaxis and aerotaxis contribute to competitiveness during bacterial pellicle biofilm development</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">427</biblScope>
+			<biblScope unit="page" from="3695" to="3708" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b75">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Kelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Hruschka</surname></persName>
+		</author>
+		<title level="a">The role of motility and aerotaxis in the selective increase of avirulent bacteria in still broth cultures of Pseudomonas solanacearum</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="177" to="188" />
+			<date when="1973">1973</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b76">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Harwood</surname></persName>
+		</author>
+		<title level="a">An aerotaxis transducer gene from Pseudomonas putida</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="177" to="183" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b77">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Shitashiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Fukumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Ikeda</surname></persName>
+		</author>
+		<title level="a">Evaluation of bacterial aerotaxis for its potential use in detecting the toxicity of chemicals to microorganisms</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="11" to="18" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b78">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Sarand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Osterberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Holmqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Holmfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Skärfstad</surname></persName>
+		</author>
+		<title level="a">Metabolism-dependent taxis towards (methyl)phenols is coupled through the most abundant of three polar localized Aer-like proteins of Pseudomonas putida</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1320" to="1334" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b79">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Muriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Jalvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Redondo-Nieto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Rivilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Martín</surname></persName>
+		</author>
+		<title level="a">Chemotactic motility of Pseudomonas fluorescens F113 under aerobic and denitrification conditions</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">e0132242</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b80">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Krieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Staely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Garrity</surname></persName>
+		</author>
+		<title level="m">Bergy's manual of systematic bacteriology, 2nd</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<publisher>Spinger-Verlag</publisher>
+			<biblScope unit="page" from="323" to="378" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b81">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Sampedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Parales</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Krell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hill</surname></persName>
+		</author>
+		<title level="a">Pseudomonas chemotaxis</title>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="17" to="46" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b82">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Dunstan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Goldstein</surname></persName>
+		</author>
+		<title level="a">Evaporationdriven convective flows in suspensions of nonmotile bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Fluids</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">123102</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b83">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Franden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Jayakody</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W-J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Cleveland</surname></persName>
+		</author>
+		<title level="a">Engineering Pseudomonas putida KT2440 for efficient ethylene glycol utilization</title>
+	</analytic>
+	<monogr>
+		<title level="j">Metab Eng</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="197" to="207" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b84">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Xavier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Foster</surname></persName>
+		</author>
+		<title level="a">Cooperation and conflict in microbial biofilms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="876" to="881" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b85">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Maxey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Tang</surname></persName>
+		</author>
+		<title level="a">Molecular adsorption steers bacterial swimming at the air/water interface</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="21" to="28" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b86">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Fechhner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Deeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hapca</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kabir</surname></persName>
+		</author>
+		<title level="a">Limitations of biosurfactant strength produced by bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="m">Biosurfactants Occurrences, applications and research</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Upton</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>NOVA Science Publishers</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="2017">2017</date>
+			<biblScope unit="page" from="125" to="148" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b87">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Strevett</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Microbial surface thermodynamics and applications</title>
+	</analytic>
+	<monogr>
+		<title level="j">Res Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="329" to="335" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b88">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Ardizzone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Dioguardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Quagliotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Vercelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Viscardi</surname></persName>
+		</author>
+		<title level="a">Microcrystalline cellulose suspensions: effects on the surface tension at the air-water boundary</title>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids Surf A Physicochem Eng Asp</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="239" to="244" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b89">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Stana-Kleinschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Ribitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Kreze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Fras</surname></persName>
+		</author>
+		<title level="a">Determination of the adsorption character of cellulose fibres using surface tension and surface charge</title>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Research Innovations</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="13" to="18" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b90">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Nasatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Pignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Noseda</surname></persName>
+		</author>
+		<title level="a">Interfacial properties of methylcelluloses: the influence of molar mass</title>
+	</analytic>
+	<monogr>
+		<title level="j">Polymers</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="2961" to="2973" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b91">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Jilal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>El Barkany</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Bahari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>El Idrissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Salhi</surname></persName>
+		</author>
+		<title level="a">A new equation between surface tension and solubility parameters of cellulose derivatives depending on Ds: application on cellulose acetate</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Envir Eng Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="171" to="181" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b92">
+	<analytic>
+	
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Dueholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Otzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Nielsen</surname></persName>
+		</author>
+		<title level="a">Evolutionary insight into the functional amyloids of the pseudomonads</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">e76630</biblScope>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b93">
+	<analytic>
+	
+		<author>
+			<persName><forename>A</forename><surname>Taglialegna</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Lasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Valle</surname></persName>
+		</author>
+		<title level="a">Amyloid structures as biofilm matrix scaffolds</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="2579" to="2588" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b94">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Lembré</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Di Martino</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Vendrely</surname></persName>
+		</author>
+		<title level="a">Amyloid peptides derived from CsgA and FapC modify the viscoelastic properties of biofilm model matrices</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biofouling</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="415" to="426" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b95">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Cegelski</surname></persName>
+		</author>
+		<title level="a">Disruption of Escherichia coli amyloid-integrated biofilm formation at the air-liquid interface by a polysorbate surfactant</title>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="920" to="926" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

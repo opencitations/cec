@@ -1,0 +1,859 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="book" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Argyris</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="m">Understanding organizational behaviour</title>
+			<imprint>
+				<publisher>Dorsey Press</publisher>
+				<pubPlace>Homewood, IL</pubPlace>
+				<date when="1960">1960</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ashmore</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">‘Going private’: A qualitative comparison of medical specialists’ job satisfaction in the public and private sectors in South Africa</title>
+		</analytic>
+		<monogr>
+			<title level="j">Human Resources for Health</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="1" to="12" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Birt</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Scott</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cavers</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Campbell</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Walter</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Member checking: A tool to enhance trustworthiness or merely a nod to validation?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Qualitative Health Research</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="1802" to="1811" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brooks</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>McCluskey</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Turley</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>King</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">The utility of tem‐ plate analysis in qualitative psychology research</title>
+		</analytic>
+		<monogr>
+			<title level="j">Qualitative Research in Psychology</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="202" to="222" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b4">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Bryman</surname>
+					<forename type="first">A</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bell</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="m">Business research methods</title>
+			<imprint>
+				<publisher>Oxford University Press</publisher>
+				<pubPlace>Oxford, UK</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Butterfield</surname>
+					<forename type="first">L</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Borgen</surname>
+					<forename type="first">W</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Amundson</surname>
+					<forename type="first">N</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maglio</surname>
+					<forename>A-S-T</forename>
+				</persName>
+			</author>
+			<title level="a">Fifty years of the critical incident technique: 1954–2004 and beyond</title>
+		</analytic>
+		<monogr>
+			<title level="j">Qualitative Research</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="475" to="497" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Christian</surname>
+					<forename type="first">C</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Crisp</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Management in the South African public health sector: An x‐inefficiency perspective</title>
+		</analytic>
+		<monogr>
+			<title level="j">Development Southern Africa</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="725" to="737" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b7">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Conway</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Briner</surname>
+					<forename type="first">R</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="m">Understanding psychological contracts at work: A critical evaluation of theory and research</title>
+			<imprint>
+				<publisher>Oxford University Press</publisher>
+				<pubPlace>Oxford, UK</pubPlace>
+				<date when="2005">2005</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Conway</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guest</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trenberth</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Testing the differen‐ tial effects of changes in psychological contract breach and fulfillment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Vocational Behavior</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">79</biblScope>
+				<biblScope unit="page" from="267" to="276" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Corder</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ronnie</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">The role of the psychological contract in the motivation of nurses</title>
+		</analytic>
+		<monogr>
+			<title level="j">Leadership in Health Services</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="62" to="76" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gilbert</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Laschinger</surname>
+					<forename type="first">H</forename><forename type="middle">K</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leiter</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">The mediating effect of burnout on the relationship between structural empowerment and organizational citizenship behaviours</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Nursing Management</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="339" to="348" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Guest</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Conway</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Communicating the psychological contract: An employer perspective</title>
+		</analytic>
+		<monogr>
+			<title level="j">Human Resource Management Journal</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="22" to="38" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hull</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Paperwork and the contradictions of accountability in a South African hospital</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of the Royal Anthropological Institute</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="613" to="632" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">A</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sambrook</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Psychological contracts of hospice nurses</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Palliative Nursing</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="599" to="606" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>King</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brooks</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Template analysis for business and man- agement students</title>
+			<imprint>
+				<publisher>Sage</publisher>
+				<pubPlace>London, UK</pubPlace>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Laschinger</surname>
+					<forename type="first">H</forename><forename type="middle">K</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Positive working relationships matter for better nurse and patient outcomes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Nursing Management</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="875" to="877" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b16">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Leedy</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ormrod</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="m">Practical research: Planning and design</title>
+			<imprint>
+				<publisher>Pearson Education</publisher>
+				<pubPlace>New York, NY</pubPlace>
+				<date when="2019">2019</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matlakala</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Botha</surname>
+					<forename type="first">A</forename><forename type="middle">D</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Intensive care unit managers’ views regarding nurse staffing in their units in South Africa</title>
+		</analytic>
+		<monogr>
+			<title level="j">Intensive and Critical Care Nursing</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">32</biblScope>
+				<biblScope unit="page" from="49" to="57" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>McCabe</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sambrook</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">The antecedents, attributes and consequences of trust among nurses and nurse managers: A concept analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">International Journal of Nursing Studies</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">51</biblScope>
+				<biblScope unit="page" from="815" to="827" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mealer</surname>
+					<forename type="first">M</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shelton</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Berg</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rothbaum</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moss</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Increased prevalence of post‐traumatic stress disorder symptoms in critical care nurses</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Journal of Respiratory and Critical Care Medicine</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">175</biblScope>
+				<biblScope unit="page" from="693" to="697" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nadin</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Psychological contract violation beyond an employees’ perspective: The perspective of employers</title>
+		</analytic>
+		<monogr>
+			<title level="j">Employee Relations</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="110" to="125" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pillay</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Retention strategies for professional nurses in South Africa</title>
+		</analytic>
+		<monogr>
+			<title level="j">Leadership in Health Services</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="39" to="57" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rispel</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Foreword</title>
+		</analytic>
+		<monogr>
+			<title level="m">South African clinical nurse practitioners’ manual</title>
+			<editor>
+				<persName>
+					<surname>Mash</surname>
+					<forename>B</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Blitz</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Kitshoff</surname>
+					<forename>D</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Naude</surname>
+					<forename>S</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Van Schaik</publisher>
+				<pubPlace>Pretoria</pubPlace>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rousseau</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Psychological and implied contracts in organizations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Employee Responsibilities and Rights Journal</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="121" to="139" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b24">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Rousseau</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">Psychological Contract Inventory Technical Report</title>
+			<imprint>
+				<publisher>Carnegie Mellon University</publisher>
+				<pubPlace>Pittsburgh, PA</pubPlace>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b25">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Schein</surname>
+					<forename type="first">E</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="m">Organizational psychology</title>
+			<imprint>
+				<publisher>Prentice Hall</publisher>
+				<pubPlace>Englewood Cliffs, NJ</pubPlace>
+				<date when="1965">1965</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Siffleet</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rapley</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Slatyer</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Delivering best care and maintaining emotional wellbeing in the intensive care unit: The perspective of experienced nurses</title>
+		</analytic>
+		<monogr>
+			<title level="j">Applied Nursing Research</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="305" to="310" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b27">
+		<monogr>
+			<author>South African Nursing Council</author>
+			<title level="m">Code of ethics for nursing practitioners in South Africa</title>
+			<imprint>
+				<publisher>SANC</publisher>
+				<pubPlace>Pretoria, SA</pubPlace>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b28">
+		<monogr>
+			<author>South African Nursing Council</author>
+			<title level="m">Competencies for critical care nurse specialist (adult)</title>
+			<imprint>
+				<publisher>SANC</publisher>
+				<pubPlace>Pretoria, SA</pubPlace>
+				<date when="2014">2014</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Suazo</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Turnley</surname>
+					<forename type="first">W</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mai‐Dalton</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Characteristics of the supervisor‐subordinate relationship as predictors of psychological contract breach</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Managerial Issues</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="295" to="312" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Valentin</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferdinande</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">ESICM working group on quality improvement. Recommendations on basic requirements for intensive care units: Structural and organisational aspects</title>
+		</analytic>
+		<monogr>
+			<title level="j">Intensive Care Medicine</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">37</biblScope>
+				<biblScope unit="page" from="1575" to="1587" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Van der Colff</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rothmann</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Burnout of registered nurses in South Africa</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Nursing Management</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="630" to="642" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>
