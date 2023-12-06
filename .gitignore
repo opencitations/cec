@@ -1,5 +1,7 @@
 .DS_STORE
 classifier/*/src/models/*/
+classifier/pyenv
+extractor/pyenv
 extractor/app/target
 extractor/app/.project
 extractor/app/.settings
