@@ -32,12 +32,17 @@ class UploadFileForm(FlaskForm):
     submit = SubmitField("Process File")
 
 def create_app():
-    app = Flask(__name__)
+    PREFIX="/cex/"
+
+    # change to default as:
+    # PREFIX="/"
+
+    app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
     app.config['SECRET_KEY'] = 'supersecretkey'
     app.config['UPLOAD_FOLDER'] = 'static/files'
     app.config['DOWNLOAD_FOLDER'] = 'static/output'
-    @app.route('/', methods=['GET', "POST"])
-    @app.route('/home', methods=['GET', 'POST'])
+    @app.route(PREFIX,methods=['GET', "POST"])
+    @app.route(PREFIX+'home', methods=['GET', 'POST'])
     def home():
         form = UploadFileForm()
         if form.validate_on_submit():
@@ -75,7 +80,7 @@ def create_app():
         return render_template('index.html', form=form)
 
 
-    @app.route('/download/<filename>', methods=['GET'])
+    @app.route(PREFIX+'download/<filename>', methods=['GET'])
     def download_file(filename):
         download_location = 'resources/pdf2'  # Aggiungi il percorso corretto
         return send_from_directory(download_location, filename, as_attachment=True)
