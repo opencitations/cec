@@ -6,44 +6,86 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
 
 </head>
 <body>
 
+  <header class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CITATION EXTRACTOR – CEX</a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div> -->
+    </header>
+
     <section id="disclaimer">
-        <h1>PDF Processor</h1>
-      <h2 id="about">Overview</h2>
+      <h1>CITATION EXTRACTOR – CEX</h1>
       <p>
-        This tool allows you to upload a PDF file, process it using Grobid <br>
-        and obtain a JSON file containing all the sentences <br>
-        where an intext citation is present. Both the grobid output (XML-TEI) <br>
-          and the JSON can be downloaded.
-          N.B. You can process only <b>ONE PDF</b> at the time.
+        This tool allows you to upload a PDF file, process it using Grobid and obtain a JSON file containing all the sentences
+        where an intext citation is present. Both the grobid output (XML-TEI) and the JSON can be downloaded.
+      </p>
+      <p>By clicking on “Process File”, Grobid will perform the processing of the input PDF and as a result a zip folder, containing the Grobid xml and a JSON file composed by the citations sentences, will be automatically downloaded to your machine. Be patient, it will take few seconds.</p>
+      <p>N.B. You can process only <b>ONE PDF</b> at the time.</p>
+      <form method='POST' enctype="multipart/form-data">
+          {{form.hidden_tag()}}
+          {{form.file()}}
+          {{form.submit()}}
+      </form>
+
+      <p id="pdflist">
+          <h4>Some sample PDFs you can use to test the service:</h4>
+          <ul>
+              <li><a href="{{ url_for('download_file', filename='AGR-BIO-SCI_3.pdf') }}">PDF_1</a></li>
+              <li><a href="{{ url_for('download_file', filename='DEC-SCI_31.pdf') }}">PDF_2</a></li>
+              <li><a href="{{ url_for('download_file', filename='MUL_79.pdf') }}">PDF_3</a></li>
+              <li><a href="{{ url_for('download_file', filename='SOC-SCI_103.pdf') }}">PDF_4</a></li>
+          </ul>
       </p>
     </section>
 
-    <section id="pdflist">
-        <h4>Some sample PDFs you can use to test the service</h4>
-        <ul>
-            <li><a href="{{ url_for('download_file', filename='AGR-BIO-SCI_3.pdf') }}">PDF_1</a></li>
-            <li><a href="{{ url_for('download_file', filename='DEC-SCI_31.pdf') }}">PDF_2</a></li>
-            <li><a href="{{ url_for('download_file', filename='MUL_79.pdf') }}">PDF_3</a></li>
-            <li><a href="{{ url_for('download_file', filename='SOC-SCI_103.pdf') }}">PDF_4</a></li>
-        </ul>
-    </section>
+    <footer class="footer mt-4 py-3 bg-dark text-white">
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-lg-4" style="padding: 40px;">
+          <img src="{{ url_for('static', filename='img/graspos_white.svg') }}" alt="Company Logo" class="img-fluid mb-2" style="height: 100px;">
+        </div>
 
+        <div class="col-lg-4" style="padding: 40px;">
+          <img src="{{ url_for('static', filename='img/oc_white.svg') }}" alt="Company Logo" class="img-fluid mb-2" style="height: 150px;">
+        </div>
 
-
-<form method='POST' enctype="multipart/form-data">
-    {{form.hidden_tag()}}
-    {{form.file()}}
-    {{form.submit()}}
-</form>
-
-
-    <footer>
-      <p>Copyright © 2023 PDF PROCESSOR</p>
+        <div class="col-lg-4" style="padding: 20px;">
+          <h5 class="text-uppercase mb-2">GENERAL INFORMATION</h6>
+          <ul class="list-unstyled text-small mb-0">
+            <li><a class="text-white" href="https://graspos.eu/">About GraspOS</a></li>
+            <li><a class="text-white" href="https://opencitations.net">About OpenCitations</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12">
+          <p class="small mb-0">Copyright © 2023 PDF CITATION EXTRACTOR – CEX</p>
+        </div>
+      </div>
     </footer>
 
 </body>
