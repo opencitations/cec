@@ -16,10 +16,25 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1vw 0;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1vw 0;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* Ensures the header remains above other content */
+  font-size: 13pt;
+  padding-top: 20px !important;
+  padding: 20px;
+  padding-bottom: 20px !important;
+  display: flex;
+}
+header nav{
+  position: absolute;
+  right: 0;
+  margin-right: 30px !important;
 }
 
 header nav ul {
@@ -138,7 +153,6 @@ footer {
     color: white;
     text-align: center;
     padding: 1vw 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
