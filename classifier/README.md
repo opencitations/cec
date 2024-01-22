@@ -3,7 +3,7 @@
 ## Get started:
 * create a python virtual env `python -m venv <your_venv>`
 * activate venv: `source <your_venv>/bin/activate`
-* install libs: `pip -r requirements.txt`
+* install libs: `pip install -r requirements.txt`
 * run the app: `python AlphaCIC/main.py`
 
 ## Configuration:
