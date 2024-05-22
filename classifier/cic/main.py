@@ -3,6 +3,8 @@ import ast
 from src.predictor import *
 from src.data_processor import *
 
+#######
+#MODIFICARE PERCORSI E SIMILI
 
 PREFIX="/cic/"
 SRC_PATH="src/"
@@ -55,18 +57,33 @@ def upload_json():
             predictor = Predictor(
                 selected_mode,
                 "allenai/scibert_scivocab_cased",
+                "xlnet/xlnet-base-cased",
                 [
-                    SRC_PATH+"models/ModelsWithSections/background_model.pt",
-                    SRC_PATH+"models/ModelsWithSections/method_model.pt",
-                    SRC_PATH+"models/ModelsWithSections/result_model.pt"
+                    [
+                        SRC_PATH+"models/Sections/SciBERT_method_model.pt",
+                        SRC_PATH+"models/Sections/SciBERT_background_model.pt",
+                        SRC_PATH+"models/Sections/SciBERT_result_model.pt"
+                    ],
+                    [
+                        SRC_PATH+"models/Sections/XLNet_method_model.pt",
+                        SRC_PATH+"models/Sections/XLNet_background_model.pt",
+                        SRC_PATH+"models/Sections/XLNet_result_model.pt"
+                    ],
                 ],
                 [
-                    SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
-                    SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
-                    SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
+                    [
+                        SRC_PATH+"models/NoSections/NoSec_SciBERT_method_model.pt",
+                        SRC_PATH+"models/NoSections/NoSec_SciBERT_background_model.pt",
+                        SRC_PATH+"models/NoSections/NoSec_SciBERT_result_model.pt"
+                    ],
+                    [
+                        SRC_PATH+"models/NoSections/NoSec_XLNet_method_model.pt",
+                        SRC_PATH+"models/NoSections/NoSec_XLNet_background_model.pt",
+                        SRC_PATH+"models/NoSections/NoSec_XLNet_result_model.pt"
+                    ],
                 ],
-                SRC_PATH+"models/ModelsWithSections/CNN.pt",
-                SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
+                SRC_PATH+"models/Sections/MetaClassifierSections.pth",
+                SRC_PATH+"models/NoSections/MetaClassifierNoSections.pth",
                 data,
                 temporary_data,
                 from_json=True
@@ -95,18 +112,33 @@ def classify_text():
     processor = Predictor(
         selected_mode,
         "allenai/scibert_scivocab_cased",
+        "xlnet/xlnet-base-cased",
         [
-            SRC_PATH+"models/ModelsWithSections/background_model.pt",
-            SRC_PATH+"models/ModelsWithSections/method_model.pt",
-            SRC_PATH+"models/ModelsWithSections/result_model.pt"
+            [
+                SRC_PATH+"models/Sections/SciBERT_method_model.pt",
+                SRC_PATH+"models/Sections/SciBERT_background_model.pt",
+                SRC_PATH+"models/Sections/SciBERT_result_model.pt"
+            ],
+            [
+                SRC_PATH+"models/Sections/XLNet_method_model.pt",
+                SRC_PATH+"models/Sections/XLNet_background_model.pt",
+                SRC_PATH+"models/Sections/XLNet_result_model.pt"
+            ],
         ],
         [
-            SRC_PATH+"models/ModelsWithoutSections/background_model_no_sections.pt",
-            SRC_PATH+"models/ModelsWithoutSections/method_model_no_sections.pt",
-            SRC_PATH+"models/ModelsWithoutSections/result_model_no_sections.pt"
+            [
+                SRC_PATH+"models/NoSections/NoSec_SciBERT_method_model.pt",
+                SRC_PATH+"models/NoSections/NoSec_SciBERT_background_model.pt",
+                SRC_PATH+"models/NoSections/NoSec_SciBERT_result_model.pt"
+            ],
+            [
+                SRC_PATH+"models/NoSections/NoSec_XLNet_method_model.pt",
+                SRC_PATH+"models/NoSections/NoSec_XLNet_background_model.pt",
+                SRC_PATH+"models/NoSections/NoSec_XLNet_result_model.pt"
+            ],
         ],
-        SRC_PATH+"models/ModelsWithSections/CNN.pt",
-        SRC_PATH+"models/ModelsWithoutSections/CNN_no_sections.pt",
+        SRC_PATH+"models/Sections/MetaClassifierSections.pth",
+        SRC_PATH+"models/NoSections/MetaClassifierNoSections.pth",
         datapoints,
         from_json=False
     )
