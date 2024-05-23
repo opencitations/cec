@@ -1,4 +1,5 @@
 import json
+
 class DataProcessor:
     def __init__(self, data, from_json=False):
         """
