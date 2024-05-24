@@ -1,0 +1,60 @@
+#input-text {
+	width: 50vw;
+}
+
+#result{
+	width: 50vw;
+	margin: auto;
+}
+
+#predictionLabel {
+	color: white;
+	background-color: #4CAF50;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#predictionDetailsContainer {
+	cursor: pointer;
+}
+
+#predictionDetailsContainer:hover  #predictionDetailsContent{
+	display: block;
+}
+
+#predictionDetailsLink {
+	border: 2px solid #4CAF50;
+	text-transform: capitalize;
+	width: 25%;
+}
+
+#predictionDetailsContent {
+	display: none;
+}
+
+.result-block {
+	background-color: #F3F3F3;
+}
+
+.in-text-reference {
+	display: none;
+}
+
+textarea {
+	border-radius: 1em;
+}
+
+#demo-sentences {
+	font-style: italic;
+	font-size: 98%;
+}
+
+
+#loading{
+	font-style: italic;
+}
+
+.cito-class {
+	font-style: italic;
+	text-transform: capitalize;
+}

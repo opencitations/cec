@@ -13,12 +13,24 @@ app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
 @app.route(PREFIX)
 #@app.route('/<prefix>')
 def index():
-    return render_template('index.html',prefix=PREFIX)
+    return render_template('start.html',prefix=PREFIX)
 
 @app.route(PREFIX+'classifier')
 #@app.route('/<prefix>classifier')
 def classifier_page():
     return render_template('classifier.html',prefix=PREFIX)
+
+@app.route(PREFIX+'start')
+#@app.route('/<prefix>start')
+def start_page():
+    return render_template('start.html',prefix=PREFIX)
+
+@app.route(PREFIX+'details')
+#@app.route('/<prefix>details')
+def details_page():
+    return render_template('details.html',prefix=PREFIX)
+
+
 
 #@app.route(PREFIX+'/upload_json', methods=['POST'])
 @app.route(PREFIX+'upload_json', methods=['POST'])

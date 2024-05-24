@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITATION INTENT CLASSIFIER</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/classifier.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/start.css') }}">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="{{ url_for('static', filename='js/conf.js') }}"></script>
+    <script>set_prefix({{prefix}})</script>
+
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Citation Intent Classifier (Beta release)</a>
+      <nav>
+        <ul>
+          <li><a href="{{ url_for('start_page') }}">Home</a></li>
+          <li><a href="{{ url_for('classifier_page') }}">Classifier JSON</a></li>
+          <li><a href="{{ url_for('details_page') }}">Details</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+        <h1>CITATION INTENT CLASSIFIER</h1>
+        <p class="description">
+The Citation Extraction and Classifier is a software that performs automatic annotation of in-text citations in academic papers provided in PDF. This page shows the <em>Citation Intent Classifier</em> component, which is able to identify the citation intent of one or more citation(s) given as input.</p>
+<p>Citations are classified according to the <a href="http://purl.org/spar/cito">CiTO</a> ontology and four classes are currently recognized: 
+<span class="cito-class">
+usesMethodIn</span>, <span class="cito-class">obtainsBackgroundFrom</span>, <span class="cito-class">useConclusionsFrom</span> and <span class="cito-class"> citesForInformation</span>.</p>
+
+<p class="description">
+You can process a bulk of citations in <a href="{{ url_for('classifier_page') }}">JSON format</a> or via API (not available yet) or just try one single citation at a time in the following form.</p>
+<p id="demo-sentences">(click on
+            <a id="demosent1" href="#">[Method]<span class="in-text-reference">Our process analysis technique was adopted from the methodology proposed by Johnson et al. (2018).</span></a>,
+            <a id="demosent2" href="#">[Background]<span class="in-text-reference">There is a need for more observational studies and studies using narrative causation to describe the potential contribution of information in problem-solving and decision-making [3].</span></a> or <a id="demosent3" href="#">[Results]<span class="in-text-reference">Consistent with the observations reported by Lee and Khan (2020), our results indicate a significant correlation between sunlight exposure and the rate of photosynthesis.</span></a> to load some demo sentences)
+            </p>
+
+        <!-- Here is the switch button for mode selection 
+
+        <p>Select your classification mode:</p>
+        
+        <div class="modes">
+            <input type="radio" class="mode-input" id="mode1" name="mode" value="mixed" checked>
+            <label class="mode-option" for="mode1">Mixed</label>
+
+            <input type="radio" class="mode-input" id="mode2" name="mode" value="with sections">
+            <label class="mode-option" for="mode2">With Section Titles</label>
+
+            <input type="radio" class="mode-input" id="mode3" name="mode" value="without sections">
+            <label class="mode-option" for="mode3">Without Section Titles</label>
+        </div>
+        -->
+
+        
+        <form id="classify-form">
+            <textarea id="input-text" name="sentences" rows="2" cols="10" placeholder=""></textarea>
+            
+            <p><b>(Optional)</b> Title of the section containing the citation sentence: <input type="text" id="input-section" name="input-section"/></p>
+
+            <p>
+            <button type="button" id="classify-btn">Try it!</button>
+            </p>
+
+
+        </form>
+    </section>
+
+    <section>
+        <div id="loading" style="display:none;">
+            <div class="spinner-border" role="status">
+              <span class="sr-only"></span>
+            </div>
+            Loading...Please be patient, it may take some time...
+        </div>
+        <div id="result"></div>
+    </section>
+
+    <footer class="footer mt-4 py-3 bg-dark text-white">
+      <div class="row" style="padding-top: 50px;">
+        <div class="col-lg-4" style="padding: 40px;">
+          <img src="{{ url_for('static', filename='img/graspos_white.svg') }}" alt="Company Logo" class="img-fluid mb-2" style="height: 100px;">
+        </div>
+
+        <div class="col-lg-4" style="padding: 40px;">
+          <img src="{{ url_for('static', filename='img/oc_white.svg') }}" alt="Company Logo" class="img-fluid mb-2" style="height: 150px;">
+        </div>
+
+        <div class="col-lg-4" style="padding: 20px;">
+          <h5 class="text-uppercase mb-2">GENERAL INFORMATION</h6>
+          <ul class="list-unstyled text-small mb-0">
+            <li><a class="text-white" href="https://graspos.eu/">About GraspOS</a></li>
+            <li><a class="text-white" href="https://opencitations.net">About OpenCitations</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12">
+          <p class="small mb-0">Copyright © 2023 CITATION INTENT CLASSIFIER – CIC</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/start.js') }}"></script>
+</body>
+</html>

@@ -18,20 +18,21 @@
 </head>
 <body>
     <header class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Citation Intent Classifier – CIC (Alpha release)</a>
+      <a class="navbar-brand" href="#">Citation Intent Classifier (Beta release)</a>
       <nav>
         <ul>
-          <li><a href="{{ url_for('index') }}">Home</a></li>
-          <li><a href="{{ url_for('classifier_page') }}">Classifier</a></li>
-          <!--<li><a href="{{prefix}}page-3">About</a></li>-->
+          <li><a href="{{ url_for('start_page') }}">Home</a></li>
+          <li><a href="{{ url_for('classifier_page') }}">Classifier JSON</a></li>
+          <li><a href="{{ url_for('details_page') }}">Details</a></li>
         </ul>
       </nav>
     </header>
 
     <section>
-        <h2>Classify Your Sentences</h2>
+        <h1>CITATION INTENT CLASSIFIER – JSON input</h1>
         <p class="description">
-            This is a tool to classify your sentences according to the categories presented in the landing page.</br>
+            This page allows you to classify one or more sentences in <b>JSON format</b>.</p>
+        <p>
             You can either enter your sentences in the form below, or upload a JSON file containing them.</br>
             The result will be displayed in the form of a table, and you will be able to download it as a JSON file.</br>
             It is <b>important to notice</b> that:
@@ -135,7 +136,7 @@
     <section>
         <div class="space-holder"></div>
         <div id="loading" style="display:none;">
-            <p>Loading...</p>
+            <p>Loading...Please be patient, it may take some time...</p>
         </div>
         <div id="result"></div>
         <button type="button" id="download-json-btn" style="display:none;">Download JSON</button>
