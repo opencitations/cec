@@ -3,6 +3,8 @@ import json
 import re
 import spacy
 import zipfile
+from scipy.optimize import linear_sum_assignment
+import numpy as np
 
 
 # Load SpaCy model
@@ -34,7 +36,6 @@ def load_json(file_path):
 
 # Align section titles based on semantic similarity
 def align_sections(json_data, reference_titles):
-    aligned_titles = {}
     section_titles = set()
 
     # First, iterate through json_data to collect all unique section titles
@@ -42,23 +43,30 @@ def align_sections(json_data, reference_titles):
         section_title = json_data[section].get('SECTION', [])
         section_titles.add(section_title)
 
-    # List to store all (section_title, ref_title, similarity_score) tuples
-    similarity_scores = []
+    section_titles = list(section_titles)
+    n_sections = len(section_titles)
+    n_references = len(reference_titles)
 
-    for section_title in section_titles:
-        for ref_title in reference_titles:
-            similarity_score = calculate_similarity(section_title.lower(), ref_title.lower())
-            similarity_scores.append((section_title, ref_title, similarity_score))
+    # Determine the size of the square cost matrix
+    size = max(n_sections, n_references)
+    # Create the cost matrix and initialize with large negative values for dummy entries
+    cost_matrix = np.full((size, size), 0, dtype=np.float64)
 
-    # Sort the list based on similarity scores in descending order
-    similarity_scores.sort(key=lambda x: x[2], reverse=True)
+    # Fill the cost matrix with actual similarity scores
+    for i in range(n_sections):
+        for j in range(n_references):
+            similarity_score = calculate_similarity(section_titles[i].lower(), reference_titles[j].lower())
+            if similarity_score > 0.7:
+                cost_matrix[i, j] = -similarity_score  # Negative because we want to maximize similarity
 
-    used_reference_titles = set()
+    # Apply the Hungarian algorithm
+    row_ind, col_ind = linear_sum_assignment(cost_matrix)
 
-    for section_title, ref_title, score in similarity_scores:
-        if section_title not in aligned_titles and ref_title not in used_reference_titles and score > 0.7:
-            aligned_titles[section_title] = ref_title
-            used_reference_titles.add(ref_title)
+    aligned_titles = {}
+    for row, col in zip(row_ind, col_ind):
+        if row < n_sections and col < n_references and cost_matrix[row, col] != 0:
+            aligned_titles[section_titles[row]] = reference_titles[col]
+
     return aligned_titles
 
 
