@@ -72,9 +72,8 @@ def create_app():
                 # implement sections' headings alignment
                 output_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/output')
                 json_file = [el for el in os.listdir(output_dir) if el.endswith(".json")]
-                output_json_file = os.path.join(output_dir, json_file[0].replace(".json", "_aligned_headings.json"))
-                run(os.path.join(output_dir, json_file[0]), ["Introduction", "Related Works", "Methods and Materials", "Results", "Discussion", "Conclusion"], output_json_file)
-
+                run(os.path.join(output_dir, json_file[0]), ["Introduction", "Related Works", "Methods and Materials",
+                                                             "Results", "Discussion", "Conclusion"], os.path.join(output_dir, json_file[0]))
 
             zip_name = os.path.basename(save_location).split(".pdf")[0] + '.zip'
             zip_path = os.path.join(download_location, zip_name)
