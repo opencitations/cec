@@ -3,9 +3,11 @@ from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField
 from werkzeug.utils import secure_filename
 import os
+from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
 from combined import PDFProcessor
 import zipfile
+from extractor.semantic_alignment.align_headings import run
 
 def get_all_files(folder_path):
     files = []
@@ -29,10 +31,11 @@ def delete_all_files(folder_path):
 
 class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])
+    agree = BooleanField("Perform semantic alignment of sections' headings")
     submit = SubmitField("Process File")
 
 def create_app():
-    PREFIX="/cex/"
+    PREFIX="/"
 
     # change to default as:
     # PREFIX="/"
@@ -48,9 +51,11 @@ def create_app():
 
     @app.route(PREFIX,methods=['GET', "POST"])
     @app.route(PREFIX+'home', methods=['GET', 'POST'])
+
     def home():
         os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
+
         if form.validate_on_submit():
 
             file = form.file.data
@@ -62,11 +67,19 @@ def create_app():
             processor.process_pdf()
 
             os.remove(save_location)
+
+            if form.agree.data:
+                # implement sections' headings alignment
+                output_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/output')
+                json_file = [el for el in os.listdir(output_dir) if el.endswith(".json")]
+                run(os.path.join(output_dir, json_file[0]), ["Introduction", "Related Works", "Methods and Materials",
+                                                             "Results", "Discussion", "Conclusion"],
+                    os.path.join(output_dir, json_file[0]), "../semantic_alignment/predefined_mappings.json")
+
             zip_name = os.path.basename(save_location).split(".pdf")[0] + '.zip'
             zip_path = os.path.join(download_location, zip_name)
 
             create_zip_folder(download_location, zip_path)
-
 
             @after_this_request
             def delete_zip(response):

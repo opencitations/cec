@@ -1,6 +1,5 @@
 
 import os
-
 from grobid_client.grobid_client import GrobidClient
 from lxml import etree
 import json
@@ -64,40 +63,34 @@ class TEIXMLtoJSONConverter:
         roman_numbers_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*(?:\.[A-Z0-9]+\.*)*\s+'
         has_roman_numeration = any(re.search(roman_numbers_pattern, head.text.strip() if head.text else "") for head
                                    in head_elements)
+        head_n_attribute = sum("n" in head.attrib for head in head_elements)
+        head_no_n_attribute = sum("n" not in head.attrib for head in head_elements)
         for div in root.findall(".//tei:div", namespaces=ns):
             head = div.find("./tei:head", namespaces=ns)
 
             if head is not None:
                 head_text = head.text.strip() if head.text else ""
-                if has_n_attribute:
-                    if 'n' in head.attrib:
-                        n = head.get("n")
-                        n_parts = n.split(".")
-                        if '' in n_parts:
-                            n_parts.remove('')
-                        if len(n_parts) == 1:
-                            if re.search(r'\b\d+(\.\d+)+\b', head_text):
-                                split_string = re.split(r'\b\d+(\.\d+)+\b', head_text)
-                                split_string = [substring.strip() for substring in split_string]
-                                last_head = "%s%s%s" % (n, " ", split_string[0])
-                                last_head = ' '.join(last_head.split())
-                            else:
-                                last_head = "%s%s%s" % (n, " ", head_text)
-                                last_head = ' '.join(last_head.split())
+                if head_n_attribute > head_no_n_attribute:
+                    if has_n_attribute:
+                        if 'n' in head.attrib:
+                            n = head.get("n")
+                            n_parts = n.split(".")
+                            if '' in n_parts:
+                                n_parts.remove('')
+                            if len(n_parts) == 1:
+                                if re.search(r'\b\d+(\.\d+)+\b', head_text):
+                                    split_string = re.split(r'\b\d+(\.\d+)+\b', head_text)
+                                    split_string = [substring.strip() for substring in split_string]
+                                    last_head = split_string[0].strip()
+                                else:
+                                    last_head = head_text
                 elif has_roman_numeration:
                     if re.search(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+', head_text):
                         pattern = re.compile(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+')
                         match = pattern.search(head_text)
                         if match:
                             match = match.group().strip()
-                            if "." in match:
-                                arabic = roman.fromRoman(match.replace(".", ""))
-                                last_head = "%s%s%s" % (arabic, " ", head_text.replace(match, ""))
-                                last_head = ' '.join(last_head.split())
-                            else:
-                                arabic = roman.fromRoman(match)
-                                last_head = "%s%s%s" % (arabic, " ", head_text.replace(match, ""))
-                                last_head = ' '.join(last_head.split())
+                            last_head = head_text.replace(match, "")
                 else:
                     last_head = head_text
 
@@ -131,7 +124,8 @@ class TEIXMLtoJSONConverter:
             json.dump(citations, json_file, indent=2, ensure_ascii=False)
 
 class PDFProcessor:
-    def __init__(self, input_pdf_path="/Users/olga/Downloads/AGR-BIO-SCI_2.pdf", output_tei_path="output", output_json_path="output", config_path="./config.json"):
+    def __init__(self, input_pdf_path="/Users/olga/Downloads/AGR-BIO-SCI_2.pdf", output_tei_path="output",
+                 output_json_path="output", config_path="./config.json"):
         self.client = GrobidClient(config_path=config_path)
         self.input_pdf_path = input_pdf_path
         self.output_tei_path = output_tei_path
@@ -147,9 +141,10 @@ class PDFProcessor:
         basename = os.path.basename(input_pdf_path[0]).split(".pdf")[0] + ".grobid.tei.xml"
         xml_file_path = os.path.join(output_tei_path, basename)
         output_json_name = self.output_json_path + "//" + os.path.basename(input_pdf_path[0]).split(".pdf")[0] + ".json"
-        auxiliar_file = "/home/marta/Scrivania/cec/extractor/cex/special_cases.json"
+        auxiliar_file = "special_cases.json"
 
-        tei_to_json_converter = TEIXMLtoJSONConverter(xml_file=xml_file_path, output_json_file=output_json_name, auxiliar_file=auxiliar_file)
+        tei_to_json_converter = TEIXMLtoJSONConverter(xml_file=xml_file_path, output_json_file=output_json_name,
+                                                      auxiliar_file=auxiliar_file)
         tei_to_json_converter.convert_to_json()
 
         folder_path = 'output'

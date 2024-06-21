@@ -49,8 +49,10 @@
       <form method='POST' enctype="multipart/form-data">
           {{form.hidden_tag()}}
           {{form.file()}}
-          {{form.submit()}}
+          {{form.agree()}} {{form.agree.label}}<br>
+          <p class="mt-1">{{form.submit()}}</p>
       </form>
+        <p class="mt-2">You can choose to perform the semantic alignment of the original article's section headings by ticking the box above. When this option is selected, the JSON file, which contains all the sentences with in-text citations, is enriched with a new key called "ALIGNED SECTION." This key stores the aligned section title if it is found.</p>
 
       <p id="pdflist">
           <h4>Some sample PDFs you can use to test the service:</h4>
@@ -74,7 +76,7 @@
         </div>
 
         <div class="col-lg-4" style="padding: 20px;">
-          <h5 class="text-uppercase mb-2">GENERAL INFORMATION</h6>
+          <h5 class="text-uppercase mb-2">GENERAL INFORMATION</h5>
           <ul class="list-unstyled text-small mb-0">
             <li><a class="text-white" href="https://graspos.eu/">About GraspOS</a></li>
             <li><a class="text-white" href="https://opencitations.net">About OpenCitations</a></li>

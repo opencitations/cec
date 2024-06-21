@@ -97,6 +97,11 @@ button {
     margin-top: 50px;
   }
 
+  #agree {
+    width: 25px;
+    height: 25px;
+  }
+
 
   footer {
     background-color: #333;
@@ -112,4 +117,12 @@ button {
     margin-bottom: 0;
     margin-top: 100%;
     font-size: 13pt;
+  }
+
+
+  .mt-1 {
+    margin-top: 1% !important;
+  }
+  .mt-2 {
+    margin-top: 2% !important;
   }
