@@ -1,0 +1,1594 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lecain</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Morgan</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schuman</surname>
+					<forename type="first">G</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reeder</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hart</surname>
+					<forename type="first">R</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Carbon exchange and species composition of grazed pastures and exclosures in the shortgrass steppe of Colorado</title>
+		</analytic>
+		<monogr>
+			<title level="j">Agriculture Ecosystems &amp; Environment</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">93</biblScope>
+				<biblScope unit="page" from="421" to="435" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Dynamics of grassland carbon sequestration and its coupling relation with hydrothermal factor of Inner Mongolia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ecol Indic</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">95</biblScope>
+				<biblScope unit="page" from="1" to="11" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename type="first">L</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Estimation of Grassland Ecosystem Services Value of China Using Remote Sensing Data</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Natural Resources</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="161" to="170" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lotsch</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Friedl</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Anderson</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tucker</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Response of terrestrial ecosystems to recent Northern Hemispheric drought</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophys.res.lett</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">32</biblScope>
+				<biblScope unit="page" from="347" to="354" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Grassland dynamics in response to climate change and human activities in Xinjiang from 2000 to 2014</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci Rep-Uk</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="2888" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rizou</surname>
+					<forename>M</forename>
+			</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sumner</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nnadi</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Evapotranspiration Parameterizations at a Grass Site in Florida, USA</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eos Transactions of the American Geophysical Union</title>
+			<imprint>
+				<date when="2007">2007</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rogiers</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Conen</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Furger</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stöckli</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eugster</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Impact of past and present land‐management on the C‐balance of a grassland in the Swiss Alps</title>
+		</analytic>
+		<monogr>
+			<title level="j">Global Change Biology</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="2613" to="2625" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Anderson</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">The Effects of Climate Change on Decomposition Processes in Grassland and Coniferous Forests</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ecological Applications</title>
+			<imprint>
+				<date when="1991">1991</date>
+				<biblScope unit="volume">1</biblScope>
+				<biblScope unit="page" from="326" to="347" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b8">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Shiba</surname>
+					<forename type="first">S</forename><forename type="middle">S</forename><forename type="last">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Apan</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="m">Analysing the effect of drought on net primary productivity of tropical rainforests in Queensland using MODIS satellite imagery</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Assessing the Spatiotemporal Dynamic of Global Grassland Water Use Efficiency in Response to Climate Change from 2000 to 2013</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Agronomy &amp; Crop Science</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">202</biblScope>
+				<biblScope unit="page" from="343" to="354" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>O'Mara</surname>
+					<forename type="first">F</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">The role of grasslands in food security and climate change</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ann Bot</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">110</biblScope>
+				<biblScope unit="page" from="1263" to="1270" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Effects of Drought on Net Primary Productivity: Roles of Temperature, Drought Intensity, and Duration</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chinese Geographical Science</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="270" to="282" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lao</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Assessing the impacts of droughts on net primary productivity in China</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Environmental Management</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">114</biblScope>
+				<biblScope unit="page" from="362" to="371" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Niu</surname>
+					<forename type="first">S</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li-Bang</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of overgrazing on grassland desertification in Maqu County</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Ecologica Sinica</title>
+			<imprint>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Van Der Werf</surname>
+					<forename type="first">G</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="m">Global fire emissions and the contribution of deforestation, savanna, forest, agriculture, and peat fires</title>
+			<imprint>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Houghton</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goodale</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Effects of land-use change on the carbon balance of terrestrial ecosystems</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophysical Monograph</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">85-89</biblScope>
+				<biblScope unit="page" from="85" to="98" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peters</surname>
+					<forename type="first">A</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Assessing vegetation response to drought in the northern Great Plains using vegetation and drought indices</title>
+		</analytic>
+		<monogr>
+			<title level="j">Remote Sensing of Environment</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">87</biblScope>
+				<biblScope unit="page" from="85" to="98" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>McMahon</surname>
+					<forename>Thomas</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arenas</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Methods of computation of low streamflow</title>
+			<imprint>
+				<publisher>UNESCO</publisher>
+				<date when="1982">1982</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tilman</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Drought and Biodiversity in Grasslands</title>
+		</analytic>
+		<monogr>
+			<title level="j">Oecologia</title>
+			<imprint>
+				<date when="1992">1992</date>
+				<biblScope unit="volume">89</biblScope>
+				<biblScope unit="page" from="257" to="264" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Running</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Drought-induced reduction in global terrestrial net primary production from 2000 through 2009</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">329</biblScope>
+				<biblScope unit="page" from="940" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sala</surname>
+					<forename type="first">O</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parton</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Joyce</surname>
+					<forename type="first">L</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lauenroth</surname>
+					<forename type="first">W</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Primary Production of the Central Grassland Region of the United States</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ecology</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">69</biblScope>
+				<biblScope unit="page" from="40" to="45" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bernstein</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Climate Change 2007 - Synthesis Report</title>
+		</analytic>
+		<monogr>
+			<title level="j">Environmental Policy Collection</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="408" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mk</surname>
+					<forename type="first">V</forename><forename type="middle">D</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<title level="a">Drought and ecosystem carbon cycling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Agricultural &amp; Forest Meteorology</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">151</biblScope>
+				<biblScope unit="page" from="765" to="773" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trenberth</surname>
+					<forename type="first">K</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qian</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Global Data Set of Palmer Drought Severity Index for 1870–2002: Relationship With Soil Moisture and Effects of Surface Warming</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Hydrometeorology</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="1117" to="1130" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>RR</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Climate-Driven Increases in Global Terrestrial Net Primary Production from 1982 to 1999</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">300</biblScope>
+				<biblScope unit="page" from="1560" to="1563" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">ariations of Terrestrial Net Primary Productivity in East Asia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Terrestrial Atmospheric &amp; Oceanic Sciences</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="425" to="437" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Peng</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Country-level net primary production distribution and response to drought and land cover change</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci Total Environ</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">574</biblScope>
+				<biblScope unit="page" from="65" to="77" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Doughty</surname>
+					<forename type="first">C</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Drought impact on forest carbon dynamics and fluxes in Amazonia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">519</biblScope>
+				<biblScope unit="page" from="78" to="82" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jha</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Srivastava</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Impact of drought on vegetation carbon storage in arid and semi-arid regions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Remote Sensing Applications Society &amp; Environment</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="page">S2352938517302781</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="conference" xml:id="b29">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Dungan</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ganguly</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Melton</surname>
+					<forename type="first">F</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shupe</surname>
+					<forename type="first">J</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nemani</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="m">Agu Fall Meeting</title>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ph</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Europe-wide reduction in primary productivity caused by the heat and drought in 2003</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">437</biblScope>
+				<biblScope unit="page" from="529" to="533" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Maosheng</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Running</surname>
+					<forename type="first">S</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Drought-induced reduction in global terrestrial net primary production from 2000 through 2009</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">329</biblScope>
+				<biblScope unit="page" from="940" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b32">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="m">Global-scale analysis of the carbon cycle sensitivity to drought on annual scales</title>
+			<imprint>
+				<date when="2010">2010</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zeng</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qian</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Munoz</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Iacono</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">How strong is carbon cycle-climate feedback under global warming?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Geophysical Research Letters</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page">L20203</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b34">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Geider</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="m">Primary productivity of planet earth: Biological determinants and physical constraints in terrestrial and aquatic habitats</title>
+			<imprint>
+				<date when="2001">2001</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Drought impact on vegetation productivity in the Lower Mekong Basin</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Remote Sens</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="2835" to="2856" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mohamed</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<title level="a">The role of climate variability in the inter-annual variation of terrestrial net primary production (NPP)</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci Total Environ</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">332</biblScope>
+				<biblScope unit="page" from="123" to="137" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shi-Sheng</surname>
+					<forename type="first">K</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">The Limited Types of Photosynthesis of Rhododendron fortunei under Soil Drought Stress</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Yunnan Agricultural University</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="387" to="391" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sala</surname>
+					<forename type="first">O</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gherardi</surname>
+					<forename type="first">L</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reichmann</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jobbágy</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peters</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Legacies of precipitation fluctuations on primary production: theory and data synthesis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Philosophical Transactions of the Royal Society of London</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">367</biblScope>
+				<biblScope unit="page" from="3135" to="3144" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Anderegg</surname>
+					<forename type="first">W</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">FOREST ECOLOGY. Pervasive drought legacies in forest ecosystems and their implications for carbon cycle models</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">349</biblScope>
+				<biblScope unit="page" from="528" to="532" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Temporal-spatial characteristics of severe drought events and their impact on agriculture on a global scale</title>
+		</analytic>
+		<monogr>
+			<title level="j">Quatern Int</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">349</biblScope>
+				<biblScope unit="page" from="10" to="21" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b41">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Bates</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kundzewicz</surname>
+					<forename type="first">Z</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Palutikof</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="m">Climate Change and Water</title>
+			<imprint>
+				<publisher>IPCC Secretariat</publisher>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Monteith</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Solar Radiation and Productivity in Tropical Ecosystems</title>
+		</analytic>
+		<monogr>
+			<title level="j">J.appl.ecol</title>
+			<imprint>
+				<date when="1972">1972</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="747" to="766" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Piao</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Changes in vegetation net primary productivity from 1982 to 1999 in China</title>
+		</analytic>
+		<monogr>
+			<title level="j">Global Biogeochemical Cycles</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">19</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Monteith</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moss</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">J. Climate and the Efficiency of Crop Production in Britain [and Discussion]</title>
+		</analytic>
+		<monogr>
+			<title level="j">Philosophical Transactions of the Royal Society of London</title>
+			<imprint>
+				<date when="1977">1977</date>
+				<biblScope unit="volume">281</biblScope>
+				<biblScope unit="page" from="277" to="294" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Niu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Vegetation NPP Distribution Based on MODIS Data and CASA Model—A Case Study of Northern Hebei Province</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chinese Geographical Science</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="334" to="341" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Piao</surname>
+					<forename type="first">S</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fang</surname>
+					<forename type="first">J</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename type="first">Q</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="m">Application of CASA model to the estimation of Chinese terrestrial net primary productivity</title>
+			<imprint>
+				<date when="2001">2001</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Loveland</surname>
+					<forename type="first">T</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Development of a global land cover characteristics database and IGBP DISCover from 1 km AVHRR data</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Remote Sens</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="1303" to="1330" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Leinenkugel</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuenzer</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dech</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Comparison and enhancement of MODIS cloud mask products for Southeast Asia</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Remote Sens</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="2730" to="2748" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schrier</surname>
+					<forename type="first">G</forename><forename type="middle">V</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Briffa</surname>
+					<forename type="first">K</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Osborn</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Summer Moisture Variability across Europe</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Climate</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="1013" to="1017" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Büntgen</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brázdil</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Frank</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Esper</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Three centuries of Slovakian drought dynamics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Climate Dynamics</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="315" to="329" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schrier</surname>
+					<forename type="first">G</forename><forename type="middle">V</forename><forename type="last">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barichivich</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Briffa</surname>
+					<forename type="first">K</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">A scPDSI-based global data set of dry and wet spells for 1901–2009</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Geophysical Research Atmospheres</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">118</biblScope>
+				<biblScope unit="page" from="4025" to="4048" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Barichivich</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Temperature and Snow-Mediated Moisture Controls of Summer Photosynthetic Activity in Northern Terrestrial Ecosystems between 1982 and 2011</title>
+		</analytic>
+		<monogr>
+			<title level="j">Remote Sens-Basel</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="353" to="387" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Heim</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+					<genName>Jr</genName>
+				</persName>
+			</author>
+			<title level="a">Drought indices: A review</title>
+		</analytic>
+		<monogr>
+			<title level="m">Drought: A Global Assessment</title>
+			<imprint>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b54">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wells</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goddard</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hayes</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">A Self-Calibrating Palmer Drought Severity Index</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Climate</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="2335" to="2351" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Palmer</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Meteorological drought</title>
+		</analytic>
+		<monogr>
+			<title level="m">U.s.department of Commerce Weather Bureau Research Paper</title>
+			<imprint>
+				<date when="1965">1965</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Comparative assessment of grassland degradation dynamics in response to climate variation and human activities in China, Mongolia, Pakistan and Uzbekistan from 2000 to 2013</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Arid Environments</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">135</biblScope>
+				<biblScope unit="page" from="164" to="172" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mann</surname>
+					<forename type="first">H</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Nonparametric test against trend</title>
+		</analytic>
+		<monogr>
+			<title level="j">Econometrica</title>
+			<imprint>
+				<date when="1945">1945</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="245" to="259" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="standard" xml:id="b58">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Kendall</surname>
+					<forename type="first">M</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="m">Rank correlation measures</title>
+			<imprint>
+				<date when="1975">1975</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b59">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yue</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pilon</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Phinney</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cavadias</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">The influence of autocorrelation on the ability to detect trend in hydrological series</title>
+		</analytic>
+		<monogr>
+			<title level="j">Hydrological Processes</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">16</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b60">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sousa</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Trigo</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aizpurua</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nieto</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Trends and extremes of drought indices throughout the 20th century in the Mediterranean</title>
+		</analytic>
+		<monogr>
+			<title level="j">Natural Hazards &amp; Earth System Sciences</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="33" to="51" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

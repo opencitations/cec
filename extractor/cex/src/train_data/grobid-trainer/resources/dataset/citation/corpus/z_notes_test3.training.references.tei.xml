@@ -1,0 +1,500 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Brink</surname></persName>
+		</author>
+		<title level="a">Externalist moral realism</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Southern Journal of Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="23" to="41" />
+			<date when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note>supplement</note>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		<title level="a">Directions of fit and the Humean theory of motivation</title>
+		<author>
+			<persName><forename>M</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Australasian Journal of Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="127" to="139" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b2">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Deonna</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Teroni</surname></persName>
+		</author>
+		<title level="m">The emotions: A philosophical introduction</title>
+		<imprint>
+			<date when="2012">2012</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>Abingdon</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Dreier</surname></persName>
+		</author>
+		<title level="a">Dispositions and fetishes</title>
+	</analytic>
+	<monogr>
+		<title level="m">Philosophy and Phenomenological Research</title>
+		<imprint>
+			<biblScope unit="page" from="619" to="638" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Dreier</surname></persName>
+		</author>
+		<title level="a">Can reasons fundamentalism answer the normative question?</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>G</forename><surname>Bjornsson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>C</forename><surname>Strandberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>R</forename><surname>Olinder</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>J</forename><surname>Eriksson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>F</forename><surname>Bjorklund</surname></persName>
+		</editor>
+		<title level="m">Motivational internalism</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+			<date when="2014a">2014a</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Dreier</surname></persName>
+		</author>
+		<title level="a">Another world</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>M</forename><surname>Smith</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>R</forename><surname>Johnson</surname></persName>
+		</editor>
+		<title level="m">Passions and projections</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="2014b">2014b</date>
+			<biblScope unit="page" from="155" to="170" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Dworkin</surname></persName>
+		</author>
+		<title level="a">Objectivity and truth: You'd better believe it</title>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophy &amp; Public Affairs</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="87" to="139" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b7">
+	<monogr>
+		
+		<author>
+			<persName><forename>D</forename><surname>Enoch</surname></persName>
+		</author>
+		<title level="m">Taking morality seriously</title>
+		<imprint>
+			<date when="2011">2011</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b8">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Gibbard</surname></persName>
+		</author>
+		<title level="m">Wise choices, apt feelings</title>
+		<imprint>
+			<date when="1990">1990</date>
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b9">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Gibbard</surname></persName>
+		</author>
+		<title level="m">Thinking how to live</title>
+		<imprint>
+			<date when="2003">2003</date>
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b10">
+	<monogr>
+		
+		<author>
+			<persName><forename>O</forename><surname>Green</surname></persName>
+		</author>
+		<title level="m">The emotions: A philosophical theory</title>
+		<imprint>
+			<date when="1992">1992</date>
+			<publisher>Kluwer</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename>C</forename><surname>Korsgaard</surname></persName>
+		</author>
+		<title level="m">Sources of normativity</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date when="1996">1996</date>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Korsgaard</surname></persName>
+		</author>
+		<title level="a">Realism and constructivism in twentieth century moral philosophy</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Korsgaard</surname></persName>
+		</editor>
+		<title level="m">The Constitution of agency: Essays on practical reason and moral psychology</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date when="2008">2008</date>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Marks</surname></persName>
+		</author>
+		<title level="a">A theory of emotion</title>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Studies</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="227" to="242" />
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		<title level="a">Against quietist normative realism</title>
+		<author>
+			<persName><forename>T</forename><surname>Mcpherson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Studies</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="223" to="240" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b15">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<title level="m">Upheavals of thought</title>
+		<imprint>
+			<date when="2001">2001</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename>D</forename><surname>Parfit</surname></persName>
+		</author>
+		<title level="m">On what matters</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date when="2011">2011</date>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename>R</forename><surname>Roberts</surname></persName>
+		</author>
+		<title level="m">Emotions in the moral life</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date when="2013">2013</date>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b18">
+	<monogr>
+		<title level="m">What we owe to each other</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Scanlon</surname></persName>
+		</author>
+		<imprint>
+			<date when="1998">1998</date>
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Scanlon</surname></persName>
+		</author>
+		<title level="m">Being realistic about reasons</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date when="2014">2014</date>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Scarantino</surname></persName>
+		</author>
+		<title level="a">The motivational theory of emotion</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>J</forename><surname>D'Arms</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>D</forename><surname>Jacobson</surname></persName>
+		</editor>
+		<title level="m">Moral psychology and human agency</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date when="2015">2015</date>
+			<pubPlace>Oxford</pubPlace>
+			<biblScope unit="page" from="156" to="185" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b21">
+	<monogr>
+		
+		<author>
+			<persName><forename>R</forename><surname>Shafer-Landau</surname></persName>
+		</author>
+		<title level="m">Moral realism: A defense</title>
+		<imprint>
+			<date when="2003">2003</date>
+			<publisher>Clarendon</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b22">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="m">The moral problem</title>
+		<imprint>
+			<date when="1994">1994</date>
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Tanenbaum</surname></persName>
+		</author>
+		<title level="a">Direction of fit and motivational cognitivism</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>R</forename><surname>Shafer-Landau</surname></persName>
+		</editor>
+		<title level="m">Oxford studies in metaethics</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date when="2006">2006</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="235" to="264" />
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="a">Internal and external reasons</title>
+	</analytic>
+	<monogr>
+		<title level="m">Moral luck</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date when="1979">1979</date>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Wodak</surname></persName>
+		</author>
+		<title level="a">Why realists must reject normative quietism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Studies</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="2795" to="2817" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Zangwill</surname></persName>
+		</author>
+		<title level="a">Directions of fit and normative functionalism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Studies</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="173" to="203" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

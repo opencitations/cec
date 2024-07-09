@@ -1,0 +1,1434 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jasechko</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Terrestrial water fluxes dominated by transpiration</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">496</biblScope>
+				<biblScope unit="page" from="347" to="350" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nuccio</surname>
+					<forename type="first">M</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paul</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bate</surname>
+					<forename type="first">N</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cohn</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Where are the drought tolerant crops? An assessment of more than two decades of plant biotechnology effort in crop improvement</title>
+		</analytic>
+		<monogr>
+			<title level="j">Plant Sci</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">273</biblScope>
+				<biblScope unit="page" from="110" to="119" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Amani</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fischer</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reynolds</surname>
+					<forename type="first">M</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Canopy temperature depression association with yield of irrigated spring wheat cultivars in a hot climate</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Agron. Crop Sci.</title>
+			<imprint>
+				<date when="1996">1996</date>
+				<biblScope unit="volume">176</biblScope>
+				<biblScope unit="page" from="119" to="129" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fischer</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Wheat yield progress associated with higher stomatal conductance and photosynthetic rate, and cooler canopies</title>
+		</analytic>
+		<monogr>
+			<title level="j">Crop Sci</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page" from="1467" to="1475" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Helander</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename><forename type="last">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vaidya</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Chemical manipulation of plant water use</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioorg. Med. Chem.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="493" to="500" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b5">
+		<monogr>
+			<title level="m">World Agriculture: Towards 2015/2030: An FAO Perspective</title>
+			<editor>
+				<persName>
+					<surname>Bruinsma</surname>
+					<forename>J</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Earthscan</publisher>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b6">
+		<monogr>
+			<author>Food and Agriculture Organization of the United Nations</author>
+			<title level="m">Disasters causing billions in agricultural losses, with drought leading the way</title>
+			<ref target="http://www.fao.org/news/story/en/item/1106977/icode/">http://www.fao.org/news/story/en/item/1106977/icode/</ref>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b7">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Use of substituted isoquinolinones, isoquinolindiones, isoquinolintriones and dihydroisoquinolinones or in each case salts thereof as active agents against abiotic stress in plants</title>
+			<idno type="docNumber">6885550</idno>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b8">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wendeborn</surname>
+					<forename type="first">S</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jung</surname>
+					<forename type="first">P</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lachia</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dumeunier</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="m">Compounds that induce aba responses</title>
+			<idno type="docNumber">20160280651</idno>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b9">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Okamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">Synthetic compounds for vegetative ABA responses</title>
+			<idno type="docNumber">9345245</idno>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dejonghe</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Okamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Small molecule probes of ABA biosynthesis and signaling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Plant Cell Physiol</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">59</biblScope>
+				<biblScope unit="page" from="1490" to="1499" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b11">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Lachia</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="m">2-oxo-3,4-dihydroquinoline compounds as plant growth regulators</title>
+			<idno type="docNumber">20180044297</idno>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b12">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Use of substitute oxo tetrahydroquinoline sulfonamides or salts thereof for raising stress tolerance of plants</title>
+			<idno type="docNumber">20170027172</idno>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b13">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Use of substituted dihydrooxindolylsulfonamides, or the salts thereof, for increasing the stress tolerance of plants</title>
+			<idno type="docNumber">20160237035</idno>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Substituted 1-cycloalkyl-2- oxotetrahydroquinolin-6-ylsulfonamides or salts thereof and use thereof to increase stress tolerance in plants</title>
+			<idno type="docNumber">20180020662</idno>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b15">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Willms</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dittgen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Substituted cyano cycloalkyl penta-2,4-dienes, cyano cycloalkyl pent-2-en-4-ynes, cyano heterocyclyl penta-2,4-dienes and cyano heterocyclyl pent-2-en-4-ynes as active substances</title>
+			<idno type="docNumber">20170210701A1</idno>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b16">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Aryl-and hetarylsulfonamides as active ingredients against abiotic plant stress</title>
+			<idno type="docNumber">20110230350</idno>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lachia</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wendeborn</surname>
+					<forename type="first">S</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Godfrey</surname>
+					<forename type="first">C</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sabbadin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Carbamate quinabactin</title>
+			<idno type="docNumber">2018017490</idno>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b18">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Godfrey</surname>
+					<forename type="first">C</forename><forename type="middle">R</forename><forename type="last">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lachia</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wendeborn</surname>
+					<forename type="first">S</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sabbadin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Plant growth regulator compounds</title>
+			<idno type="docNumber">2018007217</idno>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b19">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wendeborn</surname>
+					<forename type="first">S</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Loiseleur</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lachia</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sabbadin</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Derivatives of halo quinabactin</title>
+			<idno type="docNumber">20180312470</idno>
+			<imprint>
+				<date when="2018">2018</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="patent" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Weiner</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peterson</surname>
+					<forename type="first">F</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Volkman</surname>
+					<forename type="first">B</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cutler</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Structural and functional insights into core ABA signaling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Opin. Plant Biol.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="495" to="502" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miyakawa</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fujita</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yamaguchi-Shinozaki</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tanokura</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Structure and function of abscisic acid receptors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Trends Plant Sci</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="259" to="266" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Leveraging abscisic acid receptors for efficient water use in Arabidopsis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">113</biblScope>
+				<biblScope unit="page" from="6791" to="6796" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mega</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Tuning water-use efficiency and drought tolerance in wheat using abscisic acid receptors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Plants</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="153" to="159" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cao</surname>
+					<forename>M-J</forename>
+				</persName>
+			</author>
+			<title level="a">Combining chemical and genetic approaches to increase drought resistance in plants</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Commun.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="1183" to="1183" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Okamoto</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Activation of dimeric ABA receptors elicits guard cell closure, ABA-regulated gene expression, and drought tolerance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">110</biblScope>
+				<biblScope unit="page" from="12132" to="12137" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Potent analogues of abscisic acid–identifying cyano-cyclopropyl moieties as promising replacements for the cyclohexenone headgroup</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Org. Chem.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">2018</biblScope>
+				<biblScope unit="page" from="1416" to="1425" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Frackenpohl</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Insights into the in vitro and in vivo SAR of abscisic acid–exploring unprecedented variations of the side chain via cross-coupling-mediated syntheses</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Org. Chem.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">2018</biblScope>
+				<biblScope unit="page" from="1403" to="1415" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kepka</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Action of natural abscisic acid precursors and catabolites on abscisic acid receptor complexes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Plant Physiol</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">157</biblScope>
+				<biblScope unit="page" from="2108" to="2119" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nyangulu</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Synthesis and biological activity of tetralone abscisic acid analogues</title>
+		</analytic>
+		<monogr>
+			<title level="j">Org. Biomol. Chem.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="1400" to="1412" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Raghavendra</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gonugunta</surname>
+					<forename type="first">V</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Christmann</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grill</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">ABA perception and signalling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Trends Plant Sci</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="395" to="401" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hauser</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Waadt</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schroeder</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Evolution of abscisic acid synthesis and signaling mechanisms</title>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Biol.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="R346" to="R355" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Vaidya</surname>
+					<forename type="first">A</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">A rationally designed agonist defines subfamily IIIA abscisic acid receptors as critical targets for manipulating transpiration</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Chem. Biol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="2842" to="2848" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Costa</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leonhardt</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Siegel</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schroeder</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="a">Isolation of a strong Arabidopsis guard cell promoter and its potential as a research tool</title>
+		</analytic>
+		<monogr>
+			<title level="j">Plant Methods</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="6" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pandey</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Boolean modeling of transcriptome data reveals novel modes of heterotrimeric G-protein action</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol. Syst. Biol.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="372" to="372" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hao</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Functional mechanism of the abscisic acid agonist pyrabactin</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Biol. Chem.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">285</biblScope>
+				<biblScope unit="page" from="28946" to="28952" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Melcher</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Identification and mechanism of ABA receptor antagonism.</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Struct. Mol. Biol.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="1102" to="1108" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Peterson</surname>
+					<forename type="first">F</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Structural basis for selective activation of ABA receptors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Struct. Mol. Biol.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="1109" to="1113" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cao</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">An ABA-mimicking ligand that reduces water loss and promotes drought resistance in plants</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cell Res.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="1043" to="1054" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Halgren</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Glide: A new approach for rapid, accurate docking and scoring. 2. Enrichment factors in database screening</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Med. Chem.</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">47</biblScope>
+				<biblScope unit="page" from="1750" to="1759" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Irwin</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shoichet</surname>
+					<forename type="first">B</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">ZINC—A free database of commercially available compounds for virtual screening</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Chem. Inf. Model</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">45</biblScope>
+				<biblScope unit="page" from="177" to="182" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Melcher</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">A gate-latch-lock mechanism for hormone signalling by abscisic acid receptors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">462</biblScope>
+				<biblScope unit="page" from="602" to="608" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Structural insights into the mechanism of abscisic acid signaling by PYL proteins</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Struct. Mol. Biol</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="1230" to="1236" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miyazono</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Structural basis of abscisic acid signalling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">462</biblScope>
+				<biblScope unit="page" from="609" to="614" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Davis</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Blagg</surname>
+					<forename type="first">B</forename><forename type="middle">S</forename><forename type="last">J</forename>
+				</persName>
+			</author>
+			<title level="a">A scaffold merging approach to Hsp90 C-terminal inhibition: Synthesis and evaluation of a chimeric library</title>
+		</analytic>
+		<monogr>
+			<title level="j">MedChemComm</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="593" to="598" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Uraguchi</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<title level="a">A femtomolar-range suicide germination stimulant for the parasitic plant Striga hermonthica</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">362</biblScope>
+				<biblScope unit="page" from="1301" to="1305" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Elzinga</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Defining and exploiting hypersensitivity hotspots to facilitate abscisic acid receptor agonist optimization</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Chem. Biol</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="332" to="336" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Takeuchi</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Designed abscisic acid analogs as antagonists of PYL-PP2C receptor interactions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Chem. Biol.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="477" to="482" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Barratt</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Van der Waals interactions dominate ligand- protein association in a protein binding site occluded from solvent water</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">127</biblScope>
+				<biblScope unit="page" from="11827" to="11834" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sharrow</surname>
+					<forename type="first">S</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Novotny</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stone</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Thermodynamic analysis of binding between mouse major urinary protein-I and the pheromone 2-sec-butyl-4,5-dihydrothiazole</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biochemistry</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">42</biblScope>
+				<biblScope unit="page" from="6302" to="6309" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bingham</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Thermodynamics of binding of 2-methoxy- 3-isopropylpyrazine and 2-methoxy-3-isobutylpyrazine to the major urinary protein</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Am. Chem. Soc</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">126</biblScope>
+				<biblScope unit="page" from="1675" to="1681" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Freire</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Do enthalpy and entropy distinguish first in class from best in class?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Drug Discov. Today</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="869" to="874" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ladbury</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klebe</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Freire</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Adding calorimetric data to decision making in lead discovery: A hot tip</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Rev. Drug Discov</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="23" to="27" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dudutienė</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Discovery and characterization of novel selective inhibitors of carbonic anhydrase IX</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Med. Chem</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">57</biblScope>
+				<biblScope unit="page" from="9435" to="9446" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b54">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Lemke</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="m">Foye’s Principles of Medicinal Chemistry</title>
+			<imprint>
+				<publisher>Lippincott Williams &amp; Wilkins</publisher>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Diss</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Gene duplication can impart fragility, not robustness, in the yeast protein interaction network</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">355</biblScope>
+				<biblScope unit="page" from="630" to="634" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Travaglia</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Exogenous ABA increases yield in field- grown wheat with moderate water restriction</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Plant Growth Regul</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="366" to="374" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Improving winter wheat performance by foliar spray of ABA and FA under water deficit conditions</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Plant Growth Regul</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="83" to="96" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b58">
+		<analytic>
+			<author>
+				<persName>
+					<surname>de Souza</surname>
+					<forename type="first">C</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">ABA application to maize hybrids contrasting for drought tolerance: Changes in water parameters and in antioxidant enzyme activity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Plant Growth Regul</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">73</biblScope>
+				<biblScope unit="page" from="205" to="217" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

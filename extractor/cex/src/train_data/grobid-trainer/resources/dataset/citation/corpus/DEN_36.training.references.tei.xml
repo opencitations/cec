@@ -1,0 +1,961 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Goadsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lipton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ferrari</surname></persName>
+		</author>
+		<title level="a">Migraine — Current Understanding and Treatment</title>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page" from="257" to="270" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b1">
+	<analytic>
+		<author>Headache Classification Committee of the International Headache Society (IHS)</author>
+		<title level="a">The International Classification of Headache Disorders, 3rd edition (beta version)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cephalalgia</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="629" to="808" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bigal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Serrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Buse</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Scher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lipton</surname></persName>
+		</author>
+		<title level="a">Acute Migraine Medications and Evolution From Episodic to Chronic Migraine: A Longitudinal Population-Based Study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Headache</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1157" to="1168" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			GBD 2016 Headache Collaborators
+		</author>
+		<title level="a"> Global, regional, and national burden of migraine and tension-type headache, 1990-2016: a systematic analysis for the Global Burden of Disease Study 2016</title>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Neurol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="954" to="976" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Lassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Haderslev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Sperling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Olesen</surname></persName>
+		</author>
+		<title level="a">CGRP May Play A Causative Role in Migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cephalalgia</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="54" to="61" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>U</forename><surname>Arulmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Maassenvandenbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Villalón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Saxena</surname></persName>
+		</author>
+		<title level="a">Calcitonin gene-related peptide and its role in migraine pathophysiology</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">500</biblScope>
+			<biblScope unit="page" from="315" to="330" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Ramón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Cernuda-Morollón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Pascual</surname></persName>
+		</author>
+		<title level="a">Calcitonin gene-related peptide in peripheral blood as a biomarker for migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Neurol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="281" to="286" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Goadsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Edvinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Ekman</surname></persName>
+		</author>
+		<title level="a">Vasoactive peptide release in the extracerebral circulation of humans during migraine headache</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Neurol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="183" to="187" />
+			<date when="1990">1990</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>X</forename><surname>Rodriguez-Osorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Sobrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Brea</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Leira</surname></persName>
+		</author>
+		<title level="a">Endothelial progenitor cells: A new key for endothelial dysfunction in migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="474" to="479" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Cernuda-Morollon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Larrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Ramon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Martinez-Camblor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Pascual</surname></persName>
+		</author>
+		<title level="a">Interictal increase of CGRP levels in peripheral blood as a biomarker for chronic migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1191" to="1196" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Cernuda-Morollón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Ramón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Martínez-Camblor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Serrano-Pertierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Larrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Pascual</surname></persName>
+		</author>
+		<title level="a">OnabotulinumtoxinA decreases interictal CGRP plasma levels in patients with chronic migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="820" to="824" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Cernuda-Morollón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Martínez-Camblor</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Ramón</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Larrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Serrano-Pertierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Pascual</surname></persName>
+		</author>
+		<title level="a">CGRP and VIP Levels as Predictors of Efficacy of Onabotulinumtoxin Type A in Chronic Migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Headache</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="987" to="995" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Vieites-Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Pérez-Mato</surname></persName>
+		</author>
+		<title level="a">CGRP and PTX3 as Predictors of Efficacy of Onabotulinumtoxin Type A in Chronic Migraine: An Observational Study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Headache</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="78" to="87" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Kinane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Stathopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Papapanou</surname></persName>
+		</author>
+		<title level="a">Periodontal diseases</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Dis Primers</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Amar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Gokce</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Loukideli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Van Dyke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vita</surname></persName>
+		</author>
+		<title level="a">Periodontal Disease Is Associated With Brachial Artery Endothelial Dysfunction and Systemic Inflammation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arterioscler Thromb Vasc Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1245" to="1249" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Ameijeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Blanco</surname></persName>
+		</author>
+		<title level="a">Association between periodontitis and chronic migraine: a case–control study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Odontology</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="90" to="95" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Ameijeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Blanco</surname></persName>
+		</author>
+		<title level="a">The role of leptin as a biomarker in the relationship between periodontitis and chronic migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1208" to="1214" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Ameijeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Blanco</surname></persName>
+		</author>
+		<title level="a">High serum procalcitonin levels in patients with periodontitis and chronic migraine</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1069" to="1074" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Ameijeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Leira</surname></persName>
+		</author>
+		<title level="a">Periodontal disease as a potential factor of migraine chronification</title>
+	</analytic>
+	<monogr>
+		<title level="j">Med Hypotheses</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="94" to="98" />
+			<date when="2017">2017</date>
+
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">X</forename><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Myers</surname></persName>
+		</author>
+		<title level="a">Involvement of cytokines in lipopolysaccharide-induced facilitation of CGRP release from capsaicin-sensitive nerves in the trachea: studies with interleukin-1beta and tumor necrosis factor- alpha</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="4742" to="4748" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Cuesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Quintero</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Pons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Suarez-Roca</surname></persName>
+		</author>
+		<title level="a">Substance P and calcitonin gene-related peptide increase IL-1β, IL-6 and TNFα secretion from human peripheral blood mononuclear cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochem Int</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="301" to="306" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Holzmann</surname></persName>
+		</author>
+		<title level="a">Modulation of immune responses by the neuropeptide CGRP</title>
+	</analytic>
+	<monogr>
+		<title level="j">Amino Acids</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Von Elm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Gøtzsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Vandenbroucke</surname></persName>
+		</author>
+		<title level="a">STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="344" to="349" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Leira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rodríguez-Yáñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Arias</surname></persName>
+		</author>
+		<title level="a">Periodontitis as a risk indicator and predictor of poor outcome for lacunar infarct</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="20" to="30" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Ainamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Bay</surname></persName>
+		</author>
+		<title level="a">Problems and proposals for recording gingivitis and plaque</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int Dent J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="229" to="235" />
+			<date when="1975">1975</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Eke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Thornton-Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Genco</surname></persName>
+		</author>
+		<title level="a">Update of the Case Definitions for Population-Based Surveillance of Periodontitis</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1449" to="1454" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Nesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Abbas</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Van Der Ploeg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Spijkervet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">U</forename><surname>Dijkstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Vissink</surname></persName>
+		</author>
+		<title level="a">Periodontal inflamed surface area: quantifying inflammatory burden</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="668" to="673" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Hujoel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Listgarten</surname></persName>
+		</author>
+		<title level="a">The dentogingival epithelial surface area revisited</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontal Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="48" to="55" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Waeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moskowitz</surname></persName>
+		</author>
+		<title level="a">Migraine as an inflammatory disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hauge</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jes</forename><surname>Olesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ashina</surname></persName>
+		</author>
+		<title level="a">Calcitonin gene-related peptide triggers migraine-like attacks in patients with migraine with aura</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cephalalgia</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="54" to="61" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Karsan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Goadsby</surname></persName>
+		</author>
+		<title level="a">CGRP Mechanism Antagonists and Migraine Management</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Neurol Neurosci Rep</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S-Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E-S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-S</forename><surname>Chung</surname></persName>
+		</author>
+		<title level="a">Feasibility of serum CGRP measurement as a biomarker of chronic migraine: a critical reappraisal</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Headache Pain</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Haririan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Andrukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Böttcher</surname></persName>
+		</author>
+		<title level="a">Salivary Neuropeptides, Stress and Periodontitis</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Lundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Mckinnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Lamey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Linden</surname></persName>
+		</author>
+		<title level="a">Calcitonin gene-related peptide in gingival crevicular fluid in periodontal health and disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="212" to="216" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Calcitonin gene-related peptide potentiates LPS-induced IL-6 release from mouse peritoneal macrophages</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Neuroimmunol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="207" to="212" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

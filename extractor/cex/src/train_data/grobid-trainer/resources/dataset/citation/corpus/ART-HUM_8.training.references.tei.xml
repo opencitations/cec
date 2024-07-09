@@ -1,0 +1,1496 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ambrose</surname></persName>
+		</author>
+		<title level="a">Preparation and characterization of bone and tooth collagen for isotopic analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="431" to="451" />
+			<date when="1990">1990</date>ù
+		</imprint>
+	</monogr>
+</bibl>
+
+
+<bibl type="chapter" xml:id="b1">
+	<analytic>		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ambrose</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Norr</surname></persName>
+		</author>
+		<title level="a">Experimental evidence for the relationship of the carbon iso- tope ratios of whole diet and dietary protein to those of bone collagen and carbonate</title>
+	</analytic>
+	<monogr>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lambert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>G</forename><surname>Grupe</surname></persName>
+		</editor>
+		<title level="m">Prehistoric human bone – archaeology at the molecular level</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="37" />
+			<date when="1993">1993</date>ù
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Bäckström</surname></persName>
+		</author>
+		<title level="a">Integrating isotopes and documentary evidence: dietary patterns in a late medieval and early modern mining community, Sweden</title>
+	</analytic>
+	<monogr>
+		<title level="j">Archaeological and Anthropological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2075" to="2094" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Barrett</surname></persName>
+		</author>
+		<title level="a">Interpreting the expansion of sea fishing in medieval Europe using stable isotope analysis of archaeological cod bones</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1516" to="1524" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Berglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Broman</surname></persName>
+		</author>
+		<title level="a">Organochlorine accumulation and stable isotope ratios in an Atlantic salmon (Salmo salar) population from the Baltic Sea</title>
+	</analytic>
+	<monogr>
+		<title level="j">Science of The Total Environment</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="141" to="151" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Bergman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L-E</forename><surname>Edlund</surname></persName>
+		</author>
+		<title level="a">Birkarlar and Sámi – inter-cultural contacts beyond state control: reconsidering the standing of external tradesmen (birkarlar) in medieval Sámi socie- ties</title>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Borealia</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="52" to="80" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Bergman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Zackrisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Östlund</surname></persName>
+		</author>
+		<title level="a">Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fennoscandia Archaeologica</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="45" to="60" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Bjørklund</surname></persName>
+		</author>
+		<title level="a">Domestication, Reindeer Husbandry and the Development of Sámi Pastoralism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Borealia</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="174" to="189" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Bocherens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Drucker</surname></persName>
+		</author>
+		<title level="a">Trophic level isotopic enrichment of carbon and nitro- gen in bone collagen: case studies from recent and ancient terrestrial ecosystems</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Osteoarchaeology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Bronk Ramsey</surname></persName>
+		</author>
+		<title level="a">Methods for Summarizing Radiocarbon Datasets</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1809" to="1833" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="a">Improved Collagen Extraction by Modified Longin Method</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="171" to="177" />
+			<date when="1988">1988</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b11">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Bruun</surname></persName>
+		</author>
+		<title level="m">Blandede graver -blandede kulturer? En tolkning av gravskikk og etniske forhold i Nord-Norge gjennom jernalder og tidlig middelalder</title>
+		<imprint>
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished thesis. University of Tromsø</note>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>DeNiro</surname></persName>
+		</author>
+		<title level="a">Postmortem preservation and alteration of in vivo bone collagen isotope ratios in relation to palaeodietary reconstruction</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">6040</biblScope>
+			<biblScope unit="page" from="806" to="809" />
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Deniro</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Epstein</surname></persName>
+		</author>
+		<title level="a">Influence of diet on the distribution of carbon isotopes in animals</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="495" to="506" />
+			<date when="1978">1978</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><surname>Dury</surname></persName>
+		</author>
+		<title level="a">Consideration of Freshwater and Multiple Marine Reservoir Effects: Dating of Individuals with Mixed Diets from Northern Sweden</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1561" to="1585" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Eidlitz</surname></persName>
+		</author>
+		<title level="a">Food and emergency food in the circumpolar area</title>
+	</analytic>
+	<monogr>
+		<title level="m">Studia Ethnographica Upsaliensia</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date when="1969">1969</date>
+			<publisher>Almqvist &amp; Wiksell</publisher>
+		</imprint>
+	</monogr>
+	<note>Thesis (PhD)</note>
+</bibl>
+
+<bibl type="book" xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename>G</forename><surname>Faure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mensing</surname></persName>
+		</author>
+		<title level="m">Principles of isotope geology. 3rd ed.</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="2005">2005</date>
+			<biblScope unit="page" from="824" to="853" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b17">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Fjellström</surname></persName>
+		</author>
+		<title level="m">Stable isotope analysis and ethical issues surrounding a human skeleton material from Rounala in Karesuando parish</title>
+		<imprint>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished thesis (Master). Stockholm University, Archaeological Research Laboratory</note>
+</bibl>
+
+<bibl type="book" xml:id="b18">
+	<monogr>
+		
+		<author>
+			<persName><forename>P</forename><surname>Fjellström</surname></persName>
+		</author>
+		<title level="m">Samernas samhälle i tradition och nutid</title>
+		<imprint>
+			<date when="1986">1986</date>
+			<publisher>Norstedt</publisher>
+			<pubPlace>Stockholm</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Günther</surname></persName>
+		</author>
+	<title level="a">Population genomics of Mesolithic Scandinavia: Investigating early postglacial migration routes and high-latitude adaptation</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Biology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e2003703</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Hallström</surname></persName>
+		</author>
+		<title level="a">Gravplatser och offerplatser i ryska lappmarken</title>
+	</analytic>
+	<monogr>
+		<title level="j">RIG, Föreningen För Svensk Kulturhistoria</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="162" to="192" />
+			<date when="1922">1922</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Olsen</surname></persName>
+		</author>
+		<title level="m">Samenes historie intill 1750</title>
+		<imprint>
+			<publisher>Cappelen</publisher>
+			<pubPlace>Oslo</pubPlace>
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b22">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Olsen</surname></persName>
+		</author>
+		<title level="m">Hunters in transition. An Outline of Early Sámi History</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<publisher>Brill</publisher>
+			<pubPlace>Leiden</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename>><forename type="last">M</forename><surname>Hedges</surname></persName>
+		</author>
+		<title level="a">Collagen turnover in the adult femoral mid-shaft: modelled from anthropogenic radiocarbon tracer measurements</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physical Anthropology</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="808" to="816" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>S-D</forename><surname>Hedman</surname></persName>
+		</author>
+		<title level="a">Boplatser och offerplatser. Ekonomisk strategi och boplatsmönster bland skogssamer 700–1600 AD</title>
+	</analytic>
+	<monogr>
+		<title level="m">Studia Archaeologica Universitatis Umensis</title>
+		<imprint>
+			<date when="2003">2003</date>
+			<biblScope unit="volume">17</biblScope>
+			<publisher>University of Umeå</publisher>
+		</imprint>
+	</monogr>
+	<note>Thesis (PhD)</note>
+</bibl>
+
+<bibl type="book" xml:id="b25">
+	<monogr>
+		
+		<author>
+			<persName><forename>S</forename><surname>Hillson</surname></persName>
+		</author>
+		<title level="m">Dental Anthropology</title>
+		<imprint>
+			<date when="1996">1996</date>
+			<publisher>University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b26">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kirchhefer</surname></persName>
+		</author>
+		<title level="m">Dendrologisk datering av likkister fra Gullholmen kirkegård i Tana commune</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<publisher>Dendroøkologen</publisher>
+			<biblScope unit="volume">33</biblScope>
+			<pubPlace>Finnmark, Tromsø</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="chapter" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Krouse</surname></persName>
+		</author>
+		<title level="a">Sulphur isotopes in our environment</title>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of environmental geochemistry, Vol. 1A: the terrestrial environment</title>
+		<editor>
+			<persName><forename>P</forename><surname>Fritz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fontes</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+			<date when="1980">1980</date>
+			<biblScope unit="page" from="435" to="471" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Lahtinen</surname></persName>
+		</author>
+		<title level="a">Isotopic Evidence for Environmental Adaptation in Medieval Iin Hamina, Northern Finland</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b29">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="m">Bioarchaeology. Interpreting Behavior from the Human skeleton</title>
+		<imprint>
+			<date when="1997">1997</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Liedgren</surname></persName>
+		</author>
+		<title level="a">Hearths in the coastal areas of northernmost Sweden, from the period AD 800 to 1950</title>
+	</analytic>
+	<monogr>
+		<title level="j">Rangifer</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="50" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Lind</surname></persName>
+		</author>
+		<title level="a">Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ottar</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page" from="42" to="47" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Lind</surname></persName>
+		</author>
+		<title level="a">Yttervær på Loppa øy</title>
+	</analytic>
+	<monogr>
+		<title level="m">Karlsøy og verden utenfor: kulturhistoriske perspektiver på nordnorske ste- der. Festskrift til professor Håvard Dahl Bratrein på 70-årsdagen 13. 02.2003. Tromsø Museums Skrifter</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hauan</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<publisher>Tromsø museum, Universitetsmusset</publisher>
+			<pubPlace>Tromsø</pubPlace>
+			<biblScope unit="page" from="42" to="52" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Linderholm</surname></persName>
+		</author>
+		<title level="a">An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material</title>
+	
+	</analytic>
+	<monogr>
+		<title level="j">Fornvännen</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="176" to="189" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b34">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Lynnerup</surname></persName>
+		</author>
+		<title level="m">Rapport over skeletfund ved Kirkegårdsøya, Hammerfest kommune, Finnmark fylke, Norge -sommaren 2005</title>
+		<imprint>
+			<date when="2005">2006</date>
+			<publisher>Laboratory of Forensic Anthropology, University of Copenhagen</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b35">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Lynnerup</surname></persName>
+		</author>
+		<title level="m">Rapport over skeletfund ved Gullholmen, Tana kommune, Finnmark fylke, Norge -sommaren 2006</title>
+		<imprint>
+			<date when="2007a">2007a</date>
+			<publisher>Laboratory of Forensic Anthropology, University of Copenhagen</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b36">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Lynnerup</surname></persName>
+		</author>
+		<title level="m">Rapport over skeletfund ved Gullholmen, tana kommune, finnmark fylke, norge -sommeren 2007</title>
+		<imprint>
+			<date when="2007b">2007b</date>
+			<publisher>Laboratory of Forensic Anthropology, University of Copenhagen</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b37">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Lynnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Riddersholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Faurskov Nielsen</surname></persName>
+		</author>
+		<title level="m">Echinicoccosis in an 18th century grave in Northern Norway</title>
+		<imprint>
+			<date when="2008">2008</date>
+			<publisher>Laboratory of Biological Anthropology and Institute of Biochemistry, University of Copenhagen</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished poster</note>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Mangerud</surname></persName>
+		</author>
+		<title level="a">Radiocarbon dating of marine shells, including a discussion of apparent age of Recent shells from Norway</title>
+	</analytic>
+	<monogr>
+		<title level="j">Boreas</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="143" to="172" />
+			<date when="1972">1972</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Mangerud</surname></persName>
+		</author>
+		<title level="a">Marine 14C reservoir ages for 19th century whales and molluscs from the North Atlantic</title>
+	</analytic>
+	<monogr>
+		<title level="j">Quaternary Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">23-24</biblScope>
+			<biblScope unit="page" from="3228" to="3245" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Mangerud</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gulliksen</surname></persName>
+		</author>
+		<title level="a">Apparent Radiocarbon Ages of recent marine shells from Norway, Spitsbergen, and Arctic Canada</title>
+	</analytic>
+	<monogr>
+		<title level="j">Quaternary Research</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="263" to="273" />
+			<date when="1975">1975</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Minagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Wada</surname></persName>
+		</author>
+		<title level="a">Stepwise enrichment of 15N along food chains: Further evidence and the relation between δ15N and animal age</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1135" to="1140" />
+			<date when="1984">1984</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>I-M</forename><surname>Mulk</surname></persName>
+		</author>
+		<title level="a">Sirkas – ett samiskt fångstsamhälle i förändring Kr.f – 1600 e.Kr</title>
+	</analytic>
+	<monogr>
+		<title level="m">Studia archaeologica Universitatis Umensis</title>
+		<imprint>
+			<date when="1995">1995</date>
+			<biblScope unit="volume">6</biblScope>
+			<publisher>University of Umeå</publisher>
+		</imprint>
+	</monogr>
+	<note>Thesis (PhD)</note>
+</bibl>
+
+<bibl type="chapter" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Munch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Munch</surname></persName>
+		</author>
+		<title level="a">Utgravningene på boplassen på Gållevarri</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>Ø</forename><surname>Vorren</surname></persName>
+		</editor>
+		<title level="m">Villreinfangst i Varanger fram til 1600-1700 årener</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="106" to="133" />
+			<date when="1998">1998</date>
+			<pubPlace>Stonglandseidet</pubPlace>
+			<publisher>Nordkalott-forlaget. Tromsø Museums skrifter</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Naumann</surname></persName>
+		</author>
+		<title level="a">Slaves as burial gifts in Viking Age Norway? Evidence from stable isotope and ancient DNA analyses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="533" to="540" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Nehlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Richards</surname></persName>
+		</author>
+		<title level="a">SSpatial variability in sulphur isotope values of archaeological and modern cod (Gadus morhua)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Communications in Mass Spectrometry</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="2255" to="2262" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Nehlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Richards</surname></persName>
+		</author>
+		<title level="a">Establishing collagen quality criteria for sulphur isotope analysis of archaeological bone collagen</title>
+	</analytic>
+	<monogr>
+		<title level="j">Archaeological and Anthropological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="75" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>O'connell</surname></persName>
+		</author>
+		<title level="a">Isotopic Comparison of Hair, Nail and Bone: Modern Analyses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1247" to="1255" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>O’connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><forename type="last">M</forename><surname>Hedges</surname></persName>
+		</author>
+		<title level="a">Isotopic comparison of hair and bone: archaeolo- gical analyses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="661" to="665" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Pedersen</surname></persName>
+		</author>
+		<title level="a">Glimt fra Guollesuolu/ Gullholmen</title>
+	</analytic>
+	<monogr>
+		<title level="m">Deatnu – Teno – Tana</title>
+		<imprint>
+			<date when="1984">1984</date>
+			<biblScope unit="page" from="42" to="53" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Alexandersen</surname></persName>
+		</author>
+		<title level="a">Non-metriske træk</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>N</forename><surname>Lynnerup</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>P</forename><surname>Bennike</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>E</forename><surname>Iregren</surname></persName>
+		</editor>
+		<title level="m">Biologisk antropologi med human osteology</title>
+		<imprint>
+			<biblScope unit="page" from="111" to="119" />
+			<date when="2008">2008</date>
+			<publisher>Gyldendal</publisher>
+			<pubPlace>København</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Reimer</surname></persName>
+		</author>
+		<title level="a">IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1869" to="1887" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Richards</surname></persName>
+		</author>
+		<title level="a">Sulphur isotopes in palaeodietary studies: a review and results from a controlled feeding experiment</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Osteoarchaeology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="37" to="45" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b53">
+	<monogr>
+		<author>
+			<persName><forename>I</forename><surname>Ruong</surname></persName>
+		</author>
+		<title level="m">Samerna i historien och nutiden</title>
+		<imprint>
+			<publisher>BonnierFakta</publisher>
+			<pubPlace>Stockholm</pubPlace>
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>4th ed</note>
+</bibl>
+
+<bibl type="book" xml:id="b54">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">L</forename><surname>Ryd</surname></persName>
+		</author>
+		<title level="m">Urfödan. Om självhushållets mat hos folk i Lappland</title>
+		<imprint>
+			<date when="2015">2015</date>
+			<publisher>Ord&amp;visor</publisher>
+			<pubPlace>Skellefteå</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b55">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A-K</forename><surname>Salmi</surname></persName>
+		</author>
+		<title level="a">Animal offerings at the Sámi offering site of Unna Saiva – Changing religious practices and human–animal relationships</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Anthropological Archaeology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="10" to="22" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A-K</forename><surname>Salmi</surname></persName>
+		</author>
+		<title level="a">Tradition and transformation in Sámi animal-offering practices</title>
+	</analytic>
+	<monogr>
+		<title level="j">Antiquity</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">362</biblScope>
+			<biblScope unit="page" from="472" to="489" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b57">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Schoeninger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>DeNiro</surname></persName>
+		</author>
+		<title level="a">Nitrogen and carbon isotopic composition of bone collagen from marine and terrestrial animals</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="625" to="639" />
+			<date when="1984">1984</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b58">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Sealy</surname></persName>
+		</author>
+		<title level="a">Body tissue chemistry and paleodiet</title>
+	</analytic>
+	<monogr>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Pollard</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Brothwell</surname></persName>
+		</editor>
+		<title level="m">Handbook of archaeological sciences</title>
+		<imprint>
+			<date when="2001">2001</date>
+			<publisher>John Wiley &amp; sons</publisher>
+			<biblScope unit="page" from="269" to="279" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b59">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Sivertsen</surname></persName>
+		</author>
+		<title level="m">Hammerfest 1789-1914</title>
+		<imprint>
+			<date when="1973">1973</date>
+			<publisher>Hammerfest kommune</publisher>
+			<pubPlace>Hammerfest</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b60">
+	<monogr>
+		<author>
+			<persName><forename>T</forename><surname>Sjøvold</surname></persName>
+		</author>
+		<title level="m">Spedbarnsskjeletter fra Gullholmen kirkegård, Tana kommune</title>
+		<imprint>
+			<date when="2009">2009</date>
+			<publisher>Stockholm University</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b61">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Spangen</surname></persName>
+		</author>
+		<title level="a">Circling concepts. A Critical Archaeological Analysis of the Notion of Stone Circles as Sami Offering Sites</title>
+	</analytic>
+	<monogr>
+		<title level="m">Stockholm Studies in Archaeology, nr. 70</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<publisher>Stockholm University</publisher>
+		</imprint>
+	</monogr>
+	<note>Thesis (PhD)</note>
+</bibl>
+
+<bibl type="book" xml:id="b62">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Storå</surname></persName>
+		</author>
+		<title level="m">Burial customs of the Skolt Lapps</title>
+		<imprint>
+			<date when="1971">1971</date>
+			<pubPlace>Helsinki</pubPlace>
+			<publisher>Suomalainen tiedeakatemia</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b63">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Stuiver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Braziunas</surname></persName>
+		</author>
+		<title level="a">Modeling atmospheric 14C influences and 14C ages of marine samples</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiocarbon</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="137" to="189" />
+			<date when="1993">1993</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b64">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="m">Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke</title>
+		<imprint>
+			<date when="2006">2006</date>
+			<publisher>Institutt for arkeologi, Universitetet i Tromsø</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b65">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="m">Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke</title>
+		<imprint>
+			<date when="2007a">2007a</date>
+			<publisher>Institutt for arkeologi, Universitetet i Tromsø</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b66">
+	<monogr>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="m">Arkeologisk utgraving på Gullholmen kirkegård, Deannu gielda/Tana kommune, Finnmark fylke</title>
+		<imprint>
+			<date when="2007b">2007b</date>
+			<publisher>Institutt for arkeologi, Universitetet i Tromsø</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished report</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b67">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="a">De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård</title>
+	</analytic>
+	<monogr>
+		<title level="m">Tana-årboka/Deatnu Jahkegirji</title>
+		<imprint>
+			<date when="2010">2010</date>
+			<biblScope unit="page" from="77" to="91" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b68">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="a">The Impact of materiality on sámi burial customs and religious concepts</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fennoscandia Archaeologica</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="39" to="56" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b69">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Svestad</surname></persName>
+		</author>
+		<title level="a">What Happened in Neiden? On the Question of Reburial Ethics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Norwegian Archaeological Review</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="194" to="222" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b70">
+	<monogr>
+		
+		<author>
+			<persName><forename>V</forename><surname>Traedal</surname></persName>
+		</author>
+		<title level="m">Kirkesteder og kirkebygninger i Troms og Finnmark før 1800</title>
+		<imprint>
+			<date when="2008">2008</date>
+			<publisher>University of Tromsø</publisher>
+		</imprint>
+	</monogr>
+	<note>Unpublished thesis (PhD)</note>
+</bibl>
+
+<bibl type="article" xml:id="b71">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Van Klinken</surname></persName>
+		</author>
+		<title level="a">Bone Collagen Quality Indicators for Palaeodietary and Radiocarbon Measurements</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Archaeological Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="687" to="695" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b72">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><forename type="last">C</forename><surname>Von Holstein</surname></persName>
+		</author>
+		<title level="a">Comparison of isotopic variability in proteinaceous tissues of a domesticated herbivore: a baseline for zooarchaeological investigation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Rapid Communications in Mass Spectrometry</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="2601" to="2615" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chaoter" xml:id="b73">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ø</forename><surname>Vorren</surname></persName>
+		</author>
+		<title level="a">Reindeer nomadism in the Island region of Helgeland. An analysis of the ecology of the reindeer industry with special reference to the Island area as winter pasture.</title>
+	</analytic>
+	<monogr>
+		
+		<editor>
+			<persName><forename>A</forename><surname>Furumark</surname></persName>
+		</editor>
+		<title level="j">Lapponica. Essays presented to Isreal Ruong 26. 5.1963</title>
+		<imprint>
+			<biblScope unit="page" from="304" to="320" />
+			<date when="1964">1964</date>
+			<publisher>Studia Ethnogrpahica Upsaliensia</publisher>
+			<pubPlace>Uppsala</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b74">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ø</forename><surname>Vorren</surname></persName>
+		</author>
+		<title level="a">Villreinfangst i Varanger fram til 1600-1700 årene</title>
+	</analytic>
+	<monogr>
+		<title level="j">Tromsø Museums skrifter</title>
+		<imprint>
+			<biblScope unit="volume">XXVIII</biblScope>
+			<date when="1998">1998</date>
+			<publisher>Nordkalott-Forlaget</publisher>
+			<pubPlace>Stonglandseidet</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b75">
+	<monogr>
+		
+		<author>
+			<persName><forename>Ø</forename><surname>Vorren</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Manker</surname></persName>
+		</author>
+		<title level="m">Samekulturen: en kulturhistorisk oversikt. 2nd</title>
+		<imprint>
+			<date when="1976">1976</date>
+			<publisher>Universitetsforlaget</publisher>
+			<pubPlace>Tromsø</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b76">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Yaemsiri</surname></persName>
+		</author>
+		<title level="a">Growth rate of human fingernails and toenails in healthy American young adults</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the European Academy of Dermatology and Venereology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="420" to="423" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b77">
+	<monogr>
+		
+		<author>
+			<persName><forename>N</forename><surname>Zaias</surname></persName>
+		</author>
+		<title level="m">The nail in health and disease</title>
+		<imprint>
+			<date when="1980">1980</date>
+			<publisher>Appleton &amp; Lange</publisher>
+			<pubPlace>Norwalk, Connecticut</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

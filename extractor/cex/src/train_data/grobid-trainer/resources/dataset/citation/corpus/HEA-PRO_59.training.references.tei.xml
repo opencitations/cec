@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Treleaven</surname></persName>
+		</author>
+		<title level="a">Sensorimotor disturbances in neck disorders affecting postural stability, head and eye movement control</title>
+	</analytic>
+	<monogr>
+		<title level="j">Man Ther</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2" to="11" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Chien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<title level="a">Changes of postural control and muscle activation pattern in response to external perturbations after neck flexor fatigue in young subjects with and without chronic neck pain</title>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="801" to="807" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Treleaven</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Takasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Grip</surname></persName>
+		</author>
+		<title level="a">Altered trunk head co-ordination in those with persistent neck pain</title>
+	</analytic>
+	<monogr>
+		<title level="j">Musculoskelet Sci Pract</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="45" to="50" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Bogduk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Yoganandan</surname></persName>
+		</author>
+		<title level="a">Biomechanics of the cervical spine Part 3: minor injuries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date when="2001">2001</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cusick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Yoganandan</surname></persName>
+		</author>
+		<title level="a">Biomechanics of the cervical spine 4: major injuries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date when="2002">2002</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Shinoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Sugiuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Izawa</surname></persName>
+		</author>
+		<title level="a">Long descending motor tract axons and their control of neck and axial muscles</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="527" to="563" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Nudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Plautz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Frost</surname></persName>
+		</author>
+		<title level="a">Role of adaptive plasticity in recovery of function after damage to motor cortex</title>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1000" to="1019" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Muramatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ikutomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Tamaki</surname></persName>
+		</author>
+		<title level="a">Effect of streptozotocin-induced diabetes on motor representations in the motor cortex and corticospinal tract in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">1680</biblScope>
+			<biblScope unit="page" from="115" to="126" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Sekiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Muramatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Tamaki</surname></persName>
+		</author>
+		<title level="a">Neck and trunk representations in the primary motor cortex in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="608" to="611" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Tandon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Kambi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Jain</surname></persName>
+		</author>
+		<title level="a">Overlapping representations of the neck and whiskers in the rat motor cortex revealed by mapping at different anaesthetic depths</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="228" to="237" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Ganguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Poo</surname></persName>
+		</author>
+		<title level="a">Activity-dependent neural plasticity from bench to bedside</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="729" to="741" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Sanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Suner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Lando</surname></persName>
+		</author>
+		<title level="a">Rapid reorganization of adult rat motor cortex somatic representation patterns after motor nerve injury</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci USA</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="2003" to="2007" />
+			<date when="1988">1988</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

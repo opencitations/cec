@@ -1,0 +1,1583 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="book" xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+		<title level="m">Computational Methods of Neutron Transport</title>
+		<imprint>
+			<publisher>John Wiley and Sons, Inc</publisher>
+			<pubPlace>New York</pubPlace>
+			<date when="1984">1984</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b1">
+	<monogr>
+		
+		<author>
+			X-5 Monte Carlo Team
+		</author>
+		<title level="m">MCNP-A General N-Particle Transport Code, Version 5, Volume I: Overview and Theory</title>
+		<imprint>
+			<date when="2003">2003</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note>LA-UR-03-1987</note>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="a">MCNP Version 5</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<monogr>
+		<author>
+			X-5 Monte Carlo Team
+		</author>
+		<title level="a">MCNP—A General N-Particle Transport Code, Version 5, Volume II: Users Guide</title>
+		<imprint>
+			<date when="2003">2003</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note>LA-CP-03-0245</note>
+</bibl>
+
+<bibl type="chapter" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<title level="a">MCNP variance reduction overview</title>
+	</analytic>
+	<monogr>
+		<title level="m">Monte-Carlo Methods and Applications in Neutronics, Photonics and Statistical Physics</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date when="1985">1985</date>
+			<biblScope unit="page" from="83" to="92" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mccready</surname></persName>
+		</author>
+		<title level="a">Monte Carlo Variance Reduction Using Nested Dxtran Spheres</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">765</biblScope>
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<title level="a">Automatic Importance Estimation in Forward Monte Carlo Calculations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc.</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">308</biblScope>
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<title level="a">A Code-Generated Monte Carlo Importance Function</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">307</biblScope>
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<title level="a">Deep Penetration by Monte Carlo</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">609</biblScope>
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<title level="a">Importance Estimation in Forward Monte Carlo Calculations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fusion Sci. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90" to="100" />
+			<date when="1984">1984</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b10">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<title level="m">An Enhanced Geometry-Independent Mesh Weight Window Generator for MCNP</title>
+		<imprint>
+			<date when="1998">1998</date>
+			<biblScope unit="volume">1</biblScope>
+			<publisher>Los Alamos National Laboratory</publisher>
+			<biblScope unit="page">165</biblScope>
+		</imprint>
+	</monogr>
+	<note>LA-UR-97-5057</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b11">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Van Riper</surname></persName>
+		</author>
+		<title level="m">Generation of a Monte Carlo Variance Reduction Map from a Deterministic Transport Calculation</title>
+		
+		<imprint>
+			<date when="1995">1995</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note>LA-UR-95-0747</note>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<title level="a">Common misconceptions in Monte Carlo particle transport</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Radiat. Isot.</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1042</biblScope>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b13">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Lewins</surname></persName>
+		</author>
+		<title level="m">Importance: The Adjoint Function. The Physical Basis of Variational and Perturbation Theory in Transport and Diffusion Problems</title>
+		<imprint>
+			<date when="1966">1966</date>
+			<publisher>North-Holland Publishing Company</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Lewins</surname></persName>
+		</author>
+		<title level="a">Developments in Perturbation Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Nucl. Sci. Technol.</title>
+		<imprint>
+			<date when="1968">1968</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">309</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>GREENSPAN</surname></persName>
+		</author>
+		<title level="a">Developments in Perturbation Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Nucl. Sci. Technol.</title>
+		<imprint>
+			<date when="1976">1976</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">181</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b16">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">Iván</forename><surname>Lux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">László</forename><surname>Koblinger</surname></persName>
+		</author>
+		<title level="m">Monte Carlo Particle Transport Methods: Neutron and Photon Calculations</title>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton, Florida</pubPlace>
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Goertzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kalos</surname></persName>
+		</author>
+		<title level="a">Monte Carlo Methods in Quantum Problems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">315</biblScope>
+			<date when="1958">1958</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kalos</surname></persName>
+		</author>
+		<title level="a">Importance Sampling in Monte Carlo Shielding Calculations: I. Neutron Penetration through Thick Hydrogen Slabs</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">227</biblScope>
+			<date when="1963">1963</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Coveyou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Yost</surname></persName>
+		</author>
+		<title level="a">Adjoint and Importance in Monte Carlo Application</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">219</biblScope>
+			<date when="1967">1967</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hoffman</surname></persName>
+		</author>
+		<title level="a">Monte Carlo Shielding Analyses Using an Automated Biasing Procedure</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">329</biblScope>
+			<date when="1988">1988</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Petrie</surname></persName>
+		</author>
+		<title level="a">XSDRNPM-S: A One-Dimensional Discrete-Ordinates Code for Transport Analysis</title>
+	</analytic>
+	<monogr>
+		<title level="m">NUREG/CR-0200-VOL.2</title>
+		<imprint>
+			<date when="1984">1984</date>
+			<publisher>Oak Ridge National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b22">
+	<monogr>
+		<title level="m">SCALE Code System</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Rearden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Jessee</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Oak Ridge National Laboratory</publisher>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>ORNL/TM-2005/39, Version 6.2.1</note>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="a">Generalized Contributon Response Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">355</biblScope>
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Manohara</surname></persName>
+		</author>
+		<title level="a">Contributon Slowing-Down Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">345</biblScope>
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b25">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="m">A Fundamental Study of Contributon Transport Theory and Channel Theory Applications</title>
+		<imprint>
+			<date when="1994">1994</date>
+			<publisher>Louisiana State University</publisher>
+		</imprint>
+	</monogr>
+	<note>DOE/ER/12899–T1</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b26">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Becker</surname></persName>
+		</author>
+		<title level="m">Hybrid Monte Carlo/Deterministic Methods for Deep-Penetration Problems</title>
+		<imprint>
+			<date when="2009">2009</date>
+			<publisher>University of Michigan</publisher>
+		</imprint>
+	</monogr>
+	<note>PhD Dissertation</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b27">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W Jr. </forename><surname>Engle</surname></persName>
+		</author>
+		<title level="m">The Concept of spatial channel theory applied to reactor shielding analysis</title>
+		<imprint>
+			<publisher>Oak Ridge National Laboratory</publisher>
+			<date when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note>ORNL/TM-5467</note>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="a">The Relations Between Various Contributon Variables Used in Spatial Channel Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">220</biblScope>
+			<date when="1977">1977</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b29">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Seydaliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Henderson</surname></persName>
+		</author>
+		<title level="m">Contributon Theory for Shielding Analysis</title>
+		<imprint>
+			<date when="2008">2008</date>
+			<publisher>University of Wisconsin, Fusion Technology Institute</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Haghighat</surname></persName>
+		</author>
+		<title level="a">Automated Variance Reduction of Monte Carlo Shielding Calculations Using the Discrete Ordinates Adjoint Function</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Joint Int. Conf. Mathematical Methods and Supercomputing for Nuclear Applications</title>
+		<imprint>
+			<biblScope unit="page">67</biblScope>
+			<biblScope unit="volume">1</biblScope>
+			<date when="1997">1997</date>
+			<publisher>American Nuclear Society</publisher>
+			<pubPlace>Saratoga Springs, New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Haghighat</surname></persName>
+		</author>
+		<title level="a">Automated Variance Reduction of Monte Carlo Shielding Calculations Using the Discrete Ordinates Adjoint Function</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">186</biblScope>
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Haghighat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<title level="a">Monte Carlo variance reduction with deterministic importance functions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<title level="a">Review of Hybrid (Deterministic/Monte Carlo) Radiation Transport Methods, Codes, and Applications at Oak Ridge National Laboratory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nucl. Sci. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">808</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<title level="a">Automated Variance Reduction of Monte Carlo Shielding Calculations Using the Discrete Ordinates Adjoint Function</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 12th Biennial Topl. Mtg. of the Radiation Protection and Shielding Division</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>American Nuclear Society</publisher>
+			<pubPlace>Santa Fe, New Mexico</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">Automated Weight Windows for Global Monte Carlo Particle Transport Calculations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Miften</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">The Quasi-Diffusion method for solving transport problems in planar and spherical geometries</title>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Theory Stat. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page">165</biblScope>
+			<date when="1993">1993</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Gol'din</surname></persName>
+		</author>
+		<title level="a">A quasi-diffusion method of solving the kinetic equation</title>
+	</analytic>
+	<monogr>
+		<title level="j">USSR Comput. Math. Math. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">136</biblScope>
+			<date when="1964">1964</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Wollaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">A Hybrid Monte Carlo–Deterministic Method for Global Particle Transport Calculations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">155</biblScope>
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Peplow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Blakeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<title level="a">Advanced Variance Reduction Strategies for Optimizing Mesh Tallies in MAVRIC</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">595</biblScope>
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Blakeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Peplow</surname></persName>
+		</author>
+		<title level="a">Forward-Weighted CADIS Method for Global Variance Reduction</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">630</biblScope>
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Blakeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Peplow</surname></persName>
+		</author>
+		<title level="a">Forward-Weighted CADIS Method for Variance Reduction of Monte Carlo Calculations of Distributions and Multiple Localized Quantities</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Advances in Mathematics, Computational Methods, and Reactor Physics</title>
+		<imprint>
+			<publisher>American Nuclear Society</publisher>
+			<date when="2009">2009</date>
+			<pubPlace>Saratoga Springs, New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>MOSHER</surname></persName>
+		</author>
+		<title level="a">Forward-Weighted CADIS Method for Variance Reduction of Monte Carlo Reactor Analyses</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc.</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">342</biblScope>
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b43">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="m">A ‘Local’ Exponential Transform Method for Global Variance Reduction in Monte Carlo Transport Problems</title>
+		<imprint>
+			<date when="1993">1993</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note>LA-UR-92-2349</note>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van Wijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Den Eynde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hoogenboom</surname></persName>
+		</author>
+		<title level="a">An easy to implement global variance reduction procedure for MCNP</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">2496</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>DAVIS</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>TURNER</surname></persName>
+		</author>
+		<title level="a">Comparison of Global Variance Reduction Techniques for Monte Carlo Radiation Transport Simulations of ITER</title>
+	</analytic>
+	<monogr>
+		<title level="j">Fusion Eng. Des.</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">9-11</biblScope>
+			<biblScope unit="page">2698</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Peplow</surname></persName>
+		</author>
+		<title level="a">Comparison of Hybrid Methods for Global Variance Reduction in Shielding Calculations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Nucl. Soc</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">512</biblScope>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b47">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Van Riper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Urbatsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Soran</surname></persName>
+		</author>
+		<title level="m">AVATAR Automatic Variance Reduction in Monte Carlo Calculations</title>
+		
+		<imprint>
+			<publisher>Los Alamos National Laboratory</publisher>
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b48">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Alcouffe</surname></persName>
+		</author>
+		<title level="m">THREEDANT: A Code to Perform Three-Dimensional, Neutral Particle Transport Calculation</title>
+		<imprint>
+			<date when="1994">1994</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Jaynes</surname></persName>
+		</author>
+		<title level="a">Information Theory and Statistical Mechanics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev.</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">620</biblScope>
+			<date when="1957">1957</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Jaynes</surname></persName>
+		</author>
+		<title level="a">Information Theory and Statistical Mechanics. II</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev.</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date when="1957">1957</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">B</forename><surname>Moskalev</surname></persName>
+		</author>
+		<title level="a">The reconstruction of a positive function from its finite fourier series</title>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Theory Stat. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page">347</biblScope>
+			<date when="1993">1993</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>WALTERS</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>WAREING</surname></persName>
+		</author>
+		<title level="m">A Nonlinear Positive Method for Solving the Transport Equation on Course [sic]Meshes</title>
+		<imprint>
+			<date when="1994" />
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Wareing</surname></persName>
+		</author>
+		<title level="a">An accurate, strictly-positive, nonlinear characteristic scheme for the discrete-ordinate equations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Transp. Theory Stat. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">197</biblScope>
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b54">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Peplow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Mosher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<title level="m">Consistent Adjoint Driven Importance Sampling using Space, Energy and Angle</title>
+		<imprint>
+			<publisher>Oak Ridge National Laboratory</publisher>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>ORNL/TM-2012/7</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b55">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Munk</surname></persName>
+		</author>
+		<title level="m">FW/CADIS-Ω: An Angle-Informed Hybrid Method for Neutron Transport</title>
+
+		<imprint>
+			<publisher>University of California, Berkeley</publisher>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>PhD Dissertation</note>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Rowland</surname></persName>
+		</author>
+		<title level="a">Assessment of the Lagrange Discrete Ordinates Equations for Three-Dimensional Neutron Transport</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page">233</biblScope>
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename>K</forename><surname>Rowland</surname></persName>
+		</author>
+		<title level="m">Advanced Quadrature Selection for Monte Carlo Variance Reduction</title>
+		<imprint>
+			<date when="2018">2018</date>
+			<publisher>University of California, Berkeley</publisher>
+		</imprint>
+	</monogr>
+	<note>PhD Thesis</note>
+</bibl>
+
+<bibl type="article" xml:id="b58">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Dwivedi</surname></persName>
+		</author>
+		<title level="a">Sampling of scattering angle in deep-penetration Monte Carlo</title>
+		
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b59">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Dwivedi</surname></persName>
+		</author>
+		<title level="a">A new importance biasing scheme for deep-penetration Monte Carlo</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">359</biblScope>
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b60">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Ueki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">A Kinetic Theory for Nonanalog Monte Carlo Particle Transport Algorithms: Exponential Transform with Angular Biasing in Planar-Geometry Anisotropically Scattering Media</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">406</biblScope>
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b61">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hendricks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Carter</surname></persName>
+		</author>
+		<title level="a">Anisotropic Angle Biasing of Photons</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">118</biblScope>
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b62">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Both</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Nimal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Vergnaud</surname></persName>
+		</author>
+		<title level="a">Automated importance generation and biasing techniques for Monte Carlo shielding techniques by the TRIPOLI-3 code</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nucl. Energy</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date when="1990">1990</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b63">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">EdwEard</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">Automatic Variance Reduction for Three-Dimensional Monte Carlo Simulations by the Local Importance Function Transform—I: Analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b64">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">EdwEard</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">Automatic Variance Reduction for Three-Dimensional Monte Carlo Simulations by the Local Importance Function Transform—II: Numerical Results</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b65">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Keady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">EdwarEd</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">A modified Monte Carlo “Local Importance Function Transform” method</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Eng. Des.</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page">625</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b66">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Larsen</surname></persName>
+		</author>
+		<title level="a">A General Transform for Variance Reduction in Monte Carlo Simulations</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Mathematics and Computational Methods Applied to Nuclear Science and Engineering</title>
+		<imprint>
+			<pubPlace>Rio de Janeiro, Brazil</pubPlace>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b67">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Solomon</surname></persName>
+		</author>
+		<title level="a">A Priori Deterministic Computational-Cost Optimization of Weight-Dependent Variance-Reduction Parameters for Monte Carlo Neutral-Particle Transport</title>
+	</analytic>
+	<monogr>
+		<title level="j"> Nucl. Sci. Eng.</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b68">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kulesza</surname></persName>
+		</author>
+		<title level="a">Performance Assessment of Cost-Optimized Variance Reduction Parameters in Radiation Shielding Scenarios</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Mathematics and Computational Methods Applied to Nuclear Science and Engineering</title>
+		<imprint>
+			<pubPlace>Jeju, Korea</pubPlace>
+			<publisher>American Nuclear Society</publisher>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b69">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Kulesza</surname></persName>
+		</author>
+		<title level="m">Cost-optimized Automated Variance Reduction for Highly Angle-dependent Radiation Transport Analyses</title>
+		<imprint>
+			<date when="2018">2018</date>
+			<publisher>University of Michigan</publisher>
+		</imprint>
+	</monogr>
+	<note>Dissertation</note>
+</bibl>
+
+<bibl type="proceeding" xml:id="b70">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Mosher</surname></persName>
+		</author>
+		<title level="a">Automated Weight-Window Generation for Threat Detection Applications Using ADVANTG</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Mathematics, Computational Methods, and Reactor Physics (M&amp;C 2009)</title>
+		<imprint>
+			<publisher>American Nuclear Society</publisher>
+			<date when="2009">2009</date>
+			<pubPlace>Saratoga Springs, New York</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b71">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<title level="a">Denovo: A New Three-Dimensional Parallel Discrete Ordinates Code in SCALE</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b72">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Somasundaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Palmer</surname></persName>
+		</author>
+		<title level="a">Implementation of Hybrid Variance Reduction Methods in a Multi Group Monte Carlo Code for Deep Shielding Problems</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Conf. Mathematics and Computational Methods Applied to Nuclear Science and Engineering (M&amp;C 2013)</title>
+		<imprint>
+			<publisher>American Nuclear Society</publisher>
+			<pubPlace>Sun Valley, Idaho</pubPlace>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b73">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lucas</surname></persName>
+		</author>
+		<title level="a">Applications of the 3-D Deterministic Transport Attila for Core Safety Analysis</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Americas Nuclear Energy Symp, 2004</title>
+		<imprint>
+			<date when="2004">2004</date>
+			<pubPlace>Miami Beach, Florida</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b74">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Sweezy</surname></persName>
+		</author>
+		<title level="a">Automated variance reduction for MCNP using deterministic methods</title>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Prot. Dosim.</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page">508</biblScope>
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b75">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Alcouffe</surname></persName>
+		</author>
+		<title level="m">PARTISN Manual</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>Los Alamos National Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note>LA-UR-02- 5633</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b76">
+	<monogr>
+		
+		<author>
+			<persName><forename>G</forename><surname>Radulescu</surname></persName>
+		</author>
+		<title level="m">Dose Rate Analysis of As-Loaded Spent Nuclear Fuel Casks</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<publisher>Oak Ridge National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b77">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Surface Dose Rate Calculations of a Spent-Fuel Storage Cask by Using MAVRIC and Its Comparison with SAS4 and MCNP</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="issue">343</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b78">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sheu</surname></persName>
+		</author>
+		<title level="a">Dose Evaluation for an Independent Spent-Fuel Storage Installation Using MAVRIC</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="issue">335</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b79">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Mosher</surname></persName>
+		</author>
+		<title level="m">A New Version of the ADVANTG Variance Reduction Generator</title>
+		<imprint>
+			<date when="2010">2010</date>
+			<publisher>Oak Ridge National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b80">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bevill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Mosher</surname></persName>
+		</author>
+		<title level="m">A New Source Biasing Approach in ADVANTG</title>
+		
+		<imprint>
+			<date when="2012">2012</date>
+			<publisher>Oak Ridge National Laboratory</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

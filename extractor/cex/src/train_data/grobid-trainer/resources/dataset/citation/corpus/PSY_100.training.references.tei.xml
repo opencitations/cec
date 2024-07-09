@@ -1,0 +1,970 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="book" xml:id="b0">
+	<monogr>
+		<author>American Psychiatric Association</author>
+		<title level="m">Diagnostic and statistical manual of mental disorders (DSM-5®)</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<publisher>American Psychiatric Association.</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">The extreme male brain theory of autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="248" to="254" />
+			<date when="2002">2002</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">The hyper-systemizing, assortative mating theory of autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Neuro-Psychopharmacology and Biological Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="865" to="872" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">Autism: The Empathizing-Systemizing (E-S) Theory</title>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of the New York Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">1156</biblScope>
+			<biblScope unit="page" from="68" to="80" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">Empathizing, systemizing, and the extreme male brain theory of autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Brain Research</title>
+		<imprint>
+			<date when="2010">2010</date>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="167" to="175" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Auyeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Nørgaard-Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hougaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Abdallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Melgaard</surname></persName>
+		</author>
+		<title level="a">Elevated fetal steroidogenic activity in autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bisarya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Gurunathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wheelwright</surname></persName>
+		</author>
+		<title level="a">The systemizing quotient: an investigation of adults with Asperger syndrome or high–functioning autism, and normal sex differences</title>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="issue">1430</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wheelwright</surname></persName>
+		</author>
+		<title level="a">The Empathy Quotient: An Investigation of Adults with Asperger Syndrome or High Functioning Autism, and Normal Sex Differences</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="175" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wheelwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Clubley</surname></persName>
+		</author>
+		<title level="a">The autism-spectrum quotient (AQ): Evidence from Asperger syndrome/high-functioning autism, males and females, scientists and mathematicians</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="17" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Billeci</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Calderoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Conti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Gesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Carmassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Dell'osso</surname></persName>
+		</author>
+		<title level="a">The Broad Autism (Endo)Phenotype: Neurostructural and Neurofunctional Correlates in Parents of Individuals with Autism Spectrum Disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">346</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Chaste</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Leboyer</surname></persName>
+		</author>
+		<title level="a">Autism risk factors: genes, environment, and gene-environment interactions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Dialogues in Clinical Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="281" to="292" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Flint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Munafò</surname></persName>
+		</author>
+		<title level="a">The endophenotype concept in psychiatric genetics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Medicine</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="180" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Floris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Nath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Milham</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Di Martino</surname></persName>
+		</author>
+		<title level="a">Network-specific sex differentiation of intrinsic brain function in males with autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Autism</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Freitag</surname></persName>
+		</author>
+		<title level="a">The genetics of autistic disorders and its clinical relevance: a review of the literature</title>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="2" to="22" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Gerdts</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Bernier</surname></persName>
+		</author>
+		<title level="a">The Broader Autism Phenotype and Its Implications on the Etiology and Treatment of Autism Spectrum Disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Autism Research and Treatment</title>
+		<imprint>
+			<biblScope unit="volume">2011</biblScope>
+			<biblScope unit="page">545901</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>Nath</forename><surname>Goldenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wheelwright</surname></persName>
+		</author>
+		<title level="a">Empathizing and systemizing in males, females, and autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neuropsychiatry: Journal of Treatment Evaluation</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">8</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Gottesman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Gould</surname></persName>
+		</author>
+		<title level="a">The Endophenotype Concept in Psychiatry: Etymology and Strategic Intentions</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="636" to="645" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Warrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">Testing the Empathizing-ystemizing theory of sex differences and the Extreme Male Brain theory of autism in half a million people</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">48</biblScope>
+			<biblScope unit="page" from="12152" to="12157" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hoekstra</surname></persName>
+		</author>
+		<title level="a">Empathizing, systemizing, and autistic traits: Latent structure in individuals with autism, their parents, and general population controls</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Abnormal Psychology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="600" to="609" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Kikuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yoshimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Hiraishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Munesue</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Nakatani</surname></persName>
+		</author>
+		
+		<title level="a">Broader autism phenotype in mothers predicts social responsiveness in young children with autism spectrum disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatry and Clinical Neurosciences</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S E</forename><surname>Hurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Losh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Parlier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Reznick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Piven</surname></persName>
+		</author>
+		<title level="a">The Broad Autism Phenotype Questionnaire</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1679" to="1690" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Jacquemont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Coe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Duyzend</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Krumm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Bergmann</surname></persName>
+		</author>
+		<title level="a">A Higher Mutational Burden in Females Supports a “Female Protective Model” in Neurodevelopmental Disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Human Genetics</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="415" to="425" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Jeste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Geschwind</surname></persName>
+		</author>
+		<title level="a">Disentangling the heterogeneity of autism spectrum disorder through genetic findings</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Neurology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="74" to="81" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Kidron</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Kaganovskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="a">Empathizing-systemizing cognitive styles: Effects of sex and academic degree</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">e0194515</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Lombardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Chakrabarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sadek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wheelwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Consortium</surname></persName>
+		</author>
+		<title level="a">Individual differences in brain structure underpin empathizing–systemizing cognitive styles in male adults</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroimage</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1347" to="1354" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename>C</forename><surname>Lord</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>DiLavore</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Risi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Gotham</surname></persName>
+		</author>
+		<title level="m">Autism diagnostic observation schedule</title>
+		<imprint>
+			<publisher>Western Psychological Services</publisher>
+			<pubPlace>Torrence, CA</pubPlace>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>2nd ed., Vol. Volume ADOS-2</note>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Losh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Childress</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Piven</surname></persName>
+		</author>
+		<title level="a">Defining key features of the broad autism phenotype: A comparison across parents of multiple- and single-incidence autism families</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Medical Genetics Part B: Neuropsychiatric Genetics</title>
+		<imprint>
+			<biblScope unit="volume">147B</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="424" to="433" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Pisula</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Ziegart-Sadowska</surname></persName>
+		</author>
+		<title level="a">Broader Autism Phenotype in Siblings of Children with ASD—A Review</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Molecular Sciences</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="13217" to="13258" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Rossignol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Genuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Frye</surname></persName>
+		</author>
+		<title level="a">Environmental toxicants and autism spectrum disorders: a systematic review</title>
+	</analytic>
+	<monogr>
+		<title level="j">Translational Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">e360</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Rubenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Chawla</surname></persName>
+		</author>
+		<title level="a">Broader Autism Phenotype in Parents of Children with Autism: A Systematic Review of Percentage Estimates</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child and Family Studies</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1705" to="1720" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Rubenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Edmondson Pretzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Windham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Schieve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Wiggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>DiGuiseppi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Daniels</surname></persName>
+		</author>
+		<title level="a">The Broader Autism Phenotype in Mothers is Associated with Increased Discordance Between Maternal-Reported and Clinician-Observed Instruments that Measure Child Autism Spectrum Disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3253" to="3266" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Taki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Sassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Sekiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Fukushima</surname></persName>
+		</author>
+		<title level="a">Regional Gray Matter Volume Is Associated with Empathizing and Systemizing in Young Adults</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e84782</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Tick</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Happé</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Rijsdijk</surname></persName>
+		</author>
+		<title level="a">Heritability of autism spectrum disorders: a meta-analysis of twin studies</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child Psychology and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="585" to="595" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b33">
+	<monogr>
+		
+		<author>
+			<persName><forename>D</forename><surname>Wechsler</surname></persName>
+		</author>
+		<title level="m">WISC-III: Wechsler intelligence scale for children: Manual</title>
+		<imprint>
+			<date when="1991">1991</date>
+			<publisher>The Psychological Corporation</publisher>
+			<pubPlace>San Antonio, TX</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename>D</forename><surname>Wechsler</surname></persName>
+		</author>
+		<title level="m">The Wechsler preschool and primary scale of intelligence</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>The Psychological Corporation Canadian Journal of School Psychology</publisher>
+			<pubPlace>San Antonio, TX</pubPlace>
+		</imprint>
+	</monogr>
+	<note>3rd ed.</note>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Skagerberg</surname></persName>
+		</author>
+		<title level="a">Measuring Empathizing and Systemizing with a Large US Sample</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">e31661</biblScope>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Leotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Kustanovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Lajonchere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Geschwind</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wigler</surname></persName>
+		</author>
+		<title level="a">A unified genetic theory for sporadic and inherited autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page" from="12831" to="12836" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

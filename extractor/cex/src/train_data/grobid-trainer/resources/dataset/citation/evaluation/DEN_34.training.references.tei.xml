@@ -1,0 +1,1572 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Krishnan</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Davidovitch</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">On a path to unfolding the biological mechanisms of orthodontic tooth movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Dent Res.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">88</biblScope>
+				<biblScope unit="page" from="597" to="608" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bollen</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cunha-Cruz</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bakko</surname>
+					<forename type="first">D</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename type="first">G</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hujoel</surname>
+					<forename type="first">P</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">The effects of orthodontic therapy on periodontal health: a systematic review of controlled evidence</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Am Dent Assoc.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">139</biblScope>
+				<biblScope unit="page" from="413" to="422" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Antoun</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mei</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gibbs</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Farella</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of orthodontic treatment on the periodontal tissues</title>
+		</analytic>
+		<monogr>
+			<title level="j">Periodontol 2000</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">74</biblScope>
+				<biblScope unit="page" from="140" to="157" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kessler</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Interrelationships between orthodontics and periodontics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am J Orthod Dentofacial Orthop.</title>
+			<imprint>
+				<date when="1976">1976</date>
+				<biblScope unit="volume">70</biblScope>
+				<biblScope unit="page" from="154" to="172" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">The role of physical forces in osteoclastogenesis</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Cell Physiol.</title>
+			<imprint>
+				<date when="2019">2019</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hayakawa</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yoshimura</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yoshimura</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Optimal compressive force accelerates osteoclastogenesis in RAW264.7 cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol Med Rep.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="5879" to="5885" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matsuike</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tanaka</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nakai</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Continuous application of compressive force induces fusion of osteoclast-like RAW264.7 cells via upregulation of RANK and downregulation of LGR4</title>
+		</analytic>
+		<monogr>
+			<title level="j">Life Sci.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">201</biblScope>
+				<biblScope unit="page" from="30" to="36" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename type="first">S</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Suture compression induced bone resorption with intensified MMP-1 and 13 expressions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bone</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">51</biblScope>
+				<biblScope unit="page" from="695" to="703" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wen</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Force-induced H2S by PDLSCs mod- ifies osteoclastic activity during tooth movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Dent Res.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">96</biblScope>
+				<biblScope unit="page" from="694" to="702" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Meikle</surname>
+					<forename type="first">M</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">The tissue, cellular, and molecular regulation of orthodontic tooth movement: 100 years after Carl Sandstedt</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur J Orthod.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="221" to="240" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kanzaki</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chiba</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shimizu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mitani</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Periodontal ligament cells under mechanical stress induce osteoclastogenesis by receptor activator of nuclear factor kappaB ligand up-regulation via prostaglandin E2 synthesis</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Bone Miner Res</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="210" to="220" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yamaguchi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aihara</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kojima</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kasai</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">RANKL increase in compressed periodontal ligament cells from root resorption</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Dent Res.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">85</biblScope>
+				<biblScope unit="page" from="751" to="756" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Leveque</surname>
+					<forename type="first">M</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Berry</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cipriano</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename type="first">H</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Striepen</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Besteiro</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy-related protein ATG8 has a noncanonical function for apicoplast inheritance in toxoplasma gondii</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mbio</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">6</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Komatsu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Waguri</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ueno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Impairment of starvation- induced and constitutive autophagy in Atg7-deficient mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Cell Biol.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">169</biblScope>
+				<biblScope unit="page" from="425" to="434" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hara</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nakamura</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Matsui</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Suppression of basal autophagy in neural cells causes neurodegenerative disease in mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">441</biblScope>
+				<biblScope unit="page" from="885" to="889" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mizushima</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Levine</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cuervo</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klionsky</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy fights disease through cellular self-digestion</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">451</biblScope>
+				<biblScope unit="page" from="1069" to="1075" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matthews</surname>
+					<forename type="first">B</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Overby</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mannix</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ingber</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Cellular adaptation to mechanical stress: role of integrins, Rho, cytoskeletal tension and mechanosensitive ion channels</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Cell Sci</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">119</biblScope>
+				<biblScope unit="page" from="508" to="518" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Franke</surname>
+					<forename type="first">R</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grafe</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schnittler</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seiffge</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mittermayer</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Drenckhahn</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Induction of human vascular endothelial stress fibres by fluid shear stress</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="1984">1984</date>
+				<biblScope unit="volume">307</biblScope>
+				<biblScope unit="page" from="648" to="649" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename type="first">K</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shao</surname>
+					<forename type="first">Z</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename type="first">S</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy is activated in compression-induced cell degeneration and is mediated by reactive oxygen species in nucleus pulposus cells exposed to compression</title>
+		</analytic>
+		<monogr>
+			<title level="j">Osteoarthritis Cartilage</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="2030" to="2038" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>King</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Veltman</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Insall</surname>
+					<forename type="first">R</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">The induction of autophagy by mechanical stress</title>
+		</analytic>
+		<monogr>
+			<title level="j">Autophagy</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="1490" to="1499" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Spironolactone promotes autophagy via inhibiting PI3K/AKT/mTOR signalling pathway and reduce adhe- sive capacity damage in podocytes under mechanical stress</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biosci Rep</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">36</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kazama</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Electron microscopic study of periodontal tissues in the pressure side by intermittent forces</title>
+		</analytic>
+		<monogr>
+			<title level="j">Tsurumi Shigaku</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="87" to="108" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nollet</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santucci-Darmanin</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Breuil</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy in osteoblasts is involved in mineralization and bone homeostasis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Autophagy</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="1965" to="1977" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Defective autophagy in osteoblasts induces endoplasmic reticulum stress and causes remarkable bone loss</title>
+		</analytic>
+		<monogr>
+			<title level="j">Autophagy</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="1726" to="1741" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>DeSelm</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Miller</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zou</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy proteins regulate the secretory component of osteoclastic bone resorption</title>
+		</analytic>
+		<monogr>
+			<title level="j">Dev Cell</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="966" to="974" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename type="first">N</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename type="first">C</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kagwiria</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Inactivation of autophagy ameliorates glucocorticoid-induced and ovariectomy-induced bone loss</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ann Rheum Dis</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">75</biblScope>
+				<biblScope unit="page" from="1203" to="1210" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hua</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Hydrogen sulfide regulates bone remodeling and promotes orthodontic tooth movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol Med Rep</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="9415" to="9422" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liao</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hua</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of hydrogen sulphide on the expression of osteoprotegerin and receptor activator of NF-kappaB ligand in human periodontal ligament cells induced by tension-force stimulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Arch Oral Biol</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="1784" to="1790" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mo</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hua</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Cystathionine gamma lyase-H2S contributes to osteo- clastogenesis during bone remodeling induced by mechanical loading</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biochem Biophys Res Commun</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">501</biblScope>
+				<biblScope unit="page" from="471" to="477" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Krishnan</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Krishnan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Cellular, molecular, and tissue-level reactions to orthodontic force</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am J Orthod Dentofacial Orthop</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">129</biblScope>
+				<biblScope unit="page" from="461" to="432" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pierrefite-Carle</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santucci-Darmanin</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Breuil</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Camuzard</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carle</surname>
+					<forename type="first">G</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy in bone: self-eating to stay in balance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ageing Res Rev</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="206" to="217" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nakamura</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirashita</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuwabara</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">The localization of acid- phosphatase activity in osteoblasts incident to experimental tooth movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Histochem Cytochem</title>
+			<imprint>
+				<date when="1984">1984</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="571" to="582" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Teng</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename type="first">X</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tam</surname>
+					<forename type="first">E</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Benzie</surname>
+					<forename type="first">I</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Siu</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Opposing responses of apoptosis and autophagy to moderate compression in skeletal muscle</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Physiol (Oxf)</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">201</biblScope>
+				<biblScope unit="page" from="239" to="254" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nanci</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bosshardt</surname>
+					<forename type="first">D</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Structure of periodontal tissues in health and disease</title>
+		</analytic>
+		<monogr>
+			<title level="j">Periodontol 2000</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="11" to="28" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Taddei</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moura</surname>
+					<forename type="first">A</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Experimental model of tooth movement in mice: a standardized protocol for studying bone remodel- ing under compression and tensile strains</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Biomech</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">45</biblScope>
+				<biblScope unit="page" from="2729" to="2735" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pietrocola</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Izzo</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Niso-Santano</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Regulation of autophagy by stress-responsive transcription factors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Semin Cancer Biol</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="310" to="322" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kroemer</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marino</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Levine</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy and the integrated stress response</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol Cell</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="280" to="293" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Levine</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klionsky</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Development by self-digestion: molecular mechanisms and biological functions of autophagy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Dev Cell</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="463" to="477" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ichimura</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kirisako</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Takao</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">A ubiquitin-like system mediates protein lipidation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nature</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">408</biblScope>
+				<biblScope unit="page" from="488" to="492" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Suzuki</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kubota</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sekito</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ohsumi</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Hierarchy of Atg proteins in pre-autophagosomal structure organization</title>
+		</analytic>
+		<monogr>
+			<title level="j">Genes Cells</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="209" to="218" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mizushima</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yamamoto</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hatano</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Dissection of autophagosome formation using Apg5-deficient mouse embryonic stem cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Cell Biol</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">152</biblScope>
+				<biblScope unit="page" from="657" to="668" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kabeya</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mizushima</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ueno</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">LC3, a mammalian homo- logue of yeast Apg8p, is localized in autophagosome membranes after processing</title>
+		</analytic>
+		<monogr>
+			<title level="j">EMBO J</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="5720" to="5728" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hocking</surname>
+					<forename type="first">L</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Whitehouse</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Helfrich</surname>
+					<forename type="first">M</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Autophagy: a new player in skeletal maintenance</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Bone Miner Res</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="1439" to="1447" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename type="first">Y</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename type="first">Y</forename><forename type="middle">Z</forename>
+				</persName>
+			</author>
+			<title level="a">Pathway-based genome-wide association analysis identified the importance of regulation-of- autophagy pathway for ultradistal radius BMD</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Bone Miner Res</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="1572" to="1580" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yook</surname>
+					<forename type="first">J</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Son</surname>
+					<forename type="first">M</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<title level="a">Rapamycin promotes the osteoblastic differentiation of human embryonic stem cells by blocking the mTOR pathway and stimulating the BMP/Smad pathway</title>
+		</analytic>
+		<monogr>
+			<title level="j">Stem Cells Dev</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">19</biblScope>
+				<biblScope unit="page" from="557" to="568" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Westenfeld</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schlieper</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Woltje</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Impact of sirolimus, tacrolimus and mycophenolate mofetil on osteoclastogenesis– implications for post-transplantation bone disease</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nephrol Dial Transplant</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="4115" to="4123" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Smink</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tunn</surname>
+					<forename type="first">P</forename><forename type="middle">U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leutz</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Rapamycin inhibits osteoclast forma- tion in giant cell tumor of bone through the C/EBPbeta – MafB axis</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Mol Med (Berl)</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">90</biblScope>
+				<biblScope unit="page" from="25" to="30" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yamaguchi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">RANK/RANKL/OPG during orthodontic tooth movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">Orthod Craniofac Res</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="113" to="119" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

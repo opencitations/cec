@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Bassin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Rachid</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Vilela</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Peixoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Dezotti</surname></persName>
+		</author>
+		<title level="a">Revealing the bacterial profile of an anoxic-aerobic moving-bed biofilm reactor system treating a chemical industry wastewater</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Biodeterioration &amp; Biodegradation</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="152" to="160" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Cortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Vapnik</surname></persName>
+		</author>
+		<title level="a">Support-vector networks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<date when="1995">1995</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="273" to="297" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b2">
+	<monogr>
+		
+		<author>
+			<persName><forename>P</forename><surname>Davies</surname></persName>
+		</author>
+		<title level="m">The Biological Basis of Wastewater Treatment</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<publisher>Strathkelvin Instruments Ltd</publisher>
+			<pubPlace>Motherwell</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Drucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Burges</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Smola</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Vapnik</surname></persName>
+		</author>
+		<title level="a">Support vector regression machines</title>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="155" to="161" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Eitrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Lang</surname></persName>
+		</author>
+		<title level="a">Efficient optimization of support vector machine learning parameters for unbalanced datasets</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational and Applied Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="425" to="436" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b5">
+	<monogr>
+		
+		<author>
+			<persName><forename>M</forename><surname>Henze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Comeau</surname></persName>
+		</author>
+		<title level="m">Biological Wastewater Treatment</title>
+		<imprint>
+			<date when="2008">2008</date>
+			<publisher>IWA Publishing</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename>M</forename><surname>Henze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Gujer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Mino</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Van Loosdrecht</surname></persName>
+		</author>
+		<title level="m">Activated Sludge Models ASM1, ASM2, ASM2d and ASM3</title>
+		<imprint>
+			<publisher>IWA Publishing</publisher>
+			<pubPlace>London</pubPlace>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="webpage" xml:id="b7">
+	<monogr>
+		
+		<author>
+			<persName><forename>C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Lin</surname></persName>
+		</author>
+		<title level="m">A practical guide to support vector classification</title>
+		<ref src="https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf.On-line">https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf.On-line</ref>
+		<imprint>
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Hutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Overmann</surname></persName>
+		</author>
+		<title level="a">Thalassospira sp. isolated from the oligotrophic eastern mediterranean sea exhibits chemotaxis toward inorganic phosphate during starvation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="4412" to="4421" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ni</surname></persName>
+		</author>
+		<title level="a">Performance assessment of full-scale wastewater treatment plants based on seasonal variability of microbial communities via high-throughput sequencing</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Muszynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Tabernacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Miobedzka</surname></persName>
+		</author>
+		<title level="a">Long-term dynamics of the microbial community in a full-scale wastewater treatment plant</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Biodeterioration &amp; Biodegradation</title>
+		<imprint>
+			<biblScope unit="page" from="44" to="51" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b11">
+	<monogr>
+		
+		<author>
+			<persName><forename>B</forename><surname>Scholkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Smola</surname></persName>
+		</author>
+		<title level="m">Learning with kernels: support vector machines, regularization, optimization, and beyond</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Massachusetts</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Xu</surname></persName>
+		</author>
+		<title level="a">Next-Generation Sequencing</title>
+	</analytic>
+	<monogr>
+		<title level="j">IFAC CMWRS Delft</title>
+		<imprint>
+			<date when="2014">2014. 2019. September 19-20, 2019 5</date>
+			<publisher>Caister Academic Press</publisher>
+			<pubPlace>Norfolk</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

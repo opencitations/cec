@@ -1,0 +1,511 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+			<bibl type="article" xml:id="b0">
+				<analytic>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Coorevits</surname>
+						</persName>
+					</author>
+					<title level="a">Electronic health records: new opportunities for clinical research</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. internal medicine</title>
+					<imprint>
+						<biblScope unit="volume">274</biblScope>
+						<biblScope unit="page" from="547" to="560" />
+						<date when="2013">2013</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b1">
+				<analytic>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Stewart</surname>
+						</persName>
+					</author>
+					<title level="a">The south london and maudsley nhs foundation trust biomedical research centre (slam brc) case register: development and descriptive data</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMC psychiatry</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page">51</biblScope>
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b2">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Nikiforou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Ponirou</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Diomidous</surname>
+						</persName>
+					</author>
+					<title level="a">Medical data analysis and coding using natural language processing techniques in order to derive structured data information</title>
+				</analytic>
+				<monogr>
+					<title level="j">ICIMTH</title>
+					<imprint>
+						<date when="2013">2013</date>
+						<biblScope unit="page" from="53" to="55" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b3">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Sebastiani</surname>
+						</persName>
+					</author>
+				</analytic>
+				<title level="a">Machine learning in automated text categorization</title>
+				<monogr>
+					<title level="j">ACM computing surveys (CSUR)</title>
+					<imprint>
+						<biblScope unit="volume">34</biblScope>
+						<biblScope unit="page" from="1" to="47" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b4">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Wu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">S</forename>
+							<surname>Weld</surname>
+						</persName>
+					</author>
+					<title level="a">Open information extraction using wikipedia</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 48th annual meeting of the association for computational linguistics</title>
+					<imprint>
+						<publisher>Association for Computational Linguistics</publisher>
+						<date when="2010">2010</date>
+						<biblScope unit="page" from="118" to="127" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b5">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Winograd</surname>
+						</persName>
+					</author>
+					<title level="a">Understanding natural language</title>
+				</analytic>
+				<monogr>
+					<title level="j">Cogn. psychology</title>
+					<imprint>
+						<biblScope unit="volume">3</biblScope>
+						<biblScope unit="page" from="1" to="191" />
+						<date when="1972">1972</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b6">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Perera</surname>
+						</persName>
+					</author>
+					<title level="a">Cohort profile of the south london and maudsley nhs foundation trust biomedical research centre (slam brc) case register: current status and recent enhancement of an electronic mental health record-derived data resource</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMJ open</title>
+					<imprint>
+						<biblScope unit="volume">6</biblScope>
+						<biblScope unit="page">e008721</biblScope>
+						<date when="2016">2016</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="book" xml:id="b7">
+				<monogr>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">S</forename>
+							<surname>Jones</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">R</forename>
+							<surname>Galliers</surname>
+						</persName>
+					</author>
+					<title level="m">Evaluating natural language processing systems: An analysis and review</title>
+					<imprint>
+						<date when="1995">1995</date>
+						<publisher>Springer Science &amp; Business Media</publisher>
+						<biblScope unit="volume">1083</biblScope>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b8">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Hripcsak</surname>
+						</persName>
+					</author>
+					<title level="a">Unlocking clinical data from narrative reports: a study of natural language processing</title>
+				</analytic>
+				<monogr>
+					<title level="j">Annals internal medicine</title>
+					<imprint>
+						<biblScope unit="volume">122</biblScope>
+						<biblScope unit="page" from="681" to="688" />
+						<date when="1995">1995</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b9">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">M</forename>
+							<surname>Meystre</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">K</forename>
+							<surname>Savova</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">C</forename>
+							<surname>Kipper-Schuler</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">J</forename>
+							<forename type="middle">F</forename>
+							<surname>Hurdle</surname>
+						</persName>
+					</author>
+					<title level="a">Extracting information from textual documents in the electronic health record: a review of recent research</title>
+				</analytic>
+				<monogr>
+					<title level="j">Yearb. medical informatics</title>
+					<imprint>
+						<biblScope unit="volume">17</biblScope>
+						<biblScope unit="page" from="128" to="144" />
+						<date when="2008">2008</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b10">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>de Haan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Hoogenboom</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Beuk</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>van Amelsvoort</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Linszen</surname>
+						</persName>
+					</author>
+					<title level="a">Obsessive-compulsive symptoms and positive, negative, and depressive symptoms in patients with recent-onset schizophrenic disorders</title>
+				</analytic>
+				<monogr>
+					<title level="j">The Can. J. Psychiatry</title>
+					<imprint>
+						<biblScope unit="volume">50</biblScope>
+						<biblScope unit="page" from="519" to="524" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b11">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>de Haan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Sterk</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Wouters</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">H</forename>
+							<surname>Linszen</surname>
+						</persName>
+					</author>
+					<title level="a">The 5-year course of obsessive-compulsive symptoms and obsessive-compulsive disorder in first-episode schizophrenia and related disorders</title>
+				</analytic>
+				<monogr>
+					<title level="j">Schizophr. bulletin</title>
+					<imprint>
+						<biblScope unit="volume">39</biblScope>
+						<biblScope unit="page" from="151" to="160" />
+						<date when="2011">2011</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b12">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Kadra</surname>
+						</persName>
+					</author>
+					<title level="a">Extracting antipsychotic polypharmacy data from electronic health records: developing and evaluating a novel process</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMC psychiatry</title>
+					<imprint>
+						<biblScope unit="volume">15</biblScope>
+						<biblScope unit="page">166</biblScope>
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="technical-report" xml:id="b13">
+				<monogr>
+					<author>
+						<persName>
+							<forename type="first">M</forename>
+							<forename type="middle">B</forename>
+							<surname>First</surname>
+						</persName>
+					</author>
+					<title level="m">Structured clinical interview for dsm-iv-tr axis i disorders, research version, patient edition</title>
+					<imprint>
+						<date when="2002">2002</date>
+						<publisher>SCID-I/P</publisher>
+					</imprint>
+				</monogr>
+				
+			</bibl>
+
+			<bibl type="article" xml:id="b14">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Steketee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Frost</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>K</forename>
+							<surname>Bogart</surname>
+						</persName>
+					</author>
+					<title level="a">The yale-brown obsessive compulsive scale: Interview versus self-report</title>
+				</analytic>
+				<monogr>
+					<title level="j">Behav. Res. Ther</title>
+					<imprint>
+						<biblScope unit="volume">34</biblScope>
+						<biblScope unit="page" from="675" to="684" />
+						<date when="1996">1996</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b15">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">J</forename>
+							<surname>Clopper</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">S</forename>
+							<surname>Pearson</surname>
+						</persName>
+					</author>
+					<title level="a">The use of confidence or fiducial limits illustrated in the case of the binomial</title>
+				</analytic>
+				<monogr>
+					<title level="j">Biom.</title>
+					<imprint>
+						<biblScope unit="page" from="404" to="413" />
+						<date when="1934">1934</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b16">
+				<analytic>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Colling</surname>
+						</persName>
+					</author>
+					<title level="a">Identification of the delivery of cognitive behavioural therapy for psychosis (cbtp) using a cross-sectional sample from electronic health records and open-text information in a large uk-based mental health case register</title>
+				</analytic>
+				<monogr>
+					<title level="j">BMJ open</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="page">e015297</biblScope>
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b17">
+				<analytic>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Iqbal</surname>
+						</persName>
+					</author>
+					<title level="a">Identification of adverse drug events from free text electronic patient records and information in a large mental health case register</title>
+				</analytic>
+				<monogr>
+					<title level="j">PloS one</title>
+					<imprint>
+						<biblScope unit="volume">10</biblScope>
+						<biblScope unit="page">e0134208</biblScope>
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+			
+			<bibl type="article" xml:id="b18">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Mykowiecka</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Marciniak</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Kupść</surname>
+						</persName>
+					</author>
+					<title level="a">Rule-based information extraction from patients’ clinical data</title>
+				</analytic>
+				<monogr>
+					<title level="j">J. biomedical informatics</title>
+					<imprint>
+						<biblScope unit="volume">42</biblScope>
+						<biblScope unit="page" from="923" to="936" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+		</listBibl>
+	</back>
+	</text>
+</TEI>

@@ -1,0 +1,662 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="book" xml:id="b0">
+	<monogr>
+		<author>
+			American Psychiatric Association
+		</author>
+		<title level="a">Diagnostic and statistical manual of mental disorders (5th ed.)</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<publisher>Ameri- can Psychiatric Association</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Haynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Ethofer</surname></persName>
+		</author>
+		<title level="a">A neural link between affective understanding and interpersonal attraction</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="2248" to="2257" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename>S</forename><surname>Baron-Cohen</surname></persName>
+		</author>
+		<title level="m">Mindblindness</title>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Beadle‐brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Whiten</surname></persName>
+		</author>
+		<title level="a">Elicited imitation in children and adults with autism: is there a deficit?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intellectual and Developmental Disability</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="147" to="163" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Rodgers</surname></persName>
+		</author>
+		<title level="a">Understanding and prevention of suicide in autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e11</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Edey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>GeoGffrey</forename><surname>Bird</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Press</surname></persName>
+		</author>
+		<title level="a">Interaction takes two: Typical adults exhibit mind-blindness towards those with autism spectrum disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Abnormal Psychology</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">879"</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Faso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Sasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Pinkham</surname></persName>
+		</author>
+		<title level="a">Evaluating Posed and Evoked Facial Expressions of Emotion from Adults with Autism Spectrum Disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="75" to="89" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Gallese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Goldman</surname></persName>
+		</author>
+		<title level="a">Mirror neurons and the simulation theory of mind-reading</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="493" to="501" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Edelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Tager-Flusberg</surname></persName>
+		</author>
+		<title level="a">Emotional Facial and Vocal Expressions During Story Retelling by Children and Adolescents With High-Functioning Autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Speech, Language, and Hearing Research</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1035" to="1044" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Heider</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Simmel</surname></persName>
+		</author>
+		<title level="a">An Experimental Study of Apparent Behavior</title>
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">243</biblScope>
+			<date when="1944">1944</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Karmiloff-Smith</surname></persName>
+		</author>
+		<title level="a">Development itself is the key to understanding developmental disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="389" to="398" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>López</surname></persName>
+		</author>
+		<title level="a">Beyond Modularisation: The Need of a Socio-Neuro-Constructionist Model of Autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="31" to="41" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Howlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Rios</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Le Conteur</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Evered</surname></persName>
+		</author>
+		<title level="a">Recognition and Expression of Emotional Cues by Autistic and Normal Adults</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child Psychology and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="865" to="877" />
+			<date when="1989">1989</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><surname>Milton</surname></persName>
+		</author>
+		<title level="a">On the ontological status of autism: the ‘double empathy problem’</title>
+	</analytic>
+	<monogr>
+		<title level="j">Disability and Society</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="883" to="887" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="a">Mindreading as a transactional process: Insights from autism</title>
+	</analytic>
+	<monogr>
+		<title level="m">Environmental influences on ToM development</title>
+		<editor>
+			<persName><forename>V</forename><surname>Slaughter</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>M</forename><surname>De Rosnay</surname></persName>
+		</editor>
+		
+		<imprint>
+			<publisher>Psychology Press</publisher>
+			<date when="2017">2017</date>
+			<pubPlace>Hove</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Peirce</surname></persName>
+		</author>
+		<title level="a">PsychoPy—Psychophysics software in Python</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neuroscience Methods</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="8" to="13" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="a">Can People Guess What Happened to Others from Their Reactions?</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">e49859</biblScope>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Ropar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Pearson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="a">Using Other Minds as a Window Onto the World: Guessing What Happened from Clues in Behaviour</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="2430" to="2439" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Poletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Enrici</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Adenzato</surname></persName>
+		</author>
+		<title level="a">Cognitive and affective Theory of Mind in neurodegenerative diseases: Neuropsychological, neuroanatomical and neurochemical levels</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience &amp; Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2147" to="2164" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Bird</surname></persName>
+		</author>
+		<title level="a">Intact imitation of emotional facial actions in autism spectrum conditions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="3291" to="3297" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Sasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Faso</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Nugent</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Grossman</surname></persName>
+		</author>
+		<title level="a">Neurotypical Peers are Less Willing to Interact with Those with Autism based on Thin Slice Judgments</title>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40700</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Sasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Morrison</surname></persName>
+		</author>
+		<title level="a">First impressions of adults with autism improve with diagnostic disclosure and increased autism knowledge of peers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Autism</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Ropar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="a">How Easy is it to Read the Minds of People with Autism Spectrum Disorder?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Autism and Developmental Disorders</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1247" to="1254" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Stagg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Slavny</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="a">Does facial expressivity count? How typically developing children respond initially to children with autism</title>
+	</analytic>
+	<monogr>
+		<title level="j">Autism</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="704" to="711" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Teoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>£</forename><surname>Wallis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="a">Seeing the world through others’ minds: Inferring social context from behaviour</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="48" to="60" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Maio</surname></persName>
+		</author>
+		<title level="a">Man, I feel like a woman: When and how gender-role motivation helps mind-reading</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="1165" to="1179" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Volker</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Lopata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Thomeer</surname></persName>
+		</author>
+		<title level="a">Facial Encoding of Children with High-Functioning Autism Spectrum Disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Focus on Autism and Other Developmental Disabilities</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="195" to="204" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

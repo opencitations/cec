@@ -1,0 +1,4743 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pan</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Tumor microenvironment-trig- gered fabrication of gold nanomachines for tumor-specific photoacoustic imaging and photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Sci</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="4896" to="4903" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ke</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zong</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ren</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Rational design and synthesis of γFe2O3@ Au magnetic gold nanoflowers for efficient cancer theranostics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="5049" to="5056" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename type="first">X</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename type="first">S</forename><forename type="middle">X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename type="first">S</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename type="first">H</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Co9Se8 nanoplates as a new theranostic platform for photoacoustic/magnetic resonance dual-modal-imaging-guided chemo-photothermal combination therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="3285" to="3291" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ge</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jia</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lan</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meng</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Red-emissive carbon dots for fluorescent, photoacoustic, and thermal theranostics in living mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="4169" to="4177" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Tumor-penetrating nanotherapeutics loading a near-infrared probe inhibit growth and metastasis of breast cancer</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Funct. Mater</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="2831" to="2839" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Degradable molybdenum oxide nanosheets with rapid clearance and efficient tumor homing capabilities as a therapeutic nanoplatform</title>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem. Int. Ed.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="2122" to="2126" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Le</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lv</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Albumin-bioinspired Gd: CuS nanotheranostic agent for in vivo photo- acoustic/magnetic resonance imaging-guided tumor-targeted photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="10245" to="10257" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zeng</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">A self-assembled albumin-based nanoprobe for in vivo ratiometric photoacoustic pH imaging</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="6820" to="6827" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tian</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">A tantalum oxide-based core/shell nanoparticle for triple-modality image-guided chemo-thermal synergetic therapy of esophageal carcinoma</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cancer Lett.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">397</biblScope>
+				<biblScope unit="page" from="61" to="71" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kantoff</surname>
+					<forename type="first">P</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wooster</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Farokhzad</surname>
+					<forename type="first">O</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Cancer nanomedicine: progress, challenges and opportunities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Rev. Cancer</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="20" to="37" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ke</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xie</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>W-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>C-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Copper manganese sulfide nanoplates: a new two-dimensional theranostic nanoplatform for MRI/MSOT dual-modal imaging-guided photothermal therapy in the second near-infrared window</title>
+		</analytic>
+		<monogr>
+			<title level="j">Theranostics</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="4763" to="4776" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lim</surname>
+					<forename>E-K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paik</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Haam</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huh</surname>
+					<forename>Y-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Nanomaterials for theranostics: recent advances and future challenges</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Rev</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">115</biblScope>
+				<biblScope unit="page" from="327" to="394" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bai</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jia</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Polydopamine coated selenide molybdenum: a new photothermal nanocarrier for highly effective chemo-photo-thermal synergistic therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Biomater. Sci. Eng</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="2011" to="2017" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Su</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ye</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Chemotherapeutic drug-photothermal agent co-self-assembling nanoparticles for near-infrared fluorescence and photoacoustic dual-modal imaging-guided chemo-photothermal synergistic therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Control. Release</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">258</biblScope>
+				<biblScope unit="page" from="95" to="107" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peng</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Near-infrared laser light mediated cancer therapy by photothermal effect of Fe3O4 magnetic nanoparticles</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="4078" to="4088" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fu</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Magnetic nanoparticle clusters for photothermal therapy with near-infrared irradiation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="67" to="74" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Astruc</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Anisotropic gold nanoparticles: synthesis, properties, applications, and toxicity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem. Int. Ed.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">53</biblScope>
+				<biblScope unit="page" from="1756" to="1789" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Luo</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Gold nano-shell-based betulinic acid liposomes for synergistic chemo-photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nanomedicine</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="1891" to="1900" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Laser-triggered small interfering RNA releasing gold nanoshells against heat shock protein for sensitized photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Sci.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="1600327" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hirsch</surname>
+					<forename type="first">L</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stafford</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bankson</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sershen</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rivera</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Price</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hazle</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Halas</surname>
+					<forename type="first">N</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>West</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Nanoshell-mediated near-infrared thermal therapy of tumors under magnetic resonance guidance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">100</biblScope>
+				<biblScope unit="page" from="13549" to="13554" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gobin</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">M</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Halas</surname>
+					<forename type="first">N</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>James</surname>
+					<forename type="first">W</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Drezek</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>West</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Near-infrared resonant nanoshells for combined optical imaging and photothermal cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nano Lett.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="1929" to="1934" />
+			</imprint>
+		</monogr>
+	</bibl>
+	 
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Marine polysaccharide-based nanomaterials as a novel source of nanobiotechnological applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Biol. Macromol.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">82</biblScope>
+				<biblScope unit="page" from="315" to="327" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chopra</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mahdi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kaur</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Iqbal</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Talegaonkar</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahmad</surname>
+					<forename type="first">F</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Advances and potential applications of chitosan derivatives as mucoadhesive biomaterials in modern drug delivery</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Pharm. Pharmacol.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="1021" to="1032" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bharathiraja</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moorthy</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>Y-O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seo</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Marine biopolymer-based nanomaterials as a novel platform for theranostic applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Polym. Rev.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="page" from="631" to="667" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ji</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Multidentate zwitterionic chitosan oligosaccharide modified gold nanoparticles: stability, biocompatibility and cell interactions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nanoscale</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="3982" to="3991" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Y</surname>
+					<forename>Zhou</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Feng</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fan</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Reduction-responsive core-crosslinked micelles based on a glycol chitosan–lipoic acid conjugate for triggered release of doxorubicin</title>
+		</analytic>
+		<monogr>
+			<title level="j">RSC Adv.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="31391" to="31400" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Deng</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qiu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jia</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Development of biocompatible and VEGF-targeted paclitaxel nanodrugs on albumin and graphene oxide dual-carrier for photothermal-triggered drug delivery in vitro and in vivo</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Nanomedicine</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="439" to="453" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Berruti</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sperone</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferrero</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Germano</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ardito</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Priola</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>De Francia</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Volante</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Daffara</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Generali</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Phase II study of weekly paclitaxel and sor-afenib as second/third-line therapy in patients with adrenocortical carcinoma</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Endocrinol.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">166</biblScope>
+				<biblScope unit="page" from="451" to="458" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wan</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Co-delivery of paclitaxel and indocyanine green by PEGylated graphene oxide: a potential integrated nanoplatform for tumor theranostics</title>
+		</analytic>
+		<monogr>
+			<title level="j">RSC Adv</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="15460" to="15468" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bharathiraja</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bui</surname>
+					<forename type="first">N</forename><forename type="middle">Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lim</surname>
+					<forename type="first">I</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Paclitaxel-loaded chitosan oligosaccharide-stabilized gold nanoparticles as novel agents for drug delivery and photoacoustic imaging of cancer cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Pharm.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">511</biblScope>
+				<biblScope unit="page" from="367" to="379" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yewale</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baradia</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vhora</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Patil</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Misra</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Epidermal growth factor receptor targeting in cancer: a review of trends and strategies</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="8690" to="8707" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>H-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>Y-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>K-J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hsu</surname>
+					<forename>S-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>C-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>She</surname>
+					<forename>S-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>C-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xiao</surname>
+					<forename>M-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wey</surname>
+					<forename>S-P</forename>
+				</persName>
+			</author>
+			<title level="a">EGRF conjugated PEGylated nanographene oxide for targeted chemotherapy and photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">34</biblScope>
+				<biblScope unit="page" from="7204" to="7214" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>H-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ji</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Cetuximab-modified mesoporous silica nano-medicine specifically targets EGFR-mutant lung cancer and overcomes drug resistance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci. Rep.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="25468" to="25468" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Oldenburg</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Averitt</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Westcott</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Halas</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Nanoengineering of optical resonances</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Phys. Lett.</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">288</biblScope>
+				<biblScope unit="page" from="243" to="247" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stöber</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fink</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bohn</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Controlled growth of monodisperse silica spheres in the micron size range</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Colloid Interface Sci.</title>
+			<imprint>
+				<date when="1968">1968</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="62" to="69" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Duff</surname>
+					<forename type="first">D</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baiker</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Edwards</surname>
+					<forename type="first">P</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">A new hydrosol of gold clusters 1. Formation and particle size variation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Langmuir</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="2301" to="2309" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename type="first">K</forename><forename type="middle">L</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tai</surname>
+					<forename>M-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>F-H</forename>
+				</persName>
+			</author>
+			<title level="a">Kinetics and products of the degradation of chitosan by hydrogen peroxide</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Agric. Food Chem.</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="4845" to="4851" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>C-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chang</surname>
+					<forename>C-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Peng</surname>
+					<forename>C-A</forename>
+				</persName>
+			</author>
+			<title level="a">Gold nanorod stabilized by thiolated chitosan as photothermal absorber for cancer cell treatment</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Nanopart. Res.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="2749" to="2758" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Charan</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sanjiv</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Singh</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chien</surname>
+					<forename>F-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>I-F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nergui</surname>
+					<forename type="first">N</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>S-H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuo</surname>
+					<forename type="first">C</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>T-C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Development of chitosan oligosaccharide-modified gold nanorods for in vivo targeted delivery and noninvasive imaging by NIR irradiation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Bioconjug. Chem.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="2173" to="2182" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bharathiraja</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santha Moorthy</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mondal</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename type="first">T</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Phan</surname>
+					<forename type="first">T</forename><forename type="middle">T</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">K</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Biocompatible chitosan oligosaccharide modified gold nanorods as highly effective photothermal agents for ablation of breast cancer cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Polymers</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="232" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rahimian-Bajgiran</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chan</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Noh</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>H-I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename type="first">J</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Tuning LCST with thiol-responsiveness of thermoresponsive copolymers containing pendant disulfides</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Commun.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="807" to="809" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ding</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Polymerizable disulfide paclitaxel prodrug for controlled drug delivery</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mater. Sci. Eng.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">44</biblScope>
+				<biblScope unit="page" from="386" to="390" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lv</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Well-defined polymer-drug conjugate engineered with redox and pH-sensitive release mechanism for efficient delivery of paclitaxel</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Control. Release</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">194</biblScope>
+				<biblScope unit="page" from="220" to="227" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bharathiraja</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santha Moorthy</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>Y-O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seo</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Anti-EGFR antibody conjugation of fucoidan-coated gold nanorods as novel photothermal ablation agents for cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl Mater Interfaces</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="14633" to="14646" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>F-Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>L-N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>Y-Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Synthesis and antitumor activity of doxor-ubicin conjugated stearic acid-g-chitosan oligosaccharide polymeric micelles</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="6955" to="6963" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Roper</surname>
+					<forename type="first">D</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahn</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hoepfner</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Microscale heat transfer transduced by surface plasmon resonant gold nanoparticles</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Phys. Chem. C</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">111</biblScope>
+				<biblScope unit="page" from="3636" to="3641" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fu</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zou</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Facile synthesis of biocompatible cysteine-coated CuS nanoparticles with high photothermal conversion efficiency for cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Dalton Trans.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="11709" to="11715" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Feng</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nie</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qiu</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yin</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of pH- responsive alginate/chitosan multilayers coating on delivery efficiency, cellular uptake and biodistribution of mesoporous silica nanoparticles based nanocarriers</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="8447" to="8460" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mustafa</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Impact of gold nanoparticles concentration on their cellular uptake by MC3T3-E1 mouse osteoblastic cells as analyzed by transmission electron microscopy</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Nanomed. Nanotechnol.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="61" to="67" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jun</surname>
+					<forename type="first">S</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kwon</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chun</surname>
+					<forename type="first">S</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">H</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hwang</surname>
+					<forename type="first">D</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dong</surname>
+					<forename>C-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>C-S</forename>
+				</persName>
+			</author>
+			<title level="a">Modality switching between therapy and imaging based on the excitation wave- length dependence of dual-function agents in folic acid-conjugated graphene oxides</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomed. Opt. Express</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="705" to="716" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Phan</surname>
+					<forename type="first">T</forename><forename type="middle">T</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bui</surname>
+					<forename type="first">N</forename><forename type="middle">Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cho</surname>
+					<forename>S-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bharathiraja</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moorthy</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mondal</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename type="first">T</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>C-S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Photoacoustic imaging-guided photothermal therapy with tumor-targeting HA-FeOOH@ PPy nanorods</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci. Rep.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="8809" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bui</surname>
+					<forename type="first">N</forename><forename type="middle">Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cho</surname>
+					<forename>S-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moorthy</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Park</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Piao</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nam</surname>
+					<forename type="first">S</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kang</surname>
+					<forename type="first">H</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>C-S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">In vivo photoacoustic monitoring using 700-nm region Raman source for targeting Prussian blue nanoparticles in mouse tumor model</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci. Rep.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="2000" to="2000" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Feng</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shan</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hou</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Zå</forename>
+				</persName>
+			</author>
+			<title level="a">Tumor-targeted and multi-stimuli responsive drug delivery system for near-infrared light induced chemo-phototherapy and photoacoustic tomography</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Biomater.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page" from="129" to="142" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>You</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Exceptionally high payload of doxorubicin in hollow gold nanospheres for near-infrared light-triggered drug release</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="1033" to="1041" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b54">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Norregaard</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jørgensen</surname>
+					<forename type="first">J</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Simón</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Melander</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kristensen</surname>
+					<forename type="first">L</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bendix</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Andresen</surname>
+					<forename type="first">T</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oddershede</surname>
+					<forename type="first">L</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kjaer</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">18F-FDG PET/CT-based early treatment response evaluation of nanoparticle-assisted photothermal cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page">e0177997</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>You</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">BSA–bioinspired gadolinium hybrid-functionalized hollow gold nanoshells for NIRF/PA/CT/MR quadmodal diagnostic imaging-guided photothermal/photo-dynamic cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="40017" to="40030" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Glycyrrhetinic acid-graft-hyaluronic acid conjugate as a carrier for synergistic targeted delivery of antitumor drugs</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Pharm.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">441</biblScope>
+				<biblScope unit="page" from="654" to="664" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Elsaid</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Taylor</surname>
+					<forename type="first">K</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Puri</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eberlein</surname>
+					<forename type="first">C</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Al-Jamal</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bai</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klippstein</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">J</forename><forename type="middle">T-W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Forbes</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chana</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Mixed micelles of lipoic acid-chitosan-poly (ethylene glycol) and distearoylphosphatidylethanolamine-poly (ethylene glycol) for tumor delivery</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur. J. Pharm. Sci.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">101</biblScope>
+				<biblScope unit="page" from="228" to="242" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b58">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Xie</surname>
+					<forename>Y-T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>Y-Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yuan</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>F-Q</forename>
+				</persName>
+			</author>
+			<title level="a">Brain-targeting study of stearic acid–grafted chitosan micelle drug-delivery system</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Nanomedicine</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="3235" to="3244" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b59">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nithiyanantham</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ramadoss</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ede</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kundu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">DNA mediated wire-like clusters of self-assembled TiO 2 nanomaterials: supercapacitor and dye sensitized solar cell applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nanoscale</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="8010" to="8023" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b60">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pol</surname>
+					<forename type="first">V</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Langzam</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zaban</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Application of microwave superheating for the synthesis of TiO2 rods</title>
+		</analytic>
+		<monogr>
+			<title level="j">Langmuir</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="11211" to="11216" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b61">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jin</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ji</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Multidentate polyethylene glycol modified gold nanorods for in vivo near-infrared photothermal cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="5657" to="5668" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b62">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Glaus</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Laforest</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gidding</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Welch</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xia</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Gold nanocages as photothermal transducers for cancer treatment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Small</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="811" to="817" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b63">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zeng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pan</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ren</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Raman reporter-coupled Agcore@ Aushell nanostars for in vivo improved surface enhanced Raman scattering imaging and near-infrared-triggered photothermal therapy in breast cancers</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="16781" to="16791" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b64">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hessel</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pattani</surname>
+					<forename type="first">V</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rasch</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Panthani</surname>
+					<forename type="first">M</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Koo</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tunnell</surname>
+					<forename type="first">J</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Korgel</surname>
+					<forename type="first">B</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Copper selenide nanocrystals for photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nano Lett.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="2560" to="2566" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b65">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Riedinger</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fu</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barthel</surname>
+					<forename type="first">M</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pugliese</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Plasmonic copper sulfide nanocrystals exhibiting near-infrared photo-thermal and photodynamic therapeutic effects</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="1788" to="1800" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b66">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cole</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mirin</surname>
+					<forename type="first">N</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Knight</surname>
+					<forename type="first">M</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goodrich</surname>
+					<forename type="first">G</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Halas</surname>
+					<forename type="first">N</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Photothermal efficiencies of nanoshells and nanorods for clinical therapeutic applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Phys. Chem. C</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">113</biblScope>
+				<biblScope unit="page" from="12090" to="12094" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b67">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manivasagan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jun</surname>
+					<forename type="first">S</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Truong</surname>
+					<forename type="first">N</forename><forename type="middle">T</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hoang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mondal</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moorthy</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Phan</surname>
+					<forename type="first">T</forename><forename type="middle">T</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Doan</surname>
+					<forename type="first">V</forename><forename type="middle">H</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>C-S</forename>
+				</persName>
+			</author>
+			<title level="a">A multifunctional near-infrared laser-triggered drug delivery system using folic acid conjugated chitosan oligosaccharide encapsulated gold nanorods for targeted chemo-photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Mater. Chem. B</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="3811" to="3825" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b68">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lv</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Graphdiyne materials as nanotransducer for in vivo photoacoustic imaging and photothermal therapy of tumor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chem. Mater.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">29</biblScope>
+				<biblScope unit="page" from="6087" to="6094" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b69">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Park</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yoo</surname>
+					<forename type="first">K</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Synergistic cancer therapeutic effects of locally delivered drug and heat using multifunctional nanoparticles</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adv. Mater.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="4049" to="4053" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b70">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ren</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deng</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Facile fabrication of a magnetically smart PTX-loaded Cys–Fe 3 O 4/CuS@ BSA nano-drug for imaging-guided chemo-photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Dalton Trans</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">46</biblScope>
+				<biblScope unit="page" from="2204" to="2213" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b71">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mickler</surname>
+					<forename type="first">F</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Möckl</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ruthardt</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ogris</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wagner</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bräuchle</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Tuning nanoparticle uptake: live-cell imaging reveals two distinct endocytosis mechanisms mediated by natural and artificial EGFR targeting ligand</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nano Lett.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="3417" to="3423" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b72">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hussain</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shen</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Photothermal gold nanocages filled with temperature sensitive tetradecanol and encapsulated with glutathione responsive polycurcumin for controlled DOX delivery to maximize anti- MDR tumor effects</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Mater. Chem. B</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page" from="5464" to="5472" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b73">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tiwari</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eroglu</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bawage</surname>
+					<forename type="first">S</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vig</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Miller</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pillai</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dennis</surname>
+					<forename type="first">V</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Singh</surname>
+					<forename type="first">S</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Enhanced intracellular translocation and biodistribution of gold nano- particles functionalized with a cell-penetrating peptide (VG-21) from vesicular stomatitis virus</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="9484" to="9494" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b74">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mou</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Near-infrared light and pH-responsive Au@ carbon/calcium phosphate nano- particles for imaging and chemo-photothermal cancer therapy of cancer cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Dalton Trans.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">46</biblScope>
+				<biblScope unit="page" from="14746" to="14751" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b75">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>T-I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Photothermally triggered cytosolic drug delivery via endosome disruption using a functionalized reduced graphene oxide</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="6735" to="6746" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b76">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ochs</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carregal-Romero</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rejman</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braeckmans</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>De Smedt</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Parak</surname>
+					<forename type="first">W</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Light-addressable capsules as caged compound matrix for controlled triggering of cytosolic reactions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Angew. Chem. Int. Ed.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">52</biblScope>
+				<biblScope unit="page" from="695" to="699" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	 
+	<bibl type="article" xml:id="b77">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hong</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qian</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Partly PEGylated polyamidoamine dendrimer for tumor-selective targeting of doxorubicin: the effects of PEGylation degree and drug conjugation style</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">31</biblScope>
+				<biblScope unit="page" from="1360" to="1371" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b78">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guan</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qiao</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Gold nanorods/mesoporous silica-based nanocomposite as theranostic agents for targeting near-infrared imaging and photothermal therapy induced with laser</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int. J. Nanomedicine</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="4747" to="4761" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b79">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bai</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Feng</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Rationally encapsulated gold nanorods improving both linear and nonlinear photoacoustic imaging contrast in vivo</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nanoscale</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="79" to="86" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b80">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yue</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gong</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sheng</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cai</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Single-step assembly of DOX/ICG loaded lipid–polymer nanoparticles for highly effective chemo-photothermal combination therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="2056" to="2067" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b81">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">L</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">L</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<title level="a">Photoacoustic tomography: in vivo imaging from organelles to organs</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">335</biblScope>
+				<biblScope unit="page" from="1458" to="1462" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b82">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kuang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Hydrophobic IR-780 dye encapsulated in cRGD-conjugated solid lipid nanoparticles for NIR imaging-guided photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="12217" to="12226" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b83">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Bacterial magnetic nanoparticles for photothermal therapy of cancer under the guidance of MRI</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomaterials</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">104</biblScope>
+				<biblScope unit="page" from="352" to="360" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b84">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>Z-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Precisely striking tumor without adjacent normal tissue damage via mitochondria-templated accumulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Nano</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">12</biblScope>
+				<biblScope unit="page" from="6252" to="6262" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b85">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Deng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhong</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fan</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Theranostic self-assembly structure of gold nanoparticles for NIR photothermal therapy and X-ray computed tomography imaging</title>
+		</analytic>
+		<monogr>
+			<title level="j">Theranostics</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="904" to="918" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b86">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Xuan</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dai</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>He</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Macrophage cell membrane camouflaged Au nanoshells for in vivo prolonged circulation life and enhanced cancer photothermal therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">ACS Appl. Mater. Interfaces</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="9610" to="9618" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	</listBibl>
+	</back>
+	</text>
+</TEI>

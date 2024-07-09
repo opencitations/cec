@@ -1,0 +1,2229 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="second">S</forename><surname>Mahapatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Sapkota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="second">P</forename><surname>Puppala</surname></persName>
+		</author>
+		<title level="a">Characterizing Emissions from Agricultural Diesel Pumps in the Terai Region of Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmosphere</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b1">
+	<monogr>
+		<author>
+			AEPC
+		</author>
+		<title level="m">A Year in Review NYF 2069/70</title>
+		<imprint>
+			<publisher>Alternative Energy Promo- tion Centre, Ministry of Science, Technology and Environment, Government of Nepal</publisher>
+			<biblScope unit="page" from="1" to="74" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b2">
+	<analytic>
+		<author>
+			ARAI
+		</author>
+		<title level="a">Emission factor development for Indian vehicles</title>
+	</analytic>
+	<monogr>
+		<title level="m">Air Quality Monitoring Project-Indian Clean Air Programme</title>
+		<imprint>
+			<publisher>The Automotive Research Association Of India</publisher>
+			<biblScope unit="page" from="1" to="94" />
+			<pubPlace>Pune</pubPlace>
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Aryal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Karki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Gurung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Baral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Byeon</surname></persName>
+		</author>
+		<title level="a">Dynamics of PM2.5 concentrations in Kathmandu Valley, Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hazard. Mater.</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="732" to="738" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Baidya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Borken-Kleefeld</surname></persName>
+		</author>
+		<title level="a">Atmospheric emissions from road transportation in India</title>0
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Policy</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="3812" to="3822" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>I</forename><surname>Bajracharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Bhattarai</surname></persName>
+		</author>
+		<title level="a">Road Transportation Energy Demand and Environmental Emission: A Case of Kathmandu Valley</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Water Energ. Environ</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="30" to="40" />
+			<date when="2016">2016</date>
+			<pubPlace>Hydro Nepal</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Ban-Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lunden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kirchstetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harley</surname></persName>
+		</author>
+		<title level="a">Measurement of Black Carbon and Particle Number Emission Factors from Individual Heavy-Duty Trucks</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1419" to="1424" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b7">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">B</forename><surname>Bhari</surname></persName>
+		</author>
+		<title level="m">Characterization of Roadside Air Pollution Levels in Kathmandu Valley</title>
+		<imprint>
+			<publisher>School of Environment, Resources and Development, Asian Institute of Technology</publisher>
+			<pubPlace>Thailand</pubPlace>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="1" to="88" />
+		</imprint>
+	</monogr>
+	<note>Master's Thesis</note>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		<author>
+			<persName><forename>N</forename><surname>Bhattarai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jha</surname></persName>
+		</author>
+		<title level="a">Commercial Sector Energy Demand Projections of Nepal for Sustainable Sectoral Energy Planning</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Protect. Sustain. Dev.</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="165" to="177" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Streets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yarber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Klimont</surname></persName>
+		</author>
+		<title level="a">A technology-based global inventory of black and organic carbon emissions from combustion</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res.</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">D14203</biblScope>
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Burney</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Ramanathan</surname></persName>
+		</author>
+		<title level="a">Recent climate and air pollution impacts on Indian agriculture</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="16319" to="16324" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b11">
+	<monogr>
+		<author>
+			CBS
+		</author>
+		<title level="m">National Census of Manufacturing Establishment (CME) 2006/07</title>
+		<imprint>
+			<publisher>National Planning Commission Secretariat, Central Bureau of Statistics</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="154" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b12">
+	<monogr>
+		<author>
+			CBS
+		</author>
+		<title level="m">National Population and Housing Census, 2011, National Report</title>
+		<imprint>
+			<publisher>National Planning Commission Secretariat, Central Bureau of Statistics</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="262" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b13">
+	<monogr>
+		<author>
+			CBS
+		</author>
+		<title level="m">National Census of Manufacturing Establishment (CME) 2011/12</title>
+		<imprint>
+			<publisher>National Planning Commission Secretariat, Central Bureau of Statistics</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="7" to="126" />
+			<date when="June 2014">June 2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Collier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">Aerosol direct forcing of the summer Indian monsoon as simulated by the NCAR CAM3</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clim. Dynam.</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="313" to="332" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Crippa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Guizzardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Muntean</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Schaaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Dentener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Van Aardenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Monni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Doering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><forename type="last">J</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Pagliari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Janssens-Maenhout</surname></persName>
+		</author>
+		<title level="a">Gridded emissions of air pollutants for the period 1970–2012 within EDGAR v4.3.2</title>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Syst. Sci. Data</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1987" to="2013" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b16">
+	<monogr>
+		<author>
+			DECP
+		</author>
+		<title level="m">District Climate and Energy Plan Reports</title>
+		<imprint>
+			<publisher>Multiscope Consultancy Pvt. Ltd.</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="155" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+	
+		<author>
+			<persName><forename>D</forename><surname>Devakumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Semple</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Osrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Kurmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Saville</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Manandhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Costello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Ayres</surname></persName>
+		</author>
+		<title level="a">Biomass fuel use and the exposure of children to particulate air pollution in southern Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Int.</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="79" to="87" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><surname>Dhakal</surname></persName>
+		</author>
+		<title level="a">Implications of transportation policies on energy and environment in Kathmandu Valley, Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Policy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1493" to="1507" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Dhital</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Shakya</surname></persName>
+		</author>
+		<title level="a">Implication of Sustainable Low Carbon Transportation Development Strategy in Emerging City: A case of Kathmandu Valley</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of IOE Graduate Conference</title>
+		<imprint>
+			<biblScope unit="page" from="215" to="224" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b20">
+	<monogr>
+		<author>
+			DoTM
+		</author>
+		<title level="m">Details of Registration of Transport up to Fiscal Year 2046/47-070/71</title>
+		<imprint>
+			<publisher>Department of Transport Management</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page">1</biblScope>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b21">
+	<monogr>
+		<author>
+			DoTM 
+		</author>
+		<title level="m">Details of Registration of Transport up to Fiscal Year 2046/47-073/74</title>
+		<imprint>
+			<publisher>Department of Transport Management</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page">1</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Substantial contribution of anthropogenic air pollution to catastrophic floods in Southwest China</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="6066" to="6075" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+	
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Fiore</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Naik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Leibensperger</surname></persName>
+		</author>
+		<title level="a">Air Quality and Climate Connections</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Air Waste Manage</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="645" to="685" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Forouzanfar</surname></persName>
+		</author>
+		<title level="a">Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990-2015: a systematic analysis for the Global Burden of Disease Study 2015</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="1659" to="1724" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Frenken</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Gillet</surname></persName>
+		</author>
+		<title level="a">Irrigation water requirement and water withdrawal by country</title>
+	</analytic>
+	<monogr>
+		<title level="j">FAO AQUASTAT Reports</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="263" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Gurung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Ghimeray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><forename type="last">A</forename><surname>Hassan</surname></persName>
+		</author>
+		<title level="a">The prospects of renewable energy technologies for rural electrification: A review from Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Policy</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="374" to="380" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Shrivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Stehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Dickerson</surname></persName>
+		</author>
+		<title level="a">New methodology for estimating biofuel consumption for cooking: atmospheric emissions of black carbon and sulfur dioxide from India</title>
+	</analytic>
+	<monogr>
+		<title level="j">Global Biogeochem. Cy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">GB3007</biblScope>
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>GB</note>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Schauer</surname></persName>
+		</author>
+		<title level="a">Chemical, microphysical and optical properties of primary particles from the combustion of biomass fuels</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="8829" to="8834" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hoesly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Klimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Janssens-Maenhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Pitkanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Seibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Vu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Andres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Dawidowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Kholod</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J.-I</forename><surname>Kurokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><forename type="last">P</forename><surname>Moura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>O'rourke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="a">Historical (1750-2014) anthropogenic emissions of reactive gases and aerosols from the Community Emissions Data System (CEDS)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geosci. Model Dev</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="369" to="408" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		<author>
+			Jaiprakash
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Gazala</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kumar</surname></persName>
+		</author>
+		<title level="a">Evaluation of portable dilution system for aerosol measurement from stationary and mobile combustion sources</title>
+	</analytic>
+	<monogr>
+		<title level="j">Aerosol Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="717" to="731" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename>G</forename><surname>Janssens-Maenhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Crippa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Guizzardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Muntean</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Schaaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Dentener</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Bergamaschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Pagliari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><forename type="last">J</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><forename type="middle">H</forename><forename type="last">W</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Van Aardenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Monni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Doering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><forename type="last">R</forename><surname>Petrescu</surname></persName>
+		</author>
+		<title level="a">A. M. R.: EDGAR v4.3.2 Global At- las of the three major Greenhouse Gas Emissions for the pe- riod 1970–2012</title>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Syst. Sci. Data Discuss</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="959" to="1002" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Jayarathne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Stockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Bhave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Praveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Rathnayake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Md</forename><forename type="middle">R</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Panday</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Maharjan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>DeCarlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Saikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Yokelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Stone</surname></persName>
+		</author>
+		<title level="a">Nepal Ambient Monitoring and Source Testing Experiment (NAMaSTE): emissions of particulate matter from wood-and dung-fueled cooking fires, garbage and crop residue burning, brick kilns, and other sources</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2259" to="2286" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Chapagain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vetaas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<title level="a">Consumption Patterns of Fuelwood in Rural Households of Dolakha District, Nepal: Reflections from Community Forest User Groups</title>
+	</analytic>
+	<monogr>
+		<title level="j">Small-scale Forest.</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="481" to="495" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Kim Oanh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Thiansathit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Winijkul</surname></persName>
+		</author>
+		<author>
+			Paw-Armart
+		</author>
+		<title level="a">Compositional characterization of PM2.5 emitted from in-use diesel vehicles</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl typer="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>Z</forename><surname>Klimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kupiainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Heyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Purohit</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Cofala</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Rafaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Borken-Kleefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Schöpp</surname></persName>
+		</author>
+		<title level="a">Global anthropogenic emissions of particulate matter including black carbon</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="8681" to="8723" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Kurmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Semple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Devereux</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gaihre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Sadhra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Simkhada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Ayres</surname></persName>
+		</author>
+		<title level="a">The effect of exposure to biomass smoke on respiratory P. Sadavarte et al.: Nepal emission inventory symptoms in adult rural and urban Nepalese populations</title>
+	</analytic>
+	<monogr>
+		<title level="m">Environ. Health</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Kurokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Ohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Morikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Hanayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Janssens-Maenhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Akimoto</surname></persName>
+		</author>
+		<title level="a">Emissions of air pollutants and greenhouse gases over Asian regions during 2000-2008: Regional Emission inventory in ASia (REAS) version 2</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="11019" to="11058" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Weyant</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Sadavarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Brem</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Arineitwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<title level="a">Household light makes global heat: high black carbon emissions from kerosene wick lamps</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="13531" to="13538" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-I</forename><surname>Kurokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-H</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Ohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Streets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zheng</surname></persName>
+		</author>
+		<title level="a">MIX: a mosaic Asian anthropogenic emission inventory under the international collaboration framework of the MICS-Asia and HTAP</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="935" to="963" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		<author>
+			<persName><forename>S</forename><surname>Malla</surname></persName>
+		</author>
+		<title level="a">Household energy consumption patterns and its environmental implications: Assessment of energy access and poverty in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Policy</title>
+		<imprint>
+			<date when="2013">2013</date>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="990" to="1002" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename>J</forename><surname>Mennis</surname></persName>
+		</author>
+		<title level="a">Dasymetric Mapping for Estimating Popula- tion in Small Areas,</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geography Compass,</title>
+		<imprint>
+			<date when="2009">2009</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="727" to="745" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b42">
+	<monogr>
+		<author>
+			MoAD
+		</author>
+		<title level="m">Statistical Information on Nepalese Agriculture 2011/12</title>
+		<imprint>
+			<publisher>Agri-Business Promotion and Statistics Division, Statistics Section, Ministry of Agricultural Development, Singha Durbar</publisher>
+			<pubPlace>Kathmandu, Nepal</pubPlace>
+			<biblScope unit="page" from="1" to="170" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b43">
+	<monogr>
+		<author>
+			MoCTCA
+		</author>
+		<title level="m">Nepal Tourism Statistics 2012</title>
+		<imprint>
+			<publisher>Ministry of Culture, Tourism and Civil Aviation, Planning and Evaluation Division, Statistical Section, Singha Darbar</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="117" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b44">
+	<monogr>
+		<author>
+			MoEST
+		</author>
+		<title level="m">Ambient Air Quality of Kathmandu Valley</title>
+		<imprint>
+			<publisher>Ministry of Culture, Tourism and Civil Aviation, Planning and Evaluation Division, Statistical Section, Singha Darbar</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="33" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b45">
+	<monogr>
+		<author>
+			MoF
+		</author>
+		<title level="m"> Nepal Foreign Trade Statistics, Annual Report 2011/12</title>
+		<imprint>
+			<publisher>Ministry of Finance, Department of Customs</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>https://www.customs.gov.np/en/annual.html</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b46">
+	<monogr>
+		<author>
+			MoF
+		</author>
+		<title level="m">Nepal Foreign Trade Statistics, Annual Report 2016/17</title>
+		<imprint>
+			<publisher>Ministry of Finance, Department of Customs</publisher>
+			<pubPlace>Kathmandu</pubPlace>
+			<biblScope unit="page" from="1" to="550" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Nepal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Mahapatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Puppala</surname></persName>
+		</author>
+		<title level="a">A Comparative Study of Stack Emissions from Straight-Line and Zigzag Brick Kilns in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmosphere</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b48">
+	<monogr>
+		<author>
+			NOC
+		</author>
+		<title level="m">Nepal Oil Corporation</title>
+		<imprint>
+			<date when="11 January 2019">11 January 2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Notter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Schmied</surname></persName>
+		</author>
+		<title level="a">Non-road energy consumption and pollutant emissions, Study for the period from 1980 to 2050</title>
+	</analytic>
+	<monogr>
+		<title level="m">Federal Office for the Environment, Bern, Environmental studies no. 1519</title>
+		<imprint>
+			<pubPlace>Bern</pubPlace>
+			<biblScope unit="page">237</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Environmental studies no. 1519, 237 pp.</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b50">
+	<monogr>
+		
+		<author>
+			Pace Nepal
+		</author>
+		<title level="m">Baseline Study of Selected Sector Industries to Assess the Potentials for more Efficient use of Energy</title>
+		
+		<imprint>
+			<publisher>PACE Nepal Pvt. Ltd</publisher>
+			<biblScope unit="page" from="1" to="220" />
+			<date when="2012">2012</date>
+			<pubPlace>Kathmandu</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<title level="a">Estimating emissions from the Indian transport sector with on-road fleet composition and traffic volume</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="123" to="133" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Pervez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Yadama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Chakrabarty</surname></persName>
+		</author>
+		<title level="a">Aerosol emissions factors from traditional biomass cookstoves in In- dia: insights from field measurements</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="13721" to="13729" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle"></forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Banskota</surname></persName>
+		</author>
+		<title level="a">Process of cement production in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the Department of Geology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="71" to="78" />
+			<date when="2008">2008</date>
+			<publisher>Tribhuvan University</publisher>
+			<pubPlace>Kathmandu, Nepal</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b54">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Pokharel</surname></persName>
+		</author>
+		<title level="a">Energy economics of cooking in households in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energy</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="547" to="559" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b55">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Pokhrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Valentiner-Branth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Chandyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Raut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="a">PM2.5 in household kitchens of Bhaktapur, Nepal, using four different cooking fuels</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="159" to="168" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Alea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Amatya</surname></persName>
+		</author>
+		<title level="a">Mitigation potential of greenhouse gas emission and implications on fuel consumption due to clean energy vehicles as public passenger transport in Kathmandu Valley of Nepal: A case study of trolley buses in Ring Road</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1748" to="1760" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b57">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Sadavarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<title level="a">Trends in multi-pollutant emissions from a technology-linked inventory for India: I. Industry and transport sectors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="353" to="364" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b58">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Cocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Soriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Wayne Miller</surname></persName>
+		</author>
+		<title level="a">Emissions of regulated pollutants from in-use diesel back-up generators</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="4199" to="4209" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b59">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Shakya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rupakheti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Aryal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Peltier</surname></persName>
+		</author>
+		<title level="a">Respiratory effects of high levels of particulate exposure in a cohort of traffic police in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Occup. Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="218" to="225" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b60">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Shakya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rupakheti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Shahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Maskey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Pradhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Panday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Puppala</surname></persName>
+		</author>
+			<author>
+			<persName><forename>M</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Peltier</surname></persName>
+		</author>
+		<title level="a">Near-road sampling of PM2.5, BC, and fine-particle chemical components in Kathmandu Valley, Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">JAtmos. Chem. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="6503" to="6516" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b61">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Shastri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Barik</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Sadavarte</surname></persName>
+		</author>
+		<title level="a">Flip flop of day-night and summer-winter surface urban heat island intensity in India</title>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40178</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b62">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Rajbhandari</surname></persName>
+		</author>
+		<title level="a">Energy and environmental implications of carbon emission reduction targets: case of Kathmandu valley, Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energ. Policy</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="4818" to="4827" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b63">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Kim Oanh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rupakheti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Lawrence</surname></persName>
+		</author>
+		<title level="a">Analysis of the vehicle fleet in the Kath- mandu Valley for estimation of environment and climate co-benefits of technology intrusions</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="579" to="590" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b64">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Tuladhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Bajracharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Pillarisetti</surname></persName>
+		</author>
+		<title level="a">Assessment of effectiveness of improved cookstoves in reducing indoor air pollution and improving health in Nepal</title>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Sustain. Dev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="406" to="414" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b65">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="a">National burden of disease in India from indoor air pollution</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="13286" to="13293" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b66">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Stockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Jayarathne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Bhave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Praveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Maharjan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>DeCarlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Saikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Yokelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Panday</surname></persName>
+		</author>
+		<title level="a">Nepal Ambient Monitoring and Source Testing Experiment (NAMaSTE): emissions of trace gases and light-absorbing carbon from wood and dung cooking fires, garbage and crop residue burning, brick kilns, and other sources</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="11043" to="11081" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b67">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Winijkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Thiansathit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Kim Oanh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Paw-Armart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Duleep</surname></persName>
+		</author>
+		<title level="a">Climate-Relevant Properties of Diesel Particulate Emissions: Results from a Piggyback Study in Bangkok, Thailand</title>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="4213" to="4218" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b68">
+	<monogr>
+		
+		<author>
+			WECS
+		</author>
+		<title level="m">Energy Sector Synopsis Report</title>
+		
+		<imprint>
+			<publisher>Water Energy Commission Secretariat</publisher>
+			<biblScope unit="page" from="1" to="115" />
+			<date when="2010">2010</date>
+			<pubPlace>Nepal</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b69">
+	<monogr>
+		
+		<author>
+			WECS
+		</author>
+		<title level="m">Energy Data Sheet</title>
+		
+		<imprint>
+			<publisher>Water Energy Commission Secretariat</publisher>
+			<biblScope unit="page" from="1" to="16" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b70">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Weyant</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Athalye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Ragavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Rajarathnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Lalchandani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Maithel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<title level="a">Emissions from South Asian brick production</title>
+	</analytic>
+	<monogr>
+		<title level="m">Environ. Sci. Technol.</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="13531" to="13538" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b71">
+	<monogr>
+		
+		<author>
+			World Bank
+		</author>
+		<title level="m">Diesel Power Generation: Inventories and Black Car- bon Emissions in Kathmandu Valley, Nepal</title>
+		
+		<imprint>
+			<publisher>The World Bank</publisher>
+			<biblScope unit="page" from="1" to="60" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b72">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Yao</surname></persName>
+		</author>
+		<title level="a">Carbonaceous composition of PM2.5 emitted from on-road China III diesel trucks in Beijing, China</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b73">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Winijkul</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Streets</surname></persName>
+		</author>
+		<title level="a">Global emission projections of particulate matter (PM): I. Exhaust emissions from on-road vehicles</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="4830" to="4844" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b74">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Dhital</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Huang</surname></persName>
+		</author>
+		<title level="a">Chemical Characterization of Fine Particulate Matter in Gasoline and Diesel Vehicle Exhaust</title>
+	</analytic>
+	<monogr>
+		<title level="j">Aerosol Air Qual. Res.</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1439" to="1449" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b75">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Thorneloe</surname></persName>
+		</author>
+		<title level="a">Greenhouse gases and other airborne pollutants from household stoves in China: a database for emission factors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="4537" to="4549" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b76">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Streets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kannari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Klimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Yao</surname></persName>
+		</author>
+		<title level="a">Asian emissions in 2006 for the NASA INTEX-B mission</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Chem. Phys.</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="5131" to="5153" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b77">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>He</surname></persName>
+		</author>
+		<title level="a">Chemical characterization of PM 2.5 emitted from on-road heavy-duty diesel trucks in China</title>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos. Environ.</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="885" to="891" />
+			<date when="2015-12">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

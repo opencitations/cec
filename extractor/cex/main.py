@@ -7,7 +7,7 @@ from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
 from combined import PDFProcessor
 import zipfile
-from extractor.semantic_alignment.align_headings import run
+from semantic_alignment.align_headings import run
 
 def get_all_files(folder_path):
     files = []

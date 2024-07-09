@@ -1,0 +1,1691 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Adam</surname></persName>
+		</author>
+		<title level="a">Mental health: on the spectrum</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">496</biblScope>
+			<biblScope unit="page" from="416" to="418" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Amiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Amini-Khoei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Haj-Mirzaian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rahimi-Balaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Naserzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Dehpour</surname></persName>
+		</author>
+		<title level="a">Tropisetron attenuated the anxiogenic effects of social isolation by modulating nitrergic system and mitochondrial function</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1850</biblScope>
+			<biblScope unit="page" from="2464" to="2475" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Bavley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Rizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rajadhyaksha</surname></persName>
+		</author>
+		<title level="a">Cav1.2 channels mediate persistent chronic stress-induced behavioral deficits that are associated with prefrontal cortex activation of the p25/Cdk5-glucocorticoid receptor pathway</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol. Stress</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="27" to="37" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Dao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Terrillion</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Arad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Soldatov</surname></persName>
+		</author>
+		<title level="a">CACNA1C (Cav1.2) in the pathophysiology of psychiatric disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Nicholls</surname></persName>
+		</author>
+		<title level="a">Assessing mitochondrial dysfunction in cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">435</biblScope>
+			<biblScope unit="page" from="297" to="312" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Lackinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">U</forename><surname>Höglinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Schratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="middle">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<title level="a">Differential effects of social and physical environmental enrichment on brain plasticity, cognition, and ultrasonic communication in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comp. Neurol.</title>
+		<imprint>
+			<biblScope unit="volume">524</biblScope>
+			<biblScope unit="page" from="1586" to="1607" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Padilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Fornaguera</surname></persName>
+		</author>
+		<title level="a">A detailed analysis of open-field habituation and behavioral and neurochemical antidepressant-like effects in postweaning enriched rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Brain Res.</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="125" to="137" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Buonarati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Horne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hell</surname></persName>
+		</author>
+		<title level="a">Proteolytic processing of the L-type Ca2+ channel alpha11.2 subunit in neurons</title>
+	</analytic>
+	<monogr>
+		<title level="j">F1000Rese</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1166</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Busatto</surname></persName>
+		</author>
+		<title level="a">Structural and Functional Neuroimaging Studies in Major Depressive Disorder With Psychotic Features: A Critical Review</title>
+	</analytic>
+	<monogr>
+		<title level="j">Schizophr. Bull.</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="776" to="786" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Zarate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Drevets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Manji</surname></persName>
+		</author>
+		<title level="a">Neural circuitry and neuroplasticity in mood disorders: Insights for novel therapeutic targets</title>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroRx</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="22" to="41" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Cottet-Rousselle</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Ronot</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Leverve</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-F</forename><surname>Mayol</surname></persName>
+		</author>
+		<title level="a">Cytometric assessment of mitochondria using fluorescent probes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cytometry A</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="405" to="425" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			Cross-Disorder Group of the Psychiatric Genomics Consortium
+		</author>
+		<title level="a">Identification of risk loci with shared effects on five major psychiatric disorders: a genome-wide analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">381</biblScope>
+			<biblScope unit="page" from="1371" to="1379" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Dao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Belmonte</forename><surname>Mahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Kovacsics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arad</surname></persName>
+		</author>
+		<title level="a">Mood Disorder Susceptibility Gene CACNA1C Modifies Mood-Related Behaviors in Mice and Interacts with Sex to Influence Behavior in Mice and Diagnosis in Humans</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="801" to="810" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Clark</surname></persName>
+		</author>
+		<title level="a">Threshold Effects and Control of Oxidative Phosphorylation in Nonsynaptic Rat Brain Mitochondria</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurochem.</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1617" to="1624" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Dedic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Pöhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Czamara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Metzger</surname></persName>
+		</author>
+		<title level="a">Cross-disorder risk gene CACNA1C differentially modulates susceptibility to psychiatric disorders during development and adulthood</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="533" to="543" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Erk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Meyer-Lindenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><forename type="last">J</forename><surname>Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Lancaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Mohnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Grimm</surname></persName>
+		</author>
+		<title level="a">Replication of brain function effects of a genome-wide supported psychiatric risk variant in the CACNA1C gene and new multi-locus effects</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroimage</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="147" to="154" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Filipović</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Todorović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Bernardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Gass</surname></persName>
+		</author>
+		<title level="a">Oxidative and nitrosative stress pathways in the brain of socially isolated adult male rats demonstrating depressive- and anxiety-like symptoms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Struct. Funct.</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><forename type="last">F</forename><surname>Fone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Porkess</surname></persName>
+		</author>
+		<title level="a">Behavioural and neurochemical effects of post-weaning social isolation in rodents—Relevance to developmental neuropsychiatric disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Biobehav. Rev.</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1087" to="1102" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Frodl</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Reinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Koutsouleris</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Reiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Meisenzahl</surname></persName>
+		</author>
+		<title level="a">Interaction of childhood stress with hippocampus and prefrontal cortex volume reduction in major depression</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Psychiatr. Res.</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="799" to="807" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Geurts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Cost</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Freyvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Zeitler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Choi</surname></persName>
+		</author>
+		<title level="a">Knockout Rats via Embryo Microinjection of Zinc-Finger Nucleases</title>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page">433</biblScope>
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-H</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X-L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Hu</surname></persName>
+		</author>
+		<title level="a">Chronic mild stress damages mitochondrial ultrastructure and function in mouse brain</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">488</biblScope>
+			<biblScope unit="page" from="76" to="80" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Harraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Altier</surname></persName>
+		</author>
+		<title level="a">STIM1-mediated bidirectional regulation of Ca2+ entry through voltage-gated calcium channels (VGCC) and calcium-release activated channels (CRAC)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell. Neurosci.</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Kabir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Burgdorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rajadhyaksha</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Mok</surname></persName>
+		</author>
+		<title level="a">Cacna1c in the Prefrontal Cortex Regulates Depression-Related Behaviors via REDD1</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2032" to="2042" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Kambe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Miyata</surname></persName>
+		</author>
+		<title level="a">Potential involvement of the mitochondrial unfolded protein response in depressive-like symptoms in mice</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">588</biblScope>
+			<biblScope unit="page" from="166" to="171" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Keers</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Uher</surname></persName>
+		</author>
+		<title level="a">Gene–Environment Interaction in Major Depression and Antidepressant Treatment Response</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Psychiatry Rep.</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="129" to="137" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Aguilar-Gaxiola</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chatterji</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ormel</surname></persName>
+		</author>
+		<title level="a">The global burden of mental disorders: An update from the WHO World Mental Health (WMH) Surveys</title>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiol. Psichiatr. Soc.</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="23" to="33" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Kisko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Witt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rietschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Culmsee</surname></persName>
+		</author>
+		<title level="a">Cacna1c haploinsufficiency leads to pro-social 50-kHz ultrasonic communication deficits in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Dis. Model. Mech.</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">dmm034116</biblScope>
+			<date when="2018">2018a</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Kisko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Witt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Rietschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Culmsee</surname></persName>
+		</author>
+		<title level="a">Sex-dependent effects of Cacna1c haploinsufficiency on juvenile social play behavior and pro-social 50-kHz ultrasonic communication in rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Brain Behav</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">e12552</biblScope>
+			<date when="2018">2018b</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Klinedinst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Regenold</surname></persName>
+		</author>
+		<title level="a">A mitochondrial bioenergetic basis of depression</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bioenerg. Biomembr.</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="155" to="171" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Krolow</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Noschang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Weis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Pettenuzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Huffell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Arcego</surname></persName>
+		</author>
+		<title level="a">Isolation Stress During the Prepubertal Period in Rats Induces Long-Lasting Neurochemical Changes in the Prefrontal Cortex</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochem. Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1063" to="1073" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Langwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Christel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Kleppisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Wotjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Moosmang</surname></persName>
+		</author>
+		<title level="a">Homeostatic Switch in Hebbian Plasticity and Fear Learning after Sustained Loss of Cav1.2 Calcium Channels</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci.</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="8367" to="8375" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Zhou</surname></persName>
+		</author>
+		<title level="a">Corticosterone reduces brain mitochondrial function and expression of mitofusin, BDNF in depression-like rodents regardless of exercise preconditioning</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychoneuroendocrinology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1057" to="1070" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Madrigal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Olivenza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moro</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Lizasoain</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Lorenzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Rodrigo</surname></persName>
+		</author>
+		<title level="a">Glutathione Depletion, Lipid Peroxidation and Mitochondrial Dysfunction Are Induced by Chronic Stress in Rat Brain</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="420" to="429" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Manji</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Di Prospero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Beal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krams</surname></persName>
+		</author>
+		<title level="a">Impaired mitochondrial function in psychiatric disorders</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Neurosci.</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="293" to="307" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Ganjam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Schratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="last">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<title level="a">Downregulation of the psychiatric susceptibility gene Cacna1c promotes mitochondrial resilience to oxidative stress in neuronal cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Discov.</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date when="2018">2018a</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="last">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Culmsee</surname></persName>
+		</author>
+		<title level="a">Psychiatric risk gene Cacna1c determines mitochondrial resilience against oxidative stress in neurons</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis.</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">645</biblScope>
+			<date when="2018">2018b</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Möller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Du Preez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Viljoen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Berk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Harvey</surname></persName>
+		</author>
+		<title level="a">Social isolation rearing induces mitochondrial, immunological, neurochemical and behavioural deficits in rats, and is reversed by clozapine or N-acetyl cysteine</title>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Behav. Immun.</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="156" to="167" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Nanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Uher</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Danese</surname></persName>
+		</author>
+		<title level="a">Childhood Maltreatment Predicts Unfavorable Course of Illness and Treatment Outcome in Depression: A Meta-Analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="141" to="151" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Opel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Zwanzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Grotegerd</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Arolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Heindel</surname></persName>
+		</author>
+		<title level="a">Hippocampal Atrophy in Major Depression: a Function of Childhood Maltreatment Rather than Diagnosis?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="2723" to="2731" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Ortmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Z</forename><surname>Réus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Ignácio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Abelaira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Titus</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>De Carvalho</surname></persName>
+		</author>
+		<title level="a">Enriched Flavonoid Fraction from Cecropia pachystachya Trécul Leaves Exerts Antidepressant-like Behavior and Protects Brain Against Oxidative Stress in Rats Subjected to Chronic Mild Stress</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurotox. Res.</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="469" to="483" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pandya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Royland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Macphail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Rao S</forename><surname>Kodavanti</surname></persName>
+		</author>
+		<title level="a">Age- and brain region-specific differences in mitochondrial bioenergetics in Brown Norway rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol. Aging</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="25" to="34" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Paulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Bedenbender</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Krach</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Pyka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Krug</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Sommer</surname></persName>
+		</author>
+		<title level="a">Association of rs1006737 in CACNA1C with alterations in prefrontal activation and fronto-hippocampal connectivity</title>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Brain Mapp</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1190" to="1200" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b42">
+	<monogr>
+		
+		<author>
+			<persName><forename>G</forename><surname>Paxinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Watson</surname></persName>
+		</author>
+		<title level="m">The Rat Brain in Stereotaxic Coordinates, 6th Edn</title>
+		<imprint>
+			<date when="2007">2007</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Picard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Mcewen</surname></persName>
+		</author>
+		<title level="a">Psychological stress and mitochondria: a systematic review</title>
+	</analytic>
+	<monogr>
+		<title level="j">Psychosom. Med</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="141" to="153" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Pizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Drago</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Filadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Pozzan</surname></persName>
+		</author>
+		<title level="a">Mitochondrial Ca 2 homeostasis: mechanism, role, and tissue specificities</title>
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch.</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>Z</forename><surname>Radak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Higuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Balogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Boldogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Koltai</surname></persName>
+		</author>
+		<title level="a">Physical exercise, reactive oxygen species and neuroprotection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="187" to="196" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Redecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Kisko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="last">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<title level="a">Effects of Cacna1c haploinsufficiency on social interaction behavior and 50-kHz ultrasonic vocalizations in adult female rats</title>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Brain Res.</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<biblScope unit="page" from="35" to="52" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Rezin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Scaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Riegel</surname></persName>
+		</author>
+		<title level="a">Inhibition of mitochondrial respiratory chain in brain of rats subjected to an experimental model of depression</title>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochem. Int</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="395" to="400" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Petrosyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Ashok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Elorza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Ferrick</surname></persName>
+		</author>
+		<title level="a">High throughput microplate respiratory measurements using minimal quantities of isolated mitochondria</title>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e21746</biblScope>
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		<title level="a">The mouse brain library @ www.mbl.org</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Capra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Int. Mouse Genome Conf.</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">166</biblScope>
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Salabei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gibb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Hill</surname></persName>
+		</author>
+		<title level="a">Comprehensive measurement of respiratory activity in permeabilized cells using extracellular flux analysis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="421" to="438" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Saathoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Meissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E-M</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Lichtmannegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Schulz</surname></persName>
+		</author>
+		<title level="a">A semi-automated method for isolating functionally intact mitochondria from cultured cells and tissue biopsies</title>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">443</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Seffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Rippberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="last">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<title level="a">Prosocial 50-kHz ultrasonic communication in rats: post-weaning but not postadolescent social isolation leads to social impairments-phenotypic rescue by re-socialization</title>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Behav. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename>J-S</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K-W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T-K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I-S</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-Y</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P-L</forename><surname>Han</surname></persName>
+		</author>
+		<title level="a">Behavioral stress causes mitochondrial dysfunction via ABAD up-regulation and aggravates plaque pathology in the brain of a mouse model of Alzheimer disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1526" to="1535" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b54">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Machado-Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Zarate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Manji</surname></persName>
+		</author>
+		<title level="a">Targeting mitochondrially mediated plasticity to develop improved therapeutics for bipolar disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Opin. Ther. Targets</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1131" to="1147" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b55">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Sparling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Bielajew</surname></persName>
+		</author>
+		<title level="a">Effects of combined preand post-natal enrichment on anxiety-like, social, and cognitive behaviours in juvenile and adult rat offspring</title>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="page" from="40" to="50" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b56">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Ö</forename><surname>Sungur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><forename type="last">E</forename><surname>Jochner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Harb</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Kılıç</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Garn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><forename type="last">W</forename><surname>Schwarting</surname></persName>
+		</author>
+		<title level="a">Aberrant cognitive phenotypes and altered hippocampal BDNF expression related to epigenetic modifications in mice lacking the post-synaptic scaffolding protein SHANK1: implications for autism spectrum disorder</title>
+	</analytic>
+	<monogr>
+		<title level="j">Hippocampus</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="906" to="919" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b57">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Terrillion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Puche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Gould</surname></persName>
+		</author>
+		<title level="a">Decreased nucleus accumbens expression of psychiatric disorder risk gene Cacna1c promotes susceptibility to social stress</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Neuropsychopharmacol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="428" to="433" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b58">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Wöhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Silverman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Scattoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Saxena</surname></persName>
+		</author>
+		<title level="a">Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2</title>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">251</biblScope>
+			<biblScope unit="page" from="50" to="64" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

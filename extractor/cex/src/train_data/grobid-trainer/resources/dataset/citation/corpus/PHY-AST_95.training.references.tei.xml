@@ -1,0 +1,1300 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="series" xml:id="b0">
+	<monogr>
+		
+		<author>
+			<persName><forename>S</forename><surname>Nolte</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Schrempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Dausinger</surname></persName>
+		</author>
+		<title level="m">Ultrashort Pulse Laser Technology</title>
+	</monogr>
+	<series>
+		<title level="s">Springer Series in Optical Sciences</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</series>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><forename type="last">E</forename><surname>Baer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Gingras</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Witzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Femtosecond laser oscillators for high-field science</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="599" to="604" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Klenke</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Steinkopff</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Tünnermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Limpert</surname></persName>
+		</author>
+		<title level="a">3.5 kW coherently combined ultrafast fiber laser</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="6037" to="6040" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Russbueldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Mans</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Weitenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Poprawe</surname></persName>
+		</author>
+		<title level="a">Compact diode-pumped 11 kW Yb:YAG Innoslab femtosecond amplifier</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="4169" to="4171" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>J-P</forename><surname>Negel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Loescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Killi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Graf</surname></persName>
+		</author>
+		<title level="a">Ultrafast thin-disk multipass laser amplifier delivering 1.4 kW (4.7 mJ, 1030 nm) average power converted to 820 W at 515 nm and 234 W at 343 nm</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="21064" to="21077" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename>J-P</forename><surname>Negel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Loescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Killi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Thomas</forename><surname>Graf</surname></persName>
+		</author>
+		<title level="a">Second Generation Thin-Disk Multipass Amplifier Delivering Picosecond Pulses with 2 kW of Average Output Power</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lasers Congress 2016 (ASSL, LSC, LAC), OSA Technical Digest (online)</title>
+		<imprint>
+			<publisher>Optical Society of America</publisher>
+			<date when="2016">2016</date>
+			<biblScope unit="volume">ATu4A.5</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Giesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Hügel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Wittig</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Brauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Opower</surname></persName>
+		</author>
+		<title level="a">Scalable concept for diode-pumped high-power solid-state lasers</title>
+	</analytic>
+	<monogr>
+		<title level="j">A Appl. Phys. B: Lasers Opt.</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="365" to="372" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Nubbemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Kaumanns</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ueffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Gorjan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Alismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Fattahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Pronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Barros</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Major</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Metzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Krausz</surname></persName>
+		</author>
+		<title level="a">1 kW, 200 mJ picosecond thin-disk laser system</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1381" to="1384" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Caves</surname></persName>
+		</author>
+		<title level="a">Quantum limits on noise in linear amplifiers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D.</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1817" to="1839" />
+			<date when="1982">1982</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schriber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Sudmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Toward Millijoule-Level High-Power Ultrafast Thin-Disk Oscillators</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Sel. Top. Quantum Electron.</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="106" to="123" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Compact extreme ultraviolet source at megahertz pulse repetition rate with a low-noise ultrafast thin-disk laser oscillator</title>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="980" to="984" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Hekmat</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Mansourzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Fobbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Aslani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<title level="a">Optical rectification of a 100 W average power mode-locked thin-disk oscillator</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="5909" to="5912" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Labaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Gaponenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Wittwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Paradis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Modsching</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Merceron</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Graumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Kränkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<title level="a">Extreme ultraviolet light source at a megahertz repetition rate based on high-harmonic generation inside a mode-locked thin-disk laser oscillator</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="5170" to="5173" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Sartorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Weitenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Vernaleken</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Russbueldt</surname></persName>
+		</author>
+		<title level="a">Nonlinear pulse compression in a multi-pass cell</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="4511" to="4514" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Poetzlberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Pervak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Pronin</surname></persName>
+		</author>
+		<title level="a">All-solid-state multipass spectral broadening to sub-20 fs</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="4643" to="4646" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Aus Der Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Spühler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Paschotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Hövel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Erhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Karszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Giesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">16.2-W average power from a diode-pumped femtosecond Yb:YAG thin disk laser</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="859" to="861" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Brunner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Innerhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Paschotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Usami</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kurimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Kitamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Arisholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Powerful red-green-blue laser source pumped with a mode-locked thin disk laser</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="1921" to="1923" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Grange</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Pulse energy scaling to 5 μJ from a femtosecond thin disk laser</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2728" to="2730" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Zawischa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Killi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Dekorsy</surname></persName>
+		</author>
+		<title level="a">Mode-locked Yb:YAG thin-disk oscillator with 41 µJ pulse energy at 145 W average infrared power and high power frequency conversion</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="9698" to="9704" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename >F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">H</forename><surname>Heckl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><forename type="last">E</forename><surname>Baer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schriber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">275 W average output power from a femtosecond thin disk oscillator operated in a vacuum environment</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="23535" to="23541" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schriber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Ultrafast thin-disk laser with 80 μJ pulse energy and 242 W of average power</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="12" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Pronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Grasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Pervak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Boehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Kalashnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Apolonski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Krausz</surname></persName>
+		</author>
+		<title level="a">High-power 200 fs Kerr-lens mode-locked Yb:YAG thin-disk oscillator</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="4746" to="4748" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Pervak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Fedulova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Kalashnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Apolonskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Pronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Krausz</surname></persName>
+		</author>
+		<title level="a">Energy scaling of Kerr-lens mode-locked thin-disk oscillators</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<title level="j" type="abbrev"></title>
+		<idno type="ISSN">0146-9592</idno>
+		<idno type="ISSNe">1539-4794</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="6442" to="6445" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Poetzlberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gröbmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Brons</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Pronin</surname></persName>
+		</author>
+		<title level="a">Kerr-lens mode-locked thin-disk oscillator with 50% output coupling rate</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett.</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="4227" to="4230" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Magni</surname></persName>
+		</author>
+		<title level="a">Multielement stable resonators containing a variable lens</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. A</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1962" to="1969" />
+			<date when="1987">1987</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>S-S</forename><surname>Schad</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Gottwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ackermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Scharun</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Killi</surname></persName>
+		</author>
+		<title level="a">Recent development of disk lasers at TRUMPF</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. SPIE</title>
+		<imprint>
+			<date when="2016">2016</date>
+			<biblScope unit="volume">9726</biblScope>
+			<biblScope unit="page">972615</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Saltarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Graumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Self-phase modulation cancellation in a high-power ultrafast thin-disk laser oscillator</title>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1603" to="1606" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Kartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Soliton mode-locking with saturable absorbers</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Select. Topics Quantum Electron.</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="540" to="556" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Zengerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><forename type="last">E</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schriber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Mangold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Follman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Aspelmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Optimized SESAMs for kilowatt-level ultrafast lasers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="10512" to="10526" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Saltarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Graumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Gas-lens effect in kW-class thin-disk lasers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="12648" to="12659" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Schriber</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Mangold</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">H</forename><surname>Heckl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><forename type="last">E</forename><surname>Baer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">SESAMs for High-Power Oscillators: Design Guidelines and Damage Thresholds</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Select. Topics Quantum Electron.</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="41" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><forename type="middle">H</forename><forename type="last">C</forename><surname>Maas</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Rudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A-R</forename><surname>Bellancourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Iwaniuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Marchese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Südmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">High precision optical characterization of semiconductor saturable absorber mirrors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="7571" to="7579" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Herrmann</surname></persName>
+		</author>
+		<title level="a">Theory of Kerr-lens mode locking: role of self-focusing and radially varying gain</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. B</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="498" to="512" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Graumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Diebold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><forename type="last">E</forename><surname>Alfieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Emaury</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Deppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Golling</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Sutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Kränkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Saraceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Keller</surname></persName>
+		</author>
+		<title level="a">Peak-power scaling of femtosecond Yb:Lu2O3 thin-disk lasers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="22519" to="22536" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Piehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Wittmüss</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Sawodny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Graf</surname></persName>
+		</author>
+		<title level="a">Deformable mirrors for intra-cavity use in high-power thin-disk lasers</title>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="4254" to="4267" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

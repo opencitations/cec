@@ -1,0 +1,1433 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+		<bibl type="article" xml:id="b0">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Algers</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Bertoni</surname>
+						<forename>G</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Broom</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hartung</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Lidfors</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Metz</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Munksgaard</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Pina</surname>
+						<forename type="first">T</forename><forename type="middle">N</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Oltenacu</surname>
+						<forename>P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rehage</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rushen</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<title level="a">Scientific report on the effects of farming systems on dairy cow welfare and disease</title>
+			</analytic>
+			<monogr>
+				<title level="j">Annex to the EFSA Journal</title>
+				<imprint>
+					<date when="2009">2009</date>
+					<biblScope unit="volume">1143</biblScope>
+					<biblScope unit="page" from="114" to="284" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="article" xml:id="b1">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Andreasen</surname>
+						<forename type="first">S</forename><forename type="middle">N</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Wemelsfelder</surname>
+						<forename>F</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sandoe</surname>
+						<forename>P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Forkman</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<title level="a">The correlation of qualitative behavior assessments with Welfare Quality® protocol outcomes in on-farm welfare assessment of dairy cattle</title>
+			</analytic>
+			<monogr>
+				<title level="j">Applied Animal Behaviour Science</title>
+				<imprint>
+					<date when="2013">2013</date>
+					<biblScope unit="volume">143</biblScope>
+					<biblScope unit="page" from="9" to="17" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b2">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Armbrecht</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Lambertz</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Albers</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Gauly</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<title level="a">Does access to pasture affect claw condition and health in dairy cows?</title>
+			</analytic>
+			<monogr>
+				<title level="j">Veterinary Record</title>
+				<imprint>
+					<date when="2018">2018</date>
+					<biblScope unit="volume">182</biblScope>
+					<biblScope unit="page" from="79" to="79" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b3">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Burow</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rousing</surname>
+						<forename>T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Thomsen</surname>
+						<forename type="first">P</forename><forename type="second">T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Otten</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sørensen</surname>
+						<forename type="first">J</forename><forename type="second">T</forename>
+					</persName>
+				</author>
+				<title level="a">Effect of grazing on the cow welfare of dairy herds evaluated by a multidimensional welfare index.</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal</title>
+				<imprint>
+					<date when="2013">2013a</date>
+					<biblScope unit="volume">7</biblScope>
+					<biblScope unit="page" from="834" to="842" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b4">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Burow</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Thomsen</surname>
+						<forename type="first">P</forename><forename type="second">T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rousing</surname>
+						<forename>T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sørensen</surname>
+						<forename type="first">J</forename><forename type="second">T</forename>
+					</persName>
+				</author>
+				<title level="a">Daily grazing time as a risk factor for alterations at the hock joint integument in dairy cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal</title>
+				<imprint>
+					<date when="2013">2013b</date>
+					<biblScope unit="volume">7</biblScope>
+					<biblScope unit="page" from="160" to="166" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b5">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Coignard</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Guatteo</surname>
+						<forename>R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Veissier</surname>
+						<forename>I</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Leh&#xE9;bel</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hoogveld</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Mounier</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Bareille</surname>
+						<forename>N</forename>
+					</persName>
+				</author>
+				<title level="a">Does milk yield reflect the level of welfare in dairy herds?</title>
+			</analytic>
+			<monogr>
+				<title level="j">The Veterinary Journal</title>
+				<imprint>
+					<date when="2013">2013</date>
+					<biblScope unit="volume">199</biblScope>
+					<biblScope unit="page" from="184" to="187" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="article" xml:id="b6">
+			<analytic>
+				<author>
+					<persName>
+						<surname>De Graaf</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Ampe</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Buijs</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Andreasen</surname>
+						<forename type="first">S</forename><forename type="middle">N</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>De Boyer des</surname>
+						<forename>R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>van Eerdenburg</surname>
+						<forename type="first">F</forename><forename type="middle">J</forename><forename type="middle">C</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Haskell</surname>
+						<forename type="first">M</forename><forename type="middle">J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Kirchner</surname>
+						<forename type="first">M</forename><forename type="middle">K</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Mounier</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Radeski</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Winckler</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Bijttebier</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Lauwers</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Verbeke</surname>
+						<forename>W</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Tuyttens</surname>
+						<forename type="first">F</forename><forename type="middle">A</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<title level="a">Sensitivity of the integrated Welfare Quality® scores to changing values of individual dairy cattle welfare measures</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal Welfare</title>
+				<imprint>
+					<date when="2018">2018</date>
+					<biblScope unit="volume">27</biblScope>
+					<biblScope unit="page" from="157" to="166" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b7">
+			<analytic>
+				<author>
+					<persName>
+						<surname>De Graaf</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Ampe</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Tuyttens</surname>
+						<forename type="first">F</forename><forename type="middle">A</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<title level="a">Assessing dairy cow welfare at the beginning and end of the indoor period using the Welfare Quality® protocol.</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal Welfare</title>
+				<imprint>
+					<date when="2017">2017</date>
+					<biblScope unit="volume">26</biblScope>
+					<biblScope unit="page" from="213" to="221" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b8">
+			<analytic>
+				<author>
+					<persName>
+						<surname>De Vries</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Bokkers</surname>
+						<forename type="first">E</forename><forename type="middle">A</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>van Schaik</surname>
+						<forename>G</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Boltreau</surname>
+						<forename>R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Engel</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Dijkstra</surname>
+						<forename>T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>de Boer</surname>
+						<forename type="first">I</forename><forename type="middle">J</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<title level="a">Evaluating results of the Welfare Quality multi-criteria evaluation model for classification of dairy cattle welfare at the herd level</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2013">2013</date>
+					<biblScope unit="volume">96</biblScope>
+					<biblScope unit="page" from="1" to="10" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b9">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Dippel</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Doleza</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Brenninkmeyer</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Brinkmann</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>March</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Knierim</surname>
+						<forename>U</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Winckler</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<title level="a">Risk factors for lameness in cubicle housed Austrian Simmental dairy cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Preventive Veterinary Medicine</title>
+				<imprint>
+					<date when="2009">2009</date>
+					<biblScope unit="volume">90</biblScope>
+					<biblScope unit="page" from="102" to="112" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b10">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Fleischer</surname>
+						<forename>P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Metzner</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Beyerbach</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hoedemaker</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Klee</surname>
+						<forename>W</forename>
+					</persName>
+				</author>
+				<title level="a">The relationship between milk yield and the incidence of some diseases in dairy cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2001">2001</date>
+					<biblScope unit="volume">84</biblScope>
+					<biblScope unit="page" from="2025" to="2035" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b11">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Forkman</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Keeling</surname>
+						<forename type="first">L</forename><forename type="middle">J</forename>
+					</persName>
+				</author>
+				<title level="a">Assessment of animal welfare measures for dairy cattle, beef bulls and veal calves</title>
+			</analytic>
+			<monogr>
+				<title level="m">Welfare Quality® Reports</title>
+				<imprint>
+					<date when="2009">2009</date>
+					<biblScope unit="volume">11</biblScope>
+					<biblScope unit="page" from="297" to="" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b12">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Gieseke</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Lambertz</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Gauly</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<title level="a">Relationship between herd size and animal welfare in dairy cattle</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2018">2018</date>
+					<biblScope unit="volume">101</biblScope>
+					<biblScope unit="page" from="1" to="15" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b13">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Heath</surname>
+						<forename type="first">C</forename><forename type="middle">A</forename><forename type="last">E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Browne</surname>
+						<forename type="first">W</forename><forename type="middle">J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Mullan</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Main</surname>
+						<forename type="first">D</forename><forename type="middle">C</forename><forename type="last">J</forename>
+					</persName>
+				</author>
+				<title level="a">Navigating the iceberg: reducing the number of parameters within the Welfare Quality® Assessment protocol for dairy cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal</title>
+				<imprint>
+					<date when="2014">2014</date>
+					<biblScope unit="volume">8</biblScope>
+					<biblScope unit="page" from="1978" to="1986" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b14">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Hernandez-Mendo</surname>
+						<forename>O</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>von Keyserlingk</surname>
+						<forename type="first">M</forename><forename type="middle">A</forename><forename type="last">G</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Veira</surname>
+						<forename type="first">D</forename><forename type="middle">M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Weary</surname>
+						<forename type="first">D</forename><forename type="middle">M</forename>
+					</persName>
+				</author>
+				<title level="a">Effects of pasture on lameness in dairy cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2007">2007</date>
+					<biblScope unit="volume">90</biblScope>
+					<biblScope unit="page" from="1209" to="1214" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="grey-literature" xml:id="b15">
+			<monogr>
+				<author>
+					<persName>
+						<surname>Kanswohl</surname>
+						<forename>N</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sanftleben</surname>
+						<forename>P</forename>
+					</persName>
+				</author>
+				<title level="m">Analyse und Bewertung von Hoch- und Tiefboxen für Milchrinder aus arbeitswirtschaftlicher, ethologischer, hygienischer und ökonomischer Sicht</title>
+				<imprint>
+					<date when="2006">2006</date>
+				</imprint>
+				<note>Research Paper of Research Institute of Agriculture and Fisheries of Mecklenburg Vorpommern, Germany</note>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b16">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Kendall</surname>
+						<forename type="first">P</forename><forename type="middle">E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Nielsen</surname>
+						<forename type="first">P</forename><forename type="middle">P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Webster</surname>
+						<forename type="first">J</forename><forename type="middle">R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Verkerk</surname>
+						<forename type="first">G</forename><forename type="middle">A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Littlejohn</surname>
+						<forename type="first">R</forename><forename type="middle">P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Matthews</surname>
+						<forename type="first">R</forename><forename type="middle">W</forename>
+					</persName>
+				</author>
+				<title level="a">The effects of providing shade to lactating dairy cows in a temperate climate</title>
+			</analytic>
+			<monogr>
+				<title level="j">Livestock Science</title>
+				<imprint>
+					<date when="2006">2006</date>
+					<biblScope unit="volume">103</biblScope>
+					<biblScope unit="page" from="148" to="157" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="article" xml:id="b17">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Knaus</surname>
+						<forename>W</forename>
+					</persName>
+				</author>
+				<title level="a">Dairy cows trapped between performance demands and adaptability</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of the Science of Food and Agriculture</title>
+				<imprint>
+					<date when="2009">2009</date>
+					<biblScope unit="volume">89</biblScope>
+					<biblScope unit="page" from="1107" to="1114" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b18">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Krohn</surname>
+						<forename>CC</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Munksgaard</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<title level="a">Behaviour of dairy cows kept in extensive (loose housing/pasture) or intensive (tie stall) environments</title>
+			</analytic>
+			<monogr>
+				<title level="j">Applied Animal Behavior Science</title>
+				<imprint>
+					<date when="1993">1993</date>
+					<biblScope unit="volume">37</biblScope>
+					<biblScope unit="page" from="1" to="16" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="article" xml:id="b19">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Lambertz</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sanker</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Gauly</surname>
+						<forename>M</forename>
+					</persName>
+				</author>
+				<title level="a">Climatic effects on milk production traits and somatic cell score in lactating Holstein-Frisian cows in different housing systems</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2014">2014</date>
+					<biblScope unit="volume">97</biblScope>
+					<biblScope unit="page" from="319" to="329" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="proceeding" xml:id="b20">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Leisen</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<title level="a">Weidebasierte Milchviehhaltung in Deutschland</title>
+			</analytic>
+			<monogr>
+				<title level="m">Proceedings of the International Conference on Grasland- and Pasture-based Milk Production</title>
+				
+				<imprint>
+					<date from="2014-08-21" to="2014-08-22">21–22 August 2014</date>
+					<biblScope unit="page" from="98" to="101" />
+					<pubPlace>Switzerland</pubPlace>
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b21">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Motupalli</surname>
+						<forename type="first">P</forename><forename type="middle">R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Sinclair</surname>
+						<forename type="first">L</forename><forename type="middle">A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Charlton</surname>
+						<forename type="first">G</forename><forename type="middle">L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Bleach</surname>
+						<forename type="first">E</forename><forename type="middle">C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rutter</surname>
+						<forename type="first">S</forename><forename type="middle">M</forename>
+					</persName>
+				</author>
+				<title level="a">Preference and behavior of lactating dairy cows given free access to pasture at two herbage masses and two distances</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Animal Science</title>
+				<imprint>
+					<date when="2014">2014</date>
+					<biblScope unit="volume">92</biblScope>
+					<biblScope unit="page" from="5175" to="5184" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="chapter" xml:id="b22">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Phillips</surname>
+						<forename type="first">C</forename><forename type="middle">J</forename><forename type="last">C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Beerda</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Knierim</surname>
+						<forename>U</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Waiblinger</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Lidfors</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Krohn</surname>
+						<forename type="first">C</forename><forename type="middle">C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Canali</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Valk</surname>
+						<forename>H</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Veissier</surname>
+						<forename>I</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hopster</surname>
+						<forename>H</forename>
+					</persName>
+				</author>
+				<title level="a">A review of the impact of housing on dairy cow behaviour, health and welfare</title>
+			</analytic>
+			<monogr>
+				<title level="m">Livestock housing: modern management to ensure optimal health and welfare of farm animals</title>
+				<editor>
+					<persName>
+						<surname>Aland</surname>
+						<forename>A</forename>
+					</persName>
+				</editor>
+				<editor>
+					<persName>
+						<surname>Banhazi</surname>
+						<forename>T</forename>
+					</persName>
+				</editor>
+				<imprint>
+					<publisher>Wageningen Academic Publishers</publisher>
+					<pubPlace>Wageningen, The Netherlands</pubPlace>
+					<date when="2013">2013</date>
+					<biblScope unit="page" from="37" to="54" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="technical-report" xml:id="b23">
+			<monogr>
+				<author>
+					<persName>
+						<surname>Reijs</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Daatselaar</surname>
+						<forename>C</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Helming</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Jager</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Beldman</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<title level="m">Grazing dairy cows in north-west Europe</title>
+				<imprint>
+					<publisher>LEI Wageningen UR</publisher>
+					<date when="2013">2013</date>
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="proceeding" xml:id="b24">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Thomet</surname>
+						<forename>P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Ineichen</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Jörg</surname>
+						<forename>H</forename>
+					</persName>
+				</author>
+				<title level="a">Züchten von Kühen für eine effiziente graslandbasierte Milchproduktion</title>
+			</analytic>
+			<monogr>
+				<title level="m">Proceedings of the International Conference on Grasland- and Pasture-Based Milk Production</title>
+				<imprint>
+					<date from="2014-08-21" to="2014-08-22">21–22 August 2014</date>
+					<biblScope unit="page" from="61" to="70" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="article" xml:id="b25">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Tucker</surname>
+						<forename type="first">C</forename><forename type="middle">B</forename><forename type="last">A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Rogers</surname>
+						<forename type="first">A</forename><forename type="middle">R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Schütz</surname>
+						<forename type="first">K</forename><forename type="middle">E</forename>
+					</persName>
+				</author>
+				<title level="a">Effect of solar radiation on dairy cattle behaviour, use of shade and body temperature in a pasture-based system</title>
+			</analytic>
+			<monogr>
+				<title level="j">Applied Animal Behaviour Science</title>
+				<imprint>
+					<date when="2008">2008</date>
+					<biblScope unit="volume">109</biblScope>
+					<biblScope unit="page" from="141" to="154" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b26">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Tuyttens</surname>
+						<forename type="first">F</forename><forename type="middle">A</forename><forename type="last">M</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>de Graaf</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Heerkens</surname>
+						<forename type="first">J</forename><forename type="middle">L</forename><forename type="last">T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Jacobs</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Nalon</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Ott</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Stadig</surname>
+						<forename>L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>van Laer</surname>
+						<forename>E</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Ampe</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<title level="a">Observer bias in animal behaviour research: can we believe what we score, if we score what we believe?</title>
+			</analytic>
+			<monogr>
+				<title level="j">Animal Behaviour</title>
+				<imprint>
+					<date when="2014">2014</date>
+					<biblScope unit="volume">90</biblScope>
+					<biblScope unit="page" from="273" to="280" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="proceeding" xml:id="b27">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Van den Pol-van Dasselaar</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>de Vliegher</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hennessy</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Isselstein</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Peyraud</surname>
+						<forename>J-L</forename>
+					</persName>
+				</author>
+				<title level="a">The future of grazing</title>
+			</analytic>
+			<monogr>
+				<title level="m">Proceedings of the 3rd Meeting of the EGF Working Group ‘Grazing’</title>
+				<imprint>
+   					<publisher>Wageningen UR (University and Research Centre) Livestock Research</publisher>
+					<date when="2015">2015</date>
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b28">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Washburn</surname>
+						<forename type="first">S</forename><forename type="middle">P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>White</surname>
+						<forename type="first">S</forename><forename type="middle">L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Green</surname>
+						<forename type="first">J</forename><forename type="middle">T</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Benson</surname>
+						<forename type="first">G</forename><forename type="middle">A</forename>
+					</persName>
+				</author>
+				<title level="a">Reproduction, mastitis, and body condition of seasonally calved Holstein and Jersey cows in confinement or pasture systems</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2002">2002</date>
+					<biblScope unit="volume">85</biblScope>
+					<biblScope unit="page" from="105" to="111" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b29">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Wechsler</surname>
+						<forename>B</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Schaub</surname>
+						<forename>J</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Friedli</surname>
+						<forename>K</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Hauser</surname>
+						<forename>R</forename>
+					</persName>
+				</author>
+				<title level="a">ehaviour and leg injuries in dairy cows kept in cubicle systems with straw bedding or soft lying mats</title>
+			</analytic>
+			<monogr>
+				<title level="j">Applied Animal Behaviour Science</title>
+				<imprint>
+					<date when="2000">2000</date>
+					<biblScope unit="volume">69</biblScope>
+					<biblScope unit="page" from="189" to="197" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="proceeding" xml:id="b30">
+			<analytic>
+				<author>
+					<persName>
+						<surname>Weiß</surname>
+						<forename>D</forename>
+					</persName>
+				</author>
+				<title level="a">Imagewirkung von weidenden Kühen</title>
+			</analytic>
+			<monogr>
+				<title level="m">Proceedings of the International Conference on Grasland- and Pasture-Based Milk Production</title>
+				<imprint>
+					<date from="2014-08-21" to="2014-08-22">21–22 August 2014</date>
+					<biblScope unit="page" from="43" to="48" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b31">	
+			<analytic>
+				<author>
+					<persName>
+						<surname>Weinrich</surname>
+						<forename>R</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Kühl</surname>
+						<forename>S</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Zühlsdorf</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Spiller</surname>
+						<forename>A</forename>
+					</persName>
+				</author>
+				<title level="a">Consumer attitudes in Germany towards different dairy housing systems and their implications for the marketing of pasture raised milk</title>
+			</analytic>
+			<monogr>
+				<title level="j">International Food and Agribusiness Management Review</title>
+				<imprint>
+					<date when="2014">2014</date>
+					<biblScope unit="volume">17</biblScope>
+					<biblScope unit="page" from="205" to="222" />
+				</imprint>
+			</monogr>
+		</bibl>
+		
+		<bibl type="standard" xml:id="b32">
+			<monogr>
+				<author>Welfare Quality 2012</author>
+				<title level="m">Welfare Quality® assessment protocol for cattle applied to dairy cows</title>
+				<imprint>
+					<date when="2012">2012</date>
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+		<bibl type="article" xml:id="b33">
+			<analytic>
+				<author>
+					<persName>
+						<surname>White</surname>
+						<forename type="first">S</forename><forename type="middle">L</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Benson</surname>
+						<forename type="first">G</forename><forename type="middle">A</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Washburn</surname>
+						<forename type="first">S</forename><forename type="middle">P</forename>
+					</persName>
+				</author>
+				<author>
+					<persName>
+						<surname>Green</surname>
+						<forename type="first">J</forename><forename type="middle">T</forename><forename type="last">J</forename>
+					</persName>
+				</author>
+				<title level="a">Milk production and economic measures in confinement or pasture systems using seasonally calved Holstein and Jersey cows</title>
+			</analytic>
+			<monogr>
+				<title level="j">Journal of Dairy Science</title>
+				<imprint>
+					<date when="2002">2002</date>
+					<biblScope unit="volume">85</biblScope>
+					<biblScope unit="page" from="62" to="104" />
+				</imprint>
+			</monogr>	
+		</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

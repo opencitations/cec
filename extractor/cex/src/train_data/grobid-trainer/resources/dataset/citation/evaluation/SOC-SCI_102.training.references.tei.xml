@@ -1,0 +1,1357 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="book" xml:id="b0">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Ani</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="m">Yurugu: an African-centered critique of European culture, thought and behavior</title>
+			<imprint>
+				<publisher>Africa World Press</publisher>
+				<pubPlace>Trenton, NJ</pubPlace>
+				<date when="1994">1994</date>
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Azibo</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">The Azibo Nosology II: Epexegesis and 25th anniversary update: 55 culture-focused mental disorders suffered by African descent people</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Pan African Studies</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="32" to="176" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b2">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Asante</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="m">The Afrocentric idea</title>
+			<imprint>
+				<publisher>Temple University Press</publisher>
+				<pubPlace>Philadephia</pubPlace>
+				<date when="1987">1987</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bent-Goodley</surname>
+				</persName>
+			</author>
+			<title level="a">An African-centered approach to domestic violence</title>
+		</analytic>
+		<monogr>
+			<title level="j">Families in Society</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">86</biblScope>
+				<biblScope unit="page" from="197" to="206" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Betz</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mihalic</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pinto</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raffa</surname>
+					<forename type="first">R</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Could a common biochemical mechanism underlie addictions?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Clinical Pharmacy and Therapeutics</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="11" to="20" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Boyd-Franklin</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">Incorporating spirituality and religion into the treatment ofAfrican Americana clients</title>
+		</analytic>
+		<monogr>
+			<title level="j">Counseling Psychologist</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page" from="11" to="20" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brandon</surname>
+					<forename type="first">T</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Herzog</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Irvin</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gwaltney</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Cognitive and social learning models of drug dependence: implications for the assessment oftobacco dependence in adolescents</title>
+		</analytic>
+		<monogr>
+			<title level="j">Societyfor the Study of Addiction</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">99</biblScope>
+				<biblScope unit="page" from="51" to="77" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Brookins</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Afrikan/Community psychology: Exploring the foundations of a progressive paradigm</title>
+		</analytic>
+		<monogr>
+			<title level="m">Advances in African American psychology</title>
+			<editor>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">R</forename><forename type="middle">L</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Cobb &amp; Henry Publishers</publisher>
+				<pubPlace>Hampton, VA</pubPlace>
+				<date when="1999">1999</date>
+				<biblScope unit="page" from="27" to="50" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Clarke</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">African American historians and the reclaiming ofAfrican history</title>
+		</analytic>
+		<monogr>
+			<title level="m">African culture</title>
+			<editor>
+				<persName>
+					<surname>Asante</surname>
+					<forename type="first">M</forename><forename type="middle">K</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Asante</surname>
+					<forename type="first">K</forename><forename type="middle">W</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Africa World Press</publisher>
+				<pubPlace>Trenton, NJ</pubPlace>
+				<date when="1990">1990</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cloninger</surname>
+					<forename type="first">C</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Neurogenetic adaptive mechanisms in alcoholism</title>
+		</analytic>
+		<monogr>
+			<title level="j">Science</title>
+			<imprint>
+				<date when="1987">1987</date>
+				<biblScope unit="volume">236</biblScope>
+				<biblScope unit="page" from="410" to="436" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dean</surname>
+					<forename type="first">R</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="a">The myth of cross-cultural competence</title>
+		</analytic>
+		<monogr>
+			<title level="j">Families in Society</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">82</biblScope>
+				<biblScope unit="page" from="623" to="630" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="grey-literature" xml:id="b11">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Diallo</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="m">Dombaafolee</title>
+			<note>CD</note>
+			<imprint>
+				<publisher>Relaxation Company</publisher>
+				<date when="1998">1998</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b12">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Dzobo</surname>
+					<forename type="first">N</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="m">African proverbs</title>
+			<imprint>
+				<publisher>Life Press, Ltd</publisher>
+				<pubPlace>Accra, Ghana</pubPlace>
+				<date when="1997">1997</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Harvey</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rauch</surname>
+					<forename type="first">J</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Africentric youth and family rites of passage program: Promoting resilience among at-risk African American youths</title>
+		</analytic>
+		<monogr>
+			<title level="j">Social Work</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="65" to="74" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jackson</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Afrocentric treatment of African American women and their children in residential chemical dependency program</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Black Studies</title>
+			<imprint>
+				<date when="1995">1995</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="17" to="30" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Racism, a cultural analysis of the problem</title>
+		</analytic>
+		<monogr>
+			<title level="m">Black psychology</title>
+			<editor>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">R</forename><forename type="middle">L</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Cobb &amp; Henry</publisher>
+				<pubPlace>Berkeley, CA</pubPlace>
+				<date when="1991">1991</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kumpfer</surname>
+					<forename type="first">K</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alvarado</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Family-strengthening approaches for the prevention of youth problem behaviors</title>
+		</analytic>
+		<monogr>
+			<title level="j">American Psychologist</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="457" to="466" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lilja</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Larsson</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wilhelmsen</surname>
+					<forename type="first">B</forename><forename type="middle">U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hamilton</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Perspectives on preventing adolescent substance use of misuse</title>
+		</analytic>
+		<monogr>
+			<title level="j">Substance Use &amp; Misuse</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">35</biblScope>
+				<biblScope unit="page" from="1491" to="1530" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Longshore</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grills</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Annon</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grady</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Promoting recovery from drug abuse, an Africentric intervention</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Black Studies</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="319" to="333" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Longshore</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grills</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Anglin</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Annon</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Desire for help among African American drug users</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Drug Issues</title>
+			<imprint>
+				<date when="1997">1997</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="755" to="771" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b20">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Martin</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Spirituality and the black helping tradition</title>
+			<imprint>
+				<publisher>N A S W Press</publisher>
+				<pubPlace>Washington D.C.</pubPlace>
+				<date when="2002">2002</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mazama</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Afrocentricity and African spirituality</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Black Studies</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">33</biblScope>
+				<biblScope unit="page" from="218" to="234" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b22">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Mbiti</surname>
+					<forename type="first">J</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="m">Introduction to African religions</title>
+			<imprint>
+				<publisher>Praeger</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="1975">1975</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b23">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Mensah</surname>
+					<forename type="first">A</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="m">Rites of passage and initiation processes with Akan culture</title>
+			<note>Unpublished manuscript</note>
+			<imprint>
+				<date when="1993">1993</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mfuni</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Counseling people to consciousness</title>
+		</analytic>
+		<monogr>
+			<title level="j">New York Amsterdam News</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">96</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b25">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Moduka</surname>
+					<forename type="first">M</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<title level="m">Affirming unity in diversity in education: healing with ubuntu</title>
+			<imprint>
+				<publisher>Juta &amp; Co</publisher>
+				<pubPlace>Capetown</pubPlace>
+				<date when="1999">1999</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Moore</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Madison-Comore</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moore</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">An Afrocentric approach to substance abuse treatment with adolescent African American males: two case examples</title>
+		</analytic>
+		<monogr>
+			<title level="j">The Western Journal of Black Studies</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="219" to="230" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Myers</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Substance Use Among Rural African American Adolescents: Identifying Risk and Protective Factors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Child &amp; Adolescent Social Work Journal</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="79" to="93" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Myers</surname>
+					<forename type="first">L</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Speight</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Refraiming mental health psychological well-being among persons of African descent: African/Black psychology meeting the challenges of fractured social and cultural realities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Pan African Studies</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">3</biblScope>
+				<biblScope unit="page" from="66" to="82" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Myers</surname>
+					<forename type="first">L</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="m">An Afrocentric worldview: Introduction to an optimalpsychology</title>
+			<imprint>
+				<publisher>Kendall/Hunt Publishers</publisher>
+				<pubPlace>Dubuque, Iowa</pubPlace>
+				<date when="1988">1988</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Nobles</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goddard</surname>
+					<forename type="first">L</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">An African-centered model of prevention for African American youth at high risk</title>
+			<imprint>
+				<date when="1993">1993</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Nobles</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goddard</surname>
+					<forename type="first">L</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cavil</surname>
+					<forename type="first">W</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>George</surname>
+					<forename type="first">P</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<title level="m">African American families</title>
+			<imprint>
+				<publisher>Institute for the Advancement of the Black Family</publisher>
+				<pubPlace>Oakland, CA</pubPlace>
+				<date when="1987">1987</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Nobles</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="m">African psychology</title>
+			<imprint>
+				<publisher>Institute for the Advancement of the Black Family</publisher>
+				<pubPlace>Oakland, CA</pubPlace>
+				<date when="1986">1986</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nobles</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Alienation, human transformation and adolescent drug use: Toward a conceptualization of the problem</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of drug issues</title>
+			<imprint>
+				<date when="1984">1984</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="243" to="252" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="chapter" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nobles</surname>
+					<forename type="first">W</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Extended self: Rethinking the so-called Negro self-concept</title>
+		</analytic>
+		<monogr>
+			<title level="m">Black psychology</title>
+			<editor>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">R</forename><forename type="middle">L</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Cobb &amp; Henry</publisher>
+				<pubPlace>Berkeley, CA</pubPlace>
+				<date when="1999">1999</date>
+				<biblScope unit="page" from="295" to="305" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b35">
+		<monogr>
+			<author>Office of Substance Abuse Services</author>
+			<title level="m">Reviews to use, current literature reviews for the substance abuse professional</title>
+			<imprint>
+				<publisher>U.S. Department of Mental Health, Mental Retardation and Substance Abuse Services</publisher>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Resnicow</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Soler</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Braithwaite</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ahluwalia</surname>
+					<forename>Jasjit</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Butler</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Cultural sensitivity in substance use prevention</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Community Psychology</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">28</biblScope>
+				<biblScope unit="page" from="271" to="290" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Rowe</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grills</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">African-centered drug treatment: An alternative conceptual paradigm for drug counseling with African American clients</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Psychoactive Drugs</title>
+			<imprint>
+				<date when="1993">1993</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="21" to="33" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b38">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Schiele</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="m">Human services and the Afrocentric paradigm</title>
+			<imprint>
+				<publisher>Haworth Press</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="2000">2000</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schiele</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Afrocentricity: An emerging paradigm in social work practice</title>
+		</analytic>
+		<monogr>
+			<title level="j">Social Work</title>
+			<imprint>
+				<date when="1996">1996</date>
+				<biblScope unit="volume">41</biblScope>
+				<biblScope unit="page" from="284" to="294" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schwartz</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Smith</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Screening and assessing adolescent substance abuse: A primer for counselors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Addictions &amp; Offender Counseling</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="24" to="34" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shadel</surname>
+					<forename type="first">W</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shiffman</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Niaura</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nichter</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abrams</surname>
+					<forename type="first">D</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Current models of nicotine dependence: What is known and what is needed to advance understanding of tobacco etiology and youth</title>
+		</analytic>
+		<monogr>
+			<title level="j">Drug and Alcohol Dependence</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">59</biblScope>
+				<biblScope unit="page" from="S9" to="S22" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Shillington</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Clapp</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Adolescent substance abuse treatment outcome: The role of substance abuse problem severity, psychosocial, and treatment factors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Consulting and Clinical Psychology</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="page" from="684" to="696" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stepteau-Watson</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watson</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lawrence</surname>
+					<forename type="first">S</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Young African American Males in Reentry: An Afrocentric Cultural Approach</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Human Behavior In The Social Environment</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="658" to="665" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="unpublished" xml:id="b44">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Stepteau-Watson</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="m">Dating violence among African American adolescents: the risk andprotectivefactors</title>
+			<note>Unpublished dissertation</note>
+			<imprint>
+				<date when="2003">2003</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b45">
+		<monogr>
+			<author>Substance Abuse and Mental Health Services Administration</author>
+			<title level="m">National survey on drug use and health</title>
+			<imprint>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stewart</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Afrocentric approaches to working with African American families</title>
+		</analytic>
+		<monogr>
+			<title level="j">Families in Society</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">85</biblScope>
+				<biblScope unit="page" from="221" to="228" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b47">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tarter</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Etiology of adolescent substance abuse: a developmental perspective</title>
+		</analytic>
+		<monogr>
+			<title level="j">The American Journal on Addictions</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="171" to="191" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tolliver</surname>
+					<forename type="first">D</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">African-centered spirituality in adult education classes</title>
+		</analytic>
+		<monogr>
+			<title level="m">Travellers’Tales. Proceedings of the 31s' Annual Standing Conference on University Teaching and Research in the Education of Adults</title>
+			<editor>
+				<persName>
+					<surname>West</surname>
+					<forename>L</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Miller</surname>
+					<forename>N</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>O’Reilly</surname>
+					<forename>D</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Allen</surname>
+					<forename>R</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>University of Nottingham</publisher>
+				<pubPlace>London, UK. Boston</pubPlace>
+				<date when="2001">2001</date>
+				<biblScope unit="page" from="446" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="technical-report" xml:id="b49">
+		<monogr>
+			<author>U.S Department of Health and Human services</author>
+			<title level="m">Youth risk behavior surveillance</title>
+			<imprint>
+				<publisher>Centers for Disease Control</publisher>
+				<date when="2013">2013</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wallace</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Muroff</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Preventing substance abuse among African American children and youth. Race differences in risk factor exposure and vulnerability</title>
+		</analytic>
+		<monogr>
+			<title level="j">Journal of Primary Prevention</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">22</biblScope>
+				<biblScope unit="page" from="235" to="261" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>West</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Theories of addiction</title>
+		</analytic>
+		<monogr>
+			<title level="j">Addiction</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">96</biblScope>
+				<biblScope unit="page" from="3" to="13" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ayers</surname>
+					<forename type="first">C</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abbott</surname>
+					<forename type="first">R</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hawkins</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Catalano</surname>
+					<forename type="first">C</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">Racial differences in risk factors for delinquency and substance us among adolescents</title>
+		</analytic>
+		<monogr>
+			<title level="j">Social Work Research</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="241" to="257" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wright</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fitzpatrick</surname>
+					<forename type="first">K</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Psychosocial correlates of substance use behaviors among African American youth</title>
+		</analytic>
+		<monogr>
+			<title level="j">Adolescence</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="654" to="667" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b54">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Zona</surname>
+					<forename type="first">G</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="m">The house of the heart is neverfull and otherproverbs of Africa</title>
+			<imprint>
+				<publisher>Simon &amp; Schuster</publisher>
+				<pubPlace>New York</pubPlace>
+				<date when="1993">1993</date>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

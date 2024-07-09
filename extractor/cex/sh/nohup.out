@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/srv/web/cec/extractor/cex/main.py", line 8, in <module>
+    from combined import PDFProcessor
+  File "/srv/web/cec/extractor/cex/combined.py", line 7, in <module>
+    import spacy
+ModuleNotFoundError: No module named 'spacy'
+Traceback (most recent call last):
+  File "/srv/web/cec/extractor/cex/main.py", line 8, in <module>
+    from combined import PDFProcessor
+  File "/srv/web/cec/extractor/cex/combined.py", line 7, in <module>
+    import spacy
+ModuleNotFoundError: No module named 'spacy'
+Traceback (most recent call last):
+  File "/srv/web/cec/extractor/cex/main.py", line 10, in <module>
+    from extractor.semantic_alignment.align_headings import run
+ModuleNotFoundError: No module named 'extractor'

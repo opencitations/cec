@@ -1,0 +1,658 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="chapter" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stiles</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Feline ophthalmology</title>
+		</analytic>
+		<monogr>
+			<title level="m">Veterinary ophthalmology</title>
+			<editor>
+				<persName>
+					<surname>Gelatt</surname>
+					<forename>K</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Gilger</surname>
+					<forename>B</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>Kern</surname>
+					<forename>T</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<publisher>Wiley-Blackwell</publisher>
+				<pubPlace>Ames, IA</pubPlace>
+				<date when="2013">2013</date>
+				<biblScope unit="page" from="1477" to="1569" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Williams</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Immunopathogenesis of keratoconjunctivitis sicca in the dog</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Clin North Am Small Anim Pract</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page" from="251" to="268" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Craig</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nelson</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Azar</surname>
+					<forename type="first">D</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">TFOS DEWS II Report Executive Summary</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ocul Surf</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="802" to="812" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lim</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reilly</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thomasy</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Effects of feline herpesvirus type 1 on tear film break-up time, Schirmer tear test results, and conjunctival goblet cell density in experimentally infected cats</title>
+		</analytic>
+		<monogr>
+			<title level="j">Am J Vet Res</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">70</biblScope>
+				<biblScope unit="page" from="394" to="403" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cullen</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Njaa</surname>
+					<forename type="first">B</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Grahn</surname>
+					<forename type="first">B</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Ulcerative keratitis associated with qualitative tear film abnormalities in cats</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="197" to="204" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Grahn</surname>
+					<forename type="first">B</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sisler</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Storey</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Qualitative tear film and conjunctival goblet cell assessment of cats with corneal sequestra</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="167" to="170" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lim</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cullen</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Schirmer tear test values and tear film break-up times in cats with conjunctivitis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="305" to="310" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sebbag</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kass</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maggs</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Reference values, intertest correlations, and test-retest repeatability of selected tear film tests in healthy cats</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Am Vet Med Assoc</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">246</biblScope>
+				<biblScope unit="page" from="426" to="435" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sebbag</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pesavento</surname>
+					<forename type="first">P</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carrasco</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Feline dry eye syndrome of presumed neurogenic origin: a case report</title>
+		</analytic>
+		<monogr>
+			<title level="j">JFMS Open Rep</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">4</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Berdoulay</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>English</surname>
+					<forename type="first">R</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nadelstein</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Effect of topical 0.02% tacrolimus aqueous suspension on tear production in dogs with keratoconjunctivitis sicca</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="225" to="232" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hendrix</surname>
+					<forename type="first">D</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Adkins</surname>
+					<forename type="first">E</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ward</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">An investigation comparing the efficacy of topical ocular application of tacrolimus and cyclosporine in dogs</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Med Int</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">2011</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wagner</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Meyer-Lindenberg</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Heider</surname>
+					<forename type="first">H</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">A comparison of corneal sensitivity between healthy cats and cats with corneal sequestra</title>
+		</analytic>
+		<monogr>
+			<title level="j">Berl Munch Tierarztl Wochenschr</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">116</biblScope>
+				<biblScope unit="page" from="427" to="431" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Paepe</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Verjans</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Duchateau</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Routine health screening: findings in apparently healthy middle-aged and old cats</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Feline Med Surg</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="8" to="19" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Stern</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Siemasko</surname>
+					<forename type="first">K</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<title level="a">The role of the lacrimal functional unit in the pathophysiology of dry eye</title>
+		</analytic>
+		<monogr>
+			<title level="j">Exp Eye Res</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="409" to="416" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yoon</surname>
+					<forename type="first">K</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Im</surname>
+					<forename type="first">S</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename type="first">H</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="a">Usefulness of double vital staining with 1% fluorescein and 1% lissamine green in patients with dry eye syndrome</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cornea</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">30</biblScope>
+				<biblScope unit="page" from="972" to="976" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sebbag</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Park</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kass</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Assessment of tear film osmolarity using the TearLabTM osmometer in normal dogs and dogs with keratoconjunctivitis sicca</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="357" to="364" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Davis</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Townsend</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Tear-film osmolarity in normal cats and cats with conjunctivitis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="54" to="59" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Whittaker</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wilkie</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Simpson</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Lip commissure to eyelid transposition for repair of feline eyelid agenesis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="173" to="178" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Matheis</surname>
+					<forename type="first">F</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Walser-Reinhardt</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spiess</surname>
+					<forename type="first">B</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Canine neurogenic keratoconjunctivitis sicca: 11 cases (2006–2010)</title>
+		</analytic>
+		<monogr>
+			<title level="j">Vet Ophthalmol</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="288" to="290" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dartt</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Dysfunctional neural regulation of lacrimal gland secretion and its role in the pathogenesis of dry eye syndromes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ocul Surf</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="76" to="91" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>M’Garrech</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rousseau</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kaswin</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Impairment of lacrimal secretion in the unaffected fellow eye of patients with recurrent unilateral herpetic keratitis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ophthalmology</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">120</biblScope>
+				<biblScope unit="page" from="1959" to="1967" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+
+	</back>
+	</text>
+</TEI>

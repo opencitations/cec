@@ -1,0 +1,367 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+		<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Toda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Tsukimura</surname></persName>
+		</author>
+		<title level="a">Influence of concomitant heeled footwear when wearing a lateral wedged insole for medial compartment osteoarthritis of the knee</title>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="244" to="253" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Moskowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Nuki</surname></persName>
+		</author>
+		<title level="a">OARSI recommendations for the management of hip and knee osteoarthritis, Part II: OARSI evidence-based, expert consensus guidelines</title>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="137" to="162" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Metcalf</surname></persName>
+		</author>
+		<title level="a">Lateral wedges in knee osteoarthritis: what are their immediate clinical and biomechanical effects and can these predict a three-month clinical outcome?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="408" to="415" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wada</surname></persName>
+		</author>
+		<title level="a">Effects of disease severity on response to lateral wedged shoe insole for medial compartment knee osteoarthritis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1436" to="1441" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Santos</surname></persName>
+		</author>
+		<title level="a">Ankle anticipatory postural adjustments during gait initiation in healthy and post-stroke subjects</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="960" to="965" />
+			<date when="2015">2015</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Bennell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+		<title level="a">Delayed onset of electromyographic activity of vastus medialis obliquus relative to vastus lateralis in subjects with patellofemoral pain syndrome</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="183" to="189" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Polcyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lipsitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Kerrigan</surname></persName>
+		</author>
+		<title level="a">Age-related changes in the initiation of gait: degradation of central mechanisms for momentum generation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1582" to="1589" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Halliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Frank</surname></persName>
+		</author>
+		<title level="a">The initiation of gait in young, elderly, and Parkinson's disease subjects</title>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="8" to="14" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Elble</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Leffler</surname></persName>
+		</author>
+		<title level="a">The initiation of normal walking</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mov Disord</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="139" to="146" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Senda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hamada</surname></persName>
+		</author>
+		<title level="a">Relationship between postural balance and knee and toe muscle power in young women</title>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Med Okayama</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="189" to="195" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Freeman</surname></persName>
+		</author>
+		<title level="a">Soft tissues: a question of balance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Orthopedics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="827" to="831" />
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>De Morais Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Bértolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Gaino</surname></persName>
+		</author>
+		<title level="a">The effect of flat and textured insoles on the balance of primary care elderly people: a randomized controlled clinical trial</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Interv Aging</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="277" to="284" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Corbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Mckeon</surname></persName>
+		</author>
+		<title level="a">The effect of textured insoles on postural control in double and single limb stance</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="363" to="372" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Khanmohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Talebian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Hadian</surname></persName>
+		</author>
+		<title level="a">Characteristic muscle activity patterns during gait initiation in the healthy younger and older adults</title>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="148" to="153" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Felson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Parkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Carter</surname></persName>
+		</author>
+		<title level="a">The efficacy of a lateral wedge insole for painful medial knee osteoarthritis after prescreening: a randomized clinical trial</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="908" to="915" />
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

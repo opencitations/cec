@@ -1,0 +1,972 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+			<bibl type="article" xml:id="b0">
+				<analytic>
+					<author>
+						<persName>
+							<forename>N</forename>
+							<surname>Dey</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">S</forename>
+							<surname>Ashour</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Shi</surname>
+						</persName>
+					</author>
+					<title level="a">Developing residential wireless sensor networks for ECG healthcare monitoring</title>
+				</analytic>
+				<monogr>
+					<title level="j">IEEE T Consum Electr</title>
+					<imprint>
+						<biblScope unit="volume">63</biblScope>
+						<biblScope unit="page" from="442" to="449" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b1">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Kiani</surname>
+						</persName>
+					</author>
+					<title level="a">Animal behavior management by energy efficient wireless sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">Comput Electron Agr</title>
+					<imprint>
+						<biblScope unit="volume">151</biblScope>
+						<biblScope unit="page" from="478" to="484" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b2">
+				<analytic>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Stangaciu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Stanciu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Lupu</surname>
+						</persName>
+					</author>
+					<title level="a">Application layer protocol for IoT using wireless sensor networks communication protocols</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 9th international congress on ultra-modern telecommunications and control systems and workshops (ICUMT)</title>
+					<imprint>
+						<date when="2017">2017</date>
+						<biblScope unit="page" from="430" to="435" />
+						<publisher>IEEE</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b3">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">H</forename>
+							<forename type="middle">F</forename>
+							<surname>Altam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">R</forename>
+							<forename type="middle">J</forename>
+							<surname>Walters</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">B</forename>
+							<surname>Wills</surname>
+						</persName>
+					</author>
+					<title level="a">Fog computing and the internet of things: a review</title>
+				</analytic>
+				<monogr>
+					<title level="j">Big Data Cogn Comput</title>
+					<imprint>
+						<biblScope unit="volume">2</biblScope>
+						<biblScope unit="page">10</biblScope>
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b4">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Kiani</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Amiri</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Zamani</surname>
+						</persName>
+					</author>
+					<title level="a">Efficient intelligent energy routing protocol in wireless sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">Int J Distrib Sens Netw</title>
+					<imprint>
+						<biblScope unit="volume">11</biblScope>
+						<biblScope unit="page">618072</biblScope>
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="book" xml:id="b5">
+				<monogr>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Kiani</surname>
+						</persName>
+					</author>
+					<title level="m">Designing new routing algorithms optimized for wireless sensor network</title>
+					<imprint>
+						<date when="2014">2014</date>
+						<publisher>Lambert Academic Publishing</publisher>
+						<pubPlace>Dusseldorf</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b6">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">I</forename>
+							<forename type="middle">F</forename>
+							<surname>Akyildiz</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Su</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>Y</forename>
+							<surname>Sankarasubramaniam</surname>
+						</persName>
+					</author>
+					<title level="a">Wireless sensor networks: a survey</title>
+				</analytic>
+				<monogr>
+					<title level="j">Comput Netw</title>
+					<imprint>
+						<biblScope unit="volume">38</biblScope>
+						<biblScope unit="page" from="393" to="422" />
+						<date when="2002">2002</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b7">
+				<analytic>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Niewiadomska</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>P</forename>
+							<surname>Kwas´niewski</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>I</forename>
+							<surname>Windyga</surname>
+						</persName>
+					</author>
+					<title level="a">Comparative study of wireless sensor networks energy efficient topologies and power save protocols</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Telecommun Technol</title>
+					<imprint>
+						<biblScope unit="volume">3</biblScope>
+						<biblScope unit="page" from="68" to="75" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b8">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">H</forename>
+							<surname>Majumdar</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Lee</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">A</forename>
+							<forename type="middle">A</forename>
+							<surname>Patl</surname>
+						</persName>
+					</author>
+					<title level="a">Packet-size optimization for multiple-input multiple-output cognitive radio sensor networks-aided internet of things</title>
+				</analytic>
+				<monogr>
+					<title level="j">IEEE Access</title>
+					<imprint>
+						<biblScope unit="volume">5</biblScope>
+						<biblScope unit="page" from="14419" to="14440" />
+						<date when="2017">2017</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b9">
+				<analytic>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Bhattacharyya</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Kim</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Pal</surname>
+						</persName>
+					</author>
+					<title level="a">A comparative study of wireless sensor networks and their routing protocols</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sensors</title>
+					<imprint>
+						<biblScope unit="volume">10</biblScope>
+						<biblScope unit="page" from="10506" to="10523" />
+						<date when="2010">2010</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b10">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">K</forename>
+							<forename type="middle">H</forename>
+							<surname>Ramadan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Dessouky</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Ebd-Alnabi</surname>
+						</persName>
+					</author>
+					<title level="a">Nodepower-based MAC protocol with adaptive listening period for wireless sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">Int J Electr Commun</title>
+					<imprint>
+						<biblScope unit="volume">84</biblScope>
+						<biblScope unit="page" from="46" to="56" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b11">
+				<analytic>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Anastasi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Conti</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Francesco</surname>
+						</persName>
+					</author>
+					<title level="a">Energy conservation in wireless sensor networks: a survey</title>
+				</analytic>
+				<monogr>
+					<title level="j">Ad Hoc Netw</title>
+					<imprint>
+						<biblScope unit="volume">7</biblScope>
+						<biblScope unit="page" from="537" to="568" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b12">
+				<analytic>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Yarinezad</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Sarabi</surname>
+						</persName>
+					</author>
+					<title level="a">Reducing delay and energy consumption in wireless sensor networks by making virtual grid infrastructure and using mobile sink</title>
+				</analytic>
+				<monogr>
+					<title level="j">Int J Electr Commun</title>
+					<imprint>
+						<biblScope unit="volume">84</biblScope>
+						<biblScope unit="page" from="144" to="152" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b13">
+				<analytic>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Fadel</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">G</forename>
+							<forename type="middle">C</forename>
+							<surname>Gungor</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Nassef</surname>
+						</persName>
+					</author>
+					<title level="a">A survey on wireless sensor networks for smart grid</title>
+				</analytic>
+				<monogr>
+					<title level="j">Comput Commun</title>
+					<imprint>
+						<biblScope unit="volume">71</biblScope>
+						<biblScope unit="page" from="22" to="33" />
+						<date when="2015">2015</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b14">
+				<analytic>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Andr</surname>
+						</persName>
+					</author>
+					<title level="a">Data stream based algorithms for wireless sensor network applications</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 21st international IEEE conference on advanced networking and applications (AINA’07)</title>
+					<imprint>
+						<date when="2007">2007</date>
+						<publisher>IEEE</publisher>
+						<pubPlace>New York</pubPlace>
+						<biblScope unit="page" from="1" to="8" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b15">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">D</forename>
+							<forename type="middle">J</forename>
+							<surname>Abadi</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>W</forename>
+							<surname>Lindner</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Madden</surname>
+						</persName>
+					</author>
+					<title level="a">An integration framework for sensor networks and data stream management systems</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the thirtieth international conference on very large data bases (VLDB)</title>
+					<imprint>
+						<date when="2004">2004</date>
+						<publisher>IEEE</publisher>
+						<pubPlace>New York</pubPlace>
+						<biblScope unit="page" from="1361" to="1364" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b16">
+				<analytic>
+					<author>
+						<persName>
+							<forename>B</forename>
+							<surname>Babcock</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Babu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Datar</surname>
+						</persName>
+					</author>
+					<title level="a">Models and issues in data stream systems</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the twenty-first ACM SIGMOD-SIGACT-SIGART symposium on principles of database systems</title>
+					<imprint>
+						<date when="2002">2002</date>
+						<publisher>ACM</publisher>
+						<pubPlace>USA</pubPlace>
+						<biblScope unit="page" from="1" to="16" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b17">
+				<analytic>
+					<author>
+						<persName>
+							<forename type="first">S</forename>
+							<forename type="middle">R</forename>
+							<surname>Madden</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Franklin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Hellerstein</surname>
+						</persName>
+					</author>
+					<title level="a">Tinydb: an acquisitional query processing system for sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">ACM Trans Database Syst</title>
+					<imprint>
+						<biblScope unit="volume">30</biblScope>
+						<biblScope unit="page" from="122" to="173" />
+						<date when="2005">2005</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b18">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Babu</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>L</forename>
+							<surname>Subramanian</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Widom</surname>
+						</persName>
+					</author>
+					<title level="a">A data stream management system for network traffic management</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of workshop on network-related data management(NRDM’01)</title>
+					<imprint>
+						<date when="2001">2001</date>
+						<biblScope unit="page" from="1" to="3" />
+						<publisher>Stanford InfoLab Publication Server</publisher>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b19">
+				<analytic>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Ledlie</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>C</forename>
+							<surname>Ng</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>DA</forename>
+							<surname>Holland</surname>
+						</persName>
+					</author>
+					<title level="a">Provenance: aware sensor data storage</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 21st international conference on data engineering (ICDE ‘05)</title>
+					<imprint>
+						<date when="2005">2005</date>
+						<biblScope unit="page" from="1" to="5" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b20">
+				<analytic>
+					<author>
+						<persName>
+							<forename>D</forename>
+							<surname>Ganesan</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Ratnasamy</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Wang</surname>
+						</persName>
+					</author>
+					<title level="a">Coping with irregular spatio-temporal sampling in sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">Comput Commun Rev</title>
+					<imprint>
+						<biblScope unit="volume">34</biblScope>
+						<biblScope unit="page" from="125" to="130" />
+						<date when="2004">2004</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b21">
+				<analytic>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Willett</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Martin</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>R</forename>
+							<surname>Nowak</surname>
+						</persName>
+					</author>
+					<title level="a">Backcasting: adaptive sampling for sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the third international symposium on information processing in sensor networks</title>
+					<imprint>
+						<date when="2004">2004</date>
+						<biblScope unit="page" from="10" to="16" />
+						<publisher>ACM</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b22">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Jain</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename type="first">E</forename>
+							<forename type="middle">Y</forename>
+							<surname>Chang</surname>
+						</persName>
+					</author>
+					<title level="a">Adaptive sampling for sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 1st international workshop on data management for sensor networks in conjunction with VLDB 2004</title>
+					<imprint>
+						<date when="2004">2004</date>
+						<biblScope unit="page" from="10" to="16" />
+						<publisher>ACM</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b23">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Subramaniam</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Kalogeraki</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Palpanas</surname>
+						</persName>
+					</author>
+					<title level="a">Distributed real-time detection and tracking of homogeneous regions in sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 27th IEEE international real-time systems</title>
+					<imprint>
+						<date when="2006">2006</date>
+						<biblScope unit="page" from="401" to="411" />
+						<publisher>IEEE</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="chapter" xml:id="b24">
+				<analytic>
+					<author>
+						<persName>
+							<forename>T</forename>
+							<surname>Palpanas</surname>
+						</persName>
+					</author>
+					<title level="a">Real-time data analytics in sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="m">Managing and Mining Sensor Data</title>
+					<editor>
+						<persName>
+							<forename type="first">C</forename>
+							<forename type="middle">C</forename>
+							<surname>Aggarwal</surname>
+						</persName>
+					</editor>
+					<imprint>
+						<pubPlace>New York</pubPlace>
+						<publisher>Springer</publisher>
+						<date when="2013">2013</date>
+						<biblScope unit="page" from="173" to="210" />
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b25">
+				<analytic>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Santini</surname>
+						</persName>
+					</author>
+					<title level="a">An adaptive strategy for quality-based data reduction in wireless sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 3rd international conference on networked sensing systems (INSS 2006)</title>
+					<imprint>
+						<date when="2006">2006</date>
+						<biblScope unit="page" from="1" to="8" />
+						<publisher>Springer</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b26">
+				<analytic>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Aquino</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>E</forename>
+							<surname>Nakamura</surname>
+						</persName>
+					</author>
+					<title level="a">Data centric sensor stream reduction for real-time applications in wireless sensor networks</title>
+				</analytic>
+				<monogr>
+					<title level="j">Sensors</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page" from="9666" to="9688" />
+						<date when="2009">2009</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b27">
+				<analytic>
+					<author>
+						<persName>
+							<forename>H</forename>
+							<surname>Yang</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Fong</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>G</forename>
+							<surname>Sun</surname>
+						</persName>
+					</author>
+					<title level="a">A very fast decision tree algorithm for real-time data mining of imperfect data streams in a distributed wireless sensor network</title>
+				</analytic>
+				<monogr>
+					<title level="j">Int J Distrib Sens Netw</title>
+					<imprint>
+						<biblScope unit="volume">8</biblScope>
+						<biblScope unit="page">863545</biblScope>
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b28">
+				<analytic>
+					<author>
+						<persName>
+							<forename>O</forename>
+							<surname>Diallo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>J</forename>
+							<surname>Rodrigues</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>M</forename>
+							<surname>Sene</surname>
+						</persName>
+					</author>
+					<title level="a">Real-time data management on wireless sensor networks: a survey</title>
+				</analytic>
+				<monogr>
+					<title level="j">J Netw Comput Appl</title>
+					<imprint>
+						<biblScope unit="volume">35</biblScope>
+						<biblScope unit="page" from="1013" to="1021" />
+						<date when="2012">2012</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="proceeding" xml:id="b29">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Xhafa</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>V</forename>
+							<surname>Naranjo</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>S</forename>
+							<surname>Caballe</surname>
+						</persName>
+					</author>
+					<title level="a">Processing and analytics of big data streams</title>
+				</analytic>
+				<monogr>
+					<title level="m">Proceedings of the 29th international IEEE conference on advanced information networking and applications</title>
+					<imprint>
+						<date when="2015">2015</date>
+						<biblScope unit="page" from="263" to="270" />
+						<publisher>IEEE</publisher>
+						<pubPlace>New York</pubPlace>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="article" xml:id="b30">
+				<analytic>
+					<author>
+						<persName>
+							<forename>F</forename>
+							<surname>Kiani</surname>
+						</persName>
+					</author>
+					<author>
+						<persName>
+							<forename>A</forename>
+							<surname>Seyyedabbasi</surname>
+						</persName>
+					</author>
+					<title level="a">Wireless sensor network and internet of things in precision agriculture</title>
+				</analytic>
+				<monogr>
+					<title level="j">Int J Adv Comput Sci Appl</title>
+					<imprint>
+						<biblScope unit="volume">9</biblScope>
+						<biblScope unit="page" from="99" to="103" />
+						<date when="2018">2018</date>
+					</imprint>
+				</monogr>
+			</bibl>
+
+			<bibl type="webpage" xml:id="b31">
+				<monogr>
+					<ref src="https://www.robotistan.com/sixfab-wireless-sensor-networkdevelopment-board">https://www.robotistan.com/sixfab-wireless-sensor-networkdevelopment-board</ref>
+				</monogr>
+			</bibl>
+
+			<bibl type="webpage" xml:id="b32">
+				<monogr>
+					<ref src="http://www.ti.com/product/CC1101">http://www.ti.com/product/CC1101</ref>
+				</monogr>
+			</bibl>
+
+			<bibl type="webpage" xml:id="b33">
+				<monogr>
+					<ref src="http://www.ti.com/product/CC1190">http://www.ti.com/product/CC1190</ref>
+				</monogr>
+			</bibl>
+
+			<bibl type="webpage" xml:id="b34">
+				<monogr>
+					<author>SmartRF Studio (swrc046.zip)</author>
+					<ref src="http://www.ti.com/tool/">http://www.ti.com/tool/</ref>
+				</monogr>
+			</bibl>
+		</listBibl>
+	</back>
+	</text>
+</TEI>

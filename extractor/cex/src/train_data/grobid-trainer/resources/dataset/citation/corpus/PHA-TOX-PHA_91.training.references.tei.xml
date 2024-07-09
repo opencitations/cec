@@ -1,0 +1,1514 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Monsan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Bozonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Albenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Joucla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Willemot</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Remaud-Siméon</surname></persName>
+		</author>
+		<title level="a">Homopolysaccharides from lactic acid bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Dairy J.</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="675" to="685" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Robyt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S-Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y-M</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">Dextran molecular size and degree of branching as a function of sucrose concentration, pH, and temperature of reaction of Leuconostoc mesenteroides B-512FMCM dextransucrase</title>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr. Res.</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="1183" to="1189" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>Q</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">Ultrasonic degradation of aqueous dextran: Effect of initial molecular weight and concentration</title>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr. Polym.</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="447" to="451" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<title level="a">Controlling the oral biofilm with antimicrobials</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Dent.</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="S11" to="S15" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Johansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Falholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Gram</surname></persName>
+		</author>
+		<title level="a">Enzymatic removal and disinfection of bacterial biofilms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol.</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="3724" to="3728" />
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Sims</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>U</forename><surname>Hubl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Furneaux</surname></persName>
+		</author>
+		<title level="a">Characterisation of polysaccharides synthesised by Gluconobacter oxydans NCIMB 4943</title>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr. Polym.</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="285" to="292" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Moriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Yui</surname></persName>
+		</author>
+		<title level="a">Regulated insulin release from biodegradable dextran hydrogels containing poly(ethylene glycol)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Control. Release</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="237" to="248" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Salassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Breaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>No</surname></persName>
+		</author>
+		<title level="a">Impact of Sugarcane Delivery Schedule on Product Value at Raw Sugar Factories</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Agribus.</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="47" to="54" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Inkerman</surname></persName>
+		</author>
+		<title level="a">Specific method for quantitative measurement of the total dextran content of raw sugar</title>
+	</analytic>
+	<monogr>
+		<title level="j">JJ. Agric. Food Chem.</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="227" to="233" />
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Mccoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Rich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<title level="a">Adverse events associated with chlorhexidine use: Results from the Department of Veterans Affairs Dental Diabetes Study</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Dent. Assoc.</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="178" to="183" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Grover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Frank</surname></persName>
+		</author>
+		<title level="a">Regional Specificity of Chlorhexidine Effects on Taste Perception</title>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Senses</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="311" to="318" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Khalikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Susi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Korpela</surname></persName>
+		</author>
+		<title level="a">Microbial Dextran-Hydrolyzing Enzymes: Fundamentals and Applications</title>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev.</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="306" to="325" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Reese</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Lola</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Parrish</surname></persName>
+		</author>
+		<title level="a">Modified Substrates and Modified Products as Inducers of Carbohydrases</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol.</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1151" to="1154" />
+			<date when="1970">1970</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="a">Stimulation of dextranase production by oxidized dextran</title>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Microbiol.</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="841" to="844" />
+			<date when="1970">1970</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Thitaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C-H</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Siragusa</surname></persName>
+		</author>
+		<title level="a">Isomaltooligosaccharide increases cecal Bifidobacterium population in young broiler chickens</title>
+	</analytic>
+	<monogr>
+		<title level="j">Poult. Sci.</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="998" to="1003" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Eggleston</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Monge</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Montes</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Stewart</surname></persName>
+		</author>
+		<title level="a">Application of dextranases in sugarcane factory: Overcoming practical problems</title>
+	</analytic>
+	<monogr>
+		<title level="j">Sugar Tech</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Eggleston</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Dilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Blowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Winters</surname></persName>
+		</author>
+		<title level="a">Successful application of dextranase in sugar beet factories</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the American Society of Sugarbeet Tchnologist</title>
+		
+		<imprint>
+			<pubPlace>Albuquerque, NM, USA</pubPlace>
+			<date when="2011">2011</date>
+			<biblScope unit="page" from="1" to="16" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Alwin</forename><surname>Erhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H-J</forename><surname>Jördening</surname></persName>
+		</author>
+		<title level="a">Immobilization of dextranase from Chaetomium erraticum</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol.</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="440" to="447" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>K</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="frist">S</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="frist">Y</forename><forename type="middle">T</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Diphenylamine–Aniline–Phosphoric Acid Reagent, a Versatile Spray Reagent for Revealing Glycoconjugates on Thin-Layer Chromatography Plates</title>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem.</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="337" to="339" />
+			<date when="2000">2000</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>P</forename><surname>Finnegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Brumbley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>O’shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Nevalainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Bergquist</surname></persName>
+		</author>
+		<title level="a">Isolation and Characterization of Genes Encoding Thermoactive and Thermostable Dextranases from Two Thermotolerant Soil Bacteria</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Microbiol.</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="327" to="333" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Hu</surname></persName>
+		</author>
+		<title level="a">Biosynthesis of oligodextrans with different Mw by synergistic catalysis of dextransucrase and dextranase</title>
+	</analytic>
+	<monogr>
+		<title level="j">Carbohydr. Polym.</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="387" to="395" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Kubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Kubota</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Ohnishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Morita</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Matsuya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Matsushiro</surname></persName>
+		</author>
+		<title level="a">Expression and secretion of an Arthrobacter dextranase in the oral bacterium Streptococcus gordonii</title>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun.</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4375" to="4381" />
+			<date when="1993">1993</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Day</surname></persName>
+		</author>
+		<title level="a">Induction of Lipomyces starkeyi Dextranase</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="2079" to="2081" />
+			<date when="1989">1989</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Ståhlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Kenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Jones</surname></persName>
+		</author>
+		<title level="a">Dextranase from Penicillium minioluteum: Reaction course, crystal structure, and product complex</title>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1111" to="1121" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Robyt</surname></persName>
+		</author>
+		<title level="a">Dextransucrase constitutive mutants of Leuconostoc mesenteroides B-1299</title>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1050" to="1056" />
+			<date when="1995">1995</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Day</surname></persName>
+		</author>
+		<title level="a">A new process for the production of clinical dextran by mixed-culture fermentation of Lipomyces starkeyi and Leuconostoc mesenteroides</title>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="844" to="848" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y-Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R-H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H-B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X-Q</forename><surname>Hu</surname></persName>
+		</author>
+		<title level="a">Purification, characterization, and application of a thermostable dextranase from Talaromyces pinophilus</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Microbiol. Biotechnol.</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="317" to="327" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Gulder</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Moore</surname></persName>
+		</author>
+		<title level="a">Chasing the Treasures of the Sea-Bacterial Marine Natural Products</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="252" to="260" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kalpana</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Aarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Pandian</surname></persName>
+		</author>
+		<title level="a">Antibiofilm Activity of α-Amylase from Bacillus subtilis S8-18 Against Biofilm Forming Human Bacterial Pathogens</title>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Biochem. Biotechnol.</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="1778" to="1794" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Cieśliński</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Kur</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Białkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Baran</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Makowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Turkiewicz</surname></persName>
+		</author>
+		<title level="a">Cloning, expression, and purification of a recombinant cold-adapted β-galactosidase from antarctic bacterium Pseudoalteromonas sp. 22b</title>
+	</analytic>
+	<monogr>
+		<title level="j">PProtein Expr. Purif.</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="27" to="34" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Margesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Schinner</surname></persName>
+		</author>
+		<title level="a">Properties of cold-adapted microorganisms and their potential role in biotechnology</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Purushe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Nawani</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Dhakephalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Kapadnis</surname></persName>
+		</author>
+		<title level="a">Biocatalytic potential of an alkalophilic and thermophilic dextranase as a remedial measure for dextran removal during sugar manufacture</title>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="2" to="7" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Papaleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Tiberti</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Invernizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Pasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Ranzani</surname></persName>
+		</author>
+		<title level="a">Molecular Determinants of Enzyme Cold Adaptation: Comparative Structural and Computational Studies of Cold-and Warm-Adapted Enzymes</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protein Pept. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="657" to="683" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Majeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Grobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Moola</surname></persName>
+		</author>
+		
+		<title level="a">The PH of various tooth whitening products on the south African market</title>
+	</analytic>
+	<monogr>
+		<title level="j">S. Afr. Dent. Assoc.</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="278" to="281" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Purification and Characterization of a Biofilm-Degradable Dextranase from a Marine Bacterium</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">51</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Pleszczyńska</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Rogalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Fiedurek</surname></persName>
+		</author>
+		<title level="a">Hydrolysis of dextran by Penicillium notatum dextranase and identification of final digestion products</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mycol. Res.</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="69" to="72" />
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Du</surname></persName>
+		</author>
+		<title level="a">Catenovulum sediminis sp. nov., isolated from coastal sediment</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="3894" to="3898" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Schachtele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Staat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Harlander</surname></persName>
+		</author>
+		<title level="a">Dextranases from oral bacteria: inhibition of water-insoluble glucan production and adherence to smooth surfaces by Streptococcus mutans</title>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun.</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="309" to="317" />
+			<date when="19758">1975</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Mann</surname></persName>
+		</author>
+		<title level="a">Purification and characterization of a dextranase from Sporothrix schenckii</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="91" to="98" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Zohra</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Aman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Haider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><forename type="last">U</forename><surname>Qader</surname></persName>
+		</author>
+		<title level="a">Purification, characterization and end product analysis of dextran degrading endodextranase from Bacillus licheniformis KIBGE-IB25</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Macromol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="243" to="248" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><forename type="last">A</forename><surname>Wynter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>De Jersey</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Inkerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Hamilton</surname></persName>
+		</author>
+		<title level="a">Isolation and characterization of a thermostable dextranase</title>
+	</analytic>
+	<monogr>
+		<title level="j">Enzyme Microb. Technol.</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="242" to="247" />
+			<date when="1997">1997</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Day</surname></persName>
+		</author>
+		<title level="a">The purification and characterization of a dextranase from Lipomyces starkeyi</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J.Biochem</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="161" to="167" />
+			<date when="1989">1989</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Jiao</surname></persName>
+		</author>
+		<title level="a">Characterization of a marine-derived dextranase and its application to the prevention of dental caries</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ind. Microbiol. Biotechnol.</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="17" to="26" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Olsen</surname></persName>
+		</author>
+		<title level="a">Extracellular α-Glucosidase with Dextran-Hydrolyzing Activity from the Thermophilic Fungus, Thermomyces lanuginosus</title>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="152" to="155" />
+			<date when="1996">1996</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<title level="a">Purification and characterization of extracellular dextranase from a novel producer, Hypocrea lixii F1002, and its use in oligodextran production</title>
+	</analytic>
+	<monogr>
+		<title level="j">Process Biochem.</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1942" to="1950" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Fukumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Tsuru</surname></persName>
+		</author>
+		<title level="a">Studies on Mold Dextranases. I. Penicillium luteum dextranase: Its production and some enzymatic properties</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biochem.</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1113" to="1121" />
+			<date when="1971">1971</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Unno</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Ohba</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Okada</surname></persName>
+		</author>
+		<title level="a">Purification and Characterization of an Isomaltotriose-producing Endo-dextranase from a Fusarium sp.</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Biotechnol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="117" to="122" />
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="MIDDLE">S</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Kim</surname></persName>
+		</author>
+		<title level="a">Biochemical characterization of dextranase from Arthrobacter oxydans and its cloning and expression in Escherichia coli</title>
+	</analytic>
+	<monogr>
+		<title level="j">Food Sci. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="757" to="762" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">x</forename><surname>Zhou</surname></persName>
+		</author>
+		<title level="a">Anandins A and B, Two Rare Steroidal Alkaloids from a Marine Streptomyces anandii H41-59</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Drugs</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">355</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Hietala-Lenkkeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Pienihäkkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Hurme</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Alanen</surname></persName>
+		</author>
+		<title level="a">The caries-preventive effect of xylitol/maltitol and erythritol/maltitol lozenges: Results of a double-blinded, cluster-randomized clinical trial in an area of natural fluoridation</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Paediatr. Dent</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="180" to="190" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b50">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Arruda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Senthamarai Kannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Inglehart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Rezende</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Sohn</surname></persName>
+		</author>
+		<title level="a">Effect of 5% fluoride varnish application on caries among school children in rural Brazil: a randomized controlled trial</title>
+	</analytic>
+	<monogr>
+		<title level="j">Community Dent. Oral Epidemiol.</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="267" to="276" />
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b51">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<title level="a">Use of Dinitrosalicylic Acid Reagent for Determination of Reducing Sugar</title>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem.</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="426" to="428" />
+			<date when="1959">1959</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b52">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Younger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Baddour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Melton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Beachey</surname></persName>
+		</author>
+		<title level="a">Adherence of coagulase-negative staphylococci to plastic tissue culture plates: a quantitative model for the adherence of staphylococci to medical devices</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Microbiol.</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="996" to="1006" />
+			<date when="1985">1985</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b53">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">X</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Campagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Bobek</surname></persName>
+		</author>
+		<title level="a">Effect of MUC7 peptides on the growth of bacteria and on Streptococcus mutans biofilm</title>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob. Chemother.</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1100" to="1109" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b54">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Z</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>YuYan</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Ni</surname></persName>
+		</author>
+		<title level="a">Antimicrobial and antibiofilm activity of pleurocidin against cariogenic microorganisms</title>
+	</analytic>
+	<monogr>
+		<title level="j">Peptides</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1748" to="1754" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

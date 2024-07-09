@@ -1,0 +1,2470 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Barthó</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hirase</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Monconduit</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zugaro</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Harris</surname>
+					<forename type="first">K</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Buzsáki</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Characterization of neocortical principal cells and interneurons by network interactions and extracellular features</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurophysiol</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">92</biblScope>
+				<biblScope unit="page" from="600" to="608" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Benabid</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pollak</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gervason</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hoffmann</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename type="first">D</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hommel</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Long-term suppression of tremor by chronic stimulation of the ventral intermediate thalamic nucleus</title>
+		</analytic>
+		<monogr>
+			<title level="j">Lancet</title>
+			<imprint>
+				<date when="1991">1991</date>
+				<biblScope unit="volume">337</biblScope>
+				<biblScope unit="page" from="403" to="406" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Benito-León</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Serrano</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename type="first">E</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holobar</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Romero</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Povalej-Bržan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Essential tremor severity and anatomical changes in brain areas controlling movement sequencing</title>
+		</analytic>
+		<monogr>
+			<title level="j">Ann. Clin. Transl. Neurol</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="83" to="97" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bingmer</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schiemann</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roeper</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schneider</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Measuring burstiness and regularity in oscillatory spike trains</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurosci. Methods</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">201</biblScope>
+				<biblScope unit="page" from="426" to="437" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Briggs</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Usrey</surname>
+					<forename type="first">W</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Emerging views of corticothalamic function</title>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Opin. Neurobiol</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="403" to="407" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cerasa</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Salsone</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nigro</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chiriaco</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Donzuso</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bosco</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Cortical volume and folding abnormalities in Parkinson’s disease patients with pathological gambling</title>
+		</analytic>
+		<monogr>
+			<title level="j">Parkinsonism Relat. Disord</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="1209" to="1214" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chopra</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Klassen</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stead</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Current clinical application of deep- brain stimulation for essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuropsychiatr. Dis. Treat</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="1859" to="1865" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Christodoulou</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bugmann</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Coefficient of variation (CV) vs mean interspike interval (ISI) curves: what do they tell us about the brain?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neurocomputing</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">38</biblScope>
+				<biblScope unit="page" from="1141" to="1149" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chung</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kwon</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>D-K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hong</surname>
+					<forename type="first">J</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sunwoo</surname>
+					<forename>M-K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sohn</surname>
+					<forename type="first">Y</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Neuroanatomical heterogeneity of essential tremor according to propranolol response</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="page">8:e84054</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Crowell</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shah</surname>
+					<forename type="first">B</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Surgery for dystonia and tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Neurol. Neurosci. Rep</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="22" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>de Hemptinne</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Swann</surname>
+					<forename type="first">N</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ostrem</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ryapolova-Webb</surname>
+					<forename type="first">E</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>San Luciano</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Galifianakis</surname>
+					<forename type="first">N</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Therapeutic deep brain stimulation reduces cortical phase-amplitude coupling in Parkinson’s disease</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Neurosci.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="779" to="786" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bergman</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Pathophysiology of nonparkinsonian tremors</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mov. Disord</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="S41" to="S48" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Elble</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">The pathophysiology of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neurology</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">54</biblScope>
+				<biblScope unit="page" from="S14" to="S20" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dostrovsky</surname>
+					<forename type="first">J</forename><forename type="middle">O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Levy</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hutchison</surname>
+					<forename type="first">W</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tasker</surname>
+					<forename type="first">R</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lozano</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Microstimulation-induced inhibition of neuronal firing in human globus pallidus</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurophysiol</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">84</biblScope>
+				<biblScope unit="page" from="570" to="574" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Elble</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">What is essential tremor?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Curr. Neurol. Neurosci. Rep.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">13</biblScope>
+				<biblScope unit="page" from="353" to="353" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Elble</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Mechanisms of deep brain stimulation for essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brain</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">137</biblScope>
+				<biblScope unit="page" from="4" to="6" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fanselow</surname>
+					<forename type="first">E</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sameshima</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baccala</surname>
+					<forename type="first">L</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nicolelis</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename><forename type="last">L</forename>
+				</persName>
+			</author>
+			<title level="a">Thalamic bursting in rats during different awake behavioral states</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. Natl. Acad. Sci. U.S.A.</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">98</biblScope>
+				<biblScope unit="page" from="15330" to="15335" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fogerson</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huguenard</surname>
+					<forename type="first">J</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<title level="a">Tapping the brakes: cellular and synaptic mechanisms that regulate thalamic oscillations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuron</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">92</biblScope>
+				<biblScope unit="page" from="687" to="704" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fowler</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Birkestrand</surname>
+					<forename type="first">B</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Moss</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vorontsova</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">A force-plate actometer for quantitating rodent behaviors: illustrative data on locomotion, rotation, spatial patterning, stereotypies, and tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurosci. Methods</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">107</biblScope>
+				<biblScope unit="page" from="107" to="124" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Govindan</surname>
+					<forename type="first">R</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Raethjen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arning</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kopper</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Time delay and partial coherence analyses to identify cortical connectivities</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biol. Cybern</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">94</biblScope>
+				<biblScope unit="page" from="262" to="275" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Handforth</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Harmaline tremor: underlying mechanisms in a potential animal model of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Tremor Other Hyperkinet. mov.</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page">02-92-769-1</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hara</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Harris</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">The Anesthetic mechanism of urethane: the effects on neurotransmitter-gated ion channels</title>
+		</analytic>
+		<monogr>
+			<title level="j">Anesth. Analg</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">94</biblScope>
+				<biblScope unit="page" from="313" to="318" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Heindorf</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arber</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Keller</surname>
+					<forename type="first">G</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<title level="a">Mouse motor cortex coordinates the behavioral response to unpredicted sensory feedback</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuron</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">99</biblScope>
+				<biblScope unit="page" from="1040" to="1054" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hellwig</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Häussler</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lauk</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guschlbauer</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Köster</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kristeva-Feige</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<title level="a">Tremor-correlated cortical activity detected by electroencephalography</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin. Neurophysiol</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">111</biblScope>
+				<biblScope unit="page" from="806" to="809" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hellwig</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Häussler</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schelter</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lauk</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guschlbauer</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Timmer</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Tremor-correlated cortical activity in essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Lancet</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">357</biblScope>
+				<biblScope unit="page" from="519" to="523" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hua</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lenz</surname>
+					<forename type="first">F</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zirh</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reich</surname>
+					<forename type="first">S</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dougherty</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Thalamic neuronal activity correlated with essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurol. Neurosurg. Psychiatry</title>
+			<imprint>
+				<date when="1998">1998</date>
+				<biblScope unit="volume">64</biblScope>
+				<biblScope unit="page" from="273" to="276" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ilinsky</surname>
+					<forename type="first">I</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kultas-Ilinsky</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Motor thalamic circuits in primates with emphasis on the area targeted in treatment of movement disorders</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mov. Disord</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="S9" to="S14" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Izhikevich</surname>
+					<forename type="first">E</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Desai</surname>
+					<forename type="first">N</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Walcott</surname>
+					<forename type="first">E</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hoppensteadt</surname>
+					<forename type="first">F</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Bursts as a unit of neural information: selective communication via resonance</title>
+		</analytic>
+		<monogr>
+			<title level="j">Trends Neurosci</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="161" to="167" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kiss</surname>
+					<forename type="first">Z</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mooney</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Renaud</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hu</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Neuronal response to local electrical stimulation in rat thalamus: physiological implications for mechanisms of deep brain stimulation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuroscience</title>
+			<imprint>
+				<date when="2002">2002</date>
+				<biblScope unit="volume">113</biblScope>
+				<biblScope unit="page" from="137" to="143" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Klein</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barbe</surname>
+					<forename type="first">M</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Seifried</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baudrexel</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Runge</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Maarouf</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">The tremor network targeted by successful VIM deep brain stimulation in humans</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neurology</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">78</biblScope>
+				<biblScope unit="page" from="787" to="795" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kim</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Knight</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kang</surname>
+					<forename>S</forename>
+					<genName>II</genName>
+				</persName>
+			</author>
+			<title level="a">Development of harmaline-induced tremor in a swine model</title>
+		</analytic>
+		<monogr>
+			<title level="j">Tremor Other Hyperkinet. Mov</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="532" to="532" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename type="first">M</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lin</surname>
+					<forename>C-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename type="first">E</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Faust</surname>
+					<forename type="first">P</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuo</surname>
+					<forename>S-H</forename>
+				</persName>
+			</author>
+			<title level="a">Decreased EAAT2 protein expression in the essential tremor cerebellar cortex</title>
+		</analytic>
+		<monogr>
+			<title level="j">Acta Neuropathol. Commun</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="157" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lenka</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhalsing</surname>
+					<forename type="first">K</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Panda</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jhunjhunwala</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Naduthota</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Saini</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Role of altered cerebello-thalamo-cortical network in the neurobiology of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuroradiology</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">59</biblScope>
+				<biblScope unit="page" from="157" to="168" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lipski</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wozny</surname>
+					<forename type="first">T</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alhourani</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kondylis</surname>
+					<forename type="first">E</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Turner</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Crammond</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Dynamics of human subthalamic neuron phase-locking to motor and sensory cortical oscillations during movement</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurophysiol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">118</biblScope>
+				<biblScope unit="page" from="1472" to="1487" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Llinas</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Volkind</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">The olivo-cerebellar system: functional properties as revealed by harmaline-induced tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Exp. Brain Res</title>
+			<imprint>
+				<date when="1973">1973</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="69" to="87" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename type="first">E</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Faust</surname>
+					<forename type="first">P</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vonsattel</surname>
+					<forename type="first">J-P</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Honig</surname>
+					<forename type="first">L</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rajput</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Robinson</surname>
+					<forename type="first">C</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Neuropathological changes in essential tremor: 33 cases compared with 21 controls</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brain</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">130</biblScope>
+				<biblScope unit="page" from="3297" to="3307" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lutes</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lorden</surname>
+					<forename type="first">J</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Beales</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oltmans</surname>
+					<forename type="first">G</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Tolerance to the tremorogenic effects of harmaline: evidence for altered olivo-cerebellar function</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuropharmacology</title>
+			<imprint>
+				<date when="1988">1988</date>
+				<biblScope unit="volume">27</biblScope>
+				<biblScope unit="page" from="849" to="855" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lyons</surname>
+					<forename type="first">K</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pahwa</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Comella</surname>
+					<forename type="first">C</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Eisa</surname>
+					<forename type="first">M</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Elble</surname>
+					<forename type="first">R</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fahn</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Benefits and risks of pharmacological treatments for essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Drug Saf</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="461" to="481" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Marsden</surname>
+					<forename type="first">J</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ashby</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Limousin-Dowsey</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rothwell</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brown</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">Coherence between cerebellar thalamus, cortex and muscle in man: cerebellar thalamus interactions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brain</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">123</biblScope>
+				<biblScope unit="page" from="1459" to="1470" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Marshall</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Observations on essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurol. Neurosurg. Psychiatry</title>
+			<imprint>
+				<date when="1962">1962</date>
+				<biblScope unit="volume">25</biblScope>
+				<biblScope unit="page" from="122" to="125" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Martin</surname>
+					<forename type="first">F</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Le</surname>
+					<forename type="first">A</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Handforth</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Harmaline-induced tremor as a potential preclinical screening method for essential tremor medications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mov. Disord</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="298" to="305" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miwa</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kubo</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Suzuki</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kihira</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kondo</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">A species-specific difference in the effects of harmaline on the rodent olivocerebellar system</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brain Res</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">1068</biblScope>
+				<biblScope unit="page" from="94" to="101" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Müller</surname>
+					<forename type="first">S</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Girard</surname>
+					<forename type="first">S</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hopfner</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Merner</surname>
+					<forename type="first">N</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bourassa</surname>
+					<forename type="first">C</forename><forename type="middle">V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lorenz</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Genome-wide association study in essential tremor identifies three new loci</title>
+		</analytic>
+		<monogr>
+			<title level="j">Brain</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">139</biblScope>
+				<biblScope unit="page" from="3163" to="3169" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Muthuraman</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Heute</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arning</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Anwar</surname>
+					<forename type="first">A</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Elble</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Oscillating central motor networks in pathological tremors and voluntary movements. What makes the difference?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Neuroimage</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">60</biblScope>
+				<biblScope unit="page" from="1331" to="1339" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b44">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Neske</surname>
+					<forename type="first">G</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">The slow oscillation in cortical and thalamic networks: mechanisms and functions</title>
+		</analytic>
+		<monogr>
+			<title level="j">Front. Neural Circuits</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="88" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b45">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Nguyen</surname>
+					<forename type="first">D</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Layton</surname>
+					<forename type="first">S</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hale</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gomperts</surname>
+					<forename type="first">S</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Davidson</surname>
+					<forename type="first">T</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kloosterman</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Micro-drive array for chronic in vivo recording: tetrode assembly</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Vis. Exp.</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="1098" to="1098" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b46">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pasquereau</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Turner</surname>
+					<forename type="first">R</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<title level="a">Primary motor cortex of the parkinsonian monkey: differential effects on the spontaneous activity of pyramidal tract-type neurons</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cereb. Cortex</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="1362" to="1378" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b47">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Paxinos</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Watson</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="m">The Rat Brain in Stereotaxic Coordinates</title>
+			<imprint>
+				<publisher>Academic Press</publisher>
+				<pubPlace>Cambridge, CA</pubPlace>
+				<date when="1998">1998</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b48">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Raethjen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">The oscillating central network of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin. Neurophysiol</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">123</biblScope>
+				<biblScope unit="page" from="61" to="64" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b49">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Raethjen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Govindan</surname>
+					<forename type="first">R</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kopper</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Muthuraman</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Cortical involvement in the generation of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurophysiol</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">97</biblScope>
+				<biblScope unit="page" from="3219" to="3228" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b50">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schnitzler</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Münks</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Butz</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Timmermann</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gross</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Synchronized brain network associated with essential tremor as revealed by magnetoencephalography</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mov. Disord</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="1629" to="1635" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b51">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Schuurman</surname>
+					<forename type="first">P</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bosch</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bossuyt</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bonsel</surname>
+					<forename type="first">G</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>van Someren</surname>
+					<forename type="first">E</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>de Bie</surname>
+					<forename type="first">R</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">A comparison of continuous thalamic stimulation and thalamotomy for suppression of severe tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">N. Engl. J. Med</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">342</biblScope>
+				<biblScope unit="page" from="461" to="468" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b52">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Serrano</surname>
+					<forename type="first">J</forename><forename type="middle">I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Romero</surname>
+					<forename type="first">J</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Castillo</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Del Rocon</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Louis</surname>
+					<forename type="first">E</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Benito-León</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">A data mining approach using cortical thickness for diagnosis and characterization of essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci. Rep</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">7</biblScope>
+				<biblScope unit="page" from="2190" to="2190" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b53">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sherman</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Thalamic relays and cortical functioning</title>
+		</analytic>
+		<monogr>
+			<title level="j">Prog. Brain Res</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">149</biblScope>
+				<biblScope unit="page" from="107" to="126" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="book" xml:id="b54">
+		<monogr>
+			<author>
+				<persName>
+					<surname>Sherman</surname>
+					<forename type="first">S</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guillery</surname>
+					<forename type="first">R</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="m">Exploring the Thalamus and Its Role in Cortical Function</title>
+			<imprint>
+				<publisher>Elsevier</publisher>
+				<pubPlace>Amsterdam</pubPlace>
+				<date when="2001">2001</date>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b55">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Swan</surname>
+					<forename type="first">B</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Brocker</surname>
+					<forename type="first">D</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hilliard</surname>
+					<forename type="first">J</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tatter</surname>
+					<forename type="first">S</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gross</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Turner</surname>
+					<forename type="first">D</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Short pauses in thalamic deep brain stimulation promote tremor and neuronal bursting</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin. Neurophysiol</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">127</biblScope>
+				<biblScope unit="page" from="1551" to="1559" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b56">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Varela</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lachaux</surname>
+					<forename>J-P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rodriguez</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martinerie</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">The brainweb: phase synchronization and large-scale integration</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat. Rev. Neurosci.</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">2</biblScope>
+				<biblScope unit="page" from="229" to="239" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b57">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wearden</surname>
+					<forename type="first">J</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Todd</surname>
+					<forename type="first">N</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">L</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">When do auditory/visual differences in duration judgements occur?</title>
+		</analytic>
+		<monogr>
+			<title level="j">Q. J. Exp. Psychol</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">59</biblScope>
+				<biblScope unit="page" from="1709" to="1724" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b58">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Welter</surname>
+					<forename>M-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Houeto</surname>
+					<forename>J-L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bonnet</surname>
+					<forename>A-M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bejjani</surname>
+					<forename>P-B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mesnage</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dormont</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Effects of high-frequency stimulation on subthalamic neuronal activity in parkinsonian patients</title>
+		</analytic>
+		<monogr>
+			<title level="j">Arch. Neurol</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">61</biblScope>
+				<biblScope unit="page" from="89" to="96" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b59">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wilms</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sievers</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Deuschl</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Animal models of tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mov. Disord</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="557" to="571" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b60">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Xiao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Agnesi</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bello</surname>
+					<forename type="first">E</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Vitek</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Johnson</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Deep brain stimulation induces sparse distributions of locally modulated neuronal activity</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sci. Rep.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="2062" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b61">
+		<analytic>
+			<author>
+				<persName>
+					<surname>YU</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Stitt</surname>
+					<forename type="first">I</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename type="first">Z</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sellers</surname>
+					<forename type="first">K</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Frohlich</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Theta oscillations organize spiking activity in higher-order visual thalamus during sustained attention</title>
+		</analytic>
+		<monogr>
+			<title level="j">eneuro</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">5</biblScope>
+				<biblScope unit="page">ENEURO.0384-17.2018</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b62">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhatia</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Oh</surname>
+					<forename type="first">M</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cohen</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Angle</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Whiting</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Long-term results of thalamic deep brain stimulation for essential tremor</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Neurosurg</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">112</biblScope>
+				<biblScope unit="page" from="1271" to="1276" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

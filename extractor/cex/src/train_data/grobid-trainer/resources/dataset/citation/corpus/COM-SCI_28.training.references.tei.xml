@@ -1,0 +1,929 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="conference" xml:id="b0">
+	<analytic>
+		
+		<author>
+			<persName><forename>Aayush</forename><surname>Bansal</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Shugao</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Deva</forename><surname>Ramanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yaser</forename><surname>Sheikh</surname></persName>
+		</author>
+		<title level="a">Recycle-GAN: Unsupervised Video Retargeting</title>
+	</analytic>
+	<monogr>
+		<title level="m">EEE European Conference on Computer Vision (ECCV)</title>
+		<imprint>
+			
+			<date when="2018">2018</date>
+			
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		
+		<author>
+			<persName><forename>Thabo</forename><surname>Beeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fabian</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Derek</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Bernd</forename><surname>Bickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Paul</forename><surname>Beardsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Craig</forename><surname>Gotsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">W</forename><surname>Sumner</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Markus</forename><surname>Gross</surname></persName>
+		</author>
+		<title level="a">High-quality passive facial performance capture using anchor frames</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">10 pages</biblScope>
+			<date when="July 2011">July 2011</date>
+		</imprint>
+	</monogr>
+	<note>Article 75</note>
+</bibl>
+
+<bibl type="webpage" xml:id="b2">
+	<monogr>
+		<author>
+			Binaryvr
+		</author>
+		<ref src="https://www.binaryvr.com/vr">https://www.binaryvr.com/vr</ref>
+		<title level="m">Real-time Facial Tracking</title>
+		<imprint>
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>Volker</forename><surname>Blanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Thomas</forename><surname>Vetter</surname></persName>
+		</author>
+		<title level="a">A morphable model for the synthesis of 3D faces</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 26th Annual Conference on Computer Graphics and Interactive Techniques</title>
+		<imprint>
+			<date when="1999">1999</date>
+			<biblScope unit="page" from="187" to="194" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>Chen</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Qiming</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kun</forename><surname>Zhou</surname></persName>
+		</author>
+		<title level="a">Displaced dynamic expression regression for real-time facial tracking and animation</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="43:1" to="43:10" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">F</forename><surname>Cootes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="a">Active appearance models</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE European Conference on Computer Vision (ECCV)</title>
+		<imprint>
+			<date when="1998">1998</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="webpage" xml:id="b6">
+	<monogr>
+		
+		<author>
+			Dimensional Imaging
+		</author>
+		<title level="m">DI4D PRO System</title>
+		<ref src="http://www.di4d.com/systems/di4d-pro-system/">http://www.di4d.com/systems/di4d-pro-system/</ref>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="webpage" xml:id="b7">
+	<monogr>
+		
+		<author>
+			Epic Games
+		</author>
+		<title level="m">Epic Games</title>
+		<ref src="https://www.epicgames.com">https://www.epicgames.com</ref>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename>Huan</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mingming</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Chaohui</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kayhan</forename><surname>Batmanghelich</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kun</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Dacheng</forename><surname>Tao</surname></persName>
+		</author>
+		<title level="a">Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping</title>
+	</analytic>
+	<monogr>
+		<title level="j">arXiv preprint</title>
+		<imprint>
+			<date when="2018">2018</date>
+			<biblScope unit="volume">arXiv:1706.00826</biblScope>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>Graham</forename><surname>Fyffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Andrew</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Oleg</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ryosuke</forename><surname>Ichikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Paul</forename><surname>Debevec</surname></persName>
+		</author>
+		<title level="a">Driving High-Resolution Facial Scans with Video Performance Capture</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8:1" to="8:14" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Article 8</note>
+</bibl>
+
+<bibl type="conference" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Leon</forename><forename type="middle">A</forename><surname>Gatys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">S</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matthias</forename><surname>Bethge</surname></persName>
+		</author>
+		<title level="a">Image Style Transfer Using Convolutional Neural Networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ian</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jean</forename><surname>Pouget-Abadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Mehdi</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Bing</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>David</forename><surname>Warde-Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Sherjil</forename><surname>Ozair</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Aaron</forename><surname>Courville</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yoshua</forename><surname>Bengio</surname></persName>
+		</author>
+		<title level="a">Generative adversarial Nets</title>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems (NIPS).</title>
+		<imprint>
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">W</forename><surname>Harley</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Shih-En</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jason</forename><surname>Saragih</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Katerina</forename><surname>Fragkiadaki</surname></persName>
+		</author>
+		<title level="a">Image Disentanglement and Uncooperative Re-Entanglement for High-Fidelity Image-to-Image Translation</title>
+	</analytic>
+	<monogr>
+		<title level="j">arXiv preprint</title>
+		<biblScope unit="volume">arXiv:1901.03628</biblScope>
+		<imprint>
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="webpage" xml:id="b13">
+	<monogr>
+		
+		<author>
+			Hellblade
+		</author>
+		<title level="a">Hellblade</title>
+		<ref src="https://www.hellblade.com/">https://www.hellblade.com/</ref>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>Phillip</forename><surname>Isola</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jun-Yan</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tinghui</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><forename type="middle">A</forename><surname>Efros</surname></persName>
+		</author>
+		<title level="a">Image-to-Image Translation with Conditional Adversarial Networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>Hiroharu</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yoshitaka</forename><surname>Ushiku</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tatsuya</forename><surname>Harada</surname></persName>
+		</author>
+		<title level="a">Neural 3D Mesh Renderer</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Tejas</forename><forename type="middle">D</forename><surname>Tejas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">F</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pushmeet</forename><surname>Kohli</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Josh</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<title level="a">Deep Convolutional Inverse Graphics Network</title>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems (NIPS)</title>
+		<imprint>
+			<date when="2015">2015</date>
+			<biblScope unit="page" from="2539" to="2547" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>Samuli</forename><surname>Laine</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tero</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Timo</forename><surname>Aila</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Antti</forename><surname>Herva</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Shunsuke</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ronald</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Hao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jaakko</forename><surname>Lehtinen</surname></persName>
+		</author>
+		<title level="a">Production-level facial performance capture using deep convolutional neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<biblScope unit="page">10 pages</biblScope>
+		</imprint>
+	</monogr>
+	<note>Article 10</note>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>Hao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Laura</forename><surname>Trutoiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kyle</forename><surname>Olszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Lingyu</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tristan</forename><surname>Trutna</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pei-Lun</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Aaron</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Chongyang</forename><surname>Ma</surname></persName>
+		</author>
+		<title level="a">Facial performance sensing head-mounted display</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="47:1" to="47:9" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Article 47</note>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>Stephen</forename><surname>Lombardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jason</forename><surname>Saragih</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tomas</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yaser</forename><surname>Sheikh</surname></persName>
+		</author>
+		<title level="a">Deep appearance models for face rendering</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Article 68</note>
+</bibl>
+
+<bibl type="webpage" xml:id="b20">
+	<monogr>
+		
+		<author>
+			Magic Leap
+		</author>
+		<title level="a">Magic Leap</title>
+		<ref src="https://www.magicleap.com/">https://www.magicleap.com/</ref>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename>Takeru</forename><surname>Miyato</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Toshiki</forename><surname>Kataoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Masanori</forename><surname>Koyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yuichi</forename><surname>Yoshida</surname></persName>
+		</author>
+		<title level="a">Spectral Normalization for Generative Adversarial Networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Learning Representations (ICLR)</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>Franziska</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Florian</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Oleksandr</forename><surname>Sotnychenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Dushyant</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Srinath</forename><surname>Sridhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Dan</forename><surname>Casas</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Christian</forename><surname>Theobalt</surname></persName>
+		</author>
+		<title level="a">GANerated Hands for Real-time 3D Hand Tracking from Monocular RGB</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename>Vinod</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Josh</forename><surname>Susskind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+		<title level="a">Analysis-by-Synthesis by Learning to Invert Generative Black Boxes</title>
+	</analytic>
+	<monogr>
+		<title level="m">AProceedings of the 18th International Conference on Artificial Neural Networks (ICANN), Part I</title>
+		<imprint>
+			<date when="2008">2008</date>
+			<biblScope unit="page" from="971" to="981" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>Kyle</forename><surname>Olszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Shunsuke</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Hao</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">High-fidelity facial and speech animation for VR HMDs</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">14 pages</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Article 221</note>
+</bibl>
+
+<bibl type="conference" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">M</forename><surname>Saragih</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Simon</forename><surname>Lucey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">F</forename><surname>Cohn</surname></persName>
+		</author>
+		<title level="a">Face alignment through subspace constrained mean-shifts</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Computer Vision (ICCV)</title>
+		<imprint>
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>Mike</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Chris</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Kim</forename><surname>Libreri</surname></persName>
+		</author>
+		<title level="a">Meet Mike: Epic Avatars</title>
+	</analytic>
+	<monogr>
+		<title level="m">ACM SIGGRAPH 2017 VR Village</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<biblScope unit="page">2 pages</biblScope>
+		</imprint>
+	</monogr>
+	<note>Article 12</note>
+</bibl>
+
+<bibl type="conference" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ayush</forename><surname>Tewari</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Zollhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Hyeongwoo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Pablo</forename><surname>Garrido</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Florian</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Patrick</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Christian</forename><surname>Theobalt</surname></persName>
+		</author>
+		<title level="a">MoFA: Model-Based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Computer Vision (ICCV)</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>Justus</forename><surname>Thies</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Zollhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Stamminger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Christian</forename><surname>Theobalt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matthias</forename><surname>Niessner</surname></persName>
+		</author>
+		<title level="a">Face2Face: Real-Time Face Capture and Reenactment of RGB Videos</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename>Justus</forename><surname>Thies</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Michael</forename><surname>Zollhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Marc</forename><surname>Stamminger</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Christian</forename><surname>Theobalt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Matthias</forename><surname>Niessner</surname></persName>
+		</author>
+		<title level="a">FaceVR: Real-Time Gaze-Aware Facial Reenactment in Virtual Reality</title>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Graphics (TOG)</title>
+		<imprint>
+			<date when="2018">2018</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="25:1" to="25:15" />
+		</imprint>
+	</monogr>
+	<note>Article 25</note>
+</bibl>
+
+<bibl type="standard" xml:id="b30">
+	<monogr>
+		
+		<author>
+			Unreal Engine 4
+		</author>
+		
+		<title level="a">Unreal Engine 4</title>
+		<ref src="https://www.unrealengine.com/">https://www.unrealengine.com/</ref>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>Shih-En</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Varun</forename><surname>Ramakrishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Takeo</forename><surname>Kanade</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Yaser</forename><surname>Sheikh</surname></persName>
+		</author>
+		<title level="a">Convolutional Pose Machines</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jing</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Jinxiang</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Takeo</forename><surname>Kanade</surname></persName>
+		</author>
+		<title level="a">A Closed-Form Solution to Non-Rigid Shape and Motion Recovery</title>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision (IJCV)</title>
+		<imprint>
+			<date when="2006">2006</date>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="233" to="246" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename>Xuehan</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Fernando</forename><surname>De la Torre</surname></persName>
+		</author>
+		<title level="a">Supervised Descent Method and Its Applications to Face Alignment</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="proceeding" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ilker</forename><surname>Yildirim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Winrich</forename><surname>Freiwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Tejas</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<title level="a">Efficient Analysis-by-synthesis in Vision: A Computational Framework, Behavioral Tests, and Comparison with Neural Representations</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 37th Annual Conference of the Cognitive Science Society</title>
+		<imprint>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="conference" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>Jun-Yan</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Taesung</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Phillip</forename><surname>Isola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><forename type="middle">A</forename><surname>Efros</surname></persName>
+		</author>
+		<title level="a">Unpaired Image- to-Image Translation using Cycle-Consistent Adversarial Networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Computer Vision (ICCV)</title>
+		<imprint>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

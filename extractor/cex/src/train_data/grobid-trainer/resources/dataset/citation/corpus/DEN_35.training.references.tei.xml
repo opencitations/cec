@@ -1,0 +1,1267 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="article" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Periodontitis: facts, fallacies and the future</title>
+		<author>
+			<persName><forename>J</forename><surname>Slots</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="7" to="23" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename>H</forename><surname>Hasturk</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Kantarci</surname></persName>
+		</author>
+		<title level="a">Activation and resolution of periodontal inflammation and its systemic impact</title>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<date when="2015">2015</date>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="255" to="273" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b2">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Hajishengallis</surname></persName>
+		</author>
+		<title level="a">Periodontitis: from microbial immune subversion to systemic inflammation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="30" to="44" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Slots</surname></persName>
+		</author>
+		<title level="a">Periodontal herpesviruses: prevalence, pathogenicity, systemic risk</title>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="28" to="45" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Mahanonda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Pichyangkul</surname></persName>
+		</author>
+		<title level="a">Toll-like receptors and their role in periodontal health and disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="41" to="55" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b5">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kurt-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<title level="a">Pattern recognition receptors and the innate immune response to viral infection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Viruses</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="920" to="940" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Akira</surname></persName>
+		</author>
+		<title level="a">The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="373" to="384" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<title level="a">The role of Toll-like receptors in periodontitis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Oral Dis</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="168" to="180" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Morandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Chaves Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Ramos-Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Souza Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Santos</surname></persName>
+		</author>
+		<title level="a">MyD88 or TRAM knockdown regulates interleukin (IL)-6, IL-8, and CXCL12 mRNA expression in human gingival and periodontal ligament fibroblasts</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1353" to="1360" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename>S</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Coats</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Darveau</surname></persName>
+		</author>
+		<title level="a">A novel class of lipoprotein lipase-sensitive molecules mediates Toll-like receptor 2 activation by Porphyromonas gingivalis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1277" to="1286" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y-C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W-C</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Ohashi</surname></persName>
+		</author>
+		<title level="a">LPS/TLR4 signal transduction pathway</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cytokine</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="145" to="151" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y-S</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y-Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Zhao</surname></persName>
+		</author>
+		<title level="a">Toll-like receptor 4 gene polymorphism is associated with chronic periodontitis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Clin Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6186" to="6192" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Swaminathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Prakasam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Puri</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<title level="a">Role of salivary epithelial toll-like receptors 2 and 4 in modulating innate immune responses in chronic periodontitis</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontal Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="757" to="765" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Lappin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Sherrabeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Erridge</surname></persName>
+		</author>
+		<title level="a">Stimulants of Toll-like receptors 2 and 4 are elevated in saliva of periodontitis patients compared with healthy subjects</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Periodontol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="318" to="325" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename>E</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Bachrach</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Shapira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<title level="a">Cutting Edge: tLR2 is required for the innate response to Porphyromonas gingivalis: activation leads to bacterial persistence and TLR2 deficiency attenuates induced alveolar bone resorption</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="8296" to="8300" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Chukkapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Velsko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Rivera-Kweh</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Larjava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Kesavalu</surname></persName>
+		</author>
+		<title level="a">Global TLR2 and 4 deficiency in mice impacts bone resorption, inflammatory markers and atherosclerosis to polymicrobial infection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Oral Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="211" to="225" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Toll-like receptors in antiviral innate immunity</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Bio</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="1246" to="1264" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b17">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Liang</surname></persName>
+		</author>
+		<title level="a">Periodontal ligament stem cells: current status, concerns, and future prospects</title>
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cells Int</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page">972313</biblScope>
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>MacDougall</surname></persName>
+		</author>
+		<title level="a">Isolation and characterization of multipotent human periodontal ligament stem cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Orthod Craniofac Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="149" to="160" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">Lipopolysaccharide-regulated production of bone sialoprotein and interleukin-8 in human periodontal ligament fibroblasts: the role of toll-like receptors 2 and 4 and the MAPK pathway</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontal Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="141" to="151" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b20">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Gronthos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bartold</surname></persName>
+		</author>
+		<title level="a">Immunomodulatory effects of stem cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Periodontol 2000</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="198" to="216" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><forename type="last">B</forename><surname>Nogueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Nokhbehsaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Eick</surname></persName>
+		</author>
+		<title level="a">Regulation of visfatin by microbial and biomechanical signals in PDL cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Oral Investig</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="171" to="178" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Li</surname></persName>
+		</author>
+		<title level="a">TLR activation inhibits the osteogenic potential of human periodontal ligament stem cells through Akt signaling in a Myd88-or TRIF-dependent manner</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontol</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Epub ahead of print</note>
+</bibl>
+
+<bibl type="chapter" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">N</forename><surname>Klincumhom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaikeawkaew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adulheem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pavasant</surname></persName>
+		</author>
+		<title level="a">Activation of TLR3 enhance stemness and immunomodulatory properties of periodontal ligament stem cells (PDLSCs)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Interface Oral Health Science 2016</title>
+		<editor>
+			<persName><forename>K</forename><surname>Sasaki</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>O</forename><surname>Suzuki</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename>N</forename><surname>Takahashi</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer</publisher>
+			<pubPlace>Singapore</pubPlace>
+			<date when="2016">2016</date>
+			<biblScope unit="page" from="205" to="216" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Blufstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Behm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Q</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Rausch-Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Andrukhov</surname></persName>
+		</author>
+		<title level="a">Human periodontal ligament cells exhibit no endotoxin tolerance upon stimulation with Porphyromonas gingivalis lipopolysaccharide</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Periodontal Res</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="589" to="597" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b25">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Andrukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Andrukhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Özdemir</surname></persName>
+		</author>
+		<title level="a">Soluble CD14 enhances the response of periodontal ligament stem cells to P. gingivalis lipopolysaccharide</title>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">e160848</biblScope>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Andrukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S-A</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename>O</forename><surname>Andrukhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Blufstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Rausch-Fan</surname></persName>
+		</author>
+		<title level="a">Response of human periodontal ligament stem cells to IFN-𝛾 and TLR-agonists</title>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">12856</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b27">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Gray</surname></persName>
+		</author>
+		<title level="a">TLR-mediated stimulation of APC: distinct cytokine responses of B cells and dendritic cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="3040" to="3053" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b28">
+	<analytic>
+		
+		<author>
+			<persName><forename>F</forename><surname>Vanhoutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Paget</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Breuilh</surname></persName>
+		</author>
+		<title level="a">Toll-like receptor (TLR)2 and TLR3 synergy and cross-inhibition in murine myeloid dendritic cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol Lett</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="86" to="94" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b29">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Weir</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Karkada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>D</forename><surname>Hoskin</surname></persName>
+		</author>
+		<title level="a">Combination of poly I:c and Pam3CSK4 enhances activation of B cells in vitro and boosts antibody responses to protein vaccines in vivo</title>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">e180073</biblScope>
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">C</forename><surname>Gabay</surname></persName>
+		</author>
+		<title level="a">Interleukin-6 and chronic inflammation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">8 (suppl 2)</biblScope>
+			<biblScope unit="page">S3</biblScope>
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Baggiolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Dewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Moser</surname></persName>
+		</author>
+		<title level="a">Interleukin-8 and related chemotactic cytokines-CXC and CC chemokines</title>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Immunol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="97" to="179" />
+			<date when="1994">1994</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Garlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Fukada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Q</forename><surname>Cunha</surname></persName>
+		</author>
+		<title level="a">Chemokines in oral inflammatory diseases: apical periodontitis and periodontal disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="306" to="319" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b33">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Krajewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Biessei</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Kunze</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Maersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Perabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Noack</surname></persName>
+		</author>
+		<title level="a">Influence of lipopolysaccharide and interleukin-6 on RANKL and OPG expression and release in human periodontal ligament cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">APMIS</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="746" to="754" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Behm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Blufstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Gahn</surname></persName>
+		</author>
+		<title level="a">The response of periodontal ligament stem cells to toll-like receptor 2 agonists is enhanced by soluble CD14</title>
+	</analytic>
+	<monogr>
+		<title level="j">Mediators Inflamm</title>
+		<imprint>
+			<biblScope unit="page">8127301</biblScope>
+			<date when="2019">2019</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Mahanonda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Sa-Ard-Iam</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Montreekachon</surname></persName>
+		</author>
+		<title level="a">IL-8 and IDO expression by human gingival fibroblasts via TLRs</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="1151" to="1157" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b36">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Darveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T-T</forename><forename type="middle">T</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lemley</surname></persName>
+		</author>
+		<title level="a">Porphyromonas gingivalis lipopolysaccharide contains multiple lipid A species that functionally interact with both toll-like receptors 2 and 4</title>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="5041" to="5051" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b37">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Heo</surname></persName>
+		</author>
+		<title level="a">Crystal structure of the TLR1-TLR2 heterodimer induced by binding of a tri-acylated lipopeptide</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="1071" to="1082" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Akira</surname></persName>
+		</author>
+		<title level="a">Toll-like receptors and innate immunity</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="621" to="625" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Blasius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beutler</surname></persName>
+		</author>
+		<title level="a">Intracellular toll-like receptors</title>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="305" to="315" />
+			<date when="2010">2010</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename>W</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Gao</surname></persName>
+		</author>
+		<title level="a">Differential outcome of TRIF-mediated signaling in TLR4 and TLR3 induced DC maturation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="13994" to="13999" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="chapter" xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename>O</forename><surname>Andrukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Behm</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Blufstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename>X</forename><surname>Rausch-Fan</surname></persName>
+		</author>
+		<title level="a">Immunomodulatory properties of dental-derived mesenchymal stem cells</title>
+	</analytic>		
+	<monogr>
+		<title level="m">Periodontology and Dental Implantology</title>
+		
+		<editor>
+			<persName><forename>J</forename><surname>Manakil</surname></persName>
+		</editor>
+		<imprint>
+			<date when="2018">2018</date>
+			<publisher>IntechOpen</publisher>
+			<pubPlace>London</pubPlace>
+			<biblScope unit="page" from="21" to="49" />
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b42">
+	<analytic>
+		
+		<author>
+			<persName><forename>O</forename><surname>Delarosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename>W</forename><surname>Dalemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Lombardo</surname></persName>
+		</author>
+		<title level="a">Toll-like receptors as modulators of mesenchymal stem cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">182</biblScope>
+			<date when="2012">2012</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b43">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Matsuyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<title level="a">B and T lymphocytes are the primary sources of RANKL in the bone resorptive lesion of periodontal disease</title>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Pathol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="987" to="998" />
+			<date when="2006">2006</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b44">
+	<analytic>
+		
+		<author>
+			<persName><forename>M</forename><surname>Sakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Shiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Komatsuzawa</surname></persName>
+		</author>
+		<title level="a">Expression of osteoprotegerin (osteoclastogenesis inhibitory factor) in cultures of human dental mesenchymal cells and epithelial cells</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1486" to="1492" />
+			<date when="1999">1999</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b45">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Fukushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Kajiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Takada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Okabe</surname></persName>
+		</author>
+		<title level="a">Expression and role of RANKL in periodontal ligament cells during physiological root-resorption in human deciduous teeth</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Oral Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="346" to="352" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b46">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Belibasakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Bostanci</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Hashim</surname></persName>
+		</author>
+		<title level="a">Regulation of RANKL and OPG gene expression in human gingival fibroblasts and periodontal ligament cells by Porphyromonas gingivalis: a putative role of the Arg-gingipains</title>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Pathog</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date when="2007">2007</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b47">
+	<analytic>
+		
+		<author>
+			<persName><forename>N</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Yoshimine</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Akamine</surname></persName>
+		</author>
+		<title level="a">Lipopolysaccharide stimulates expression of osteoprotegerin and receptor activator of NF-kappa B ligand in periodontal ligament fibroblasts through the induction of interleukin-1 beta and tumor necrosis factor-alpha</title>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="629" to="635" />
+			<date when="2004">2004</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b48">
+	<analytic>
+		
+		<author>
+			<persName><forename>V</forename><surname>Bloemen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Schoenmaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename>V</forename><surname>Everts</surname></persName>
+		</author>
+		<title level="a">IL-1𝛽 favors osteoclastogenesis via supporting human periodontal ligament fibroblasts</title>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="1890" to="1897" />
+			<date when="2011">2011</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b49">
+	<analytic>
+		
+		<author>
+			<persName><forename>B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Q</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="a">Periodontal ligament stem cells modulate root resorption of human primary teeth via Runx2 regulating RANKL/OPG system</title>
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cells Dev</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2524" to="2534" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+				</listBibl>
+	</back>
+	</text>
+</TEI>

@@ -1,0 +1,1854 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Giuffrida</surname>
+					<forename type="first">A</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Burgueno</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Koniaris</surname>
+					<forename type="first">L</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gutierrez</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Duncan</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Scully</surname>
+					<forename type="first">S</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Chondrosarcoma in the United States (1973 to 2003): an analysis of 2890 cases from the SEER database</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Bone Joint Surg Am</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">91</biblScope>
+				<biblScope unit="page" from="1063" to="1072" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Leddy</surname>
+					<forename type="first">L</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Holmes</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Chondrosarcoma of bone</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cancer Treat Res</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">162</biblScope>
+				<biblScope unit="page" from="117" to="130" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Girard</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bazille</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lhuissier</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Benateau</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Llombart-Bosch</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boumediene</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baugé</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">3-Deazaneplanocin A (DZNep), an Inhibitor of the Histone Methyltransferase EZH2, Induces Apoptosis and Reduces Cell Migration in Chondrosarcoma Cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">PloS One</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page">e98176</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lhuissier</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bazille</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aury-Landas</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Girard</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pontin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boittin</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boumediene</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baugé</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Identification of an easy to use 3D culture model to investigate invasion and anticancer drug response in chondrosarcomas</title>
+		</analytic>
+		<monogr>
+			<title level="j">BMC Cancer</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">17</biblScope>
+				<biblScope unit="page" from="490" to="490" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Puppe</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Drost</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Joosse</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Evers</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cornelissen-Steijger</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nederlof</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jonkers</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>van Lohuizen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pietersen</surname>
+					<forename type="first">A</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">BRCA1-deficient mammary tumor cells are dependent on EZH2 expression and sensitive to Polycomb Repressive Complex 2-inhibitor 3-deazaneplanocin</title>
+		</analytic>
+		<monogr>
+			<title level="j">A. Breast Cancer Res</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page">R63</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Xie</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bi</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cheong</surname>
+					<forename type="first">L</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename type="first">S</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename type="first">C</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chng</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Determinants of Sensitivity to DZNep Induced Apoptosis in Multiple Myeloma Cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">PLoS One</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page">e21583</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Cheng</surname>
+					<forename type="first">L</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Itahana</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename type="first">Z</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chia</surname>
+					<forename>N-Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename type="first">S</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Thike</surname>
+					<forename type="first">A</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pandey</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rozen</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Voorhoeve</surname>
+					<forename type="first">P</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bay</surname>
+					<forename type="first">B</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Itahana</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<title level="a">TP53 genomic status regulates sensitivity of gastric cancer cells to the histone methylation inhibitor 3-deazaneplanocin A (DZNep)</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin Cancer Res</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="4201" to="4212" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Martínez-Fernández</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rubio</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Segovia</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>López-Calderón</surname>
+					<forename type="first">F</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Dueñas</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Paramio</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">EZH2 in Bladder Cancer, a Promising Therapeutic Target</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Mol Sci</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="27107" to="27132" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Jagasia</surname>
+					<forename type="first">A</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Block</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Diaz</surname>
+					<forename type="first">M</forename><forename type="middle">O</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Nobori</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gitelis</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Inerot</surname>
+					<forename type="first">S</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Iyer</surname>
+					<forename type="first">A</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<title level="a">Partial deletions of the CDKN2 and MTS2 putative tumor suppressor genes in a myxoid chondrosarcoma</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cancer Lett</title>
+			<imprint>
+				<date when="1996">1996</date>
+				<biblScope unit="volume">105</biblScope>
+				<biblScope unit="page" from="77" to="90" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Scully</surname>
+					<forename type="first">S</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Berend</surname>
+					<forename type="first">K</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Toth</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qi</surname>
+					<forename type="first">W</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qi</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Block</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Marshall Urist Award. Interstitial collagenase gene expression correlates with in vitro invasion in human chondrosarcoma</title>
+		</analytic>
+		<monogr>
+			<title level="j">Clin Orthop</title>
+			<imprint>
+				<date when="2000">2000</date>
+				<biblScope unit="volume">376</biblScope>
+				<biblScope unit="page" from="291" to="303" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Gil-Benso</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lopez-Gines</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>López-Guerrero</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carda</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Callaghan</surname>
+					<forename type="first">R</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Navarro</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ferrer</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pellín</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Llombart-Bosch</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Establishment and characterization of a continuous human chondrosarcoma cell line, ch-2879: comparative histologic and genetic studies with its tumor of origin</title>
+		</analytic>
+		<monogr>
+			<title level="j">Lab Invest</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">83</biblScope>
+				<biblScope unit="page" from="877" to="887" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename type="first">D</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sherman</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lempicki</surname>
+					<forename type="first">R</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nat Protoc</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">4</biblScope>
+				<biblScope unit="page" from="44" to="57" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Szklarczyk</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Franceschini</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wyder</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Forslund</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Heller</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huerta-Cepas</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Simonovic</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Roth</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santos</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tsafou</surname>
+					<forename type="first">K</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kuhn</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bork</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jensen</surname>
+					<forename type="first">L</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>von Mering</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">STRING v10: protein-protein interaction networks, integrated over the tree of life</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucleic Acids Res</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">43</biblScope>
+				<biblScope unit="page" from="D447" to="D452" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Fiskus</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sreekumar</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Buckley</surname>
+					<forename type="first">K</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shi</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jillella</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ustun</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rao</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fernandez</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Balusu</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Koul</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Atadja</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marquez</surname>
+					<forename type="first">V</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhalla</surname>
+					<forename type="first">K</forename><forename type="middle">N</forename>
+				</persName>
+			</author>
+			<title level="a">Combined epigenetic therapy with the histone methyltransferase EZH2 inhibitor 3-deazaneplanocin A and the histone deacetylase inhibitor panobinostat against human AML cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Blood</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">114</biblScope>
+				<biblScope unit="page" from="2733" to="2743" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chiba</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Suzuki</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Negishi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Saraya</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Miyagi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Konuma</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tanaka</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tada</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kanai</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Imazeki</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Iwama</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yokosuka</surname>
+					<forename>O</forename>
+				</persName>
+			</author>
+			<title level="a">3-Deazaneplanocin A is a promising therapeutic agent for the eradication of tumor-initiating hepatocellular carcinoma cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Int J Cancer</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">130</biblScope>
+				<biblScope unit="page" from="2557" to="2567" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ma</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ingram</surname>
+					<forename type="first">D</forename><forename type="middle">R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lazar</surname>
+					<forename type="first">A</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Torres</surname>
+					<forename type="first">K</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pollock</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Antitumor effects of pharmacological EZH2 inhibition on malignant peripheral nerve sheath tumor through the miR-30a and KPNB1 pathway</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol Cancer</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page">55</biblScope>
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Lhuissier</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aury-Landas</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bouet</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bazille</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Repesse</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Freret</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boumediene</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Baugé</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Evaluation of the impact of S-adenosylmethionine-dependent methyltransferase inhibitor, 3-deazaneplanocin A, on tissue injury and cognitive function in mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">Oncotarget</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="20698" to="20708" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chan</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Loading 3-deazaneplanocin A into pegylated unilamellar liposomes by forming transient phenylboronic acid-drug complex and its pharmacokinetic features in Sprague-Dawley rats</title>
+		</analytic>
+		<monogr>
+			<title level="j">Eur J Pharm Biopharm</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">80</biblScope>
+				<biblScope unit="page" from="323" to="331" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Peer</surname>
+					<forename type="first">C</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rao</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Spencer</surname>
+					<forename type="first">S</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shahbazi</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Steeg</surname>
+					<forename type="first">P</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schrump</surname>
+					<forename type="first">D</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Figg</surname>
+					<forename type="first">W</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">A rapid ultra HPLC-MS/MS method for the quantitation and pharmacokinetic analysis of 3-deazaneplanocin A in mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Chromatogr B Analyt Technol Biomed Life Sci</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">927</biblScope>
+				<biblScope unit="page" from="142" to="146" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Baugé</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bazille</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Girard</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lhuissier</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Boumediene</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Histone methylases as novel drug targets: developing inhibitors of EZH2</title>
+		</analytic>
+		<monogr>
+			<title level="j"> Future Med Chem</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="1943" to="1965" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Miranda</surname>
+					<forename type="first">T</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cortez</surname>
+					<forename type="first">C</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yoo</surname>
+					<forename type="first">C</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Abe</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kelly</surname>
+					<forename type="first">T</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Marquez</surname>
+					<forename type="first">V</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jones</surname>
+					<forename type="first">P</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">DZNep Is a Global Histone Methylation Inhibitor that Reactivates Developmental Genes Not Silenced by DNA Methylation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Mol Cancer Ther</title>
+			<imprint>
+				<date when="2009">2009</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="1579" to="1588" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Caudill</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename type="first">J</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Melnyk</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pogribny</surname>
+					<forename type="first">I</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jernigan</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Collins</surname>
+					<forename type="first">M</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santos-Guzman</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Swendseid</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cogger</surname>
+					<forename type="first">E</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>James</surname>
+					<forename type="first">S</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Intracellular S-adenosylhomocysteine concentrations predict global DNA hypomethylation in tissues of methyl-deficient cystathionine beta-synthase heterozygous mice</title>
+		</analytic>
+		<monogr>
+			<title level="j">J Nutr</title>
+			<imprint>
+				<date when="2001">2001</date>
+				<biblScope unit="volume">131</biblScope>
+				<biblScope unit="page" from="2811" to="2818" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mah</surname>
+					<forename type="first">L</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>El-Osta</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Karagiannis</surname>
+					<forename type="first">T</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">gammaH2AX: a sensitive molecular marker of DNA damage and repair.</title>
+		</analytic>
+		<monogr>
+			<title level="j">Leukemia</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="679" to="686" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">S</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qiao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">P</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lee</surname>
+					<forename type="first">Y</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tan</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Aau</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lim</surname>
+					<forename type="first">C</forename><forename type="middle">Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<title level="a">Polycomb protein EZH2 regulates cancer cell fate decision in response to DNA damage</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cell Death Differ</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="1771" to="1779" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Luo</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Du</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Metabolic perturbation of epigenome by inhibiting S-adenosylhomocysteine hydrolase elicits senescence through DNA damage response in hepatoma cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">Tumor Biol</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">39</biblScope>
+				<biblScope unit="page" from="1" to="10" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hatta</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Naganuma</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kato</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yamazaki</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">3-Deazaneplanocin A suppresses aggressive phenotype- related gene expression in an oral squamous cell carcinoma cell line</title>
+		</analytic>
+		<monogr>
+			<title level="j"> Biochem Biophys Res Commun</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">468</biblScope>
+				<biblScope unit="page" from="269" to="273" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Seshacharyulu</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ponnusamy</surname>
+					<forename type="first">M</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Haridas</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jain</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ganti</surname>
+					<forename type="first">A</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Batra</surname>
+					<forename type="first">S</forename><forename type="middle">K</forename>
+				</persName>
+			</author>
+			<title level="a">Targeting the EGFR signaling pathway in cancer therapy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Expert Opin Ther Targets</title>
+			<imprint>
+				<date when="2012">2012</date>
+				<biblScope unit="volume">16</biblScope>
+				<biblScope unit="page" from="15" to="31" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Mahipal</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kothari</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gupta</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Epidermal growth factor receptor inhibitors: coming of age</title>
+		</analytic>
+		<monogr>
+			<title level="j">Cancer Control</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">21</biblScope>
+				<biblScope unit="page" from="74" to="79" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Movva</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wen</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Millis</surname>
+					<forename type="first">S</forename><forename type="middle">Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gatalica</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Reddy</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>von Mehren</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Van Tine</surname>
+					<forename type="first">B</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Multi-platform profiling of over 2000 sarcomas: Identification of biomarkers and novel therapeutic targets</title>
+		</analytic>
+		<monogr>
+			<title level="j">Oncotarget</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">6</biblScope>
+				<biblScope unit="page" from="12234" to="12247" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Song</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhao</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tian</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Gefitinib causes growth arrest and inhibition of metastasis in human chondrosarcoma cells</title>
+		</analytic>
+		<monogr>
+			<title level="j">J BUON</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">20</biblScope>
+				<biblScope unit="page" from="894" to="901" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Qin</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shaukat</surname>
+					<forename>I</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mainard</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Netter</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Barré</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ouzzine</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Constitutive activation of EGFR is associated with tumor progression and plays a prominent role in malignant phenotype of chondrosarcoma</title>
+		</analytic>
+		<monogr>
+			<title level="j">Oncotarget</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="3166" to="3182" />
+			</imprint>
+		</monogr>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>

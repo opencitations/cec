@@ -1,0 +1,1053 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+<bibl type="grey-literature" xml:id="b0">
+	<monogr>
+		<author>
+			Anon
+		</author>
+		<title level="a">National Research Council. Land use and wildlife resources</title>
+		<imprint>
+			<date when="1970">1970</date>
+			<publisher>The National Academic Press</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b1">
+	<monogr>
+		<author>
+			Anon
+		</author>
+		<title level="a">Jordbruksverket</title>
+		<imprint>
+			<date when="2018a">2018a</date>
+			<publisher>Swedish Board of Agriculture</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b2">
+	<monogr>
+		<author>
+			Anon
+		</author>
+		<title level="a">Statistika centralbyrån</title>
+		<imprint>
+			<date when="2018a">2018a</date>
+			<publisher>Statistics Sweden</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b3">
+	<analytic>
+		
+		<author>
+			<persName><forename>A</forename><surname>Bechet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Giroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename>G</forename><surname>Gauthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">JJames</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<title level="a">Spring hunting changes the regional movements of migrating greater snow geese</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="553" to="564" />
+			<date when="2003">2003</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b4">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Clausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<title level="a">Philopatry in a changing world: response of pink-footed geese Anser brachyrhynchus to the loss of a key autumn staging area due to restoration of Filsø Lake, Denmark</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="229" to="237" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b5">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Conover</surname></persName>
+		</author>
+		<title level="a">Resolving human‐wildlife conflicts. The Science of wildlife damage management</title>
+		<imprint>
+			<date when="2002">2002</date>
+			<publisher>CRC Press, Lewis Publishers</publisher>
+			<pubPlace>Boca Raton, FL</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b6">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Cusack</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Duthie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Rakotonarivo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pozo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><forename type="last">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Månsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Bunnefeld</surname></persName>
+		</author>
+		<title level="a">Time series analysis reveals synchrony and asynchrony between conflict management effort and increasing large grazing bird populations in northern Europe</title>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Letters</title>
+		<imprint>
+			<biblScope unit="page">e12450</biblScope>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b7">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Ebbinge</surname></persName>
+		</author>
+		<title level="a">The impact of hunting on mortality rates and spatial distribution of geese wintering in the Western Palearctic</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ardea</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="197" to="209" />
+			<date when="1991">1991</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b8">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Abraham</surname></persName>
+		</author>
+		<title level="a">Why geese benefit from the transition from natural vegetation to agriculture</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="188" to="197" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b9">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Elmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Tombre</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Hessel</surname></persName>
+		</author>
+		<title level="a">Agriculture and herbivorous waterfowl: a review of the scientific basis for improved management</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="854" to="877" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b10">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<title level="a">Threatened species to super-abun- dance: The unexpected international implications of successful goose conservation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="179" to="187" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b11">
+	<analytic>
+		<author>
+			<persName><forename>G</forename><surname>Gauthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Giroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Bechet</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Belanger</surname></persName>
+		</author>
+		<title level="a">Interactions between land use, habitat use, and population increase in greater snow geese: What are the consequences for natural wetlands?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="856" to="868" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b12">
+	<analytic>
+		
+		<author>
+			<persName><forename>Ł</forename><surname>Jankowiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Skórka</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Ł</forename><surname>Ławicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Wylegała</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Polakowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Wuczyński</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Tryjanowski</surname></persName>
+		</author>
+		<title level="a">Patterns of occurrence and abundance of roosting geese: the role of spatial scale for site selection and consequences for conservation</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="833" to="842" />
+			<date when="2015">2015</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b13">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Høj</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Tamstorf</surname></persName>
+		</author>
+		<title level="a">Snow conditions as an estimator of the breeding output in high-Arctic pink-footed geese Anser brachyrhynchus</title>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date when="2014">2014</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="series" xml:id="b14">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Nagy</surname></persName>
+		</author>
+		<title level="a">AEWA International Species Management Plan for the Barnacle Goose (Branta leucopsis) - Russia/ Germany  &amp; Netherlands population, East Greenland/Scotland &amp; Ireland population, Svalbard/South-west Scotland population</title>
+	</analytic>
+	<monogr>
+		<imprint>
+			<date when="2018">2018</date>
+			<pubPlace>Bonn, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<series>
+		<title level="s">AEWA Technical Series</title>
+	</series>
+</bibl>
+
+<bibl type="article" xml:id="b15">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Josefsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Pärt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>Å</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lokhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Eggers</surname></persName>
+		</author>
+		<title level="a">Landscape context and farm uptake limit effects of bird conservation in the Swedish Volunteer &amp; Farmer Alliance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="2719" to="2730" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b16">
+	<analytic>
+		
+		<author>
+			<persName><forename>G</forename><surname>Lundin</surname></persName>
+		</author>
+		<title level="a">Cranes -where, when and why?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Vår Fågelvärld</title>
+		<imprint>
+			<date when="2005">2005</date>
+			<publisher>Swedish Ornithological Society -Birdlife</publisher>
+			<pubPlace>Falköping, Sweden</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Supplement 2005: 43</note>
+</bibl>
+
+<bibl type="technical-report" xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="m">International Species Management Plan for the Svalbard population of the pink‐footed goose Anser brachyrhynchus</title>
+		<imprint>
+			<date when="2012">2012</date>
+			<publisher>African-Eurasian Waterbird Agreement</publisher>
+			<pubPlace>Bonn, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<note>AEWA Technical Report, 48</note>
+</bibl>
+
+<bibl type="article" xml:id="b18">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Tombre</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Dereliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Kuijken</surname></persName>
+		</author>
+		<title level="a">Implementation of the first adaptive management plan for a European migratory waterbird population: The case of the Svalbard pink-footed goose Anser brachyrhynchus</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="275" to="289" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b19">
+	<analytic>
+		
+		<author>
+			<persName><forename>J</forename><surname>Månsson</surname></persName>
+		</author>
+		<title level="a">Lethal scaring – Behavioral and short-term numerical response of greylag goose Anser anser</title>
+	</analytic>
+	<monogr>
+		<title level="j">Crop Protection</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="258" to="264" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="book" xml:id="b20">
+	<monogr>
+		
+		<author>
+			<persName><forename>J</forename><surname>Månsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Hake</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Ängsteg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Wiberg</surname></persName>
+		</author>
+		<title level="m">Besiktnng av viltskador på gröda – med inriktning på fre‐ dade fåglar</title>
+		<imprint>
+			<publisher>Viltskadecenter, Grimsö Forskningsstation</publisher>
+			<date when="2011">2011</date>
+			<pubPlace>Riddarhyttan, Sweden</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b21">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><forename type="last">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Keane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Redpath</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Bunnefeld</surname></persName>
+		</author>
+		<title level="a">The changing environment of conservation conflict: Geese and farming in Scotland</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="651" to="662" />
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b22">
+	<analytic>
+		
+		<author>
+			<persName><forename>R</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Shaw</surname></persName>
+		</author>
+		<title level="a">Reconciling competing values placed upon goose populations: The evolution of and experiences from the Islay Sustainable Goose Management Strategy</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="198" to="209" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b23">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Mcnaughton</surname></persName>
+		</author>
+		<title level="a">Grazing as an Optimization Process: Grass-Ungulate Relationships in the Serengeti</title>
+	</analytic>
+	<monogr>
+		<title level="j">The American Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="691" to="703" />
+			<date when="1979">1979</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b24">
+	<analytic>
+		
+		<author>
+			<persName><forename>C</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Fiechter</surname></persName>
+		</author>
+		<author>
+			<persName><forename>B</forename><surname>Rutherford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Redpath</surname></persName>
+		</author>
+		<title level="a">Building partnerships with communities for biodiversity conservation: lessons from Asian mountains</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1583" to="1591" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b25">
+	<monogr>
+		
+		<author>
+			<persName><forename>T</forename><surname>Montràs-Janer</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Knape</surname></persName>
+		</author>
+		<author>
+			<persName><forename>L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>I</forename><surname>Tombre</surname></persName>
+		</author>
+		<author>
+			<persName><forename>T</forename><surname>Pärt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Månsson</surname></persName>
+		</author>
+		<title level="m">Data from: Relating national levels of crop damage to the abundance of large grazing birds: Implications for management</title>
+		<imprint>
+			<date when="2019">2019</date>
+			<publisher>Dryad Digital Repository</publisher>
+		</imprint>
+	</monogr>
+	
+</bibl>
+
+<bibl type="article" xml:id="b26">
+	<analytic>
+		
+		<author>
+			<persName><forename>L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<title level="a">Censuses of autumn staging and wintering goose populations in Sweden 1977/1978–2011/2012</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ornis Svecica</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b27">
+	<monogr>
+		
+		<author>
+			<persName><forename>L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<title level="m">Common cranes in agricultural landscapes – linking space use and foraging patterns to conservation and damage prevention</title>
+		<imprint>
+			<publisher>Swedish University of Agricultural Sciences</publisher>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b28">
+	<monogr>
+		
+		<author>
+			<persName><forename>L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Haas</surname></persName>
+		</author>
+		<title level="m">International counts of staging and winter‐ ing waterbirds and geese in Sweden</title>
+		<imprint>
+			<publisher>Biologiska institutionen, Lunds Universitet</publisher>
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Annual report for 2015/2016</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename>U</forename><surname>Ottosson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Ottvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Elmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename>R</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>F</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Tjenberg</surname></persName>
+		</author>
+		<title level="m">Fåglarna i Sverige -Antal och förekomst</title>
+		<imprint>
+			<publisher>Swedish Ornithological Society</publisher>
+			<date when="2012">2012</date>
+			<pubPlace>Halmstad, Sweden</pubPlace>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b30">
+	<analytic>
+		
+		<author>
+			<persName><forename>D</forename><surname>Parrott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Mckay</surname></persName>
+		</author>
+		<title level="a">Mute swan grazing on winter crops: estimation of yield loss in oilseed rape and wheat</title>
+	</analytic>
+	<monogr>
+		<title level="j">Crop Protection</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="913" to="919" />
+			<date when="2001">2001</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b31">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Percival</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Houston</surname></persName>
+		</author>
+		<title level="a">The Effect of Winter Grazing by Barnacle Geese on Grassland Yields on Islay</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="40" />
+			<date when="1992">1992</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="series" xml:id="b32">
+	<analytic>
+		
+		<author>
+			<persName><forename>T</forename><surname>Powolny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Czajkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename>M</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<title level="a">AEWA International Single Species Management Plan for the greylag goose (Anser anser) -Northwest/ Southwest European population</title>
+	</analytic>
+	<monogr>
+		<imprint>
+			<date when="2018">2018</date>
+			<pubPlace>Bonn, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<series>
+		<title level="s">AEWA Technical Series</title>
+	</series>
+</bibl>
+
+<bibl type="standard" xml:id="b33">
+	<monogr>
+		
+		<author>
+			R Core Team
+		</author>
+		<title level="m">R: A language and environment for statistical comput‐ ing</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<pubPlace>Vienna, Austria</pubPlace>
+			<publisher>R Foundation for Statistical Computing</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b34">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Redpath</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Evely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Whitehouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gutiérrez</surname></persName>
+		</author>
+		<title level="a">Understanding and managing conservation conflicts</title>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="100" to="109" />
+			<date when="2013">2013</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b35">
+	<analytic>
+		
+		<author>
+			<persName><forename>H</forename><surname>Rue</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Martino</surname></persName>
+		</author>
+		<author>
+			<persName><forename>N</forename><surname>Chopin</surname></persName>
+		</author>
+		<title level="a">Approximate Bayesian Inference for Latent Gaussian models by using Integrated Nested Laplace Approximations</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society Series B</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="319" to="392" />
+			<date when="2009">2009</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b36">
+	<analytic>
+		<author>
+			<persName><forename>M</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename>S</forename><surname>Coulson</surname></persName>
+		</author>
+		<title level="a">Artportalen (Swedish species observation system)</title>
+	</analytic>
+	<monogr>
+		<title level="m">ArtDatabanken</title>
+		<imprint>
+			<date when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Version 92.131</note>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b37">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="first">P</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename>H</forename><surname>Rue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="first">G</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Riebler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Sorbye</surname></persName>
+		</author>
+		<title level="a">Penalising Model Component Complexity: A Principled, Practical Approach to Constructing Priors</title>
+		<imprint>
+			<date when="2014">2014</date>
+			<publisher>Cornell University Library</publisher>
+		</imprint>
+	</monogr>
+	<note>arXiv preprint</note>
+</bibl>
+
+<bibl type="article" xml:id="b38">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Stroud</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</author>
+		<title level="a">Key actions towards the sustainable management of European geese</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ambio</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="328" to="338" />
+			<date when="2017">2017</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b39">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Tombre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Høgda</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename>E</forename><surname>Kuijken</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Shimmings</surname></persName>
+		</author>
+		<author>
+			<persName><forename>C</forename><surname>Verscheure</surname></persName>
+		</author>
+		<title level="a">The onset of spring and timing of migration in two arctic nesting goose populations: The pink-footed goose Anser bachyrhynchus and the barnacle goose Branta leucopsis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Avian Biology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="691" to="703" />
+			<date when="2008">2008</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b40">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van der Graaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename>J</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bakker</surname></persName>
+		</author>
+		<title level="a">Compensatory growth of Festuca rubra after grazing: Can migratory herbivores increase their own harvest during staging?</title>
+	</analytic>
+	<monogr>
+		<title level="j">Functional Ecology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="961" to="969" />
+			<date when="2005">2005</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="article" xml:id="b41">
+	<analytic>
+		
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename>K</forename><surname>Searle</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename>P</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Watt</surname></persName>
+		</author>
+		<author>
+			<persName><forename>A</forename><surname>Jordan</surname></persName>
+		</author>
+		<title level="a">The role of trust in the resolution of conservation conflicts</title>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="196" to="202" />
+			<date when="2016">2016</date>
+		</imprint>
+	</monogr>
+</bibl>
+
+<bibl type="grey-literature" xml:id="b42">
+	<monogr>
+		
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Zuur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Ieno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Saveliev</surname></persName>
+		</author>
+		<title level="m">Beginner’s guide to spa‐ tial, temporal and spatio‐temporal ecological data analysis with R‐INLA. Vol. I: Using GLM and GLMM</title>
+		<imprint>
+			<date when="2017">2017</date>
+			<publisher>Highland Statistics Ltd.</publisher>
+		</imprint>
+	</monogr>
+</bibl>
+				</listBibl>
+	</back>
+	</text>
+</TEI>

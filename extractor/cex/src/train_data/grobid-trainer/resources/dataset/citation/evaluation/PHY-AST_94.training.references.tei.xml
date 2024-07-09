@@ -1,0 +1,1686 @@
+<?xml version="1.0" ?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader>
+		<fileDesc xml:id="0"/>
+	</teiHeader>
+	<text>
+		<front/>
+		<body/>
+		<back>
+<listBibl>
+	
+	<bibl type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Sharp</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">Electronic speckle pattern interferometry (ESPI)</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="1989">1989</date>
+				<biblScope unit="volume">11</biblScope>
+				<biblScope unit="page" from="241" to="255" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gaur</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shakher</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Measurement of Material Constants (Young’s Modulus and Poisson’s Ratio) of Polypropylene Using Digital Speckle Pattern Interferometry (DSPI)</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. JSEM</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="87" to="91" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Dong</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jiang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arola</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Evaluation of thermal expansion coefficient of carbon fiber reinforced composites using electronic speckle interferometry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Express</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="531" to="543" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b3">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bilgeri</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Jakobi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bloise</surname>
+					<forename type="first">F</forename><forename type="middle">S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Koch</surname>
+					<forename type="first">A</forename><forename type="middle">W</forename>
+				</persName>
+			</author>
+			<title level="a">Temporal electronic speckle pattern interferometry for real-time in-plane rotation analysis</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Express</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">26</biblScope>
+				<biblScope unit="page" from="8744" to="8755" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b4">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Padghan</surname>
+					<forename type="first">P</forename><forename type="middle">P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Alti</surname>
+					<forename type="first">K</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Quantification of nanoscale deformations using electronic speckle pattern interferometer</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser Technol.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">107</biblScope>
+				<biblScope unit="page" from="72" to="79" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b5">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Manuel</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Montes</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Flores-Moreno</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santoyo</surname>
+					<forename type="first">F</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">Laser speckle based digital optical methods in structural mechanics: A review</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">87</biblScope>
+				<biblScope unit="page" from="32" to="58" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ruiz</surname>
+					<forename type="first">P</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huntley</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wildman</surname>
+					<forename type="first">R</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">Depth-resolved whole-field displacement measurement by wavelength-scanning electronic speckle pattern interferometry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2005">2005</date>
+				<biblScope unit="volume">44</biblScope>
+				<biblScope unit="page" from="3945" to="3953" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b7">
+		<analytic>
+			<author>
+				<persName>
+					<surname>An</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Carlsson</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Speckle interferometry for measurement of continuous deformations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">40</biblScope>
+				<biblScope unit="page" from="529" to="541" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Agarwal</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhutani</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bhutani</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Shakher</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Measurement of strain distribution in cortical bone around miniscrew implants used for orthodontic anchorage using digital speckle pattern interferometry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="054101" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b9">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Pedrini</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Martínez-García</surname>
+					<forename>V</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weidmann</surname>
+					<forename>P</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wenzdburger</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Killinger</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Weber</surname>
+					<forename>U</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Schmauder</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gadow</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Osten</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">Residual Stress Analysis of Ceramic Coating by Laser Ablation and Digital Holography</title>
+		</analytic>
+		<monogr>
+			<title level="j">Exp. Mech.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">56</biblScope>
+				<biblScope unit="page" from="683" to="701" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b10">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tavera Ruiz</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Manuel</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Flores-Moreno</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Frausto-Reyes</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Santoyo</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Cortical bone quality affectations and their strength impact analysis using holographic interferometry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Biomed. Opt. Express</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="4818" to="4833" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b11">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Kumar</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chandra</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<title level="a">Measurement of temperature and temperature distribution in gaseous flames by digital speckle pattern shearing interferometry using holographic optical element</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">73</biblScope>
+				<biblScope unit="page" from="33" to="39" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b12">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">A clustering framework based on FCM and texture features for denoising ESPI fringe patterns with variable density</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">119</biblScope>
+				<biblScope unit="page" from="77" to="86" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b13">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yan</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">The oriented spatial filter masks for electronic speckle pattern interferometry phase patterns</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Express</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="8942" to="8947" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b14">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cai</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<title level="a">Nearly preprocessing-free method for skeletonization of gray-scale electronic speckle pattern interferometry fringe patterns via partial differential equations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Lett.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">33</biblScope>
+				<biblScope unit="page" from="183" to="185" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b15">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhu</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mi</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yan</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">Application of two oriented partial differential equation filtering models on speckle fringes with poor quality and their numerically fast algorithms</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">52</biblScope>
+				<biblScope unit="page" from="1814" to="1823" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Hao</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Batch denoising of ESPI fringe patterns based on convolutional neural network</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="3338" to="3346" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b17">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Adaptive oriented PDEs filtering methods based on new controlling speed function for discontinuous optical fringe patterns</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">100</biblScope>
+				<biblScope unit="page" from="111" to="117" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Binarization of optical fringe patterns with intensity inhomogeneities based on modified FCM algorithm</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Laser. Eng.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">123</biblScope>
+				<biblScope unit="page" from="14" to="19" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">The oriented bilateral filtering method for removal of speckle noise in electronic speckle pattern interferometry fringes</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Phys. B: Lasers Opt.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">125</biblScope>
+				<biblScope unit="page" from="121" to="" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b20">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">General filtering method for electronic speckle pattern interferometry fringe images with various densities based on variational image decomposition</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">56</biblScope>
+				<biblScope unit="page" from="4843" to="4853" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Ren</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<title level="a">3-D shape measurement of rail achieved by a novel phase measurement profilometry based on virtual reference fringe generated by image interpolation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Optik</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">161</biblScope>
+				<biblScope unit="page" from="348" to="359" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Accadia</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Mariani</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Casaioli</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lavagnini</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Speranza</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="a">Speranza. Sensitivity of Precipitation Forecast Skill Scores to Bilinear Interpolation and a Simple Nearest-Neighbor Average Method on High-Resolution Verification Grids</title>
+		</analytic>
+		<monogr>
+			<title level="j">Auk</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">133</biblScope>
+				<biblScope unit="page" from="129" to="130" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b23">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yan</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<title level="a">Performance evaluation of partial differential equation models in electronic speckle pattern interferometry and the delta-mollification phase map method</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2006">2006</date>
+				<biblScope unit="volume">45</biblScope>
+				<biblScope unit="page" from="7392" to="7400" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b24">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>S</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<title level="a">Denoising by coupled partial differential equations and extracting phase by backpropagation neural networks for electronic speckle pattern interferometry</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2007">2007</date>
+				<biblScope unit="volume">46</biblScope>
+				<biblScope unit="page" from="7475" to="7484" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b25">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename type="first">Y</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhou</surname>
+					<forename type="first">H</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Application of the radial basis function interpolation to phase extraction from a single electronic speckle pattern interferometric fringe</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">50</biblScope>
+				<biblScope unit="page" from="3110" to="3117" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b26">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Su</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<title level="a">Gradient vector fields based on variational image decomposition for skeletonization of electronic speckle pattern interferometry fringe patterns with variable density and their applications</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">55</biblScope>
+				<biblScope unit="page" from="6893" to="6902" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b27">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ren</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Han</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gao</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Oriented couple gradient vector fields for skeletonization of gray-scale optical fringe patterns with high density</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Opt.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">49</biblScope>
+				<biblScope unit="page" from="2979" to="2984" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b28">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tang</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zheng</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lei</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Fully automated extraction of the fringe skeletons in dynamic electronic speckle pattern interferometry using a U-Net convolutional neural network</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Eng.</title>
+			<imprint>
+				<date when="2019">2019</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="023105" to="" />
+			</imprint>
+		</monogr>
+	</bibl>	
+	
+	<bibl type="article" xml:id="b29">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xiao</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Geng</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Xu</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sun</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Tao</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Skeleton extraction and phase interpolation for single ESPI fringe pattern based on the partial differential equations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Opt. Express</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">23</biblScope>
+				<biblScope unit="page" from="29625" to="29638" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b30">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Otsu</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<title level="a">A Threshold Selection Method from Gray-Level Histograms</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE Trans. Syst., Man, Cybern.</title>
+			<imprint>
+				<date when="1979">1979</date>
+				<biblScope unit="volume">9</biblScope>
+				<biblScope unit="page" from="62" to="66" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="conference" xml:id="b31">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bernsen</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Dynamic thresholding of grey-level images</title>
+		</analytic>
+		<monogr>
+			<title level="m">8th International Conference on Pattern Recognition</title>
+			<imprint>
+				<date when="1986">27-31 October, 1986</date>
+				<biblScope unit="page" from="1251" to="1255" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b32">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Leedham</surname>
+					<forename>G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Cho</surname>
+					<forename type="first">S</forename><forename type="middle">Y</forename>
+				</persName>
+			</author>
+			<title level="a">Minutiae feature analysis for infrared hand vein pattern biometrics</title>
+		</analytic>
+		<monogr>
+			<title level="j">Pattern Recognit.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">41</biblScope>
+				<biblScope unit="page" from="920" to="929" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="proceeding" xml:id="b33">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Fritts</surname>
+					<forename type="first">J</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Goldman</surname>
+					<forename type="first">S</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<title level="a">Entropy-based objective evaluation method for image segmentation</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proceedings of SPIE - International Society for Optics and Photonics</title>
+			<imprint>
+				<date when="2003">18 December 2003</date>
+				<biblScope unit="page" from="38" to="50" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b34">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Studholme</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hill</surname>
+					<forename type="first">D</forename><forename type="middle">L</forename><forename type="last">G</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Hawkes</surname>
+					<forename type="first">D</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">An overlap invariant entropy measure of 3D medical image alignment</title>
+		</analytic>
+		<monogr>
+			<title level="j">Pattern Recognit.</title>
+			<imprint>
+				<date when="1999">1999</date>
+				<biblScope unit="volume">32</biblScope>
+				<biblScope unit="page" from="71" to="86" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b35">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Deng</surname>
+					<forename>H</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Liu</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>Z</forename>
+				</persName>
+			</author>
+			<title level="a">Infrared small target detection based on modified local entropy and EMD</title>
+		</analytic>
+		<monogr>
+			<title level="j">Chin. Opt. Lett.</title>
+			<imprint>
+				<date when="2010">2010</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="24" to="28" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b36">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>X</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Chen</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Ship Detection for Complex Background SAR Images Based on a Multiscale Variance Weighted Image Entropy Method</title>
+		</analytic>
+		<monogr>
+			<title level="j">IEEE Geosci. Remote Sensing Lett.</title>
+			<imprint>
+				<date when="2017">2017</date>
+				<biblScope unit="volume">14</biblScope>
+				<biblScope unit="page" from="184" to="187" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b37">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Huo</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Huang</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Pei</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Gu</surname>
+					<forename>Q</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Yang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<title level="a">Ship Detection from Ocean SAR Image Based on Local Contrast Variance Weighted Information Entropy</title>
+		</analytic>
+		<monogr>
+			<title level="j">Sensors</title>
+			<imprint>
+				<date when="2018">2018</date>
+				<biblScope unit="volume">18</biblScope>
+				<biblScope unit="page" from="1196" to="1196" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b38">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Barbieri</surname>
+					<forename type="first">A</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Arruda</surname>
+					<forename type="first">G</forename><forename type="middle">F</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Rodrigues</surname>
+					<forename type="first">F</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Bruno</surname>
+					<forename type="first">O</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Costa</surname>
+					<forename type="first">L</forename><forename type="middle">D</forename>
+				</persName>
+			</author>
+			<title level="a">An entropy-based approach to automatic image segmentation of satellite images</title>
+		</analytic>
+		<monogr>
+			<title level="j">Phys. A (Amsterdam, Neth.)</title>
+			<imprint>
+				<date when="2011">2011</date>
+				<biblScope unit="volume">390</biblScope>
+				<biblScope unit="page" from="512" to="518" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="forthcoming-article" xml:id="b39">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Zong</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qiu</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Li</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Guo</surname>
+					<forename>D</forename>
+				</persName>
+			</author>
+			<title level="a">Automatic ultrasound image segmentation based on local entropy and active contour model</title>
+		</analytic>
+		<monogr>
+			<title level="j">Comput. Math. Appl</title>
+			<note>to be published</note>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b40">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Yan</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Sang</surname>
+					<forename>N</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="a">Local entropy-based transition region extraction and thresholding</title>
+		</analytic>
+		<monogr>
+			<title level="j">Pattern Recognit. Lett.</title>
+			<imprint>
+				<date when="2003">2003</date>
+				<biblScope unit="volume">24</biblScope>
+				<biblScope unit="page" from="2935" to="2941" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b41">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Qi</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<title level="a">Maximum entropy for image segmentation based on an adaptive particle swarm optimization</title>
+		</analytic>
+		<monogr>
+			<title level="j">Appl. Math. Inf. Sci.</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">8</biblScope>
+				<biblScope unit="page" from="3129" to="3135" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b42">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Bezdek</surname>
+					<forename>C</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Ehrlich</surname>
+					<forename>R</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Full</surname>
+					<forename>W</forename>
+				</persName>
+			</author>
+			<title level="a">FCM: The fuzzy c-means clustering algorithm</title>
+		</analytic>
+		<monogr>
+			<title level="j">Comput. Geosci.</title>
+			<imprint>
+				<date when="1984">1984</date>
+				<biblScope unit="volume">10</biblScope>
+				<biblScope unit="page" from="191" to="203" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="article" xml:id="b43">
+		<analytic>
+			<author>
+				<persName>
+					<surname>Wang</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Kong</surname>
+					<forename>J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Lu</surname>
+					<forename>Y</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Qi</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>Zhang</surname>
+					<forename>B</forename>
+				</persName>
+			</author>
+			<title level="a">A modified FCM algorithm for MRI brain image segmentation using both local and non-local spatial constraints</title>
+		</analytic>
+		<monogr>
+			<title level="j">Comput. Med. Imag. Grap.</title>
+			<imprint>
+				<date when="2008">2008</date>
+				<biblScope unit="volume">32</biblScope>
+				<biblScope unit="page" from="685" to="698" />
+			</imprint>
+		</monogr>
+	</bibl>
+	
+	<bibl type="webpage" xml:id="b44">
+		<ref src="http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html">http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/azar/skeleton.html</ref>
+	</bibl>
+		
+	</listBibl>
+	</back>
+	</text>
+</TEI>
