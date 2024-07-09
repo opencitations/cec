@@ -74,7 +74,7 @@ def create_app():
                 json_file = [el for el in os.listdir(output_dir) if el.endswith(".json")]
                 run(os.path.join(output_dir, json_file[0]), ["Introduction", "Related Works", "Methods and Materials",
                                                              "Results", "Discussion", "Conclusion"],
-                    os.path.join(output_dir, json_file[0]), "../semantic_alignment/predefined_mappings.json")
+                    os.path.join(output_dir, json_file[0]), "semantic_alignment/predefined_mappings.json")
 
             zip_name = os.path.basename(save_location).split(".pdf")[0] + '.zip'
             zip_path = os.path.join(download_location, zip_name)
