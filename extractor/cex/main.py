@@ -1,3 +1,5 @@
+import logging
+
 from flask import Flask, render_template, send_from_directory, after_this_request
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField
@@ -6,6 +8,7 @@ import os
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
 from combined import PDFProcessor
+from combined import TEIXMLtoRDFConverter
 import zipfile
 from semantic_alignment.align_headings import run
 
@@ -34,17 +37,22 @@ class UploadFileForm(FlaskForm):
     agree = BooleanField("Perform semantic alignment of sections' headings")
     submit = SubmitField("Process File")
 
+
 def create_app():
-    PREFIX="/cex/"
+    PREFIX="/"
 
     # change to default as:
     # PREFIX="/"
-
     app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
+    app.debug = True  # Enable debug mode
+
+    # Set up logging
+    logging.basicConfig(level=logging.DEBUG)
 
     app.config['SECRET_KEY'] = 'supersecretkey'
     app.config['UPLOAD_FOLDER'] = 'static/files'
     app.config['DOWNLOAD_FOLDER'] = 'static/output'
+    app.config['PROCESSING_FOLDER'] = 'static/processing'
 
     os.makedirs(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exist_ok=True)
     os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
@@ -103,6 +111,9 @@ def create_app():
     def download_file(filename):
         download_location = 'resources/pdf2'  # Aggiungi il percorso corretto
         return send_from_directory(download_location, filename, as_attachment=True)
+
+    from api.routes import api_blueprint
+    app.register_blueprint(api_blueprint, url_prefix='/api')
 
     return app
 

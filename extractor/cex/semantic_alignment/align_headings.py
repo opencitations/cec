@@ -70,7 +70,7 @@ def align_sections(json_data, reference_titles, predefined_mappings):
         for j in range(n_references):
             if section_titles[i] not in aligned_titles and j not in used_reference_indices:
                 similarity_score = calculate_similarity(section_titles[i].lower(), reference_titles[j].lower())
-                if similarity_score > 0.7:
+                if similarity_score > 0.8:
                     cost_matrix[i, j] = -similarity_score  # Negative because we want to maximize similarity
 
     # Apply the Hungarian algorithm
@@ -91,13 +91,13 @@ def build_output_file(aligned_titles, json_data, output_path):
             json_data[section]['ALIGNED SECTION'] = aligned_titles[section_title]
     try:
         with open(output_path, 'w', encoding="utf-8") as file:
-            json.dump(json_data, file, indent=4)
+            json.dump(json_data, file, indent=4, ensure_ascii=False)
         print("The output file has been correctly generated")
     except IOError as e:
         print(f"An error occurred while writing to the file: {e}")
 
 
-def run(input_zip_or_json, headings_list, json_output, predefined_mappings_file):
+def run(input_zip_or_json, headings_list, json_output, predefined_mappings_file="predefined_mappings.json"):
     json_data = load_json(input_zip_or_json)
     predefined_mappings = load_json(predefined_mappings_file)
     aligned_titles = align_sections(json_data, headings_list, predefined_mappings)
