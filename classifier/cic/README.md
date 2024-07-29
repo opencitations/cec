@@ -76,7 +76,6 @@ To get a local copy up and running follow these simple example steps.
 - [x] Beta Release:
     - [x] Add structured README.md
     - [x] Add Changelog
-    - [x] Improve classifier
     - [x] Publish article
     - [ ] Release new template for the web application
     - [ ] Release API:
@@ -86,6 +85,7 @@ To get a local copy up and running follow these simple example steps.
            - [ ] Write usage examples
         - [ ] Update base software:
             - [x] Update ensemble models
+            - [x] Improve classifier
             - [ ] Add a better threshold definition mechanics
 
 - [x] Alpha Release:
