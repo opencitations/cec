@@ -1,6 +1,7 @@
 <a id="readme-top"></a>
 
-[![Read The Paper](https://img.shields.io/badge/Read_The_Paper-red?style=flat-square)](https://arxiv.org/abs/2407.13329)
+[![Read The Paper](https://img.shields.io/badge/Read%20The%20Paper-blue?style=flat-square) ![Why do you cite?](https://img.shields.io/badge/Why%20do%20you%20cite%3F-red?style=flat-square)](https://arxiv.org/abs/2407.13329)
+
 
 <br />
 <div align="center">
