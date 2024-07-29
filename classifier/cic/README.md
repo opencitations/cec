@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center">Citation Extractor and Classifier</h3>
+  <h1 align="center">Citation Extractor and Classifier</h1>
 </div>
 
 ## About The Project
