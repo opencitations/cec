@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-<object>![Static Badge](https://img.shields.io/badge/Read_The_Paper-red?style=flat-square&link=https%3A%2F%2Farxiv.org%2Fabs%2F2407.13329)</object>
+![Static Badge](https://img.shields.io/badge/Read_The_Paper-red?style=flat-square&link=https%3A%2F%2Farxiv.org%2Fabs%2F2407.13329)
 
 <br />
 <div align="center">
