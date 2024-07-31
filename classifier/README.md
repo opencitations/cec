@@ -12,9 +12,10 @@
 
 ## About The Project
 
-The Citation Extractor and Classifier (CEC) is a software that performs automatic annotation of in-text citations in academic papers provided in PDF. This page describes the Citation Intent Classifier (CIC) component, which is able to identify the citation intent of one or more citation(s) given as input.
+The Citation Extractor and Classifier (CEC) is a software that performs automatic annotation of in-text citations in academic papers provided in PDF. 
 
-Citations are classified according to the [CiTO ontology](https://sparontologies.github.io/cito/current/cito.html) and four classes are currently recognized: UsesMethodIn, ObtainsBackgroundFrom, UseConclusionsFrom and CitesForInformation.
+This page describes the Citation Intent Classifier (CIC) component, which is able to identify the citation intent of one or more citation(s) given as input.
+Citations are classified according to the [CiTO ontology](https://sparontologies.github.io/cito/current/cito.html) and four classes are currently recognized: <i>UsesMethodIn</i>, <i>ObtainsBackgroundFrom</i>, <i>UseConclusionsFrom</i> and <i>CitesForInformation</i>.
 
 ### Technical Overview
 
