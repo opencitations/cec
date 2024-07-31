@@ -19,7 +19,7 @@ Citations are classified according to the [CiTO ontology](https://sparontologies
 
 ### Technical Overview
 
-The classification part is carried out by an Ensemble Model, which is a combination of six binary classifiers (in Beta release) and a meta classifier built on top of them.
+The classification part is carried out by an <b>Ensemble Model</b>, which is a combination of six binary classifiers (in Beta release) and a meta classifier built on top of them.
 The meta classifier carries out the voting process and returns the final classification result.
 Furthermore, a threshold of 90% confidence has been defined to filter out the results on which the ensemble is not confident enough.
 
@@ -101,8 +101,8 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have any suggestion that would make this project better, please fork the repo and create a pull request. If this sounds too complex, you can simply open an issue with the tag "enhancement".
+Don't forget to give the project a star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
