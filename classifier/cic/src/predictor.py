@@ -3,7 +3,7 @@ from src.data_processor import *
 from tqdm import tqdm
 
 class Predictor:
-    def __init__(self, case, model_1_ckp, model_2_ckp, SECTIONS_binaryCLS_state_dict_paths_list, NO_SECTIONS_binaryCLS_state_dict_paths_list, SECTIONS_metaclassifier_state_dict_path, NO_SECTIONS_metaclassifier_state_dict_path, data, temporary_data=None, from_json=False):
+    def __init__(self, case, model_1_ckp, model_2_ckp, SECTIONS_binaryCLS_state_dict_paths_list, NO_SECTIONS_binaryCLS_state_dict_paths_list, SECTIONS_metaclassifier_state_dict_path, NO_SECTIONS_metaclassifier_state_dict_path, data=None, temporary_data=None, from_json=False):
         self.valid_cases = ["with sections", "without sections", "mixed"]
         if case not in self.valid_cases:
             raise ValueError(f"Invalid case: {case}. Expected one of: {self.valid_cases}")
@@ -16,12 +16,16 @@ class Predictor:
         self.SECTIONS_metaclassifier_state_dict_path = SECTIONS_metaclassifier_state_dict_path
         self.NO_SECTIONS_metaclassifier_state_dict_path = NO_SECTIONS_metaclassifier_state_dict_path
         self.from_json = from_json
-        if self.from_json:
-            self.data = DataProcessor(data, self.from_json).data
-        else:
-            self.data = DataProcessor(data, self.from_json).mapped_data
-        self.temporary_dict = temporary_data
+        self.data = None
+        self.temporary_dict = None
+        self.initialize_classifiers()
 
+    def set_data(self, data, temporary_data, from_json=False):
+        self.from_json = from_json
+        self.temporary_dict = temporary_data
+        self.data = DataProcessor(data, self.from_json).data if self.from_json else DataProcessor(data, self.from_json).mapped_data
+
+    def initialize_classifiers(self):
         if self.case == self.valid_cases[0]:
             # Model 1
             self.binary_classifier_SciBERT = EnsembleClassifier(

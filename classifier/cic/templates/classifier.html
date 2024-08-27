@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="{{ url_for('static', filename='js/conf.js') }}"></script>
-    <script>set_prefix({{prefix}})</script>
+    <script>set_prefix('{{prefix}}')</script>
 
 </head>
 <body>
@@ -21,8 +21,8 @@
       <a class="navbar-brand" href="#">Citation Intent Classifier – CIC (Alpha release)</a>
       <nav>
         <ul>
-          <li><a href="{{ url_for('index') }}">Home</a></li>
-          <li><a href="{{ url_for('classifier_page') }}">Classifier</a></li>
+          <li><a href="{{ url_for('interface.index') }}">Home</a></li>
+          <li><a href="{{ url_for('interface.classifier_page') }}">Classifier</a></li>
           <!--<li><a href="{{prefix}}page-3">About</a></li>-->
         </ul>
       </nav>

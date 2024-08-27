@@ -17,8 +17,8 @@
       <a class="navbar-brand" href="#">Citation Intent Classifier – CIC (Alpha release)</a>
       <nav>
         <ul>
-          <li><a href="{{ url_for('index') }}">Home</a></li>
-          <li><a href="{{ url_for('classifier_page') }}">Classifier</a></li>
+          <li><a href="{{ url_for('interface.index') }}">Home</a></li>
+          <li><a href="{{ url_for('interface.classifier_page') }}">Classifier</a></li>
           <!--<li><a href="{{prefix}}page-3">About</a></li>-->
         </ul>
       </nav>
@@ -68,7 +68,7 @@
     <section>
       <h2>How to use the tool</h2>
       <p>
-        To use this tool, you have to go to the <a href="{{ url_for('classifier_page') }}">Classifier</a> page</br>
+        To use this tool, you have to go to the <a href="{{ url_for('interface.classifier_page') }}">Classifier</a> page</br>
         and select the needed mode through the 3 buttons on top.</br>
         Then, you have to insert your sentences in the form of a list of tuples, or as a JSON file.</br>
         <b><i>It is extremely important to follow the format of the input, otherwise the tool will not work</i></b>.
