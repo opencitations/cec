@@ -24,6 +24,14 @@ This nuanced understanding emphasizes the need for caution when interpreting the
 
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running, follow these simple example steps.
 
+### Development environment
+- **Java**: OpenJDK 17  
+  ```sh
+  openjdk version "17.0.11" 2024-04-16
+  OpenJDK Runtime Environment (build 17.0.11+9-Ubuntu-122.04.1)
+  OpenJDK 64-Bit Server VM (build 17.0.11+9-Ubuntu-122.04.1, mixed mode, sharing)
+- **Gradle**: Version 0.8.0
+
 ### Installation
 
 **Note all operations must be done as root `su`**
