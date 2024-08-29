@@ -39,7 +39,7 @@ You have the possibility to select one of three possible working modes:
 ## Benchmark on SciCite
 
 The leadboard is based on Macro-F1 scores of the models tested on the test set of the [SciCite](https://paperswithcode.com/dataset/scicite) Dataset.
-Highlighted mdoels are the resulting classifiers of this project. The *WS* models utilize section titles to classify citation sentences, while the *WoS* models do not make use of section titles and classify raw citation sentences. Models are also presented as different outputs coming from Alpha ([described here](https://arxiv.org/abs/2407.13329)) and Beta ([described here](10.5281/zenodo.11535143)) releases.
+Highlighted mdoels are the resulting classifiers of this project. The **WS** models utilize section titles to classify citation sentences, while the **WoS** models do not make use of section titles and classify raw citation sentences. Models are also presented as different outputs coming from **Alpha** ([described here](https://arxiv.org/abs/2407.13329)) and **Beta** ([described here](10.5281/zenodo.11535143)) releases.
 
 | #  | Model                         | Macro-F1 Score | Accuracy Score |
 |----|-------------------------------|----------------|----------------|
