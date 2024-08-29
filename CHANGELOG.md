@@ -9,9 +9,8 @@ Citation Intent Classifier - Features & products:
   - add demo in the web application home page -> [CIC](http://137.204.64.4:81/cic/start)
   
 Citation Extractor - Features & products:
-  - add API support -> possibility to extract citations from compressed archives and single PDFs
+  - use of [Spacy](https://spacy.io) tokenizer (model [en_core_web_sm](https://github.com/explosion/spacy-models/releases/tag/en_core_web_sm-3.7.1)) for the segmentation and recognition of citation sentences
   - add module for extraction and semantic alignment of section titles
-  - add production of a JSON-LD file
 
 ## Alpha (2024-02-08)
 
@@ -24,3 +23,4 @@ Citation Extractor - Features & products:
 
   - released web application -> [CEX](http://137.204.64.4:81/cex/)
   - use of the GROBID Python Client with the configuration "processFulltextDocument" and the trained citation model "model5.wapiti" -> [trained GROBID citation models](https://doi.org/10.5281/zenodo.10529709)
+  - use of regex for the segmentation and recognition of citation sentences 
