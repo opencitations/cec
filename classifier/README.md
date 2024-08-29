@@ -41,15 +41,15 @@ You have the possibility to select one of three possible working modes:
 The leadboard is based on Macro-F1 scores of the models tested on the test set of the [SciCite](https://paperswithcode.com/dataset/scicite) Dataset.
 Highlighted mdoels are the resulting classifiers of this project. The *WS* models utilize section titles to classify citation sentences, while the *WoS* models do not make use of section titles and classify raw citation sentences. Models are also presented as different outputs coming from Alpha ([described here](https://arxiv.org/abs/2407.13329)) and Beta ([described here](10.5281/zenodo.11535143)) releases.
 
-| #  | Model                       | Macro-F1 Score | Accuracy Score |
-|----|-----------------------------|----------------|----------------|
-| 1  | *EnsIntWS - Beta Release*   | *89.46*        | *90.75*        | 
-| 2  | *EnsCICWS - Alpha Release*  | *88.99*        | *90.32*        |
-| 3  | ImpactCite                  | 88.93          | \\             |
-| 4  | *EnsIntWoS - Beta Release*  | *88.48*        | *89.73*        | 
-| 5  | *EnsCICWoS - Alpha Release* | *87.75*        | *88.86*        |
-| 6  | CitePrompt                  | 86.33          | 87.56          |
-| 7  | SciBERT                     | 86.32          | \\             |
+| #  | Model                         | Macro-F1 Score | Accuracy Score |
+|----|-------------------------------|----------------|----------------|
+| 1  | **EnsIntWS - Beta Release**   | **89.46**      | **90.75**      | 
+| 2  | **EnsCICWS - Alpha Release**  | **88.99**      | **90.32**      |
+| 3  | ImpactCite                    | 88.93          | \\             |
+| 4  | **EnsIntWoS - Beta Release**  | **88.48**      | **89.73**      | 
+| 5  | **EnsCICWoS - Alpha Release** | **87.75**      | **88.86**      |
+| 6  | CitePrompt                    | 86.33          | 87.56          |
+| 7  | SciBERT                       | 86.32          | \\             |
 
 
 ## Getting Started
