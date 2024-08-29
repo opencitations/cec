@@ -74,20 +74,22 @@ To get a local copy up and running follow these simple example steps.
 
 ## Roadmap
 
-- [x] Beta Release:
-    - [x] Add structured README.md
-    - [x] Add Changelog
-    - [x] Publish article
+- [ ] Final Release:
     - [ ] Release new template for the web application
+    - [ ] Add a better threshold definition mechanics for classifiers
     - [ ] Release API:
         - [ ] Write API:
            - [x] Add support for compressed files and folders
            - [ ] Write Documentation 
            - [ ] Write usage examples
-        - [ ] Update base software:
-            - [x] Update ensemble models
-            - [x] Improve classifier
-            - [ ] Add a better threshold definition mechanics
+
+- [x] Beta Release:
+    - [x] Add structured README.md
+    - [x] Add Changelog
+    - [x] Publish article
+    - [x] Update base software:
+        - [x] Update ensemble models
+        - [x] Improve classifier score
 
 - [x] Alpha Release:
     - [x] Release web application:
