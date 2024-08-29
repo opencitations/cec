@@ -3,9 +3,7 @@
 ## Beta (unreleased)
 
 Citation Intent Classifier - Features & products:
-
-  - add API support -> possibility to classify compressed archives and files
-  - extended pool of models and revised classifier -> [Description](https://arxiv.org/abs/2407.13329)
+  - extended pool of base models and revised/improved classifier -> [Description](https://arxiv.org/abs/2407.13329)
   - add demo in the web application home page -> [CIC](http://137.204.64.4:81/cic/start)
   
 Citation Extractor - Features & products:
