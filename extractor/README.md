@@ -60,4 +60,4 @@ If you have any suggestion that would make this project better, please fork the 
 
 ## License
 
-Distributed under the ISC License. See [LICENCE](https://github.com/opencitations/cec/blob/main/LICENCE)for more information.
+Distributed under the ISC License. See [LICENCE](https://github.com/opencitations/cec/blob/main/LICENCE) for more information.
