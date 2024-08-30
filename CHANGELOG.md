@@ -1,6 +1,6 @@
 # CHANGELOG.md
 
-## Beta (unreleased)
+## Beta (2024-08-30)
 
 Citation Intent Classifier - Features & products:
   - extended pool of base models and revised/improved classifier -> [Description](https://arxiv.org/abs/2407.13329)
