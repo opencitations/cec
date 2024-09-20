@@ -1,46 +1,85 @@
-import requests
 import argparse
 import os
 import datetime
-
-from werkzeug.utils import secure_filename
-from routes import process_pdf, get_all_files_by_type, upload_manifest
+from extractor.cex.main import get_all_files_by_type, upload_manifest
+from extractor.cex.combined import PDFProcessor
+import zipfile
+import concurrent.futures
 import shutil
 
+def create_zip_file(download_location, zip_name:None):
+    # Get current timestamp to use in the zip file name if zip_name is not provided
+    current_datetime = datetime.datetime.now()
+    timestamp = current_datetime.timestamp()
+
+    if not zip_name:
+        zip_name = f'processed_pdfs_{timestamp}.zip'
+
+    zip_path = os.path.join(download_location, zip_name)
+
+    # Create the zip file while avoiding recursion
+    with zipfile.ZipFile(zip_path, 'w') as zipf:
+        for foldername, subfolders, filenames in os.walk(download_location):
+            for filename in filenames:
+                file_path = os.path.join(foldername, filename)
+
+                # Ensure the zip file itself is not included in the archive
+                if os.path.abspath(file_path) == os.path.abspath(zip_path):
+                    continue
+
+                # Add the file to the zip archive
+                zipf.write(file_path, os.path.relpath(file_path, download_location))
+
+    return zip_path
+
+def process_pdf_file(pdf, download_location, perform_alignment):
+    processor = PDFProcessor(input_pdf_path=pdf, output_tei_path=download_location,
+                             output_json_path=download_location)
+    try:
+        if perform_alignment:
+            manifest_info = processor.process_pdf(align_headings=True)
+        else:
+            manifest_info = processor.process_pdf(align_headings=False)
+    except Exception as e:
+        manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}
+    return manifest_info
+
+def delete_files(download_location):
+    files = []
+    dir = []
+    for entry in os.scandir(download_location):
+        if entry.is_file() and not entry.name.endswith('zip'):
+            files.append(entry.name)
+        elif entry.is_dir():
+            dir.append(entry)
+    for file in files:
+        os.remove(os.path.join(download_location, file))
+    for x in dir:
+        shutil.rmtree(x)
 
 def main():
     parser = argparse.ArgumentParser(description='Upload PDF files for processing.')
     parser.add_argument('input_files_or_archives', nargs='+', help='Paths to the PDF files or archives to upload')
-    parser.add_argument('--download_folder', help='Folder to download the processed files', required=True)
+    parser.add_argument('--download_folder', help='Empty folder to store the processed zip', required=True)
     parser.add_argument('--zip_name', help='Name of the output zip file', required=False)
     parser.add_argument('--perform_alignment', action='store_true', help='Whether to perform semantic alignment')
+    parser.add_argument('--max_workers', help='to set the number of worker threads', default=1)
 
     args = parser.parse_args()
 
     download_location = args.download_folder
-    processing_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/processing_cli')
-
     os.makedirs(download_location, exist_ok=True)
-    os.makedirs(processing_location, exist_ok=True)
-
-    if args.zip_name:
-        # Generate a unique filename for the ZIP
-        zip_path = os.path.join(download_location, args.zip_name)
-    else:
-        current_datetime = datetime.datetime.now()
-        timestamp = current_datetime.timestamp()
-        zip_path = os.path.join(download_location, f"processed_pdfs{timestamp}.zip")
+    os.chmod(download_location, 0o777)
 
     manifest = list()
 
     files = args.input_files_or_archives
     if not files:
         manifest.append({"status": "error", "error": "No files selected"})
-        upload_manifest(manifest, processing_location, zip_path)
-        shutil.rmtree(processing_location)
+        upload_manifest(manifest, download_location)
+        create_zip_file(download_location, args.zip_name)
+        delete_files(download_location)
         return f"The output zip is available at {download_location}"
-
-    perform_alignment = str(args.perform_alignment).lower() == 'true'
 
     pdfs_to_process = set()
     unsupported_files = set()
@@ -53,36 +92,31 @@ def main():
         if unsupported_files_in_input:
             unsupported_files |= set(unsupported_files_in_input)
 
-    if unsupported_files and pdfs_to_process:
+    if unsupported_files:
         for el in list(unsupported_files):
             manifest_info = {"filename": os.path.basename(el), "status": "error", "error": f"unsupported file type"}
             manifest.append(manifest_info)
 
-        for pdf in list(pdfs_to_process):
-            process_pdf(pdf, processing_location, perform_alignment, manifest, config_path="extractor/cex/config.json")
+    if pdfs_to_process:
+        # Parallel processing of PDF files
+        max_workers = int(args.max_workers)
+        with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
+            future_to_pdf = {
+                executor.submit(process_pdf_file, pdf, download_location, args.perform_alignment): pdf for pdf
+                in pdfs_to_process}
+            for future in concurrent.futures.as_completed(future_to_pdf):
+                pdf = future_to_pdf[future]
+                try:
+                    # Collect the result (manifest_info) from each worker process
+                    manifest_info = future.result()
+                    manifest.append(manifest_info)
+                except Exception as exc:
+                    manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(exc)}
+                    manifest.append(manifest_info)
 
-        upload_manifest(manifest, processing_location, zip_path)
-        shutil.rmtree(processing_location)
-        return print(f"The output zip is available at {download_location}")
-
-    elif unsupported_files and not pdfs_to_process:
-        for el in list(unsupported_files):
-            manifest_info = {"filename": os.path.basename(el), "status": "error", "error": f"unsupported file type"}
-            manifest.append(manifest_info)
-        upload_manifest(manifest, processing_location, zip_path)
-        shutil.rmtree(processing_location)
-        return print(f"The output zip is available at {download_location}")
-
-    elif pdfs_to_process:
-        for pdf in list(pdfs_to_process):
-            process_pdf(pdf, processing_location, perform_alignment, manifest, config_path="extractor/cex/config.json")
-
-        upload_manifest(manifest, processing_location, zip_path)
-        shutil.rmtree(processing_location)
-        return print(f"The output zip is available at {download_location}")
-
-    upload_manifest(manifest, processing_location, zip_path)
-    shutil.rmtree(processing_location)
+    upload_manifest(manifest, download_location)
+    create_zip_file(download_location, args.zip_name)
+    delete_files(download_location)
     return print(f"The output zip is available at {download_location}")
 
 
