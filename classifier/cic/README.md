@@ -310,7 +310,6 @@ Ensure that the server is running before executing the script.
 
 - **Data Format**: Ensure that all JSON files follow the required structure for the classifier to work properly.
 - **Error Handling**: The application provides manifest files detailing any errors encountered during processing.
-- **Security**: When deploying the application, consider implementing authentication and secure connections if it's exposed over the network.
 - **Logging**: Logs are essential for debugging. Check the application logs if you encounter issues.
 
 ## Acknowledgements
