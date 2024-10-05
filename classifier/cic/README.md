@@ -41,45 +41,66 @@ The **Citation Context Classifier** is an advanced web application and API desig
 
 ```plaintext
 project_root/
-├── cic/
-│   ├── blueprints/
-│   │   ├── web_interface.py
-│   │   └── cic_api.py
-│   ├── utils/
-│   │   ├── file_processing.py
-│   │   └── response_helpers.py
-│   ├── predictor_manager.py
-│   ├── src/
-│   │   ├── predictor.py
-│   │   └── data_processor.py
-│   └── models/
-│       ├── Sections/
-│       │   ├── SciBERT_method_model.pt
-│       │   ├── SciBERT_background_model.pt
-│       │   ├── SciBERT_result_model.pt
-│       │   ├── XLNet_method_model.pt
-│       │   ├── XLNet_background_model.pt
-│       │   ├── XLNet_result_model.pt
-│       │   └── MetaClassifierSections.pth
-│       └── NoSections/
-│           ├── NoSec_SciBERT_method_model.pt
-│           ├── NoSec_SciBERT_background_model.pt
-│           ├── NoSec_SciBERT_result_model.pt
-│           ├── NoSec_XLNet_method_model.pt
-│           ├── NoSec_XLNet_background_model.pt
-│           ├── NoSec_XLNet_result_model.pt
-│           └── MetaClassifierNoSections.pth
-├── templates/
-│   ├── index.html
-│   └── classifier.html
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── classifier.js
-├── main.py
-├── requirements.txt
-└── README.md
+├── ExampleAPI_Command.txt
+├── README.md
+├── cic
+│   ├── README.md
+│   ├── __init__.py
+│   ├── blueprints
+│   │   ├── __init__.py
+│   │   ├── cic_api.py
+│   │   └── web_interface.py
+│   ├── main.py
+│   ├── predictor_manager.py
+│   ├── sh
+│   │   ├── README.md
+│   │   ├── check-and-run.sh
+│   │   ├── run.sh
+│   │   └── stop.sh
+│   ├── src
+│   │   ├── __init__.py
+│   │   ├── binary_classifiers.py
+│   │   ├── data_processor.py
+│   │   ├── metaclassifiers.py
+│   │   ├── models
+│   │   │   ├── NoSections
+│   │   │   │   ├── MetaClassifierNoSections.pth
+│   │   │   │   ├── NoSec_SciBERT_background_model.pt
+│   │   │   │   ├── NoSec_SciBERT_method_model.pt
+│   │   │   │   ├── NoSec_SciBERT_result_model.pt
+│   │   │   │   ├── NoSec_XLNet_background_model.pt
+│   │   │   │   ├── NoSec_XLNet_method_model.pt
+│   │   │   │   └── NoSec_XLNet_result_model.pt
+│   │   │   ├── README.md
+│   │   │   └── Sections
+│   │   │       ├── MetaClassifierSections.pth
+│   │   │       ├── SciBERT_background_model.pt
+│   │   │       ├── SciBERT_method_model.pt
+│   │   │       ├── SciBERT_result_model.pt
+│   │   │       ├── XLNet_background_model.pt
+│   │   │       ├── XLNet_method_model.pt
+│   │   │       └── XLNet_result_model.pt
+│   │   └── predictor.py
+│   ├── static
+│   │   ├── css
+│   │   │   ├── classifier.css
+│   │   │   └── index.css
+│   │   ├── img
+│   │   │   ├── graspos.svg
+│   │   │   ├── graspos_white.svg
+│   │   │   ├── oc.svg
+│   │   │   └── oc_white.svg
+│   │   └── js
+│   │       ├── classifier.js
+│   │       └── conf.js
+│   ├── templates
+│   │   ├── classifier.html
+│   │   └── index.html
+│   └── utils
+│       ├── __init__.py
+│       ├── file_processing.py
+│       └── response_helpers.py
+└── requirements.txt
 ```
 
 ## Setup and Installation
