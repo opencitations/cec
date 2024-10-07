@@ -35,7 +35,7 @@
 
 ## Introduction
 
-The **Citation Context Classifier** is an advanced web application and API designed to classify citation contexts within research papers. Utilizing pre-trained language models, it analyzes citations to determine their context, such as whether they appear in the *methods*, *background*, or *results* sections.
+The **Citation Intent Classifier** is made up of a web application and an API designed to classify citation contexts within research papers. Utilizing pre-trained language models, it analyzes citations to determine the intent of the author when citing.
 
 ## Folder Structure
 
@@ -115,8 +115,8 @@ project_root/
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/citation-context-classifier.git
-    cd citation-context-classifier
+    git clone https://github.com/opencitations/cec.git
+    cd cec/classifier
     ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
@@ -134,11 +134,12 @@ project_root/
 
 4. **Download Model Files**
 
-    Place the pre-trained model files in the appropriate directories as shown in the folder structure. Ensure that the `models/` directory contains all necessary `.pt` and `.pth` files.
+    Dwonload and place the pre-trained model files in the appropriate directories as shown in the folder structure. Ensure that the `models/` directory contains all necessary `.pt` and `.pth` files (7 models each dir).
 
 ## Running the Application Locally
 
 To run the application locally, you need to specify the path to the `src` directory, which contains the necessary source code and models.
+Do it after installation and within the classifier directory, as shown above.
 
 ```bash
 python -m cic.main --src_path "/absolute/path/to/cic/src"
@@ -148,24 +149,24 @@ python -m cic.main --src_path "/absolute/path/to/cic/src"
 
 - **Example:**
 
-    If your project is located at `/home/user/projects/citation-context-classifier`, the command would be:
+    If your project is located at `/home/user/projects/cec`, the command would be:
 
     ```bash
-    python -m cic.main --src_path "/home/user/projects/citation-context-classifier/cic/src"
+    python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src"
     ```
 
-The application will start running on `http://127.0.0.1:5000/` by default.
+The application will start running locally by default.
 
 ## Using the Web Interface
 
 ### Access the Web Interface
 
-Open a web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
+Open a web browser and navigate to ?????.
 
 ### Classify Text Manually
 
 1. Navigate to the classification page.
-2. Enter the text you wish to classify in the provided text area.
+2. Enter the text you wish to classify in the provided text area in the form of a list of tuples.
 3. Select the classification mode (*with sections*, *without sections*, or *mixed*).
 4. Click the **Classify** button.
 5. The results will be displayed on the page.
@@ -175,7 +176,7 @@ Open a web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:500
 1. Prepare a JSON file with the appropriate structure.
 2. On the classification page, click on **Choose File** and select your JSON file.
 3. Select the classification mode.
-4. Click the **Upload and Classify** button.
+4. Click the **Classify JSON** button.
 5. The results will be displayed on the page.
 
 #### JSON File Format:
@@ -201,49 +202,15 @@ Open a web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:500
 
 ### Request Parameters
 
-- **Headers**:
-  - `Content-Type`: Depending on the data being sent (`application/json` or `multipart/form-data`).
-  - `X-Request-Source`: Optional. Can be set to `'web-interface'` or `'api-client'`.
-- **Body**:
-  - **For JSON data**:
-
-    ```json
-    {
-        "data": "Your data here",
-        "mode": "with sections"
-    }
-    ```
-
-  - **For file uploads**:
-    - `file`: The file to upload.
-    - `mode`: The classification mode.
+????
 
 ### Example Usage with `curl`
 
-#### Classify Text Data
-
-```bash
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -H "X-Request-Source: api-client" \
-  -d '{"data": "[(\"Section Text\", \"Citation Text\")]", "mode": "with sections"}' \
-  "http://127.0.0.1:5000/api/classify"
-```
-
-#### Upload a JSON File
-
-```bash
-curl -X POST \
-  -F "file=@/path/to/your/file.json" \
-  -F "mode=with sections" \
-  -H "X-Request-Source: api-client" \
-  "http://127.0.0.1:5000/api/classify" \
-  --output "results.json"
-```
+curl -X POST -F "file=@$INPUT_DIR/compression_test.zip" -F "mode=M" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_XZ.zip"
 
 ## Testing with Shell Script
 
-To automate testing of the API with various compressed files, you can use the provided shell script.
+To automate testing of the API with various compressed files, you can use the provided shell script, which presents different compression formats. Adapt it to your needs.
 
 ### Script Content
 
@@ -314,7 +281,7 @@ Ensure that the server is running before executing the script.
 
 ## Acknowledgements
 
-This project utilizes several open-source libraries and pre-trained models. We acknowledge the contributors of these resources for their invaluable work.
+This project utilizes several open-source libraries and pre-trained models. We acknowledge the contributors of these resources for their work.
 
 ---
 
