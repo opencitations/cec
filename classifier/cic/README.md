@@ -16,7 +16,6 @@
   - [Access the Web Interface](#access-the-web-interface)
   - [Classify Text Manually](#classify-text-manually)
   - [Upload a JSON File](#upload-a-json-file)
-    - [JSON File Format](#json-file-format)
 - [Using the API](#using-the-api)
   - [API Endpoints](#api-endpoints)
   - [Request Parameters](#request-parameters)
@@ -28,6 +27,7 @@
   - [Modifying the Script](#modifying-the-script)
   - [Making the Script Executable](#making-the-script-executable)
   - [Executing the Script](#executing-the-script)
+- [JSON File Format](#json-file-format)
 - [Notes and Best Practices](#notes-and-best-practices)
 - [Acknowledgements](#acknowledgements)
 
@@ -179,21 +179,6 @@ Open a web browser and navigate to ?????.
 4. Click the **Classify JSON** button.
 5. The results will be displayed on the page.
 
-#### JSON File Format:
-
-```json
-{
-    "ID1": {
-        "SECTION": "Introduction",
-        "CITATION": "This is the citation context."
-    },
-    "ID2": {
-        "SECTION": "Methods",
-        "CITATION": "Another citation context."
-    }
-}
-```
-
 ## Using the API
 
 ### API Endpoints
@@ -272,6 +257,23 @@ Run the script using the following command:
 ```
 
 Ensure that the server is running before executing the script.
+
+## JSON File Format:
+JSON files to be classified must contain citation organized with the same underlying structure, composed by `SECTION` and `CITATION` at least.
+`SECTION` may also contain an empty value - empty string - while `CITATION` cannot be empty. Finally, beside this structure it is possible to include additional metadata which will be maintained and returned together with classification results, but will not be taken into account for the classification process.
+
+```json
+{
+    "ID1": {
+        "SECTION": "Introduction",
+        "CITATION": "This is the citation context."
+    },
+    "ID2": {
+        "SECTION": "Methods",
+        "CITATION": "Another citation context."
+    }
+}
+```
 
 ## Notes and Best Practices
 
