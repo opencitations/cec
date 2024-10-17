@@ -284,11 +284,3 @@ JSON files to be classified must contain citation organized with the same underl
 ## Acknowledgements
 
 This project utilizes several open-source libraries and pre-trained models. We acknowledge the contributors of these resources for their work.
-
----
-
-**Happy Coding!**
-
----
-
-*Note: Ensure that all file paths and URLs are correctly updated to match your project's structure and deployment environment.*
