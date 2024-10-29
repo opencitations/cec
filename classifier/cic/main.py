@@ -5,15 +5,15 @@ from flask import Flask
 from cic.blueprints.web_interface import interface_bp
 from cic.blueprints.cic_api import api_bp
 
-def create_app(src_path):
-    app = Flask(__name__)
+def create_app(src_path, prefix = "/cic"):
+    app = Flask(__name__, static_url_path=prefix+'/static', static_folder="static")
 
     # Configuration of SRC_PATH in the app
     app.config['SRC_PATH'] = src_path
 
     # Blueprint registration
-    app.register_blueprint(interface_bp, url_prefix='/')
-    app.register_blueprint(api_bp, url_prefix='/api')
+    app.register_blueprint(interface_bp, url_prefix=prefix+'/')
+    app.register_blueprint(api_bp, url_prefix=prefix+'/api')
 
     return app
 
@@ -21,10 +21,11 @@ if __name__ == '__main__':
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Run Flask application.')
     parser.add_argument('--src_path', required=True, help='Path to src folder.')
+    parser.add_argument('--prefix', required=True, help='Aplication Prefix')
     args = parser.parse_args()
 
     # Create the app with user-provided SRC_PATH
-    app = create_app(args.src_path)
+    app = create_app(args.src_path, args.prefix)
 
     # Run the app
     app.run(debug=True)

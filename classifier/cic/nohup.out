@@ -1,0 +1,47 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 343-926-979
+127.0.0.1 - - [06/Dec/2023 17:35:07] "GET /cic/classifier HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:35:07] "GET /cic/static/css/classifier.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:35:07] "GET /cic/static/js/conf.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:35:07] "GET /cic/static/js/classifier.js HTTP/1.1" 200 -
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Datapoints (processed in route): [('Introduction', "In his 1945 essay 'As We May Think',...record [Bush, 1945]."), ('', 'The problem has only ... nine years [Bornmann and Mutz, 2015].')]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  2.65it/s]100%|██████████| 2/2 [00:00<00:00,  4.42it/s]100%|██████████| 2/2 [00:00<00:00,  4.01it/s]
+127.0.0.1 - - [06/Dec/2023 17:35:24] "POST /cic/classify HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:36:47] "GET /cic/classifier HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:36:47] "GET /cic/static/css/classifier.css HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:36:47] "GET /cic/static/js/conf.js HTTP/1.1" 200 -
+127.0.0.1 - - [06/Dec/2023 17:36:47] "GET /cic/static/js/classifier.js HTTP/1.1" 200 -
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at allenai/scibert_scivocab_cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Final output: {0: {'SECTION': 'Introduction', 'CITATION': "In his 1945 essay 'As We May Think',...record [Bush, 1945].", 'BACKGROUND BINARY POSITIVE PROBABILITY': 0.9726582169532776, 'METHOD BINARY POSITIVE PROBABILITY': 0.027963846921920776, 'RESULT BINARY POSITIVE PROBABILITY': 0.0036824343260377645, 'BACKGROUND MODEL CONFIDENCE': 0.9989930987358093, 'METHOD MODEL CONFIDENCE': 0.00038602532004006207, 'RESULT MODEL CONFIDENCE': 0.0006209017592482269, 'FINAL PREDICTION': 'obtainsBackgroundFrom (BACKGROUND)'}, 1: {'SECTION': '', 'CITATION': 'The problem has only ... nine years [Bornmann and Mutz, 2015].', 'BACKGROUND BINARY POSITIVE PROBABILITY': 0.9705784916877747, 'METHOD BINARY POSITIVE PROBABILITY': 0.055875264108181, 'RESULT BINARY POSITIVE PROBABILITY': 0.003841751953586936, 'BACKGROUND MODEL CONFIDENCE': 0.9994410872459412, 'METHOD MODEL CONFIDENCE': 0.0003073038824368268, 'RESULT MODEL CONFIDENCE': 0.00025157807976938784, 'FINAL PREDICTION': 'obtainsBackgroundFrom (BACKGROUND)'}}
+Datapoints (processed in route): [('Introduction', "In his 1945 essay 'As We May Think',...record [Bush, 1945]."), ('', 'The problem has only ... nine years [Bornmann and Mutz, 2015].')]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  7.47it/s]100%|██████████| 2/2 [00:00<00:00,  7.81it/s]100%|██████████| 2/2 [00:00<00:00,  7.75it/s]
+127.0.0.1 - - [06/Dec/2023 17:37:06] "POST /cic/classify HTTP/1.1" 200 -
