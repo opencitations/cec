@@ -1,10 +1,10 @@
-from src.binary_classifiers import *
-from src.data_processor import *
+from cic.src.binary_classifiers import *
+from cic.src.data_processor import *
 from tqdm import tqdm
 
 class Predictor:
-    def __init__(self, case, model_1_ckp, model_2_ckp, SECTIONS_binaryCLS_state_dict_paths_list, NO_SECTIONS_binaryCLS_state_dict_paths_list, SECTIONS_metaclassifier_state_dict_path, NO_SECTIONS_metaclassifier_state_dict_path, data, temporary_data=None, from_json=False):
-        self.valid_cases = ["with sections", "without sections", "mixed"]
+    def __init__(self, case, model_1_ckp, model_2_ckp, SECTIONS_binaryCLS_state_dict_paths_list, NO_SECTIONS_binaryCLS_state_dict_paths_list, SECTIONS_metaclassifier_state_dict_path, NO_SECTIONS_metaclassifier_state_dict_path, data=None, temporary_data=None, from_json=False):
+        self.valid_cases = ["WS", "WoS", "M"]
         if case not in self.valid_cases:
             raise ValueError(f"Invalid case: {case}. Expected one of: {self.valid_cases}")
         self.case = case
@@ -16,12 +16,16 @@ class Predictor:
         self.SECTIONS_metaclassifier_state_dict_path = SECTIONS_metaclassifier_state_dict_path
         self.NO_SECTIONS_metaclassifier_state_dict_path = NO_SECTIONS_metaclassifier_state_dict_path
         self.from_json = from_json
-        if self.from_json:
-            self.data = DataProcessor(data, self.from_json).data
-        else:
-            self.data = DataProcessor(data, self.from_json).mapped_data
-        self.temporary_dict = temporary_data
+        self.data = None
+        self.temporary_dict = None
+        self.initialize_classifiers()
 
+    def set_data(self, data, temporary_data, from_json=False):
+        self.from_json = from_json
+        self.temporary_dict = temporary_data
+        self.data = DataProcessor(data, self.from_json).data if self.from_json else DataProcessor(data, self.from_json).mapped_data
+
+    def initialize_classifiers(self):
         if self.case == self.valid_cases[0]:
             # Model 1
             self.binary_classifier_SciBERT = EnsembleClassifier(
@@ -108,15 +112,15 @@ class Predictor:
         """
         Load the metaclassifier model.
         """
-        if self.case != "mixed":
-            if self.case == "with sections":
+        if self.case != "M":
+            if self.case == "WS":
                 metaclassifier = MetaClassifierSection()
                 checkpoint = torch.load(self.SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
                 metaclassifier.load_state_dict(checkpoint['model_state_dict'])
                 metaclassifier = metaclassifier.to(self.device).eval()
                 return metaclassifier
 
-            elif self.case == "without sections":
+            elif self.case == "WoS":
                 metaclassifier = MetaClassifierNoSection()
                 checkpoint = torch.load(self.NO_SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
                 metaclassifier.load_state_dict(checkpoint['model_state_dict'])
@@ -139,13 +143,13 @@ class Predictor:
 
 
     def tokenize(self):
-        if self.case != "mixed":
-            if self.case == "with sections":
+        if self.case != "M":
+            if self.case == "WS":
                 for datapoint in self.data:
                     context = self.data[datapoint]['SECTION'] + ". " + self.data[datapoint]['CITATION']
                     self.data[datapoint]['tokenized_SciBERT'] = self.binary_classifier_SciBERT.tokenizer(context, return_tensors="pt")
                     self.data[datapoint]['tokenized_XLNet'] = self.binary_classifier_XLNet.tokenizer(context, return_tensors="pt")
-            elif self.case == "without sections":
+            elif self.case == "WoS":
                 for datapoint in self.data:
                     context = self.data[datapoint]['CITATION']
                     self.data[datapoint]['tokenized_SciBERT'] = self.binary_classifier_SciBERT.tokenizer(context, return_tensors="pt")
@@ -165,7 +169,7 @@ class Predictor:
     def binary_predictions(self):
         self.data = self.tokenize()
 
-        if self.case != "mixed":
+        if self.case != "M":
             # SciBERT
             scibert_model1 = self.binary_classifier_SciBERT.method_model.to(self.device).eval()
             scibert_model2 = self.binary_classifier_SciBERT.background_model.to(self.device).eval()
@@ -271,7 +275,7 @@ class Predictor:
         all_predictions = self.binary_predictions()
         #print(all_predictions) #debug print
 
-        if self.case != "mixed":
+        if self.case != "M":
             final_predictions = {}
             model = self.metaclassifier.to(self.device).eval()
             with torch.no_grad():
@@ -326,7 +330,7 @@ class Predictor:
             else:
                 return "citesForInformation (UNRELIABLE)"
 
-        if self.case != "mixed":
+        if self.case != "M":
             merged_dict = {}
             for id in self.data:
                 merged_dict[id] = {
@@ -507,7 +511,7 @@ data = [
 # '[s]7.7.2. Introduction.[s] [c]This is a citation. I use the method of Jhonson et al. (2020)[c]'
 
 p = Predictor(
-    "mixed",
+    "M",
     "allenai/scibert_scivocab_cased",
     "xlnet/xlnet-base-cased",
     [

@@ -13,26 +13,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="{{ url_for('static', filename='js/conf.js') }}"></script>
-    <script>set_prefix({{prefix}})</script>
+    <script>set_prefix('{{prefix}}')</script>
 
 </head>
 <body>
     <header class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Citation Intent Classifier (Beta release)</a>
+      <a class="navbar-brand" href="#">Citation Intent Classifier – CIC (Alpha release)</a>
       <nav>
         <ul>
-          <li><a href="{{ url_for('start_page') }}">Home</a></li>
-          <li><a href="{{ url_for('classifier_page') }}">Classifier JSON</a></li>
-          <li><a href="{{ url_for('details_page') }}">Details</a></li>
+          <li><a href="{{ url_for('interface.index') }}">Home</a></li>
+          <li><a href="{{ url_for('interface.classifier_page') }}">Classifier</a></li>
+          <!--<li><a href="{{prefix}}page-3">About</a></li>-->
         </ul>
       </nav>
     </header>
 
     <section>
-        <h1>CITATION INTENT CLASSIFIER – JSON input</h1>
+        <h2>Classify Your Sentences</h2>
         <p class="description">
-            This page allows you to classify one or more sentences in <b>JSON format</b>.</p>
-        <p>
+            This is a tool to classify your sentences according to the categories presented in the landing page.</br>
             You can either enter your sentences in the form below, or upload a JSON file containing them.</br>
             The result will be displayed in the form of a table, and you will be able to download it as a JSON file.</br>
             It is <b>important to notice</b> that:
@@ -111,13 +110,13 @@
         <p>Select your classification mode:</p>
         <!-- Here is the switch button for mode selection -->
         <div class="modes">
-            <input type="radio" class="mode-input" id="mode1" name="mode" value="mixed" checked>
+            <input type="radio" class="mode-input" id="mode1" name="mode" value="M" checked>
             <label class="mode-option" for="mode1">Mixed</label>
 
-            <input type="radio" class="mode-input" id="mode2" name="mode" value="with sections">
+            <input type="radio" class="mode-input" id="mode2" name="mode" value="WS">
             <label class="mode-option" for="mode2">With Section Titles</label>
 
-            <input type="radio" class="mode-input" id="mode3" name="mode" value="without sections">
+            <input type="radio" class="mode-input" id="mode3" name="mode" value="WoS">
             <label class="mode-option" for="mode3">Without Section Titles</label>
         </div>
 
@@ -136,7 +135,7 @@
     <section>
         <div class="space-holder"></div>
         <div id="loading" style="display:none;">
-            <p>Loading...Please be patient, it may take some time...</p>
+            <p>Loading...</p>
         </div>
         <div id="result"></div>
         <button type="button" id="download-json-btn" style="display:none;">Download JSON</button>

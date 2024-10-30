@@ -12,7 +12,8 @@
 
 ## About The Project
 
-The Citation Extractor and Classifier (CEC) is a software that performs automatic annotation of in-text citations in academic papers provided in PDF. 
+The Citation Extractor and Classifier (CEC) is a software that performs automatic annotation of in-text citations in academic papers provided in PDF. You can classify citation by means of two main ensemble models, one utilizing section titles, the other without them. Finally, you can use a mix of the two according to the specific case (_suggested_).
+To specify the models to use within the API you have access to **WoS** mode (for the model not utilizing section titles), **WS** mode (for the one with section titles), and finally **M** for the mixed model.
 
 This page describes the Citation Intent Classifier (CIC) component, which is able to identify the citation intent of one or more citation(s) given as input.
 Citations are classified according to the [CiTO ontology](https://sparontologies.github.io/cito/current/cito.html) and four classes are currently recognized: <i>UsesMethodIn</i>, <i>ObtainsBackgroundFrom</i>, <i>UseConclusionsFrom</i> and <i>CitesForInformation</i>.
@@ -50,41 +51,6 @@ Highlighted mdoels are the resulting classifiers of this project. The **WS** mod
 | 5  | **EnsCICWoS - Alpha Release** | **87.75**      | **88.86**      |
 | 6  | CitePrompt                    | 86.33          | 87.56          |
 | 7  | SciBERT                       | 86.32          | \\             |
-
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/opencitations/cec.git
-   ```
-2. Create a python virtual environment (venv)
-   ```
-   python -m venv <your_venv>
-   ```
-3. Activate the newly created venv
-   ```
-   source <your_venv>/bin/activate
-   ```
-4. Install requirements
-   ```
-   pip install -r requirements.txt
-   ```
-5. Run the application
-   ```
-   python AlphaCIC/main.py
-   ```
-
-#### Configuration:
-* `PREFIX = /cic/`
-* `SRC_PATH = src/`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Roadmap

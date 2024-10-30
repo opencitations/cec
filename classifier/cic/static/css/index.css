@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  margin: 1vw 6%;
+  /* margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 1%;
+  margin-top: 1%; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1vw 0;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* Ensures the header remains above other content */
+  font-size: 13pt;
+  padding-top: 20px !important;
+  padding: 20px;
+  padding-bottom: 20px !important;
+  display: flex;
+}
+header nav{
+  position: absolute;
+  right: 0;
+  margin-right: 30px !important;
+}
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 1vw;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  background: url('logo.png') no-repeat center center; /* Add your logo image */
+  display: inline-block;
+  width: 5vw; /* Adjust to your logo's dimensions */
+  height: 5vw; /* Adjust to your logo's dimensions */
+  text-indent: -9999px; /* Hide the text */
+}
+
+section {
+  margin-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+h1, h2 {
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.list-container {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-left: 2vw;
+}
+
+.list-container ul {
+  padding-left: 2vw;
+  list-style-type: disc;
+}
+
+.list-container li {
+  text-align: left;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1vw 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  line-height: 1.5;
+}

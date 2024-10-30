@@ -1,4 +1,4 @@
-from src.metaclassifiers import *
+from cic.src.metaclassifiers import *
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 class EnsembleClassifier:

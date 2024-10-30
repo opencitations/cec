@@ -11,10 +11,13 @@ $(document).ready(function(){
         var inputData = $('#input-text').val();
         $('#loading').show();
         $.ajax({
-            url: conf["prefix"]+'classify',
+            url: 'api/classify',
             method: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify({ 'sentences': inputData, 'mode': selectedMode }), // include the selected mode in the request
+            data: JSON.stringify({ 'data': inputData, 'mode': selectedMode }), // include the selected mode in the request
+            headers: {
+                'X-Request-Source': 'web-interface'
+            },
             success: function(response) {
                 $('#loading').hide();
                 var formattedHtml = formatResponse(response);
@@ -24,11 +27,15 @@ $(document).ready(function(){
                 var dataStr = JSON.stringify(response);
                 var dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
 
-                // Instead of showing the button directly, we attach the download event to it.
+                // Instead of showing the button directly, attach the download event to it.
                 $("#download-json-btn").off('click').on('click', function(event) {
                     var filename = selectedModeGlobal.replace(/ /g, "_") + "_prediction_results.json";
                     downloadJSON(dataUri, filename);
                 }).show();
+            },
+            error: function(xhr, status, error) {
+                $('#loading').hide();
+                alert("An error occurred during classification: " + error);
             }
         });
     });
@@ -52,11 +59,14 @@ $(document).ready(function(){
         $('#loading').show();
 
         $.ajax({
-            url: conf["prefix"]+'upload_json',
+            url: 'api/classify',
             method: 'POST',
             processData: false,
             contentType: false,
             data: formData,
+            headers: {
+                'X-Request-Source': 'web-interface'
+            },
             success: function(response) {
                 $('#loading').hide();
                 var formattedHtml = formatResponse(response);
@@ -73,7 +83,7 @@ $(document).ready(function(){
             },
             error: function(xhr, status, error) {
                 $('#loading').hide();
-                alert("An error occurred. Please check the format of your JSON and see if it is compliant with the instructions:" + error);
+                alert("An error occurred. Please check the format of your JSON and see if it is compliant with the instructions: " + error);
             }
         });
     });
