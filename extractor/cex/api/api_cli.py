@@ -27,14 +27,21 @@ def create_zip_file(download_location, zip_name):
 
     return zip_path
 
-def process_pdf_file(pdf, download_location, perform_alignment):
+def process_pdf_file(pdf, download_location, perform_alignment, create_rdf):
     processor = PDFProcessor(input_pdf_path=pdf, output_tei_path=download_location,
                              output_json_path=download_location)
     try:
-        if perform_alignment:
-            manifest_info = processor.process_pdf(align_headings=True)
+        if create_rdf:
+            if perform_alignment:
+                manifest_info = processor.process_pdf(align_headings=True, create_rdf=True)
+            else:
+                manifest_info = processor.process_pdf(align_headings=False, create_rdf=True)
         else:
-            manifest_info = processor.process_pdf(align_headings=False)
+            if perform_alignment:
+                manifest_info = processor.process_pdf(align_headings=True, create_rdf=False)
+            else:
+                manifest_info = processor.process_pdf(align_headings=False, create_rdf=False)
+
     except Exception as e:
         manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}
     return manifest_info
@@ -58,6 +65,7 @@ def main():
     parser.add_argument('--download_folder', help='Empty folder to store the processed zip', required=True)
     parser.add_argument('--zip_name', help='Name of the output zip file', required=False, default="")
     parser.add_argument('--perform_alignment', action='store_true', help='Whether to perform semantic alignment')
+    parser.add_argument('--create_rdf', help='Whether to generate a JSONld file')
     parser.add_argument('--max_workers', help='to set the number of worker threads', default=1)
 
     args = parser.parse_args()
@@ -100,7 +108,7 @@ def main():
         max_workers = int(args.max_workers)
         with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
             future_to_pdf = {
-                executor.submit(process_pdf_file, pdf, download_location, args.perform_alignment): pdf for pdf
+                executor.submit(process_pdf_file, pdf, download_location, args.perform_alignment, args.create_rdf): pdf for pdf
                 in pdfs_to_process}
             for future in concurrent.futures.as_completed(future_to_pdf):
                 pdf = future_to_pdf[future]

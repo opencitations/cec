@@ -3,8 +3,10 @@ import os
 import shutil
 import traceback
 
+from html5lib.constants import namespaces
 from numpy.core.defchararray import lower
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
+from pygments.unistring import combine
 
 from extractor.cex.grobid_client.grobid_client import GrobidClient
 from lxml import etree
@@ -55,9 +57,50 @@ class TEIXMLtoJSONConverter:
     def get_text_after_ref(self, ref, ns):
         following_text = ref.xpath('following-sibling::text()', namespaces=ns)
         text_after_ref = " ".join(following_text).strip() if following_text else ""
+        text_after_ref = re.sub(r'^[^\w\s]+', '', text_after_ref)
         sentences = self.test_model_segmentation(text_after_ref)
         text_after_ref = sentences[0].strip() if sentences else ""
         return text_after_ref
+
+    def find_group_references(self, div, ns, refs_with_following_text):
+
+        # process all refs in the same div
+        refs = div.findall(".//tei:p/tei:ref[@type='bibr']", namespaces=ns)
+
+        # Initialize list to hold groups of references
+        groups = []
+        group = []
+
+        # Iterate over the references
+        for ref in refs:
+            if not group:
+                #if the reference is a stand-alone one
+                if ref in refs_with_following_text:
+                    group.append(ref)
+                    groups.append(group)
+                    group = []
+                else:
+                    group.append(ref)
+            else:
+                prev_ref = group[-1]
+                #if the reference is not followed directly by another reference
+                if prev_ref.getnext() == ref and ref in refs_with_following_text and prev_ref not in refs_with_following_text:
+                    group.append(ref)
+                    groups.append(group)
+                    group = []
+                #if the reference is followed directly by another reference
+                elif prev_ref.getnext() == ref and prev_ref not in refs_with_following_text:
+                    group.append(ref)
+                #if the reference is not followed by another reference
+                else:
+                    groups.append(group)
+                    group = []
+
+        # Add the last group if exists
+        if group:
+            groups.append(group)
+
+        return groups
 
     def convert_to_json(self):
         tree = etree.parse(self.xml_file)
@@ -68,6 +111,12 @@ class TEIXMLtoJSONConverter:
         last_head = None
         citation_id = 1
 
+        refs_with_following_text = tree.xpath(
+            "//tei:ref[@type='bibr'][following-sibling::node()[1][self::text()]]",
+            namespaces=ns
+        )
+
+        #filter head titles
         head_elements = root.findall(".//tei:div/tei:head", namespaces=ns)
         has_n_attribute = any("n" in head.attrib for head in head_elements)
         roman_numbers_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*(?:\.[A-Z0-9]+\.*)*\s+'
@@ -104,28 +153,28 @@ class TEIXMLtoJSONConverter:
                 else:
                     last_head = head_text
 
-                '''if last_head is not None and all(keyword not in head_text for keyword in ["Introduction", "Related Works", "Material", "Methods" (methods and materials), "Results", "Discussion", "Conclusion"]):
-                    head_text = last_head'''
+                groups = self.find_group_references(div, ns, refs_with_following_text)
 
-                refs = div.findall(".//tei:p/tei:ref[@type='bibr']", namespaces=ns)
+                for group in groups:
 
-                for ref in refs:
-                    text_before_ref = self.get_text_before_ref(ref, ns)
-                    ref_text = ref.text.strip() if ref.text else ""
-                    text_after_ref = self.get_text_after_ref(ref, ns)
-                    combined_text = f"{text_before_ref} {ref_text} {text_after_ref}"
+                    combined_ref_text = ''.join(elem.text for elem in group).strip(' ')
+                    text_before_ref = self.get_text_before_ref(group[0], ns)
+                    text_after_ref = self.get_text_after_ref(group[-1], ns)
 
-                    citation_key = f"cit{citation_id}"
+                    for ref in group:
+                        citation_key = f"cit{citation_id}"
 
-                    if citation_key not in citations:
-                        citations[citation_key] = {
-                            "SECTION": last_head,
-                            "CITATION": ""
-                        }
+                        if citation_key not in citations:
+                            citations[citation_key] = {
+                                "SECTION": last_head,
+                                "CITATION": "",
+                                "REFERENCE": ref.text.strip(' ')
+                            }
 
-                    citations[citation_key]["CITATION"] += combined_text + " "
+                        citations[citation_key]["CITATION"] = "%s%s%s%s%s" % (text_before_ref, " ", combined_ref_text, " ",
+                                                                            text_after_ref)
 
-                    citation_id += 1
+                        citation_id += 1
 
         for citation in citations.values():
             citation["CITATION"] = citation["CITATION"].strip()
@@ -624,7 +673,7 @@ class PDFProcessor:
         # Ensure each required file type is present exactly once
         return all(count == 1 for count in required_counts.values()) and len(file_list) == 3
 
-    def process_pdf(self, align_headings=False):
+    def process_pdf(self, align_headings=False, create_rdf=False):
         input_pdf_path = [self.input_pdf_path]
         output = self.output_tei_path
         pdf_filename = os.path.basename(input_pdf_path[0])
@@ -678,26 +727,27 @@ class PDFProcessor:
                 with open(error_log_path, 'w') as error_file:
                     json.dump({"error": str(e), "timestamp": timestamp, "current_stage": current_stage,
                                "traceback": traceback.format_exc()}, error_file, indent=4)
-            try:
-                # rdf creation
-                current_stage = "Generating RDF file"
-                if align_headings:
-                    mapping_output = (self.output_intermediate_dir + os.path.sep +
-                                      os.path.basename(input_pdf_path[0]).split(".pdf")[
-                                          0] + "_section_mapping" + ".json")
-                    self.create_rdf(input_pdf_path, output_tei_path, align_headings, mapping_output)
-                    os.remove(mapping_output)
-                else:
-                    self.create_rdf(input_pdf_path, output_tei_path, align_headings, None)
+            if create_rdf:
+                try:
+                    # rdf creation
+                    current_stage = "Generating RDF file"
+                    if align_headings:
+                        mapping_output = (self.output_intermediate_dir + os.path.sep +
+                                          os.path.basename(input_pdf_path[0]).split(".pdf")[
+                                              0] + "_section_mapping" + ".json")
+                        self.create_rdf(input_pdf_path, output_tei_path, align_headings, mapping_output)
+                        os.remove(mapping_output)
+                    else:
+                        self.create_rdf(input_pdf_path, output_tei_path, align_headings, None)
 
 
-            except Exception as e:
-                current_datetime = datetime.now()
-                timestamp = current_datetime.timestamp()
-                error_log_path = os.path.join(self.output_intermediate_dir, f"error_log_{timestamp}.json")
-                with open(error_log_path, 'w') as error_file:
-                    json.dump({"error": str(e), "timestamp": timestamp, "current_stage": current_stage,
-                               "traceback": traceback.format_exc()}, error_file, indent=4)
+                except Exception as e:
+                    current_datetime = datetime.now()
+                    timestamp = current_datetime.timestamp()
+                    error_log_path = os.path.join(self.output_intermediate_dir, f"error_log_{timestamp}.json")
+                    with open(error_log_path, 'w') as error_file:
+                        json.dump({"error": str(e), "timestamp": timestamp, "current_stage": current_stage,
+                                   "traceback": traceback.format_exc()}, error_file, indent=4)
 
         single_pdf = os.path.join(output, "single_pdf")
         shutil.copytree(self.output_intermediate_dir, single_pdf)
@@ -716,8 +766,9 @@ class PDFProcessor:
                     files["tei"] = {'status': 'processed', 'file': el}
                 if el.endswith('.json') and not el.startswith('error_log'):
                     files["json"] = {'status': 'processed', 'file': el}
-                if el.endswith('.jsonld'):
-                    files["rdf"] = {'status': 'processed', 'file': el}
+                if create_rdf:
+                    if el.endswith('.jsonld'):
+                        files["rdf"] = {'status': 'processed', 'file': el}
                 if el.startswith('error_log'):
                     status = "partial processing"
                     log_file_path = os.path.join(single_pdf, el)

@@ -97,11 +97,10 @@ button {
     margin-top: 50px;
   }
 
-  #agree {
+  #agree, #agree2 {
     width: 25px;
     height: 25px;
   }
-
 
   footer {
     background-color: #333;

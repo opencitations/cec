@@ -7,6 +7,7 @@ import zipfile
 from pathlib import Path
 
 from pyparsing import oneOf
+from rdflib.plugins.parsers.jsonld import to_rdf
 
 from extractor.cex.main import create_app
 from werkzeug.datastructures import FileStorage
@@ -44,7 +45,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': pdf_file,
             'perform_alignment': 'false',
-            'max_workers': 3
+            'max_workers': 3,
+            'create_rdf': 'true'
         }
 
         # Send the POST request with the file and data
@@ -91,7 +93,8 @@ class TestApi(unittest.TestCase):
         """Test no file uploaded case."""
         data = {
             'max_workers': 2,
-            'perform_alignment': 'false'
+            'perform_alignment': 'false',
+            'create_rdf': 'true'
         }
 
         response = self.client.post('/api/extractor', data=data)
@@ -140,7 +143,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': text_file,
             'max_workers': 2,
-            'perform_alignment': 'false'
+            'perform_alignment': 'false',
+            'create_rdf': 'true'
         }
 
         response = self.client.post('/api/extractor', data=data, content_type='multipart/form-data')
@@ -188,7 +192,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': pdf_file,
             'perform_alignment': 'false',
-            'max_workers': 2
+            'max_workers': 2,
+            'create_rdf': 'true'
         }
 
         # Send the POST request with the file and data
@@ -237,7 +242,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': pdf_file,
             'perform_alignment': 'false',
-            'max_workers': 2
+            'max_workers': 2,
+            'create_rdf': 'true'
         }
 
         # Send the POST request with the file and data
@@ -286,7 +292,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': pdf_file,
             'perform_alignment': 'false',
-            'max_workers': 2
+            'max_workers': 2,
+            'create_rdf':'true'
         }
 
         # Send the POST request with the file and data
@@ -336,7 +343,8 @@ class TestApi(unittest.TestCase):
         data = {
             'input_files_or_archives': pdf_file,
             'perform_alignment': 'false',
-            'max_workers': 2
+            'max_workers': 2,
+            'create_rdf': 'true'
         }
 
         # Send the POST request with the file and data
@@ -378,6 +386,8 @@ class TestApi(unittest.TestCase):
 
         # Clean up: remove the temporary zip file
         os.remove(zip_file_path)
+
+
 
 
 

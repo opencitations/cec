@@ -63,7 +63,7 @@ class TestScriptFunctions(unittest.TestCase):
         mock_instance.process_pdf.return_value = {"filename": "sample.pdf", "status": "processed"}
 
         # Call the function
-        result = process_pdf_file("sample.pdf", self.temp_directory, perform_alignment=True)
+        result = process_pdf_file("sample.pdf", self.temp_directory, perform_alignment=True, create_rdf=True)
 
         # Check if the result matches expected manifest
         self.assertEqual(result["status"], "processed")
@@ -80,6 +80,7 @@ class TestScriptFunctions(unittest.TestCase):
             zip_name="output.zip",
             perform_alignment=False,
             max_workers=2,
+            create_rdf=True
         )
 
         # Call main
@@ -103,6 +104,7 @@ class TestScriptFunctions(unittest.TestCase):
             zip_name="output.zip",
             perform_alignment=False,
             max_workers=1,
+            create_rdf=True
         )
 
         # Call main
@@ -129,6 +131,7 @@ class TestScriptFunctions(unittest.TestCase):
             zip_name="",
             perform_alignment=False,
             max_workers=2,
+            create_rdf=True
         )
 
         # Call main

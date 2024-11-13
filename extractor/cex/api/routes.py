@@ -53,6 +53,7 @@ def api_process_file():
         return jsonify({'download_url': download_url}), 200
 
     perform_alignment = request.form.get('perform_alignment', 'false').lower() == 'true'
+    create_rdf = request.form.get('create_rdf', 'false').lower() == 'true'
     max_workers = request.form.get('max_workers')
     if max_workers:
         max_workers = int(max_workers)
@@ -81,7 +82,7 @@ def api_process_file():
         # Parallel processing of PDF files
         with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
             future_to_pdf = {
-                executor.submit(process_pdf_file, pdf, download_location, perform_alignment): pdf for pdf
+                executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf): pdf for pdf
                 in pdfs_to_process}
             for future in concurrent.futures.as_completed(future_to_pdf):
                 pdf = future_to_pdf[future]

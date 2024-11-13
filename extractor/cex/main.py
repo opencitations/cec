@@ -1,6 +1,8 @@
 import logging
 import shutil
 import json
+from venv import create
+
 from flask import Flask, render_template, send_from_directory, after_this_request, jsonify, url_for
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField, IntegerField
@@ -124,14 +126,21 @@ def upload_manifest(manifest_list, processing_location):
     with open(os.path.join(processing_location, "manifest.json"), 'w') as file:
         json.dump(manifest_list, file, indent=4)
 
-def process_pdf_file(pdf, download_location, perform_alignment):
+def process_pdf_file(pdf, download_location, perform_alignment, create_rdf):
     processor = PDFProcessor(input_pdf_path=pdf, output_tei_path=download_location,
                              output_json_path=download_location)
     try:
-        if perform_alignment:
-            manifest_info = processor.process_pdf(align_headings=True)
+        if create_rdf:
+            if perform_alignment:
+                manifest_info = processor.process_pdf(align_headings=True, create_rdf=True)
+            else:
+                manifest_info = processor.process_pdf(align_headings=False, create_rdf=True)
         else:
-            manifest_info = processor.process_pdf(align_headings=False)
+            if perform_alignment:
+                manifest_info = processor.process_pdf(align_headings=True, create_rdf=False)
+            else:
+                manifest_info = processor.process_pdf(align_headings=False, create_rdf=False)
+
     except Exception as e:
         manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}
     return manifest_info
@@ -139,6 +148,7 @@ def process_pdf_file(pdf, download_location, perform_alignment):
 class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])
     agree = BooleanField("Perform semantic alignment of sections' headings")
+    agree2 = BooleanField("Generate JSONld file")
     submit = SubmitField("Process File")
     max_workers = IntegerField('Max Workers', default=1, validators=[NumberRange(min=1, max=50)])
 
@@ -174,6 +184,7 @@ def create_app():
             file = form.file.data
             max_workers = form.max_workers.data
             perform_alignment = form.agree.data
+            create_rdf = form.agree2.data
             save_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['UPLOAD_FOLDER'], secure_filename(file.filename))  # Then save the file
             file.save(save_location)
             download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)),
@@ -185,7 +196,7 @@ def create_app():
                 # Parallel processing of PDF files
                 with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
                     future_to_pdf = {
-                        executor.submit(process_pdf_file, pdf, download_location, perform_alignment): pdf for pdf
+                        executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf): pdf for pdf
                         in pdf_files}
                     for future in concurrent.futures.as_completed(future_to_pdf):
                         pdf = future_to_pdf[future]
@@ -196,8 +207,12 @@ def create_app():
                         except Exception as exc:
                             manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(exc)}
                             manifest.append(manifest_info)
-
-            shutil.rmtree(app.config['UPLOAD_FOLDER'])
+            files=[]
+            for entry in os.scandir(app.config['UPLOAD_FOLDER']):
+                if entry.is_file():
+                    files.append(entry.name)
+            for file in files:
+                os.remove(os.path.join(app.config['UPLOAD_FOLDER'], file))
 
             upload_manifest(manifest, download_location)
 
