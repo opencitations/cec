@@ -137,7 +137,7 @@ project_root/
 4. **Download Model Files**
 
     Download and place the pre-trained model files in the appropriate directories as shown in the folder structure. Ensure that the `models/` directory contains all necessary `.pt` and `.pth` files (7 models each dir).
-Download links:
+   Download links:
    - **Ensemble Model Without Section Titles**: [EnsIntWos](https://doi.org/10.5281/zenodo.11652578)
    - **Ensemble Model With Section Titles**: [EnsIntWS](https://doi.org/10.5281/zenodo.11653642)
 
