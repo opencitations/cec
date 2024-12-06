@@ -1,3 +1,5 @@
+[![Read The Paper](https://img.shields.io/badge/Read_The_Paper-red?style=flat-square)](https://arxiv.org/abs/2407.13329) [![Go to the web application](https://img.shields.io/badge/Go%20to%20the%20web%20application-blue?style=flat-square)](http://137.204.64.4:81/cic/)
+
 # Citation Intent Classifier [Version: Alpha]
 
 **Comprehensive Guide and Documentation**
