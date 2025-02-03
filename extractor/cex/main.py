@@ -1,7 +1,6 @@
 import logging
 import shutil
 import json
-from venv import create
 
 from flask import Flask, render_template, send_from_directory, after_this_request, jsonify, url_for
 from flask_wtf import FlaskForm
@@ -14,12 +13,11 @@ from os import makedirs, sep, walk
 from os.path import basename, exists, isdir
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
-from extractor.cex.combined import PDFProcessor, TEIXMLtoRDFConverter
+from extractor.cex.combined import PDFProcessor
 import zipfile
-from extractor.cex.semantic_alignment.align_headings import run
 from datetime import datetime
 import concurrent.futures
-from wtforms.validators import DataRequired, NumberRange
+from wtforms.validators import NumberRange
 import zstandard as zstd
 
 def get_all_files(folder_path):
@@ -72,7 +70,7 @@ def get_all_files_by_type(i_dir_or_compr_or_file:str, req_type:str, save_locatio
 
     elif i_dir_or_compr_or_file.endswith("zip"):
         with zipfile.ZipFile(i_dir_or_compr_or_file, 'r') as zip_ref:
-            dest_dir = save_location + sep + "decompr_zip_dir"
+            dest_dir = os.path.join(save_location, "decompr_zip_dir")
             if not exists(dest_dir):
                 makedirs(dest_dir)
             zip_ref.extractall(dest_dir)
@@ -207,12 +205,19 @@ def create_app():
                         except Exception as exc:
                             manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(exc)}
                             manifest.append(manifest_info)
+
+            #empty static/files
             files=[]
+            dir=[]
             for entry in os.scandir(app.config['UPLOAD_FOLDER']):
                 if entry.is_file():
                     files.append(entry.name)
+                elif entry.is_dir():
+                    dir.append(entry)
             for file in files:
                 os.remove(os.path.join(app.config['UPLOAD_FOLDER'], file))
+            for x in dir:
+                shutil.rmtree(x)
 
             upload_manifest(manifest, download_location)
 

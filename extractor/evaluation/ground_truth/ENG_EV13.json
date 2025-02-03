@@ -1,0 +1,69 @@
+{
+    "cit1": {
+        "SECTION": "Overview",
+        "CITATION": "A study of plagiarism in programming classes at Monash University in Australia found that 85.4% of students admitted to copying other people's codes [1] [2].",
+        "REFERENCE": "[1]"
+    },
+    "cit2": {
+        "SECTION": "Overview",
+        "CITATION": "A study of plagiarism in programming classes at Monash University in Australia found that 85.4% of students admitted to copying other people's codes [1] [2].",
+        "REFERENCE": "[2]"
+    },
+    "cit3": {
+        "SECTION": "Overview",
+        "CITATION": "Researchers Faidhi and Robinson analyzed how and to what extent code was copied, defining seven levels of difficulty [3] :.",
+        "REFERENCE": "[3]"
+    },
+    "cit4": {
+        "SECTION": "Related Work",
+        "CITATION": "The attribute counting [4] method proposed by Halstead based on the software science metric is one of the earliest algorithms for program code similarity detection.",
+        "REFERENCE": "[4]",
+        "ALIGNED SECTION": [
+            "Related Work"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Related Work",
+        "CITATION": "Due to the limitations of programming languages at that time, the system could only detect programs written in FORTRAN [5].",
+        "REFERENCE": "[5]",
+        "ALIGNED SECTION": [
+            "Related Work"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Related Work",
+        "CITATION": "Donaldson's similarity measurement system, for example, combines AC and SM techniques, while other systems, such as Sire, Plague, and YAP3 [6], use structural measurement techniques to capture program semantics.",
+        "REFERENCE": "[6]",
+        "ALIGNED SECTION": [
+            "Related Work"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Related Work",
+        "CITATION": "Clough and Parker [7] respectively described the above procedure similarity measurement method in detail.",
+        "REFERENCE": "[7]",
+        "ALIGNED SECTION": [
+            "Related Work"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Algorithm Design",
+        "CITATION": "This algorithm is a Hash algorithm with low collision rate and local sensitivity [8], which is widely used by Google for massive web pages.",
+        "REFERENCE": "[8]"
+    },
+    "cit9": {
+        "SECTION": "Algorithm Design",
+        "CITATION": "Commands can usually be understood and executed through lexical analysis, syntax analysis, semantic analysis, and other processes [9].",
+        "REFERENCE": "[9]"
+    },
+    "cit10": {
+        "SECTION": "Algorithm Design",
+        "CITATION": "The Zhang-Shasha algorithm [10] is a classical tree editing distance algorithm that was proposed by Zhang and Shasha in 1989.",
+        "REFERENCE": "[10]"
+    },
+    "cit11": {
+        "SECTION": "Algorithm Design",
+        "CITATION": "It is often used to calculate the editing distance between two trees and solve the similarity measurement problem [11].",
+        "REFERENCE": "[11]"
+    }
+}

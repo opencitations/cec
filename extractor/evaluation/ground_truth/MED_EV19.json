@@ -1,0 +1,338 @@
+{
+    "cit1": {
+        "SECTION": "Introduction",
+        "CITATION": "Non-small cell lung cancer (NSCLC) is the fourth most common cancer diagnosed in Australia, and the leading cause of cancer related death in both males and females (1).",
+        "REFERENCE": "(1)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(2)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(3)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(4)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(5)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(6)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "(7,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Introduction",
+        "CITATION": "About 35% of patients present with unresectable locally advanced NSCLC (LA-NSCLC) (2) and treatment options include radiotherapy alone; sequential (3) (4) (5) (6) or concurrent chemo-radiotherapy (CRT) (7, 8).",
+        "REFERENCE": "8)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(9)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(10)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(11)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(12,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit13": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "13)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit14": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(14)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit15": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(15)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit16": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(16,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit17": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "17)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit18": {
+        "SECTION": "Introduction",
+        "CITATION": "Older regimens include MVP (mitomycin C, vindesine and cisplatin) (9) (10) (11), cisplatin/ vinblastine (12, 13), and cisplatin/etoposide (14), newer agents include cisplatin/taxanes (15), cisplatin/gemcitabine (16, 17), and platinum/irinotecan (18).",
+        "REFERENCE": "(18)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit19": {
+        "SECTION": "Introduction",
+        "CITATION": "The meta-analysis of CRT in LA-NSCLC confirmed the lack of data on late toxicity (8).",
+        "REFERENCE": "(8)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit20": {
+        "SECTION": "Methods",
+        "CITATION": "Data was collected on demographic information, treatment received, acute and late toxicity (graded according to common terminology criteria for adverse events version 3.0) (19), (radiological response according to RECIST criteria) (20, 21), date of diagnosis, and date of death.",
+        "REFERENCE": "(19)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit21": {
+        "SECTION": "Methods",
+        "CITATION": "Data was collected on demographic information, treatment received, acute and late toxicity (graded according to common terminology criteria for adverse events version 3.0) (19), (radiological response according to RECIST criteria) (20, 21), date of diagnosis, and date of death.",
+        "REFERENCE": "(20,",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit22": {
+        "SECTION": "Methods",
+        "CITATION": "Data was collected on demographic information, treatment received, acute and late toxicity (graded according to common terminology criteria for adverse events version 3.0) (19), (radiological response according to RECIST criteria) (20, 21), date of diagnosis, and date of death.",
+        "REFERENCE": "21)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit23": {
+        "SECTION": "Methods",
+        "CITATION": "Staging was defined according to the TNM classification system (7 th version) (22).",
+        "REFERENCE": "(22)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit24": {
+        "SECTION": "Discussion",
+        "CITATION": "Horinouchi et al. (23) reported grade 1-5 late pulmonary toxicity in 36% of patients following completion of concurrent cisplatin/vinorelbine chemotherapy and radiation therapy (majority received 60 Gy in 30 fractions).",
+        "REFERENCE": "(23)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit25": {
+        "SECTION": "Discussion",
+        "CITATION": "We report a 39.3% incidence of radiation fibrosis; this is similar to the outcomes reported by Horinouchi et al. (23).",
+        "REFERENCE": "(23)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit26": {
+        "SECTION": "Discussion",
+        "CITATION": "However Rakovitch et al. (24) and Rowell et al. (25) reported no significant increase in the risk of acute pneumonitis in their published data respectively.",
+        "REFERENCE": "(24)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit27": {
+        "SECTION": "Discussion",
+        "CITATION": "However Rakovitch et al. (24) and Rowell et al. (25) reported no significant increase in the risk of acute pneumonitis in their published data respectively.",
+        "REFERENCE": "(25)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit28": {
+        "SECTION": "Discussion",
+        "CITATION": "This is similar to reports in published literature (24, 25).",
+        "REFERENCE": "(24,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit29": {
+        "SECTION": "Discussion",
+        "CITATION": "This is similar to reports in published literature (24, 25).",
+        "REFERENCE": "25)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit30": {
+        "SECTION": "Discussion",
+        "CITATION": "The shift from sequential to concurrent chemotherapy has seen a substantial increase in the rate of acute grade 3 to 4 esophagitis, from 4% to 18% (8).",
+        "REFERENCE": "(8)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit31": {
+        "SECTION": "Discussion",
+        "CITATION": "Grade 3 or higher grades were seen in 19% of patients in the first month of treatment, and 33% by the third month, and 2% beyond 3 months (26).",
+        "REFERENCE": "(26)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit32": {
+        "SECTION": "Discussion",
+        "CITATION": "The platinum-based chemotherapy agent cisplatin causes irreversible sensorineural hearing loss in 20-40% of patients (27).",
+        "REFERENCE": "(27)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit33": {
+        "SECTION": "Discussion",
+        "CITATION": "Ototoxicity has been shown to occur in 33% of patients following a single administration of cisplatin at 50 mg/m 2, with manifestations including hearing loss, tinnitus, otalgia and vestibular disorders (28) (29) (30).",
+        "REFERENCE": "(28)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit34": {
+        "SECTION": "Discussion",
+        "CITATION": "Ototoxicity has been shown to occur in 33% of patients following a single administration of cisplatin at 50 mg/m 2, with manifestations including hearing loss, tinnitus, otalgia and vestibular disorders (28) (29) (30).",
+        "REFERENCE": "(29)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit35": {
+        "SECTION": "Discussion",
+        "CITATION": "Ototoxicity has been shown to occur in 33% of patients following a single administration of cisplatin at 50 mg/m 2, with manifestations including hearing loss, tinnitus, otalgia and vestibular disorders (28) (29) (30).",
+        "REFERENCE": "(30)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit36": {
+        "SECTION": "Discussion",
+        "CITATION": "A poor correlation between clinical grading of ototoxicity and audiometry-based assessment was noted (31).",
+        "REFERENCE": "(31)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit37": {
+        "SECTION": "Discussion",
+        "CITATION": "The most common chromosomal translocation in chemotherapy associated AML is t (11:23), however t (3;21), inv (16), t(8;16), t(15;17), t(9;22) and t(8;21) have been seen less frequently (32).",
+        "REFERENCE": "(32)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit38": {
+        "SECTION": "Discussion",
+        "CITATION": "Ratain et al. (33) described 4 cases of AML at 13, 19, 28 and 35 months after treatment with etoposide-based combination chemotherapy in patients with NSCLC.",
+        "REFERENCE": "(33)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit39": {
+        "SECTION": "Discussion",
+        "CITATION": "The 2 and 5 years absolute survival benefit of 4% and 2.2% compared to sequential CRT was reported in the meta-analysis by Aupérin et al. (8).",
+        "REFERENCE": "(8)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit40": {
+        "SECTION": "Discussion",
+        "CITATION": "The estimated 5 year survival rate of 18.7% in our patient population is similar to the published retrospective data from New South Wales (Australia) by Spina et al. (34) who reported a 17% estimated 5 year survival rate.",
+        "REFERENCE": "(34)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit41": {
+        "SECTION": "Discussion",
+        "CITATION": "The optimal treatment strategy for inoperable stage III NSCLC now incorporates immune therapy as a consolidation treatment for 1 year after the completion of CRT (35).",
+        "REFERENCE": "(35)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit42": {
+        "SECTION": "Discussion",
+        "CITATION": "Incidence of radiotherapy related cardiac adverse events have been reported to be approximately 33% in patients with NSCLC (36).",
+        "REFERENCE": "(36)",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    }
+}

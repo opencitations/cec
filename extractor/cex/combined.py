@@ -4,9 +4,8 @@ import shutil
 import traceback
 
 from html5lib.constants import namespaces
-from numpy.core.defchararray import lower
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
-from pygments.unistring import combine
+from torch.fx.experimental.unification.dispatch import namespace
 
 from extractor.cex.grobid_client.grobid_client import GrobidClient
 from lxml import etree
@@ -21,11 +20,14 @@ import uuid
 from extractor.cex.semantic_alignment.align_headings import run
 from extractor.cex.settings import *
 
+
 class TEIXMLtoJSONConverter:
-    def __init__(self, xml_file, output_json_file, auxiliar_file):
+    def __init__(self, xml_file, output_json_file, auxiliar_file, create_rdf):
         self.xml_file = xml_file
         self.output_json_file = output_json_file
         self.auxiliar_file = auxiliar_file
+        self.create_rdf = create_rdf
+        self.output_target_file = output_json_file.replace(".json", "_target.json")
 
     def customize_tokenizer(self, nlp):
         with open(self.auxiliar_file, 'r') as file:
@@ -38,13 +40,72 @@ class TEIXMLtoJSONConverter:
         try:
             nlp = spacy.load("en_core_web_sm")
         except OSError:
-            print("Model not found. Installing en_core_web_sm model")
+            print("Model not found. Installing en_core_web_trf model")
             spacy.cli.download("en_core_web_sm")
             nlp = spacy.load("en_core_web_sm")
 
         nlp = self.customize_tokenizer(nlp)
         doc = nlp(text)
         return [sent.text.strip() for sent in doc.sents]
+
+    def build_dict_ref_citkey(self, xml, ns):
+        refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
+        refs_in_notes = xml.xpath(".//tei:note//tei:ref[@type='bibr']", namespaces=ns)
+        if refs_in_notes:
+            refs = refs + refs_in_notes
+        return {ref: f"cit{i + 1}" for i, ref in enumerate(refs)}
+
+    def find_sentences_in_div(self, div, dict_to_check, ns):
+        # Extract all text from the <div> tag, including references
+        text_to_segment = div.xpath(""".//tei:p/text() | .//tei:p/tei:ref""", namespaces=ns)
+        processed_text = []
+        for elem in text_to_segment:
+            if isinstance(elem, etree._Element):  # <ref> tags
+                if elem.tag == f"{{{ns['tei']}}}ref" and elem.get("type") == "bibr" and elem in dict_to_check:
+                    processed_text.append(dict_to_check[elem])
+                else:
+                    if elem.text:
+                        processed_text.append(elem.text)
+            elif elem:  # Regular text
+                processed_text.append(elem)
+
+        if processed_text:
+            # Combine and clean text
+            cleaned_text = ' '.join(processed_text)
+            cleaned_text = re.sub('\s+', ' ', cleaned_text)
+            cleaned_text = re.sub(r'\s+([,;.])', r'\1', cleaned_text)  # Remove spaces before punctuation
+            # Remove unnecessary whitespaces inside parentheses
+            cleaned_text = re.sub(r'\(\s*(.*?)\s*\)', r'(\1)', cleaned_text)
+            return self.test_model_segmentation(cleaned_text)
+        return []
+
+
+    def find_sentences_in_div_superscripts(self, div, dict_to_check, ns):
+        sentences_to_modify = self.find_sentences_in_div(div, dict_to_check, ns)
+        for i, sentence in enumerate(sentences_to_modify):
+            if i > 0:
+                # Check if the citation is at the start of the sentence and preceding sentence ends with a period
+                preceding_sentence = sentences_to_modify[i-1]
+                # this will match also following citations at the beginning of the sentence
+                cit_el = re.search(r"^(cit\d+\s*)+", sentence)
+                if cit_el and sentences_to_modify[i-1].endswith('.'):
+                    cit_el_text = cit_el.group()
+                    new_preceding_sentence = "%s %s" % (preceding_sentence, cit_el_text)
+                    new_sentence = sentence.replace(cit_el_text, '')
+                    sentences_to_modify[i] = new_sentence
+                    sentences_to_modify[i-1] = new_preceding_sentence.strip()
+        return sentences_to_modify
+
+    # Function to replace matches
+    def replace_citations(self, sentence, ref_citkey_dict):
+        inverted_dict = {v: k for k, v in ref_citkey_dict.items()}  # Citkey to <ref> lookup
+        citations = re.findall(r"cit\d+", sentence)
+        for cit in citations:
+            ref = inverted_dict.get(cit)
+            if ref is not None:
+                ref_text = ref.text.strip() if ref.text else ""
+                sentence = sentence.replace(cit, ref_text)
+        return sentence
 
     def get_text_before_ref(self, ref, ns):
         preceding_text = ref.xpath('preceding-sibling::text()', namespaces=ns)
@@ -54,83 +115,95 @@ class TEIXMLtoJSONConverter:
         text_before_ref = sentences[-1].strip() if sentences else ""
         return text_before_ref
 
-    def get_text_after_ref(self, ref, ns):
-        following_text = ref.xpath('following-sibling::text()', namespaces=ns)
-        text_after_ref = " ".join(following_text).strip() if following_text else ""
-        text_after_ref = re.sub(r'^[^\w\s]+', '', text_after_ref)
-        sentences = self.test_model_segmentation(text_after_ref)
-        text_after_ref = sentences[0].strip() if sentences else ""
-        return text_after_ref
-
-    def find_group_references(self, div, ns, refs_with_following_text):
-
-        # process all refs in the same div
-        refs = div.findall(".//tei:p/tei:ref[@type='bibr']", namespaces=ns)
-
-        # Initialize list to hold groups of references
-        groups = []
-        group = []
-
-        # Iterate over the references
+    def are_intext_reference_pointers_apexes(self, xml, ns):
+        refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
+        numbers = 0
+        with open(self.auxiliar_file, 'r') as file:
+            special_cases = json.load(file)
+        total_refs = len([ref for ref in refs if ref.text])
         for ref in refs:
-            if not group:
-                #if the reference is a stand-alone one
-                if ref in refs_with_following_text:
-                    group.append(ref)
-                    groups.append(group)
-                    group = []
-                else:
-                    group.append(ref)
-            else:
-                prev_ref = group[-1]
-                #if the reference is not followed directly by another reference
-                if prev_ref.getnext() == ref and ref in refs_with_following_text and prev_ref not in refs_with_following_text:
-                    group.append(ref)
-                    groups.append(group)
-                    group = []
-                #if the reference is followed directly by another reference
-                elif prev_ref.getnext() == ref and prev_ref not in refs_with_following_text:
-                    group.append(ref)
-                #if the reference is not followed by another reference
-                else:
-                    groups.append(group)
-                    group = []
+            ref_text = ref.text.strip() if ref.text else ""
 
-        # Add the last group if exists
-        if group:
-            groups.append(group)
+            # Remove all characters except letters (a-z, A-Z) and digits (0-9)
+            cleaned_text = re.sub(r"[^a-zA-Z0-9]", "", ref_text)
 
-        return groups
+            # Check if the cleaned text contains only digits
+            if cleaned_text.isdigit():
+                numbers += 1
+
+        if numbers > total_refs/2:
+            # check if intext reference pointers are superscript
+            # get the text preceding the intext reference pointers
+            # Loop through each reference and extract preceding text
+            preceding_texts = []
+            for ref in refs:
+                preceding_text = self.get_text_before_ref(ref, ns)
+                if preceding_text.endswith('.'):
+                    list_words = preceding_text.strip().split(' ')
+                    ending_word = list_words[-1]
+                    if ending_word not in special_cases:
+                        preceding_texts.append(preceding_text)
+
+            if len(preceding_texts) > total_refs/5:
+                return True
+        return False
+
+    def clean_section_title(self, title):
+        if title is not None:
+            title = title.strip()
+            # Check if the title starts with a non-alphanumeric character
+            while title and not re.match(r"^[a-zA-Z0-9]", title[0]):
+                title = title[1:]  # Remove the first character
+            return title.strip()  # Otherwise, return the cleaned title
+        else:
+            return title
 
     def convert_to_json(self):
+        #try to differentiate numerical in text pointers from strings
         tree = etree.parse(self.xml_file)
         root = tree.getroot()
         ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
-        citations = {}
         last_head = None
-        citation_id = 1
 
-        refs_with_following_text = tree.xpath(
-            "//tei:ref[@type='bibr'][following-sibling::node()[1][self::text()]]",
-            namespaces=ns
-        )
-
-        #filter head titles
+        # Precompute common elements
+        ref_citkey_dict = self.build_dict_ref_citkey(tree, ns)
         head_elements = root.findall(".//tei:div/tei:head", namespaces=ns)
         has_n_attribute = any("n" in head.attrib for head in head_elements)
-        roman_numbers_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*(?:\.[A-Z0-9]+\.*)*\s+'
-        has_roman_numeration = any(re.search(roman_numbers_pattern, head.text.strip() if head.text else "") for head
-                                   in head_elements)
+        roman_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+'
+        has_roman_numeration = any(re.search(roman_pattern, (head.text or "").strip()) for head in head_elements)
         head_n_attribute = sum("n" in head.attrib for head in head_elements)
         head_no_n_attribute = sum("n" not in head.attrib for head in head_elements)
-        for div in root.findall(".//tei:div", namespaces=ns):
-            head = div.find("./tei:head", namespaces=ns)
+        head_roman = sum(
+            1 for head in head_elements if re.search(roman_pattern, (head.text or "").strip())
+        )
+        head_no_roman = sum(
+            1 for head in head_elements if not re.search(roman_pattern, (head.text or "").strip())
+        )
 
+        # Find notes with in-text reference pointers
+        notes_text_with_refs = set()
+        refs_in_notes = root.findall(".//tei:note//tei:ref[@type='bibr']", namespaces=ns)
+        if refs_in_notes:
+            for ref in refs_in_notes:
+                note = ref.xpath("./ancestor::tei:note[1]", namespaces=ns)[0]  # Move up to the <note> parent
+                n = note.get("n")
+                notes_text_with_refs.add(n)
+
+        superscipts = self.are_intext_reference_pointers_apexes(tree, ns)
+
+        if self.create_rdf:
+            target = dict()
+
+        # Initialize storage for citations
+        citations = {}
+        for div in root.findall(".//tei:div", namespaces=ns):
+
+            head = div.find("./tei:head", namespaces=ns)
             if head is not None:
                 head_text = head.text.strip() if head.text else ""
-                if head_n_attribute > head_no_n_attribute:
-                    if has_n_attribute:
+                if has_n_attribute:
+                    if head_n_attribute >= (head_no_n_attribute+head_n_attribute)/2:
                         if 'n' in head.attrib:
                             n = head.get("n")
                             n_parts = n.split(".")
@@ -143,55 +216,73 @@ class TEIXMLtoJSONConverter:
                                     last_head = split_string[0].strip()
                                 else:
                                     last_head = head_text
+                    else:
+                        last_head=head_text
                 elif has_roman_numeration:
-                    if re.search(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+', head_text):
-                        pattern = re.compile(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+')
-                        match = pattern.search(head_text)
-                        if match:
-                            match = match.group().strip()
-                            last_head = head_text.replace(match, "")
+                    if head_roman >= (head_no_roman+head_roman)/2:
+                        if re.search(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+', head_text):
+                            pattern = re.compile(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+')
+                            match = pattern.search(head_text)
+                            if match:
+                                match = match.group().strip()
+                                last_head = head_text.replace(match, "")
+                    else:
+                        last_head=head_text
                 else:
                     last_head = head_text
 
-                groups = self.find_group_references(div, ns, refs_with_following_text)
+            if superscipts:
+                sentences = self.find_sentences_in_div_superscripts(div, ref_citkey_dict, ns)
+            else:
+                sentences = self.find_sentences_in_div(div, ref_citkey_dict, ns)
 
-                for group in groups:
+            # Checks if any foot-type references in the div match the set of known notes containing citations.
+            # If they match, extracts additional sentences from those notes.
+            if notes_text_with_refs:
+                notes_text_in_div = [note.text for note in div.findall(".//tei:ref[@type='foot']", namespaces=ns)]
+                if notes_text_in_div:
+                    for el in list(notes_text_with_refs):
+                        if el in notes_text_in_div:
+                            note_with_refs = root.find(f""".//tei:note[@n="{el}"]""", namespaces=ns)
+                            sentences += self.find_sentences_in_div(note_with_refs, ref_citkey_dict, ns)
+            # Replaces citation placeholders (cit1, cit2, etc.) with resolved reference data.
+            if sentences:
+                processed_sentences = {
+                    sentence: self.replace_citations(sentence, ref_citkey_dict)
+                    for sentence in sentences if "cit" in sentence
+                }
 
-                    combined_ref_text = ''.join(elem.text for elem in group).strip(' ')
-                    text_before_ref = self.get_text_before_ref(group[0], ns)
-                    text_after_ref = self.get_text_after_ref(group[-1], ns)
-
-                    for ref in group:
-                        citation_key = f"cit{citation_id}"
-
-                        if citation_key not in citations:
-                            citations[citation_key] = {
-                                "SECTION": last_head,
-                                "CITATION": "",
-                                "REFERENCE": ref.text.strip(' ')
+                for i, (sentence, processed_sentence) in enumerate(processed_sentences.items()):
+                    for cit in re.findall(r"cit\d+", sentence):
+                        ref = next((k for k, v in ref_citkey_dict.items() if v == cit), None)
+                        if ref is not None:
+                            ref_text = ref.text.strip() if ref.text else ""
+                            citation_text = re.sub(r'\s+', ' ', processed_sentence)
+                            citation_text = re.sub(r'\s+([,;.])', r'\1', citation_text)
+                            citations[cit] = {
+                                "SECTION": self.clean_section_title(last_head),
+                                "CITATION": citation_text,
+                                "REFERENCE": ref_text
                             }
+                            if self.create_rdf:
+                                target_attr = ref.get("target")  # Extract the target attribute
+                                if target_attr:
+                                    target[cit] = target_attr.replace('#','')
 
-                        citations[citation_key]["CITATION"] = "%s%s%s%s%s" % (text_before_ref, " ", combined_ref_text, " ",
-                                                                            text_after_ref)
 
-                        citation_id += 1
-
-        for citation in citations.values():
-            citation["CITATION"] = citation["CITATION"].strip()
-
+        # Save results to JSON
         with open(self.output_json_file, "w", encoding="utf-8") as json_file:
             json.dump(citations, json_file, indent=2, ensure_ascii=False)
 
+        if self.create_rdf:
+            return target
 
 class TEIXMLtoRDFConverter:
 
-    def __init__(self, xml_file, sections_mapping_file=None):
+    def __init__(self, xml_file, json_file, target_dict):
         self.xml_file = xml_file
-        if sections_mapping_file:
-            with open(sections_mapping_file, 'r') as file:
-                self.aligned_sections = json.load(file)
-        else:
-            self.aligned_sections = None
+        self.json_file = json_file
+        self.target_dict = target_dict
 
     def create_unique_uri(self, base_uri, prefix):
         unique_uri = f"{base_uri}{prefix}/{uuid.uuid4()}"
@@ -526,6 +617,24 @@ class TEIXMLtoRDFConverter:
         elif title == "Conclusion":
             de.create_conclusion()
 
+    def search_be(self, cex_graphset: GraphSet, my_xmlid):
+        all_be = cex_graphset.get_be()
+        for el in all_be:
+            id = el.get_identifiers()
+            if id:
+                xmlid = id[0].get_literal_value()
+                if xmlid == my_xmlid:
+                    return el
+
+    def search_cited_br_through_be(self, cex_graphset, my_xmlid):
+        all_be = cex_graphset.get_be()
+        for el in all_be:
+            id = el.get_identifiers()
+            if id:
+                xmlid = id[0].get_literal_value()
+                if xmlid == my_xmlid:
+                    cited_br = el.get_referenced_br()
+                    return cited_br
 
     def convert_to_rdf(self):
 
@@ -536,12 +645,6 @@ class TEIXMLtoRDFConverter:
 
         cex_graphset = GraphSet(base_uri)
 
-        # dict to keep track of the instantiated bibliographic references through the xml:id attribute
-        bibliographic_references_created = dict()
-
-        # dict to keep track of the instantiated cited br through the xml:id attribute
-        cited_bibliographic_resources = dict()
-
         # Extract br metadata from the xml-tei using XPath
         main_br = root.xpath('//tei:fileDesc', namespaces=ns)
         # cited entities contained in the bibliography
@@ -551,93 +654,90 @@ class TEIXMLtoRDFConverter:
             # create a bibliographic reference for each element in the bibliography and link it to the main br
             be_uri = self.create_unique_uri(base_uri, "be")
             be = cex_graphset.add_be(be_uri)
-            bibliographic_references_created[cited.get('{http://www.w3.org/XML/1998/namespace}id')] = be
+            be_xmlid_text = cited.get('{http://www.w3.org/XML/1998/namespace}id')
+            if be_xmlid_text:
+                be_xmlid_uri = self.create_unique_uri(base_uri, "id")
+                be_xmlid = cex_graphset.add_id(be_xmlid_uri)
+                be_xmlid.create_xmlid(be_xmlid_text)
+                be.has_identifier(be_xmlid)
+
             cited_br_obj = self.create_cited_entity(cited, cex_graphset, base_uri)
-            cited_bibliographic_resources[cited.get('{http://www.w3.org/XML/1998/namespace}id')] = cited_br_obj
             be.references_br(cited_br_obj)
             main_br_obj.contains_in_reference_list(be)
 
+        #load the json to create citations
+        with open(self.json_file, 'r', encoding='utf-8') as file:
+            json_data = json.load(file)
 
-        last_head = None
+            sections_created = dict()
 
-        head_elements = root.findall(".//tei:div/tei:head", namespaces=ns)
-        has_n_attribute = any("n" in head.attrib for head in head_elements)
-        roman_numbers_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*(?:\.[A-Z0-9]+\.*)*\s+'
-        has_roman_numeration = any(re.search(roman_numbers_pattern, head.text.strip() if head.text else "") for head
-                                   in head_elements)
-        head_n_attribute = sum("n" in head.attrib for head in head_elements)
-        head_no_n_attribute = sum("n" not in head.attrib for head in head_elements)
+            #each el contains 3/4 keys: section, citation, reference, aligned section
+            for citation_key in json_data:
 
-        for div in root.findall(".//tei:div", namespaces=ns):
-            head = div.find("./tei:head", namespaces=ns)
+                el = json_data[citation_key]
 
-            if head is not None:
-                head_text = head.text.strip() if head.text else ""
-                if head_n_attribute > head_no_n_attribute:
-                    if has_n_attribute:
-                        if 'n' in head.attrib:
-                            n = head.get("n")
-                            n_parts = n.split(".")
-                            if '' in n_parts:
-                                n_parts.remove('')
-                            if len(n_parts) == 1:
-                                if re.search(r'\b\d+(\.\d+)+\b', head_text):
-                                    split_string = re.split(r'\b\d+(\.\d+)+\b', head_text)
-                                    split_string = [substring.strip() for substring in split_string]
-                                    last_head = split_string[0].strip()
-                                else:
-                                    last_head = head_text
-                elif has_roman_numeration:
-                    if re.search(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+', head_text):
-                        pattern = re.compile(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+')
-                        match = pattern.search(head_text)
-                        if match:
-                            match = match.group().strip()
-                            last_head = head_text.replace(match, "")
-                else:
-                    last_head = head_text
+                # section title
+                if el.get('SECTION'):
+                    head_title = el['SECTION']
 
-                refs = div.findall(".//tei:p/tei:ref[@type='bibr']", namespaces=ns)
+                    #create section if not already created
+                    if head_title not in sections_created:
 
-                if refs:
-                    de_uri = self.create_unique_uri(base_uri, "de")
-                    de = cex_graphset.add_de(de_uri)
-                    de.create_section()
-                    #rhetoric types
-                    if self.aligned_sections and last_head in self.aligned_sections:
-                        rhetoric_types= self.aligned_sections[last_head]
-                        if type(rhetoric_types) is list:
-                            for ret_el in rhetoric_types:
-                                self.assign_rhetoric_type(de, ret_el)
+                        de_uri = self.create_unique_uri(base_uri, "de")
+                        de = cex_graphset.add_de(de_uri)
+                        de.create_section()
+                        de.has_title(head_title)
+
+                        #rhetoric types
+                        if el.get('ALIGNED SECTION'):
+                            head = el['ALIGNED SECTION']
+                            if type(head) is list:
+                                for ret_el in head:
+                                    self.assign_rhetoric_type(de, ret_el)
+                            else:
+                                self.assign_rhetoric_type(de, head)
                         else:
-                            self.assign_rhetoric_type(de, last_head)
-                    if not self.aligned_sections:
-                        if lower(last_head) in ["introduction", "related work", "methods", "materials", "results", "discussion", "conclusion"]:
-                            self.assign_rhetoric_type(de, last_head)
-                    de.has_title(last_head)
-                    main_br_obj.contains_discourse_element(de)
-                    for ref in refs:
-                        reference_pointer_uri = self.create_unique_uri(base_uri, "rp")
-                        reference_pointer = cex_graphset.add_rp(reference_pointer_uri)
-                        reference_pointer.has_content(ref.text)
-                        de.is_context_of_rp(reference_pointer)
-                        ref_target = ref.attrib.get('target')
-                        if ref_target:
-                            ref_target = ref_target.replace("#", "")
-                            if ref_target in bibliographic_references_created:
-                                be_obtained = bibliographic_references_created[ref_target]
-                                reference_pointer.denotes_be(be_obtained)
-                            #citation
-                            ci_uri = self.create_unique_uri(base_uri, prefix="ci")
-                            citation = cex_graphset.add_ci(ci_uri)
-                            citation.has_citing_entity(main_br_obj)
-                            citation.has_cited_entity(cited_bibliographic_resources[ref_target])
-                            #link the cited entity to the main br
-                            if cited_bibliographic_resources[ref_target] not in main_br_obj.get_citations():
-                                main_br_obj.has_citation(cited_bibliographic_resources[ref_target])
-                            cit_pub_date = main_br_obj.get_pub_date()
-                            if cit_pub_date:
-                                citation.has_citation_creation_date(cit_pub_date)
+                            if el.get('SECTION'):
+                                head = el['SECTION']
+                                if head.lower() in ["introduction", "related work", "methods", "materials", "results",
+                                                        "discussion", "conclusion"]:
+                                    self.assign_rhetoric_type(de, head)
+
+                        sections_created[head_title] = de
+                        main_br_obj.contains_discourse_element(de)
+
+                if el.get('REFERENCE'):
+                    reference_pointer_uri = self.create_unique_uri(base_uri, "rp")
+                    reference_pointer = cex_graphset.add_rp(reference_pointer_uri)
+                    reference_pointer.has_content(el['REFERENCE'][0])
+                    if el.get('SECTION'):
+                        current_de = sections_created[el['SECTION']]
+                        current_de.is_context_of_rp(reference_pointer)
+                    ref_target = self.target_dict.get(citation_key)
+                    if ref_target:
+                        be_obtained = self.search_be(cex_graphset, ref_target)
+                        if be_obtained:
+                            reference_pointer.denotes_be(be_obtained)
+
+                ci_uri = self.create_unique_uri(base_uri, prefix="ci")
+                citation = cex_graphset.add_ci(ci_uri)
+                citation_key_uri = self.create_unique_uri(base_uri, "id")
+                citation_key_id = cex_graphset.add_id(citation_key_uri)
+                citation_key_id.create_xpath(citation_key)
+                citation.has_identifier(citation_key_id)
+                citation.has_citing_entity(main_br_obj)
+                if ref_target:
+                    cited_entity = self.search_cited_br_through_be(cex_graphset, ref_target)
+                    if cited_entity:
+                        citation.has_cited_entity(cited_entity)
+                        #link the cited entity to the main br
+                        if cited_entity not in main_br_obj.get_citations():
+                            #has_citation: Setter method corresponding to the ``cito:cites`` RDF predicate.
+                            main_br_obj.has_citation(cited_entity)
+                cit_pub_date = main_br_obj.get_pub_date()
+                if cit_pub_date:
+                    citation.has_citation_creation_date(cit_pub_date)
+
         return cex_graphset
 
 
@@ -699,12 +799,10 @@ class PDFProcessor:
             try:
                 # citations' context + section heading
                 current_stage = "Generating JSON file"
-                self.create_json(input_pdf_path, output_tei_path)
+                target_dict = self.create_json(input_pdf_path, output_tei_path, create_rdf)
                 # aligning headings
                 if align_headings:
                     current_stage = "Aligning headings"
-                    mapping_output = (self.output_intermediate_dir + os.path.sep +
-                                      os.path.basename(input_pdf_path[0]).split(".pdf")[0] + "_section_mapping" + ".json")
                     json_files = [el for el in os.listdir(self.output_intermediate_dir) if
                                   el.endswith(".json") and el.startswith(str(pdf_filename).replace(".pdf", ""))]
                     if json_files:
@@ -712,7 +810,7 @@ class PDFProcessor:
                         try:
                             run(json_file_path,
                                 ["Introduction", "Related Work", "Methods", "Materials", "Results", "Discussion", "Conclusion"],
-                                json_file_path, mapping_output, str(PREDEFINED_MAPPINGS_PATH))
+                                json_file_path, str(PREDEFINED_MAPPINGS_PATH))
                         except Exception as e:
                             current_datetime = datetime.now()
                             timestamp = current_datetime.timestamp()
@@ -731,15 +829,7 @@ class PDFProcessor:
                 try:
                     # rdf creation
                     current_stage = "Generating RDF file"
-                    if align_headings:
-                        mapping_output = (self.output_intermediate_dir + os.path.sep +
-                                          os.path.basename(input_pdf_path[0]).split(".pdf")[
-                                              0] + "_section_mapping" + ".json")
-                        self.create_rdf(input_pdf_path, output_tei_path, align_headings, mapping_output)
-                        os.remove(mapping_output)
-                    else:
-                        self.create_rdf(input_pdf_path, output_tei_path, align_headings, None)
-
+                    self.create_rdf(input_pdf_path, output_tei_path, target_dict)
 
                 except Exception as e:
                     current_datetime = datetime.now()
@@ -805,25 +895,27 @@ class PDFProcessor:
         xml_file_path = os.path.join(output_tei_path, basename)
         return input_pdf_path, xml_file_path
 
-    def create_json(self, input_pdf_path, xml_file_path):
+    def create_json(self, input_pdf_path, xml_file_path, create_rdf):
         output_json_name = self.output_intermediate_dir + os.path.sep + os.path.basename(input_pdf_path[0]).split(".pdf")[0] + ".json"
 
         tei_to_json_converter = TEIXMLtoJSONConverter(xml_file=xml_file_path, output_json_file=output_json_name,
-                                                      auxiliar_file=self.auxiliar_file)
+                                                      auxiliar_file=self.auxiliar_file, create_rdf=create_rdf)
 
-        tei_to_json_converter.convert_to_json()
+        target = tei_to_json_converter.convert_to_json()
+        if target:
+            return target
 
-    def create_rdf(self, input_pdf_path, xml_file_path, align_headings, mapping_output):
+    def create_rdf(self, input_pdf_path, xml_file_path, target_dict):
         output_jsonld_name = self.output_intermediate_dir + os.path.sep + os.path.basename(input_pdf_path[0]).split(".pdf")[
             0] + ".jsonld"
-        if align_headings:
-            tei_to_rdf_converter = TEIXMLtoRDFConverter(xml_file=xml_file_path,
-                                                        sections_mapping_file=mapping_output)
-        else:
-            tei_to_rdf_converter = TEIXMLtoRDFConverter(xml_file=xml_file_path)
+        output_json_name = self.output_intermediate_dir + os.path.sep + \
+                           os.path.basename(input_pdf_path[0]).split(".pdf")[0] + ".json"
+
+        tei_to_rdf_converter = TEIXMLtoRDFConverter(xml_file=xml_file_path, json_file=output_json_name, target_dict=target_dict)
 
         cex_graphset = tei_to_rdf_converter.convert_to_rdf()
-        storer = Storer(cex_graphset)
+
+        storer = Storer(cex_graphset, output_format="json-ld")
         storer.store_graphs_in_file(output_jsonld_name)
 
 

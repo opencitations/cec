@@ -1,0 +1,125 @@
+{
+    "cit1": {
+        "SECTION": "Introduction",
+        "CITATION": "As evidenced by the history of MMFs in the U.S., the growth of MMFs primarily relies on interest rate liberalization (Hassanali et al., 1996), and the development of MMFs also promotes interest rate liberalization.",
+        "REFERENCE": "(Hassanali et al., 1996)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "Introduction",
+        "CITATION": "As the first step of interest rate liberalization, the U.S. Depository Institutions Deregulation Committee was established under the Monetary Control Act of 1980, with a main duty to phase out Regulation Q (Alton, 1986).",
+        "REFERENCE": "(Alton, 1986)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "Introduction",
+        "CITATION": "From a perspective of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields (Baily and Hanson, 2002), MMFs have advantages over the traditional bank demand deposits.",
+        "REFERENCE": "(Cook and Duffield, 1979)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "Introduction",
+        "CITATION": "From a perspective of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields (Baily and Hanson, 2002), MMFs have advantages over the traditional bank demand deposits.",
+        "REFERENCE": "(Kacperczyk and Schnabl, 2013)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Introduction",
+        "CITATION": "From a perspective of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields (Baily and Hanson, 2002), MMFs have advantages over the traditional bank demand deposits.",
+        "REFERENCE": "(Baily and Hanson, 2002)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Introduction",
+        "CITATION": "With wire transfer payments as a competitive payment system, MMFs have developed rapidly since the 1980s (White, 1982; Maggs, 1991), with a compound annual growth rate of about 33% from 1974 to 1982.",
+        "REFERENCE": "(White, 1982;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Introduction",
+        "CITATION": "With wire transfer payments as a competitive payment system, MMFs have developed rapidly since the 1980s (White, 1982; Maggs, 1991), with a compound annual growth rate of about 33% from 1974 to 1982.",
+        "REFERENCE": "Maggs, 1991)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Introduction",
+        "CITATION": "In fact, MMFs have been widely considered an alternative to demand deposits (Gup, 1998; Pilloff, 1999).",
+        "REFERENCE": "(Gup, 1998;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "Introduction",
+        "CITATION": "In fact, MMFs have been widely considered an alternative to demand deposits (Gup, 1998; Pilloff, 1999).",
+        "REFERENCE": "Pilloff, 1999)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "Introduction",
+        "CITATION": "As a result, the Federal Reserve Board began to remove the interest rate cap and allow banks to offer more competitive interest rates on their deposits (Gibson and Pierce, 1974), thus ultimately literalizing the interest rate (He et al., 2015).",
+        "REFERENCE": "(Gibson and Pierce, 1974)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "Introduction",
+        "CITATION": "As a result, the Federal Reserve Board began to remove the interest rate cap and allow banks to offer more competitive interest rates on their deposits (Gibson and Pierce, 1974), thus ultimately literalizing the interest rate (He et al., 2015).",
+        "REFERENCE": "(He et al., 2015)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "Research questions and empirical test design",
+        "CITATION": "They have advantages over traditional bank demand deposits in terms of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields of return (Baily and Hanson, 2002).",
+        "REFERENCE": "(Cook and Duffield, 1979)"
+    },
+    "cit13": {
+        "SECTION": "Research questions and empirical test design",
+        "CITATION": "They have advantages over traditional bank demand deposits in terms of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields of return (Baily and Hanson, 2002).",
+        "REFERENCE": "(Kacperczyk and Schnabl, 2013)"
+    },
+    "cit14": {
+        "SECTION": "Research questions and empirical test design",
+        "CITATION": "They have advantages over traditional bank demand deposits in terms of risk diversification (Cook and Duffield, 1979), liquidity (Kacperczyk and Schnabl, 2013), and yields of return (Baily and Hanson, 2002).",
+        "REFERENCE": "(Baily and Hanson, 2002)"
+    },
+    "cit15": {
+        "SECTION": "Research questions and empirical test design",
+        "CITATION": "It is generally believed that, with investors' growing awareness of wealth management and their increased demands for higher market-oriented yields, MMFs have become a possible replacement for traditional demand deposits and that they will attract more demand deposits out of the traditional banking system (Hassanali et al., 1996).",
+        "REFERENCE": "(Hassanali et al., 1996)"
+    },
+    "cit16": {
+        "SECTION": "Empirical results",
+        "CITATION": "This result is consistent with Zou (2010), suggesting that demand deposits do not grow synchronously when banks grow their size.",
+        "REFERENCE": "Zou (2010)"
+    },
+    "cit17": {
+        "SECTION": "Empirical results",
+        "CITATION": "According to Wooldridge (2015), in a simple model when an explanatory variable that is determined simultaneously with the dependent variable, it is generally correlated with the error term, which leads to biased and inconsistent estimation in OLS.",
+        "REFERENCE": "Wooldridge (2015)"
+    },
+    "cit18": {
+        "SECTION": "Empirical results",
+        "CITATION": "For example, the MMFs size almost tripled to $1.1 trillion by the end of 2017 from $368.9 billion in April 2015 (Bloomberg, 2018).",
+        "REFERENCE": "(Bloomberg, 2018)"
+    }
+}

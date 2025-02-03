@@ -2,9 +2,7 @@
 import json
 import re
 import spacy
-import zipfile
-from scipy.optimize import linear_sum_assignment
-import numpy as np
+
 from collections import defaultdict, deque
 from extractor.cex.settings import *
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -46,7 +44,8 @@ def align_sections(json_data, reference_titles, predefined_mappings):
     # First, iterate through json_data to collect all unique section titles
     for section in json_data:
         section_title = json_data[section].get('SECTION', '')
-        section_titles.add(section_title)
+        if section_title:
+            section_titles.add(section_title)
 
     section_titles = list(section_titles)
 
@@ -113,9 +112,9 @@ def build_mapping_file(aligned_titles, output_path):
 
 
 # Main function to run the alignment process
-def run(input_zip_or_json, headings_list, json_output, mapping_output, predefined_mappings_file=PREDEFINED_MAPPINGS_PATH):
+def run(input_zip_or_json, headings_list, json_output, predefined_mappings_file=PREDEFINED_MAPPINGS_PATH):
     json_data = load_json(input_zip_or_json)
     predefined_mappings = load_json(predefined_mappings_file)
     aligned_titles = align_sections(json_data, headings_list, predefined_mappings)
-    build_mapping_file(aligned_titles, mapping_output)
+    #build_mapping_file(aligned_titles, mapping_output)
     build_output_file(aligned_titles, json_data, json_output)

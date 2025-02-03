@@ -1,0 +1,496 @@
+{
+    "cit1": {
+        "SECTION": "Introduction",
+        "CITATION": "Many industrial and scientific applications greatly benefit from ultrafast laser sources with megahertz repetition rate and multi-100-W average output power [1, 2].",
+        "REFERENCE": "[1,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "Introduction",
+        "CITATION": "Many industrial and scientific applications greatly benefit from ultrafast laser sources with megahertz repetition rate and multi-100-W average output power [1, 2].",
+        "REFERENCE": "2]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "Introduction",
+        "CITATION": "The current state of the art in terms of average power is achieved with diode-pumped laser amplifier systems based on fiber [3], slab [4], and thin-disk [5, 6] technologies, each of which leverages a high surface-to-volume ratio for efficient heat removal.",
+        "REFERENCE": "[3]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "Introduction",
+        "CITATION": "The current state of the art in terms of average power is achieved with diode-pumped laser amplifier systems based on fiber [3], slab [4], and thin-disk [5, 6] technologies, each of which leverages a high surface-to-volume ratio for efficient heat removal.",
+        "REFERENCE": "[4]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Introduction",
+        "CITATION": "The current state of the art in terms of average power is achieved with diode-pumped laser amplifier systems based on fiber [3], slab [4], and thin-disk [5, 6] technologies, each of which leverages a high surface-to-volume ratio for efficient heat removal.",
+        "REFERENCE": "[5,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Introduction",
+        "CITATION": "The current state of the art in terms of average power is achieved with diode-pumped laser amplifier systems based on fiber [3], slab [4], and thin-disk [5, 6] technologies, each of which leverages a high surface-to-volume ratio for efficient heat removal.",
+        "REFERENCE": "6]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Introduction",
+        "CITATION": "By coherently combining multiple fiber amplifiers, up to 3.5 kW of average power have been demonstrated [3].",
+        "REFERENCE": "[3]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Introduction",
+        "CITATION": "In this paper, we focus on the thin-disk laser (TDL) technology [7].",
+        "REFERENCE": "[7]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "Introduction",
+        "CITATION": "Amplifier systems based on the TDL technology achieved up to 2-kW average output power with 6.7-mJ pulses in a multi-pass configuration [5, 6] and 1-kW average output power with 200-mJ 1.1-ps pulses in a regenerative amplifier configuration [8].",
+        "REFERENCE": "[5,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "Introduction",
+        "CITATION": "Amplifier systems based on the TDL technology achieved up to 2-kW average output power with 6.7-mJ pulses in a multi-pass configuration [5, 6] and 1-kW average output power with 200-mJ 1.1-ps pulses in a regenerative amplifier configuration [8].",
+        "REFERENCE": "6]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "Introduction",
+        "CITATION": "Amplifier systems based on the TDL technology achieved up to 2-kW average output power with 6.7-mJ pulses in a multi-pass configuration [5, 6] and 1-kW average output power with 200-mJ 1.1-ps pulses in a regenerative amplifier configuration [8].",
+        "REFERENCE": "[8]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "Introduction",
+        "CITATION": "Additionally, the timing jitter and limited repetition rate of regenerative amplifiers is avoided, as well as amplified spontaneous emission added by amplifier chains [9].",
+        "REFERENCE": "[9]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit13": {
+        "SECTION": "Introduction",
+        "CITATION": "Moreover, TDLs offer by far the highest average power and pulse energy of any ultrafast oscillator technology [10].",
+        "REFERENCE": "[10]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit14": {
+        "SECTION": "Introduction",
+        "CITATION": "They deliver a low-noise output [11], megahertz repetition rates, and diffraction-limited beam quality from a single-box, diodepumped laser source.",
+        "REFERENCE": "[11]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit15": {
+        "SECTION": "Introduction",
+        "CITATION": "These features enabled applications such as high-harmonic generation to the extreme ultraviolet [11] and optical rectification to the THz [12] directly from a laser oscillator.",
+        "REFERENCE": "[11]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit16": {
+        "SECTION": "Introduction",
+        "CITATION": "These features enabled applications such as high-harmonic generation to the extreme ultraviolet [11] and optical rectification to the THz [12] directly from a laser oscillator.",
+        "REFERENCE": "[12]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit17": {
+        "SECTION": "Introduction",
+        "CITATION": "Additionally, the high intracavity power in TDL oscillators can be leveraged to drive intracavity nonlinear-optics experiments [13].",
+        "REFERENCE": "[13]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit18": {
+        "SECTION": "Introduction",
+        "CITATION": "Finally, the recent demonstrations of multi-pass cell compression at 375-W average output power to 170 fs [14] and at 60 W to 16 fs pulses [15], show the possibility to compress the high-power output of these oscillators in order to get the optimal peak power for many nonlinear optics applications.",
+        "REFERENCE": "[14]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit19": {
+        "SECTION": "Introduction",
+        "CITATION": "Finally, the recent demonstrations of multi-pass cell compression at 375-W average output power to 170 fs [14] and at 60 W to 16 fs pulses [15], show the possibility to compress the high-power output of these oscillators in order to get the optimal peak power for many nonlinear optics applications.",
+        "REFERENCE": "[15]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit20": {
+        "SECTION": "Introduction",
+        "CITATION": "It delivered 16-W average output power [16].",
+        "REFERENCE": "[16]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit21": {
+        "SECTION": "Introduction",
+        "CITATION": "This result was later scaled to 80-W average output power due to improvements in the disk's quality and mitigation of the thermal effects [17].",
+        "REFERENCE": "[17]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit22": {
+        "SECTION": "Introduction",
+        "CITATION": "In fact, once few-µJ pulse energies and sub-ps pulse durations were achieved, the peak power became sufficient to induce strong self-phase modulation (SPM) from the nonlinear refractive index of the intracavity air [18].",
+        "REFERENCE": "[18]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit23": {
+        "SECTION": "Introduction",
+        "CITATION": "The large negative GDD could be obtained through dispersive mirrors, which however have worse thermal behavior compared to standard dielectric mirrors and cause thermo-optic distortions at high intracavity powers [10].",
+        "REFERENCE": "[10]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit24": {
+        "SECTION": "Introduction",
+        "CITATION": "This approach led to the demonstration of a TDL oscillator with 11 reflections on the disk, delivering 145-W average output power with 41-µJ pulses [19].",
+        "REFERENCE": "[19]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit25": {
+        "SECTION": "Introduction",
+        "CITATION": "Another approach consists in operating the laser in a low-pressure environment (few mbar of air) or in a Helium atmosphere in order to decrease the amount of SPM accumulated in the intracavity atmosphere and thereby reduce the required GDD by an order of magnitude or more [18].",
+        "REFERENCE": "[18]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit26": {
+        "SECTION": "Introduction",
+        "CITATION": "This is the approach which led to the previous record: a 275-W average power SESAM-modelocked TDL oscillator with 17-µJ pulses demonstrated in 2012 [20].",
+        "REFERENCE": "[20]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit27": {
+        "SECTION": "Introduction",
+        "CITATION": "Additionally, this approach led to the demonstration of the thin-disk oscillator delivering the highest pulse energy to date, that is 80 µJ at 242-W average output power [21].",
+        "REFERENCE": "[21]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit28": {
+        "SECTION": "Introduction",
+        "CITATION": "In its first demonstration in 2011, 45-W average output power was achieved [22], and shortly thereafter, a KLM TDL matched the performance of SESAM-modelocked TDLs with 270-W average output power at 14-µJ pulse energy [23].",
+        "REFERENCE": "[22]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit29": {
+        "SECTION": "Introduction",
+        "CITATION": "In its first demonstration in 2011, 45-W average output power was achieved [22], and shortly thereafter, a KLM TDL matched the performance of SESAM-modelocked TDLs with 270-W average output power at 14-µJ pulse energy [23].",
+        "REFERENCE": "[23]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit30": {
+        "SECTION": "Introduction",
+        "CITATION": "Both results have been achieved in an air environment and delivered shorter pulses at higher repetition rate compared to the presented high-power SESAM-modelocked Yb:YAG thin-disk oscillators [19] [20] [21].",
+        "REFERENCE": "[19]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit31": {
+        "SECTION": "Introduction",
+        "CITATION": "Both results have been achieved in an air environment and delivered shorter pulses at higher repetition rate compared to the presented high-power SESAM-modelocked Yb:YAG thin-disk oscillators [19] [20] [21].",
+        "REFERENCE": "[20]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit32": {
+        "SECTION": "Introduction",
+        "CITATION": "Both results have been achieved in an air environment and delivered shorter pulses at higher repetition rate compared to the presented high-power SESAM-modelocked Yb:YAG thin-disk oscillators [19] [20] [21].",
+        "REFERENCE": "[21]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit33": {
+        "SECTION": "Introduction",
+        "CITATION": "Recently, a KLM Yb:YAG thin-disk oscillator designed with an active multi-pass configuration and delivering 140-W average power at 13-µJ pulse energy has been demonstrated [24].",
+        "REFERENCE": "[24]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit34": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[16]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit35": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[17]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit36": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[18]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit37": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[19]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit38": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[20]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit39": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[21]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit40": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[22]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit41": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[23]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit42": {
+        "SECTION": "Introduction",
+        "CITATION": "In the discussed ultrafast TDL oscillators [16] [17] [18] [19] [20] [21] [22] [23] [24], the pump spot was at most 4.7-mm in diameter, which limits the pump power to ≈1 kW when keeping within a safe intensity regime.",
+        "REFERENCE": "[24]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit43": {
+        "SECTION": "Introduction",
+        "CITATION": "However, scaling the beam size on the disk and on other optical components comes at the cost of an increased sensitivity to the thermal lensing of those components [25].",
+        "REFERENCE": "[25]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit44": {
+        "SECTION": "Cavity design",
+        "CITATION": "This approach has been extremely successful, in fact cw thin-disk oscillators delivering up to 10 kW in multi-mode operation have been demonstrated [26].",
+        "REFERENCE": "[26]"
+    },
+    "cit45": {
+        "SECTION": "Cavity design",
+        "CITATION": "Modelocked operation imposes additional requirements: the cavity needs to be operated in fundamental transverse mode, must incorporate a saturable-loss device, and nonlinearity needs to be managed [10, 27].",
+        "REFERENCE": "[10,"
+    },
+    "cit46": {
+        "SECTION": "Cavity design",
+        "CITATION": "Modelocked operation imposes additional requirements: the cavity needs to be operated in fundamental transverse mode, must incorporate a saturable-loss device, and nonlinearity needs to be managed [10, 27].",
+        "REFERENCE": "27]"
+    },
+    "cit47": {
+        "SECTION": "Cavity design",
+        "CITATION": "The width of the stability zone [Fig. 3(b) ] with respect to disk's thermal lensing scales inversely with the square of the laser-spot size on the disk, for a fixed number of intracavity passes over the gain medium [25].",
+        "REFERENCE": "[25]"
+    },
+    "cit48": {
+        "SECTION": "Cavity design",
+        "CITATION": "To obtain sub-ps pulses in SESAM-modelocked lasers despite the presence of a slow saturable loss, we rely on soliton pulse shaping effects [28].",
+        "REFERENCE": "[28]"
+    },
+    "cit49": {
+        "SECTION": "Cavity design",
+        "CITATION": "The dispersive mirrors, because of their resonant structure, have worse thermal behavior compared to high-reflective dielectric mirrors based on distributed Bragg reflection (DBR) structures [10].",
+        "REFERENCE": "[10]"
+    },
+    "cit50": {
+        "SECTION": "Cavity design",
+        "CITATION": "The SESAM also has some thermal lensing determined by its small non-saturable losses, which are typically of order 0.1% in state-of-the-art SESAMs [29].",
+        "REFERENCE": "[29]"
+    },
+    "cit51": {
+        "SECTION": "Cavity design",
+        "CITATION": "In order to mitigate these thermal effects, a compelling approach is to reduce the intracavity power by designing an imaging scheme in the laser cavity encompassing multiple reflections on the disk gain medium and, hence, allowing a larger output coupling rate [19, 24, 27].",
+        "REFERENCE": "[19,"
+    },
+    "cit52": {
+        "SECTION": "Cavity design",
+        "CITATION": "In order to mitigate these thermal effects, a compelling approach is to reduce the intracavity power by designing an imaging scheme in the laser cavity encompassing multiple reflections on the disk gain medium and, hence, allowing a larger output coupling rate [19, 24, 27].",
+        "REFERENCE": "24,"
+    },
+    "cit53": {
+        "SECTION": "Cavity design",
+        "CITATION": "In order to mitigate these thermal effects, a compelling approach is to reduce the intracavity power by designing an imaging scheme in the laser cavity encompassing multiple reflections on the disk gain medium and, hence, allowing a larger output coupling rate [19, 24, 27].",
+        "REFERENCE": "27]"
+    },
+    "cit54": {
+        "SECTION": "Cavity design",
+        "CITATION": "Hence this approach was avoided for the previous power-scaling result [20].",
+        "REFERENCE": "[20]"
+    },
+    "cit55": {
+        "SECTION": "Cavity design",
+        "CITATION": "We recently developed a better understanding of the sources of thermal lensing in thin-disk lasers, and, particularly, discovered that a substantial contribution to the disk's thermal lensing originates in the heated air in front of the disk [30].",
+        "REFERENCE": "[30]"
+    },
+    "cit56": {
+        "SECTION": "Cavity design",
+        "CITATION": "A larger output coupling rate (for example of 40% as in [27]) would have been possible, however we found that larger output coupling rates resulted in a reduced optical-to-optical efficiency and hence additional thermal load on the disk.",
+        "REFERENCE": "[27]"
+    },
+    "cit57": {
+        "SECTION": "Cavity design",
+        "CITATION": "Hence, by measuring T during laser operation and taking into account the difference in focusing power between air and low-pressure operation, we can infer ∆F disk, as described in [30].",
+        "REFERENCE": "[30]"
+    },
+    "cit58": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "Lastly, we replaced the end mirror with a SESAM designed for high-power operation [31].",
+        "REFERENCE": "[31]"
+    },
+    "cit59": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "It has a saturation fluence of 120 µJ/cm 2, a modulation depth of 1.1%, non-saturable losses of ≈ 0.1%, and a two-photon absorption (TPA) coefficient F 2 = 650 mJ/cm 2 for 130-fs pulses [32].",
+        "REFERENCE": "[32]"
+    },
+    "cit60": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "Additionally, we estimate a contribution of ≈ 0.3 mrad/MW of SPM from the coatings of the dispersive mirrors based on the measured pulse duration and assuming soliton pulse formation [27, 33].",
+        "REFERENCE": "[27,"
+    },
+    "cit61": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "Additionally, we estimate a contribution of ≈ 0.3 mrad/MW of SPM from the coatings of the dispersive mirrors based on the measured pulse duration and assuming soliton pulse formation [27, 33].",
+        "REFERENCE": "33]"
+    },
+    "cit62": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "The modelocking dynamics of femtosecond solid-state lasers with a slow saturable absorber is often approximated by soliton pulse shaping [28].",
+        "REFERENCE": "[28]"
+    },
+    "cit63": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "Furthermore, we calculated the nonlinear reflectivity curve of the employed SESAM, taking into account soliton pulse shaping [34]",
+        "REFERENCE": "[34]"
+    },
+    "cit64": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "The spatially-averaged incident fluence on the SESAM is calculated according to F SESAM = E p /(π T OC w 2 SESAM) [32].",
+        "REFERENCE": "[32]"
+    },
+    "cit65": {
+        "SECTION": "Laser performance in continuous wave and modelocked operation",
+        "CITATION": "Operation slightly further into the rollover is possible but at the expenses of additional losses and hence thermal load on the SESAM [34].",
+        "REFERENCE": "[34]"
+    },
+    "cit66": {
+        "SECTION": "Conclusion and outlook",
+        "CITATION": "Thin-disk oscillators based on the Yb:YAG gain material and operating with even larger output-coupling rates have already been demonstrated [19, 24, 27].",
+        "REFERENCE": "[19,",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit67": {
+        "SECTION": "Conclusion and outlook",
+        "CITATION": "Thin-disk oscillators based on the Yb:YAG gain material and operating with even larger output-coupling rates have already been demonstrated [19, 24, 27].",
+        "REFERENCE": "24,",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit68": {
+        "SECTION": "Conclusion and outlook",
+        "CITATION": "Thin-disk oscillators based on the Yb:YAG gain material and operating with even larger output-coupling rates have already been demonstrated [19, 24, 27].",
+        "REFERENCE": "27]",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit69": {
+        "SECTION": "Conclusion and outlook",
+        "CITATION": "A further step in power scaling toward the kW level could be done by actively compensating the thermal lensing of the intracavity components via a deformable mirror, which has already been demonstrated in cw at kW-level output power [35] and the development of large-area SESAMs with improved thermal characteristics [29].",
+        "REFERENCE": "[35]",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit70": {
+        "SECTION": "Conclusion and outlook",
+        "CITATION": "A further step in power scaling toward the kW level could be done by actively compensating the thermal lensing of the intracavity components via a deformable mirror, which has already been demonstrated in cw at kW-level output power [35] and the development of large-area SESAMs with improved thermal characteristics [29].",
+        "REFERENCE": "[29]",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    }
+}

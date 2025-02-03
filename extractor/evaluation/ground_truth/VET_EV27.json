@@ -1,0 +1,976 @@
+{
+    "cit1": {
+        "SECTION": "Introduction",
+        "CITATION": "Today, most of the world donkey breeds either lack a population census or are endangered or critically endangered [1].",
+        "REFERENCE": "[1]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "Introduction",
+        "CITATION": "Cryopreservation of equine spermatozoa has created a new dimension for the equine breeding industry by making the possibility of the preservation of this biological material for an indefinite period and its worldwide distribution [2].",
+        "REFERENCE": "[2]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "Introduction",
+        "CITATION": "Advantages associated with the use of frozen-thawed jack semen are diverse including, elimination of intimidation of mares by the sexual behavior of jacks during natural service and mating, overcoming the physical limitations of a small jack servicing large breed mares, and easier movement or transport of valuable genetic resources as semen instead of live animals [3].",
+        "REFERENCE": "[3]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "Introduction",
+        "CITATION": "On the another hand, the process of cryopreservation of semen provokes cold shock reaction, a phenomenon known to induce negative impacts on lipid composition of spermatozoal membranes, deleterious effects on motility, membrane integrity, cell function, and also interfering with the fusion of male and female gametes, which ultimately results in declining the fertilizing capability of the spermatozoa [4] [5] [6] [7] [8].",
+        "REFERENCE": "[4]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Introduction",
+        "CITATION": "On the another hand, the process of cryopreservation of semen provokes cold shock reaction, a phenomenon known to induce negative impacts on lipid composition of spermatozoal membranes, deleterious effects on motility, membrane integrity, cell function, and also interfering with the fusion of male and female gametes, which ultimately results in declining the fertilizing capability of the spermatozoa [4] [5] [6] [7] [8].",
+        "REFERENCE": "[5]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Introduction",
+        "CITATION": "On the another hand, the process of cryopreservation of semen provokes cold shock reaction, a phenomenon known to induce negative impacts on lipid composition of spermatozoal membranes, deleterious effects on motility, membrane integrity, cell function, and also interfering with the fusion of male and female gametes, which ultimately results in declining the fertilizing capability of the spermatozoa [4] [5] [6] [7] [8].",
+        "REFERENCE": "[6]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Introduction",
+        "CITATION": "On the another hand, the process of cryopreservation of semen provokes cold shock reaction, a phenomenon known to induce negative impacts on lipid composition of spermatozoal membranes, deleterious effects on motility, membrane integrity, cell function, and also interfering with the fusion of male and female gametes, which ultimately results in declining the fertilizing capability of the spermatozoa [4] [5] [6] [7] [8].",
+        "REFERENCE": "[7]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Introduction",
+        "CITATION": "On the another hand, the process of cryopreservation of semen provokes cold shock reaction, a phenomenon known to induce negative impacts on lipid composition of spermatozoal membranes, deleterious effects on motility, membrane integrity, cell function, and also interfering with the fusion of male and female gametes, which ultimately results in declining the fertilizing capability of the spermatozoa [4] [5] [6] [7] [8].",
+        "REFERENCE": "[8]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "Introduction",
+        "CITATION": "Mammalian sperm cells contain a high proportion of polyunsaturated fatty acids, predisposing them susceptible to peroxidative damage [9].",
+        "REFERENCE": "[9]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "Introduction",
+        "CITATION": "Damages to spermatozoa during the cryopreservation and thawing occur mostly because of oxidative stress caused by the production of free radicals or excessive reactive oxygen species (ROS) [10, 11].",
+        "REFERENCE": "[10,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "Introduction",
+        "CITATION": "Damages to spermatozoa during the cryopreservation and thawing occur mostly because of oxidative stress caused by the production of free radicals or excessive reactive oxygen species (ROS) [10, 11].",
+        "REFERENCE": "11]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "Introduction",
+        "CITATION": "Like all the living cells, spermatozoa under the aerobic condition produce ROS because of normal metabolism of oxygen [12].",
+        "REFERENCE": "[12]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit13": {
+        "SECTION": "Introduction",
+        "CITATION": "However, the overproduction of ROS causes structural damage of sperm membranes [12, 13].",
+        "REFERENCE": "[12,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit14": {
+        "SECTION": "Introduction",
+        "CITATION": "However, the overproduction of ROS causes structural damage of sperm membranes [12, 13].",
+        "REFERENCE": "13]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit15": {
+        "SECTION": "Introduction",
+        "CITATION": "Spermatozoa and seminal plasma are inherently rich ROS scavengers and enzymatic and nonenzymatic defense mechanisms against free radicals viz., glutathione peroxidase (GPx), GSH reductase, catalase, and superoxide dismutase are among enzymatic or natural antioxidants, whereas reduced GSH, urate, ascorbic acid (AA), vitamin E, carotenoids, ubiquinones, selenium, and zinc constitute nonenzymatic or synthetic antioxidants [14] [15] [16] [17].",
+        "REFERENCE": "[14]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit16": {
+        "SECTION": "Introduction",
+        "CITATION": "Spermatozoa and seminal plasma are inherently rich ROS scavengers and enzymatic and nonenzymatic defense mechanisms against free radicals viz., glutathione peroxidase (GPx), GSH reductase, catalase, and superoxide dismutase are among enzymatic or natural antioxidants, whereas reduced GSH, urate, ascorbic acid (AA), vitamin E, carotenoids, ubiquinones, selenium, and zinc constitute nonenzymatic or synthetic antioxidants [14] [15] [16] [17].",
+        "REFERENCE": "[15]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit17": {
+        "SECTION": "Introduction",
+        "CITATION": "Spermatozoa and seminal plasma are inherently rich ROS scavengers and enzymatic and nonenzymatic defense mechanisms against free radicals viz., glutathione peroxidase (GPx), GSH reductase, catalase, and superoxide dismutase are among enzymatic or natural antioxidants, whereas reduced GSH, urate, ascorbic acid (AA), vitamin E, carotenoids, ubiquinones, selenium, and zinc constitute nonenzymatic or synthetic antioxidants [14] [15] [16] [17].",
+        "REFERENCE": "[16]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit18": {
+        "SECTION": "Introduction",
+        "CITATION": "Spermatozoa and seminal plasma are inherently rich ROS scavengers and enzymatic and nonenzymatic defense mechanisms against free radicals viz., glutathione peroxidase (GPx), GSH reductase, catalase, and superoxide dismutase are among enzymatic or natural antioxidants, whereas reduced GSH, urate, ascorbic acid (AA), vitamin E, carotenoids, ubiquinones, selenium, and zinc constitute nonenzymatic or synthetic antioxidants [14] [15] [16] [17].",
+        "REFERENCE": "[17]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit19": {
+        "SECTION": "Introduction",
+        "CITATION": "The imbalance of these antioxidant systems and ROS concentration leads to detrimental changes in sperm cells [18] [19] [20].",
+        "REFERENCE": "[18]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit20": {
+        "SECTION": "Introduction",
+        "CITATION": "The imbalance of these antioxidant systems and ROS concentration leads to detrimental changes in sperm cells [18] [19] [20].",
+        "REFERENCE": "[19]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit21": {
+        "SECTION": "Introduction",
+        "CITATION": "The imbalance of these antioxidant systems and ROS concentration leads to detrimental changes in sperm cells [18] [19] [20].",
+        "REFERENCE": "[20]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit22": {
+        "SECTION": "Introduction",
+        "CITATION": "Such events facilitate the increased cell permeability, inactivation of the enzymes, and the production of potentially deleterious by-products and end products [21].",
+        "REFERENCE": "[21]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit23": {
+        "SECTION": "Introduction",
+        "CITATION": "A way to improve sperm viability and minimize the damage to sperm function was successfully achieved in several mammalian species by the addition of antioxidants to the freezing media before cryopreservation [22, 23].",
+        "REFERENCE": "[22,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit24": {
+        "SECTION": "Introduction",
+        "CITATION": "A way to improve sperm viability and minimize the damage to sperm function was successfully achieved in several mammalian species by the addition of antioxidants to the freezing media before cryopreservation [22, 23].",
+        "REFERENCE": "23]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit25": {
+        "SECTION": "Introduction",
+        "CITATION": "Antioxidants play a key and vital role in sperm motility, integrity, metabolism, and function, protecting the cells against oxidative damage [24].",
+        "REFERENCE": "[24]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit26": {
+        "SECTION": "Introduction",
+        "CITATION": "Their effects have been widely studied in mammalian spermatozoa [25]; however, little attention has been paid to jack sperm.",
+        "REFERENCE": "[25]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit27": {
+        "SECTION": "Introduction",
+        "CITATION": "Ascorbic acid (vitamin C) is a naturally occurring free scavenger, and as such, its presence assists various other mechanisms in decreasing numerous disruptive free radical processes and protects the spermatozoa against the ROS by inhibiting the peroxidation of membrane lipids and provides higher integrity to plasma membrane and mitochondria as well as better kinematics for sperm after cryopreservation [26, 27].",
+        "REFERENCE": "[26,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit28": {
+        "SECTION": "Introduction",
+        "CITATION": "Ascorbic acid (vitamin C) is a naturally occurring free scavenger, and as such, its presence assists various other mechanisms in decreasing numerous disruptive free radical processes and protects the spermatozoa against the ROS by inhibiting the peroxidation of membrane lipids and provides higher integrity to plasma membrane and mitochondria as well as better kinematics for sperm after cryopreservation [26, 27].",
+        "REFERENCE": "27]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit29": {
+        "SECTION": "Introduction",
+        "CITATION": "Glutathione is a thiol tripeptide (ɣ-glutamyl cysteinyl glycine), which has an important role in the antioxidation process of endogenous and exogenous composts, as well as in the maintenance of intracellular redox conditions [2].",
+        "REFERENCE": "[2]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit30": {
+        "SECTION": "Introduction",
+        "CITATION": "Glutathione is a natural reservoir of redox force, which can be quickly used to defend cells against oxidative stress [28].",
+        "REFERENCE": "[28]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit31": {
+        "SECTION": "Introduction",
+        "CITATION": "It acts as a cysteine physiological reservoir and is involved in the regulation of protein synthesis, cellular detoxification, and leukotriene synthesis [2, 28].",
+        "REFERENCE": "[2,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit32": {
+        "SECTION": "Introduction",
+        "CITATION": "It acts as a cysteine physiological reservoir and is involved in the regulation of protein synthesis, cellular detoxification, and leukotriene synthesis [2, 28].",
+        "REFERENCE": "28]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit33": {
+        "SECTION": "Introduction",
+        "CITATION": "The GSH's attack against ROS is favored by the interaction with enzymes, such as GSH reductase and GPx [28].",
+        "REFERENCE": "[28]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit34": {
+        "SECTION": "Introduction",
+        "CITATION": "Despite the excellent semen quality, fertility rates of frozen donkey semen in Jennies are still low (0%-36%) [29, 30] compared with mares (33%-53%).",
+        "REFERENCE": "[29,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit35": {
+        "SECTION": "Introduction",
+        "CITATION": "Despite the excellent semen quality, fertility rates of frozen donkey semen in Jennies are still low (0%e36%) [29, 30] compared with mares (33%e53%).",
+        "REFERENCE": "30]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit36": {
+        "SECTION": "Introduction",
+        "CITATION": "In addition, AI with cryopreserved donkey semen has been restricted in donkeys because of poor fertility rates [31].",
+        "REFERENCE": "[31]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit37": {
+        "SECTION": "Introduction",
+        "CITATION": "Indeed, the use of several reproductive strategies, including deep intrauterine uterine insemination, increasing or decreasing the number of spermatozoa per insemination dose or multiple inseminations, did not increase the fertility rate of donkey jennies [32, 33].",
+        "REFERENCE": "[32,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit38": {
+        "SECTION": "Introduction",
+        "CITATION": "Indeed, the use of several reproductive strategies, including deep intrauterine uterine insemination, increasing or decreasing the number of spermatozoa per insemination dose or multiple inseminations, did not increase the fertility rate of donkey jennies [32, 33].",
+        "REFERENCE": "33]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit39": {
+        "SECTION": "Introduction",
+        "CITATION": "In recent years, studies have been conducted on donkey semen freezing extenders, including cryoprotectants such as glycerol, dimethylformamide, dimethyl sulfoxide, dimethylacetamide, and ethylene glycol, to enhance the postthaw quality of spermatozoa [29] [30] [31] [32] [33].",
+        "REFERENCE": "[29]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit40": {
+        "SECTION": "Introduction",
+        "CITATION": "In recent years, studies have been conducted on donkey semen freezing extenders, including cryoprotectants such as glycerol, dimethylformamide, dimethyl sulfoxide, dimethylacetamide, and ethylene glycol, to enhance the postthaw quality of spermatozoa [29] [30] [31] [32] [33].",
+        "REFERENCE": "[30]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit41": {
+        "SECTION": "Introduction",
+        "CITATION": "In recent years, studies have been conducted on donkey semen freezing extenders, including cryoprotectants such as glycerol, dimethylformamide, dimethyl sulfoxide, dimethylacetamide, and ethylene glycol, to enhance the postthaw quality of spermatozoa [29] [30] [31] [32] [33].",
+        "REFERENCE": "[31]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit42": {
+        "SECTION": "Introduction",
+        "CITATION": "In recent years, studies have been conducted on donkey semen freezing extenders, including cryoprotectants such as glycerol, dimethylformamide, dimethyl sulfoxide, dimethylacetamide, and ethylene glycol, to enhance the postthaw quality of spermatozoa [29] [30] [31] [32] [33].",
+        "REFERENCE": "[32]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit43": {
+        "SECTION": "Introduction",
+        "CITATION": "In recent years, studies have been conducted on donkey semen freezing extenders, including cryoprotectants such as glycerol, dimethylformamide, dimethyl sulfoxide, dimethylacetamide, and ethylene glycol, to enhance the postthaw quality of spermatozoa [29] [30] [31] [32] [33].",
+        "REFERENCE": "[33]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit44": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "Gel-free semen was mixed with the centrifugation media (0.15 g glucose, 0.37 g ethylenediaminetetraacetic acid [EDTA], 2.6 g sodium citrate, 0.12 g sodium bicarbonate, 100,000 IU penicillin, and 0.10 g streptomycin in 100 mL of distilled water) in the ratio of 1:1 and centrifuged at 600× g for 3 minutes as per the standardized procedures [34, 35].",
+        "REFERENCE": "[34,",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit45": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "Gel-free semen was mixed with the centrifugation media (0.15 g glucose, 0.37 g ethylenediaminetetraacetic acid [EDTA], 2.6 g sodium citrate, 0.12 g sodium bicarbonate, 100,000 IU penicillin, and 0.10 g streptomycin in 100 mL of distilled water) in the ratio of 1:1 and centrifuged at 600× g for 3 minutes as per the standardized procedures [34, 35].",
+        "REFERENCE": "35]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit46": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The concentrations of the antioxidants were chosen as per the previously reported studies in equids [2, [36] [37] [38] [39].",
+        "REFERENCE": "[2,",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit47": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The concentrations of the antioxidants were chosen as per the previously reported studies in equids [2, [36] [37] [38] [39].",
+        "REFERENCE": "[36]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit48": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The concentrations of the antioxidants were chosen as per the previously reported studies in equids [2, [36] [37] [38] [39].",
+        "REFERENCE": "[37]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit49": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The concentrations of the antioxidants were chosen as per the previously reported studies in equids [2, [36] [37] [38] [39].",
+        "REFERENCE": "[38]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit50": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The concentrations of the antioxidants were chosen as per the previously reported studies in equids [2, [36] [37] [38] [39].",
+        "REFERENCE": "[39]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit51": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The sperm viability was evaluated by the physical integrity of the sperm plasma membrane with eosin-nigrosin staining that was adapted for horses [40].",
+        "REFERENCE": "[40]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit52": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "The plasmatic membrane integrity was evaluated by using hypoosmotic swelling test, which is based on swelling ability of functioning sperms after being exposed to a hypoosmotic solution [41].",
+        "REFERENCE": "[41]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit53": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "Giemsa stain was used to assess the acrosome integrity of jack spermatozoa as per Watson (1975) [42].",
+        "REFERENCE": "[42]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit54": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "For detecting the DNA intactness of spermatozoa, the method described by Soni et al. (2018) [35] was adopted.",
+        "REFERENCE": "[35]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit55": {
+        "SECTION": "Materials and Methods",
+        "CITATION": "Sperm heads with intact chromatin showed green fluorescence and those with denatured (nonintact DNA) chromatin had orange-red or yellow fluorescence [43].",
+        "REFERENCE": "[43]",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit56": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Cryopreservation of spermatozoa has immense potential in preserving elite and endangering genetic materials in both humans and livestock [44].",
+        "REFERENCE": "[44]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit57": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Unfortunately, during this procedure, sperm experiences various degrees of damage, which may result in perturbations to the sperm organelles and changes in membrane fluidity and enzymatic activity that subsequently result in retardation of the sperm motility, diminishing the viability and fertilizing ability [45].",
+        "REFERENCE": "[45]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit58": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The process of cryopreservation is associated with an increase in ROS production and a decrease in the naturally existing antioxidant levels, which in turn increases the susceptibility of the frozen/thawed spermatozoa to the lipid peroxidation [46].",
+        "REFERENCE": "[46]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit59": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[47]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit60": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[48]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit61": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[49]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit62": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[50]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit63": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[51]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit64": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[52]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit65": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In stallions, multiple studies have been conducted to neutralize or minimize the effects of ROS by adding various antioxidants (e.g., superoxide dismutase, catalase, GPx, AA, a-tocopherol, AA, quercetin, butylated hydroxytoluene, L-carnitine) to semen extenders or the freezing media with results that are variable [47] [48] [49] [50] [51] [52] [53].",
+        "REFERENCE": "[53]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit66": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "However, this kind of studies lack in jacks, and there are only few studies about jack semen cryopreservation [35, 54, 55].",
+        "REFERENCE": "[35,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit67": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "However, this kind of studies lack in jacks, and there are only few studies about jack semen cryopreservation [35, 54, 55].",
+        "REFERENCE": "54,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit68": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "However, this kind of studies lack in jacks, and there are only few studies about jack semen cryopreservation [35, 54, 55].",
+        "REFERENCE": "55]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit69": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Seminal plasma naturally harbors the ROS scavengers that prevent oxidative-induced sperm damage [56].",
+        "REFERENCE": "[56]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit70": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "All these values are observed to be in the standard range and correlating with the earlier studies [57, 58].",
+        "REFERENCE": "[57,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit71": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "All these values are observed to be in the standard range and correlating with the earlier studies [57, 58].",
+        "REFERENCE": "58]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit72": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "A decrease in almost all qualitative seminal parameters was observed because during freezing, sperm is exposed to severe osmotic, thermal, and oxidative stress, which damaged the plasma membrane and other spermatic structures such as acrosome and impaired the chromatin structure [33].",
+        "REFERENCE": "[33]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit73": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Process of semen cryopreservation, however, increased susceptibility of equine sperm to lipid peroxidation because of higher production of ROS [43, 56, 59], and this damage might further increase with the removal of seminal plasma during semen processing because much of the antioxidant capacity in semen resides with seminal plasma [60, 61].",
+        "REFERENCE": "[43,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit74": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Process of semen cryopreservation, however, increased susceptibility of equine sperm to lipid peroxidation because of higher production of ROS [43, 56, 59], and this damage might further increase with the removal of seminal plasma during semen processing because much of the antioxidant capacity in semen resides with seminal plasma [60, 61].",
+        "REFERENCE": "56,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit75": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Process of semen cryopreservation, however, increased susceptibility of equine sperm to lipid peroxidation because of higher production of ROS [43, 56, 59], and this damage might further increase with the removal of seminal plasma during semen processing because much of the antioxidant capacity in semen resides with seminal plasma [60, 61].",
+        "REFERENCE": "59]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit76": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Process of semen cryopreservation, however, increased susceptibility of equine sperm to lipid peroxidation because of higher production of ROS [43, 56, 59], and this damage might further increase with the removal of seminal plasma during semen processing because much of the antioxidant capacity in semen resides with seminal plasma [60, 61].",
+        "REFERENCE": "[60,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit77": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Process of semen cryopreservation, however, increased susceptibility of equine sperm to lipid peroxidation because of higher production of ROS [43, 56, 59], and this damage might further increase with the removal of seminal plasma during semen processing because much of the antioxidant capacity in semen resides with seminal plasma [60, 61].",
+        "REFERENCE": "61]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit78": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The observations regarding the effect of cryopreservation on sperm quality of the present study are consistent with previous studies indicating that freeze-thawing procedures damage different membranes of spermatozoa [62] [63] [64].",
+        "REFERENCE": "[62]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit79": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The observations regarding the effect of cryopreservation on sperm quality of the present study are consistent with previous studies indicating that freeze-thawing procedures damage different membranes of spermatozoa [62] [63] [64].",
+        "REFERENCE": "[63]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit80": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The observations regarding the effect of cryopreservation on sperm quality of the present study are consistent with previous studies indicating that freeze-thawing procedures damage different membranes of spermatozoa [62] [63] [64].",
+        "REFERENCE": "[64]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit81": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38, [65] [66] [67] and boar semen [68, 69].",
+        "REFERENCE": "[20,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit82": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38, [65] [66] [67] and boar semen [68, 69].",
+        "REFERENCE": "38,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit83": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38, [65] [66] [67] and boar semen [68, 69].",
+        "REFERENCE": "[65]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit84": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38, [65] [66] [67] and boar semen [68, 69].",
+        "REFERENCE": "[66]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit85": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38, [65] [66] [67] and boar semen [68, 69].",
+        "REFERENCE": "[67]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit86": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38,65e67 ] and boar semen [68, 69].",
+        "REFERENCE": "[68,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit87": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The present study results are in accordance to that of previous studies carried out on GSH supplementation to the horse semen [20,38,65e67 ] and boar semen [68, 69].",
+        "REFERENCE": "69]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit88": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "However, Baumber et al (2005) [61] did not observe an improvement in total and progressive motility after the addition of 10 mM GSH.",
+        "REFERENCE": "[61]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit89": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "A protective effect of AA for membrane integrity was observed, but a deleterious effect on progressive motility was reported [36].",
+        "REFERENCE": "[36]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit90": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "After incubation, the antioxidant group compared with the control group successfully protected the spermatozoal acrosome integrity at the prefreeze and postthaw stages (P <.05), which is in corroboration with the earlier findings [2, 33, 36, 56, 61].",
+        "REFERENCE": "[2,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit91": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "After incubation, the antioxidant group compared with the control group successfully protected the spermatozoal acrosome integrity at the prefreeze and postthaw stages (P <.05), which is in corroboration with the earlier findings [2, 33, 36, 56, 61].",
+        "REFERENCE": "33,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit92": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "After incubation, the antioxidant group compared with the control group successfully protected the spermatozoal acrosome integrity at the prefreeze and postthaw stages (P <.05), which is in corroboration with the earlier findings [2, 33, 36, 56, 61].",
+        "REFERENCE": "36,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit93": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "After incubation, the antioxidant group compared with the control group successfully protected the spermatozoal acrosome integrity at the prefreeze and postthaw stages (P <.05), which is in corroboration with the earlier findings [2, 33, 36, 56, 61].",
+        "REFERENCE": "56,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit94": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "After incubation, the antioxidant group compared with the control group successfully protected the spermatozoal acrosome integrity at the prefreeze and postthaw stages (P <.05), which is in corroboration with the earlier findings [2, 33, 36, 56, 61].",
+        "REFERENCE": "61]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit95": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "High salt concentration due to ice crystal formation can dehydrate sperm cells, deforming them and causing damages in the acrosome and plasmatic membrane, reduction in metabolism, and loss of intracellular components [70, 71].",
+        "REFERENCE": "[70,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit96": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "High salt concentration due to ice crystal formation can dehydrate sperm cells, deforming them and causing damages in the acrosome and plasmatic membrane, reduction in metabolism, and loss of intracellular components [70, 71].",
+        "REFERENCE": "71]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit97": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "The similar observations were made in the semen cryopreserved with GSH, which improved the total and progressive motility, plasma membrane integrity, and functionality in Caspian miniature stallions [72].",
+        "REFERENCE": "[72]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit98": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Among the two antioxidants, GSH over AA proves to be a better antioxidant, as use of AA might be controversial, based on the previous studies, which stated that it may also act as a prooxidant in the presence of transition metals and it may make free radicals highly reactive and more destructive, thus generating more free radicals [73, 74].",
+        "REFERENCE": "[73,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit99": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Among the two antioxidants, GSH over AA proves to be a better antioxidant, as use of AA might be controversial, based on the previous studies, which stated that it may also act as a prooxidant in the presence of transition metals and it may make free radicals highly reactive and more destructive, thus generating more free radicals [73, 74].",
+        "REFERENCE": "74]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit100": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Some studies reported their positive effects, whereas others documented no benefit of addition of antioxidants [30, 33, 75, 76].",
+        "REFERENCE": "[30,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit101": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Some studies reported their positive effects, whereas others documented no benefit of addition of antioxidants [30, 33, 75, 76].",
+        "REFERENCE": "33,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit102": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Some studies reported their positive effects, whereas others documented no benefit of addition of antioxidants [30, 33, 75, 76].",
+        "REFERENCE": "75,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit103": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Some studies reported their positive effects, whereas others documented no benefit of addition of antioxidants [30, 33, 75, 76].",
+        "REFERENCE": "76]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit104": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "In contrast, Aurich et al [36] observed that AA had a protective effect on sperm membrane integrity of diluted stallion sperm.",
+        "REFERENCE": "[36]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit105": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Likewise, the addition of GSH to freezing extender improved postthaw sperm quality in bulls [77, 78].",
+        "REFERENCE": "[77,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit106": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Likewise, the addition of GSH to freezing extender improved postthaw sperm quality in bulls [77, 78].",
+        "REFERENCE": "78]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit107": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "[2,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit108": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "30,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit109": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "33,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit110": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "36,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit111": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "37,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit112": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "56,",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit113": {
+        "SECTION": "Results and Discussion",
+        "CITATION": "Supplementing of freezing media with 0.9 g/L AA and 2 mM GSH not only does have a positive impact on the chromatin stability and membrane integrity of jack sperm to withstand freeze-thawing procedures but also increase in overall sperm motility, viability at postthawing reported in previous studies [2, 30, 33, 36, 37, 56, 61] is related to the structure of sperm subpopulations.",
+        "REFERENCE": "61]",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    }
+}

@@ -1,0 +1,501 @@
+{
+    "cit1": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "The latter represent the most common non-communicable diseases globally and a leading cause of death worldwide, 1 causing 45% of total mortality in Europe in 2017. 2",
+        "REFERENCE": "1",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "The latter represent the most common non-communicable diseases globally and a leading cause of death worldwide, 1 causing 45% of total mortality in Europe in 2017. 2",
+        "REFERENCE": "2",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Direct and indirect health costs related to hypertension and CVDs are astounding, and reducing systolic blood pressure (BP) by only 1 mmHg was estimated to translate into a $100,000 annual saving per hypertensive individual. 3",
+        "REFERENCE": "3",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "In this context, the Global Hearts Initiative has recently promoted a comprehensive approach for cardiovascular prevention that is based on integrated primary health care interventions. 4",
+        "REFERENCE": "4",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "As an inflammatory disease of the mouth increasing systemic inflammation, periodontitis has been recently acknowledged as an emerging contributor to cardiovascular risk. 5",
+        "REFERENCE": "5",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Consistent with this, dental care use appears to carry implications for cardiovascular health. [6] [7] [8]",
+        "REFERENCE": "[6]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Consistent with this, dental care use appears to carry implications for cardiovascular health. [6] [7] [8]",
+        "REFERENCE": "[7]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Consistent with this, dental care use appears to carry implications for cardiovascular health. [6] [7] [8]",
+        "REFERENCE": "[8]",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Attending a dental visit on a regular basis 9 or within the previous year, 10 in fact, was associated with reduced risk of stroke, and dental visits for professional cleaning with at least annual frequency were shown to reduce cardiovascular risk by 14%. 6",
+        "REFERENCE": "9",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Attending a dental visit on a regular basis 9 or within the previous year, 10 in fact, was associated with reduced risk of stroke, and dental visits for professional cleaning with at least annual frequency were shown to reduce cardiovascular risk by 14%. 6",
+        "REFERENCE": "10",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Attending a dental visit on a regular basis 9 or within the previous year, 10 in fact, was associated with reduced risk of stroke, and dental visits for professional cleaning with at least annual frequency were shown to reduce cardiovascular risk by 14%. 6",
+        "REFERENCE": "6",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "In parallel, periodontitis is associated with 20% increased risk of high BP or uncontrolled hypertension, 11 and bleeding gums with or without periodontitis are associated with further increase in the same risk by an additional 20%, 12 with a possible mediating effect of inflammation. 13, 14",
+        "REFERENCE": "11",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit13": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "In parallel, periodontitis is associated with 20% increased risk of high BP or uncontrolled hypertension, 11 and bleeding gums with or without periodontitis are associated with further increase in the same risk by an additional 20%, 12 with a possible mediating effect of inflammation. 13, 14",
+        "REFERENCE": "12",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit14": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "In parallel, periodontitis is associated with 20% increased risk of high BP or uncontrolled hypertension, 11 and bleeding gums with or without periodontitis are associated with further increase in the same risk by an additional 20%, 12 with a possible mediating effect of inflammation. 13, 14",
+        "REFERENCE": "13,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit15": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "In parallel, periodontitis is associated with 20% increased risk of high BP or uncontrolled hypertension, 11 and bleeding gums with or without periodontitis are associated with further increase in the same risk by an additional 20%, 12 with a possible mediating effect of inflammation. 13, 14",
+        "REFERENCE": "14",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit16": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Nevertheless, socioeconomic factors-especially income and education-are often believed to largely account for the associations, 15, 16 and studies that control for these sources of confounding are lacking.",
+        "REFERENCE": "15,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit17": {
+        "SECTION": "INTRODUCTION",
+        "CITATION": "Nevertheless, socioeconomic factors-especially income and education-are often believed to largely account for the associations, 15, 16 and studies that control for these sources of confounding are lacking.",
+        "REFERENCE": "16",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit18": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "The timing of the last dental visit for each participant as reported by NHANES was dichotomized as attendance within or before the previous 6 months (≤ or >6 months). 17",
+        "REFERENCE": "17",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit19": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Information on the total number of permanent teeth, missing teeth for any cause, dental implants, as well as on periodontal indices (clinical attachment loss, CAL; periodontal probing depth, PPD; bleeding on probing, BoP) was reported as collected by NHANES. 18, 19",
+        "REFERENCE": "18,",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit20": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Information on the total number of permanent teeth, missing teeth for any cause, dental implants, as well as on periodontal indices (clinical attachment loss, CAL; periodontal probing depth, PPD; bleeding on probing, BoP) was reported as collected by NHANES. 18, 19",
+        "REFERENCE": "19",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit21": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Given the inter-waves variability of periodontal assessment methods (full-mouth for NHANES waves from 2009 to 2014; partial-mouth for the years from 1999 to 2004 19, 20), a case definition of periodontitis was not applied, and periodontal indices (BoP, PPD, and CAL) are presented as continuous variables and used for descriptive purposes only.",
+        "REFERENCE": "19,",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit22": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Given the inter-waves variability of periodontal assessment methods (full-mouth for NHANES waves from 2009 to 2014; partial-mouth for the years from 1999 to 2004 19, 20), a case definition of periodontitis was not applied, and periodontal indices (BoP, PPD, and CAL) are presented as continuous variables and used for descriptive purposes only.",
+        "REFERENCE": "20",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit23": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "BP was also modeled as a categorical variable using the thresholds for the definition of hypertension diagnosis and control according to the American College of Cardiology/American Heart Association (ACC/AHA) (130/80 mmHg) 21 and the European Society of Cardiology/European Society of Hypertension (ESC/ESH) (140/90 mmHg). 22",
+        "REFERENCE": "21",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit24": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "BP was also modeled as a categorical variable using the thresholds for the definition of hypertension diagnosis and control according to the American College of Cardiology/American Heart Association (ACC/AHA) (130/80 mmHg) 21 and the European Society of Cardiology/European Society of Hypertension (ESC/ESH) (140/90 mmHg). 22",
+        "REFERENCE": "22",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit25": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "The goals of this study were: (1) to assess the sociodemographic and clinical features related to access to dental care in a large, real-world setting, with focus on BP and (2) to test the association of access to dental care, as assessed by the timing of last dental visit, with BP in highly educated, high-income individuals (i.e., at least college graduates with >350% of the federal poverty level, FPL). 23",
+        "REFERENCE": "23",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit26": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "PSM is a technique used in observational studies to aid in the evaluation of cause-effect hypotheses and to reduce bias in the effect estimates by ensuring balance in the observed variables between groups. 24, 25",
+        "REFERENCE": "24,",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit27": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "PSM is a technique used in observational studies to aid in the evaluation of cause-effect hypotheses and to reduce bias in the effect estimates by ensuring balance in the observed variables between groups. 24, 25",
+        "REFERENCE": "25",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit28": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Specifically, 1:1 nearestneighbor matching was performed for age (smoothed function), sex, race/ethnicity, BMI, glycolipid profile, comorbidities, and smoking habits in the selected subgroup using logistic generalized additive model (GAM), achieving balance in terms of the mentioned confounders using a specific R package. 26",
+        "REFERENCE": "26",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit29": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Univariate balance summary statistics and visual depictions of distribution for each covariate were performed using the same library. 26",
+        "REFERENCE": "26",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit30": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Variables multicollinearity were tested prior to applying PSM using a bootstrap stepwise algorithm. 27",
+        "REFERENCE": "27",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit31": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Formal mediation analysis was performed to test if the effect of dental visit reason (exposure) on the likelihood of high/uncontrolled BP (outcome) was mediated by hsCRP and WBC (mediators). 28",
+        "REFERENCE": "28",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit32": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Then, performance of access to dental care in predicting high BP was assessed by calculating its capacity to provide additional information compared with the variables used in the Framingham Hypertension Risk Score (age; sex; BMI; cigarette smoking). 29",
+        "REFERENCE": "29",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit33": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Complex multistage weighted probability samples were used for descriptive statistics for representativeness of the reference population, 30 whereas unweighted estimates were adopted for association analyses on the specific PSM subset. 31",
+        "REFERENCE": "30",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit34": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Complex multistage weighted probability samples were used for descriptive statistics for representativeness of the reference population, 30 whereas unweighted estimates were adopted for association analyses on the specific PSM subset. 31",
+        "REFERENCE": "31",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit35": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Population based estimates were evaluated with unpaired t tests for continuous variables and χ 2 tests for categorical variables, whereas Wilcoxon test was used for comparing means in the PSM subset. 32",
+        "REFERENCE": "32",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit36": {
+        "SECTION": "MATERIALS AND METHODS",
+        "CITATION": "Covariates had <3% of missing data, and no imputations were applied. 33",
+        "REFERENCE": "33",
+        "ALIGNED SECTION": [
+            "Materials",
+            "Methods"
+        ]
+    },
+    "cit37": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "This is in line with the existing evidence of neglected oral care as a source of systemic inflammation with cardiovascular impact, 8, 13 and expands current knowledge on its effects on BP as the bridge to cardiovascular implications. 9",
+        "REFERENCE": "8,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit38": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "This is in line with the existing evidence of neglected oral care as a source of systemic inflammation with cardiovascular impact, 8, 13 and expands current knowledge on its effects on BP as the bridge to cardiovascular implications. 9",
+        "REFERENCE": "13",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit39": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "This is in line with the existing evidence of neglected oral care as a source of systemic inflammation with cardiovascular impact, 8, 13 and expands current knowledge on its effects on BP as the bridge to cardiovascular implications. 9",
+        "REFERENCE": "9",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit40": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Our descriptive analysis is in line with previous evidence indicating an association between socioeconomic inequalities and oral health status, whether self-reported or clinically diagnosed. 15, 34",
+        "REFERENCE": "15,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit41": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Our descriptive analysis is in line with previous evidence indicating an association between socioeconomic inequalities and oral health status, whether self-reported or clinically diagnosed. 15, 34",
+        "REFERENCE": "34",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit42": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Specifically, it has been demonstrated that the socioeconomic position is negatively associated with oral health and clinically diagnosed dental disease. 15, 35",
+        "REFERENCE": "15,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit43": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Specifically, it has been demonstrated that the socioeconomic position is negatively associated with oral health and clinically diagnosed dental disease. 15, 35",
+        "REFERENCE": "35",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit44": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "This is an interesting observation, because recent findings support the hypothesis that titanium particles from implants might drive low-grade inflammation. 36",
+        "REFERENCE": "36",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit45": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Specifically, histology shows that peri-implant sites harbor more neutrophils, larger proportions of CD19+ cells 37 and higher levels of inflammatory cytokines 38 than control sites, which might translate into a plausible systemic impact. 39",
+        "REFERENCE": "37",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit46": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Specifically, histology shows that peri-implant sites harbor more neutrophils, larger proportions of CD19+ cells 37 and higher levels of inflammatory cytokines 38 than control sites, which might translate into a plausible systemic impact. 39",
+        "REFERENCE": "38",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit47": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Specifically, histology shows that peri-implant sites harbor more neutrophils, larger proportions of CD19+ cells 37 and higher levels of inflammatory cytokines 38 than control sites, which might translate into a plausible systemic impact. 39",
+        "REFERENCE": "39",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit48": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Hypertension itself is considered a condition associated with low-grade inflammation involving both innate and adaptive immunity. 40, 41",
+        "REFERENCE": "40,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit49": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Hypertension itself is considered a condition associated with low-grade inflammation involving both innate and adaptive immunity. 40, 41",
+        "REFERENCE": "41",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit50": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Toll-like receptor 4 and activated perivascular T cells were shown to trigger vascular inflammation in response to hypertensive stimuli, ultimately leading to arterial remodeling and impaired vasoreactivity. 40, 42",
+        "REFERENCE": "40,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit51": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Toll-like receptor 4 and activated perivascular T cells were shown to trigger vascular inflammation in response to hypertensive stimuli, ultimately leading to arterial remodeling and impaired vasoreactivity. 40, 42",
+        "REFERENCE": "42",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit52": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "There is evidence of a hypertensionspecific immune host response to periodontal bacteria, 43 and that the oral-gut microbiota is involved in BP regulation. 44",
+        "REFERENCE": "43",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit53": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "There is evidence of a hypertensionspecific immune host response to periodontal bacteria, 43 and that the oral-gut microbiota is involved in BP regulation. 44",
+        "REFERENCE": "44",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit54": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Importantly, periodontal treatment and a healthy oral microbiota significantly modulate adaptive immunity. 14, 45",
+        "REFERENCE": "14,",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit55": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Importantly, periodontal treatment and a healthy oral microbiota significantly modulate adaptive immunity. 14, 45",
+        "REFERENCE": "45",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit56": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "Thus, oral health specialists might play a crucial role in detecting chronic diseases, related risk factors, and the conditions possibly affecting their progression and control. 46",
+        "REFERENCE": "46",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit57": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "BoP, which is associated with a worse BP profile, 12 was not widely available.",
+        "REFERENCE": "12",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit58": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "The Framingham Hypertension Risk Score was developed to detect hypertension incidence in predominantly White people, although found to perform well also among non-White individuals, 47 and information on family history of hypertension was unavailable.",
+        "REFERENCE": "47",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit59": {
+        "SECTION": "DISCUSSION",
+        "CITATION": "The impact of unmeasured residual confounders, including unmeasured cultural determinants, home oral hygiene, and other diseases affecting dental visits attendance or systemic inflammation, could not be examined. 48",
+        "REFERENCE": "48",
+        "ALIGNED SECTION": [
+            "Discussion"
+        ]
+    },
+    "cit60": {
+        "SECTION": "CONCLUSIONS",
+        "CITATION": "Thus, cardiovascular prevention strategies might benefit from a comprehensive approach that includes timely dental visits. 49",
+        "REFERENCE": "49",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    }
+}

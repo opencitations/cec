@@ -1,0 +1,1019 @@
+{
+    "cit1": {
+        "SECTION": "Introduction",
+        "CITATION": "Carbon dioxide (CO 2) is the most important greenhouse gas (GHG) contributing to climate change on a global scale (IPCC, 2014).",
+        "REFERENCE": "(IPCC, 2014)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit2": {
+        "SECTION": "Introduction",
+        "CITATION": "The anthropogenic emission of CO 2, primarily from fossil fuel usage, has led to average global CO 2 mixing ratios reaching historically high levels of > 400 ppm (parts per million) (Seinfeld and Pandis, 2016).",
+        "REFERENCE": "(Seinfeld and Pandis, 2016)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit3": {
+        "SECTION": "Introduction",
+        "CITATION": "In addition to fossil fuel emissions, the processes involved in the exchange of carbon between the atmosphere and terrestrial biosphere are a major factor controlling atmospheric concentrations of CO 2 (e.g., Schimel et al., 2001) with an estimated global biosphere sink of ∼ 3.0 PgC yr -1 (Le Quéré et al., 2018).",
+        "REFERENCE": "Schimel et al., 2001)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit4": {
+        "SECTION": "Introduction",
+        "CITATION": "In addition to fossil fuel emissions, the processes involved in the exchange of carbon between the atmosphere and terrestrial biosphere are a major factor controlling atmospheric concentrations of CO 2 (e.g., Schimel et al., 2001) with an estimated global biosphere sink of ∼ 3.0 PgC yr -1 (Le Quéré et al., 2018).",
+        "REFERENCE": "(Le Quéré et al., 2018)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit5": {
+        "SECTION": "Introduction",
+        "CITATION": "However, current estimates of regional-scale atmosphere-terrestrial biosphere CO 2 exchange have large uncertainties (Schimel et al., 2015).",
+        "REFERENCE": "(Schimel et al., 2015)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit6": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "(Heimann et al., 1998,",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit7": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "Huntzinger et al., 2012;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit8": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "Sitch et al., 2015;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit9": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "Ott et al., 2015;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit10": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "Ito et al., 2016)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit11": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "(Schwalm et al., 2015)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit12": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies intercomparing several of the most commonly used biospheric flux models (Heimann et al., 1998, Huntzinger et al., 2012; Sitch et al., 2015; Ott et al., 2015; Ito et al., 2016) and multi-model ensemble integration projects (Schwalm et al., 2015) reveal a large spread among global/regional bottom-up terrestrial biospheric flux estimates and the subcomponents such as ecosystem primary production and respiration (Huntzinger et al., 2012).",
+        "REFERENCE": "(Huntzinger et al., 2012)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit13": {
+        "SECTION": "Introduction",
+        "CITATION": "An alternate approach to estimate biospheric CO 2 fluxes is through \"top-down\" (hereafter quotation marks will be omitted) estimation techniques using inverse models with highly accurate in situ data (e.g., Baker et al., 2006b) or dense and globally distributed satellite data (e.g., Chevallier et al., 2005).",
+        "REFERENCE": "Baker et al., 2006b)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit14": {
+        "SECTION": "Introduction",
+        "CITATION": "An alternate approach to estimate biospheric CO 2 fluxes is through \"top-down\" (hereafter quotation marks will be omitted) estimation techniques using inverse models with highly accurate in situ data (e.g., Baker et al., 2006b) or dense and globally distributed satellite data (e.g., Chevallier et al., 2005).",
+        "REFERENCE": "Chevallier et al., 2005)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit15": {
+        "SECTION": "Introduction",
+        "CITATION": "The Orbiting Carbon Observatory 2 (OCO-2) satellite, launched in 2014, is the spaceborne sensor with the finest resolution and highest sensitivity with respect to CO 2 in the atmospheric boundary layer to date (Crisp et al., 2017; Eldering et al., 2017a).",
+        "REFERENCE": "(Crisp et al., 2017;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit16": {
+        "SECTION": "Introduction",
+        "CITATION": "The Orbiting Carbon Observatory 2 (OCO-2) satellite, launched in 2014, is the spaceborne sensor with the finest resolution and highest sensitivity with respect to CO 2 in the atmospheric boundary layer to date (Crisp et al., 2017; Eldering et al., 2017a).",
+        "REFERENCE": "Eldering et al., 2017a)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit17": {
+        "SECTION": "Introduction",
+        "CITATION": "Studies applying OCO-2 retrievals revealed the ability to investigate novel aspects of the carbon cycle (e.g., Eldering et al., 2017b; Liu et al., 2017); however, the top-down estimates of surface CO 2 fluxes from numerous inverse modeling systems, using identical OCO-2 observations, show differences among optimized/posterior regional CO 2 fluxes (Crowell et al., 2019).",
+        "REFERENCE": "Eldering et al., 2017b;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit18": {
+        "SECTION": "Introduction",
+        "CITATION": "Studies applying OCO-2 retrievals revealed the ability to investigate novel aspects of the carbon cycle (e.g., Eldering et al., 2017b; Liu et al., 2017); however, the top-down estimates of surface CO 2 fluxes from numerous inverse modeling systems, using identical OCO-2 observations, show differences among optimized/posterior regional CO 2 fluxes (Crowell et al., 2019).",
+        "REFERENCE": "Liu et al., 2017)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit19": {
+        "SECTION": "Introduction",
+        "CITATION": "Studies applying OCO-2 retrievals revealed the ability to investigate novel aspects of the carbon cycle (e.g., Eldering et al., 2017b; Liu et al., 2017); however, the top-down estimates of surface CO 2 fluxes from numerous inverse modeling systems, using identical OCO-2 observations, show differences among optimized/posterior regional CO 2 fluxes (Crowell et al., 2019).",
+        "REFERENCE": "(Crowell et al., 2019)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit20": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Peylin et al., 2013;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit21": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Chevallier et al., 2014;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit22": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Houweling et al., 2015)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit23": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "(Rödenbeck et al., 2006)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit24": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "(Liu et al., 2014;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit25": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Byrne et al., 2017)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit26": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "(Law et al., 2003;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit27": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Rödenbeck et al., 2003)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit28": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "(Law et al., 2003;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit29": {
+        "SECTION": "Introduction",
+        "CITATION": "Previous studies investigating CO 2 flux inversions (e.g., Peylin et al., 2013; Chevallier et al., 2014; Houweling et al., 2015) suggest that this spread among optimized CO 2 flux estimates could be due to numerous factors, such as the accuracy and precision of observation data (Rödenbeck et al., 2006), imperfect observation cover-age (Liu et al., 2014; Byrne et al., 2017), data density (Law et al., 2003; Rödenbeck et al., 2003), and poorly characterized measurement error covariance (Law et al., 2003; Takagi et al., 2014).",
+        "REFERENCE": "Takagi et al., 2014)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit30": {
+        "SECTION": "Introduction",
+        "CITATION": "Variations in inverse estimation setups between modeling groups, such as model transport (Chevallier et al., 2010; Houweling et al., 2010; Basu et al., 2018) and inversion methods (Chevallier et al., 2014; Houweling et al., 2015), could also lead to inter-model spread in posterior estimates.",
+        "REFERENCE": "(Chevallier et al., 2010;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit31": {
+        "SECTION": "Introduction",
+        "CITATION": "Variations in inverse estimation setups between modeling groups, such as model transport (Chevallier et al., 2010; Houweling et al., 2010; Basu et al., 2018) and inversion methods (Chevallier et al., 2014; Houweling et al., 2015), could also lead to inter-model spread in posterior estimates.",
+        "REFERENCE": "Houweling et al., 2010;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit32": {
+        "SECTION": "Introduction",
+        "CITATION": "Variations in inverse estimation setups between modeling groups, such as model transport (Chevallier et al., 2010; Houweling et al., 2010; Basu et al., 2018) and inversion methods (Chevallier et al., 2014; Houweling et al., 2015), could also lead to inter-model spread in posterior estimates.",
+        "REFERENCE": "Basu et al., 2018)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit33": {
+        "SECTION": "Introduction",
+        "CITATION": "Variations in inverse estimation setups between modeling groups, such as model transport (Chevallier et al., 2010; Houweling et al., 2010; Basu et al., 2018) and inversion methods (Chevallier et al., 2014; Houweling et al., 2015), could also lead to inter-model spread in posterior estimates.",
+        "REFERENCE": "(Chevallier et al., 2014;",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit34": {
+        "SECTION": "Introduction",
+        "CITATION": "Variations in inverse estimation setups between modeling groups, such as model transport (Chevallier et al., 2010; Houweling et al., 2010; Basu et al., 2018) and inversion methods (Chevallier et al., 2014; Houweling et al., 2015), could also lead to inter-model spread in posterior estimates.",
+        "REFERENCE": "Houweling et al., 2015)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit35": {
+        "SECTION": "Introduction",
+        "CITATION": "In addition to the variables listed above, the assumed prior fluxes and the associated prior error covariance can also impact top-down global/regional CO 2 flux estimates (e.g., Gurney et al., 2003).",
+        "REFERENCE": "Gurney et al., 2003)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit36": {
+        "SECTION": "Introduction",
+        "CITATION": "Gurney et al. (2003) assessed the sensitivity of CO 2 flux inversions to the specification of prior flux uncertainty and found that the posterior estimates were sensitive to the prior fluxes over regions with limited in situ observations.",
+        "REFERENCE": "Gurney et al. (2003)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit37": {
+        "SECTION": "Introduction",
+        "CITATION": "In addition, Wang et al. (2018) found that optimal CO 2 flux allocation over land vs. ocean, using satellite and/or in situ data assimilations, is sensitive to the specification of prior flux uncertainty.",
+        "REFERENCE": "Wang et al. (2018)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit38": {
+        "SECTION": "Introduction",
+        "CITATION": "Furthermore, Chevallier et al. (2005) and Baker et al. (2006a Baker et al. (, 2010) ) highlighted the importance of accurate assumptions of prior flux uncertainty by conducting 4-D variational (4D-Var) assimilations of satellite column retrievals of CO 2.",
+        "REFERENCE": "Chevallier et al. (2005)",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit39": {
+        "SECTION": "Introduction",
+        "CITATION": "Furthermore, Chevallier et al. (2005) and Baker et al. (2006a Baker et al. (, 2010) ) highlighted the importance of accurate assumptions of prior flux uncertainty by conducting 4-D variational (4D-Var) assimilations of satellite column retrievals of CO 2.",
+        "REFERENCE": "Baker et al. (2006a",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit40": {
+        "SECTION": "Introduction",
+        "CITATION": "Furthermore, Chevallier et al. (2005) and Baker et al. (2006a Baker et al. (, 2010) ) highlighted the importance of accurate assumptions of prior flux uncertainty by conducting 4-D variational (4D-Var) assimilations of satellite column retrievals of CO 2.",
+        "REFERENCE": "Baker et al. ( , 2010) )",
+        "ALIGNED SECTION": [
+            "Introduction"
+        ]
+    },
+    "cit41": {
+        "SECTION": "Methods",
+        "CITATION": "CASA is an ecosystem model predicting NPP based on light use efficiency and R h based on soils/plant production information (Potter et al., 1993 (Potter et al.,, 2012b)).",
+        "REFERENCE": "(Potter et al., 1993",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit42": {
+        "SECTION": "Methods",
+        "CITATION": "CASA is an ecosystem model predicting NPP based on light use efficiency and R h based on soils/plant production information (Potter et al., 1993 (Potter et al.,, 2012b)).",
+        "REFERENCE": "(Potter et al., , 2012b))",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit43": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., 1993)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit44": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., 2003",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit45": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., , 2007",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit46": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., , 2009",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit47": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., , 2012a",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit48": {
+        "SECTION": "Methods",
+        "CITATION": "The NASA-CASA model is a version of the original CASA model (Potter et al., 1993) currently being developed at the NASA Ames Research Center (Potter et al., 2003 (Potter et al.,, 2007 (Potter et al.,, 2009 (Potter et al.,, 2012a (Potter et al.,, 2012b).",
+        "REFERENCE": "(Potter et al., , 2012b)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit49": {
+        "SECTION": "Methods",
+        "CITATION": "NASA-CASA specifically utilizes data on global vegetation cover (enhanced vegetation index, surface solar irradiance data) and land disturbances retrieved from the NASA Moderate Resolution Imaging Spectroradiometer (MODIS) satellite (Potter et al., 2012b).",
+        "REFERENCE": "(Potter et al., 2012b)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit50": {
+        "SECTION": "Methods",
+        "CITATION": "In addition to R h, NASA-CASA includes redistributed crop harvest CO 2 emissions to the atmosphere (Potter et al., 2012b).",
+        "REFERENCE": "(Potter et al., 2012b)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit51": {
+        "SECTION": "Methods",
+        "CITATION": "The CASA-GFED model is a different version of the original CASA model and is described in Randerson et al. (1996) with subsequent versions being described in recent literature (van der Werf et al., 2004 (van der Werf et al.,, 2006 (van der Werf et al.,, 2010)).",
+        "REFERENCE": "Randerson et al. (1996)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit52": {
+        "SECTION": "Methods",
+        "CITATION": "The CASA-GFED model is a different version of the original CASA model and is described in Randerson et al. (1996) with subsequent versions being described in recent literature (van der Werf et al., 2004 (van der Werf et al.,, 2006 (van der Werf et al.,, 2010)).",
+        "REFERENCE": "(van der Werf et al., 2004",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit53": {
+        "SECTION": "Methods",
+        "CITATION": "The CASA-GFED model is a different version of the original CASA model and is described in Randerson et al. (1996) with subsequent versions being described in recent literature (van der Werf et al., 2004 (van der Werf et al.,, 2006 (van der Werf et al.,, 2010)).",
+        "REFERENCE": "(van der Werf et al., , 2006",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit54": {
+        "SECTION": "Methods",
+        "CITATION": "The CASA-GFED model is a different version of the original CASA model and is described in Randerson et al. (1996) with subsequent versions being described in recent literature (van der Werf et al., 2004 (van der Werf et al.,, 2006 (van der Werf et al.,, 2010)).",
+        "REFERENCE": "(van der Werf et al., , 2010))",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit55": {
+        "SECTION": "Methods",
+        "CITATION": "NASA-CASA and CASA-GFED differ in the use of input parameters and some of the parameterizations (see Ott et al., 2015 for further description).",
+        "REFERENCE": "Ott et al., 2015",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit56": {
+        "SECTION": "Methods",
+        "CITATION": "The SiB-4 model was developed at Colorado State University (Sellers et al., 1986; Denning et al., 1996), with details of the newest versions described in Haynes et al. (2013).",
+        "REFERENCE": "(Sellers et al., 1986;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit57": {
+        "SECTION": "Methods",
+        "CITATION": "The SiB-4 model was developed at Colorado State University (Sellers et al., 1986; Denning et al., 1996), with details of the newest versions described in Haynes et al. (2013).",
+        "REFERENCE": "Denning et al., 1996)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit58": {
+        "SECTION": "Methods",
+        "CITATION": "The SiB-4 model was developed at Colorado State University (Sellers et al., 1986; Denning et al., 1996), with details of the newest versions described in Haynes et al. (2013).",
+        "REFERENCE": "Haynes et al. (2013)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit59": {
+        "SECTION": "Methods",
+        "CITATION": "This model is a mechanistic, prognostic land surface model that integrates heterogeneous land cover, environmentally responsive prognostic phenology, dynamic carbon allocation, and cascading carbon pools from live biomass to surface litter and soil organic matter (Haynes et al., 2013; Baker et al., 2013; Lokupitiya et al., 2009; Schaefer et al., 2008; Sellers et al., 1996).",
+        "REFERENCE": "(Haynes et al., 2013;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit60": {
+        "SECTION": "Methods",
+        "CITATION": "This model is a mechanistic, prognostic land surface model that integrates heterogeneous land cover, environmentally responsive prognostic phenology, dynamic carbon allocation, and cascading carbon pools from live biomass to surface litter and soil organic matter (Haynes et al., 2013; Baker et al., 2013; Lokupitiya et al., 2009; Schaefer et al., 2008; Sellers et al., 1996).",
+        "REFERENCE": "Baker et al., 2013;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit61": {
+        "SECTION": "Methods",
+        "CITATION": "This model is a mechanistic, prognostic land surface model that integrates heterogeneous land cover, environmentally responsive prognostic phenology, dynamic carbon allocation, and cascading carbon pools from live biomass to surface litter and soil organic matter (Haynes et al., 2013; Baker et al., 2013; Lokupitiya et al., 2009; Schaefer et al., 2008; Sellers et al., 1996).",
+        "REFERENCE": "Lokupitiya et al., 2009;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit62": {
+        "SECTION": "Methods",
+        "CITATION": "This model is a mechanistic, prognostic land surface model that integrates heterogeneous land cover, environmentally responsive prognostic phenology, dynamic carbon allocation, and cascading carbon pools from live biomass to surface litter and soil organic matter (Haynes et al., 2013; Baker et al., 2013; Lokupitiya et al., 2009; Schaefer et al., 2008; Sellers et al., 1996).",
+        "REFERENCE": "Schaefer et al., 2008;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit63": {
+        "SECTION": "Methods",
+        "CITATION": "This model is a mechanistic, prognostic land surface model that integrates heterogeneous land cover, environmentally responsive prognostic phenology, dynamic carbon allocation, and cascading carbon pools from live biomass to surface litter and soil organic matter (Haynes et al., 2013; Baker et al., 2013; Lokupitiya et al., 2009; Schaefer et al., 2008; Sellers et al., 1996).",
+        "REFERENCE": "Sellers et al., 1996)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit64": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ model is a process-based dynamic global vegetation model (Sitch et al., 2003; Polter et al., 2014).",
+        "REFERENCE": "(Sitch et al., 2003;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit65": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ model is a process-based dynamic global vegetation model (Sitch et al., 2003; Polter et al., 2014).",
+        "REFERENCE": "Polter et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit66": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ-wsl dynamic global vegetation model (Sitch et al., 2003) was used to simulate NEE using meteorological data from the Climate Research Unit (Harris et al., 2013).",
+        "REFERENCE": "(Sitch et al., 2003)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit67": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ-wsl dynamic global vegetation model (Sitch et al., 2003) was used to simulate NEE using meteorological data from the Climate Research Unit (Harris et al., 2013).",
+        "REFERENCE": "(Harris et al., 2013)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit68": {
+        "SECTION": "Methods",
+        "CITATION": "Phenology status is determined daily and photosynthesis is estimated using a modified Farquhar scheme (Haxeltine and Prentice, 1996).",
+        "REFERENCE": "(Haxeltine and Prentice, 1996)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit69": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ-wsl model has been evaluated in several benchmarking activities for stocks and fluxes (Peng et al., 2015; Sitch et al., 2015).",
+        "REFERENCE": "(Peng et al., 2015;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit70": {
+        "SECTION": "Methods",
+        "CITATION": "The LPJ-wsl model has been evaluated in several benchmarking activities for stocks and fluxes (Peng et al., 2015; Sitch et al., 2015).",
+        "REFERENCE": "Sitch et al., 2015)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit71": {
+        "SECTION": "Methods",
+        "CITATION": "In order to provide a \"true\" (hereafter quotation marks will be omitted) NEE flux for the OSSEs conducted in this study (Sect. 2.4), we use the multi-model ensemble NEE mean from the Multiscale Synthesis and Terrestrial Model Intercomparison Project (MsTMIP) (Huntzinger et al., 2013 (Huntzinger et al.,, 2018; Fisher et al., 2016a, (Fisher et al., 2016b)).",
+        "REFERENCE": "(Huntzinger et al., 2013",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit72": {
+        "SECTION": "Methods",
+        "CITATION": "In order to provide a \"true\" (hereafter quotation marks will be omitted) NEE flux for the OSSEs conducted in this study (Sect. 2.4), we use the multi-model ensemble NEE mean from the Multiscale Synthesis and Terrestrial Model Intercomparison Project (MsTMIP) (Huntzinger et al., 2013 (Huntzinger et al.,, 2018; Fisher et al., 2016a, (Fisher et al., 2016b)).",
+        "REFERENCE": "(Huntzinger et al., , 2018;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit73": {
+        "SECTION": "Methods",
+        "CITATION": "In order to provide a \"true\" (hereafter quotation marks will be omitted) NEE flux for the OSSEs conducted in this study (Sect. 2.4), we use the multi-model ensemble NEE mean from the Multiscale Synthesis and Terrestrial Model Intercomparison Project (MsTMIP) (Huntzinger et al., 2013 (Huntzinger et al.,, 2018; Fisher et al., 2016a, (Fisher et al., 2016b)).",
+        "REFERENCE": "Fisher et al., 2016a,",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit74": {
+        "SECTION": "Methods",
+        "CITATION": "In order to provide a \"true\" (hereafter quotation marks will be omitted) NEE flux for the OSSEs conducted in this study (Sect. 2.4), we use the multi-model ensemble NEE mean from the Multiscale Synthesis and Terrestrial Model Intercomparison Project (MsTMIP) (Huntzinger et al., 2013 (Huntzinger et al.,, 2018; Fisher et al., 2016a, (Fisher et al., 2016b)).",
+        "REFERENCE": "Fisher et al., 2016b",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit75": {
+        "SECTION": "Methods",
+        "CITATION": "The MsTMIP NEE fluxes are from a weighted ensemble mean of 15 biosphere models (Schwalm et al., 2015) for the year 2010.",
+        "REFERENCE": "(Schwalm et al., 2015)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit76": {
+        "SECTION": "Methods",
+        "CITATION": "Therefore, we imposed diurnal (hourly) and daily variability to these four prior models following the approach in Car-bonTracker CT2016 (https://www.esrl.noaa.gov/gmd/ccgg/ carbontracker/CT2016/CT2016_doc.php, last access: 22 August 2017), which is based on Olsen and Randerson (2004).",
+        "REFERENCE": "Olsen and Randerson (2004)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit77": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem chemical transport model (CTM) (Bey et al., 2001) used in this study has the capability to run forward CO 2 simulations (Suntharalingam et al., 2004; Nassar et al., 2010) and corresponding adjoint model calculations (Henze et al., 2007; Liu et al., 2014).",
+        "REFERENCE": "(Bey et al., 2001)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit78": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem chemical transport model (CTM) (Bey et al., 2001) used in this study has the capability to run forward CO 2 simulations (Suntharalingam et al., 2004; Nassar et al., 2010) and corresponding adjoint model calculations (Henze et al., 2007; Liu et al., 2014).",
+        "REFERENCE": "(Suntharalingam et al., 2004;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit79": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem chemical transport model (CTM) (Bey et al., 2001) used in this study has the capability to run forward CO 2 simulations (Suntharalingam et al., 2004; Nassar et al., 2010) and corresponding adjoint model calculations (Henze et al., 2007; Liu et al., 2014).",
+        "REFERENCE": "Nassar et al., 2010)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit80": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem chemical transport model (CTM) (Bey et al., 2001) used in this study has the capability to run forward CO 2 simulations (Suntharalingam et al., 2004; Nassar et al., 2010) and corresponding adjoint model calculations (Henze et al., 2007; Liu et al., 2014).",
+        "REFERENCE": "(Henze et al., 2007;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit81": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem chemical transport model (CTM) (Bey et al., 2001) used in this study has the capability to run forward CO 2 simulations (Suntharalingam et al., 2004; Nassar et al., 2010) and corresponding adjoint model calculations (Henze et al., 2007; Liu et al., 2014).",
+        "REFERENCE": "Liu et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit82": {
+        "SECTION": "Methods",
+        "CITATION": "Liu et al. (2014) tested the accuracy of the GEOS-Chem CO 2 adjoint system, which has been used for several CO 2 inverse modeling studies (e.g., Liu et al., 2017; Bowman et al., 2017; Deng et al., 2014).",
+        "REFERENCE": "Liu et al. (2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit83": {
+        "SECTION": "Methods",
+        "CITATION": "Liu et al. (2014) tested the accuracy of the GEOS-Chem CO 2 adjoint system, which has been used for several CO 2 inverse modeling studies (e.g., Liu et al., 2017; Bowman et al., 2017; Deng et al., 2014).",
+        "REFERENCE": "Liu et al., 2017;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit84": {
+        "SECTION": "Methods",
+        "CITATION": "Liu et al. (2014) tested the accuracy of the GEOS-Chem CO 2 adjoint system, which has been used for several CO 2 inverse modeling studies (e.g., Liu et al., 2017; Bowman et al., 2017; Deng et al., 2014).",
+        "REFERENCE": "Bowman et al., 2017;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit85": {
+        "SECTION": "Methods",
+        "CITATION": "Liu et al. (2014) tested the accuracy of the GEOS-Chem CO 2 adjoint system, which has been used for several CO 2 inverse modeling studies (e.g., Liu et al., 2017; Bowman et al., 2017; Deng et al., 2014).",
+        "REFERENCE": "Deng et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit86": {
+        "SECTION": "Methods",
+        "CITATION": "This study used the year-specific fossil fuel and cement production inventory from the Open-source Data Inventory for Anthropogenic CO 2 (ODIAC-2016) developed by Oda et al. (2018).",
+        "REFERENCE": "Oda et al. (2018)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit87": {
+        "SECTION": "Methods",
+        "CITATION": "Following the approach of Nassar et al. (2013), the monthly ODIAC-2016 inventory is converted from the native temporal variability into diurnal (hourly) and weekday/weekend variability (courtesy of Sourish Basu and the OCO-2 Science Team).",
+        "REFERENCE": "Nassar et al. (2013)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit88": {
+        "SECTION": "Methods",
+        "CITATION": "Shipping emissions are from the International Comprehensive Ocean-Atmosphere Data Set (ICOADS; Corbett and Koehler, 2003; 2004), and aviation emissions are from the Aviation Emissions Inventory Code (AEIC; Olsen et al., 2013).",
+        "REFERENCE": "Corbett and Koehler, 2003;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit89": {
+        "SECTION": "Methods",
+        "CITATION": "Shipping emissions are from the International Comprehensive Ocean-Atmosphere Data Set (ICOADS; Corbett and Koehler, 2003; 2004), and aviation emissions are from the Aviation Emissions Inventory Code (AEIC; Olsen et al., 2013).",
+        "REFERENCE": "Corbett and Koehler, 2004)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit90": {
+        "SECTION": "Methods",
+        "CITATION": "Shipping emissions are from the International Comprehensive Ocean-Atmosphere Data Set (ICOADS; Corbett and Koehler, 2003; 2004), and aviation emissions are from the Aviation Emissions Inventory Code (AEIC; Olsen et al., 2013).",
+        "REFERENCE": "Olsen et al., 2013)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit91": {
+        "SECTION": "Methods",
+        "CITATION": "We used 3-D chemical production of CO 2 from the oxidation of carbon monoxide, methane, and non-methane volatile organic compounds (Nassar et al., 2010).",
+        "REFERENCE": "(Nassar et al., 2010)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit92": {
+        "SECTION": "Methods",
+        "CITATION": "To simulate oceanic CO 2 fluxes, we apply the yearspecific 3-hourly posterior estimates from the CarbonTracker 2016 (CT2016) model constrained with in situ data (Peters et al., 2007; http://carbontracker.noaa.gov, last access: 22 August 2017)",
+        "REFERENCE": "(Peters et al., 2007;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit93": {
+        "SECTION": "Methods",
+        "CITATION": "The OCO-2 satellite sensor is in sun-synchronous polar orbit with a repeat cycle of 16 days and a local overpass time in the early afternoon (Crisp et al., 2017).",
+        "REFERENCE": "(Crisp et al., 2017)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit94": {
+        "SECTION": "Methods",
+        "CITATION": "The individual soundings of OCO-2 are at a fine resolution (24 spectra per second with < 3 km 2 spatial resolution per sounding), leading to a very large data volume (Crisp et al., 2017).",
+        "REFERENCE": "(Crisp et al., 2017)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit95": {
+        "SECTION": "Methods",
+        "CITATION": "Therefore, we use 10 s averages of the individual XCO 2 soundings similar to those developed/described in Basu et al. (2018), although these soundings are from an updated version with the file name \"OCO2_b80_10sec_WL04_GOOD_v2.nc\".",
+        "REFERENCE": "Basu et al. (2018)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit96": {
+        "SECTION": "Methods",
+        "CITATION": "The GEOS-Chem adjoint system applies the L-BFGS numerical optimization algorithm with a no-bound option (Liu and Nocedal, 1989).",
+        "REFERENCE": "(Liu and Nocedal, 1989)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit97": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Basu et al., 2013)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit98": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Basu et al., 2018)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit99": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Liu et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit100": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Baker et al., 2006a",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit101": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Baker et al., , 2010))",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit102": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Chevallier et al., 2006)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit103": {
+        "SECTION": "Methods",
+        "CITATION": "Previous studies have used a range of techniques to characterize prior error covariance such as developing the full error covariance matrix with assumed error correlations (Basu et al., 2013), using a fraction of heterotrophic respiration (Basu et al., 2018), conducting Monte Carlo simulations (Liu et al., 2014), using standard deviations and absolute differences between several different prior flux models (Baker et al., 2006a (Baker et al.,, 2010)), using continuous in situ measurements of CO 2 flux compared to model simulations to inform prior errors (Chevallier et al., 2006), and applying globally uniform prior flux uncertainty values to satisfy the posterior χ 2 (normalized cost function) = 1 criteria (Deng et al., 2014).",
+        "REFERENCE": "(Deng et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit104": {
+        "SECTION": "Methods",
+        "CITATION": "This assumption is reasonable, as optimized fluxes are at coarse spatiotemporal scales (monthly mean fluxes at horizontal resolutions of > 400 km 2), and is representative of the majority of inverse modeling studies assimilating CO 2 satellite data (e.g., Baker et al., 2010; Liu et al., 2014; Deng et al., 2014).",
+        "REFERENCE": "Baker et al., 2010;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit105": {
+        "SECTION": "Methods",
+        "CITATION": "This assumption is reasonable, as optimized fluxes are at coarse spatiotemporal scales (monthly mean fluxes at horizontal resolutions of > 400 km 2), and is representative of the majority of inverse modeling studies assimilating CO 2 satellite data (e.g., Baker et al., 2010; Liu et al., 2014; Deng et al., 2014).",
+        "REFERENCE": "Liu et al., 2014;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit106": {
+        "SECTION": "Methods",
+        "CITATION": "This assumption is reasonable, as optimized fluxes are at coarse spatiotemporal scales (monthly mean fluxes at horizontal resolutions of > 400 km 2), and is representative of the majority of inverse modeling studies assimilating CO 2 satellite data (e.g., Baker et al., 2010; Liu et al., 2014; Deng et al., 2014).",
+        "REFERENCE": "Deng et al., 2014)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit107": {
+        "SECTION": "Methods",
+        "CITATION": "The SD of four different state of the art oceanic CO 2 flux datasets -NASA-CMS CO 2 oceanic flux (from Bowman, 2017), CarbonTracker 2016 prior ocean data (CT2016; http://carbontracker.noaa.gov, last access: 22 August 2017), Takahashi et al. (2009 ), and Landschützer et al. (2016, 2017) -was calculated to generate prior error values.",
+        "REFERENCE": "Bowman, 2017)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit108": {
+        "SECTION": "Methods",
+        "CITATION": "The SD of four different state of the art oceanic CO 2 flux datasets -NASA-CMS CO 2 oceanic flux (from Bowman, 2017), CarbonTracker 2016 prior ocean data (CT2016; http://carbontracker.noaa.gov, last access: 22 August 2017), Takahashi et al. (2009 ), and Landschützer et al. (2016, 2017) -was calculated to generate prior error values.",
+        "REFERENCE": "Takahashi et al. (2009",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit109": {
+        "SECTION": "Methods",
+        "CITATION": "The SD of four different state of the art oceanic CO 2 flux datasets -NASA-CMS CO 2 oceanic flux (from Bowman, 2017), CarbonTracker 2016 prior ocean data (CT2016; http://carbontracker.noaa.gov, last access: 22 August 2017), Takahashi et al. (2009 ), and Landschützer et al. (2016, 2017) -was calculated to generate prior error values.",
+        "REFERENCE": "Landschützer et al. (2016",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit110": {
+        "SECTION": "Methods",
+        "CITATION": "The SD of four different state of the art oceanic CO 2 flux datasets -NASA-CMS CO 2 oceanic flux (from Bowman, 2017), CarbonTracker 2016 prior ocean data (CT2016; http://carbontracker.noaa.gov, last access: 22 August 2017), Takahashi et al. (2009 ), and Landschützer et al. (2016, 2017) -was calculated to generate prior error values.",
+        "REFERENCE": ", 2017)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit111": {
+        "SECTION": "Methods",
+        "CITATION": "The final observation error for the 10 s average data is generated as a quadratic sum of the retrieval error from individual OCO-2 soundings, 10 s averaging error, and a \"model representation error\" as described in Basu et al. (2018).",
+        "REFERENCE": "Basu et al. (2018)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit112": {
+        "SECTION": "Methods",
+        "CITATION": "We note that other inverse modeling groups assimilating OCO-2 data also do not add random perturbations to the data and use the same error statistics generated along with the OCO-2 10 s product that are applied in this study (e.g., Basu et al., 2018; Crowell et al., 2019).",
+        "REFERENCE": "Basu et al., 2018;",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit113": {
+        "SECTION": "Methods",
+        "CITATION": "We note that other inverse modeling groups assimilating OCO-2 data also do not add random perturbations to the data and use the same error statistics generated along with the OCO-2 10 s product that are applied in this study (e.g., Basu et al., 2018; Crowell et al., 2019).",
+        "REFERENCE": "Crowell et al., 2019)",
+        "ALIGNED SECTION": [
+            "Methods"
+        ]
+    },
+    "cit114": {
+        "SECTION": "Results and discussion",
+        "CITATION": "This generally agrees with previous studies that demonstrated the importance of satellite data over the ocean in constraining NEE fluxes over land regions (e.g., Deng et al., 2016).",
+        "REFERENCE": "Deng et al., 2016)",
+        "ALIGNED SECTION": [
+            "Results",
+            "Discussion"
+        ]
+    },
+    "cit115": {
+        "SECTION": "Conclusions",
+        "CITATION": "There have been previous studies that have investigated similar scientific objectives, such as the impact of prior uncertainties on inverse model estimates of NEE (Gurney et al., 2003; Chevalier et al., 2005; Baker et al., 2006a Baker et al.,, 2010)).",
+        "REFERENCE": "(Gurney et al., 2003;",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit116": {
+        "SECTION": "Conclusions",
+        "CITATION": "There have been previous studies that have investigated similar scientific objectives, such as the impact of prior uncertainties on inverse model estimates of NEE (Gurney et al., 2003; Chevalier et al., 2005; Baker et al., 2006a Baker et al.,, 2010)).",
+        "REFERENCE": "Chevalier et al., 2005;",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit117": {
+        "SECTION": "Conclusions",
+        "CITATION": "There have been previous studies that have investigated similar scientific objectives, such as the impact of prior uncertainties on inverse model estimates of NEE (Gurney et al., 2003; Chevalier et al., 2005; Baker et al., 2006a Baker et al.,, 2010)).",
+        "REFERENCE": "Baker et al., 2006a",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit118": {
+        "SECTION": "Conclusions",
+        "CITATION": "There have been previous studies that have investigated similar scientific objectives, such as the impact of prior uncertainties on inverse model estimates of NEE (Gurney et al., 2003; Chevalier et al., 2005; Baker et al., 2006a Baker et al.,, 2010)).",
+        "REFERENCE": "Baker et al., , 2010))",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit119": {
+        "SECTION": "Conclusions",
+        "CITATION": "The sensitivity of CO 2 flux inversions to the specification of prior flux information was first assessed by Gurney et al. (2003) using ground-based in situ data.",
+        "REFERENCE": "Gurney et al. (2003)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit120": {
+        "SECTION": "Conclusions",
+        "CITATION": "One main conclusion from Gurney et al. (2003) was that CO 2 flux estimates were sensitive to the prior flux uncertainty over regions with limited S2.",
+        "REFERENCE": "Gurney et al. (2003)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit121": {
+        "SECTION": "Conclusions",
+        "CITATION": "Chevallier et al. (2005) suggested the importance of an accurate formulation of prior flux uncertainty by conducting 4D-Var assimilation of satellite column retrievals of CO2 .",
+        "REFERENCE": "Chevallier et al. (2005)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit122": {
+        "SECTION": "Conclusions",
+        "CITATION": "Baker et al. (2010) investigated the importance of assumed prior flux uncertainties by conducting sensitivity tests that mistuned the assimilations by using incorrect prior flux errors.",
+        "REFERENCE": "Baker et al. (2010)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit123": {
+        "SECTION": "Conclusions",
+        "CITATION": "Baker et al. (2006a Baker et al. (, 2010) ) suggested the need for realistic prior models in the 4D-Var assimilations using OCO synthetic satellite CO 2 data.",
+        "REFERENCE": "Baker et al. (2006a",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit124": {
+        "SECTION": "Conclusions",
+        "CITATION": "Baker et al. (2006a Baker et al. (, 2010) ) suggested the need for realistic prior models in the 4D-Var assimilations using OCO synthetic satellite CO 2 data.",
+        "REFERENCE": "Baker et al. ( , 2010) )",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit125": {
+        "SECTION": "Conclusions",
+        "CITATION": "As explained earlier in this study, estimates of surface CO 2 fluxes from numerous inversion systems in the OCO-2 model intercomparison project (MIP) ensemble model framework, using identical OCO-2 observations, result in different optimized/posterior regional NEE fluxes (Crowell et al., 2019).",
+        "REFERENCE": "(Crowell et al., 2019)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit126": {
+        "SECTION": "Conclusions",
+        "CITATION": "Comparing this contribution of prior model impact to the OSSE study by Basu et al. (2018), which calculated the impact of atmospheric transport on posterior NEE estimates when assimilating OCO-2 observations, this contribution is ∼ 50 % less than the impact of atmospheric transport.",
+        "REFERENCE": "Basu et al. (2018)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    },
+    "cit127": {
+        "SECTION": "Conclusions",
+        "CITATION": "From our study and Basu et al. (2018) it is estimated that the combination of prior flux/uncertainty assumptions and atmospheric transport could contribute on average ∼ 50 % of the annually averaged posterior NEE variance of the OCO-2 MIP study.",
+        "REFERENCE": "Basu et al. (2018)",
+        "ALIGNED SECTION": [
+            "Conclusion"
+        ]
+    }
+}
