@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of the correlation prior on reconstruction of the dark energy equation of state</title>
+				<funder ref="#_TPJXJ2t">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_x9TPPbV">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_N5JMGuW #_Jxewmmd">
+					<orgName type="full">NSF China</orgName>
+				</funder>
+				<funder ref="#_wTrDmww">
+					<orgName type="full">National Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-10-03">October 3, 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="2,84,95,357,12,69,34,12,74"><forename type="first">Youhua</forename><surname>Xu</surname></persName>
+							<email>yhxu@nao.cas.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<addrLine>22 Hankou Road Jiangsu Province</addrLine>
+									<postCode>210093</postCode>
+									<settlement>Gulou District Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">CAS Key Laboratory of Space Astronomy and Technology</orgName>
+								<orgName type="institution" key="instit1">National Astronomical Observatories</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>20A Datun Road</addrLine>
+									<postCode>100101</postCode>
+									<settlement>Chaoyang District Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,180,01,357,12,57,99,12,74"><forename type="first">Hu</forename><surname>Zhan</surname></persName>
+							<email>zhanhu@nao.cas.cn</email>
+							<affiliation key="aff1">
+								<orgName type="laboratory">CAS Key Laboratory of Space Astronomy and Technology</orgName>
+								<orgName type="institution" key="instit1">National Astronomical Observatories</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>20A Datun Road</addrLine>
+									<postCode>100101</postCode>
+									<settlement>Chaoyang District Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Kavli Institute for Astronomy and Astrophysics</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<addrLine>No. 5 Yiheyuan Road Haidian District</addrLine>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,284,00,357,12,167,05,12,74"><forename type="first">Yeuk-Kwan</forename><forename type="middle">Edna</forename><surname>Cheung</surname></persName>
+							<email>cheung@nju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics</orgName>
+								<orgName type="institution">Nanjing University</orgName>
+								<address>
+									<addrLine>22 Hankou Road Jiangsu Province</addrLine>
+									<postCode>210093</postCode>
+									<settlement>Gulou District Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Institute of Nuclear and Particle Physics</orgName>
+								<orgName type="department" key="dep2">Demokritos National Research Centre</orgName>
+								<address>
+									<addrLine>Patr. Gregoriou E &amp; 27 Neapoleos Str</addrLine>
+									<postCode>15341</postCode>
+									<settlement>Agia Paraskevi</settlement>
+									<country key="GR">Greece</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of the correlation prior on reconstruction of the dark energy equation of state</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-10-03">October 3, 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A2D278066BBECFE501E74AFBC8222B70</idno>
+					<idno type="DOI">10.1088/1475-7516/2019/10/006</idno>
+					<note type="submission">Received August 1, 2019 Accepted September 22, 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-02-06T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cosmological parameters from CMBR</term>
+					<term>cosmological parameters from LSS</term>
+					<term>dark energy experiments</term>
+					<term>dark energy theory</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Non-parametric reconstruction of the dark energy equation of state (EoS) aims to determine the EoS as a function of redshift without invoking any particular dark energy model, so that the resulting EoS can be free of model-induced biases or artifacts. Without proper regularization, however, such reconstruction is often overwhelmed by the noise of poorly constrained modes. An intuitive regularization scheme is to assume a priori the dark energy EoS to evolve at most slowly with time, which may be enforced by a correlation between the EoS at different epochs. Indeed, studies that impose the correlation prior are able to significantly reduce the uncertainties of the reconstructed EoS and even show hints for dynamical dark energy.</p><p>In this work, we examine the correlation prior using mock datasets of type Ia supernovae (SNe Ia), baryonic acoustic oscillations (BAOs), age-derived Hubble parameter, Hubble constant, and cosmic microwave background. We find that even though the prior is designed to disfavor evolving equations of state, it can still accommodate spurious oscillating features at high significance. Within the 1000 mock datasets of existing observations that are generated for the concordance cosmological model, i.e., the input dark energy EoS w = -1, there are 688 (69) cases recovering an EoS that departs from -1 by more than 1σ (2σ) in one or more redshift bins. The reconstructed EoS turns up and down markedly in many cases. Moreover, inverting the signs of the randomly assigned errors of the mock data more or less reverses the behavior of the EoS. Spurious results occur even more frequently when idealized SN Ia and BAO data from future surveys are included. Our tests suggest that further studies are needed to ensure accurate reconstruction of the EoS with the correlation prior.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.0" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The discovery of accelerated cosmic expansion <ref type="bibr" coords="4,313,30,392,71,11,52,9,57" target="#b0">[1,</ref><ref type="bibr" coords="4,329,11,392,71,8,49,9,57" target="#b1">2]</ref> has inspired widespread efforts to determine its underlying physics (see, e.g., <ref type="bibr" coords="4,280,00,406,26,8,97,9,57" target="#b2">[3]</ref><ref type="bibr" coords="4,288,97,406,26,4,48,9,57" target="#b3">[4]</ref><ref type="bibr" coords="4,288,97,406,26,4,48,9,57" target="#b4">[5]</ref><ref type="bibr" coords="4,288,97,406,26,4,48,9,57" target="#b5">[6]</ref><ref type="bibr" coords="4,293,46,406,26,8,97,9,57" target="#b6">[7]</ref> for reviews). One of the solutions proposed is to add a smooth component to the universe -dark energy in a broad sense -that drives the acceleration with its negative pressure. The equation of state (EoS), i.e., the ratio of pressure to density w ≡ p/ρ, is often used to characterize dark energy models. Since the EoS is inferred indirectly from geometry and growth measurements, one can define an effective dark energy EoS for theories that do not invoke dark energy at all. As such, the dark energy EoS can serve as a phenomenological discriminator for different theories of the accelerated cosmic expansion. It has indeed become a major task for next-stage dark energy surveys such as the Large Synoptic Survey Telescope<ref type="foot" coords="4,304,17,512,70,4,23,6,99" target="#foot_0">foot_0</ref> (LSST), Euclid,<ref type="foot" coords="4,389,26,512,70,4,23,6,99" target="#foot_1">foot_1</ref> DESI, <ref type="foot" coords="4,427,49,512,70,4,23,6,99" target="#foot_2">3</ref> and WFIRST <ref type="foot" coords="4,504,38,512,70,4,23,6,99" target="#foot_3">4</ref> to test various theories with accurate EoS measurements over a wide range of redshift.</p><p>Non-parametric reconstruction plays an important role in measuring the dark energy EoS <ref type="bibr" coords="4,109,14,555,43,11,52,9,57" target="#b7">[8,</ref><ref type="bibr" coords="4,125,89,555,43,7,68,9,57" target="#b8">9]</ref>. It tries to avoid potential biases or artifacts arising from specific model assumptions by adopting as little knowledge about the EoS as possible, though details of the implementation can still lead to different conclusions. For example, there are reports hinting at an evolving EoS and, hence, dynamical nature of dark energy <ref type="bibr" coords="4,392,01,596,08,13,64,9,57" target="#b9">[10]</ref><ref type="bibr" coords="4,405,65,596,08,4,55,9,57" target="#b10">[11]</ref><ref type="bibr" coords="4,405,65,596,08,4,55,9,57" target="#b11">[12]</ref><ref type="bibr" coords="4,405,65,596,08,4,55,9,57" target="#b12">[13]</ref><ref type="bibr" coords="4,405,65,596,08,4,55,9,57" target="#b14">[14]</ref><ref type="bibr" coords="4,410,19,596,08,13,64,9,57" target="#b15">[15]</ref>, whereas others find consistency with the cosmological constant, i.e., w = -1 at all time <ref type="bibr" coords="4,404,87,609,62,13,64,9,57" target="#b16">[16]</ref><ref type="bibr" coords="4,418,51,609,62,4,55,9,57" target="#b17">[17]</ref><ref type="bibr" coords="4,418,51,609,62,4,55,9,57" target="#b18">[18]</ref><ref type="bibr" coords="4,418,51,609,62,4,55,9,57" target="#b19">[19]</ref><ref type="bibr" coords="4,418,51,609,62,4,55,9,57" target="#b20">[20]</ref><ref type="bibr" coords="4,418,51,609,62,4,55,9,57" target="#b21">[21]</ref><ref type="bibr" coords="4,423,05,609,62,13,64,9,57" target="#b22">[22]</ref>. The discrepancy calls for a closer examination of the reconstruction method.</p><p>In non-parametric reconstruction, the EoS is replaced by an approximation function that is constructed from its values w i ≡ w(a i ) at a series of scale factors a i (or redshifts z i ). The approximation function is often chosen to be piece-wise constant or an interpolation of JCAP10(2019)006 <ref type="bibr" coords="5,126,22,88,46,13,94,9,57" target="#b19">19,</ref><ref type="bibr" coords="5,143,99,88,46,9,52,9,57" target="#b23">[23]</ref><ref type="bibr" coords="5,153,52,88,46,4,76,9,57" target="#b24">[24]</ref><ref type="bibr" coords="5,158,28,88,46,14,29,9,57" target="#b25">[25]</ref>. The EoS values {w i } are then estimated from data and can vary freely to accommodate dark energy evolution to the extent the approximation function allows. In this way, one can be confident that the resulting EoS is completely determined by the data rather than some subtle effects of the particular dark energy model assumed in the first place. However, the drastically increased degrees of freedom also cause large uncertainties on the recovered EoS, making it less useful for testing dark energy models.</p><formula xml:id="formula_0" coords="5,84,95,88,46,37,44,10,63">{w i } [8,</formula><p>As pointed out in ref. <ref type="bibr" coords="5,216,15,170,53,10,91,9,57" target="#b7">[8]</ref>, the uncertainties of the reconstructed EoS are dominated by poorly constrained eigenmodes, which typically oscillate more rapidly than well determined eigenmodes do. Since there is no strong case for a fast-oscillating EoS, it is reasonable to treat these poorly constrained modes as unphysical. One can thus reduce the EoS uncertainties by filtering out such eigenmodes in the result <ref type="bibr" coords="5,289,38,224,73,11,52,9,57" target="#b7">[8,</ref><ref type="bibr" coords="5,304,53,224,73,12,72,9,57" target="#b23">23]</ref>, though the final EoS and its errors would depend on the number of eigenmodes being kept <ref type="bibr" coords="5,325,14,238,28,16,97,9,57" target="#b11">[12,</ref><ref type="bibr" coords="5,346,33,238,28,12,73,9,57" target="#b14">14]</ref>. Another way to reduce the EoS uncertainties is to regularize the reconstruction process with a correlation prior to suppress fast-varying modes in the posterior distribution of {w i } <ref type="bibr" coords="5,347,86,265,38,16,00,9,57" target="#b26">[26]</ref>. The correlation prior introduces an additional χ 2 term into the {w i } likelihood, which is derived from an assumed correlation function of the dark energy EoS at different epochs. Recent applications of this method have shown preference for dynamical dark energy over the cosmological constant at more than 3σ significance level <ref type="bibr" coords="5,167,44,319,57,16,00,9,57" target="#b10">[11]</ref>.</p><p>Given the crucial role of the dark energy EoS in deciphering the accelerated cosmic expansion, one must ensure that the reconstruction method recovers the true EoS. While a thorough study of non-parametric reconstruction is needed, such an undertaking is well beyond the scope of this paper. Here we only test whether the correlation prior allows signatures of dynamical dark energy to be "reconstructed" from a universe dominated by the cosmological constant and cold dark matter (the ΛCDM model). For convenience, we refer to the cosmological model that allows w to vary in time as the wCDM model.</p><p>The rest of the paper is organized as follows. Section 2 describes the method of nonparametric reconstruction of the dark energy EoS with the correlation prior and reproduces the result in ref. <ref type="bibr" coords="5,171,28,456,62,16,00,9,57" target="#b10">[11]</ref>. In section 3, we test the correlation prior using mock datasets of current observations and future surveys that are generated for the ΛCDM universe. Section 4 summarizes the results and concludes the paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Reconstructing the dark energy EoS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Non-parametric reconstruction with the correlation prior</head><p>Non-parametric reconstruction of the dark energy EoS is essentially estimating a discrete set of EoS values {w i } that are used to interpolate the EoS as a function of time (or its equivalent). The value of w i at each interpolation node is allowed to vary freely to accommodate arbitrary evolution of dark energy. Piece-wise constant interpolation and linear interpolation are common choices for approximating the EoS <ref type="bibr" coords="5,315,31,621,48,11,52,9,57" target="#b7">[8,</ref><ref type="bibr" coords="5,330,60,621,48,13,94,9,57" target="#b19">19,</ref><ref type="bibr" coords="5,348,31,621,48,9,52,9,57" target="#b23">[23]</ref><ref type="bibr" coords="5,357,84,621,48,4,76,9,57" target="#b24">[24]</ref><ref type="bibr" coords="5,362,60,621,48,14,29,9,57" target="#b25">[25]</ref>. We find no significant difference between the results of the two schemes as long as there are enough interpolation nodes to cover the range of the scale factor of all the data. Following refs. <ref type="bibr" coords="5,181,73,662,91,16,97,9,57" target="#b9">[10,</ref><ref type="bibr" coords="5,202,35,662,91,13,94,9,57" target="#b10">11,</ref><ref type="bibr" coords="5,219,94,662,91,12,73,9,57" target="#b26">26]</ref>, we adopt the piece-wise constant approximation. The scale factor interval [a min , 1] is evenly divided into N bins of width ∆a = (1 -a min )/N with each bin assigned a w i . The choice of a min is determined by the scale factor of the highestredshift data point excluding the cosmic microwave background (CMB). The distance to the last scattering surface, as derived from the CMB, is the only data point that contains dark -2 -JCAP10(2019)006 energy information at a &lt; a min . Therefore, we assign a single EoS parameter to the interval [a CMB , a min ].</p><p>With the observables expressed in terms of {w i } and other parameters, one can use Markov Chain Monte Carlo (MCMC) sampling to map the posterior distribution</p><formula xml:id="formula_1" coords="6,250,04,151,28,273,26,9,57">P(θ|d) ∝ P (θ) L(d|θ),<label>(2.1)</label></formula><p>where θ is the full set of parameters including {w i }, d is the data vector, P (θ) is the prior, and L(d|θ) is the likelihood of d given θ. The likelihood function is approximated as a multivariate Gaussian L(d|θ) ∝ exp -1 2 χ 2 data with</p><formula xml:id="formula_2" coords="6,218,75,221,43,304,55,19,90">χ 2 data = d -d th T C -1 d d -d th ,<label>(2.2)</label></formula><p>where d th is the data vector calculated theoretically from θ, and C d is the covariance matrix of the data. Note that C d may depend on θ.</p><p>To reduce the uncertainties and enforce the smoothness of the reconstructed EoS, ref. <ref type="bibr" coords="6,104,07,295,66,16,97,9,57" target="#b26">[26]</ref> proposes to apply a prior P (w) ∝ exp(-1 2 χ 2 prior ) with</p><formula xml:id="formula_3" coords="6,214,38,317,41,308,92,14,71">χ 2 prior = [(I -S)w] T C -1 w [(I -S)w] ,<label>(2.3)</label></formula><p>where w ≡ {w i }, I is the identity matrix, S is the smoothing matrix, and C w is the covariance matrix of w. The total χ 2 for the MCMC sampling is then χ 2 tot = χ 2 data + χ 2 prior . The covariance matrix C w is derived from an assumed correlation function of the dark energy EoS:</p><formula xml:id="formula_4" coords="6,200,48,388,88,322,83,29,41">C w,ij = 1 (∆a) 2 a i +∆a a i da a j +∆a a j da ξ w (|a -a |),<label>(2.4)</label></formula><formula xml:id="formula_5" coords="6,170,42,421,97,352,89,28,93">ξ w (|a -a |) σ 2 w πa c 1 -a min 1 + (|a -a |/a c ) 2 ,<label>(2.5)</label></formula><p>where σ 2 w is the variance of the mean value of w(a) within the interval [a min , 1], and a c is the correlation length. The smoothing matrix S performs a local average of w, i.e.,</p><formula xml:id="formula_6" coords="6,230,52,496,47,292,79,23,12">S ij = 1/N i |a i -a j | ≤ a c 0 else ,<label>(2.6)</label></formula><p>with N i being the number of the EoS bins in the range [a i -a c , a i + a c ]. We adopt the same "weak prior" (σ w = 0.04 and a c = 0.06) used in refs. <ref type="bibr" coords="6,338,72,545,43,16,97,9,57" target="#b9">[10,</ref><ref type="bibr" coords="6,359,34,545,43,13,94,9,57" target="#b10">11]</ref> throughout this paper. The χ 2 contribution of the correlation prior, i.e., eq. (2.3), can be rewritten more concisely as χ 2 prior = w T F w w with F w = (I -S) T C -1 w (I -S). Projecting w onto the complete set of eigenmodes of F w , one obtains</p><formula xml:id="formula_7" coords="6,247,19,606,36,276,12,33,71">χ 2 prior = N i=1 λ i w T e i 2 ,<label>(2.7)</label></formula><p>where e i is the i-th eigenmode of F w , and λ i is its corresponding eigenvalue. Figure <ref type="figure" coords="6,491,03,649,36,5,45,9,57" target="#fig_1">1</ref> gives an example of the eigenspectrum of the correlation prior. The eigenmodes are ordered by the number of zero-crossing nodes: the higher the mode number, the more the eigenmode oscillates. The eigenvalue increases quickly with the mode number, penalizing fast-varying modes through eq. (2.7). As expected, the χ 2 contribution of the correlation prior vanishes for the constant EoS.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Results of existing observations</head><p>We implement a cosmological parameter estimation program ClassMC<ref type="foot" coords="7,427,06,349,74,4,23,6,99" target="#foot_4">foot_4</ref> to reconstruct the dark energy EoS, which incorporates the Boltzmann code CLASS <ref type="bibr" coords="7,394,90,365,24,54,55,9,57">[27, 28, v2.5</ref>.0] (modified to allow the dark energy EoS to evolve arbitrarily) and the affine-invariant ensemble sampler <ref type="bibr" coords="7,506,33,378,79,16,97,9,57" target="#b29">[29]</ref> IMCMC<ref type="foot" coords="7,124,65,390,39,4,23,6,99" target="#foot_5">foot_5</ref>  <ref type="bibr" coords="7,133,25,392,34,16,00,9,57" target="#b30">[30]</ref>. The sampled chains are analyzed using GetDist. <ref type="foot" coords="7,390,70,390,39,4,23,6,99" target="#foot_6">7</ref> For simplicity, we assume a flat geometry and ignore dark energy clustering <ref type="bibr" coords="7,328,95,405,89,16,97,9,57" target="#b31">[31,</ref><ref type="bibr" coords="7,350,06,405,89,12,73,9,57" target="#b32">32]</ref>, which are not expected to alter the conclusion of this study.</p><p>We use the following observations to reconstruct the dark energy EoS: Planck CMB temperature and polarization power spectra<ref type="foot" coords="7,294,74,444,81,4,23,6,99" target="#foot_7">foot_7</ref> [33, 34, Planck -2015], SDSS-II/SNLS3 type Ia supernova (SN Ia) joint light-curve analysis data <ref type="bibr" coords="7,319,09,460,31,16,97,9,57" target="#b36">[35,</ref><ref type="bibr" coords="7,339,39,460,31,13,94,9,57" target="#b37">36,</ref><ref type="bibr" coords="7,356,72,460,31,21,33,9,57">JLA]</ref>, BOSS DR12 baryon acoustic oscillation (BAO) measurements of the angular diameter distance D A (z) and the Hubble parameter H(z) in combination with the comoving sound horizon at the drag epoch r d <ref type="bibr" coords="7,486,93,487,41,16,97,9,57" target="#b38">[37,</ref><ref type="bibr" coords="7,506,34,487,41,12,73,9,57" target="#b39">38]</ref>, the Hubble parameter H(z) derived from galaxy ages <ref type="bibr" coords="7,342,64,500,96,16,97,9,57" target="#b40">[39,</ref><ref type="bibr" coords="7,363,15,500,96,24,85,9,57">OHD]</ref>, the Hubble constant H 0 = 73.24±1.74 km s -1 Mpc -1 <ref type="bibr" coords="7,210,54,514,51,16,00,9,57" target="#b41">[40]</ref>, BAO D A (z) and H(z) measurements from the Lyα forest <ref type="bibr" coords="7,503,31,514,51,16,00,9,57" target="#b42">[41]</ref>, as well as BAO D V (z) measurements from the 6dF galaxy survey <ref type="bibr" coords="7,408,42,528,06,16,97,9,57" target="#b43">[42]</ref> and the SDSS DR7 Main Galaxy Sample <ref type="bibr" coords="7,190,26,541,61,16,00,9,57" target="#b44">[43]</ref>. This dataset includes all the data of the ALL16 combination in ref. <ref type="bibr" coords="7,103,32,555,16,16,97,9,57" target="#b10">[11]</ref> except the WiggleZ galaxy power spectra <ref type="bibr" coords="7,319,36,555,16,16,97,9,57" target="#b45">[44]</ref> and the CFHTLenS weak-lensing shear power spectra <ref type="bibr" coords="7,152,81,568,71,16,00,9,57" target="#b46">[45]</ref>, which do not have a significant impact on the reconstructed EoS. The data of CMB, SN Ia, BAO, OHD, H 0 , and Lyα forest are assumed to be mutually independent, so that the total covariance matrix C d has a block-diagonal form with one block for each type of observation. Moreover, to keep the computational cost manageable, we replace the CMB power spectra with the CMB distance prior <ref type="bibr" coords="7,302,37,622,90,16,97,9,57" target="#b47">[46]</ref> for the ensemble study in section 3, and, hence, a consistency check between the results of the two types of CMB data is performed in this section. We refer to the joint dataset with the CMB power spectra as JD16 and that with the CMB distance prior as JD16 * . JCAP10(2019)006 The set of parameters to be estimated is</p><formula xml:id="formula_8" coords="8,171,82,80,53,263,54,178,58">0 0.5 1.0 1.5 2.0 2.5 z -2 -1.5 -1 -0.5 0 w(z) JD16 JD16</formula><formula xml:id="formula_9" coords="8,190,58,357,15,332,72,10,81">θ ≡ {H 0 , Ω b , Ω c , A s , n s , τ, w 0 , . . . , w 29 , N } ,<label>(2.8)</label></formula><p>where Ω b is the baryon density parameter, Ω c is the cold dark matter density parameter, A s and n s are, respectively, the amplitude and the spectral index of the primordial density power spectrum, τ is the optical depth due to reionization, and N includes all the nuisance parameters. For SNe Ia, the nuisance parameters are the B-band absolute magnitude M B , the magnitude offset ∆ M for more massive host galaxies, and the light-curve parameters α and β <ref type="bibr" coords="8,503,31,443,76,16,00,9,57" target="#b37">[36]</ref>; for Planck, the nuisance parameter is A P lanck , the absolute map calibration <ref type="bibr" coords="8,441,29,457,31,16,97,9,57" target="#b48">[47,</ref><ref type="bibr" coords="8,461,14,457,31,12,73,9,57" target="#b49">48]</ref>. The EoS parameters {w i } are assigned according to the scheme described in section 2.1 with a min = 0.286 (z max = 2.5). Since the parameters A s , n s , τ , and A P lanck do not affect the CMB distance prior, they are removed from the parameter set when JD16 * is used for reconstruction.</p><p>The results of reconstruction are shown in figure <ref type="figure" coords="8,347,21,514,13,4,24,9,57" target="#fig_2">2</ref>. The dark energy EoS from JD16 * (blue squares) traces that from JD16 (red band) very well, and they display marked resemblance to those in refs. <ref type="bibr" coords="8,197,55,541,23,16,97,9,57" target="#b10">[11,</ref><ref type="bibr" coords="8,218,27,541,23,12,73,9,57" target="#b14">14]</ref>. Figure <ref type="figure" coords="8,275,02,541,23,5,45,9,57" target="#fig_2">2</ref> demonstrates that the CMB distance prior, which greatly reduces the amount of computation, can replace the full CMB power spectra for non-parametric reconstruction of the dark energy EoS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Tests in the concordance cosmological model</head><p>As with any parameter estimation problem, one must ensure the fidelity of the reconstructed dark energy EoS. Specifically, the actual EoS should be the only source of any statistically significant feature in the reconstructed EoS. This section performs tests on mock data generated for the flat ΛCDM universe to see whether characteristics of dynamical dark energy can appear in the reconstructed EoS at high significance. These tests are included in the ClassMC package as examples.</p><p>-5 -</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JCAP10(2019)006</head><p>3.1 Reconstruction using mock data of existing observations</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1">Mock datasets</head><p>The JD16 * dataset is used as a template to simulate an ensemble of 1000 mock datasets for the ΛCDM model (ΛJD16 * datasets). Details are as follows.</p><p>• The fiducial cosmology is specified by the Planck 2018 base-ΛCDM cosmological parameters <ref type="bibr" coords="9,157,29,174,31,55,76,9,57">[49, table 1]</ref>. In particular, H 0 = 67.32 km s -1 Mpc -1 , Ω b h 2 = 0.022383, and Ω c h 2 = 0.12011, where h is the reduced Hubble constant.</p><p>• The covariance matrix of ΛJD16 * is the same as that of JD16 * , except that the lightcurve model parameters α and β in the JLA covariance matrix are fixed to their best-fit values <ref type="bibr" coords="9,144,71,237,15,16,97,9,57" target="#b36">[35,</ref><ref type="bibr" coords="9,165,31,237,15,12,73,9,57" target="#b37">36]</ref>.</p><p>• The redshift of each data point is exactly the same as that in JD16 * . The fiducial values of the distance, the Hubble constant, and the Hubble parameter are given by the fiducial cosmology. Random errors are drawn from the multivariate Gaussian distribution as defined by the covariance matrix of ΛJD16 * and then added to these fiducial values to form a realization of ΛJD16 * .</p><p>• The covariance matrix of ΛJD16 * is factorized into C d = QDQ -1 with Q being an orthogonal matrix and D being a diagonal matrix. A random vector v is constructed by drawing each element v i from a zero-mean Gaussian distribution of variance D ii .</p><p>The transformation ∆d = Qv generates the random errors that follow the multivariate Gaussian distribution as defined by C d . These errors are then added to the fiducial values to form a realization of ΛJD16 * .</p><p>• For the SN Ia sample, the B-band absolute magnitude M B assumes the fiducial value of -19.3, and the magnitude offset ∆ M is set to zero.</p><p>• The fiducial values of the quantities constituting the CMB distance prior are calculated using the fitting formulae from refs. <ref type="bibr" coords="9,286,38,474,95,16,97,9,57" target="#b51">[50,</ref><ref type="bibr" coords="9,306,98,474,95,13,94,9,57" target="#b52">51]</ref> (see appendix A).</p><p>Altogether, there are 758 degrees of freedom for estimating the set of parameters {H 0 , Ω b , Ω c , w 0 , . . . , w 29 , M B } from each ΛJD16 * dataset. For convenience, we refer to the aforementioned multivariate Gaussian distribution of the data as G(C d ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2">Examples of the reconstructed EoS</head><p>An example of the reconstructed dark energy EoS is shown in the left panel of figure <ref type="figure" coords="9,494,74,565,81,28,57,9,57" target="#fig_3">3 (red  b</ref>and). The corresponding scaled mock distance and Hubble parameter data of JLA SNe Ia, BOSS DR12 BAO, OHD, and Lyα forest BAO are displayed in the right panel of figure <ref type="figure" coords="9,514,83,592,91,4,24,9,57" target="#fig_3">3</ref>, along with the values calculated using the best-fit wCDM model (red solid lines). The difference between the best-fit χ 2 data,BF and that of the ΛCDM model χ 2 data,Λ is ∆χ 2 data = -7.07 and would have been interpreted as a 2.7σ (|∆χ 2 data | 1/2 ) preference for the wCDM model over the ΛCDM model <ref type="bibr" coords="9,154,15,649,36,16,00,9,57" target="#b10">[11]</ref>. Although χ 2 data does not include the contribution from the prior directly, the difference ∆χ 2 data is affected by the prior through the selection of the best-fit model. The correlation prior is an integral part of the parameter estimation process that produces the reconstructed EoS. It is also appropriate to take the prior contribution into account and compare the goodness-of-fit between the two models based on χ 2 tot . The resulting ∆χ 2 tot = -5.60 is weaker than ∆χ 2 data as it should be, and the preference for the wCDM model becomes less significant. This particular example is selected for its resemblance to the result in ref. <ref type="bibr" coords="10,165,99,392,86,16,00,9,57" target="#b10">[11]</ref>. It suggests that the usual statistical interpretation of ∆χ 2 data (or even ∆χ 2 tot ) may not be sufficient as evidence for dynamical dark energy from non-parametric reconstruction of the EoS with the correlation prior.</p><p>Since the correlation prior is designed to suppress fast-varying EoS modes not to create any modes, the survived oscillating feature must be sourced in the mock data. The underlying ΛCDM cosmology of ΛJD16 * does not produce the signal either. This leaves the statistical errors of the data the only suspect. The grey band in the left panel of figure <ref type="figure" coords="10,447,03,478,36,5,45,9,57" target="#fig_3">3</ref> is the result of a test in which all the mock data are set to their fiducial values, i.e., d = d th . In this way, the fiducial ΛCDM model is the best-fit with χ 2 tot = 0 by construction, and the result is highly consistent with w = -1 as expected. It is evident from this test that the errors in the data are the source of the oscillating feature in the EoS reconstructed from the ΛJD16 * dataset. In seven of the nine examples, the recovered EoS deviates from the fiducial model w = -1 by more than 1σ at least once over the whole redshift range. Because of the overall constraint from the distance to the last scattering surface, it is unlikely for the recovered dark energy EoS to always stay above or below w = -1. Therefore, a departure of the EoS in one bin from w = -1 often causes the EoS in other bin(s) to deviate in the opposite direction for compensation, producing a wiggle in the EoS.</p><p>For each ΛJD16 * dataset in figure <ref type="figure" coords="10,280,40,649,36,4,24,9,57" target="#fig_4">4</ref>, we also create a conjugate dataset by inverting the signs of the errors of the data in the original dataset. The fiducial ΛCDM model has exactly the same χ 2 tot with both datasets. Interestingly, the original and conjugate results are roughly symmetric around w = -1 at z 1, which demonstrates that the signature of dynamical dark energy in the EoS reconstructed from ΛJD16 * indeed originates from the random errors of the data.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3">Statistics of the ensemble</head><p>Figure <ref type="figure" coords="11,118,42,484,45,5,45,9,57" target="#fig_8">5</ref> examines the reconstructed dark energy EoS in terms of the distributions of the bestfit χ 2 tot , ∆χ 2 data with respect to the ΛCDM model, and p-value of the Kolmogorov-Smirnov test (KS test) for each ΛJD16 * dataset. The p-value provides an estimate of the probability of the data following a particular distribution. Although the mock datasets are drawn from the multivariate Gaussian distribution G(C d ), there is a finite probability for some datasets to appear incompatible with G(C d ) at high significance and produce low p-values. Therefore, we take the p-value as a measure of apparent departure from G(C d ) and check if it is related to the occurrence of artificial EoS features.</p><p>In practice, we rotate and rescale the error vector</p><formula xml:id="formula_10" coords="11,356,08,589,69,105,71,16,26">∆ d = C -1/2 d (d -d th )</formula><p>, so that the resulting elements ∆ di all follow the unit-variance Gaussian distribution. The KS test is then performed on the set of ∆ di of each mock dataset against the unit-variance Gaussian distribution. The results are displayed intuitively in three groups according to the behavior of the best-fit EoS: (1) the weak-wiggle group, which has an EoS always less than 1σ away from w = -1, i.e., |1 + w i | &lt; σ w i in all bins; (2) the moderate-wiggle group, which has |1 + w i | ≥ σ w i in at least one bin and |1 + w i | &lt; 2σ w i in all bins; and (3) the strong-wiggle group, which has |1 + w i | ≥ 2σ w i in at least one bin.</p><p>It is seen from panels (a) and (b) of figure <ref type="figure" coords="11,330,04,703,55,5,45,9,57" target="#fig_8">5</ref> that the p-value is uncorrelated with the best-fit χ  (large |∆χ 2 data |) can be obtained from ΛJD16 * datasets over the full range of p-values from appearing incompatible with G(C d ) (p-value ∼ 0) to a perfect match (p-value ∼ 1). The example EoS in figure <ref type="figure" coords="12,194,27,525,30,5,45,9,57" target="#fig_3">3</ref> as marked by a blue diamond in figure <ref type="figure" coords="12,393,53,525,30,5,45,9,57" target="#fig_8">5</ref> is not an extreme case in terms of p-value, χ</p><p>2 tot , and ∆χ 2 data . The histogram of the p-value in panel (c) is roughly flat as expected. Moreover, none of the p-value histogram components of the three EoS groups displays any clear trend with the p-value itself. Histograms of χ 2 tot and ∆χ 2 data are shown, respectively, in panels (d) and (e) of figure 5. The χ 2 tot distribution peaks around 775 with a maximum χ 2 tot of 923.6, which is normal for parameter estimation with 758 degrees of freedom. The three EoS groups behave similarly in the χ 2 tot histogram but do differ in the ∆χ 2 data histogram in a way that is consistent with their intuitive classification: the weak-wiggle group (312 cases out of 1000 realizations) generally does not give a strong preference for dynamical dark energy, i.e., mostly |∆χ 2 data | &lt; 5, and dominates the whole distribution at |∆χ 2 data | 2.5; the strong-wiggle group (69 cases) has |∆χ 2 data | &gt; 5 and is the main contributor at |∆χ 2 data | 9; and the moderate-wiggle group (619 cases) is an intermediate between the other two groups. Of the 1000 mock datasets, there are 72 cases preferring the wCDM model to the ΛCDM model at ≥ 3σ level (|∆χ 2 data | ≥ 9). -9 -JCAP10(2019)006 0.5 1.0 1.5 2.0 2.5 z 0.02 0.04 0.06 [ln(D A /r d )] DESI Euclid WFIRST JDF 0 0.5 1.0 1.5 2 2.5 z 0.02 0.04 0.06 [ln(Hr d )] Figure 6. Upper panel: expected fractional errors of the angular diameter distance D A (z) from future BAO surveys [52]. The lower envelope of the distance errors is used for ΛJDF * datasets. Lower panel: same as the upper panel but for the Hubble parameter H(z).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Reconstruction using more data from future surveys</head><p>It is often assumed that the effect of the prior weakens as more data becomes available. Indeed, upcoming surveys, such as LSST, DESI, Euclid and WFIRST, will provide unprecedentedly powerful data for dark energy studies. Hence, we test here whether future data could help eliminate artificial EoS features.</p><p>Using the ΛJD16 * data model of the existing observations as a baseline, we add the expected WFIRST SN Ia sample and replace the original mock BAO data with those anticipated from DESI, Euclid, and WFIRST to form the future ΛJDF * data model. For each ΛJDF * dataset, mock data of future BAO and SN Ia observations are generated randomly according to the following description.</p><p>• The expected errors of the angular diameter distance D A (z) and the Hubble parameter H(z) from DESI, Euclid, and WFIRST are given by ref. <ref type="bibr" coords="13,381,47,527,14,16,97,9,57" target="#b53">[52]</ref> and are shown in figure <ref type="figure" coords="13,514,83,527,14,4,24,9,57">6</ref>.</p><p>For simplicity, we do not attempt to combine all the BAO data in a statistically consistent way, which would involve properly treating overlapping volumes and overlapping samples between the surveys as well as correlations between the BAO data. Instead, we keep only the data point of the smallest error at each redshift and neglect correlations between the BAO data.</p><p>• The redshift distribution and error model of the WFIRST SNe Ia data are adopted from ref. <ref type="bibr" coords="13,157,11,630,44,16,00,9,57" target="#b54">[53]</ref>. There is a total of 2725 SNe Ia in the redshift range 0.1 &lt; z &lt; 1.7. The errors of the distance modulus are assumed to be independent between different SNe Ia and follow a redshift-dependent Gaussian distribution with a total variance</p><formula xml:id="formula_12" coords="13,242,69,678,05,280,62,14,27">σ 2 µ = σ 2 int + σ 2 meas + σ 2 lens + σ 2 sys ,<label>(3.1)</label></formula><p>where σ int = 0.09 is the intrinsic spread of the SN Ia peak absolute magnitude (after correction for the light-curve shape and spectral properties), σ meas = 0.08 is the photome--10 -JCAP10(2019)006 try error, σ lens = 0.07z accounts for lensing magnification, and σ sys = 0.02/(1 + z)/1.8 is attributed to potential systematics.</p><p>The parameters to be estimated from each ΛJDF * dataset are the same as those in section 3.1, and there are 3515 degrees of freedom in total. One may worry that ignoring the correlations between the data can lead to unduly tight constraints on the EoS. Since we only need to check the significance of spurious features in the EoS that is reconstructed with more data, ignoring the correlations does not affect the result qualitatively.</p><p>The left panel of figure <ref type="figure" coords="14,218,92,554,51,5,45,9,57" target="#fig_9">7</ref> displays three randomly selected examples of the reconstructed dark energy EoS from ΛJDF * datasets (blue bands) along with the ones from corresponding ΛJD16 * datasets (grey bands). The reduction of the uncertainties of the reconstructed EoS with future SNe Ia and BAO data is quite notable. However, the preference for dynamical dark energy, as quantified by ∆χ 2 data , can become even stronger for some ΛJDF * datasets. In fact, the ∆χ 2 data histogram of the ΛJDF * results in figure <ref type="figure" coords="14,360,82,622,26,5,45,9,57" target="#fig_9">7</ref> is shifted towards more negative values with respect to that of the ΛJD16 * results in figure <ref type="figure" coords="14,358,06,635,81,4,24,9,57" target="#fig_8">5</ref>. On average, the ΛJDF * datasets increase |∆χ 2 data | by 1.72 over that of the ΛJD16 * datasets. The occurrence of the moderatewiggle group and the strong-wiggle group is also increased, respectively, from 619 cases and 69 cases to 724 cases and 100 cases out of 1000 realizations. There are now 171 cases reaching |∆χ 2 data | ≥ 9, more than doubling those of the ΛJD16 * results. Hence, there is no guarantee that non-parametric reconstruction of the dark energy EoS with the correlation prior can eliminate spurious EoS features with more data.</p><p>-11 -</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JCAP10(2019)006 4 Summary</head><p>We have carried out a number of tests on non-parametric reconstruction of the dark energy EoS with the correlation prior as proposed by refs. <ref type="bibr" coords="15,343,65,128,07,16,00,9,57" target="#b26">[26]</ref>. While we obtain an oscillating EoS similar to that in ref. <ref type="bibr" coords="15,222,89,141,62,16,97,9,57" target="#b10">[11]</ref> using largely the same set of observational data, highly resemblant results can also be obtained from ΛJD16 * mock datasets of existing observations that are generated under the flat ΛCDM model. The ΛJDF * mocks that include future SN Ia and BAO data reduce the EoS uncertainties considerably, though they actually increase the occurrence of significant spurious features in the reconstructed EoS. For instance, the fraction of realizations that prefers dynamical dark energy to the cosmological constant at ≥ 3σ level is 7.2% with the ΛJD16 * mocks and is boosted to 17.1% with the ΛJDF * mocks. It is evident that, with the correlation prior, adding more data does not necessarily recover the true EoS.</p><p>Figure <ref type="figure" coords="15,144,01,250,61,5,45,9,57" target="#fig_4">4</ref> demonstrates that the source of the oscillating EoS features can be traced to random errors in the data. However, random errors always exist and can produce all sorts of modes in the EoS. Once the poorly determined high-frequency EoS modes are suppressed by the correlation prior, the EoS uncertainties become small enough to give a good chance for the surviving slowly-oscillating modes to stand out at high significance. In other words, even though those poorly determined high-frequency EoS modes are undesirable, they are part of the complete statistical description of the reconstructed EoS without which one would severely underestimate the uncertainties of the EoS.</p><p>Since random errors in the data can generate time-varying EoS modes that behave like dynamical dark energy, it would be difficult to draw a conclusion based on existing results. As such, more studies of the correlation prior and reconstruction method are needed to accurately determine the dark energy EoS and test it against theoretical models.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="7,84,95,275,38,438,36,9,68;7,84,95,287,36,438,35,9,65;7,84,95,299,32,351,42,8,74"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Left panel: eigenspectrum of the correlation prior with σ w = 0.04, a c = 0.06, N = 20 and a min = 0.4. The eigenmodes are ordered by the number of zero-crossing nodes. The inset is a zoom-in of the first 8 modes. Right panel: the first six eigenmodes in redshift coordinate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="8,84,95,275,39,340,81,8,77;8,425,76,273,84,4,08,6,12;8,434,46,275,42,88,84,8,74;8,84,95,287,37,242,11,8,74"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Dark energy EoS reconstructed from JD16 (red band) and JD16 * (blue squares). The band and error bars indicate the marginalized 1σ error.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="10,84,95,280,86,409,34,8,77;10,494,29,278,58,4,08,6,12;10,498,87,280,89,24,44,8,74;10,84,95,292,84,438,36,8,74;10,84,95,304,80,438,36,8,74;10,84,95,316,75,438,36,8,74;10,84,95,328,71,438,35,8,74;10,84,95,340,66,97,81,8,74"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Left panel: dark energy EoS (red band) reconstructed from a realization of ΛJD16 * . The grey band is the result with all the data set exactly by the fiducial ΛCDM model. Right panel: mock data of the angular diameter distance and the Hubble parameter scaled by corresponding values of the fiducial ΛCDM model. For SNe Ia, the angular diameter distances are converted from their luminosity distances and the uncertainties are omitted for clarity. The red solid lines are the predictions of the best-fit wCDM model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="10,109,34,550,31,413,97,9,57;10,84,95,563,86,438,36,9,57;10,84,95,577,41,438,35,9,57;10,84,95,590,96,438,36,9,57;10,84,95,604,51,438,35,9,57;10,84,95,618,05,438,36,9,57;10,84,95,631,60,219,03,9,57"><head>Figure 4</head><label>4</label><figDesc>Figure 4 displays nine randomly selected examples of the reconstructed EoS (red bands).In seven of the nine examples, the recovered EoS deviates from the fiducial model w = -1 by more than 1σ at least once over the whole redshift range. Because of the overall constraint from the distance to the last scattering surface, it is unlikely for the recovered dark energy EoS to always stay above or below w = -1. Therefore, a departure of the EoS in one bin from w = -1 often causes the EoS in other bin(s) to deviate in the opposite direction for compensation, producing a wiggle in the EoS.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="11,84,95,406,88,392,51,8,77;11,477,46,404,61,4,08,6,12;11,485,01,406,91,38,30,8,74;11,84,95,418,87,438,36,8,74;11,84,95,430,82,197,07,8,74;11,282,03,429,25,3,97,6,12;11,282,03,435,69,15,46,6,12;11,301,30,430,82,95,64,8,74"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Randomly selected examples of the dark energy EoS reconstructed from ΛJD16 * datasets. The red bands are the original results, and the blue bands are those with all the random errors of the data inverted. The panels are ordered by ∆χ 2 data of the original results.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="11,149,57,715,15,4,23,6,99;11,149,57,721,81,10,82,6,99;11,165,37,717,10,37,97,9,57;11,203,33,715,15,4,23,6,99;11,203,33,722,43,16,47,6,99;11,220,30,717,10,303,01,9,57;11,292,31,771,90,23,64,9,57;12,545,40,221,97,23,58,269,96;12,139,79,328,49,131,41,14,39;12,203,70,339,70,4,07,12,09;12,203,29,345,69,8,92,12,09;12,103,06,314,84,12,10,14,39;12,103,06,282,47,12,10,14,39;12,103,06,250,09,12,10,14,39;12,103,06,217,71,12,10,14,39;12,103,06,185,33,12,10,14,39;12,103,06,152,95,12,10,14,39;12,81,55,239,14,20,15,6,77;12,127,94,149,22,14,84,20,15;12,145,01,86,69,88,23,17,27;12,269,78,86,69,106,13,17,27;12,412,47,86,69,93,00,17,27;12,325,78,328,49,9,68,14,39;12,371,15,328,49,9,68,14,39;12,418,93,328,49,4,84,14,39;12,461,10,328,49,4,84,14,39;12,379,58,339,70,4,07,12,09;12,379,17,345,70,14,40,12,09;12,303,16,149,22,15,08,20,15"><head>8 -</head><label>8</label><figDesc>2 tot and ∆χ 2 data . Highly significant spurious signals of dynamical dark energy -</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="12,84,95,374,01,173,71,8,77;12,258,66,372,46,3,97,6,12;12,258,66,378,54,10,20,6,12;12,269,36,374,04,19,94,8,74;12,289,30,372,46,3,97,6,12;12,289,30,378,90,15,46,6,12;12,305,25,374,04,139,90,8,74;12,445,16,371,73,4,08,6,12;12,452,21,374,04,71,10,8,74;12,84,95,385,99,438,36,8,74;12,84,95,397,95,438,36,8,74;12,84,95,409,90,192,97,8,74;12,277,92,407,60,4,08,6,12;12,285,20,409,90,238,10,8,74;12,84,95,421,86,438,36,8,74;12,84,95,433,81,372,67,8,74;12,457,62,432,24,3,97,6,12;12,457,62,438,32,10,20,6,12;12,471,16,433,81,33,43,8,74;12,504,59,432,24,3,97,6,12;12,504,59,438,67,15,46,6,12;12,520,54,433,81,2,77,8,74"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Distributions of the best-fit χ 2 tot , ∆χ 2 data , and p-values of the 1000 ΛJD16 * datasets. Panels (a) and (b): green crosses, blue dots, and red squares represent, respectively, the weak-wiggle group, the moderate-wiggle group, and the strong-wiggle group. See text for definitions of the three groups. The blue diamond corresponds to the ΛJD16 * result in figure 3, which belongs to the moderate-wiggle group. The color-coding is the same for the other panels. Panel (c): stacked histogram of the KS-test p-values of the mock datasets. Panels (d) and (e): stacked histograms of the best-fit χ 2 tot and ∆χ 2 data .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="14,84,95,343,57,310,70,8,77;14,395,64,341,30,4,08,6,12;14,404,15,343,60,119,16,8,74;14,84,95,355,56,433,77,8,74;14,518,73,353,26,4,08,6,12;14,84,95,367,51,278,99,8,74;14,363,94,365,94,3,97,6,12;14,363,94,372,38,15,46,6,12;14,379,90,367,51,143,41,8,74;14,84,95,379,47,68,66,8,74"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Results of dark energy EoS reconstruction from the ΛJDF * datasets. Left panel: three randomly selected examples of the reconstructed EoS (blue) along with their corresponding ΛJD16 * results (grey). Right panel: stacked histogram of the best-fit ∆χ 2 data . The color-coding is the same as that in figure 5.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="4,101,54,685,55,91,05,7,86"><p>https://www.lsst.org/.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1" coords="4,101,54,696,51,103,02,7,86"><p>http://sci.esa.int/euclid/.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2" coords="4,101,54,707,47,80,69,7,86"><p>http://desi.lbl.gov/.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3" coords="4,101,54,718,43,113,32,7,86"><p>http://wfirst.gsfc.nasa.gov/.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_4" coords="7,101,54,685,55,167,87,7,86"><p>https://github.com/xyh-cosmo/ClassMC.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5" coords="7,101,54,696,51,157,79,7,86"><p>https://github.com/xyh-cosmo/imcmc.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_6" coords="7,101,54,707,47,146,01,7,86"><p>https://github.com/cmbant/getdist.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_7" coords="7,101,54,718,43,396,22,7,86"><p>Likelihood products: plik lite v18 TTTEEE.clik and lowl SMW 70 dx11d 2014 10 03 v5c Ap.clik.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>HZ acknowledges support from the <rs type="funder">National Science Foundation of China</rs> grant No. <rs type="grantNumber">11721303</rs>, the <rs type="funder">National Key R&amp;D Program of China</rs> grant No. <rs type="grantNumber">2016YFB1000605</rs>, and <rs type="institution">China Manned Space Program through the Space Application System</rs>. This research of YKEC has been supported in parts by the <rs type="funder">NSF China</rs> under Contract No. <rs type="grantNumber">11775110</rs>, and No. <rs type="grantNumber">11690034</rs>. YKEC also acknowledges the European Union's <rs type="programName">Horizon 2020 research and innovation programme (RISE)</rs> under the <rs type="grantName">Marie Sk ĺodowska-Curie</rs> grant agreement No. <rs type="grantNumber">644121</rs>, and the <rs type="programName">Priority Academic Program Development for Jiangsu Higher Education Institutions (PAPD)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wTrDmww">
+					<idno type="grant-number">11721303</idno>
+				</org>
+				<org type="funding" xml:id="_TPJXJ2t">
+					<idno type="grant-number">2016YFB1000605</idno>
+				</org>
+				<org type="funding" xml:id="_N5JMGuW">
+					<idno type="grant-number">11775110</idno>
+				</org>
+				<org type="funding" xml:id="_Jxewmmd">
+					<idno type="grant-number">11690034</idno>
+					<orgName type="grant-name">Marie Sk ĺodowska-Curie</orgName>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation programme (RISE)</orgName>
+				</org>
+				<org type="funding" xml:id="_x9TPPbV">
+					<idno type="grant-number">644121</idno>
+					<orgName type="program" subtype="full">Priority Academic Program Development for Jiangsu Higher Education Institutions (PAPD)</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A Fitting formulae for the CMB distance prior</head><p>The CMB distance prior consists of the acoustic scale l A , the shift parameter R, and the photon decoupling redshift z * . These quantities are calculated using the fitting formulae from refs. <ref type="bibr" coords="15,134,17,630,01,16,97,9,57" target="#b51">[50,</ref><ref type="bibr" coords="15,154,77,630,01,12,73,9,57" target="#b52">51]</ref>:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JCAP10(2019)006</head><p>where g 1 = 0.0783(Ω b h 2 ) -0.238 1 + 39.5(Ω b h 2 ) 0.763 , (A.4)</p><p>The angular diameter distance D A (z) and the sound horizon r s (z) are defined as:</p><p>where Ω γ is the radiation density parameter.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,107,38,312,35,393,22,9,30;16,107,38,324,27,339,03,8,77;16,107,38,336,26,136,62,8,74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Observational evidence from supernovae for an accelerating universe and a cosmological constant</title>
+		<author>
+			<orgName type="collaboration" coords="16,107,38,312,35,181,47,9,30">Supernova Search Team collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1086/300499</idno>
+		<idno>astro-ph/9805201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. J</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">1009</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,38,353,11,396,34,9,30;16,107,38,365,03,356,11,8,77" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Measurements of Ω and Λ from 42 high redshift supernovae</title>
+		<author>
+			<orgName type="collaboration" coords="16,107,38,353,11,216,49,9,30">Supernova Cosmology Project collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1086/307221</idno>
+		<idno>astro-ph/9812133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,381,91,406,01,8,74;16,107,38,393,83,280,26,8,77" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Dark energy and the accelerating universe</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Frieman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Huterer</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.astro.46.060407.145243</idno>
+		<idno type="arXiv">arXiv:0803.0982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">385</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,410,71,394,41,8,74;16,107,38,422,63,241,02,8,77" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The physics of cosmic acceleration</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">R</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Kamionkowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-nucl-010709-151330</idno>
+		<idno type="arXiv">arXiv:0903.0866</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Nucl. Part. Sci</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">397</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,439,48,401,49,8,77;16,107,38,451,47,131,39,8,74" xml:id="b4">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X.-D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0253-6102/56/3/24</idno>
+		<idno type="arXiv">arXiv:1103.5870</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Dark energy</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">525</biblScope>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,468,31,411,12,8,74;16,107,38,480,24,403,55,8,77;16,107,38,492,22,180,65,8,74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dark energy cosmology: the equivalent description via different theoretical models and cosmography tests</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Bamba</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Capozziello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Nojiri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">D</forename><surname>Odintsov</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10509-012-1181-8</idno>
+		<idno type="arXiv">arXiv:1205.3421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page">155</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,509,07,372,65,8,74;16,107,38,521,00,396,64,8,77;16,107,38,532,98,44,08,8,74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Observational probes of cosmic acceleration</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">H</forename><surname>Weinberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Mortonson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Eisenstein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Riess</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Rozo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physrep.2013.05.001</idno>
+		<idno type="arXiv">arXiv:1201.2434</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rept</title>
+		<imprint>
+			<biblScope unit="volume">530</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,549,83,331,28,8,74;16,107,38,561,75,376,87,8,77;16,107,38,573,74,44,08,8,74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Parameterization of dark-energy properties: a principal-component approach</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Huterer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Starkman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.90.031301</idno>
+		<idno>astro-ph/0207517</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">31301</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,590,56,415,94,8,77;16,107,38,602,54,136,62,8,74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Reconstructing dark energy</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Sahni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Starobinsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/S0218271806009704</idno>
+		<idno>astro-ph/0610026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mod. Phys. D</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">2105</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,619,39,415,94,8,74;16,107,38,631,31,345,84,8,77" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Examining the evidence for dynamical dark energy</title>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">G</forename><surname>Crittenden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Pogosian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.109.171301</idno>
+		<idno type="arXiv">arXiv:1207.3804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">171301</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,648,16,395,94,8,77;16,107,38,660,14,185,88,8,74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Dynamical dark energy in light of the latest observations</title>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41550-017-0216-z</idno>
+		<idno type="arXiv">arXiv:1701.08165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Astron</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">627</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,676,99,365,38,8,74;16,107,38,688,92,382,69,8,77" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Constraints on parameterized dark energy properties from new observations with principal component analysis</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.astropartphys.2016.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astropart. Phys</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,107,37,705,79,408,77,8,74;16,107,38,717,72,366,00,8,77" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evolution of dark energy reconstructed from the latest observations</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Pogosian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Zucca</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/aaf238</idno>
+		<idno type="arXiv">arXiv:1807.03772</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">869</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="16,289,58,771,90,29,09,9,57;17,545,40,221,97,23,58,269,96" xml:id="b13">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,107,37,89,11,411,31,8,74;17,107,38,101,03,250,68,8,77" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Reconstruction of the dark energy equation of state from the latest observations</title>
+		<author>
+			<persName coords=""><forename type="first">J.-P</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J.-Q</forename><surname>Xia</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aab49a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">857</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,119,05,356,15,8,74;17,107,38,130,97,365,95,8,77" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Non-parametric dark energy reconstruction using the tomographic Alcock-Paczynski test</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/ab1ea4</idno>
+		<idno type="arXiv">arXiv:1902.09794</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">878</biblScope>
+			<biblScope unit="page">137</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,148,99,412,57,8,74;17,107,38,160,91,403,98,8,77;17,107,38,172,90,131,39,8,74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">No evidence for dark energy dynamics from a global analysis of cosmological data</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Serra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Cooray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">E</forename><surname>Holz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Melchiorri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Pandolfi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Sarkar</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.80.121302</idno>
+		<idno type="arXiv">arXiv:0908.3186</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">121302</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,190,88,411,03,8,74;17,107,38,202,81,239,42,8,77" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Nonparametric dark energy reconstruction from supernova data</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Holsclaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.105.241302</idno>
+		<idno type="arXiv">arXiv:1011.3079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">241302</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,220,82,407,44,8,74;17,107,38,232,75,404,51,8,77" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">New constraints on the dark energy equation of state</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Said</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Baccigalupi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Martinelli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Melchiorri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Silvestri</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.88.043515</idno>
+		<idno type="arXiv">arXiv:1303.4353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">43515</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,250,76,412,39,8,74;17,107,38,262,69,272,65,8,77" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Estimating the uncorrelated dark energy evolution in the Planck era</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><forename type="middle">G</forename><surname>Dai</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.89.023004</idno>
+		<idno type="arXiv">arXiv:1312.4613</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page">23004</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,38,280,70,401,28,9,30;17,107,38,292,63,257,92,8,77" xml:id="b20">
+	<analytic>
+		<author>
+			<orgName type="collaboration" coords="17,107,38,280,70,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201525814</idno>
+		<idno type="arXiv">arXiv:1502.01590</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Planck 2015 results. XIV. Dark energy and modified gravity</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,310,64,401,98,8,74;17,107,38,322,60,404,63,8,74;17,107,38,334,52,286,63,8,77" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Constraining the dark energy equation of state using Bayes theorem and the Kullback-Leibler divergence</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Hee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">J</forename><surname>Handley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">P</forename><surname>Hobson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">N</forename><surname>Lasenby</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stw3102</idno>
+		<idno type="arXiv">arXiv:1607.00270</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">466</biblScope>
+			<biblScope unit="page">369</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,352,54,406,43,8,74;17,107,38,364,49,309,75,8,74" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Observational constraints on the dark energy equation of state</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">J M</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1904.11068</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Sao Paulo U., Sao Paulo, Brazil</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Ph.D. thesis. INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,382,45,406,89,8,77;17,107,38,394,43,200,82,8,74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Uncorrelated estimates of dark energy evolution</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Huterer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Cooray</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.71.023506</idno>
+		<idno>astro-ph/0404062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">23506</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,412,42,391,36,8,74;17,107,38,424,35,329,14,8,77" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Investigating dark energy experiments with principal components</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">G</forename><surname>Crittenden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Pogosian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2009/12/025</idno>
+		<idno>astro-ph/0510293</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,442,36,402,72,8,74;17,107,38,454,29,335,62,8,77" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Reconstruction of the dark energy equation of state</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Bridges</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">P</forename><surname>Hobson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">N</forename><surname>Lasenby</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2012/09/020</idno>
+		<idno type="arXiv">arXiv:1205.0847</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">09</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,472,30,415,93,8,74;17,107,38,484,23,409,16,8,77;17,107,38,496,21,44,08,8,74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fables of reconstruction: controlling bias in the dark energy equation of state</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">G</forename><surname>Crittenden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Pogosian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Samushia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2012/02/048</idno>
+		<idno type="arXiv">arXiv:1112.1693</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">02</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,514,20,371,53,8,74;17,107,38,526,15,125,85,9,02" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lesgourgues</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1104.2932</idno>
+		<title level="m">The Cosmic Linear Anisotropy Solving System (CLASS) I: overview</title>
+		<imprint/>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,544,14,415,49,8,74;17,107,38,556,06,347,41,8,77" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Cosmic Linear Anisotropy Solving System (CLASS) II: approximation schemes</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lesgourgues</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Tram</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2011/07/034</idno>
+		<idno type="arXiv">arXiv:1104.2933</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">07</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,574,08,405,45,8,74;17,107,38,586,00,113,12,8,77" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Ensemble samplers with affine invariance</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Weare</surname></persName>
+		</author>
+		<idno type="DOI">10.2140/camcos.2010.5.65</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Appl. Math. Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,107,37,604,02,389,48,8,74;17,107,38,615,94,319,59,8,77" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Reconstructing the cosmic expansion history with a monotonicity prior</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y.-K</forename><forename type="middle">E</forename><surname>Cheung</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2018/03/045</idno>
+		<idno type="arXiv">arXiv:1710.02947</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">03</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,633,96,404,56,8,74;17,107,38,645,88,331,80,8,77;17,107,38,657,87,136,62,8,74" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Perturbations of the quintom models of dark energy and the effects on observations</title>
+		<author>
+			<persName coords=""><forename type="first">G.-B</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J.-Q</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.72.123515</idno>
+		<idno>astro-ph/0507482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">123515</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,37,675,85,395,35,8,74;17,107,38,687,78,253,86,8,77" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Dark energy perturbations revisited</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Brandenberger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2011.06.061</idno>
+		<idno type="arXiv">arXiv:1008.1684</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">702</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,107,38,705,79,390,24,9,30;17,107,38,717,72,288,73,8,77" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Planck 2015 results. I. Overview of products and scientific results</title>
+		<author>
+			<orgName type="collaboration" coords="17,107,38,705,79,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201527101</idno>
+		<idno type="arXiv">arXiv:1502.01582</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="17,289,58,771,90,29,09,9,57;18,545,40,221,97,23,58,269,96" xml:id="b34">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,107,38,89,11,413,88,9,30;18,107,38,101,03,358,87,8,77" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Planck 2015 results. XI. CMB power spectra, likelihoods and robustness of parameters</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,89,11,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201526926</idno>
+		<idno type="arXiv">arXiv:1507.02704</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,118,00,403,37,9,30;18,107,38,129,92,331,25,8,77" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Improved photometric calibration of the SNLS and the SDSS supernova surveys</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,118,00,85,12,9,30">SDSS collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201220610</idno>
+		<idno type="arXiv">arXiv:1212.4864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">552</biblScope>
+			<biblScope unit="page">124</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,146,89,415,93,9,30;18,107,38,158,81,403,32,8,77" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Improved cosmological constraints from a joint analysis of the SDSS-II and SNLS supernova samples</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,146,89,84,76,9,30">SDSS collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201423413</idno>
+		<idno type="arXiv">arXiv:1401.4064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">568</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,175,78,408,99,9,30;18,107,38,187,74,406,02,8,74;18,107,38,199,66,335,30,8,77" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: tomographic BAO analysis of DR12 combined sample in Fourier space</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,175,78,86,87,9,30">BOSS collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stw3199</idno>
+		<idno type="arXiv">arXiv:1607.03153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">466</biblScope>
+			<biblScope unit="page">762</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,216,63,408,99,9,30;18,107,38,228,58,401,21,8,74;18,107,38,240,51,368,77,8,77" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The clustering of galaxies in the completed SDSS-III Baryon Oscillation Spectroscopic Survey: tomographic BAO analysis of DR12 combined sample in configuration space</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,216,63,86,87,9,30">BOSS collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stx1090</idno>
+		<idno type="arXiv">arXiv:1607.03154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">469</biblScope>
+			<biblScope unit="page">3762</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,257,47,409,21,8,74;18,107,38,269,40,388,08,8,77" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A 6% measurement of the Hubble parameter at z ∼ 0.45: direct evidence of the epoch of cosmic re-acceleration</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Moresco</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2016/05/014</idno>
+		<idno type="arXiv">arXiv:1601.01701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">05</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,286,37,415,01,8,74;18,107,38,298,29,201,40,8,77" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A 2.4% determination of the local value of the Hubble constant</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Riess</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/0004-637X/826/1/56</idno>
+		<idno type="arXiv">arXiv:1604.01424</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">826</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,315,26,406,44,9,30;18,107,38,327,18,288,48,8,77" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Baryon Acoustic Oscillations in the Lyα forest of BOSS DR11 quasars</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,315,26,86,87,9,30">BOSS collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201423969</idno>
+		<idno type="arXiv">arXiv:1404.1801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">574</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,344,15,399,72,8,74;18,107,38,356,07,377,29,8,77" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The 6dF galaxy survey: Baryon Acoustic Oscillations and the local Hubble constant</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Beutler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2966.2011.19250.x</idno>
+		<idno type="arXiv">arXiv:1106.3366</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">416</biblScope>
+			<biblScope unit="page">3017</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,373,04,410,65,8,74;18,107,38,385,00,403,98,8,74;18,107,38,396,92,303,82,8,77" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The clustering of the SDSS DR7 main galaxy sample -I. A 4 per cent distance measure at z = 0.15</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Samushia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Howlett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">J</forename><surname>Percival</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Burden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Manera</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stv154</idno>
+		<idno type="arXiv">arXiv:1409.3242</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page">835</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,413,89,386,29,8,74;18,107,38,425,81,306,37,8,77" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The WiggleZ dark energy survey: final data release and cosmological results</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Parkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.86.103518</idno>
+		<idno type="arXiv">arXiv:1210.2130</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">103518</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,442,78,404,82,8,74;18,107,38,454,71,408,16,8,77;18,107,38,466,69,154,63,8,74" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">CFHTLenS tomographic weak lensing cosmological parameter constraints: mitigating the impact of intrinsic galaxy alignments</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Heymans</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stt601</idno>
+		<idno type="arXiv">arXiv:1303.1808</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. Roy. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">432</biblScope>
+			<biblScope unit="page">2433</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,483,60,414,31,8,77;18,107,38,495,58,154,88,8,74" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Distance priors from Planck 2015 data</title>
+		<author>
+			<persName coords=""><forename type="first">Q.-G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2015/12/022</idno>
+		<idno type="arXiv">arXiv:1509.00969</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,512,52,413,66,9,30;18,107,38,524,44,208,87,8,77" xml:id="b48">
+	<analytic>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,512,52,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201525830</idno>
+		<idno type="arXiv">arXiv:1502.01589</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Planck 2015 results. XIII. Cosmological parameters</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page">13</biblScope>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,541,41,406,14,9,30;18,107,38,553,34,385,33,8,77" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Planck 2015 results. VIII. High frequency instrument data processing: calibration and maps</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,541,41,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201525820</idno>
+		<idno type="arXiv">arXiv:1502.01587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,570,30,408,15,9,30;18,107,38,582,26,44,08,8,74" xml:id="b50">
+	<monogr>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,570,30,95,54,9,30">Planck collaboration</orgName>
+		</author>
+		<idno type="arXiv">arXiv:1807.06209</idno>
+		<title level="m">Planck 2018 results. VI. Cosmological parameters</title>
+		<imprint/>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,599,19,402,21,8,74;18,107,38,611,12,277,88,8,77" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Observational constraints on dark energy and cosmic curvature</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.76.103533</idno>
+		<idno>astro-ph/0703780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">103533</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,38,628,09,363,02,9,30;18,107,38,640,01,340,79,8,77;18,107,38,652,00,131,39,8,74" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Five-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: cosmological interpretation</title>
+		<author>
+			<orgName type="collaboration" coords="18,107,38,628,09,94,96,9,30">WMAP collaboration</orgName>
+		</author>
+		<idno type="DOI">10.1088/0067-0049/180/2/330</idno>
+		<idno type="arXiv">arXiv:0803.0547</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J. Suppl</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page">330</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,668,93,397,95,8,74;18,107,38,680,86,293,10,8,77" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">DESI and other dark energy experiments in the era of neutrino mass measurements</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Font-Ribera</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1475-7516/2014/05/023</idno>
+		<idno type="arXiv">arXiv:1308.4164</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCAP</title>
+		<imprint>
+			<biblScope unit="volume">05</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+<biblStruct coords="18,107,37,697,82,415,93,8,74;18,107,38,709,78,261,22,9,02" xml:id="b54">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Spergel</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1503.03757</idno>
+		<title level="m">Wide-Field InfrarRed Survey Telescope-Astrophysics Focused Telescope Assets WFIRST-AFTA 2015 report</title>
+		<imprint/>
+	</monogr>
+	<note>INSPIRE</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

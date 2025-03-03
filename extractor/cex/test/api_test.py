@@ -237,7 +237,7 @@ class TestApi(unittest.TestCase):
         os.remove(zip_file_path)
 
     def test_different_archives_targz(self):
-        pdf_file = open(os.path.join(BASE, 'prova_2_pdf_tar.gz'), 'rb')
+        pdf_file = open(os.path.join(BASE, 'prova_2_pdf.tar.gz'), 'rb')
 
         data = {
             'input_files_or_archives': pdf_file,

@@ -5,6 +5,7 @@ import traceback
 
 from html5lib.constants import namespaces
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
+from sympy.integrals.meijerint_doc import formula
 from torch.fx.experimental.unification.dispatch import namespace
 
 from extractor.cex.grobid_client.grobid_client import GrobidClient
@@ -36,7 +37,28 @@ class TEIXMLtoJSONConverter:
             nlp.tokenizer.add_special_case(word, tokens)
         return nlp
 
-    def test_model_segmentation(self, text):
+    def protect_formulas(self, text, formula_map):
+        """Sostituisce le formule matematiche con segnaposti unici"""
+        formula_pattern = r'([a-zA-Z]\s*=\s*-?\d+(\.\d+)?([eE][-+]?\d+)?)'  # Cattura es. 'w = -1'
+
+        def replace_formula(match):
+            key = f"FORMULA{len(formula_map)}"
+            formula_map[key] = match.group(0)
+            return key  # Sostituisce la formula con un segnaposto
+
+        return re.sub(formula_pattern, replace_formula, text)
+
+    def restore_formulas(self, sentences, formula_map):
+        """Ripristina le formule originali nei testi segmentati"""
+        return [self.replace_back(sentence, formula_map) for sentence in sentences]
+
+    def replace_back(self, sentence, formula_map):
+        """Sostituisce i segnaposti con le formule originali"""
+        for key, formula in formula_map.items():
+            sentence = sentence.replace(key, formula)
+        return sentence
+
+    def test_model_segmentation(self, text, formula_map):
         try:
             nlp = spacy.load("en_core_web_sm")
         except OSError:
@@ -45,8 +67,10 @@ class TEIXMLtoJSONConverter:
             nlp = spacy.load("en_core_web_sm")
 
         nlp = self.customize_tokenizer(nlp)
-        doc = nlp(text)
-        return [sent.text.strip() for sent in doc.sents]
+        protected_text = self.protect_formulas(text, formula_map)  # Protegge le formule
+        doc = nlp(protected_text)
+        sentences = [sent.text.strip() for sent in doc.sents]
+        return self.restore_formulas(sentences, formula_map)  # Ripristina le formule
 
     def build_dict_ref_citkey(self, xml, ns):
         refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
@@ -55,7 +79,7 @@ class TEIXMLtoJSONConverter:
             refs = refs + refs_in_notes
         return {ref: f"cit{i + 1}" for i, ref in enumerate(refs)}
 
-    def find_sentences_in_div(self, div, dict_to_check, ns):
+    def find_sentences_in_div(self, div, dict_to_check, ns, formula_map):
         # Extract all text from the <div> tag, including references
         text_to_segment = div.xpath(""".//tei:p/text() | .//tei:p/tei:ref""", namespaces=ns)
         processed_text = []
@@ -76,12 +100,11 @@ class TEIXMLtoJSONConverter:
             cleaned_text = re.sub(r'\s+([,;.])', r'\1', cleaned_text)  # Remove spaces before punctuation
             # Remove unnecessary whitespaces inside parentheses
             cleaned_text = re.sub(r'\(\s*(.*?)\s*\)', r'(\1)', cleaned_text)
-            return self.test_model_segmentation(cleaned_text)
+            return self.test_model_segmentation(cleaned_text, formula_map)
         return []
 
-
-    def find_sentences_in_div_superscripts(self, div, dict_to_check, ns):
-        sentences_to_modify = self.find_sentences_in_div(div, dict_to_check, ns)
+    def find_sentences_in_div_superscripts(self, div, dict_to_check, ns, formula_map):
+        sentences_to_modify = self.find_sentences_in_div(div, dict_to_check, ns, formula_map)
         for i, sentence in enumerate(sentences_to_modify):
             if i > 0:
                 # Check if the citation is at the start of the sentence and preceding sentence ends with a period
@@ -107,15 +130,15 @@ class TEIXMLtoJSONConverter:
                 sentence = sentence.replace(cit, ref_text)
         return sentence
 
-    def get_text_before_ref(self, ref, ns):
+    def get_text_before_ref(self, ref, ns, formula_map):
         preceding_text = ref.xpath('preceding-sibling::text()', namespaces=ns)
         text_before_ref = " ".join(preceding_text).strip() if preceding_text else ""
         text_before_ref = re.sub(r'^[^\w\s]+', '', text_before_ref)
-        sentences = self.test_model_segmentation(text_before_ref)
+        sentences = self.test_model_segmentation(text_before_ref, formula_map)
         text_before_ref = sentences[-1].strip() if sentences else ""
         return text_before_ref
 
-    def are_intext_reference_pointers_apexes(self, xml, ns):
+    def are_intext_reference_pointers_apexes(self, xml, ns, formula_map):
         refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
         numbers = 0
         with open(self.auxiliar_file, 'r') as file:
@@ -137,7 +160,7 @@ class TEIXMLtoJSONConverter:
             # Loop through each reference and extract preceding text
             preceding_texts = []
             for ref in refs:
-                preceding_text = self.get_text_before_ref(ref, ns)
+                preceding_text = self.get_text_before_ref(ref, ns, formula_map)
                 if preceding_text.endswith('.'):
                     list_words = preceding_text.strip().split(' ')
                     ending_word = list_words[-1]
@@ -164,6 +187,7 @@ class TEIXMLtoJSONConverter:
         root = tree.getroot()
         ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
+        formula_map = {}
         last_head = None
 
         # Precompute common elements
@@ -190,7 +214,7 @@ class TEIXMLtoJSONConverter:
                 n = note.get("n")
                 notes_text_with_refs.add(n)
 
-        superscipts = self.are_intext_reference_pointers_apexes(tree, ns)
+        superscipts = self.are_intext_reference_pointers_apexes(tree, ns, formula_map)
 
         if self.create_rdf:
             target = dict()
@@ -198,6 +222,8 @@ class TEIXMLtoJSONConverter:
         # Initialize storage for citations
         citations = {}
         for div in root.findall(".//tei:div", namespaces=ns):
+
+            formula_map = {}
 
             head = div.find("./tei:head", namespaces=ns)
             if head is not None:
@@ -232,9 +258,9 @@ class TEIXMLtoJSONConverter:
                     last_head = head_text
 
             if superscipts:
-                sentences = self.find_sentences_in_div_superscripts(div, ref_citkey_dict, ns)
+                sentences = self.find_sentences_in_div_superscripts(div, ref_citkey_dict, ns, formula_map)
             else:
-                sentences = self.find_sentences_in_div(div, ref_citkey_dict, ns)
+                sentences = self.find_sentences_in_div(div, ref_citkey_dict, ns, formula_map)
 
             # Checks if any foot-type references in the div match the set of known notes containing citations.
             # If they match, extracts additional sentences from those notes.
@@ -244,7 +270,7 @@ class TEIXMLtoJSONConverter:
                     for el in list(notes_text_with_refs):
                         if el in notes_text_in_div:
                             note_with_refs = root.find(f""".//tei:note[@n="{el}"]""", namespaces=ns)
-                            sentences += self.find_sentences_in_div(note_with_refs, ref_citkey_dict, ns)
+                            sentences += self.find_sentences_in_div(note_with_refs, ref_citkey_dict, ns, formula_map)
             # Replaces citation placeholders (cit1, cit2, etc.) with resolved reference data.
             if sentences:
                 processed_sentences = {
