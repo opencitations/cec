@@ -5,8 +5,6 @@ import traceback
 
 from html5lib.constants import namespaces
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
-from sympy.integrals.meijerint_doc import formula
-from torch.fx.experimental.unification.dispatch import namespace
 
 from extractor.cex.grobid_client.grobid_client import GrobidClient
 from lxml import etree
