@@ -20,4 +20,4 @@ scipy
 zstandard
 rdflib
 html5lib
--e git+https://github.com/opencitations/oc_ocdm.git
+git+https://github.com/opencitations/oc_ocdm.git#egg=oc_ocdm
