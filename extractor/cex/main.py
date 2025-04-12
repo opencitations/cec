@@ -19,6 +19,7 @@ from datetime import datetime
 import concurrent.futures
 from wtforms.validators import NumberRange
 import zstandard as zstd
+from .settings import *
 
 def get_all_files(folder_path):
     files = []
@@ -162,9 +163,9 @@ def create_app():
     logging.basicConfig(level=logging.DEBUG)
 
     app.config['SECRET_KEY'] = 'supersecretkey'
-    app.config['UPLOAD_FOLDER'] = 'static/files'
-    app.config['DOWNLOAD_FOLDER'] = 'static/output'
-    app.config['PROCESSING_FOLDER'] = 'static/processing'
+    app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+    app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
+    app.config['PROCESSING_FOLDER'] = PROCESSING_FOLDER
 
     os.makedirs(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exist_ok=True)
     os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
@@ -249,7 +250,7 @@ def create_app():
         @after_this_request
         def delete_zip(response):
             # Elimina il file dopo il download
-            folder_path = 'static/output'
+            folder_path = DOWNLOAD_FOLDER
             files = []
             dir = []
             for entry in os.scandir(folder_path):

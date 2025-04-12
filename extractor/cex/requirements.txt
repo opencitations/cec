@@ -21,3 +21,7 @@ zstandard
 rdflib
 html5lib
 git+https://github.com/opencitations/oc_ocdm.git#egg=oc_ocdm
+flask
+flask_wtf
+lxml
+spacy
