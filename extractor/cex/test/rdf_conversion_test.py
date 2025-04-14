@@ -26,6 +26,7 @@ class TestRDFConversion(unittest.TestCase):
     input_file2 = os.path.join(INPUT_FOLDER, "PHY-AST_95.grobid.tei.xml")
     json_file2 = os.path.join(INPUT_FOLDER, "PHY-AST_95.json")
     target_dict_phyast95 = {'cit1': 'b0', 'cit2': 'b1', 'cit3': 'b2', 'cit4': 'b3', 'cit5': 'b4', 'cit6': 'b5', 'cit7': 'b2', 'cit8': 'b6', 'cit9': 'b4', 'cit10': 'b5', 'cit11': 'b7', 'cit12': 'b8', 'cit13': 'b9', 'cit14': 'b10', 'cit15': 'b10', 'cit16': 'b11', 'cit17': 'b12', 'cit18': 'b13', 'cit19': 'b14', 'cit20': 'b15', 'cit21': 'b16', 'cit22': 'b17', 'cit23': 'b9', 'cit24': 'b18', 'cit25': 'b17', 'cit26': 'b19', 'cit27': 'b20', 'cit28': 'b21', 'cit29': 'b22', 'cit30': 'b18', 'cit31': 'b19', 'cit32': 'b20', 'cit33': 'b23', 'cit34': 'b15', 'cit35': 'b16', 'cit36': 'b17', 'cit37': 'b18', 'cit38': 'b19', 'cit39': 'b20', 'cit40': 'b21', 'cit41': 'b22', 'cit42': 'b23', 'cit43': 'b24', 'cit44': 'b25', 'cit45': 'b9', 'cit46': 'b26', 'cit47': 'b24', 'cit48': 'b27', 'cit49': 'b9', 'cit50': 'b28', 'cit51': 'b18', 'cit52': 'b23', 'cit53': 'b26', 'cit54': 'b19', 'cit55': 'b29', 'cit56': 'b26', 'cit57': 'b29', 'cit58': 'b30', 'cit59': 'b31', 'cit60': 'b26', 'cit61': 'b32', 'cit62': 'b27', 'cit63': 'b33', 'cit64': 'b31', 'cit65': 'b33', 'cit66': 'b18', 'cit67': 'b23', 'cit68': 'b26', 'cit69': 'b34', 'cit70': 'b28'}
+    
     @classmethod
     def setUpClass(cls):
         # Use your RDF conversion class to convert TEI XML to RDF

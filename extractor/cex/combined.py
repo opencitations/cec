@@ -73,8 +73,11 @@ class TEIXMLtoJSONConverter:
     def build_dict_ref_citkey(self, xml, ns):
         refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
         refs_in_notes = xml.xpath(".//tei:note//tei:ref[@type='bibr']", namespaces=ns)
+        refs_in_figures = xml.xpath(".//tei:figure/tei:figDesc/tei:ref[@type='bibr']", namespaces = ns)
         if refs_in_notes:
             refs = refs + refs_in_notes
+        if refs_in_figures:
+            refs = refs + refs_in_figures
         return {ref: f"cit{i + 1}" for i, ref in enumerate(refs)}
 
     def find_sentences_in_div(self, div, dict_to_check, ns, formula_map):
@@ -94,7 +97,7 @@ class TEIXMLtoJSONConverter:
         if processed_text:
             # Combine and clean text
             cleaned_text = ' '.join(processed_text)
-            cleaned_text = re.sub('\s+', ' ', cleaned_text)
+            cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
             cleaned_text = re.sub(r'\s+([,;.])', r'\1', cleaned_text)  # Remove spaces before punctuation
             # Remove unnecessary whitespaces inside parentheses
             cleaned_text = re.sub(r'\(\s*(.*?)\s*\)', r'(\1)', cleaned_text)
@@ -178,6 +181,32 @@ class TEIXMLtoJSONConverter:
             return title.strip()  # Otherwise, return the cleaned title
         else:
             return title
+    
+    def find_sentences_in_figure(self, figure, dict_to_check, ns, formula_map):
+        # Extract all text from the <div> tag, including references
+        text_to_segment = figure.xpath(""".//tei:figDesc/text() | .//tei:figDesc/tei:ref""", namespaces=ns)
+        processed_text = []
+        for elem in text_to_segment:
+            if isinstance(elem, etree._Element):  # <ref> tags
+                if elem.tag == f"{{{ns['tei']}}}ref" and elem.get("type") == "bibr" and elem in dict_to_check:
+                    processed_text.append(dict_to_check[elem])
+                else:
+                    if elem.text:
+                        processed_text.append(elem.text)
+            elif elem:  # Regular text
+                processed_text.append(elem)
+
+        if processed_text:
+            # Combine and clean text
+            cleaned_text = ' '.join(processed_text)
+            cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
+            cleaned_text = re.sub(r'\s+([,;.])', r'\1', cleaned_text)  # Remove spaces before punctuation
+            # Remove unnecessary whitespaces inside parentheses
+            cleaned_text = re.sub(r'\(\s*(.*?)\s*\)', r'(\1)', cleaned_text)
+            
+            return self.test_model_segmentation(cleaned_text, formula_map)
+            
+        return []
 
     def convert_to_json(self):
         #try to differentiate numerical in text pointers from strings
@@ -209,8 +238,8 @@ class TEIXMLtoJSONConverter:
         if refs_in_notes:
             for ref in refs_in_notes:
                 note = ref.xpath("./ancestor::tei:note[1]", namespaces=ns)[0]  # Move up to the <note> parent
-                n = note.get("n")
-                notes_text_with_refs.add(n)
+                xml_id = note.get("{http://www.w3.org/XML/1998/namespace}id")
+                notes_text_with_refs.add(xml_id)
 
         superscipts = self.are_intext_reference_pointers_apexes(tree, ns, formula_map)
 
@@ -267,8 +296,12 @@ class TEIXMLtoJSONConverter:
                 if notes_text_in_div:
                     for el in list(notes_text_with_refs):
                         if el in notes_text_in_div:
-                            note_with_refs = root.find(f""".//tei:note[@n="{el}"]""", namespaces=ns)
+                            note_with_refs = root.find(f""".//tei:note[@xml:id="{el}"]""", namespaces={
+                                                        "tei": "http://www.tei-c.org/ns/1.0",
+                                                        "xml": "http://www.w3.org/XML/1998/namespace"
+                                                        })
                             sentences += self.find_sentences_in_div(note_with_refs, ref_citkey_dict, ns, formula_map)
+            
             # Replaces citation placeholders (cit1, cit2, etc.) with resolved reference data.
             if sentences:
                 processed_sentences = {
@@ -281,8 +314,8 @@ class TEIXMLtoJSONConverter:
                         ref = next((k for k, v in ref_citkey_dict.items() if v == cit), None)
                         if ref is not None:
                             ref_text = ref.text.strip() if ref.text else ""
-                            citation_text = re.sub(r'\s+', ' ', processed_sentence)
-                            citation_text = re.sub(r'\s+([,;.])', r'\1', citation_text)
+                            citation_text = re.sub(r'/s+', ' ', processed_sentence)
+                            citation_text = re.sub(r'/s+([,;.])', r'\1', citation_text)
                             citations[cit] = {
                                 "SECTION": self.clean_section_title(last_head),
                                 "CITATION": citation_text,
@@ -292,6 +325,55 @@ class TEIXMLtoJSONConverter:
                                 target_attr = ref.get("target")  # Extract the target attribute
                                 if target_attr:
                                     target[cit] = target_attr.replace('#','')
+            
+        #references in figures
+        sentences_from_figures = set()
+        
+        figs_with_refs = list()
+        seen_coords = set()
+        refs_in_figs = root.findall(".//tei:figure//tei:ref[@type='bibr']", namespaces=ns)
+        if refs_in_figs:
+            for ref in refs_in_figs:
+                fig = ref.xpath("./ancestor::tei:figure[1]", namespaces=ns)[0]  # Move up to the <figure> parent
+                
+                # Get the coords attribute (or default to None)
+                coords = fig.get("coords")
+
+                # Skip if we've already seen this coords value
+                if coords in seen_coords:
+                    continue
+
+                # Otherwise, record it
+                seen_coords.add(coords)
+                figs_with_refs.append(fig)
+        
+        for fig in figs_with_refs:
+            sentences_from_figures.update(set(self.find_sentences_in_figure(fig, ref_citkey_dict, ns, formula_map)))
+
+        sentences_from_figures_list = list(sentences_from_figures)
+     
+        if sentences_from_figures_list:
+            processed_sentences = {
+                sentence: self.replace_citations(sentence, ref_citkey_dict)
+                for sentence in sentences_from_figures_list if "cit" in sentence
+            }
+
+            for i, (sentence, processed_sentence) in enumerate(processed_sentences.items()):
+                for cit in re.findall(r"cit\d+", sentence):
+                    ref = next((k for k, v in ref_citkey_dict.items() if v == cit), None)
+                    if ref is not None:
+                        ref_text = ref.text.strip() if ref.text else ""
+                        citation_text = re.sub(r'\s+', ' ', processed_sentence)
+                        citation_text = re.sub(r'\s+([,;.])', r'\1', citation_text)
+                        citations[cit] = {
+                            "SECTION": "Figure Caption",
+                            "CITATION": citation_text,
+                            "REFERENCE": ref_text
+                        }
+                        if self.create_rdf:
+                            target_attr = ref.get("target")  # Extract the target attribute
+                            if target_attr:
+                                target[cit] = target_attr.replace('#', '')
 
 
         # Save results to JSON

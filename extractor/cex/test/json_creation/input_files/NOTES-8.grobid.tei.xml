@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Design and Performance Comparison of Multi-Frequency Inductors for Megahertz Wireless Power Transfer</title>
+				<funder>
+					<orgName type="full">Imperial-MIT Seed Fund</orgName>
+				</funder>
+				<funder ref="#_XFnf8ne">
+					<orgName type="full">National Science Foundation Graduate Research Fellowship</orgName>
+				</funder>
+				<funder ref="#_xZdA8UV">
+					<orgName type="full">EPSRC Safe Power Delivery Using a Reconfigurable Mesh of Inductive Transceivers</orgName>
+				</funder>
+				<funder ref="#_tFzdmzr #_PgNRSbf">
+					<orgName type="full">EPSRC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IEEE</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-02-25">2024-02-25</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="2,101,22,151,27,69,58,9,50;2,170,80,149,00,1,41,6,99"><forename type="first">Rachel</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,182,11,151,27,84,20,9,50;2,266,30,149,00,2,01,6,99"><forename type="first">Ioannis</forename><surname>Nikiforidis</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<address>
+									<settlement>Bumblebee Power</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,281,40,151,27,60,45,9,50;2,341,85,149,00,1,88,6,99"><forename type="first">Nunzio</forename><surname>Pucci</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,352,69,151,27,75,35,9,50;2,428,04,149,00,1,41,6,99"><forename type="first">Mansi</forename><forename type="middle">V</forename><surname>Joisher</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,439,35,151,27,64,43,9,50;2,503,78,149,00,1,88,6,99"><forename type="first">Prateek</forename><surname>Wagle</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,205,27,164,09,83,91,9,50;2,289,18,161,82,2,01,6,99"><forename type="first">Paul</forename><forename type="middle">D</forename><surname>Mitcheson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<address>
+									<settlement>Bumblebee Power</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="2,321,20,164,09,80,80,9,50;2,402,00,161,82,1,41,6,99"><forename type="first">David</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Design and Performance Comparison of Multi-Frequency Inductors for Megahertz Wireless Power Transfer</title>
+					</analytic>
+					<monogr>
+						<title level="m">2024 IEEE Applied Power Electronics Conference and Exposition (APEC)</title>
+						<imprint>
+							<publisher>IEEE</publisher>
+							<biblScope unit="page" from="861" to="868"/>
+							<date type="published" when="2024-02-25" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">0135A8F49413F03CAD4E3DD8CFE3D817</idno>
+					<idno type="DOI">10.1109/apec48139.2024.10509134</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-04-12T09:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High frequency inductors</term>
+					<term>inductive power transfer</term>
+					<term>resonant converters</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In MHz inductive power transfer, inductors are crucial parts of the primary coil driver circuitry but, given the highly efficient Gallium Nitride (GaN) devices, dominate the losses. These inductors must often conduct current at multiple frequencies, making it challenging to design them with low loss. In this paper, we provide a streamlined process for designing low-loss inductors for multi-frequency MHz applications that leverages a previously-developed modified pot (MP) core structure. Using this design process, we design an MP inductor and integrate it into the ϕ-branch of a 13.56 MHz, 70 W Class EF 2 inverter, which conducts significant current at the fundamental, second and third harmonics. We quantitatively evaluate its performance by conducting a comprehensive comparison with a variety of air-core and ferrite-core inductors. The power losses in the MP inductor were less than half that of the matched comparison air-core and cored inductors, which resulted in a 0.4% increase in system efficiency over the best comparison inductor, corresponding to a 6% reduction in total system loss.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>High-Frequency Inductive Power Transfer (HF-IPT) exploits the fact that large diameter, high quality factor (Q) MHz air-core inductors can be realized and used in the magnetic link, allowing much lighter systems to be created than by using kHz, ferrite-enhanced counterparts <ref type="bibr" coords="2,194,30,481,16,10,58,8,64" target="#b0">[1]</ref>. A large diameter coil with high Q can enable meaningful power transfer distance with high link efficiency <ref type="bibr" coords="2,162,77,505,07,30,70,8,64">[2], [3]</ref>. This coil can then be combined with Class E-type circuit topologies that are tolerant to load variations (e.g. Class EF topologies) to make a practical system <ref type="bibr" coords="2,80,13,540,94,26,87,8,64">[4]-[9]</ref>.</p><p>The efficiency of HF-IPT coil drivers has been improving, partly through the use of wide bandgap technology, such as GaN and Silicon Carbide (SiC) <ref type="bibr" coords="2,181,41,576,76,39,26,8,64">[10], [11]</ref> and partly through detailed modeling and optimisation <ref type="bibr" coords="2,198,24,588,72,15,27,8,64" target="#b11">[12]</ref>. Now, the dominant sources of losses are the inductors (other than the primary coil) present in the coil drivers.</p><p>In several Class EF inverter designs (for example, see Fig. <ref type="figure" coords="2,69,07,636,50,3,60,8,64" target="#fig_0">1</ref>), the lossiest inductor is the ϕ-branch inductor (L ϕ ). The addition of the ϕ-branch enhances the range of design capabilities compared to the traditional Class E inverter <ref type="bibr" coords="2,534,16,372,72,16,60,8,64" target="#b12">[13]</ref> by providing two extra degrees of freedom. This enables higher power capability of the inverter with lower device stresses, more effective absorption of the device non-linear output capacitance, and load-independence with a finite choke <ref type="bibr" coords="2,548,93,420,54,14,11,8,64;2,311,98,432,49,15,27,8,64">[4], [12]</ref>. However, this comes with the cost of the current in the ϕ-branch inductor (L ϕ ) often being close in magnitude to that of the primary coil (L s1 ). Because of this, the losses in the ϕ-branch inductor can be significant if its Q is not sufficiently large. Indeed, air-core ϕ-branch inductors have been shown to consume around 20 % of the total losses <ref type="bibr" coords="2,481,38,492,27,15,27,8,64" target="#b11">[12]</ref>.</p><p>Moreover, the ϕ-branch current can contain substantial harmonic components up to the third order. These harmonics can play a significant role in how this inductor should be ideally optimised. A bespoke inductor solution, which accounts for these higher order harmonics, would add a degree of freedom in the optimisation process, making it easier to minimise the losses in the ϕ-branch.</p><p>Additionally, for practicality, the ϕ-branch inductor must be much smaller than the transmit and receive coils in the HF-IPT system. Recent work has shown that small, low-loss inductors may be achieved for frequencies in the tens of MHz by using cored designs <ref type="bibr" coords="2,371,35,637,40,15,27,8,64" target="#b13">[14]</ref>. This suggests that cored components can be used in HF-IPT systems without sacrificing the overall light-weight benefits of MHz operation.</p><p>In this work, we designed and built a low-loss cored inductor for the ϕ-branch of a 13.56 MHz, 70 W Class EF 2 inverter <ref type="bibr" coords="2,345,17,698,00,16,60,8,64" target="#b11">[12]</ref> (Fig. <ref type="figure" coords="2,386,38,698,00,3,60,8,64" target="#fig_0">1</ref>). This inductor achieves low loss by using a modified pot core (MP) structure that is well-suited for the    multi-frequency MHz ϕ-branch current. We then conducted an experimental comparison with five different inductors, including the MP inductor, applied on the ϕ-branch of the Class EF 2 inverter. The MP inductor significantly outperformed the other inductors, achieving less than half the power loss, which resulted in a 0.4 % increase in system efficiency over the best comparison inductor, corresponding to a 6 % reduction in total system loss.</p><p>In this paper, we detail the streamlined design process used to achieve such a low-loss inductor for multi-frequency MHz applications with the MP structure. We then discuss the design of the comparison inductors. Finally, we present the experimental setup as well as the component and system performance of all five tested inductors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. A ϕ-BRANCH INDUCTOR DESIGN USING A MODIFIED POT CORE STRUCTURE</head><p>For the example 13.56 MHz Class EF 2 inverter, the ϕbranch current has a main frequency of operation at the second harmonic. This current, shown in Fig. <ref type="figure" coords="3,209,33,602,13,3,74,8,64" target="#fig_1">2</ref>, also has substantial fundamental and third harmonic components. Therefore, to achieve a low-loss ϕ-branch inductor, we need a design that is optimised for this multi-frequency current.</p><p>A low-loss cored inductor design that is suitable for this HF-IPT application is the modular modified pot core (MP) structure introduced in <ref type="bibr" coords="3,149,69,674,09,39,52,8,64">[15], [16]</ref>. The MP structure looks similar to a standard pot core geometry but has a larger core area to window area ratio as well as many small gaps distributed vertically throughout its core (Fig. <ref type="figure" coords="3,239,17,709,96,3,60,8,64" target="#fig_4">3</ref>). In general, MP core geometries are constructed from a modular set of core pieces that form a core set. Each core set is defined by its footprint diameter, which serves as a base for the set. Using a single core set, different MP core geometries can easily be constructed by stacking different numbers of core pieces on top of this footprint base. This modularity provides flexibility for designing inductors tailored to specific applications.</p><p>To evaluate the performance of the MP structure for this application, we designed and built a ϕ-branch inductor using this structure. To simplify the design process, we leveraged an existing MP core geometry developed in <ref type="bibr" coords="3,504,12,436,02,16,60,8,64" target="#b15">[16]</ref> and used solid round wire.<ref type="foot" coords="3,381,12,446,31,3,49,6,05" target="#foot_0">foot_0</ref> The target inductance for this inductor was 250 nH. Full specifications of the final MP inductor design are listed in Table <ref type="table" coords="3,373,67,471,89,2,90,8,64" target="#tab_0">I</ref>.</p><p>In this section, we provide an overview of how the MP structure achieves low loss. Afterwards, we walk through the process for designing and building the ϕ-branch inductor using the MP structure. This design process is suitable for quickly generating low-loss inductor designs and can be used in any application with high-frequency ac currents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Low-Loss Features of the MP Structure:</head><p>The MP structure's core geometry is specifically designed to achieve low core and winding loss for large, high-frequency ac currents.</p><p>To achieve low core loss, which scales with the B fields in the core, the MP structure includes two main features to keep the B fields low. First, the MP structure has a larger core to window area ratio than conventional cores. For inductor designs intended for large ac currents, having a large window area for the winding is not crucial for low winding loss since current mainly flows within a skin depth of the conductor and not through the entire cross-section. However, having a large cross-sectional core area is crucial for low core loss since it can greatly reduce the core's flux density B. Therefore, the MP structure dedicates more of its volume to the core to take advantage of this low-penalty trade-off.</p><p>Second, to help achieve low core loss, the MP structure has many small gaps distributed vertically throughout its core, which form a quasi-distributed gap <ref type="bibr" coords="4,207,17,149,24,15,27,8,64" target="#b16">[17]</ref>. These gaps add reluctance to the core's magnetic flux path, which reduces the B fields, and thus loss, in the core.</p><p>To achieve low winding loss, the MP structure uses a closedcore geometry designed to shape the magnetic fields around the winding. This field shaping enables current to more evenly distribute in the conductor, reducing the winding's effective resistance. In the MP structure, the winding is also limited to a single layer to reduce losses due to the proximity effect between multiple layers of conductors.</p><p>Additionally, the quasi-distributed gap in the MP structure helps to achieve low winding loss. In typical designs with a single lumped gap, magnetic fields at the gap fringe outwards into the window area. In conductors near the gap, current then crowds towards these fringing fields instead of distributing in the available conduction area, which increases winding loss. With a quasi-distributed gap, however, the gap is distributed along the core, thus reducing the magnitude of fringing fields at each smaller gap while also distributing their location. By doing so, this type of gap reduces the impact of fringing fields on winding loss.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Design Process for the MP Inductor:</head><p>To design the ϕbranch inductor using the MP structure, we used a streamlined design process that prioritized ease of design over exact optimisation.<ref type="foot" coords="4,85,78,453,59,3,49,6,05" target="#foot_1">foot_1</ref> To do this, we only considered MP core geometries that were previously developed in <ref type="bibr" coords="4,202,56,467,22,15,27,8,64" target="#b15">[16]</ref>. After selecting a geometry, we used hand calculations to roughly optimise the MP design and then quickly fine-tuned it in 2D Finite Element Analysis (FEA) simulations. This method of rough estimation can still yield low-loss designs since the optimisation curve for the MP structure is relatively flat near its minimum loss point <ref type="bibr" coords="4,74,22,538,95,15,27,8,64" target="#b14">[15]</ref>. Below, we detail the design process for the ϕbranch MP inductor, which is also summarised in Fig. <ref type="figure" coords="4,275,87,550,90,3,74,8,64" target="#fig_9">4</ref>.</p><p>First, we chose a target volume for the inductor at around 4.0 cm 3 , which is similar to the volume of the ϕ-branch inductor used in <ref type="bibr" coords="4,95,30,587,95,15,27,8,64" target="#b11">[12]</ref>. Then, we looked for a MP core geometry in this size. To do this, we looked at existing MP core sets listed in <ref type="bibr" coords="4,60,29,611,86,15,50,8,64" target="#b15">[16]</ref>'s Table <ref type="table" coords="4,112,59,611,86,3,32,8,64" target="#tab_0">I</ref> to find an appropriate core set to use. Since the target volume is relatively small, we selected the smallest existing core set, MP17, which has a footprint diameter of 17 mm. To meet our target volume, we then calculated the required height of stacked core pieces for the design, which was 14 mm. The resulting MP core geometry had a height-todiameter ratio of 0.8 and is denoted as MP17-0.8, per <ref type="bibr" coords="4,274,20,683,59,15,27,8,64" target="#b15">[16]</ref>.     Next, we looked for a core material with low loss in our frequency range of interest from 13.56 MHz to 40.68 MHz. For this reason, we chose Fair-Rite 67 <ref type="bibr" coords="4,472,85,361,08,15,27,8,64" target="#b17">[18]</ref>.</p><p>Using the MP17 core set, we optimised the MP inductor design for minimum loss by adjusting the number of turns and total gap reluctance (which is later used to derive the required total gap length).</p><p>To do this, we first modeled core loss as a function of the number of turns using the iGSE core loss model <ref type="bibr" coords="4,520,72,433,90,38,49,8,64">[19], [20]</ref>. This model uses an improved version of the original Steinmetz equation <ref type="bibr" coords="4,350,63,457,81,15,27,8,64" target="#b20">[21]</ref>, called iGSE, that can handle multi-frequency waveforms, making it suitable for modeling core loss in the example ϕ-branch inductor design.</p><p>For this design, we simplified core loss calculations for the MP17-0.8 core geometry by modeling it with three lumped effective geometric parameters that represent an equivalent toroid with uniformly distributed B fields. The parameters were: the effective core cross-sectional area A e , the effective core length l e , and the effective core volume V e . To estimate A e , we leveraged the fact that the MP core geometry was designed to have similar effective cross-sectional area throughout most of the core <ref type="bibr" coords="4,382,28,589,86,15,27,8,64" target="#b14">[15]</ref>. So, for simplicity, we calculated A e as the cross-sectional area of the center core section, known as the center post, for A e = 104 mm 2 . To estimate l e , we looked at the flux path through the core, which encircles the window. Since the path includes gaps, we estimated l e as less than the full path length, estimating it as twice the window height for l e = 15.1 mm. Finally, to estimate V e , we took the product of A e and l e for V e = 1.6 cm 3 .</p><p>To model core loss, the iGSE method takes a complex current waveform and divides it into simpler single-frequency sub-waveforms or 'loops'. Doing so helps with modeling core loss more accurately since core loss parameters are often provided under single-frequency conditions. So, for the multifrequency ϕ-branch current, we divided it into two loops, one with a local frequency of 24 MHz and the other with a frequency at 32 MHz (see Fig. <ref type="figure" coords="5,177,75,100,25,3,60,8,64" target="#fig_1">2</ref>).</p><p>Then, for each loop j, we used its current waveform I j (t) to calculate the B field waveforms in the core as a function of the number of turns N :</p><formula xml:id="formula_0" coords="5,140,37,150,18,159,65,23,23">B j (t) = LI j (t) N A e .<label>(1)</label></formula><p>Next, we used B j to calculate the volumetric core loss density P v,j for each loop j using iGSE. For this calculation, iGSE leverages the same parameters used in the Steinmetz equation (k, α, β). For the two loops at 24 MHz and 32 MHz, we used Steinmetz parameters for Fair-Rite 67 at 20 MHz and 35 MHz, respectively, derived from curve-fitting core loss data from <ref type="bibr" coords="5,73,54,250,90,15,27,8,64" target="#b21">[22]</ref>. iGSE also requires a new parameter k i , which is calculated from these parameters. For ease, we used an approximation<ref type="foot" coords="5,107,08,273,15,3,49,6,05" target="#foot_2">foot_2</ref> for k i that holds for α between 0.5 and 3, which can be found in <ref type="bibr" coords="5,144,97,286,77,15,49,8,64" target="#b18">[19]</ref>:</p><formula xml:id="formula_1" coords="5,97,17,301,65,202,85,28,69">k i = k π α-1 2 β+1 0.2761 + 1.7061 α+1.354 .<label>(2)</label></formula><p>Using the modified Steinmetz parameters (k i , α, β), the period of each loop T j , and B j , we calculated P v,j using iGSE:</p><formula xml:id="formula_2" coords="5,91,31,366,40,208,71,27,18">P v,j = k i (∆B j ) β-α 1 T j Tj 0 dB j dt α dt,<label>(3)</label></formula><p>where ∆B j is the peak-to-peak B field swing in each loop, which can be calculated from the peak-to-peak current ∆I j of each loop using an equation analogous to ( <ref type="formula" coords="5,226,32,423,78,3,53,8,64" target="#formula_0">1</ref>).</p><p>Finally, the total core loss was calculated by taking a timeweighted average of the two loops' volumetric loss P v,j and multiplying it by the effective core volume V e :</p><formula xml:id="formula_3" coords="5,109,98,475,10,190,04,26,65">P core = V e P v = V e j T j T P v,j ,<label>(4)</label></formula><p>where T is the total period of the current. In this example, T = 1/13.56 MHz.</p><p>Next, we modeled winding loss for the multi-frequency ϕbranch current using a Fourier series sum of the ac loss <ref type="bibr" coords="5,283,42,545,81,16,60,8,64" target="#b19">[20]</ref> for the current's three major frequency components: the fundamental I 1 , second harmonic I 2 , and third harmonic I 3 (Fig. <ref type="figure" coords="5,289,23,569,72,3,60,8,64" target="#fig_1">2</ref>). To do this, we first calculated physical parameters for the winding and window, namely the mean length of turn l turn , the window height h w , and the cross-sectional wire area A wire . To calculate l turn , we assumed the winding was horizontally centered in the window for l turn = 39.9 mm. To calculate h w , we first referred to <ref type="bibr" coords="5,131,98,641,45,15,50,8,64" target="#b15">[16]</ref>'s Table I to find the total height of the two core pieces sandwiching the top and bottom of the window (defined as twice the end cap height in the table). Then, we subtracted this height from the total target height of 14 mm for h w = 9 mm. To calculate A wire , we first found the appropriate wire diameter wire using the design guidelines from <ref type="bibr" coords="5,380,67,64,38,16,60,8,64" target="#b14">[15]</ref> and <ref type="bibr" coords="5,420,02,64,38,15,27,8,64" target="#b15">[16]</ref>, which provide wire diameter recommendations for low winding loss that depend on the number of turns N . (Generally speaking, the recommended wire diameter decreases as N increases.) For simplicity in sweeping MP17-0.8 inductor designs across N , for each N , we set the wire diameter to be the minimum of the following two values: 1. the maximum wire diameter max listed in <ref type="bibr" coords="5,539,80,136,11,15,50,8,64" target="#b15">[16]</ref>'s Appendix A for the MP17 core set, which was 0.64 mm (AWG 22), and 2. a wire diameter such that the winding vertically fills 60 % of the window height. We then used the resulting wire diameters to calculate A wire as a function of N :</p><formula xml:id="formula_4" coords="5,321,12,198,37,241,91,39,96">A wire = π wire 2 2 = π     min max , 0.6h w N 2     2 .<label>(5)</label></formula><p>Using the calculated values for l turn and A wire , we calculated the winding's dc resistance as a function of the number of turns N (assuming a copper winding):</p><formula xml:id="formula_5" coords="5,404,03,296,54,159,01,23,22">R dc = ρN l turn A wire .<label>(6)</label></formula><p>Then, using the winding's dc resistance, we calculated its ac resistance at each frequency using Dowell's equation <ref type="bibr" coords="5,543,95,337,51,19,09,8,64;5,311,98,349,47,16,60,8,64">[20], [23]</ref> for a single-layer winding:</p><formula xml:id="formula_6" coords="5,342,62,365,74,220,42,23,22">R ac,n = R dc ∆ n sinh (2∆ n ) + sin (2∆ n ) cosh (2∆ n ) -cos (2∆ n ) ,<label>(7)</label></formula><p>where, for round wire, ∆ n can be approximated<ref type="foot" coords="5,519,50,395,79,3,49,6,05" target="#foot_3">foot_3</ref> for each frequency n using the skin depth δ n and the wire diameter wire as:</p><formula xml:id="formula_7" coords="5,394,11,429,82,168,92,23,44">∆ n ≈ π 4 3/4 wire δ n<label>(8)</label></formula><p>Afterwards, to get the total copper loss P Cu as a function of N , we summed up the copper loss at each frequency n using the current I n and ac resistance R ac,n :</p><formula xml:id="formula_8" coords="5,391,62,499,76,171,42,30,20">P Cu = 1 2 3 n=1 I 2 n R ac,n .<label>(9)</label></formula><p>Finally, using our core and winding loss models, we swept over different MP designs to find the one with minimum loss. The resulting optimal MP17-0.8 inductor design had 3 turns with an estimated core loss of 140 mW and an estimated copper loss of 490 mW for a total loss of 630 mW.</p><p>From there, we finalised the design of the MP inductor's quasi-distributed gaps through an iterative process using 2D FEA simulations. The MP structure has quasi-distributed gaps in two sections of the core, the center post and the outer section. These gaps are composed of alternating core pieces and gaps, with core pieces on both ends of the stack. So for N gap gaps in a stack, there are N gap + 1 core pieces. The quasi-distributed gaps are defined by the total gap length and the number of stacked core pieces and gaps in each section. For design simplicity, we constrained the MP design to have the same number of core pieces and gaps in both sections, as well as the same core piece height (defined by the MP core set) and total gap length.</p><p>To design the quasi-distributed gaps, we first developed an initial simulation design. To do this, we roughly estimated the total gap length l gap needed to achieve the target inductance by using a reluctance model of the inductor. This model is intended to quickly generate an initial design to iterate on and isn't intended to provide an extremely accurate gap length.</p><p>In this model, inductance L is defined by the core and gap reluctances R as well as the number of turns N using L = N 2 /(R core + R gap ). To simplify calculations, we estimated the reluctances using the MP core's effective geometric parameters (l e , A e ) and the core material's relative permeability µ r while neglecting fringing fields from the gaps: R core ≈ l e /(µ r µ 0 A e ) and R gap ≈ l gap /(µ 0 A e ), where µ 0 is the permeability of free space. Using these equations, the total gap length can be estimated by:</p><formula xml:id="formula_9" coords="6,126,98,294,66,173,04,24,80">l gap ≈ N 2 µ 0 A e L - l e µ r .<label>(10)</label></formula><p>Using this estimated gap length, we picked the number of core pieces (and gaps) that would bring the MP design close to its target height of 14 mm. Then, we simulated this initial design and checked its simulated inductance. Based on the simulated inductance, we adjusted the total gap length and number of core pieces/gaps to better meet the target inductance and continued to make these iterative adjustments until we had a design that met the target inductance near the target volume.</p><p>After finalising the design, we built the MP inductor (Fig. <ref type="figure" coords="6,291,72,421,22,4,15,8,64" target="#fig_10">5</ref>) using the construction process detailed in <ref type="bibr" coords="6,240,89,433,17,15,27,8,64" target="#b14">[15]</ref>. For this prototyping process, the inductor was constructed in sections by alternately stacking core pieces and plastic spacers to form the quasi-distributed gaps. The sections were then assembled together. Custom 3D-printed jigs were used to help with stacking the cores as well as with constructing the winding.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. INDUCTOR DESIGNS USING OFF-THE-SHELF PARTS</head><p>For comparison, we investigated and built four other ϕbranch inductor designs for the example 13.56 MHz Class EF 2 inverter using off-the-shelf parts:</p><p>• One ferrite toroid design</p><p>• Two iron powder toroid designs</p><p>• One air-core design The inductors were all designed for a target inductance of 250 nH and for a similar volume range as the MP inductor design (constrained by part availability). Each inductor was optimised for the ϕ-branch current (Fig. <ref type="figure" coords="6,224,48,638,23,4,15,8,64" target="#fig_1">2</ref>) in the example Class EF 2 inverter using conventional design approaches. All designs also used solid round wire, as was done with the MP inductor design. The physical characteristics for the four designs are listed in Table <ref type="table" coords="6,159,68,686,05,6,08,8,64" target="#tab_1">II</ref>, with photos shown in Fig. <ref type="figure" coords="6,283,30,686,05,3,74,8,64" target="#fig_10">5</ref>.</p><p>The following subsections discuss the rationale and design process for each inductor design:  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Ferrite Toroid Design:</head><p>To demonstrate the importance of having a gap in a ferrite core to keep core loss low, we designed an ungapped ferrite toroid inductor for comparison. Because this design is not gapped, the core is expected to have large B fields and hence large core loss. This inductor design used a toroid with a similar volume to the MP inductor and the same core material: Fair-Rite 5967000601 (67) <ref type="bibr" coords="6,524,80,411,18,15,27,8,64" target="#b17">[18]</ref>. The number of turns was chosen to achieve the target inductance of 250 nH.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Iron Powder Toroid Designs:</head><p>An alternative approach to using ferrite in cores (ideally with a gap) is to use powder core materials. These materials usually have worse core loss characteristics in the MHz range than low-loss ferrite materials. However, they generally have very low permeabilities and thus act as a perfectly distributed gap core, which helps to achieve lower core B fields for lower core loss. The core's distributed gap also reduces the effect of fringing fields incurring additional loss in the winding.</p><p>For our example comparison, we designed two inductor designs, each using a different iron powder core material with relatively low core loss: Micrometals material mix no. -2 and no. -6. For both designs, we selected a core size with a similar volume to the MP inductor (T80) and used the following cores: Micrometals T80-2 (M2) <ref type="bibr" coords="6,448,87,620,28,16,60,8,64" target="#b23">[24]</ref> and Micrometals T80-6 (M6) <ref type="bibr" coords="6,344,22,632,24,15,27,8,64" target="#b24">[25]</ref>. The number of turns in each design was chosen to achieve the target inductance of 250 nH.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Air-Core Design:</head><p>In addition to the above cored inductor designs, we tested a comparable air-core design. To do this, we bought an off-the-shelf air-core inductor near the target inductance of 250 nH: Coilcraft 2014VS-251MED (VS) <ref type="bibr" coords="6,543,95,698,00,15,27,8,64" target="#b25">[26]</ref>, which is nominally 257 nH. Per Table <ref type="table" coords="7,103,15,222,07,6,08,8,64" target="#tab_1">II</ref>, the air-core inductor's physical box volume is smaller than the MP inductor; however, its effective box volume is larger. Without a magnetic core, the air-core inductor has significant fringing fields that are sensitive to nearby metal objects. To prevent interactions with these fields, which can substantially reduce the inductor's performance, extra space is needed around the inductor. If, for example, each dimension of the air-core inductor was padded with a very small 10% buffer (excluding the -z direction), its effective box size would be 14 mm x 22 mm x 16 mm for an effective box volume of 4.9 cm 3 , which is closer to that of the MP inductor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. EXPERIMENTAL SETUP AND RESULTS</head><p>To test the five high-frequency inductors (Table <ref type="table" coords="7,270,56,375,27,6,22,8,64" target="#tab_1">II</ref>), we first measured their impedance using the Keysight E4990A impedance analyser with a 42941A probe and a custom fixture. The results are shown in Fig. <ref type="figure" coords="7,169,66,411,14,3,74,8,64" target="#fig_11">6</ref>. All the inductors have around 250 nH inductance, as designed. The inductances also stay relatively constant past the third harmonic at 40.68 MHz, suggesting that the inductors would behave as designed in the example inverter.</p><p>Using these impedance measurements, we created a fitted ac circuit diagram model of these inductors, shown in Fig. <ref type="figure" coords="7,292,55,482,85,3,74,8,64" target="#fig_12">7</ref>, with parameter values given in Table <ref type="table" coords="7,202,69,494,80,9,33,8,64" target="#tab_2">III</ref>. In this model, R s is related to conduction (wire) losses, C s sets the Self Resonance Frequency (SRF) as well as the frequency dependence of the Q factor, R p could be regarded as a rough measure of core losses (at small-signal), and L is the intrinsic inductance.</p><p>Based on these results, the MP inductor has the highest SRF, which is confirmed both by the flatness of the inductance measurement in Fig. <ref type="figure" coords="7,139,44,578,47,4,98,8,64" target="#fig_11">6</ref> and the lowest parasitic capacitance value in Table <ref type="table" coords="7,108,53,590,43,9,33,8,64" target="#tab_2">III</ref>. Furthermore, the ac circuit parameters from Table <ref type="table" coords="7,74,48,602,38,9,95,8,64" target="#tab_2">III</ref> suggest that the MP structure has lower core losses compared to the ungapped toroid of the same core material (67). Even though the two inductors have very similar R s due to the same number of turns (Table <ref type="table" coords="7,189,89,638,25,6,22,8,64" target="#tab_1">II</ref>), the 67 toroid has almost 4 times lower R p .</p><p>Next, we took small-signal Q measurements of the five inductors as an initial evaluation of their performance, shown in Fig. <ref type="figure" coords="7,79,04,686,05,3,74,8,64" target="#fig_11">6</ref>. Based on these measurements, the MP inductor has the highest Q at the second harmonic, which is the dominant component of the ϕ-branch current, per the inverter simulation        in Fig. <ref type="figure" coords="7,341,84,291,17,3,74,8,64" target="#fig_1">2</ref>. This result provides an initial experimental verification of the benefits of the MP structure.</p><p>After this initial evaluation, we tested the five inductors in a Class EF 2 inverter coupled inductively to a resonant ac load (Fig. <ref type="figure" coords="7,334,36,339,11,3,60,8,64" target="#fig_0">1</ref>), with the exact specifications mentioned in <ref type="bibr" coords="7,522,95,339,11,15,27,8,64" target="#b11">[12]</ref>. This inverter's overall efficiency is sensitive to the performance of the ϕ-branch inductor because it minimises transistor losses through a combination of Zero Voltage Switching (ZVS), Zero Voltage Derivative Switching (ZVDS), and high dc-to-ac current gain. This feature enables us to get reliable data, even when the differences in performance of the inductors under test are marginal.</p><p>To reduce the sensitivity of the circuit to the unavoidable inductance variations in Fig. <ref type="figure" coords="7,437,42,446,82,3,74,8,64" target="#fig_11">6</ref>, the total inductance of the ϕ-branch was set at around 400 nH, higher than the individual inductance of the inductor under test. The additional inductance in every case was provided by adding an extra aircore inductor <ref type="bibr" coords="7,369,45,494,65,15,27,8,64" target="#b25">[26]</ref>. With this setup, the tuning of the inverter remained constant, and any performance differences can be attributed only to the inductor under test.</p><p>To confirm identical circuit tuning for all instances, as well as resonance at the second harmonic, we took impedance measurements of the ϕ-branch for all the inductors (Fig. <ref type="figure" coords="7,552,25,554,54,3,60,8,64" target="#fig_13">8</ref>). These measurements were taken with all the components soldered on the Printed Circuit Board (PCB) to include layout parasitics. The matching in tuning was also confirmed from the experimental waveforms of the drain voltage, the ϕbranch current, and the voltage across the inductors in Fig. <ref type="figure" coords="7,555,56,614,32,3,74,8,64" target="#fig_14">9</ref>. The voltage across the inductor was measured indirectly by measuring the drain and ϕ-branch capacitor voltages and then subtracting them. The reason for such an indirect measurement is because at these frequencies, the capacitance of the probe (several pF typically) in parallel with the inductor would significantly affect its impedance and thus produce unreliable data. For the voltage measurements, we used isolated optical probes (Tektronix IsoVu) for the lowest possible capacitive  loading of the circuit and the highest Common Mode Rejection Ratio (CMRR).</p><p>It must be noted that because of the additional wire loop in the ϕ-branch for the attachment of the current clamp (Keysight N2783B), the impedance of the ϕ-branch slightly deviated from the ideal value, and thus we increased the operating frequency to 13.65 MHz to maintain ZVDS, which is insignificant for the inductor performance. Also, the output power of the inverter was kept at 70 W in order to maintain the ϕ-branch current within the limits of the current probe. The slightly lower amplitude in harmonics of the measurements in Table <ref type="table" coords="8,73,34,526,51,10,51,8,64" target="#tab_9">IV</ref> compared to the simulation in Fig. <ref type="figure" coords="8,226,13,526,51,4,98,8,64" target="#fig_1">2</ref> could also partly be attributed to the non-flat response of the current probe at this frequency range.</p><p>The dc-to-ac efficiency measurements of the Class EF 2 inverter with each of the five inductors are presented in Fig. <ref type="figure" coords="8,290,06,575,11,9,96,8,64" target="#fig_15">10</ref> (left). The MP has the best overall performance, followed by the M6 and the VS. The efficiency was calculated by the formula:</p><formula xml:id="formula_10" coords="8,146,79,617,31,153,23,27,18">η = R L I 2 Ls 2 8V in I in ,<label>(11)</label></formula><p>where R L is the ac load, I Ls 2 is the peak-to-peak current of the secondary coil, V in is the input voltage, and I in is the dc input current of the inverter. The input voltage (90 V) and the ac load were kept constant across all inductor tests, which left only the currents ratio setting the efficiency. The limits of the confidence intervals in Fig. <ref type="figure" coords="8,165,92,709,96,9,96,8,64" target="#fig_15">10</ref> were defined at the extremes   of one standard deviation of the current measurements.</p><p>Even though the VS and the M6 have lower permeability than the ferrite used in MP, its unique structure successfully enhances the core's performance at high frequencies. Figure <ref type="figure" coords="8,553,07,444,16,9,96,8,64" target="#fig_15">10</ref> (right) displays the fraction of the total losses that is attributed to the inductor, where the MP inductor has about half the losses of the next best performing counterpart. These numbers were extrapolated by combining the relative differences in efficiency with the already known losses of the VS inductor in this inverter design from previous work in <ref type="bibr" coords="8,502,45,515,89,15,27,8,64" target="#b11">[12]</ref>. Given all the measurement uncertainties of this high frequency setup, accurate measurements of the absolute loss of the inductors are challenging, but the relative figures we provide are highly reliable since the same unavoidable error sources are present in all instances. The outcomes of Fig. <ref type="figure" coords="8,471,35,575,67,9,96,8,64" target="#fig_15">10</ref> also agree with the trend of the temperature measurements in Table <ref type="table" coords="8,516,51,587,62,4,84,8,64" target="#tab_10">V</ref>. Another noteworthy result from Table V is that the transistors in all cases have almost identical temperature, which confirms that any differences in output power are primarily due to the inductor performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. CONCLUSION</head><p>This paper provides a streamlined process for designing low-loss inductors using the MP structure for complex highfrequency magnetic applications with multi-frequency currents. It was experimentally demonstrated that the MP struc-ture is an effective option for such applications, as it outperformed every other comparison counterpart in an example 13.56 MHz, 70 W Class EF 2 inverter used for HF-IPT. The MP inductor achieved half the loss of its counterparts and improved system efficiency by 0.4 % compared to the best comparison inductor, corresponding to a 6 % reduction in total loss. This suggests that the streamlined design process is effective in quickly achieving low-loss inductor designs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,311,98,305,79,251,06,7,77;2,311,98,315,47,250,56,8,06;2,311,98,325,72,115,91,7,77"><head>Fig. 1 :</head><label>1</label><figDesc>Fig.1: Circuit diagram of a Class EF inverter coupled to a resonant ac load. This inverter is used for the 13.56 MHz, 70 W Class EF2 inverter discussed in this paper.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,48,96,172,03,251,06,8,13;3,48,96,182,06,251,06,8,06;3,48,96,192,31,251,06,7,77;3,48,96,202,28,144,95,7,77"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Waveform of the ϕ-branch current for two periods and its FFT up to the third harmonic for the 13.56 MHz Class EF2 inverter in Fig. 1. The current is divided into two loops (red and yellow) for modeling core loss in inductor designs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="3,48,96,172,03,251,06,8,13;3,48,96,182,06,251,06,8,06;3,48,96,192,31,251,06,7,77;3,48,96,202,28,144,95,7,77"><head>1</head><label>1</label><figDesc>Fig. 2: Waveform of the ϕ-branch current for two periods and its FFT up to the third harmonic for the 13.56 MHz Class EF2 inverter in Fig. 1. The current is divided into two loops (red and yellow) for modeling core loss in inductor designs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="3,48,96,172,03,251,06,8,13;3,48,96,182,06,251,06,8,06;3,48,96,192,31,251,06,7,77;3,48,96,202,28,144,95,7,77"><head></head><label></label><figDesc>Fig. 2: Waveform of the ϕ-branch current for two periods and its FFT up to the third harmonic for the 13.56 MHz Class EF2 inverter in Fig. 1. The current is divided into two loops (red and yellow) for modeling core loss in inductor designs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="3,48,96,320,05,251,06,7,77;3,48,96,330,01,251,06,7,77;3,48,96,339,97,251,06,7,77;3,113,75,221,89,118,00,92,73"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: A sectional view of the modified pot core (MP) structure. The MP structure is similar to a standard pot core with a core surrounding a winding but has many small gaps distributed vertically in its core.</figDesc><graphic coords="3,113,75,221,89,118,00,92,73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="4,413,65,50,62,45,15,7,77;4,422,87,60,58,26,72,7,77;4,321,15,54,41,54,42,8,06;4,503,94,50,63,40,33,7,77;4,509,41,60,59,29,38,7,77;4,389,67,83,00,93,13,7,77;4,385,69,92,96,77,18,7,77"><head></head><label></label><figDesc>geometry (pick a core set from</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="4,465,85,92,96,13,95,7,77"><head></head><label></label><figDesc><ref type="bibr" coords="4,465,85,92,96,13,95,7,77" target="#b15">[16]</ref></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="4,479,80,92,96,6,97,7,77;4,394,26,102,92,19,70,7,77"><head></head><label></label><figDesc>'s Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="4,416,94,102,92,2,99,7,77"><head></head><label></label><figDesc>I</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="4,311,98,292,92,251,06,7,77;4,311,98,302,89,157,40,7,77"><head>Fig. 4 :</head><label>4</label><figDesc>Fig.4: Flowchart summarising the streamlined design process for designing inductors with the MP structure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="6,311,98,127,28,251,06,8,13;6,311,98,137,60,251,06,7,77;6,311,98,147,56,251,06,7,77;6,311,98,157,53,56,18,7,77"><head>Fig. 5 :</head><label>5</label><figDesc>Fig. 5: The tested ϕ-branch inductors (left to right and not to scale): custom MP17-0.8 (MP), Fair-Rite 5967000601 (67), Micrometals T80-2 (M2), Micrometals T80-6 (M6), and Coilcraft 2014VS-251MED (VS).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="7,48,96,159,27,251,06,8,06;7,48,96,169,52,251,06,7,77;7,48,96,179,12,251,06,8,13;7,48,96,189,45,156,29,7,77"><head>Fig. 6 :</head><label>6</label><figDesc>Fig. 6: Inductance and Q measurements using the impedance analyser. The three dashed lines represent the three main harmonics of the ϕ-branch. The dip in the Q measurements at around 37 MHz is an artifact of the measurement instrument.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12" coords="7,311,98,126,58,251,06,7,77;7,311,98,136,54,95,39,7,77"><head>Fig. 7 :</head><label>7</label><figDesc>Fig.7: Equivalent circuit diagram fitted to the measured impedance of the inductors in Fig.6.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="8,48,96,149,29,251,06,7,77;8,48,96,158,89,200,86,8,13"><head>Fig. 8 :</head><label>8</label><figDesc>Fig. 8: Small signal reactance (left) and resistance (right) measurements of the ϕ-branch for all the inductors under test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14" coords="8,48,96,339,04,251,05,8,13;8,48,96,349,00,251,05,8,13;8,48,96,359,32,171,49,7,77"><head>Fig. 9 :</head><label>9</label><figDesc>Fig.9: Waveforms of the drain voltage (top), the ϕ-branch current (middle), and the voltage across the ϕ-branch inductor (bottom). The horizontal axis is the normalised angular time.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15" coords="8,311,98,251,85,251,06,7,77;8,311,98,261,45,251,06,8,13;8,311,98,271,77,90,84,7,77"><head>Fig. 10 :</head><label>10</label><figDesc>Fig. 10:The dc-to-ac efficiency of the IPT system (left) and percentile contribution of the ϕ-branch inductor to the overall losses (right), for each inductor under test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" coords="1,113,50,16,20,385,00,140,00"><head></head><label></label><figDesc></figDesc><graphic coords="1,113,50,16,20,385,00,140,00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,311,98,48,09,251,06,227,99"><head>TABLE I :</head><label>I</label><figDesc>Specifications, geometry parameters, and core material parameters for the MP inductor prototype. Steinmetz param. at 20 MHz k = 2.17x10 -4 (mW/cm 3 ), α = 1.55 (Hz), β = 2.12 (T) Steinmetz param. at 35 MHz k = 2.17x10 -4 (mW/cm 3 ),</figDesc><table coords="3,320,67,74,13,233,67,160,73"><row><cell cols="2">Specifications</cell></row><row><cell>L (at 13.56 MHz)</cell><cell>241 nH</cell></row><row><cell>Core material</cell><cell>Fair-Rite 67</cell></row><row><cell>Core geometry</cell><cell>MP17-0.8 ( 17 mm x 14 mm)</cell></row><row><cell>Total gap length</cell><cell>4.2 mm (across 4 gaps)</cell></row><row><cell>Winding</cell><cell>3 turns (AWG 22)</cell></row><row><cell cols="2">Geometry Parameters</cell></row><row><cell>Effective core area Ae</cell><cell>104 mm 2</cell></row><row><cell>Effective core length le</cell><cell>15.1 mm</cell></row><row><cell>Effective core volume Ve</cell><cell>1.6 cm 3</cell></row><row><cell>Mean turn length lturn</cell><cell>39.9 mm</cell></row><row><cell>Window height hw</cell><cell>9.0 mm</cell></row><row><cell>Max. wire diameter max</cell><cell>0.64 mm</cell></row><row><cell cols="2">Core Material Parameters</cell></row><row><cell>Relative permeability µr</cell><cell>40</cell></row></table><note coords="3,439,19,268,03,110,18,8,06"><p>α = 1.55 (Hz), β = 2.18 (T)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,311,98,176,64,251,06,138,85"><head>TABLE II :</head><label>II</label><figDesc>Physical characteristics of the tested ϕ-branch induc-Box Volume 4.0 cm 3 4.9 cm 3 5.8 cm 3 5.3 cm 3 2.6 cm 3</figDesc><table coords="6,311,98,186,96,251,06,118,38"><row><cell cols="6">tors after matching inductance: custom MP17-0.8 (MP), Fair-Rite</cell></row><row><cell cols="6">5967000601 (67), Micrometals T80-2 (M2), Micrometals T80-6</cell></row><row><cell cols="4">(M6), and Coilcraft 2014VS-251MED (VS).</cell><cell></cell><cell></cell></row><row><cell></cell><cell>MP</cell><cell>67</cell><cell>M2</cell><cell>M6</cell><cell>VS</cell></row><row><cell>Weight</cell><cell>8.3 g</cell><cell>6.1 g</cell><cell>7.2 g</cell><cell>6.8 g</cell><cell>4.8 g</cell></row><row><cell>Height</cell><cell cols="4">14 mm 21 mm 23 mm 23 mm</cell><cell>11 mm</cell></row><row><cell>Length</cell><cell cols="4">17 mm 21 mm 23 mm 23 mm</cell><cell>18 mm</cell></row><row><cell>Width</cell><cell cols="4">17 mm 11 mm 11 mm 10 mm</cell><cell>13 mm</cell></row><row><cell>Turns</cell><cell>3</cell><cell>3</cell><cell>6</cell><cell>6</cell><cell>6</cell></row><row><cell>Wire</cell><cell cols="5">0.65 mm 0.75 mm 0.75 mm 0.75 mm 2.46 mm*</cell></row></table><note coords="6,320,23,308,58,234,55,6,91"><p>*VS has a winding with flat wire, so the listed value is the wire width.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="7,311,98,156,99,220,66,7,77"><head>TABLE III :</head><label>III</label><figDesc>Component values of the circuit diagram in Fig.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="7,535,38,156,99,4,48,7,77"><head></head><label></label><figDesc><ref type="bibr" coords="7,535,38,156,99,4,48,7,77" target="#b6">7</ref> </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="7,311,98,156,99,251,06,17,74"><head></head><label></label><figDesc>based on the measurements in Fig.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="7,424,39,166,95,3,36,7,77"><head></head><label></label><figDesc><ref type="bibr" coords="7,424,39,166,95,3,36,7,77" target="#b5">6</ref></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="7,311,98,166,95,251,06,17,74"><head></head><label></label><figDesc>. The fitted model behaviour is not affected by measurement artifact of Q in Fig.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="7,483,72,176,92,3,36,7,77"><head></head><label></label><figDesc><ref type="bibr" coords="7,483,72,176,92,3,36,7,77" target="#b5">6</ref></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="7,322,47,176,92,227,29,79,34"><head></head><label></label><figDesc>.</figDesc><table coords="7,322,47,204,29,227,29,51,97"><row><cell>Parameter</cell><cell>67</cell><cell>VS</cell><cell>M2</cell><cell>M6</cell><cell>MP</cell><cell>Unit</cell></row><row><cell>Rs</cell><cell>67.27</cell><cell>152</cell><cell>111.5</cell><cell>81.32</cell><cell>65.63</cell><cell>mΩ</cell></row><row><cell>L</cell><cell>283.9</cell><cell>250.3</cell><cell>271.8</cell><cell>234.4</cell><cell>241.1</cell><cell>nH</cell></row><row><cell>C</cell><cell>2997</cell><cell>1579</cell><cell>941</cell><cell>1002</cell><cell>747</cell><cell>fF</cell></row><row><cell>Rp</cell><cell>6.859</cell><cell>26.94</cell><cell>6.048</cell><cell>10.53</cell><cell>25.76</cell><cell>kΩ</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="8,311,36,48,09,251,68,192,51"><head>TABLE IV :</head><label>IV</label><figDesc>Fourier coefficients of the fundamental frequency and the first two harmonics of the ϕ-branch current waveforms in Fig.9.</figDesc><table coords="8,311,36,88,27,241,54,152,33"><row><cell cols="3">Frequency</cell><cell>67</cell><cell>VS</cell><cell>M2</cell><cell>M6</cell><cell>MP</cell><cell>Unit</cell></row><row><cell cols="3">13.65 MHz</cell><cell>746.9</cell><cell>753.5</cell><cell>751.2</cell><cell>767.8</cell><cell>737.4</cell><cell>mA</cell></row><row><cell cols="3">27.3 MHz</cell><cell>1.116</cell><cell>1.125</cell><cell>1.112</cell><cell>1.035</cell><cell>1.168</cell><cell>A</cell></row><row><cell cols="3">40.95 MHz</cell><cell>249.4</cell><cell>260.4</cell><cell>260.9</cell><cell>274</cell><cell>263.4</cell><cell>mA</cell></row><row><cell></cell><cell>94.5</cell><cell cols="3">IPT DC/AC efficiency</cell><cell></cell><cell></cell></row><row><cell></cell><cell>94</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>[%]</cell><cell>93.5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>93</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>92.5</cell><cell cols="3">67 M2 M6 MP VS</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="8,311,98,292,79,251,06,79,86"><head>TABLE V :</head><label>V</label><figDesc>Temperatures of the GaN transistor (GaN Systems GS66504B) and the ϕ-branch inductor after 10 min of operation at 70 W. The ambient temperature was set at 21 • C.</figDesc><table coords="8,330,55,342,93,211,12,29,72"><row><cell>Component</cell><cell>67</cell><cell>VS</cell><cell>M2</cell><cell>M6</cell><cell>MP</cell><cell>Unit</cell></row><row><cell>Inductor</cell><cell>41.6</cell><cell>32.6</cell><cell>35.1</cell><cell>28.5</cell><cell>32.6</cell><cell>• C</cell></row><row><cell>Transistor</cell><cell>34.0</cell><cell>35.9</cell><cell>34.9</cell><cell>35.7</cell><cell>36.0</cell><cell></cell></row></table><note coords="8,527,50,364,04,9,63,8,62"><p>• C</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="3,323,44,684,36,239,60,6,91;3,311,98,693,00,251,06,7,23;3,311,98,702,29,251,06,6,91;3,311,98,711,26,112,43,6,91"><p>Litz wire could also be used, but it's less practical for the frequencies in the ϕ-branch (up to 40.68 MHz). It is costly and challenging to manufacture and strategically twist the required thin wire strands (&lt;10 µm) that comprise the litz wire for these frequencies.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1" coords="4,60,42,711,26,212,58,6,91"><p>For a design process that prioritizes exact optimisation, see<ref type="bibr" coords="4,257,73,711,26,12,22,6,91" target="#b14">[15]</ref>.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2" coords="5,60,42,710,38,111,20,7,82;5,222,20,708,48,3,95,5,24;5,175,17,714,19,42,29,7,78;5,208,64,714,81,64,66,8,41;5,274,50,710,64,1,99,6,91"><p>A precise equation for k i is k i = k (2π) α-1 [ 2π 0 | cos θ| α 2 β-α dθ].</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3" coords="5,323,44,702,03,239,60,7,17;5,311,98,711,00,143,17,7,17"><p>For foil or rectangular wire, ∆n can be calculated using the wire width W and the skin depth δn as ∆n = W/δn.</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This work was in part supported by: <rs type="funder">EPSRC</rs> <rs type="programName">Quietening ultra-low-loss SiC &amp; GaN</rs> waveforms, grant ref: <rs type="grantNumber">EP/R029504/1</rs>; <rs type="projectName">SitS NSF-UKRI: Wireless In-Situ Soil Sensing Network for Future Sustainable Agriculture</rs>, grant ref: <rs type="grantNumber">NE/T011467/1</rs>; <rs type="funder">EPSRC Safe Power Delivery Using a Reconfigurable Mesh of Inductive Transceivers</rs>, grant ref: <rs type="grantNumber">EP/X020606/1</rs>; the <rs type="funder">Imperial-MIT Seed Fund</rs>; the <rs type="funder">National Science Foundation Graduate Research Fellowship</rs> under Grant No. <rs type="grantNumber">2141064</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_tFzdmzr">
+					<idno type="grant-number">EP/R029504/1</idno>
+					<orgName type="project" subtype="full">SitS NSF-UKRI: Wireless In-Situ Soil Sensing Network for Future Sustainable Agriculture</orgName>
+					<orgName type="program" subtype="full">Quietening ultra-low-loss SiC &amp; GaN</orgName>
+				</org>
+				<org type="funding" xml:id="_PgNRSbf">
+					<idno type="grant-number">NE/T011467/1</idno>
+				</org>
+				<org type="funding" xml:id="_xZdA8UV">
+					<idno type="grant-number">EP/X020606/1</idno>
+				</org>
+				<org type="funding" xml:id="_XFnf8ne">
+					<idno type="grant-number">2141064</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,67,22,177,36,232,80,6,91;9,67,22,186,19,232,80,7,05;9,67,22,195,15,134,35,7,05" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Modern Trends in Inductive Power Transfer for Transportation Applications</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">A</forename><surname>Covic</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">T</forename><surname>Boys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Emerg. Sel. Topics Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="41" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,204,51,232,80,6,91;9,67,22,213,47,232,80,6,91;9,67,22,222,30,194,92,7,05" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Wireless Power Transfer via Strongly Coupled Magnetic Resonances</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kurs</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Karalis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Moffatt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Joannopoulos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Soljačić</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">5834</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,231,65,232,80,6,91;9,67,22,240,48,232,80,7,05;9,67,22,249,44,177,24,7,05" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Maximizing DC-to-Load Efficiency for Inductive Power Transfer</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Pinuela</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lucyszyn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">D</forename><surname>Mitcheson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2437" to="2447" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,258,80,232,80,6,91;9,67,22,267,62,232,80,7,05;9,67,22,276,59,204,05,7,05" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Load-Independent Class E/EF Inverters and Rectifiers for MHz-Switching Applications</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Aldhaher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">D</forename><surname>Mitcheson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="8270" to="8287" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,285,94,232,80,6,91;9,67,22,294,77,232,80,7,05;9,67,22,303,73,128,16,7,05" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A High-Frequency Inverter for Variable-Load Operation</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">D</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Emerg. Sel. Topics Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="706" to="721" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,313,09,232,80,6,91;9,67,22,322,06,232,80,6,91;9,67,22,330,88,232,80,7,05;9,67,22,339,99,71,33,6,91" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A high-frequency inverter architecture for providing variable compensation in wireless power transfer systems</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">K</forename><surname>Afridi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Appl. Power Electron. Conf. Expo</title>
+		<meeting>IEEE Appl. Power Electron. Conf. Expo</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="3154" to="3159" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,349,20,232,80,6,91;9,67,22,358,17,232,80,6,91;9,67,22,366,99,232,80,7,05" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Resistance Compression Networks for Radio-Frequency Power Conversion</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Leitermann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">A</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Rivas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="53" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,376,35,232,80,6,91;9,67,22,385,17,232,80,7,05;9,67,22,394,14,158,26,7,05" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Class-E Half-Wave Zero dv/dt Rectifiers for Inductive Power Transfer</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Kkelis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">D</forename><surname>Mitcheson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="8322" to="8337" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,403,49,232,80,6,91;9,67,22,412,31,232,80,7,05;9,67,22,421,42,69,20,6,91" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Single-Switch-Regulated Resonant WPT Receiver</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S.-C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">S Y</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">391</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,67,22,430,64,232,80,6,91;9,67,22,439,60,232,80,6,91;9,67,22,448,43,220,21,7,05" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">kW resonant converter with GaN FET for wireless power transfer</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Tsukiyama</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Tsuruda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Rivas</surname></persName>
+		</author>
+		<idno>13.56 MHz 1.3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Wireless Power Transfer Conference (WPTC)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,53,72,232,80,6,91;9,330,24,62,55,232,80,7,05;9,330,24,71,65,92,85,6,91" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">High-Frequency, High-Power Resonant Inverter With eGaN FET for Wireless Power Transfer</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1890" to="1896" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,80,64,232,80,6,91;9,330,24,89,61,232,80,6,91;9,330,24,98,32,232,80,7,17;9,330,24,107,40,232,80,7,05;9,330,24,116,51,43,97,6,91" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Generalized Multistage Modeling and Tuning Algorithm for Class EF and Class Φ Inverters to Eliminate Iterative Retuning</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Nikiforidis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Arteaga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Kwan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Pucci</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">D</forename><surname>Mitcheson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">900</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,125,36,232,80,7,05;9,330,24,134,32,232,80,7,05;9,330,24,143,43,17,93,6,91" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Idealized operation of the class e tuned power amplifier</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Raab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Circuits and Systems</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="725" to="735" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,152,42,232,80,6,91;9,330,24,161,25,232,80,7,05;9,330,24,170,35,58,58,6,91" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">At what frequencies should air-core magnetics be used?</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Solomentsev</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="3546" to="3558" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,179,34,232,80,6,91;9,330,24,188,31,232,80,6,91;9,330,24,197,13,232,80,7,05;9,330,24,206,24,102,15,6,91" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A Low-Loss Inductor Structure and Design Guidelines for High-Frequency Applications</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">A</forename><surname>Reese</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,215,23,232,80,6,91;9,330,24,224,20,232,80,6,91;9,330,24,233,02,232,80,7,05" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Design Flexibility of a Modular Low-Loss High-Frequency Inductor Structure</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="13" to="013" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,242,16,232,80,6,91;9,330,24,250,98,232,80,7,05;9,330,24,259,95,171,23,7,05" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The quasi-distributed gap technique for planar inductors: design guidelines</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Industry Applications Society Annual Meeting (IAS)</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1147" to="1152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,268,94,232,80,7,05;9,330,24,277,90,62,83,7,05" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Ferrite Components for the Electronics Industry</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Fair-Rite Products Corp</publisher>
+			<biblScope unit="volume">17</biblScope>
+		</imprint>
+	</monogr>
+	<note>th ed.</note>
+</biblStruct>
+
+<biblStruct coords="9,330,24,287,03,232,80,6,91;9,330,24,296,00,232,80,6,91;9,330,24,304,82,232,80,7,05;9,330,24,313,79,96,12,7,05" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Accurate prediction of ferrite core loss with nonsinusoidal waveforms using only Steinmetz parameters</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Venkatachalam</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Abdallah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Tacca</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="36" to="41" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,322,90,232,80,6,91;9,330,24,331,72,232,80,7,05;9,330,24,340,83,17,93,6,91" xml:id="b19">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">G</forename><surname>Kassakian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">C</forename><surname>Verghese</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">F</forename><surname>Schlecht</surname></persName>
+		</author>
+		<title level="m">Principles of Power Electronics</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,349,68,232,80,7,05;9,330,24,358,65,223,49,7,05" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">On the law of hysteresis</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">P</forename><surname>Steinmetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the American Institute of Electrical Engineers</title>
+		<imprint>
+			<biblScope unit="volume">IX</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="64" />
+			<date type="published" when="1892-01">Jan 1892</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,367,78,232,80,6,91;9,330,24,376,60,232,80,7,05;9,330,24,385,57,120,19,7,05" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evaluation of magnetic materials for very high frequency applications</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Perreault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Power Electron</title>
+		<imprint>
+			<biblScope unit="page" from="425" to="435" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,394,70,232,80,6,91;9,330,24,403,52,232,80,7,05;9,330,24,412,63,97,15,6,91" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effects of eddy currents in transformer windings</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">L</forename><surname>Dowell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Institution</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1387" to="1394" />
+			<date type="published" when="1966-08">August 1966</date>
+		</imprint>
+	</monogr>
+	<note>Electrical Engineers</note>
+</biblStruct>
+
+<biblStruct coords="9,330,24,421,62,220,44,6,91" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Micrometals Iron Powder Cores</title>
+		<imprint>
+			<date type="published" when="2019-05">May 2019</date>
+		</imprint>
+	</monogr>
+	<note>Part number: T80-2</note>
+</biblStruct>
+
+<biblStruct coords="9,330,24,430,61,131,70,6,91" xml:id="b24">
+	<monogr>
+		<title level="m">Part number: T80-6</title>
+		<imprint>
+			<date type="published" when="2019-05">May 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,330,24,439,60,232,80,6,91;9,330,24,448,57,93,40,6,91" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High Frequency, High Current Power Inductors</title>
+		<author>
+			<persName coords=""><surname>Coilcraft</surname></persName>
+		</author>
+		<idno>12/01/21</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Document</title>
+		<imprint>
+			<biblScope unit="volume">893</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

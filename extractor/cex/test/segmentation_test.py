@@ -2,7 +2,7 @@ import os
 import unittest
 from pathlib import Path
 from lxml import etree
-from sympy.integrals.meijerint_doc import formula
+
 
 from extractor.cex.combined import TEIXMLtoJSONConverter
 

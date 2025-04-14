@@ -10,6 +10,7 @@ from spacy.lang.am.examples import sentences
 
 from extractor.cex.combined import TEIXMLtoJSONConverter
 from extractor.cex.settings import *
+import shutil
 
 ROOT_DIR = Path(__file__).resolve().parent.parent  # Adjust based on your project structure
 BASE = os.path.join(ROOT_DIR, "test", "json_creation")
@@ -19,15 +20,28 @@ OUTPUT_FOLDER = os.path.join(BASE, "output_files")
 class TestJSONCreation(unittest.TestCase):
     input_file = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_3.grobid.tei.xml")
     input_file2 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_EV1.grobid.tei.xml")
+    input_file3 = os.path.join(INPUT_FOLDER, "NOTES-8.grobid.tei.xml")
+    input_file4 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_4.grobid.tei.xml")
     output_file = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_3.json")
     output_file2 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_EV1.json")
+    output_file3 = os.path.join(OUTPUT_FOLDER, "NOTES-8.json")
+    output_file4 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_4.json")
     auxiliar_file = SPECIAL_CASES_PATH
 
     @classmethod
     def setUpClass(cls):
+        os.makedirs(OUTPUT_FOLDER, exist_ok=True)
         cls.json_converter = TEIXMLtoJSONConverter(cls.input_file, cls.output_file, cls.auxiliar_file, False)
         cls.json_converter2 = TEIXMLtoJSONConverter(cls.input_file2, cls.output_file2, cls.auxiliar_file, False)
+        cls.json_converter3 = TEIXMLtoJSONConverter(cls.input_file3, cls.output_file3, cls.auxiliar_file, False)
+        cls.json_converter4 = TEIXMLtoJSONConverter(cls.input_file4, cls.output_file4, cls.auxiliar_file, False)
         cls.ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
+
+    @classmethod
+    def tearDownClass(cls):
+        # Clean up test directories after all tests
+        shutil.rmtree(OUTPUT_FOLDER, ignore_errors=True)
+
 
     def test_citation_text_more_ref_not_in_a_group(self):
         self.json_converter2.convert_to_json()
@@ -38,10 +52,24 @@ class TestJSONCreation(unittest.TestCase):
             self.assertTrue("(Rommers et al., 2004)" in citation_text)
             self.assertTrue("(Viudes- de-Castro et al., 1991; Rosell, 2000)" in citation_text)
 
-    def test_citation_text_end_sentence(self):
-        self.json_converter2.convert_to_json()
-        with open(self.output_file2, "r", encoding="utf-8") as json_file:
+    def test_citation_footnote(self):
+        self.json_converter3.convert_to_json()
+        with open(self.output_file3, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
-            citation_text = data["cit5"]["CITATION"]
-            print(citation_text)
+            self.assertTrue(
+    any(entry.get("CITATION") == 'For a design process that prioritizes exact optimisation, see [15].' 
+        for entry in data.values())
+)
+            
+    def test_figure_caption_deduplication(self):
+        self.json_converter4.convert_to_json()
+        with open(self.output_file4, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+        all_figure_captions = [entry["SECTION"] for entry in data.values() if entry.get("SECTION") == "Figure Caption"]
+        #self.assertTrue(len(all_figure_captions) == 1)
+
+
+
+if __name__ == "__main__":
+    unittest.main()
 
