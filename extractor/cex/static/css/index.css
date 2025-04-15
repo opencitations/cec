@@ -126,6 +126,19 @@ button {
     margin-top: 2% !important;
   }
 
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: #222;
+  }
+
+  .navbar-item {
+    margin-left: auto;
+    color: white;
+  }
+
+
 /* Spinner CSS */
 .spinner {
     border: 8px solid grey;

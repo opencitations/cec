@@ -22,6 +22,7 @@ import concurrent.futures
 api_blueprint = Blueprint('api', __name__)
 PREFIX="/"
 
+
 @api_blueprint.route('/extractor', methods=['POST', 'GET'])
 
 def api_process_file():

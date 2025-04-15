@@ -174,6 +174,7 @@ def create_app():
     @app.route(PREFIX+'home', methods=['GET', 'POST'])
 
 
+
     def home():
         os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
@@ -243,6 +244,7 @@ def create_app():
         return render_template('index.html', form=form)
 
 
+
     @app.route(PREFIX+'download/<filename>', methods=['GET'])
     def download_file(filename):
         download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER']) # Aggiungi il percorso corretto
@@ -268,6 +270,18 @@ def create_app():
 
     from extractor.cex.api.routes import api_blueprint
     app.register_blueprint(api_blueprint, url_prefix='/api')
+
+    from flask import Blueprint, send_from_directory
+
+    docs_blueprint = Blueprint('docs', __name__)
+
+    @app.route('/openapi.json')
+    def openapi():
+        return send_from_directory('docs', 'openapi.json')
+
+    @app.route('/docs')
+    def swagger_ui():
+        return render_template('swagger.html')
 
     return app
 
