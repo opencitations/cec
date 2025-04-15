@@ -65,9 +65,10 @@ class TestJSONCreation(unittest.TestCase):
         self.json_converter4.convert_to_json()
         with open(self.output_file4, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
-        all_figure_captions = [entry["SECTION"] for entry in data.values() if entry.get("SECTION") == "Figure Caption"]
-        #self.assertTrue(len(all_figure_captions) == 1)
+        all_figure_captions = [entry["CITATION"] for entry in data.values() if entry.get("SECTION") == "Figure Caption"]
+        self.assertTrue(len(all_figure_captions) == 1)
 
+        
 
 
 if __name__ == "__main__":

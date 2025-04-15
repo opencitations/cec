@@ -386,6 +386,57 @@ class TestApi(unittest.TestCase):
 
         # Clean up: remove the temporary zip file
         os.remove(zip_file_path)
+    
+    def test_success_no_rdf(self):
+        pdf_file = open(os.path.join(BASE, 'PHY-AST_95.pdf'), 'rb')
+
+        data = {
+            'input_files_or_archives': pdf_file,
+            'perform_alignment': 'false',
+            'max_workers': 1,
+            'create_rdf': 'false'
+        }
+
+        # Send the POST request with the file and data
+        response = self.client.post('/api/extractor', data=data, content_type='multipart/form-data')
+
+        self.assertEqual(response.status_code, 200)
+        json_response = response.get_json()
+        self.assertIn('download_url', json_response)
+        # Get the JSON response and extract the download URL
+        response_data = response.get_json()
+        download_url = response_data.get('download_url')
+
+        # Ensure that the download URL is present
+        self.assertIsNotNone(download_url)
+
+        # Download the zip file using the download URL
+        file_response = self.client.get(download_url)
+
+        # Check if the zip file was downloaded successfully
+        self.assertEqual(file_response.status_code, 200)
+
+        # Create a path for the downloaded zip file (in-memory check or save it temporarily)
+        zip_file_path = os.path.join(self.app.config['DOWNLOAD_FOLDER'], 'processed_file.zip')
+
+        # Write the content of the downloaded zip file to a temporary file
+        with open(zip_file_path, 'wb') as temp_zip_file:
+            temp_zip_file.write(file_response.data)
+
+        # Open and inspect the zip file
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            # Ensure that 'manifest.json' exists in the zip file
+            self.assertIn('manifest.json', zip_ref.namelist())
+
+            # Open and read the content of 'manifest.json'
+            with zip_ref.open('manifest.json') as json_file:
+                manifest_data = json.load(json_file)
+                # Check if the manifest contains the expected error message
+                self.assertTrue(all(item['status'] == 'success' for item in manifest_data))
+
+        # Clean up: remove the temporary zip file
+        os.remove(zip_file_path)
+
 
 
 

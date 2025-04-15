@@ -309,7 +309,7 @@ class TEIXMLtoJSONConverter:
                     for sentence in sentences if "cit" in sentence
                 }
 
-                for i, (sentence, processed_sentence) in enumerate(processed_sentences.items()):
+                for sentence, processed_sentence in processed_sentences.items():
                     for cit in re.findall(r"cit\d+", sentence):
                         ref = next((k for k, v in ref_citkey_dict.items() if v == cit), None)
                         if ref is not None:
@@ -351,6 +351,7 @@ class TEIXMLtoJSONConverter:
             sentences_from_figures.update(set(self.find_sentences_in_figure(fig, ref_citkey_dict, ns, formula_map)))
 
         sentences_from_figures_list = list(sentences_from_figures)
+        
      
         if sentences_from_figures_list:
             processed_sentences = {
@@ -358,23 +359,34 @@ class TEIXMLtoJSONConverter:
                 for sentence in sentences_from_figures_list if "cit" in sentence
             }
 
-            for i, (sentence, processed_sentence) in enumerate(processed_sentences.items()):
+            seen_citation_pairs = set()
+
+            for sentence, processed_sentence in processed_sentences.items():
                 for cit in re.findall(r"cit\d+", sentence):
                     ref = next((k for k, v in ref_citkey_dict.items() if v == cit), None)
                     if ref is not None:
                         ref_text = ref.text.strip() if ref.text else ""
                         citation_text = re.sub(r'\s+', ' ', processed_sentence)
                         citation_text = re.sub(r'\s+([,;.])', r'\1', citation_text)
+
+                        # Skip if this (citation_text, ref_text) pair has already been added
+                        if (citation_text, ref_text) in seen_citation_pairs:
+                            continue
+
+                        # Otherwise, add it
+                        seen_citation_pairs.add((citation_text, ref_text))
+
                         citations[cit] = {
                             "SECTION": "Figure Caption",
                             "CITATION": citation_text,
                             "REFERENCE": ref_text
                         }
+
                         if self.create_rdf:
                             target_attr = ref.get("target")  # Extract the target attribute
                             if target_attr:
                                 target[cit] = target_attr.replace('#', '')
-
+                        
 
         # Save results to JSON
         with open(self.output_json_file, "w", encoding="utf-8") as json_file:
@@ -863,9 +875,12 @@ class PDFProcessor:
         os.chmod(output_intermediate_dir, 0o777)
         self.output_intermediate_dir = output_intermediate_dir
 
-    def validate_file_list(self, file_list):
+    def validate_file_list(self, file_list, create_rdf):
         # Required file types and their initial counts
-        required_counts = {'.xml': 0, '.json': 0, '.jsonld': 0}
+        if create_rdf:
+            required_counts = {'.xml': 0, '.json': 0, '.jsonld': 0}
+        else:
+            required_counts = {'.xml': 0, '.json': 0}
 
         # Check each file in the list
         for file in file_list:
@@ -877,7 +892,8 @@ class PDFProcessor:
                 return False  # A file with an unexpected extension is found
 
         # Ensure each required file type is present exactly once
-        return all(count == 1 for count in required_counts.values()) and len(file_list) == 3
+        return all(count == 1 for count in required_counts.values()) and (len(file_list) == 3 if create_rdf else len(file_list) == 2)
+
 
     def process_pdf(self, align_headings=False, create_rdf=False):
         input_pdf_path = [self.input_pdf_path]
@@ -950,7 +966,7 @@ class PDFProcessor:
         processing_outputs = os.listdir(single_pdf)
         files = dict()
         status = "error"
-        if self.validate_file_list(processing_outputs):
+        if self.validate_file_list(processing_outputs, create_rdf):
             status = "success"
         just_error_logs = all(el.startswith('error_log') for el in processing_outputs)
 
