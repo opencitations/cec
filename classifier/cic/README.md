@@ -159,10 +159,10 @@ python -m cic.main --src_path "/absolute/path/to/cic/src"
     python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src"
     ```
 
-    If prefix is requested then use:
+    If prefix is requested then use `"/cic"` as follows:
 
     ```bash
-    python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src" --prefix "/api"
+    python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src" --prefix "/cic"
     ```
 
 The application will start running locally by default.
