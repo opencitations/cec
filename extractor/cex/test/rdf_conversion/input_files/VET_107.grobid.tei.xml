@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pharmacokinetics of low-dose and high-dose buprenorphine in cats after rectal administration of different formulations</title>
+				<funder ref="#_trJ3BB2">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>SAGE Publications</publisher>
+				<availability status="unknown"><p>Copyright SAGE Publications</p>
+				</availability>
+				<date type="published" when="2018-10-08">08 October 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,49,61,201,62,88,70,11,35"><forename type="first">Maike</forename><surname>Schroers</surname></persName>
+							<email>maike.schroers@chir.vetmed.uni-muenchen.de</email>
+							<idno type="ORCID">0000-0002-5537-1031</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Small Animal Surgery</orgName>
+								<orgName type="department" key="dep2">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,161,32,201,62,148,69,11,35"><forename type="first">Andrea</forename><surname>Meyer-Lindenberg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Small Animal Surgery</orgName>
+								<orgName type="department" key="dep2">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,321,02,201,62,67,37,11,35"><forename type="first">Sven</forename><surname>Reese</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Veterinary Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,49,61,215,62,103,36,11,35"><forename type="first">Britta</forename><surname>Dobenecker</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Veterinary Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,185,31,215,62,96,02,11,35"><forename type="first">Korbinian</forename><surname>Pieper</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Small Animal Surgery</orgName>
+								<orgName type="department" key="dep2">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Small Animal Surgery</orgName>
+								<orgName type="institution">Maike Schroers DVM</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Faculty of Veterinary Medicine</orgName>
+								<orgName type="institution">Ludwig Maximilians University Munich</orgName>
+								<address>
+									<addrLine>Veterinärstr 13</addrLine>
+									<postCode>80539</postCode>
+									<settlement>Munich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pharmacokinetics of low-dose and high-dose buprenorphine in cats after rectal administration of different formulations</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Feline Medicine and Surgery</title>
+						<title level="j" type="abbrev">Journal of Feline Medicine and Surgery</title>
+						<idno type="ISSN">1098-612X</idno>
+						<idno type="eISSN">1532-2750</idno>
+						<imprint>
+							<publisher>SAGE Publications</publisher>
+							<biblScope unit="volume">21</biblScope>
+							<biblScope unit="issue">10</biblScope>
+							<biblScope unit="page" from="938" to="943"/>
+							<date type="published" when="2018-10-08">08 October 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E8DBD363AEFE97C3E4764A01231D3CE7</idno>
+					<idno type="DOI">10.1177/1098612x18810933</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-11-13T16:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Buprenorphine</term>
+					<term>rectal administration</term>
+					<term>plasma concentration</term>
+					<term>bioavailability</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives A prospective experimental study was performed in nine young healthy cats to investigate a pharmacokinetic profile and the clinical relevance of rectally administered buprenorphine. Rectal pH value was measured in all nine cats. Methods Blood was collected 15, 30, 60, 90, 120, 240 and 480 mins and 24 h after the rectal administration of a suppository and a gel at doses between 0.02 mg/kg and 0.1 mg/kg buprenorphine to determine the plasma concentration of buprenorphine. Rectal pH was measured with pH paper. Results Upon pharmacokinetic non-compartment analysis of high-dose buprenorphine (0.1 mg/kg), average maximal plasma concentration was found to be 1.13 ng/ml, time to maximal plasma concentration was 45 mins and area under the plasma concentration-time curve was 94.19 ng*min/ml, representing low but potential bioavailability. Mean residual time was 152.2 mins and the half-life was 92.6 mins. A wide range of plasma concentrations within the cohort was measured and two of the cats had to be excluded from statistical analysis owing to incomplete uptake. Vital parameters of all cats were considered to be normal but three of the cats showed mydriasis up to 8 h after application. After the administration of a low-dose suppository or a rectal gel (0.02 mg/kg) within pilot studies, no buprenorphine was detected in cat plasma. Rectal pH in all cats was between 7.7 and 8.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and relevance</head><p>The rectal application of buprenorphine at a dose of 0.1 mg/kg revealed a potential but weak uptake in cats. Regarding effective concentrations in previous pharmacokinetic investigations, rectal administration is currently not recommended for good provision of opioid analgesia in cats. Pharmacological investigations of formulation and galenics in order to improve the rectal bioavailability of buprenorphine remain to be clarified before further dose-finding and pharmacokinetic/pharmacodynamic studies are performed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>As a potent opioid in human and veterinary medicine, buprenorphine is an established analgesic for dogs and cats. <ref type="bibr" coords="1,68,07,619,98,3,09,6,00" target="#b0">[1]</ref><ref type="bibr" coords="1,71,16,619,98,3,09,6,00" target="#b1">[2]</ref><ref type="bibr" coords="1,71,16,619,98,3,09,6,00" target="#b2">[3]</ref><ref type="bibr" coords="1,71,16,619,98,3,09,6,00" target="#b3">[4]</ref><ref type="bibr" coords="1,71,16,619,98,3,09,6,00" target="#b4">[5]</ref><ref type="bibr" coords="1,71,16,619,98,3,09,6,00" target="#b5">[6]</ref><ref type="bibr" coords="1,74,25,619,98,3,09,6,00" target="#b6">[7]</ref> In Germany, buprenorphine is licensed for intravenous (IV) or intramuscular (IM) application in dogs and cats.</p><p>As a lipophilic opioid with morphine-like effects, buprenorphine is attributed a partial affinity to the mu opioid receptor, responsible for analgesia, sedation, euphoria, miosis, bradycardia and respiratory depression, as well as an antagonistic affinity to the kappa receptor, which is accountable for analgesia, sedation, bradycardia and hypertonia. <ref type="bibr" coords="1,169,68,727,98,5,15,6,00" target="#b7">8,</ref><ref type="bibr" coords="1,174,82,727,98,2,57,6,00">9</ref> Apart from IV administration, several studies proved an excellent uptake of buprenorphine in cats at doses between 0.01 mg/kg and 0.12 mg/kg given IM. <ref type="bibr" coords="2,284,59,94,85,8,06,6,00" target="#b9">10,</ref><ref type="bibr" coords="2,292,64,94,85,5,37,6,00" target="#b10">11</ref> Moreover, good uptake after oral transmucosal administration at doses between 0.01 and 0.12 mg/kg has been described in cats. <ref type="bibr" coords="2,132,49,130,85,6,13,6,00" target="#b11">[12]</ref><ref type="bibr" coords="2,138,62,130,85,3,06,6,00" target="#b12">[13]</ref><ref type="bibr" coords="2,141,68,130,85,6,13,6,00" target="#b13">[14]</ref> A weaker uptake has been described for the subcutaneous (SC) route at doses between 0.01 and 1.2 mg/kg, <ref type="bibr" coords="2,132,23,154,85,5,68,6,00" target="#b3">4,</ref><ref type="bibr" coords="2,137,91,154,85,5,68,6,00" target="#b14">[15]</ref><ref type="bibr" coords="2,143,60,154,85,2,84,6,00" target="#b15">[16]</ref><ref type="bibr" coords="2,143,60,154,85,2,84,6,00" target="#b16">[17]</ref><ref type="bibr" coords="2,146,44,154,85,5,68,6,00" target="#b17">[18]</ref> the epidural route at a dose of 0.02 mg/kg <ref type="bibr" coords="2,112,69,166,85,8,26,6,00" target="#b18">19,</ref><ref type="bibr" coords="2,120,95,166,85,5,51,6,00" target="#b19">20</ref> and following transdermal administration at a dose of 35 µg/h. <ref type="bibr" coords="2,166,37,178,85,6,14,6,00" target="#b20">21</ref> In rats, the bioavailability of buprenorphine has been experimentally determined after IV, SC, transdermal and epidural application; furthermore, rectal bioavailability was 54%. <ref type="bibr" coords="2,101,29,226,85,6,18,6,00" target="#b21">22</ref> In human medicine, rectal suppositories can be seen as a useful route of administration, especially in the case of vomiting patients or those with dysphagia. <ref type="bibr" coords="2,255,50,262,85,6,18,6,00" target="#b22">23</ref> In addition, a decisive advantage lies within the avoidance of the first-pass effect, meaning there is no direct metabolism of the active substance in the liver via the portal vein. <ref type="bibr" coords="2,82,95,310,85,6,18,6,00" target="#b23">24</ref> Apart from established sublingual tablets of buprenorphine, a good uptake via suppositories has been recorded in humans. <ref type="bibr" coords="2,171,27,334,85,8,34,6,00" target="#b24">25,</ref><ref type="bibr" coords="2,179,60,334,85,5,56,6,00" target="#b25">26</ref> Unfortunately, there is still insufficient knowledge in the veterinary literature on the bioavailability of opioids after rectal administration. Available reports often describe different findings, influenced by distinctions within animal species, anatomical and physiological differences, as well as physical conditions. <ref type="bibr" coords="2,231,17,406,85,3,09,6,00" target="#b3">4</ref> To our knowledge, the bioavailability of buprenorphine after rectal application in cats has not been determined yet. Hence, the aim of the study was to test for a new route of recommended administration with a high bioavailability in cats. Even though the oral transmucosal administration also spares the patient an injection, it often requires sufficient fixation of the patient's head. Furthermore, the patient often swallows a part of orally administered medication, which consequently leads to a reduced uptake. The rectal route of administration is supposed to be less stressful than the oral transmucosal administration, less painful than an injection and thus connected to an enormous reduction of stress for cats without a venous catheter, owners and veterinary surgeons.</p><p>As a high uptake of the opioid is an essential prerequisite to ensure efficient analgesia, the following study aimed to investiage the plasma concentration of buprenorphine in order to provide a pharmacokinetic profile, taking different doses and formulations into consideration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals</head><p>All procedures and protocols were conducted in accordance with the guidelines of the Protection of Animal Act. The study was also approved by the representative of the Chair of Animal Welfare of the Faculty of Veterinary Medicine of the Ludwig Maximilians University, as well as the Government of Upper Bavaria (reference number 55.2-1-54-2532-174-2016). Six male and three female adult, dewormed and routinely vaccinated experimental cats were included in the study. Mean age was 2.3 years (range 2-4 years) and mean body weight was 4.3 kg (range 3.8-5.8 kg). Enrolled animals were considered to be healthy, based on history, clinical examination, complete blood cell count and selected serum parameters (creatinine, urea and alanine aminotransferase). During the study, all animals were clinically examined, focusing on general condition, mucous membrane colour, capillary refill time, respiratory and heart rate and possible side effects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug formulations</head><p>The suppository Each suppository consisted of Buprenaddict Sublingal Tablets (Hexal), gelatin, purified water and glycerol 85%. Each suppository contained 0.1 mg (0.02 mg/kg); diameter was 0.5-0.7 cm and length was 3.2 cm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The rectal gels</head><p>The rectal gels consisted of buprenorphine hydrochloride (Temgesic vials 0.3 mg; Individor) and hydroxyethyl cellulose. Each low-dose tube contained 0.1 mg buprenorphine (0.02 mg/kg) dissolved in a volume of 0.17 ml. Each high-dose tube had a volume of 0.35 ml and contained 0.5 mg buprenorphine, meaning 0.1 mg/kg buprenorphine, taking mean animal weight into account (Figure <ref type="figure" coords="2,428,31,407,21,3,43,9,23" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Drug administration</head><p>Within a pilot study low-dose suppositories (0.02 mg/kg) were administered to four cats. Four other cats received the same dose of buprenorphine (0.02 mg/kg) formulated in rectal gel as described above.</p><p>For the main study a dose of 0.1 mg/kg buprenorphine dissolved in rectal gel was administered to nine cats. A minimum washout period of 14 days between the pilot studies and of 56 days between pilot and main study was granted between treatments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blood sampling</head><p>The protocol for blood sampling was kept constant for all phases of the study (pilot studies and main study): fur was clipped over the right and left cephalic veins, cleaned with water and disinfected. Before drug administration blood for baseline parameters was taken using a sterile 21 G cannula. Further blood samples were collected in heparin tubes from one of the cephalic veins 15, 30, 60, 90, 120, 240 and 480 mins and 24 h after rectal application. Sample volume was 1 ml for each time point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of buprenorphine in plasma</head><p>All samples were centrifuged (Centrifuge Heraeus Sepatech) for 15 mins at 2937 g and plasma was stored in tubes at -20°C. For the measurements, the samples were stored and sent on dry ice to TOXILAB (Laboratory for Toxicology and Drug analysis, Ludwigsburg, Germany), for liquid chromatography mass spectrometric analysis, as this method is considered to be an appropriate analysis for a pharmacokinetic profile of buprenorphine. <ref type="bibr" coords="3,263,84,248,85,6,18,6,00" target="#b26">27</ref> Calibration standard and quality control had been established: after the addition of the deuterated standards buprenorphine-d4 and norbuprenorphine-D3 to calibration standard, quality control sample and plasma samples of the cats, protein precipitation was performed employing a solution of 70% methanol and 0.05 M zinc sulphate.</p><p>The examination was carried out with high-pressure liquid chromatography (pump: Shimadzu LC-20ADXR; autosampler: Shimadzu SIL-20ACXR; column: Agilent 4.6 × 5.0 Zorbax Eclipse × DB 1.8 µ C18; solvent mixture A: aqueous, 10 mmol/l ammonium acetate, pH 9.4; solvent mixture B: methanolic, 0.1% formic acid), as well as a tandem mass spectrometry (gadget: AB Sciex API 6500) following data analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biometric data analysis</head><p>A pharmacokinetic profile based on measured plasma concentrations of buprenorphine was established with the help of Softwaretool 'PKSolver 2.0', appropriate for pharmacokinetic non-compartment analysis. <ref type="bibr" coords="3,239,57,486,85,6,18,6,00" target="#b27">28</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement of the rectal pH</head><p>Rectal pH was measured in all nine cats with the help of pH paper that was placed rectally (1.5 cm depth) for 10 mins. Rectal pH values were determined based on the appropriate colour scale.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pharmacokinetic profile</head><p>As a result of biometric data analysis of 0.1 mg/kg buprenorphine (Table <ref type="table" coords="3,144,53,617,21,3,43,9,23" target="#tab_0">1</ref>), average maximal plasma concentration (C max ) was 1.13 ng/ml (0.62-1.82 ng/ml) and average time to maximal plasma concentration (T max ) was 45 mins (range 15-90 mins). The area under the plasma concentration-time curve (AUC 24 ), representing rectal bioavailability, was 94.19 ng*min/ml; the mean residual time (MRT) was 152.8 mins and the half-life (t ½ ) was 92.58 mins. Data analysis demonstrated a great spread of plasma concentrations within the cohort. All plasma concentrations are presented in Figure <ref type="figure" coords="3,245,45,725,21,3,56,9,23" target="#fig_2">2</ref>.</p><p>Pilot studies showed that no buprenorphine could be detected in cat plasma at a dose of 0.02 mg/kg, independently of suppository or rectal gel formulation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Side effects</head><p>All vital parameters of the entire cohort were considered to be normal before, during and after the performance of the pilot studies, as well as the main study. Three of the animals showed mydriasis between 30 mins and 8 h after application of the high-dose rectal gel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Handling</head><p>The application of the suppositories and the rectal tubes was performed easily and fast in seven animals, even though all animals had to be held by a second person in order to be fixated. In two cats an unknown amount of rectal gel was lost during the administration due to movement of the animal. They were excluded from statistical analysis as no buprenorphine was detected in their blood samples. None of the other cats showed signs of discomfort such as vocalisation or attempts to escape.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rectal pH</head><p>Rectal pH was 8 in six cats and 7.7 in three cats.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>With an AUC 24 of 94.19 ng*min/ml after rectal administration of 0.1 mg/kg buprenorphine gel, the current investigation demonstrated a weak rectal bioavailability of buprenorphine in cats. This value seems especially low when compared with the results of other studies: Robertson et al registered an AUC 24 of 2429.9 ng*min/ml after the oral transmucosal administration of 0.02 mg/kg buprenorphine in cats. <ref type="bibr" coords="3,391,34,652,26,3,09,6,00" target="#b2">3</ref>   Individual physiological conditions such as the pH value might have an influence on the uptake of buprenorphine, as is described in studies of oral transmucosal administration. <ref type="bibr" coords="4,126,94,461,73,8,34,6,00" target="#b11">12,</ref><ref type="bibr" coords="4,135,28,461,73,5,56,6,00" target="#b12">13</ref> As a weak base with a pKa of 8.42, <ref type="bibr" coords="4,294,93,461,73,3,09,6,00" target="#b7">8</ref> buprenorphine is attributed to have a good uptake in the mouth of cats, where the pH value lies between 8 and 9. <ref type="bibr" coords="4,291,84,485,73,6,18,6,00" target="#b13">14</ref> The present investigation revealed a rectal pH between 7.7 and 8. Even though a lower pH would explain a lower uptake of buprenorphine, it is still questionable whether this small difference in rectal pH of oral compared with rectal mucosa explains the impaired rectal resorption of buprenorphine.</p><p>In order to determine the intrinsic activity of buprenorphine in rectal and peripheral tissue, an ex vivo investigation might be necessary. Watanabe et al compared several rectal formulations of buprenorphine prepared with water-soluble dietary fibres, xanthan gum and locust bean gum in rabbits. <ref type="bibr" coords="4,238,65,629,73,6,27,6,00" target="#b28">29</ref> The authors described that absorption of buprenorphine was different depending on the formulation used. This is why we chose to test different drug vehicles -namely a suppository and a rectal gel -during our pilot studies. Investigations of formulation and galenics to improve the rectal uptake of buprenorphine, in cats remain to be clarified before further dose-finding and pharmacokinetic/pharmacodynamic studies are performed.</p><p>In addition, taking the anatomical aspect into consideration, the individual location of venous discharge via the cranial, medial and caudal rectal veins and its anastomoses might represent an important factor for good uptake. Rectal administration aims at avoiding direct metabolism of the active substance in the liver via the portal vein. The application of a rectal gel including a contrast medium could verify the venous discharge via the medial and caudal rectal veins with the help of appropriate imaging modalities.</p><p>As it was the primary aim of this study to evaluate whether, and to what extent, buprenorphine is taken up following rectal administration in feline patients, no pharmacokinetic/pharmakodynamic modelling was performed in the current study. However, comparison of these values with the results of other studies reveals that measured plasma concentrations might not suffice for an analgesic effect: as mentioned previously, C max in the present study did not exceed 1.8 ng/ml.</p><p>Robertson et al investigated the pharmacokinetics and pharmacodynamics after IV and oral transmucosal application of buprenorphine in six cats. <ref type="bibr" coords="4,476,67,653,73,3,09,6,00" target="#b2">3</ref> They estimated the analgesic effect by measuring thermal threshold, which was found to be a reliable way to test the analgesic effect of opioids. <ref type="bibr" coords="4,381,27,689,73,6,18,6,00" target="#b29">30</ref> An increased thermal threshold was measured at plasma concentrations between 1.41 and 4.15 ng/ml after IV application and between 1.26 and 8.26 ng/ml after oral administration. Hedges et al described the maximal analgesic effect on the basis of thermal threshold at plasma concentrations between 3.9 and 8.2 ng/ml after oral administration in six cats. <ref type="bibr" coords="5,111,76,106,85,6,18,6,00" target="#b12">13</ref> However, plasma concentrations and the analgesic effect of buprenorphine are not directly correlated. Trying to match a distinct plasma concentration of buprenorphine to a measurable analgesic effect seems difficult, as a delay between C max and maximal analgesic effect has been described. The aetiology of the so-called 'hysteresis effect' has not yet been fully clarified. The authors discuss several theories in respect to the intrinsic activity of buprenorphine, slow blood-brain equilibration and influence on receptor affinity being responsible for the delayed effect. <ref type="bibr" coords="5,140,46,238,85,3,09,6,00" target="#b2">3</ref> Concentrating on side effects, the phenomenon of euphoria and dysphoria and their distinction from decreased or increased comfort behaviour should be discussed. Robertson et al described euphoria, including rubbing and rolling, and only rare occasions of vomiting, nausea, dysphoria and hyperthermia. <ref type="bibr" coords="5,232,24,310,85,5,19,6,00" target="#b0">1,</ref><ref type="bibr" coords="5,237,42,310,85,2,59,6,00" target="#b2">3</ref> Steagall et al also documented mydriasis and recorded euphoric rubbing, as well as kneading with the forepaws. <ref type="bibr" coords="5,255,72,334,85,6,21,6,00" target="#b30">31</ref> With regard to future dose-finding studies in cats, the wide spread of plasma concentrations within the current cohort is not to be underestimated in order to prevent an overdose in those cats in which the highest uptake of buprenorphine was recorded.</p><p>In the current study the cats were kept under constant surveillance of familiarised caretakers and samplers. Except for mydriasis, no side effects were observed.</p><p>Temperament, method of restraint and tolerance of rectal manipulation determine the practicability of rectal administration in cats. This route of administration subjectively seems to be less stressful than an IM or SC injection and comparable to the measurement of the rectal temperature. The application of a suppository may be preferential towards a rectal gel, under the premise of an adequate galenic formulation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The study represents a potential but weak uptake of buprenorphine in cat plasma after rectal application. At a dose of 0.1 mg/kg this route of administration provides low plasma concentrations of buprenorphine. Nonetheless, regarding effective concentrations in previous pharmacokinetic investigations, rectal administration is currently not recommended for good provision of opioid analgesia. Physiological and pharmacological factors, which might explain a weak bioavailability of rectally administered buprenorphine in cats, remain to be clarified in further studies before future dose-finding and pharmacokinetic/pharmacodynamic studies are performed.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,310,39,712,25,233,62,8,23;2,310,39,722,75,100,94,8,23;2,314,22,631,80,228,00,65,04"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Rectal tube contained buprenorphine hydrochloride and hydroxyethyl cellulose</figDesc><graphic coords="2,314,22,631,80,228,00,65,04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,62,36,402,09,235,66,9,23;4,62,36,414,09,126,67,9,23"><head>(range 5 . 4 -</head><label>54</label><figDesc>12 ng/ml) following oral transmucosal administration of 0.01 mg/kg.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="4,62,36,372,96,306,06,8,23;4,124,02,77,12,360,00,277,20"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Plasma concentration-time curve of all cats in the present investigation</figDesc><graphic coords="4,124,02,77,12,360,00,277,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,297,26,70,89,235,68,664,22"><head>Table 1</head><label>1</label><figDesc>An MRT of 152.8 mins and a t ½ of 92.58 mins in the present study reflects a fast offset of buprenorphine in plasma. However, following IV and oral transmucosal administration, Robertson et al measured a t ½ of 368.3 mins and 242.7 mins.<ref type="bibr" coords="3,470,78,700,26,3,09,6,00" target="#b2">3</ref> C max reached 1.8 ng/ml in the current investigation. In comparison, Robertson et al recorded a median C max of 7.5 ng/ml Mean and median pharmacokinetic variables after 0.1 mg/kg of rectal buprenorphine</figDesc><table coords="3,297,26,102,89,212,89,120,59"><row><cell>Variable</cell><cell>Mean</cell><cell>Median</cell></row><row><cell>C max (ng/ml)</cell><cell>1.13</cell><cell>1.14</cell></row><row><cell>T max (mins)</cell><cell>45</cell><cell>52.5</cell></row><row><cell>AUC 24 (ng*min/ml)</cell><cell>94.19</cell><cell>103.37</cell></row><row><cell>MRT (mins)</cell><cell>152.8</cell><cell>130.99</cell></row><row><cell>Half-life (mins)</cell><cell>92.58</cell><cell>76.05</cell></row><row><cell cols="3">C max = maximum observed buprenorphine concentration value;</cell></row><row><cell cols="3">T max = time point at which C max occurs; AUC = area under the</cell></row><row><cell cols="3">plasma concentration-time curve; MRT = mean residence time</cell></row><row><cell>of buprenorphine in the body</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>The authors received no financial support for the research, authorship, and/or publication of this article.</p></div>
+<div><head>ORCID iD Maike Schroers</head><p>https://orcid.org/<rs type="grantNumber">0000-0002-5537-1031</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_trJ3BB2">
+					<idno type="grant-number">0000-0002-5537-1031</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,311,26,195,83,221,65,8,26;5,311,26,206,83,221,65,8,12;5,311,26,217,83,221,65,8,20;5,311,26,228,83,84,69,8,26" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Changes in thermal threshold response in eight cats after administration of buprenorphine, butorphanol and morphine</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">D</forename><surname>Lascelles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="462" to="465" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,239,83,221,66,8,26;5,311,26,250,83,221,65,8,12;5,311,26,261,82,181,76,8,26" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pain management in catspast, present and future. Part 2. Treatment of pain -clinical pharmacology</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="321" to="333" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,272,82,221,63,8,26;5,311,26,283,82,221,66,8,12;5,311,26,294,82,221,64,8,26;5,311,26,305,82,31,88,8,26" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">PK-PD modeling of buprenorphine in cats: intravenous and oral transmucosal administration</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">D</forename><surname>Lascelles</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="453" to="460" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,316,82,221,66,8,26;5,311,26,327,82,221,66,8,12;5,311,26,338,82,221,65,8,12;5,311,26,349,82,170,68,8,26" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetic and pharmacodynamic modelling of intravenous, intramuscular and subcutaneous buprenorphine in conscious cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Pelligand</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Giordano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Anaesth Analg</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="83" to="95" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,360,82,221,65,8,26;5,311,26,371,81,221,67,8,12;5,311,26,382,81,221,65,8,20;5,311,26,393,81,85,01,8,26" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A prospective multicentre clinical trial to compare buprenorphine and butorphanol for postoperative analgesia in cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Kirby</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="247" to="255" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,404,81,221,62,8,26;5,311,26,415,81,221,66,8,12;5,311,26,426,81,221,66,8,26;5,311,26,437,81,31,88,8,26" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evaluation of the perioperative analgesic efficacy of buprenorphine, compared with butorphanol, in cats</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">N</forename><surname>Warne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Beths</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Holm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Vet Med Assoc</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,448,81,221,65,8,26;5,311,26,459,81,166,07,8,26" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Clinical pain management techniques for cats</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">D</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Tech Small Anim Pract</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,470,81,221,67,8,26;5,311,26,481,80,175,92,8,26" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Pharmacology of buprenorphine</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">F</forename><surname>Arnould</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Pinaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Fr Anesth Reanim</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="559" to="564" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,302,01,492,80,230,89,8,26;5,311,26,503,80,221,66,8,26;5,311,26,514,80,31,88,8,26" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Buprenorphine: a unique drug with complex pharmacology</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Lutfy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Cowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Neuropharmacol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="395" to="402" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,525,80,221,67,8,26;5,311,26,536,80,221,64,8,12;5,311,26,547,80,221,64,8,26;5,311,26,558,80,44,63,8,26" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Antinociceptive effects of butorphanol, buprenorphine, or both, administered intramuscularly in cats</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">H</forename><surname>Pypendop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Vet Res</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="699" to="703" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,569,80,221,64,8,26;5,311,26,580,80,221,65,8,12;5,311,26,591,79,221,65,8,12;5,311,26,602,79,154,63,8,26" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A preliminary investigation comparing pre-operative morphine and buprenorphine for postoperative analgesia and sedation in cats</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">W</forename><surname>Stanway</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Brodbelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Anaesth Analg</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="29" to="35" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,613,79,221,66,8,26;5,311,26,624,79,221,67,8,12;5,311,26,635,79,221,64,8,26;5,311,26,646,79,32,17,8,26" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Comparison of two formulations of buprenorphine in cats administered by the oral transmucosal route</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Bortolami</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Slingsby</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">J</forename><surname>Love</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="534" to="539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,657,79,221,63,8,26;5,311,26,668,79,221,67,8,12;5,311,26,679,79,221,67,8,12;5,311,26,690,79,183,59,8,26" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetics of buprenorphine following intravenous and buccal administration in cats, and effects on thermal threshold</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">R</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">H</forename><surname>Pypendop</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Shilo-Benjamini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="252" to="259" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="5,311,26,701,78,221,67,8,26;5,311,26,712,78,221,66,8,12;5,311,26,723,78,99,08,8,26" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Systemic uptake of buprenorphine by cats after oral mucosal administration</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">W</forename><surname>Sear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="675" to="678" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,71,18,221,63,8,26;6,76,36,82,18,221,66,8,12;6,76,36,93,18,221,65,8,12;6,76,36,104,18,221,66,8,12;6,76,36,115,18,221,65,8,26;6,76,36,126,18,81,68,8,26" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetic and pharmacodynamic modelling after subcutaneous, intravenous and buccal administration of a high-concentration formulation of buprenorphine in conscious cats</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">M</forename><surname>Doodnaught</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">P</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Benito</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0176443</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">176443</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,137,17,221,67,8,26;6,76,36,148,17,221,65,8,12;6,76,36,159,17,171,07,8,26" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The safety of high-dose buprenorphine administered subcutaneously in cats</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">K</forename><surname>Sramek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">C</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">D</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="434" to="442" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,170,17,221,65,8,26;6,76,36,181,17,221,65,8,12;6,76,36,192,17,221,65,8,20;6,76,36,203,17,84,06,8,26" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of subcutaneous methadone, morphine, buprenorphine or saline on thermal and pressure thresholds in cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Carnicelli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="531" to="537" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,214,17,221,65,8,26;6,76,36,225,17,221,64,8,12;6,76,36,236,17,221,65,8,12;6,76,36,247,16,218,00,8,26" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetic and pharmacodynamic evaluation of high doses of buprenorphine delivered via high-concentration formulations in cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Luangdilok</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">W</forename><surname>Sear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Feline Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="290" to="302" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,258,16,221,63,8,26;6,76,36,269,16,221,64,8,12;6,76,36,280,16,218,36,8,26" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Plasma concentrations of buprenorphine after epidural administration in conscious cats</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Duke-Novakovski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ambros</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="480" to="483" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,291,16,221,65,8,26;6,76,36,302,16,221,64,8,12;6,76,36,313,16,221,65,8,20;6,76,36,324,16,65,87,8,26" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Antinociceptive effects of epidural buprenorphine or medetomidine, or the combination, in conscious cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Millette</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">B</forename><surname>Mantovani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="477" to="484" />F
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,335,16,221,68,8,26;6,76,36,346,16,221,65,8,12;6,76,36,357,15,221,65,8,20;6,76,36,368,15,70,12,8,26" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Use of a transdermal matrix patch of buprenorphine in cats: preliminary pharmacokinetic and pharmacodynamic data</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Murrell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet Rec</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="578" to="583" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,76,36,379,15,221,65,8,26;6,76,36,390,15,221,65,8,12;6,76,36,401,15,196,57,8,26" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The systemic bioavailability of buprenorphine by various routes of administration</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Brewster</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcleavy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharm Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="500" to="506" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,71,15,221,65,8,26;6,324,02,82,15,221,65,8,12;6,324,02,93,14,132,14,8,26" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Rectal drug administration: clinical pharmacokinetic considerations</title>
+		<author>
+			<persName coords=""><forename type="first">De</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Moolenaar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">De</forename><surname>Leede</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Pharmacokinet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="285" to="311" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,104,14,221,64,8,26;6,324,02,115,14,120,58,8,26" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Giving drugs per rectum for systemic effect</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">A</forename><surname>Choonara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dis Child</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="771" to="772" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,126,14,221,65,8,26;6,324,02,137,14,221,64,8,12;6,324,02,148,14,192,90,8,26" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The pharmacokinetics and local tolerability of a novel sublingual formulation of buprenorphine</title>
+		<author>
+			<persName coords=""><forename type="first">Scb</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Schug</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Krishnarajah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pain Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="143" to="152" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,159,14,221,68,8,26;6,324,02,170,14,221,64,8,12;6,324,02,181,14,174,18,8,26" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The relief of postoperative pain by suppositories of buprenorphine or NSAID</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Akatsuka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Otsuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Masui</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="298" to="303" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note>in Japanese</note>
+</biblStruct>
+
+<biblStruct coords="6,324,02,192,14,221,63,8,26;6,324,02,203,13,221,67,8,12;6,324,02,214,13,221,66,8,12;6,324,02,225,13,221,65,8,26;6,324,02,236,13,44,63,8,26" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Liquid chromatography-mass spectrometric analysis of buprenorphine and its N-dealkylated metabolite norbuprenorphine in rat brain tissue and plasma</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">R</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Jansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharmacol Toxicol Methods</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="314" to="322" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,247,13,221,65,8,26;6,324,02,258,13,221,66,8,12;6,324,02,269,13,221,66,8,20;6,324,02,280,13,93,50,8,26" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">PKSolver: an add-in program for pharmacokinetic and pharmacodynamic data analysis in Microsoft Excel</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="306" to="314" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,291,13,221,66,8,26;6,324,02,302,13,221,67,8,12;6,324,02,313,12,221,64,8,12;6,324,02,324,12,221,65,8,20;6,324,02,335,12,57,38,8,26" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Rectal absorption and mucosal irritation of rectal gels containing buprenorphine hydrochloride prepared with water-soluble dietary fibers, xanthan gum and locust bean gum</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Yakou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Takayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Control Release</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="29" to="37" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,346,12,221,66,8,26;6,324,02,357,12,221,65,8,20;6,324,02,368,12,92,95,8,26" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A thermal threshold testing device for evaluation of analgesics in cats</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="205" to="210" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,324,02,379,12,221,66,8,26;6,324,02,390,12,221,67,8,12;6,324,02,401,12,108,36,8,26" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Dose-related antinociceptive effects of intravenous buprenorphine in cats</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V</forename><surname>Steagall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">B</forename><surname>Mantovani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vet J</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

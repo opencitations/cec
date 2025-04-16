@@ -1,0 +1,139 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Extractor",
+    "description": "API Extractor Openapi 3.0",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "apiteam@swagger.io"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version": "1.0.11"
+  },
+  "externalDocs": {
+    "description": "Find out more about Swagger",
+    "url": "http://swagger.io"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:5001"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Upload",
+      "description": "Upload file, PDF, ZIP, ZST, TAR, and TAR.GZ."
+    },
+    {
+      "name": "Download",
+      "description": "Download ZIP file"
+    }
+  ],
+  "paths": {
+    "/api/extractor": {
+      "post": {
+        "tags": [
+          "Upload"
+        ],
+        "summary": "Upload a file",
+        "operationId": "addfile",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "input_files_or_archives": {
+                    "type": "string",
+                    "format": "binary",
+                    "description": "A single PDF or one archive containing PDFs to process. Accepted archives: ZIP, ZST, TAR, and TAR.GZ."
+                  },
+                  "perform_alignment": {
+                    "type": "boolean",
+                    "description": "Boolean flag to perform the semantic alignment of sections’ titles.",
+                    "default": false
+                  },
+                  "create_rdf": {
+                    "type": "boolean",
+                    "description": "Boolean flag to create a JSNOld file for each PDF to process.",
+                    "default": false
+                  },
+                  "max_workers": {
+                    "type": "integer",
+                    "description": "Number of parallel workers for processing.",
+                    "default": 1
+                  }
+                },
+                "required": [
+                  "input_files_or_archives"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "download_url": {
+                      "type": "string",
+                      "example": "http://yourserver.com/api/download/processed_pdfs_1709459200.zip"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request (invalid input or missing parameters)."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        }
+      }
+    },
+    "/api/download/{filename}": {
+      "get": {
+        "tags": [
+          "Download"
+        ],
+        "summary": "Download processed ZIP file",
+        "description": "Allows users to download the processed file.",
+        "parameters": [
+          {
+            "name": "filename",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The name of the ZIP file to download."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "File download successful.",
+            "content": {
+              "application/zip": {}
+            }
+          },
+          "404": {
+            "description": "File not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        }
+      }
+    }
+  }
+}
