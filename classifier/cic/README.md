@@ -265,7 +265,8 @@ curl -X POST http://127.0.0.1:5000/cic/api/classify \
      -F "mode=WS"
 ```
 
-*Supported file types include .json, .zip, .tar, .gz, .bz2, .xz, and .7z.*  \br
+*Supported file types include .json, .zip, .tar, .gz, .bz2, .xz, and .7z.*
+
 :arrow_right: **In this mode, mode must be passed as a separate form field (not embedded inside the file).**
 
 ## Testing with Shell Script
