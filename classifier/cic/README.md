@@ -199,10 +199,10 @@ Open a web browser and navigate to ?????.
 
 | Name               | In              | Required | Type        | Description |
 |--------------------|-----------------|----------|-------------|-------------|
-| `mode`             | JSON body or form field | Y | `string`    | Classification mode. Must be one of: `WS` (with sections), `WoS` (without sections), or `M` (mixed). |
-| `file`             | form-data       | Y (if uploading a file) | `file` | A `.json` or compressed file (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`, `.7z`) to be classified. |
-| `data`             | JSON body       | Y (if not uploading a file) | `list of [SECTION, CITATION]` tuples | Citation data to classify. |
-| `X-Request-Source` | HTTP header     | N       | `string`    | Optional. `"cli"` (default to unknown which works as cli) or `"web-interface"` (for web-application). Used to determine output formatting. |
+| `mode`             | JSON body or form field | :white_check_mark: | `string`    | Classification mode. Must be one of: `WS` (with sections), `WoS` (without sections), or `M` (mixed). |
+| `file`             | form-data       | :white_check_mark: (if uploading a file) | `file` | A `.json` or compressed file (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`, `.7z`) to be classified. |
+| `data`             | JSON body       | :white_check_mark: (if not uploading a file) | `list of [SECTION, CITATION]` tuples | Citation data to classify. |
+| `X-Request-Source` | HTTP header     | :x:       | `string`    | Optional. `"cli"` (default to unknown which works as cli) or `"web-interface"` (for web-application). Used to determine output formatting. |
 
 ### Usage with `curl`
 
