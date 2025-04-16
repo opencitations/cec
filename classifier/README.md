@@ -62,7 +62,7 @@ Highlighted mdoels are the resulting classifiers of this project. The **WS** mod
         - [ ] Write API:
            - [x] Add support for compressed files and folders
            - [ ] Write Documentation 
-           - [ ] Write usage examples
+           - [x] Write usage examples
 
 - [x] Beta Release:
     - [x] Add structured README.md
