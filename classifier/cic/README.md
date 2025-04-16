@@ -21,7 +21,7 @@
 - [Using the API](#using-the-api)
   - [API Endpoints](#api-endpoints)
   - [Request Parameters](#request-parameters)
-  - [Example Usage with `curl`](#example-usage-with-curl)
+  - [Usage with `curl`](#usage-with-curl)
     - [Classify Text Data](#classify-text-data)
     - [Upload a JSON File](#upload-a-json-file-1)
 - [Testing with Shell Script](#testing-with-shell-script)
@@ -197,11 +197,76 @@ Open a web browser and navigate to ?????.
 
 ### Request Parameters
 
-????
+| Name               | In              | Required | Type        | Description |
+|--------------------|-----------------|----------|-------------|-------------|
+| `mode`             | JSON body or form field | Y | `string`    | Classification mode. Must be one of: `WS` (with sections), `WoS` (without sections), or `M` (mixed). |
+| `file`             | form-data       | Y (if uploading a file) | `file` | A `.json` or compressed file (`.zip`, `.tar`, `.gz`, `.bz2`, `.xz`, `.7z`) to be classified. |
+| `data`             | JSON body       | Y (if not uploading a file) | `list of [SECTION, CITATION]` tuples | Citation data to classify. |
+| `X-Request-Source` | HTTP header     | N       | `string`    | Optional. `"cli"` (default to unknown which works as cli) or `"web-interface"` (for web-application). Used to determine output formatting. |
 
-### Example Usage with `curl`
+### Usage with `curl`
 
+#### Basic Example Usage with `curl`
+
+```bash
 curl -X POST -F "file=@$INPUT_DIR/compression_test.zip" -F "mode=M" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_XZ.zip"
+```
+
+More than this, the `/cic/api/classify` endpoint accepts **two types** of request bodies: JSON and form-based file uploads.
+
+#### Option 1 — JSON Body (`application/json`)
+
+Use this when you want to send citation data directly (inline) in the request.
+
+**Sample input file (`test_payload.json`)**
+```json
+{
+  "mode": "WS",
+  "data": [
+    ["Introduction", "This method is based on Smith et al. (2020)."],
+    ["", "Our results build upon prior work."]
+  ]
+}
+```
+
+curl command:
+
+```bash
+curl -X POST http://127.0.0.1:5000/cic/api/classify \
+     -H "Content-Type: application/json" \
+     -H "X-Request-Source: cli" \
+     -d @/absolute/path/to/test_payload.json
+```
+
+#### Option 2 — File Upload (multipart/form-data)
+
+Use this to upload a .json or a compressed file.
+
+**Sample payload (test_file.json)**
+```json
+{
+  "ID1": {
+    "SECTION": "Introduction",
+    "CITATION": "This method is based on Smith et al. (2020)."
+  },
+  "ID2": {
+    "SECTION": "",
+    "CITATION": "Our results build upon prior work."
+  }
+}
+```
+
+curl command:
+
+```bash
+curl -X POST http://127.0.0.1:5000/cic/api/classify \
+     -H "X-Request-Source: cli" \
+     -F "file=@/absolute/path/to/test_file.json" \
+     -F "mode=WS"
+```
+
+*Supported file types include .json, .zip, .tar, .gz, .bz2, .xz, and .7z.*
+**In this mode, mode must be passed as a separate form field (not embedded inside the file).**
 
 ## Testing with Shell Script
 
