@@ -192,7 +192,7 @@ Open a web browser and navigate to the [classifier website](http://test.opencita
 ## Using the API
 
 > [!NOTE]  
-> All the examples are presented with the local endpoint: `http://127.0.0.1:5000/`.
+> All the examples are presented with the local endpoint: `http://127.0.0.1:5000/`.</br>
 > To interact with the live API, replace the base URL with the production endpoint:
 > `http://137.204.64.4:81/`.
 
