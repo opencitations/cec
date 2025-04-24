@@ -171,7 +171,7 @@ The application will start running locally by default.
 
 ### Access the Web Interface
 
-Open a web browser and navigate to ?????.
+Open a web browser and navigate to the [classifier website](http://test.opencitations.net:81/cic/).
 
 ### Classify Text Manually
 
@@ -190,6 +190,11 @@ Open a web browser and navigate to ?????.
 5. The results will be displayed on the page.
 
 ## Using the API
+
+> [!NOTE]  
+> All the examples are presented with the local endpoint: `http://127.0.0.1:5000/`.
+> To interact with the live API, replace the base URL with the production endpoint:
+> `http://137.204.64.4:81/`.
 
 ### API Endpoints
 
