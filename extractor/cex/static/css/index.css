@@ -97,11 +97,10 @@ button {
     margin-top: 50px;
   }
 
-  #agree {
+  #agree, #agree2 {
     width: 25px;
     height: 25px;
   }
-
 
   footer {
     background-color: #333;
@@ -126,3 +125,33 @@ button {
   .mt-2 {
     margin-top: 2% !important;
   }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: #222;
+  }
+
+  .navbar-item {
+    margin-left: auto;
+    color: white;
+  }
+
+
+/* Spinner CSS */
+.spinner {
+    border: 8px solid grey;
+    border-top: 8px solid #ff7433;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    display: none;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

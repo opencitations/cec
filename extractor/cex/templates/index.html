@@ -17,6 +17,8 @@
 
   <header class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">CITATION EXTRACTOR – CEX</a>
+    <a class="navbar-item" href="http://127.0.0.1:5001/docs" target="_blank" rel="noopener noreferrer">API DOCUMENTATION</a>
+
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,17 +43,21 @@
     <section id="disclaimer">
       <h1>CITATION EXTRACTOR – CEX</h1>
       <p>
-        This tool allows you to upload a PDF file, process it using Grobid and obtain a JSON file containing all the sentences
-        where an intext citation is present. Both the grobid output (XML-TEI) and the JSON can be downloaded.
+        This tool allows you to upload a single PDF file or one archive containing PDFs to process (accepted archives: ZIP, ZST, TAR and TAR.GZ), process it using Grobid and obtain a JSON file containing all the sentences
+        where an intext citation is present.
       </p>
-      <p>By clicking on “Process File”, Grobid will perform the processing of the input PDF and as a result a zip folder, containing the Grobid xml and a JSON file composed by the citations sentences, will be automatically downloaded to your machine. Be patient, it will take few seconds.</p>
-      <p>N.B. You can process only <b>ONE PDF</b> at the time.</p>
-      <form method='POST' enctype="multipart/form-data">
+      <p>By clicking on “Process File”, Grobid will perform the processing of the input PDFs and as a result a zip folder, containing the Grobid xml, a JSON file composed by the citations sentences, and a JSONLD file, will be automatically downloaded to your machine. Be patient, it will take few seconds.</p>
+      <p>N.B. You can process only <b>ONE PDF</b> or <b>ONE ARCHIVE</b> at the time.</p>
+      <form method='POST' enctype="multipart/form-data" id="uploadForm">
           {{form.hidden_tag()}}
           {{form.file()}}
           {{form.agree()}} {{form.agree.label}}<br>
+          <p class="mt-1">{{form.agree2()}} {{form.agree2.label}}</p>
+          {{form.max_workers.label}} {{form.max_workers()}}<br>
           <p class="mt-1">{{form.submit()}}</p>
       </form>
+        <div class="mt-2 spinner" id="loadingSpinner"></div>
+
         <p class="mt-2">You can choose to perform the semantic alignment of the original article's section headings by ticking the box above. When this option is selected, the JSON file, which contains all the sentences with in-text citations, is enriched with a new key called "ALIGNED SECTION." This key stores the aligned section title if it is found.</p>
 
       <p id="pdflist">
@@ -89,6 +95,42 @@
         </div>
       </div>
     </footer>
+
+    <script>
+        document.getElementById('uploadForm').onsubmit = function(event) {
+            event.preventDefault();  // Prevent form from submitting the traditional way
+
+            // Show spinner
+            document.getElementById('loadingSpinner').style.display = 'block';
+
+            // Prepare the form data
+            var formData = new FormData(this);
+
+            // Send data to the Flask server using fetch API
+            fetch('/', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Hide spinner
+                document.getElementById('loadingSpinner').style.display = 'none';
+
+                // Automatically download the file
+                const link = document.createElement('a');
+                link.href = data.download_url;
+                link.download = '';  // Optional: specify a file name
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            })
+            .catch(error => {
+                // Hide spinner in case of an error
+                document.getElementById('loadingSpinner').style.display = 'none';
+                console.error('Error:', error);
+            });
+        };
+    </script>
 
 </body>
 </html>
