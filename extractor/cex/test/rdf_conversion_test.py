@@ -22,17 +22,17 @@ INPUT_FOLDER = os.path.join(BASE, "input_files")
 class TestRDFConversion(unittest.TestCase):
     input_file = os.path.join(INPUT_FOLDER, "VET_107.grobid.tei.xml")
     json_file = os.path.join(INPUT_FOLDER, "VET_107.json")
-    target_dict_vet107 = {'cit1': 'b0', 'cit2': 'b1', 'cit3': 'b2', 'cit4': 'b3', 'cit5': 'b4', 'cit6': 'b5', 'cit7': 'b6', 'cit8': 'b7', 'cit10': 'b9', 'cit11': 'b10', 'cit12': 'b11', 'cit13': 'b12', 'cit14': 'b13', 'cit15': 'b3', 'cit16': 'b14', 'cit17': 'b15', 'cit18': 'b16', 'cit19': 'b17', 'cit20': 'b18', 'cit21': 'b19', 'cit22': 'b20', 'cit23': 'b21', 'cit24': 'b22', 'cit25': 'b23', 'cit26': 'b24', 'cit27': 'b25', 'cit28': 'b3', 'cit29': 'b26', 'cit30': 'b27', 'cit31': 'b2', 'cit32': 'b2', 'cit33': 'b11', 'cit34': 'b12', 'cit35': 'b7', 'cit36': 'b13', 'cit37': 'b28', 'cit38': 'b2', 'cit39': 'b29', 'cit40': 'b12', 'cit41': 'b2', 'cit42': 'b0', 'cit43': 'b2', 'cit44': 'b30'}
+    target_json_vet107 = os.path.join(INPUT_FOLDER, "VET_107_target.json")
     input_file2 = os.path.join(INPUT_FOLDER, "PHY-AST_95.grobid.tei.xml")
     json_file2 = os.path.join(INPUT_FOLDER, "PHY-AST_95.json")
-    target_dict_phyast95 = {'cit1': 'b0', 'cit2': 'b1', 'cit3': 'b2', 'cit4': 'b3', 'cit5': 'b4', 'cit6': 'b5', 'cit7': 'b2', 'cit8': 'b6', 'cit9': 'b4', 'cit10': 'b5', 'cit11': 'b7', 'cit12': 'b8', 'cit13': 'b9', 'cit14': 'b10', 'cit15': 'b10', 'cit16': 'b11', 'cit17': 'b12', 'cit18': 'b13', 'cit19': 'b14', 'cit20': 'b15', 'cit21': 'b16', 'cit22': 'b17', 'cit23': 'b9', 'cit24': 'b18', 'cit25': 'b17', 'cit26': 'b19', 'cit27': 'b20', 'cit28': 'b21', 'cit29': 'b22', 'cit30': 'b18', 'cit31': 'b19', 'cit32': 'b20', 'cit33': 'b23', 'cit34': 'b15', 'cit35': 'b16', 'cit36': 'b17', 'cit37': 'b18', 'cit38': 'b19', 'cit39': 'b20', 'cit40': 'b21', 'cit41': 'b22', 'cit42': 'b23', 'cit43': 'b24', 'cit44': 'b25', 'cit45': 'b9', 'cit46': 'b26', 'cit47': 'b24', 'cit48': 'b27', 'cit49': 'b9', 'cit50': 'b28', 'cit51': 'b18', 'cit52': 'b23', 'cit53': 'b26', 'cit54': 'b19', 'cit55': 'b29', 'cit56': 'b26', 'cit57': 'b29', 'cit58': 'b30', 'cit59': 'b31', 'cit60': 'b26', 'cit61': 'b32', 'cit62': 'b27', 'cit63': 'b33', 'cit64': 'b31', 'cit65': 'b33', 'cit66': 'b18', 'cit67': 'b23', 'cit68': 'b26', 'cit69': 'b34', 'cit70': 'b28'}
-    
+    target_json_phyast95 = os.path.join(INPUT_FOLDER, "PHY-AST_95_target.json")
+
     @classmethod
     def setUpClass(cls):
         # Use your RDF conversion class to convert TEI XML to RDF
-        rdf_converter = TEIXMLtoRDFConverter(cls.input_file, cls.json_file, cls.target_dict_vet107)
+        rdf_converter = TEIXMLtoRDFConverter(cls.input_file, cls.json_file, cls.target_json_vet107)
         cls.graph_set = rdf_converter.convert_to_rdf()
-        rdf_converter2 = TEIXMLtoRDFConverter(cls.input_file2, cls.json_file2, cls.target_dict_phyast95)
+        rdf_converter2 = TEIXMLtoRDFConverter(cls.input_file2, cls.json_file2, cls.target_json_phyast95)
         cls.graph_set2 = rdf_converter2.convert_to_rdf()
 
     def test_verify_doi_main_br(self):
@@ -99,7 +99,8 @@ class TestRDFConversion(unittest.TestCase):
         sections = main_br.get_contained_discourse_elements()
         titles = []
         for section in sections:
-            titles.append(section.get_title())
+            if rdflib.term.URIRef('http://purl.org/spar/doco/Section') in section.get_types():
+                titles.append(section.get_title())
         self.assertTrue(titles == ["Introduction", "Cavity design", "Laser performance in continuous wave and modelocked operation", "Conclusion and outlook"])
 
     def test_check_sections_types(self):
@@ -107,9 +108,10 @@ class TestRDFConversion(unittest.TestCase):
         sections = main_br.get_contained_discourse_elements()
         rhetorical_types = set()
         for section in sections:
-            if len(section.get_types())== 3:
-                type = section.get_types()[2]
-                rhetorical_types.add(type)
+            if rdflib.term.URIRef('http://purl.org/spar/doco/Section') in section.get_types():
+                if len(section.get_types())== 3:
+                    type = section.get_types()[2]
+                    rhetorical_types.add(type)
         self.assertTrue(rdflib.term.URIRef('http://purl.org/spar/deo/Introduction') in rhetorical_types and rdflib.term.URIRef('http://purl.org/spar/deo/Conclusion') in rhetorical_types)
 
     #check citations' identifiers
@@ -144,3 +146,4 @@ class TestRDFConversion(unittest.TestCase):
 if __name__ == "__main__":
     test = TestRDFConversion()
     test.setUpClass()
+

@@ -3,7 +3,8 @@ import os
 import shutil
 import traceback
 
-from html5lib.constants import namespaces
+import rdflib
+
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
 
 from extractor.cex.grobid_client.grobid_client import GrobidClient
@@ -73,7 +74,10 @@ class TEIXMLtoJSONConverter:
     def build_dict_ref_citkey(self, xml, ns):
         refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
         refs_in_notes = xml.xpath(".//tei:note//tei:ref[@type='bibr']", namespaces=ns)
-        refs_in_figures = xml.xpath(".//tei:figure/tei:figDesc/tei:ref[@type='bibr']", namespaces = ns)
+        refs_in_figures = xml.xpath(
+    ".//tei:figure/tei:figDesc/tei:ref[@type='bibr'] | .//tei:figure/tei:note//tei:ref[@type='bibr']",
+    namespaces=ns
+)
         if refs_in_notes:
             refs = refs + refs_in_notes
         if refs_in_figures:
@@ -184,7 +188,18 @@ class TEIXMLtoJSONConverter:
     
     def find_sentences_in_figure(self, figure, dict_to_check, ns, formula_map):
         # Extract all text from the <div> tag, including references
-        text_to_segment = figure.xpath(""".//tei:figDesc/text() | .//tei:figDesc/tei:ref""", namespaces=ns)
+        # Extract all text and <ref> from figDesc and note elements
+        # Parse XML
+        #tree = etree.fromstring(figure.encode())
+
+        text_to_segment = figure.xpath(
+            """.//tei:figDesc/text() 
+               | .//tei:figDesc/tei:ref 
+               | .//tei:note/tei:p/text() 
+               | .//tei:note//tei:ref""",
+            namespaces=ns
+        )
+
         processed_text = []
         for elem in text_to_segment:
             if isinstance(elem, etree._Element):  # <ref> tags
@@ -193,7 +208,7 @@ class TEIXMLtoJSONConverter:
                 else:
                     if elem.text:
                         processed_text.append(elem.text)
-            elif elem:  # Regular text
+            else:  # Regular text
                 processed_text.append(elem)
 
         if processed_text:
@@ -209,13 +224,14 @@ class TEIXMLtoJSONConverter:
         return []
 
     def convert_to_json(self):
-        #try to differentiate numerical in text pointers from strings
+
         tree = etree.parse(self.xml_file)
         root = tree.getroot()
         ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
         formula_map = {}
         last_head = None
+        i = 1
 
         # Precompute common elements
         ref_citkey_dict = self.build_dict_ref_citkey(tree, ns)
@@ -283,6 +299,10 @@ class TEIXMLtoJSONConverter:
                         last_head=head_text
                 else:
                     last_head = head_text
+            else:
+                head_text= f'''Section Untitled {i}'''
+                last_head = head_text
+                i += 1
 
             if superscipts:
                 sentences = self.find_sentences_in_div_superscripts(div, ref_citkey_dict, ns, formula_map)
@@ -325,7 +345,7 @@ class TEIXMLtoJSONConverter:
                                 target_attr = ref.get("target")  # Extract the target attribute
                                 if target_attr:
                                     target[cit] = target_attr.replace('#','')
-            
+
         #references in figures
         sentences_from_figures = set()
         
@@ -393,18 +413,133 @@ class TEIXMLtoJSONConverter:
             json.dump(citations, json_file, indent=2, ensure_ascii=False)
 
         if self.create_rdf:
-            return target
+            with open(self.output_target_file, "w", encoding="utf-8") as target_file:
+                json.dump(target, target_file, indent=2)
 
 class TEIXMLtoRDFConverter:
 
-    def __init__(self, xml_file, json_file, target_dict):
+    def __init__(self, xml_file, json_file, target_file):
         self.xml_file = xml_file
         self.json_file = json_file
-        self.target_dict = target_dict
+        self.target_file = target_file
 
     def create_unique_uri(self, base_uri, prefix):
         unique_uri = f"{base_uri}{prefix}/{uuid.uuid4()}"
         return URIRef(unique_uri)
+
+    def add_doi(self, cex_graphset, doi_el, br, base_uri):
+        if doi_el and doi_el[0] is not None and doi_el[0].text:
+            id_uri = self.create_unique_uri(base_uri, "id")
+            br_id = cex_graphset.add_id(id_uri)
+            doi = doi_el[0].text
+            br_id.create_doi(doi)
+            br.has_identifier(br_id)
+
+    def add_arxiv(self, cex_graphset, arxiv_el, br, base_uri):
+        if arxiv_el and arxiv_el[0] is not None and arxiv_el[0].text:
+            id_uri2 = self.create_unique_uri(base_uri, "id")
+            br_id2 = cex_graphset.add_id(id_uri2)
+            arxiv = arxiv_el[0].text.strip()
+            br_id2.create_arxiv(arxiv)
+            br.has_identifier(br_id2)
+
+
+    def add_pub_date(self, raw_date, br):
+
+        iso_format = None
+
+        try:
+            # Try full date (YYYY-MM-DD)
+            date_obj = datetime.strptime(raw_date, "%Y-%m-%d")
+            iso_format = date_obj.date().isoformat()
+        except ValueError:
+            try:
+                # Try year and month (YYYY-MM)
+                date_obj = datetime.strptime(raw_date, "%Y-%m")
+                iso_format = date_obj.date().isoformat()
+            except ValueError:
+                try:
+                    # Try just year (YYYY), assume January 1st
+                    date_obj = datetime.strptime(raw_date, "%Y")
+                    iso_format = date_obj.date().isoformat()
+                except ValueError:
+                    pass  # Optionally log the failure
+
+        if iso_format:
+            br.has_pub_date(iso_format)
+
+    def add_author(self, cex_graphset, author, br, base_uri, ns):
+        ra_author_uri = self.create_unique_uri(base_uri, "ra")
+        forename_elements = author.xpath('.//tei:forename', namespaces=ns)
+        surname_elements = author.xpath('.//tei:surname', namespaces=ns)
+        orcid_elements = author.xpath('.//tei:idno[@type="ORCID"]', namespaces=ns)
+
+        ra_author = cex_graphset.add_ra(ra_author_uri)
+        if orcid_elements:
+            orcid = orcid_elements[0].text
+            orcid_uri = self.create_unique_uri(base_uri, "id")
+            ra_id = cex_graphset.add_id(orcid_uri)
+            ra_id.create_orcid(orcid)
+            ra_author.has_identifier(ra_id)
+
+        if forename_elements:
+            ra_author.has_given_name(forename_elements[0].text)
+        if surname_elements:
+            ra_author.has_family_name(surname_elements[0].text)
+        if forename_elements and surname_elements:
+            ra_author.has_name("%s %s" % (forename_elements[0].text, surname_elements[0].text))
+        ar_author_uri = self.create_unique_uri(base_uri, prefix="ar")
+        ar_author = cex_graphset.add_ar(ar_author_uri)
+        ar_author.create_author()
+        ar_author.is_held_by(ra_author)
+        br.has_contributor(ar_author)
+
+    def add_publisher(self, cex_graphset, publisher, br, base_uri):
+        ra_publisher_uri = self.create_unique_uri(base_uri, "ra")
+        publisher_name = publisher[0].text
+        ra_publisher = cex_graphset.add_ra(ra_publisher_uri)
+        if publisher_name is not None:
+            ra_publisher.has_name(publisher_name)
+        ar_publisher_uri = self.create_unique_uri(base_uri, prefix="ar")
+        ar_publisher = cex_graphset.add_ar(ar_publisher_uri)
+        ar_publisher.create_publisher()
+        ar_publisher.is_held_by(ra_publisher)
+        br.has_contributor(ar_publisher)
+
+    def add_editor(self, cex_graphset, editor, br, base_uri, ns):
+        ra_editor_uri = self.create_unique_uri(base_uri, "ra")
+        forename_elements = editor.xpath('.//tei:forename', namespaces=ns)
+        surname_elements = editor.xpath('.//tei:surname', namespaces=ns)
+
+        ra_editor = cex_graphset.add_ra(ra_editor_uri)
+
+        if forename_elements:
+            ra_editor.has_given_name(forename_elements[0].text)
+        if surname_elements:
+            ra_editor.has_family_name(surname_elements[0].text)
+        if forename_elements and surname_elements:
+            ra_editor.has_name("%s %s" % (forename_elements[0].text, surname_elements[0].text))
+        ar_editor_uri = self.create_unique_uri(base_uri, prefix="ar")
+        ar_editor = cex_graphset.add_ar(ar_editor_uri)
+        ar_editor.create_author()
+        ar_editor.is_held_by(ra_editor)
+        br.has_contributor(ar_editor)
+
+    def create_re(self, cex_graphset, pages, base_uri):
+        start_page = pages[0].get("from")
+        ending_page = pages[0].get("to")
+        re_uri = self.create_unique_uri(base_uri, prefix="re")
+        res_emb = cex_graphset.add_re(re_uri)
+        if start_page and ending_page:
+            res_emb.has_starting_page(start_page)
+            res_emb.has_ending_page(ending_page)
+        elif start_page:
+            res_emb.has_starting_page(start_page)
+            res_emb.has_ending_page(start_page)
+        elif not start_page and not ending_page:
+            res_emb.has_starting_page(pages[0].text)
+            res_emb.has_ending_page(pages[0].text)
+        return res_emb
 
     def create_main_br(self, xml_string, cex_graphset, base_uri):
 
@@ -416,6 +551,7 @@ class TEIXMLtoRDFConverter:
         authors = xml_string.xpath('.//tei:author', namespaces=ns)
         pub_date = xml_string.xpath('.//tei:publicationStmt/tei:date[@type="published"]/@when', namespaces=ns)
         publisher = xml_string.xpath('.//tei:publicationStmt/tei:publisher', namespaces=ns)
+        editors = xml_string.xpath('.//tei:monogr//tei:editor', namespaces=ns)
         issn = xml_string.xpath('.//tei:monogr/tei:idno[@type="ISSN"]', namespaces=ns)
         eissn = xml_string.xpath('.//tei:monogr/tei:idno[@type="eISSN"]', namespaces=ns)
         issn.extend(eissn)
@@ -430,69 +566,36 @@ class TEIXMLtoRDFConverter:
         br_uri = self.create_unique_uri(base_uri, "br")
         br = cex_graphset.add_br(br_uri)
 
+        #attributes for the journal article or primary bibliographic resource
         if doi_elements:
-            id_uri = self.create_unique_uri(base_uri, "id")
-            br_id = cex_graphset.add_id(id_uri)
-            doi = doi_elements[0].text
-            br_id.create_doi(doi)
-            br.has_identifier(br_id)
+            self.add_doi(cex_graphset, doi_elements, br, base_uri)
 
         if arxiv_elements:
-            id_uri2 = self.create_unique_uri(base_uri, "id")
-            br_id2 = cex_graphset.add_id(id_uri2)
-            arxiv = arxiv_elements[0].text
-            br_id2.create_arxiv(arxiv)
-            br.has_identifier(br_id2)
+            self.add_arxiv(cex_graphset, arxiv_elements, br, base_uri)
 
         if title_elements:
             br.has_title(title_elements[0].text)
-        if pub_date:
-            # Convert the string to a datetime object
-            date_obj = datetime.strptime(pub_date[0], "%Y-%m-%d")
 
-            # Convert to ISO 8601 format
-            iso_format = date_obj.isoformat()
-            br.has_pub_date(iso_format)
+        if pub_date:
+            raw_date = pub_date[0]
+            self.add_pub_date(raw_date, br)
 
         if authors:
             for author in authors:
-                ra_author_uri = self.create_unique_uri(base_uri, "ra")
-                forename_elements = author.xpath('.//tei:forename', namespaces=ns)
-                surname_elements = author.xpath('.//tei:surname', namespaces=ns)
-                orcid_elements = author.xpath('.//tei:idno[@type="ORCID"]', namespaces=ns)
+                self.add_author(cex_graphset, author, br, base_uri, ns)
 
-                ra_author = cex_graphset.add_ra(ra_author_uri)
-                if orcid_elements:
-                    orcid = orcid_elements[0].text
-                    orcid_uri = self.create_unique_uri(base_uri, "id")
-                    ra_id = cex_graphset.add_id(orcid_uri)
-                    ra_id.create_orcid(orcid)
-                    ra_author.has_identifier(ra_id)
-
-                if forename_elements:
-                    ra_author.has_given_name(forename_elements[0].text)
-                if surname_elements:
-                    ra_author.has_family_name(surname_elements[0].text)
-                if forename_elements and surname_elements:
-                    ra_author.has_name("%s %s" % (forename_elements[0].text, surname_elements[0].text))
-                ar_author_uri = self.create_unique_uri(base_uri, prefix="ar")
-                ar_author = cex_graphset.add_ar(ar_author_uri)
-                ar_author.create_author()
-                ar_author.is_held_by(ra_author)
-                br.has_contributor(ar_author)
+        if pages:
+            res_emb = self.create_re(cex_graphset, pages, base_uri)
+            br.has_format(res_emb)
 
         if publisher:
-            ra_publisher_uri = self.create_unique_uri(base_uri, "ra")
-            publisher_name = publisher[0].text
-            ra_publisher = cex_graphset.add_ra(ra_publisher_uri)
-            if publisher_name is not None:
-                ra_publisher.has_name(publisher_name)
-            ar_publisher_uri = self.create_unique_uri(base_uri, prefix="ar")
-            ar_publisher = cex_graphset.add_ar(ar_publisher_uri)
-            ar_publisher.create_publisher()
-            ar_publisher.is_held_by(ra_publisher)
-            br.has_contributor(ar_publisher)
+            self.add_publisher(cex_graphset, publisher, br, base_uri)
 
+        if editors:
+            for editor in editors:
+                self.add_editor(cex_graphset, editor, br, base_uri, ns)
+
+        #top-level bibliographic entity
         if journal_title:
             br.create_journal_article()
             if issue_n:
@@ -531,35 +634,18 @@ class TEIXMLtoRDFConverter:
             else:
                 br.is_part_of(journal)
 
-        if series_title:
+        elif series_title:
             br_series_uri = self.create_unique_uri(base_uri, "br")
             series = cex_graphset.add_br(br_series_uri)
             series.create_series()
             series.has_title(series_title[0].text)
             br.is_part_of(series)
 
-        if other_title:
+        elif other_title:
             br_monograph_uri = self.create_unique_uri(base_uri, "br")
             monograph = cex_graphset.add_br(br_monograph_uri)
-            monograph.create_monograph()
             monograph.has_title(other_title[0].text)
             br.is_part_of(monograph)
-
-        if pages:
-            start_page = pages[0].get("from")
-            ending_page = pages[0].get("to")
-            re_uri = self.create_unique_uri(base_uri, prefix="re")
-            res_emb = cex_graphset.add_re(re_uri)
-            if start_page and ending_page:
-                res_emb.has_starting_page(start_page)
-                res_emb.has_ending_page(ending_page)
-            elif start_page:
-                res_emb.has_starting_page(start_page)
-                res_emb.has_ending_page(start_page)
-            elif not start_page and not ending_page:
-                res_emb.has_starting_page(pages[0].text)
-                res_emb.has_ending_page(pages[0].text)
-            br.has_format(res_emb)
 
         return br
 
@@ -571,8 +657,9 @@ class TEIXMLtoRDFConverter:
         arxiv_elements = xml_string.xpath('.//tei:idno[@type="arXiv"]', namespaces=ns)
         title_elements = xml_string.xpath('.//tei:title[@level="a"]', namespaces=ns)
         authors = xml_string.xpath('.//tei:author', namespaces=ns)
-        pub_date = xml_string.xpath('.//tei:monogr/tei:date[@type="published"]/@when', namespaces=ns)
-        publisher = xml_string.xpath('.//tei:monogr/tei:publisher', namespaces=ns)
+        pub_date = xml_string.xpath('.//tei:monogr//tei:date[@type="published"]/@when', namespaces=ns)
+        publisher = xml_string.xpath('.//tei:monogr//tei:publisher', namespaces=ns)
+        editors = xml_string.xpath('.//tei:monogr//tei:editor', namespaces=ns)
         issn = xml_string.xpath('.//tei:monogr/tei:idno[@type="ISSN"]', namespaces=ns)
         eissn = xml_string.xpath('.//tei:monogr/tei:idno[@type="eISSN"]', namespaces=ns)
         issn.extend(eissn)
@@ -584,71 +671,39 @@ class TEIXMLtoRDFConverter:
         volume_n = xml_string.xpath('.//tei:biblScope[@unit="volume"]', namespaces=ns)
         pages = xml_string.xpath('.//tei:biblScope[@unit="page"]', namespaces=ns)
 
-
+        # Create the main bibliographic resource
         br_uri = self.create_unique_uri(base_uri, "br")
         br = cex_graphset.add_br(br_uri)
 
         if doi_elements:
-            id_uri = self.create_unique_uri(base_uri, "id")
-            br_id = cex_graphset.add_id(id_uri)
-            doi = doi_elements[0].text
-            br_id.create_doi(doi)
-            br.has_identifier(br_id)
+            self.add_doi(cex_graphset, doi_elements, br, base_uri)
 
         if arxiv_elements:
-            id_uri2 = self.create_unique_uri(base_uri, "id")
-            br_id2 = cex_graphset.add_id(id_uri2)
-            arxiv = arxiv_elements[0].text
-            br_id2.create_arxiv(arxiv)
-            br.has_identifier(br_id2)
+            self.add_arxiv(cex_graphset, doi_elements, br, base_uri)
 
         if title_elements:
             br.has_title(title_elements[0].text)
-        if pub_date:
-            # Convert the string to a datetime object
-            date_obj = datetime.strptime(pub_date[0], "%Y-%m-%d")
-
-            # Convert to ISO 8601 format
-            iso_format = date_obj.isoformat()
-            br.has_pub_date(iso_format)
 
         if authors:
             for author in authors:
-                ra_author_uri = self.create_unique_uri(base_uri, "ra")
-                forename_elements = author.xpath('.//tei:forename', namespaces=ns)
-                surname_elements = author.xpath('.//tei:surname', namespaces=ns)
-                orcid_elements = author.xpath('.//tei:idno[@type="ORCID"]', namespaces=ns)
+                self.add_author(cex_graphset, author, br, base_uri, ns)
 
-                ra_author = cex_graphset.add_ra(ra_author_uri)
-                if orcid_elements:
-                    orcid = orcid_elements[0].text
-                    orcid_uri = self.create_unique_uri(base_uri, "id")
-                    ra_id = cex_graphset.add_id(orcid_uri)
-                    ra_id.create_orcid(orcid)
-                    ra_author.has_identifier(ra_id)
-                if forename_elements:
-                    ra_author.has_given_name(forename_elements[0].text)
-                if surname_elements:
-                    ra_author.has_family_name(surname_elements[0].text)
-                if forename_elements and surname_elements:
-                    ra_author.has_name("%s %s" % (forename_elements[0].text, surname_elements[0].text))
-                ar_author_uri = self.create_unique_uri(base_uri, prefix="ar")
-                ar_author = cex_graphset.add_ar(ar_author_uri)
-                ar_author.create_author()
-                ar_author.is_held_by(ra_author)
-                br.has_contributor(ar_author)
+        if pages:
+            res_emb = self.create_re(cex_graphset, pages, base_uri)
+            br.has_format(res_emb)
+
+        if pub_date:
+            raw_date = pub_date[0]
+            self.add_pub_date(raw_date, br)
 
         if publisher:
-            ra_publisher_uri = self.create_unique_uri(base_uri, "ra")
-            publisher_name = publisher[0].text
-            ra_publisher = cex_graphset.add_ra(ra_publisher_uri)
-            ra_publisher.has_name(publisher_name)
-            ar_publisher_uri = self.create_unique_uri(base_uri, prefix="ar")
-            ar_publisher = cex_graphset.add_ar(ar_publisher_uri)
-            ar_publisher.create_publisher()
-            ar_publisher.is_held_by(ra_publisher)
-            br.has_contributor(ar_publisher)
+            self.add_publisher(cex_graphset, publisher, br, base_uri)
 
+        if editors:
+            for editor in editors:
+                self.add_editor(cex_graphset, editor, br, base_uri, ns)
+
+        #top-level bibliographic entity
         if journal_title:
             br.create_journal_article()
             if issue_n:
@@ -687,35 +742,25 @@ class TEIXMLtoRDFConverter:
             else:
                 br.is_part_of(journal)
 
-        if series_title:
-            br_series_uri = self.create_unique_uri(base_uri, "br")
-            series = cex_graphset.add_br(br_series_uri)
-            series.create_series()
-            series.has_title(series_title[0].text)
-            br.is_part_of(series)
+        elif series_title:
+            if title_elements:
+                br_series_uri = self.create_unique_uri(base_uri, "br")
+                series = cex_graphset.add_br(br_series_uri)
+                series.create_series()
+                series.has_title(series_title[0].text)
+                br.is_part_of(series)
+            else:
+                br.create_series()
+                br.has_title(series_title[0].text)
 
-        if other_title:
-            br_monograph_uri = self.create_unique_uri(base_uri, "br")
-            monograph = cex_graphset.add_br(br_monograph_uri)
-            monograph.create_monograph()
-            monograph.has_title(other_title[0].text)
-            br.is_part_of(monograph)
-
-        if pages:
-            start_page = pages[0].get("from")
-            ending_page = pages[0].get("to")
-            re_uri = self.create_unique_uri(base_uri, prefix="re")
-            res_emb = cex_graphset.add_re(re_uri)
-            if start_page and ending_page:
-                res_emb.has_starting_page(start_page)
-                res_emb.has_ending_page(ending_page)
-            elif start_page:
-                res_emb.has_starting_page(start_page)
-                res_emb.has_ending_page(start_page)
-            elif not start_page and not ending_page:
-                res_emb.has_starting_page(pages[0].text)
-                res_emb.has_ending_page(pages[0].text)
-            br.has_format(res_emb)
+        elif other_title:
+            if title_elements:
+                br_monograph_uri = self.create_unique_uri(base_uri, "br")
+                monograph = cex_graphset.add_br(br_monograph_uri)
+                monograph.has_title(other_title[0].text)
+                br.is_part_of(monograph)
+            else:
+                br.has_title(other_title[0].text)
 
         return br
 
@@ -754,24 +799,99 @@ class TEIXMLtoRDFConverter:
                     cited_br = el.get_referenced_br()
                     return cited_br
 
-    def convert_to_rdf(self):
+    def search_section(self, cex_graphset, title_to_find):
+        return next(
+            (de for de in cex_graphset.get_de()
+             if rdflib.term.URIRef('http://purl.org/spar/doco/Section') in de.get_types()
+             and de.get_title() == title_to_find),
+            None
+        )
 
+    def create_sections(self, citation_keys, base_uri, cex_graphset, main_br):
+
+        for el in citation_keys:
+            head_title = el.get('SECTION')
+            if not head_title:
+                continue
+
+            # Skip if section already exists
+            if self.search_section(cex_graphset, head_title):
+                continue
+
+            # Create new section
+            de_uri = self.create_unique_uri(base_uri, "de")
+            de = cex_graphset.add_de(de_uri)
+            de.create_section()
+            de.has_title(head_title)
+            main_br.contains_discourse_element(de)
+
+            # Assign rhetoric type if available
+            aligned_section = el.get('ALIGNED SECTION')
+            if aligned_section:
+                if isinstance(aligned_section, list):
+                    for ret_el in aligned_section:
+                        self.assign_rhetoric_type(de, ret_el)
+                else:
+                    self.assign_rhetoric_type(de, aligned_section)
+            elif head_title.lower() in {
+                "introduction", "related work", "methods", "materials",
+                "results", "discussion", "conclusion"
+            }:
+                self.assign_rhetoric_type(de, head_title)
+
+    def search_citation_sentence(self, cex_graphset, citation_sentence):
+        return next(
+            (de for de in cex_graphset.get_de()
+             if rdflib.term.URIRef('http://purl.org/spar/doco/Sentence') in de.get_types()
+             and de.get_content() == citation_sentence),
+            None
+        )
+
+    def create_citation_sentences(self, citation_keys, base_uri, cex_graphset):
+
+        for el in citation_keys:
+            citation_context = el.get('CITATION')
+            if not citation_context or not citation_context.strip():
+                continue  # Skip empty or null citations
+
+            # Check if citation sentence already exists
+            if self.search_citation_sentence(cex_graphset, citation_context):
+                continue
+
+            # Create new citation sentence
+            de_uri = self.create_unique_uri(base_uri, "de")
+            de = cex_graphset.add_de(de_uri)
+            de.create_sentence()
+            de.has_content(citation_context)
+
+            # Optionally associate it with a section
+            section_title = el.get('SECTION')
+            if section_title:
+                current_section = self.search_section(cex_graphset, section_title)
+                if current_section:
+                    current_section.contains_discourse_element(de)
+
+    def convert_to_rdf(self):
         tree = etree.parse(self.xml_file)
         root = tree.getroot()
         ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
         base_uri = "https://w3id.org/oc/cex/"
-
         cex_graphset = GraphSet(base_uri)
 
-        # Extract br metadata from the xml-tei using XPath
-        main_br = root.xpath('//tei:fileDesc', namespaces=ns)
-        # cited entities contained in the bibliography
+        with open(self.target_file, "r", encoding="utf-8") as f:
+            target_dict = json.load(f)
+
+        # Extract metadata
+        main_br_nodes = root.xpath('//tei:fileDesc', namespaces=ns)
+        if not main_br_nodes:
+            raise ValueError("No <fileDesc> found in XML.")
+        main_br_obj = self.create_main_br(main_br_nodes[0], cex_graphset, base_uri)
+
         cited_entities = root.xpath('//tei:biblStruct[ancestor::tei:listBibl]', namespaces=ns)
-        main_br_obj = self.create_main_br(main_br[0], cex_graphset, base_uri)
         for cited in cited_entities:
-            # create a bibliographic reference for each element in the bibliography and link it to the main br
             be_uri = self.create_unique_uri(base_uri, "be")
             be = cex_graphset.add_be(be_uri)
+
             be_xmlid_text = cited.get('{http://www.w3.org/XML/1998/namespace}id')
             if be_xmlid_text:
                 be_xmlid_uri = self.create_unique_uri(base_uri, "id")
@@ -783,78 +903,56 @@ class TEIXMLtoRDFConverter:
             be.references_br(cited_br_obj)
             main_br_obj.contains_in_reference_list(be)
 
-        #load the json to create citations
+        # Load and process JSON
         with open(self.json_file, 'r', encoding='utf-8') as file:
             json_data = json.load(file)
 
-            sections_created = dict()
+        citation_keys = list(json_data.values())
+        self.create_sections(citation_keys, base_uri, cex_graphset, main_br_obj)
+        self.create_citation_sentences(citation_keys, base_uri, cex_graphset)
 
-            #each el contains 3/4 keys: section, citation, reference, aligned section
-            for citation_key in json_data:
+        for citation_key, el in json_data.items():
+            # Create Reference Pointer if REFERENCE exists
+            if el.get('REFERENCE'):
+                rp_uri = self.create_unique_uri(base_uri, "rp")
+                rp = cex_graphset.add_rp(rp_uri)
+                rp.has_content(el['REFERENCE'])
 
-                el = json_data[citation_key]
+                citation_text = el.get('CITATION')
+                if citation_text:
+                    sentence = self.search_citation_sentence(cex_graphset, citation_text)
+                    if sentence:
+                        sentence.is_context_of_rp(rp)
 
-                # section title
-                if el.get('SECTION'):
-                    head_title = el['SECTION']
-
-                    #create section if not already created
-                    if head_title not in sections_created:
-
-                        de_uri = self.create_unique_uri(base_uri, "de")
-                        de = cex_graphset.add_de(de_uri)
-                        de.create_section()
-                        de.has_title(head_title)
-
-                        #rhetoric types
-                        if el.get('ALIGNED SECTION'):
-                            head = el['ALIGNED SECTION']
-                            if type(head) is list:
-                                for ret_el in head:
-                                    self.assign_rhetoric_type(de, ret_el)
-                            else:
-                                self.assign_rhetoric_type(de, head)
-                        else:
-                            if el.get('SECTION'):
-                                head = el['SECTION']
-                                if head.lower() in ["introduction", "related work", "methods", "materials", "results",
-                                                        "discussion", "conclusion"]:
-                                    self.assign_rhetoric_type(de, head)
-
-                        sections_created[head_title] = de
-                        main_br_obj.contains_discourse_element(de)
-
-                if el.get('REFERENCE'):
-                    reference_pointer_uri = self.create_unique_uri(base_uri, "rp")
-                    reference_pointer = cex_graphset.add_rp(reference_pointer_uri)
-                    reference_pointer.has_content(el['REFERENCE'][0])
-                    if el.get('SECTION'):
-                        current_de = sections_created[el['SECTION']]
-                        current_de.is_context_of_rp(reference_pointer)
-                    ref_target = self.target_dict.get(citation_key)
-                    if ref_target:
-                        be_obtained = self.search_be(cex_graphset, ref_target)
-                        if be_obtained:
-                            reference_pointer.denotes_be(be_obtained)
-
-                ci_uri = self.create_unique_uri(base_uri, prefix="ci")
-                citation = cex_graphset.add_ci(ci_uri)
-                citation_key_uri = self.create_unique_uri(base_uri, "id")
-                citation_key_id = cex_graphset.add_id(citation_key_uri)
-                citation_key_id.create_xpath(citation_key)
-                citation.has_identifier(citation_key_id)
-                citation.has_citing_entity(main_br_obj)
+                ref_target = target_dict.get(citation_key)
                 if ref_target:
-                    cited_entity = self.search_cited_br_through_be(cex_graphset, ref_target)
-                    if cited_entity:
-                        citation.has_cited_entity(cited_entity)
-                        #link the cited entity to the main br
-                        if cited_entity not in main_br_obj.get_citations():
-                            #has_citation: Setter method corresponding to the ``cito:cites`` RDF predicate.
-                            main_br_obj.has_citation(cited_entity)
-                cit_pub_date = main_br_obj.get_pub_date()
-                if cit_pub_date:
-                    citation.has_citation_creation_date(cit_pub_date)
+                    be = self.search_be(cex_graphset, ref_target)
+                    if be:
+                        rp.denotes_be(be)
+
+            # Create Citation
+            ci_uri = self.create_unique_uri(base_uri, "ci")
+            citation = cex_graphset.add_ci(ci_uri)
+
+            citation_id_uri = self.create_unique_uri(base_uri, "id")
+            citation_id = cex_graphset.add_id(citation_id_uri)
+            citation_id.create_xpath(citation_key)
+            citation.has_identifier(citation_id)
+
+            citation.has_citing_entity(main_br_obj)
+
+            # Link to cited entity if available
+            ref_target = target_dict.get(citation_key)
+            if ref_target:
+                cited_entity = self.search_cited_br_through_be(cex_graphset, ref_target)
+                if cited_entity:
+                    citation.has_cited_entity(cited_entity)
+                    if cited_entity not in main_br_obj.get_citations():
+                        main_br_obj.has_citation(cited_entity)
+
+            pub_date = main_br_obj.get_pub_date()
+            if pub_date:
+                citation.has_citation_creation_date(pub_date)
 
         return cex_graphset
 
@@ -878,22 +976,23 @@ class PDFProcessor:
     def validate_file_list(self, file_list, create_rdf):
         # Required file types and their initial counts
         if create_rdf:
-            required_counts = {'.xml': 0, '.json': 0, '.jsonld': 0}
+            required_counts = {'.xml': 1, '.json': 2, '.jsonld': 1}
         else:
-            required_counts = {'.xml': 0, '.json': 0}
+            required_counts = {'.xml': 1, '.json': 1}
+
+        # Initialize counters
+        actual_counts = {ext: 0 for ext in required_counts}
 
         # Check each file in the list
         for file in file_list:
-            ext = file.lower().rsplit('.', 1)[-1]  # Extract file extension and make it lowercase
-            ext = '.' + ext
-            if ext in required_counts:
-                required_counts[ext] += 1
+            ext = '.' + file.lower().rsplit('.', 1)[-1]  # Extract file extension
+            if ext in actual_counts:
+                actual_counts[ext] += 1
             else:
-                return False  # A file with an unexpected extension is found
+                return False  # Unexpected file extension
 
-        # Ensure each required file type is present exactly once
-        return all(count == 1 for count in required_counts.values()) and (len(file_list) == 3 if create_rdf else len(file_list) == 2)
-
+        # Check if actual file counts match expected counts
+        return actual_counts == required_counts
 
     def process_pdf(self, align_headings=False, create_rdf=False):
         input_pdf_path = [self.input_pdf_path]
@@ -921,7 +1020,7 @@ class PDFProcessor:
             try:
                 # citations' context + section heading
                 current_stage = "Generating JSON file"
-                target_dict = self.create_json(input_pdf_path, output_tei_path, create_rdf)
+                self.create_json(input_pdf_path, output_tei_path, create_rdf)
                 # aligning headings
                 if align_headings:
                     current_stage = "Aligning headings"
@@ -951,7 +1050,7 @@ class PDFProcessor:
                 try:
                     # rdf creation
                     current_stage = "Generating RDF file"
-                    self.create_rdf(input_pdf_path, output_tei_path, target_dict)
+                    self.create_rdf(input_pdf_path, output_tei_path)
 
                 except Exception as e:
                     current_datetime = datetime.now()
@@ -976,7 +1075,7 @@ class PDFProcessor:
             for el in processing_outputs:
                 if el.endswith('.tei.xml'):
                     files["tei"] = {'status': 'processed', 'file': el}
-                if el.endswith('.json') and not el.startswith('error_log'):
+                if el.endswith('.json') and not el.startswith('error_log') and not el.endswith('target.json'):
                     files["json"] = {'status': 'processed', 'file': el}
                 if create_rdf:
                     if el.endswith('.jsonld'):
@@ -1023,21 +1122,22 @@ class PDFProcessor:
         tei_to_json_converter = TEIXMLtoJSONConverter(xml_file=xml_file_path, output_json_file=output_json_name,
                                                       auxiliar_file=self.auxiliar_file, create_rdf=create_rdf)
 
-        target = tei_to_json_converter.convert_to_json()
-        if target:
-            return target
+        tei_to_json_converter.convert_to_json()
 
-    def create_rdf(self, input_pdf_path, xml_file_path, target_dict):
+
+    def create_rdf(self, input_pdf_path, xml_file_path):
         output_jsonld_name = self.output_intermediate_dir + os.path.sep + os.path.basename(input_pdf_path[0]).split(".pdf")[
             0] + ".jsonld"
         output_json_name = self.output_intermediate_dir + os.path.sep + \
                            os.path.basename(input_pdf_path[0]).split(".pdf")[0] + ".json"
+        output_target = output_json_name.replace(".json", "_target.json")
 
-        tei_to_rdf_converter = TEIXMLtoRDFConverter(xml_file=xml_file_path, json_file=output_json_name, target_dict=target_dict)
+        tei_to_rdf_converter = TEIXMLtoRDFConverter(xml_file=xml_file_path, json_file=output_json_name, target_file=output_target)
 
         cex_graphset = tei_to_rdf_converter.convert_to_rdf()
 
         storer = Storer(cex_graphset, output_format="json-ld")
+
         storer.store_graphs_in_file(output_jsonld_name)
 
 

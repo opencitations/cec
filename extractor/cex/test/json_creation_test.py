@@ -22,10 +22,12 @@ class TestJSONCreation(unittest.TestCase):
     input_file2 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_EV1.grobid.tei.xml")
     input_file3 = os.path.join(INPUT_FOLDER, "NOTES-8.grobid.tei.xml")
     input_file4 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_4.grobid.tei.xml")
+    input_file5 = os.path.join(OUTPUT_FOLDER, "ART-HUM_5.grobid.tei.xml")
     output_file = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_3.json")
     output_file2 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_EV1.json")
     output_file3 = os.path.join(OUTPUT_FOLDER, "NOTES-8.json")
     output_file4 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_4.json")
+    output_file5 = os.path.join(OUTPUT_FOLDER, "ART-HUM_5.json")
     auxiliar_file = SPECIAL_CASES_PATH
 
     @classmethod
@@ -35,6 +37,7 @@ class TestJSONCreation(unittest.TestCase):
         cls.json_converter2 = TEIXMLtoJSONConverter(cls.input_file2, cls.output_file2, cls.auxiliar_file, False)
         cls.json_converter3 = TEIXMLtoJSONConverter(cls.input_file3, cls.output_file3, cls.auxiliar_file, False)
         cls.json_converter4 = TEIXMLtoJSONConverter(cls.input_file4, cls.output_file4, cls.auxiliar_file, False)
+        cls.json_converter5 = TEIXMLtoJSONConverter(cls.input_file5, cls.output_file5, cls.auxiliar_file, False)
         cls.ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
     @classmethod
@@ -67,6 +70,13 @@ class TestJSONCreation(unittest.TestCase):
             data = json.load(json_file)
         all_figure_captions = [entry["CITATION"] for entry in data.values() if entry.get("SECTION") == "Figure Caption"]
         self.assertTrue(len(all_figure_captions) == 1)
+
+    def test_untitled_sections(self):
+        self.json_converter5.convert_to_json()
+        with open(self.output_file5, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+        all_sections = set([entry['SECTION'] for entry in data.values()])
+        self.assertTrue('Section Untitled 1' in all_sections and 'Section Untitled 2' in all_sections)
 
         
 

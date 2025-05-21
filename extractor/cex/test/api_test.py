@@ -6,8 +6,6 @@ import os
 import zipfile
 from pathlib import Path
 
-from pyparsing import oneOf
-from rdflib.plugins.parsers.jsonld import to_rdf
 
 from extractor.cex.main import create_app
 from werkzeug.datastructures import FileStorage
@@ -40,54 +38,41 @@ class TestApi(unittest.TestCase):
     def test_file_upload_success(self):
         """Test successful file upload."""
 
-        pdf_file = open(os.path.join(BASE, 'PHY-AST_95.pdf'), 'rb')
+        # Upload the file
+        with open(os.path.join(BASE, 'PHY-AST_95.pdf'), 'rb') as pdf_file:
+            data = {
+                'input_files_or_archives': pdf_file,
+                'perform_alignment': 'false',
+                'max_workers': 3,
+                'create_rdf': 'true'
+            }
+            response = self.client.post('/api/extractor', data=data, content_type='multipart/form-data')
+            self.assertEqual(response.status_code, 200)
+            json_response = response.get_json()
+            download_url = json_response.get('download_url')
+            self.assertIsNotNone(download_url)
 
-        data = {
-            'input_files_or_archives': pdf_file,
-            'perform_alignment': 'false',
-            'max_workers': 3,
-            'create_rdf': 'true'
-        }
-
-        # Send the POST request with the file and data
-        response = self.client.post('/api/extractor', data=data, content_type='multipart/form-data')
-
-        self.assertEqual(response.status_code, 200)
-        json_response = response.get_json()
-        self.assertIn('download_url', json_response)
-        # Get the JSON response and extract the download URL
-        response_data = response.get_json()
-        download_url = response_data.get('download_url')
-
-        # Ensure that the download URL is present
-        self.assertIsNotNone(download_url)
-
-        # Download the zip file using the download URL
+        # Download the resulting ZIP
         file_response = self.client.get(download_url)
-
-        # Check if the zip file was downloaded successfully
         self.assertEqual(file_response.status_code, 200)
 
-        # Create a path for the downloaded zip file (in-memory check or save it temporarily)
+        # Save ZIP file
         zip_file_path = os.path.join(self.app.config['DOWNLOAD_FOLDER'], 'processed_file.zip')
-
-        # Write the content of the downloaded zip file to a temporary file
         with open(zip_file_path, 'wb') as temp_zip_file:
             temp_zip_file.write(file_response.data)
 
-        # Open and inspect the zip file
-        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-            # Ensure that 'manifest.json' exists in the zip file
-            self.assertIn('manifest.json', zip_ref.namelist())
+        # Process the ZIP and fully close everything
+        try:
+            with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+                self.assertIn('manifest.json', zip_ref.namelist())
 
-            # Open and read the content of 'manifest.json'
-            with zip_ref.open('manifest.json') as json_file:
-                manifest_data = json.load(json_file)
-                # Check if the manifest contains the expected error message
+                # Fully read the content of manifest.json into a string before leaving the block
+                with zip_ref.open('manifest.json') as json_file:
+                    json_bytes = json_file.read()  # Read all data
+                    manifest_data = json.loads(json_bytes.decode('utf-8'))  # Decode and load JSON
                 self.assertTrue(all(item['status'] == 'success' for item in manifest_data))
-
-        # Clean up: remove the temporary zip file
-        os.remove(zip_file_path)
+        finally:
+            os.remove(zip_file_path)
 
     def test_no_file_upload(self):
         """Test no file uploaded case."""
@@ -280,7 +265,6 @@ class TestApi(unittest.TestCase):
             # Open and read the content of 'manifest.json'
             with zip_ref.open('manifest.json') as json_file:
                 manifest_data = json.load(json_file)
-                # Check if the manifest contains the expected error message
                 self.assertTrue(all(item['status'] == 'success' for item in manifest_data))
 
         # Clean up: remove the temporary zip file
@@ -330,7 +314,6 @@ class TestApi(unittest.TestCase):
             # Open and read the content of 'manifest.json'
             with zip_ref.open('manifest.json') as json_file:
                 manifest_data = json.load(json_file)
-                # Check if the manifest contains the expected error message
                 self.assertTrue(all(item['status'] == 'success' for item in manifest_data))
 
         # Clean up: remove the temporary zip file
@@ -431,16 +414,10 @@ class TestApi(unittest.TestCase):
             # Open and read the content of 'manifest.json'
             with zip_ref.open('manifest.json') as json_file:
                 manifest_data = json.load(json_file)
-                # Check if the manifest contains the expected error message
                 self.assertTrue(all(item['status'] == 'success' for item in manifest_data))
 
         # Clean up: remove the temporary zip file
         os.remove(zip_file_path)
-
-
-
-
-
 
 
 if __name__ == '__main__':

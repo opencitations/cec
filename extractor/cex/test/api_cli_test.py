@@ -144,7 +144,6 @@ class TestScriptFunctions(unittest.TestCase):
             self.assertIn("manifest.json", zipf.namelist())
             with zipf.open("manifest.json") as json_file:
                 manifest = json.load(json_file)
-                print(manifest)
                 self.assertTrue(
                     all("success" in entry["status"] for entry
                         in manifest)

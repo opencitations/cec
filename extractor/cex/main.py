@@ -19,7 +19,7 @@ from datetime import datetime
 import concurrent.futures
 from wtforms.validators import NumberRange
 import zstandard as zstd
-from .settings import *
+from .settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, PROCESSING_FOLDER
 
 def get_all_files(folder_path):
     files = []
@@ -130,15 +130,10 @@ def process_pdf_file(pdf, download_location, perform_alignment, create_rdf):
                              output_json_path=download_location)
     try:
         if create_rdf:
-            if perform_alignment:
-                manifest_info = processor.process_pdf(align_headings=True, create_rdf=True)
-            else:
-                manifest_info = processor.process_pdf(align_headings=False, create_rdf=True)
-        else:
-            if perform_alignment:
-                manifest_info = processor.process_pdf(align_headings=True, create_rdf=False)
-            else:
-                manifest_info = processor.process_pdf(align_headings=False, create_rdf=False)
+            create_rdf = True
+        if perform_alignment:
+            perform_alignment = True
+        manifest_info = processor.process_pdf(perform_alignment, create_rdf)
 
     except Exception as e:
         manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}
