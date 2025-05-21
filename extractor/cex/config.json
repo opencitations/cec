@@ -1,5 +1,5 @@
 {
-    "grobid_server": "https://aa18-2a01-e11-7029-c0c0-dfac-504e-e813-fb56.ngrok-free.app",
+    "grobid_server": "http://localhost:8070",
     "batch_size": 1000,
     "sleep_time": 5,
     "timeout": 600,

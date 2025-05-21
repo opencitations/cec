@@ -22,7 +22,7 @@ class TestJSONCreation(unittest.TestCase):
     input_file2 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_EV1.grobid.tei.xml")
     input_file3 = os.path.join(INPUT_FOLDER, "NOTES-8.grobid.tei.xml")
     input_file4 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_4.grobid.tei.xml")
-    input_file5 = os.path.join(OUTPUT_FOLDER, "ART-HUM_5.grobid.tei.xml")
+    input_file5 = os.path.join(INPUT_FOLDER, "ART-HUM_5.grobid.tei.xml")
     output_file = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_3.json")
     output_file2 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_EV1.json")
     output_file3 = os.path.join(OUTPUT_FOLDER, "NOTES-8.json")
