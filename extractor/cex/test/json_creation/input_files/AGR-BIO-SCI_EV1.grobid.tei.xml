@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Consequences of rearing feeding programme on the performance of rabbit females from 1st to 2nd parturition</title>
+				<funder ref="#_Wvd2cub">
+					<orgName type="full">Spanish Ministry of Education and Science</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2019">2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,48,42,210,06,106,02,12,83"><forename type="first">E</forename><surname>Martínez-Paredes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Ciencia y Tecnología Animal</orgName>
+								<orgName type="institution" key="instit2">Universitat Politècnica de València</orgName>
+								<address>
+									<addrLine>Camino de Vera s/n</addrLine>
+									<postCode>46022</postCode>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,167,58,210,06,58,32,12,83"><forename type="first">D</forename><surname>Savietto</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">GenPhySE</orgName>
+								<orgName type="institution" key="instit1">Université de Toulouse</orgName>
+								<orgName type="institution" key="instit2">INRA</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">INP</orgName>
+								<orgName type="institution" key="instit2">ENVT</orgName>
+								<address>
+									<postCode>31326</postCode>
+									<settlement>Castanet Tolosan</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,239,01,210,06,58,50,12,83"><forename type="first">L</forename><surname>Ródenas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Ciencia y Tecnología Animal</orgName>
+								<orgName type="institution" key="instit2">Universitat Politècnica de València</orgName>
+								<address>
+									<addrLine>Camino de Vera s/n</addrLine>
+									<postCode>46022</postCode>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,310,62,210,06,55,39,12,83"><forename type="first">C</forename><surname>Cervera</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Ciencia y Tecnología Animal</orgName>
+								<orgName type="institution" key="instit2">Universitat Politècnica de València</orgName>
+								<address>
+									<addrLine>Camino de Vera s/n</addrLine>
+									<postCode>46022</postCode>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,379,10,210,06,36,14,12,83"><forename type="first">E</forename><surname>Blas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Ciencia y Tecnología Animal</orgName>
+								<orgName type="institution" key="instit2">Universitat Politècnica de València</orgName>
+								<address>
+									<addrLine>Camino de Vera s/n</addrLine>
+									<postCode>46022</postCode>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,428,31,210,06,60,62,12,83"><forename type="first">G</forename><surname>Brecchia</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Dipartimento di Scienze Biopatologiche ed Igiene delle Produzioni Animali e Alimentari</orgName>
+								<orgName type="department" key="dep2">Universita&apos; degli Studi di Perugia</orgName>
+								<address>
+									<addrLine>Via S. Costanzo 4</addrLine>
+									<postCode>06126</postCode>
+									<settlement>Perugia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,502,07,210,06,39,42,12,83"><forename type="first">C</forename><surname>Boiti</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Dipartimento di Scienze Biopatologiche ed Igiene delle Produzioni Animali e Alimentari</orgName>
+								<orgName type="department" key="dep2">Universita&apos; degli Studi di Perugia</orgName>
+								<address>
+									<addrLine>Via S. Costanzo 4</addrLine>
+									<postCode>06126</postCode>
+									<settlement>Perugia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,71,95,225,03,62,53,12,83"><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Ciencia y Tecnología Animal</orgName>
+								<orgName type="institution" key="instit2">Universitat Politècnica de València</orgName>
+								<address>
+									<addrLine>Camino de Vera s/n</addrLine>
+									<postCode>46022</postCode>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Consequences of rearing feeding programme on the performance of rabbit females from 1st to 2nd parturition</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Animal</title>
+						<title level="j" type="abbrev">Animal</title>
+						<idno type="ISSN">1751-7311</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="issue">10</biblScope>
+							<biblScope unit="page" from="2173" to="2182"/>
+							<date type="published" when="2019" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">00E47CA2707401EA5C8957C35A916908</idno>
+					<idno type="DOI">10.1017/s175173111900051x</idno>
+					<note type="submission">Received 8 October 2018; Accepted 10 January 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-11-20T14:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Oryctolagus cuniculus</term>
+					<term>fibrous diet</term>
+					<term>body condition</term>
+					<term>metabolic status</term>
+					<term>resources allocation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To evaluate how rearing programmes could affect resources allocation and reproductive performance of primiparous rabbit females, a total of 118 rabbit females were used to evaluate the effects of five rearing feeding programmes on their performance from 1st to 2nd parturition: CAL, fed ad libitum C diet (11.0 MJ digestible energy (DE), 114 g digestible protein (DP) and 358 g NDF/kg dry matter (DM) until 1st parturition; CR, fed ad libitum with C diet until 12 weeks of age and then C diet restricted (140 g/day) until 1st parturition; F, fed ad libitum with F diet (8.7 MJ DE, 88 g DP and 476 NDF/kg DM) until 1st parturition; FC, fed with F diet ad libitum until 16 weeks of age, and C diet ad libitum until 1st parturition; FCF, fed with F diet ad libitum until 16 weeks of age, then C diet ad libitum until 20 weeks and then F diet ad libitum until 1st parturition. From 1st parturition, C diet was ad libitum offered to all the experimental groups until 2nd parturition. CAL females presented lower feed intake than females of F, FC and FCF groups in the 1 st week of lactation (on av. -16.6%; P &lt; 0.05). During 1st lactation, the perirenal fat thickness change in CAL females was not different from 0 (+0.02 mm), while in the other four groups it increased (on av. +0.44 mm; P &lt; 0.05). Plasma of females fed with F diet during rearing (F, FC and FCF) had lower non-esterified fatty acids content than those exclusively fed with C diet (-0.088 and -0.072 mmol/l compared to CAL and CR, respectively; P &lt; 0.05). FCF litters had higher weight than F litters at day 21 of lactation (+247 g; P &lt; 0.05), but FCF litter had significantly lower weight than FC litters at weaning (+170 g; P &lt; 0.05). CR females had the shortest average interval between the 1st and 2nd parturition (49 days) and FCF females the longest (+ 9 days compared to CR; P &lt;0.05). At 2nd parturition, liveborn litters of F females were larger and heavier than litters of FCF females (+2.22 kits and +138 g; P &lt; 0.05), probably due to the lower mortality at birth of F litters (-16.5 percentage points; P &lt; 0.05). In conclusion, rearing females on fibrous diets seems to increase the ability of primiparous rabbit females to obtain resources, especially at the onset of lactation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="841.89" lry="595.276"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In a previous work <ref type="bibr" coords="1,385,39,668,67,120,59,9,81" target="#b10">(Martínez-Paredes et al., 2012)</ref>, we were able to confirm that the ad libitum use of energetic reproduction diets during rearing had negative effects on young rabbit females until 1st parturition, such as higher risk of digestive troubles <ref type="bibr" coords="1,384,66,716,47,94,92,9,81" target="#b19">(Rommers et al., 2004)</ref> and gestational toxaemia (Viudes- <ref type="bibr" coords="1,384,93,728,43,98,01,9,81" target="#b23">de-Castro et al., 1991;</ref><ref type="bibr" coords="1,489,15,728,57,53,17,9,62" target="#b20">Rosell, 2000)</ref>, smaller litter size at 1st parturition, probably due to a misuse of the available resources (both feed and body reserves) and inappropriate physiological development.</p><p>On the other hand, we verified that alternatives, such as restriction and some programmes based on high-fibre diets, allowed them to reach an adequate degree of maturity, without prejudice to the rabbit female or the 1st litter, when an adequate flushing was applied around 1st artificial insemination (AI), as well as a greater uptake of resources during pregnancy <ref type="bibr" coords="2,92,52,626,83,84,96,9,81" target="#b16">(Pascual et al., 2002;</ref><ref type="bibr" coords="2,180,85,626,83,75,95,9,81" target="#b9">Manal et al., 2010)</ref>. However, these improvements would have less impact if the benefits do not remain in the medium and long term, improving the further reproductive performance of rabbit females (feed intake, milk yield, litter size, survival, etc.). Nonetheless, the number of works that have attempted to elucidate the effects of the restriction or use of fibrous diets on subsequent reproductive performance are few and present variable results. <ref type="bibr" coords="2,134,55,722,48,85,71,9,81" target="#b18">Rebollar et al. (2011)</ref> did not register improvements in feed intake during the 1st lactation when young rabbit females were restricted during rearing. Other works also failed to show improvements in the feed intake of primiparous lactating females when fibrous diets were used during rearing <ref type="bibr" coords="2,366,80,106,79,86,33,9,81" target="#b17">(Quevedo et al., 2005;</ref><ref type="bibr" coords="2,455,24,106,79,87,08,9,81" target="#b22">Verdelhan et al., 2005)</ref>. However, another of these works did report an improvement in feed intake capacity, which was addressed to recovery of reserves <ref type="bibr" coords="2,345,54,142,62,87,21,9,81" target="#b24">(Xiccato et al., 1999)</ref> or to milk yield promotion (Pascual et al., 2002). In the long term, some works <ref type="bibr" coords="2,522,24,154,73,24,27,9,62;2,309,43,166,54,49,65,9,81" target="#b12">(Nizza et al., 1997;</ref><ref type="bibr" coords="2,362,73,166,54,122,36,9,81" target="#b11">Martínez-Paredes et al., 2018)</ref> have observed slight improvements in litter performance at birth or during lactation in females reared on a fibrous diet.</p><p>For a better understanding of the consequences that these rearing feeding programmes can have on the future reproductive capacity of our rabbit females, it is essential to assess the changes entailed by their implementation on the ability to obtain resources and their partition among the different vital functions of the females. To this end, the aim of the present work was to evaluate how five different feeding rearing programmes used in a previous work (Martínez-Paredes et al., 2012) could have affected resources allocation and reproductive performance of rabbit females from 1st to 2nd parturition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Composition of experimental diets</head><p>Two experimental diets were formulated and pelleted. A control diet (C), similar to a commercial diet for reproductive rabbit does (11.0 MJ digestible energy (DE), 114 g digestible protein (DP) and 358 g NDF/kg dry matter (DM)), was formulated following the main nutritional recommendations of De <ref type="bibr" coords="2,322,92,446,10,93,32,9,62" target="#b5">Blas and Mateos (2010)</ref>. In addition, a low-energy highfibre diet (F) was also formulated (8.7 MJ DE, 88 g DP and 476 g NDF/kg DM). Details of ingredients and chemical composition of both diets can be seen in Table <ref type="table" coords="2,501,27,481,97,3,76,9,62" target="#tab_0">1</ref>. Methods for chemical analysis and in vivo determination of DE and DP of both diets can be consulted in <ref type="bibr" coords="2,452,17,505,80,94,35,9,81;2,309,43,517,90,24,17,9,62" target="#b10">Martínez-Paredes et al. (2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals and experimental procedure</head><p>In the present work, 118 rabbit females (line A of the Universitat Politècnica de València; UPV), which achieved the 1st parturition in a previous work <ref type="bibr" coords="2,444,08,577,51,102,45,9,81;2,309,43,589,61,21,14,9,62" target="#b10">(Martínez-Paredes et al., 2012)</ref>, were controlled from 1st to 2nd parturition. In this previous work, 190 young rabbit females were subjected to five different feeding programmes from 9 weeks of age to 1st parturition (Figure <ref type="figure" coords="2,386,01,625,43,3,45,9,62" target="#fig_0">1</ref>). In brief, C group was fed C diet ad libitum until 1st parturition; CR group was fed C diet ad libitum until 12 weeks of age and then 140 g/day until 1st parturition, with a 7-day ad libitum flushing period around the 1st AI; F group was fed F diet ad libitum until 1st parturition; FC group was fed F diet until 16 weeks of age and then C diet until 1st parturition, both ad libitum; and FCF group was fed F diet until 16 weeks of age, then C diet until 11 days of pregnancy and finally F diet until 1st parturition, all of them ad libitum. Animals were housed in a traditional building under controlled environmental conditions, with light alternating in a cycle of 16 h light and 8 h dark. For more details of management and results with the different feeding programmes throughout the rearing period, see Martínez-Paredes et al. (2012). At 1st parturition, litters were standardised to nine kits and all groups were ad libitum fed on C diet until 2nd parturition. Rabbit females were AI at 11 days after the 1st parturition and successive AIs were carried out every 21 days, as necessary. Artificial insemination was performed using polyspermic semen (line R of UPV), supplying gonadotropin-releasing hormone by intramuscular injection. Pregnancy was tested by manual palpation at 11 days after AI. Litter was weaned at 28 days of age. At the 28 th day of pregnancy, a nest equipped for the litter was provided.</p><p>The traits measured for all females were BW and feed intake, weekly during the 1st lactation and at 2nd parturition, as well as perirenal fat thickness (PFT) by ultrasound at 1st parturition, AI, weaning and 2nd parturition. Daily milk production was measured using the weight(doe)-suckleweight(doe) method. To prevent free nursing, nest boxes were closed between nursings from 1st parturition to 21 days of age. From this moment to weaning, litters were housed in a cage close to their mother to control milk production of the female and feed consumption of the litter. Two milk samples were collected on days 4 and 21 of the 1st lactation from 12 rabbit females per group, following the methodology described by <ref type="bibr" coords="3,103,57,632,79,83,98,9,81" target="#b15">Pascual et al. (1999)</ref>. Litter size and weight were controlled at 1st parturition after standardisation and weekly until 1st weaning. Mortality was recorded daily. The interval from 1st to 2nd parturition of rabbit females and the total and live size and weight of litters at 2nd parturition were recorded. From the same 12 rabbit females per group, blood samples were collected at 1st parturition, AI, weaning and 2nd parturition. On sampling day, feeders were closed at 0700 h and blood samples were taken from the central ear artery into ethylenediaminetetraacetic acid containing tubes from 1100 to 1300 h. Blood samples were centrifuged immediately after sampling (3000 × g, 4°C and 10 min) and plasma was stored at -20°C before being assayed for insulin, glucose, non-esterified fatty acids (NEFA), leptin, cortisol and tri-iodothyroxine (T3) concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ultrasound measurements</head><p>The PFT of females was measured to evaluate body condition, as described by <ref type="bibr" coords="3,392,82,405,68,94,97,9,81" target="#b14">Pascual et al. (2000 and</ref><ref type="bibr" coords="3,490,39,405,82,21,14,9,62">2004)</ref>. Images were obtained with an ultrasound unit (JustVision 200 'SSA--320A' real-time machine; Madrid, Spain, Toshiba) equipped with image analyser software to determine thickness measurements.</p><p>Hormone and metabolite assays Plasma insulin concentrations were determined by the double antibody/polyethylene glycol technique using porcine insulin radioimmunoassay (RIA) kit (Linco Research Inc., St Charles, MO, USA). The antiserum was guinea pig anti-porcine insulin, while both labelled antigen and standards used purified recombinant human insulin. Glucose was analysed by the glucose oxidase method using the Glucose Infinity kit from Sigma (Sigma Diagnostic Inc., St. Louis, MO, USA). Non-esterified fatty acids concentrations were analysed using enzymatic colorimetric assay from Wako (Wako Chemicals GmbH, Neuss, Germany) as previously reported <ref type="bibr" coords="3,378,33,620,82,89,44,9,81" target="#b3">(Brecchia et al., 2006)</ref>. Leptin concentrations were determined by double antibody RIA using the multi-species leptin kit (Linco Research Inc.) as previously reported <ref type="bibr" coords="3,350,06,656,71,98,43,9,81" target="#b3">(Brecchia et al., 2006)</ref>. Plasma cortisol was assayed by RIA, using the CORT kit (ICN Biomedicals Inc., Costa Mesa, CA, USA). CORT assay sensitivity was 0.15 ng/ ml. Finally, total T3 was assayed by RIA according to the procedure provided by the manufacturer (Immunotech, Marseille, France). The assay sensitivity was 0.13 ng/ml, and the major analogues of T3 did not interfere with the assay. Dilution and recovery tests performed on insulin, leptin, T3 and corticosterone using five different samples of rabbit plasma showed linearity. Milk chemical composition Milk samples were analysed for total solids, ash, protein and energy. Total solids and ash contents of milk were obtained using the Association of Official Analytical Chemist (1999) methods. Milk protein content was calculated by the Kjeldahl method according to FIL Standard: 20B (Federation Internationale de Lacterie, 1993). Adiabatic bomb calorimetry method was used to determine the energy content of lyophilised milk.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The model used to analyse performance, hormonal and metabolic data and milk composition of rabbit females from 1st to 2nd parturition and litter weight throughout 1st lactation was a mixed model (PROC MIXED by Statistical Analysis System (SAS), 2002), in a repeated measure design that considered the variation between animals and covariation within them. Covariance structures were objectively compared using the Schwarz Bayesian criterion, as suggested by Littell et al. (1998). The model included the feeding programme (CAL, CR, F, FC and FCF), the overlapping between lactation and gestation (yes and no), the time (control levels for each trait) and their interaction as fixed effects. Random terms in the model included a permanent effect of each animal (P ) and the error term (e), both assumed to have an average of 0, and variance σ 2 p and σ 2 e . To analyse the solid feed intake of litter during last week of 1st lactation, interval between 1st weaning to 2nd parturition and litter data at 2nd parturition, a GLM was used (PROC GLM of SAS, 2002) that included the feeding programme (CAL, CR F, FC and FCF) and the overlap between lactation and gestation (yes and no).</p><p>Different contrasts were computed to test the significance of the differences between treatments, CAL v. CR, CAL v. Fs and CR v. Fs, Fs being 1/3[F + FC + FCF].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>No significant differences among rearing feeding programmes for the evolution of females' BW were observed from 1st to 2nd parturition (on av. 4100 ± 59 g). Figure <ref type="figure" coords="4,541,52,136,81,5,01,9,62" target="#fig_1">2</ref> shows the evolution of the rabbit females' feed intake from 1st to 2nd parturition depending on the rearing feeding programme received. CAL group females presented significantly lower feed intake than females from groups F, FC and FCF during the 1 st week of lactation (on av. -38.8 g DM/ day; P &lt; 0.05). In addition, FCF females showed significantly higher feed intake compared to the rest of the groups during this 1 st week (+65.9, +42.3, +29.5 and +36.5 g DM/day compared to CAL, CR, F and FC, respectively; P &lt; 0.05). From this moment to 2nd parturition, differences in daily feed intake among groups disappeared, with the exception of F group, which showed the lowest values at the 2 nd week of lactation (on av. -29.4 g DM/day; P &lt; 0.05). In the whole period, FCF females had a significantly higher feed intake than CAL females (+19.7 ± 7.4 g DM/day; P = 0.0088).</p><p>Figure <ref type="figure" coords="4,350,65,328,09,5,01,9,62" target="#fig_2">3</ref> shows the PFT change in rabbit females throughout the 1st lactation and from 1st to 2nd parturition. During 1st lactation, the PFT change in CAL group was not significantly different from 0 (+0.02 mm PFT), while the other four groups increased PFT (on av. +0.44 mm; P &lt; 0.05). In fact, the PFT increase in CR during lactation was significantly higher in CAL females (+0.55 mm of PFT; P &lt; 0.05). From 1st to 2nd parturition, CAL females showed a significantly different PFT change compared to FC females (-0.24 and +0.29 mm, respectively; P &lt; 0.05), while the other four groups kept PFT between parturitions.</p><p>Females' milk yield during 1st lactation is shown in Table <ref type="table" coords="4,333,70,471,51,3,76,9,62" target="#tab_1">2</ref>. On average, FCF females produced more milk than CAL and F females (+10 and +13 g/day, respectively; P &lt; 0.05). Weekly, FC and FCF females yielded more milk than F females at the 2 nd week (+22 g/day; P &lt; 0.05) and FCF females to CR and F females at the 3 rd week (on av. +18 g/ day; P &lt; 0.05). Milk composition at days 4 and 21 of 1st lactation is also presented in Table <ref type="table" coords="5,189,39,393,80,3,76,9,62" target="#tab_1">2</ref>. Milk from CR females had more total solids (+4.6 and +2.7 g/100 g at days 4 and 21, respectively; P &lt; 0.05) and lower ash contents (-0.22 g/ 100 g at day 21; P &lt; 0.05) than the milk of the other four groups. At day 4 of lactation, F females produced less milk protein than FC and FCF (on av. -2.25 g/day; P &lt; 0.05) and less milk energy than FC (-0.21 MJ/day; P &lt; 0.05). However, at day 21 of lactation, milk of CR females had higher energy and protein content than FCF milk (+1.0 g/100 g and +1.37 MJ/kg, respectively; P &lt; 0.05).</p><p>Average content of blood plasma parameters in the rabbit females from 1st to 2nd parturition is shown in Table <ref type="table" coords="5,278,03,525,32,3,76,9,62">3</ref>. Interaction between rearing feeding programme and time was not significant for any blood plasma trait. There were no significant differences in the insulin, leptin and cortisol content among the experimental groups (on av. 16.03 μUI insulin/ml, 2.95 ng leptin/ml and 4.6 μg cortisol/dl). Plasma of FC blood had higher glucose than CAL and FCF (+19.0 and +16.3 mg/dl, respectively; P &lt; 0.05). Plasma of females fed with F diet during rearing (F, FC and FCF) had lower NEFA content than those with C diet (-0.088 and -0.072 mmol/l compared to CAL and CR, respectively; P &lt; 0.05). Particularly, NEFA content was the lowest in F females and the highest in CAL females (P &lt; 0.05). Finally, plasma T3 content of the CAL, CR and FCF blood were significantly higher than for FC (on av. +0.43 mmol/l; P &lt;0.05).</p><p>Table <ref type="table" coords="5,82,32,704,64,5,01,9,62">4</ref> shows the performance traits of litters during the 1st lactation. No significant differences were observed in litter mortality. After litter size standardisation at birth, no significant differences in litter weight at 1 st , 7 th and 14 th days of lactation were observed. However, FCF litters had significantly higher weight than F litters at day 21 of lactation (+247 g; P &lt; 0.05). On the contrary, the FCF litter had significantly lower weight than FC litters at weaning (+170 g; P &lt; 0.05). No significant differences among groups were observed for litter feed intake during the last week of lactation.</p><p>Finally, the reproductive performance of rabbit females at 2nd parturition according to rearing feeding programme is described in Table <ref type="table" coords="5,386,70,441,62,3,76,9,62" target="#tab_4">5</ref>. CR females had the shortest interval between the 1st and 2nd parturition (49 days), significantly different from that obtained for FCF females (-9 days; P &lt; 0.05). F females had a significantly higher number of kits born alive at 2nd parturition compared to FCF females (+2.22 kits; P &lt; 0.05), probably due to the lower mortality at birth of F litters compared to FCF (-16.5 percentage points; P &lt; 0.05), but also compared to CR (-20.8 percentage points; P &lt; 0.05). Consequently, F litters had a significantly higher liveborn weight at 2nd parturition than FCF litters (+138 g; P &lt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The interest of specific rearing feeding programmes mainly lies in providing adequate resources to correctly cover the females' requirements (maintenance, growth and gestation), avoiding possible deficits or excesses <ref type="bibr" coords="5,454,74,656,71,79,53,9,81" target="#b16">(Pascual et al., 2013)</ref>. A good rearing programme choice should promote an adequate physiological and reproductive development of the females, which should allow a good start to their reproductive life <ref type="bibr" coords="5,343,21,704,56,123,65,9,81" target="#b10">(Martínez-Paredes et al., 2012)</ref>; but it should also improve the way they obtain and use the available resources, which could have positive effects on their reproductive capacity and lifespan <ref type="bibr" coords="5,395,42,740,39,120,76,9,81" target="#b11">(Martínez-Paredes et al., 2018)</ref>. In our previous work <ref type="bibr" coords="5,367,60,752,35,120,35,9,81" target="#b10">(Martínez-Paredes et al., 2012)</ref>, we described the effects of these same rearing programmes on the  development of young rabbit females up to the 1st parturition. In that study, we observed that programmes based on feed restriction or fibrous diets reduced the risk of early death in females and led to achieving an adequate weight and fat mass at 1st AI, a reserve that was further used to ensure reproduction. On this basis, the present work was focussed on how these rearing programmes could also have modified the way females acquire and use the resources available during their 1st reproductive cycle.</p><p>In order to better understand the effects observed from 1st to 2nd parturition depending on the feeding programme applied during rearing, we decided to discuss each of the feeding programmes separately, to achieve a better view of the evolution of the rabbit females, with results from the previous work <ref type="bibr" coords="7,121,78,747,99,144,87,9,81" target="#b10">(Martínez-Paredes et al., 2012)</ref> as starting point.</p><p>In the previous work, CAL females were characterised by an overweight at the 1st AI and a smaller litter size at 1st parturition. As in previous works <ref type="bibr" coords="7,440,04,604,55,74,20,9,81" target="#b12">(Nizza et al., 1997;</ref><ref type="bibr" coords="7,516,82,604,70,29,72,9,62;7,309,43,616,46,45,29,9,81" target="#b16">Pascual et al., 2002)</ref>, we observed that females' ad libitum fed with a non-fibrous diet showed significantly lower feed intake during the 1st lactation, especially during the 1 st week. Excessive overweight during the 1st gestation has been associated with a reduction in feed intake late in pregnancy, which seems to be maintained at least during the onset of the 1st lactation <ref type="bibr" coords="7,348,21,688,23,85,75,9,81" target="#b16">(Pascual et al., 2002</ref> and the present work), as differences disappeared thereafter. As a consequence of their reduced ability to obtain resources, CAL females showed the lowest milk output and PFT recovery during 1st lactation. Blood metabolites confirmed this acquisition and use pattern, with CAL females showing both the lowest glucose and the highest NEFA and T3 concentrations in plasma, in Table <ref type="table" coords="7,70,97,96,02,4,57,8,25">3</ref> Average blood plasma insulin, glucose, non-esterified fatty acids (NEFA), leptin, cortisol and tri-iodothyroxine (T3) concentrations in rabbit females from 1st to 2nd parturition according to rearing feeding programme  a,b,c Means within a row not sharing any superscript are significantly different at P &lt; 0.05.</p><p>1</p><p>Rearing feeding programme: CAL group received the C diet ad libitum until 1st parturition; CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition; F group received the F diet ad libitum until 1st parturition; FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition. Table <ref type="table" coords="7,71,09,326,19,4,57,8,25">4</ref> Average weight, mortality and solid feed intake of rabbit litters in the 1st lactation according to rearing feeding programme 5.1 7.3 4.5 4.2 5.9 0.6267 4 Feed intake from 21 st to 28 th days of life (g/day) 69.0 69.8 81.1 71.0 81.1 5.2 0.0718 -0.9 ± 7.7 -9.3 ± 6 -8.4 ± 6.1 SEM = pooled standard error of the means. a,b Means within a row not sharing any superscript are significantly different at P &lt; 0.05.</p><p>1</p><p>Rearing feeding programme: CAL group received the C diet ad libitum until 1st parturition; CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition; F group received the F diet ad libitum until 1st parturition; FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition. Effects of rearing feeding programme in primiparous rabbit females agreement with previous works (Savietto et al., 2014;  Arnau-Bonachera et al., 2018). Although the reduced resources acquisition in 1st lactation did not affect the reproductive performance of the CAL females at 2nd parturition, the use of this rearing programme may lead primiparous females to suffer a higher negative balance in their body condition, with their possible associated risks in the long term <ref type="bibr" coords="8,89,51,455,28,81,87,9,81" target="#b16">(Pascual et al., 2013)</ref>.</p><p>During rearing, CR females accomplished their performance goals, achieving an adequate energy feed intake and body reserves balance, without affecting fertility and litter size at 1st parturition. In the present work, restriction during the rearing period allowed CR females to show a good body balance during 1st lactation, which resulted in a reduction in the interval between parturitions. Moreover, we reported no relevant differences in the ability to acquire resources or to use them to produce milk yield when compared to CAL females. Similarly, <ref type="bibr" coords="8,122,91,574,85,86,76,9,81" target="#b2">Bonnano et al. (2004)</ref> did not find differences in milk yield between females restricted and ad libitum fed during the rearing period. In fact, the plasma metabolites profile was similar to that of the CAL group, characterised by low glucose and high NEFA and T3 levels compared to Fs groups. As is well known, rich starch diets promote insulin sensitivity, and consequently glucose infusion rate <ref type="bibr" coords="8,265,38,646,69,20,13,9,62;8,48,42,658,53,48,81,9,81" target="#b4">(Daly et al., 1997)</ref>. However, the shortest interval between parturitions had negative consequences on the body reserves recovery time, which could also explain the high levels of NEFAs and T3 in CR females. These levels denote a greater mobilisation of the acquired reserves, which may be behind the high mortality at birth observed among the litters of CR females at the 2nd parturition.</p><p>In our previous paper, F diet allowed young females to increase their intake capacity already during the rearing period, without any noticeable negative consequence on the reproductive outcomes at 1st parturition. As a consequence of these effects, most works <ref type="bibr" coords="8,419,47,395,53,72,61,9,81" target="#b12">(Nizza et al., 1997;</ref><ref type="bibr" coords="8,494,08,395,53,52,45,9,81;8,309,43,407,63,22,54,9,62" target="#b24">Xiccato et al., 1999;</ref><ref type="bibr" coords="8,334,15,407,49,78,88,9,81" target="#b16">Pascual et al., 2002)</ref> have observed an increase in feed intake during 1st lactation when females were fed with highfibre diets, compared to commercial diets given ad libitum, during the rearing. In the present work, F females only showed higher feed intake during the 1 st week of lactation compared to CAL females, but quite similar to CR females during the 1st lactation. In any case, receiving a poor diet (rich in fibre and low in starch) throughout rearing may have induced physiological changes in how females may address the acquired resources to the different life functions. <ref type="bibr" coords="8,513,48,515,21,33,09,9,62;8,309,43,527,05,48,49,9,81" target="#b7">Friggens et al. (2011)</ref> proposed that the nutritional environment may slightly affect gene expression and thus genetically driven partition of nutrients to the different life functions. Therefore, although the F and CR females showed similar resources acquisition and body condition during 1st lactation, the metabolism of the F females seems to be less dependent on the body reserves to ensure reproduction (lower NEFA levels to CAL and CR groups). In fact, the discrete lower feed intake observed at the 2 nd week of lactation in F females, and their possible tendency to safeguard reserves, had as consequences both low milk delivery and low effectiveness in the insemination at that week. Perhaps the females' safeguarding of reserves could also be behind the larger litter size and lower mortality at 2nd parturition of F litters. In fact, Martínez-Paredes et al. (2018) described long-term reduced numbers of stillborn and offspring that died during lactation in females fed with a F diet during rearing.</p><p>In our previous work, F females that were changed to C diet at 2 weeks before 1st AI (FC) showed higher energy intake from that moment onwards and, as a consequence, Martínez-Paredes, Savietto, Ródenas, Cervera, Blas, Brecchia, Boiti and Pascual higher body reserves than F females at the 1st AI, but similar performance at the 1st parturition. This feeding programme allowed FC females to show similar feeding and body reserves patterns during the 1st lactation to that obtained with the F programme, as well as to undergo a similar homeorhetic change to safeguard their body reserves. However, earlier introduction of C diet could have led to additional changes in the females' metabolism and improved adaption to the reproductive feed. This fact can be shown by the promotion of milk metabolism (higher plasma glucose level, milk energy and protein delivery and litter performance) compared to maintenance (reduced T3 level) from similar available resources, especially at the onset of lactation. This preferential use of the energy intake for milk may explain why the litter performance observed at the 2nd parturition for F females was not achieved by the FC females.</p><p>Finally, in our previous work, F females fed with a flushing with C diet around 1st AI (16 to 20 weeks of age; FCF) had the best performance litter traits at 1st parturition. As a consequence of the larger litter size at birth and/or the adequate feeding management during rearing period, FCF females did achieve one of the main goals proposed for these programmes, an increase in the ingestion capacity during the 1st lactation <ref type="bibr" coords="9,100,24,369,79,81,96,9,81" target="#b16">(Pascual et al., 2013)</ref>. FCF females showed the highest feed intake observed during the 1st lactation, even compared to F females during the first 2 weeks. Although PFT evolution and plasma energy metabolites were not much different from that observed for the other F groups, the higher feed intake observed in FCF was directly addressed to a clear increase in milk yield and litter growth until the 3 rd week of lactation. However, diverting the acquired energy mainly to lactation came with some costs, such as a longer interval between parturitions and the lowest number of kits born alive at the 2nd parturition. In this sense, some previous works have also observed that the use of F diets during rearing has been associated with an increased feed intake and milk yield during lactation of both primiparous and multiparous females <ref type="bibr" coords="9,134,08,537,15,77,77,9,81" target="#b12">(Nizza et al., 1997)</ref>, but no negative effects on litter performance at birth have been described in the long term (Nizza et al., 1997; Pascual et al., 2002;  Martínez-Paredes et al., 2018).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The results of the present work have confirmed that the possible overweight at the end of the rearing period when young rabbit females ad libitum fed with reproductive commercial diets seems to have negative consequences until the 2nd parturition. This ad libitum programme decreases primiparous females' ability to obtain resources and leads them to suffer possible negative body balances. The restriction of these reproductive diets during rearing to avoid the cited overweight, although it did not increase the ability of primiparous females to obtain resources, led females to a better energy balance. As an alternative, three different rearing programmes based on the use of a high-fibre low-energy diet have been proposed. We have confirmed the usefulness of these fibrous programmes to increase the ability of primiparous females to obtain resources, especially at the onset of their 1st lactation and when a previous flushing was applied around 1st insemination. In addition, the use of these low-energy rearing diets seems to provoke homeorhetic and metabolic changes in females' resources use, which enables females to be less dependent on their body reserves for reproduction. In this way, the additional feeding intake was mainly addressed to milk yield, and although the greater lactational effort could affect next litter size at birth, other works have confirmed that fibrous rearing programmes do not seem to have effects on reproduction in the long term.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,48,42,258,01,498,03,8,47;3,48,42,267,80,498,05,7,94;3,48,41,277,27,498,08,7,94;3,48,42,286,73,498,07,7,94;3,48,42,295,88,498,05,8,47;3,48,40,305,29,62,52,8,47;3,135,50,94,28,324,00,156,59"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Diagram of the different feeding programmes carried out by the rabbit females from rearing to the 2nd parturition for the five experimental groups. CAL group received the C diet ad libitum until 1st parturition, CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition, F group received the F diet ad libitum until 1st parturition, FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group received the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition. *Flushing 4 days before artificial insemination. AI1 = effective 1st artificial insemination; AI2 = effective 2nd artificial insemination; wk = weeks of age.</figDesc><graphic coords="3,135,50,94,28,324,00,156,59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,48,42,718,28,498,10,7,95;4,48,41,727,75,498,05,7,95;4,48,42,737,22,498,07,7,95;4,48,42,746,63,498,01,7,95;4,48,42,756,21,301,65,7,79;4,352,80,754,44,35,54,5,19;4,388,40,756,21,158,07,7,79;4,48,41,765,24,124,21,8,47;4,99,50,525,09,396,00,185,78"><head>Figure 2</head><label>2</label><figDesc>Figure2Daily feed intake of rabbit females from 1st to 2nd parturition according to the rearing feeding programme. CAL group received the C diet ad libitum until 1st parturition, CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition, F group received the F diet ad libitum until 1st parturition, FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group received the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition. All the animals, independently of the rearing programme, were fed with the same feed (diet C) from 1st to 2nd parturition. a,b,c,d,e,f,g,h,i Bars not sharing any superscript are significantly different at P &lt; 0.05. DM = dry matter.</figDesc><graphic coords="4,99,50,525,09,396,00,185,78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,48,42,291,44,498,03,7,79;5,48,42,300,79,498,06,7,94;5,48,42,310,26,498,06,7,94;5,48,42,319,73,498,02,7,94;5,48,41,329,31,47,58,7,79;5,98,31,327,49,7,47,5,19;5,105,79,328,87,224,62,8,47;5,117,47,94,28,360,00,189,58"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Perirenal fat thickness changes of rabbit females during whole lactation and from 1st to 2nd parturition according to the rearing feeding programme. CAL group received the C diet ad libitum until 1st parturition, CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition, F group received the F diet ad libitum until 1st parturition, FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group received the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition. a,b Bars not sharing any superscript are significantly different at P &lt; 0.05.</figDesc><graphic coords="5,117,47,94,28,360,00,189,58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="7,48,42,292,68,2,86,4,89;7,51,25,293,99,134,53,7,97;7,48,41,302,94,99,62,7,97"><head>2</head><label></label><figDesc>Fs: 1/3[F + FC + FCF]; mean ± standard error. *Contrast significant at P &lt; 0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,48,42,533,85,2,86,4,89;7,51,25,535,10,134,53,7,97;7,48,42,542,81,2,86,4,89;7,51,25,544,47,110,53,7,33;7,48,42,551,77,2,86,4,89;7,51,25,552,90,46,22,8,13;7,98,48,551,77,2,86,4,89;7,101,31,553,43,1,90,7,33"><head>2</head><label></label><figDesc>Fs: 1/3[F + FC + FCF]; mean ± standard error. 3 Litter size standardised at nine pups. 4 Probability of χ 2 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,48,41,95,89,237,14,428,53"><head>Table 1</head><label>1</label><figDesc>Ingredients and chemical composition of experimental diets for rabbit females</figDesc><table coords="2,48,42,124,87,237,07,346,94"><row><cell></cell><cell>Diet C</cell><cell>Diet F</cell></row><row><cell>Ingredient (g/kg)</cell><cell></cell><cell></cell></row><row><cell>Barley</cell><cell>312</cell><cell>78</cell></row><row><cell>Alfalfa hay</cell><cell>450</cell><cell>570</cell></row><row><cell>Sunflower meal</cell><cell>94</cell><cell>51</cell></row><row><cell>Soya bean meal</cell><cell>85</cell><cell>-</cell></row><row><cell>Sugar beet pulp</cell><cell>-</cell><cell>152</cell></row><row><cell>Cereal straw</cell><cell>-</cell><cell>100</cell></row><row><cell>Soya bean oil</cell><cell>30</cell><cell>10</cell></row><row><cell>HCl L-lysine, 780</cell><cell>2</cell><cell>3.9</cell></row><row><cell>DL-methionine, 990</cell><cell>-</cell><cell>0.85</cell></row><row><cell>L-threonine, 980</cell><cell>-</cell><cell>1.45</cell></row><row><cell>L-tryptophan, 980</cell><cell>1</cell><cell>1.5</cell></row><row><cell>L-Arginine, 990</cell><cell>-</cell><cell>4</cell></row><row><cell>Dicalcium phosphate</cell><cell>17</cell><cell>1.8</cell></row><row><cell>Monosodium phosphate</cell><cell>-</cell><cell>16.5</cell></row><row><cell>Salt</cell><cell>5</cell><cell>5</cell></row><row><cell>Vitamin-mineral mixture 1</cell><cell>4</cell><cell>4</cell></row><row><cell>Chemical composition (g/kg dry matter (DM)</cell><cell></cell><cell></cell></row><row><cell>DM (g/kg)</cell><cell>899</cell><cell>900</cell></row><row><cell>Ash</cell><cell>90</cell><cell>103</cell></row><row><cell>Starch</cell><cell>205</cell><cell>63</cell></row><row><cell>Ether extract</cell><cell>52</cell><cell>29</cell></row><row><cell>CP</cell><cell>179</cell><cell>146</cell></row><row><cell>NDF</cell><cell>358</cell><cell>476</cell></row><row><cell>ADF</cell><cell>277</cell><cell>394</cell></row><row><cell>ADL</cell><cell>59</cell><cell>88</cell></row><row><cell>Gross energy (MJ/kg DM)</cell><cell>18.24</cell><cell>18.67</cell></row><row><cell>Digestible energy (DE; MJ/kg DM) 2</cell><cell>11.03</cell><cell>8.72</cell></row><row><cell>Digestible protein (DP; g/kg DM) 2</cell><cell>114</cell><cell>88</cell></row><row><cell>DP/DE (g/MJ)</cell><cell>10.3</cell><cell>10.1</cell></row></table><note coords="2,48,42,479,54,2,86,4,89;2,51,25,481,26,234,26,8,05;2,48,41,490,22,237,14,8,05;2,48,41,499,18,237,08,7,33;2,48,41,507,72,237,10,7,97;2,48,41,517,09,52,26,7,33"><p><p>1</p>Per kilogram of feed: vitamin A: 8375 IU; vitamin D 3 : 750 IU; vitamin E: 20 mg; vitamin K 3 : 1 mg; vitamin B 1 : 1 mg; vitamin B 2 : 2 mg; vitamin B 6 : 1 mg; nicotinic acid: 20 mg; choline chloride: 250 mg; Mg: 290 mg; Mn: 20 mg; Zn: 60 mg; I: 1.25 mg; Fe: 26 mg; Cu: 10 mg; Co: 0.7; butyl hydroxylanysole + ethoxiquin: 4 mg.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,70,13,54,00,681,46,379,37"><head>Table 2</head><label>2</label><figDesc>Average milk yield and composition of rabbit females at 1st lactation according to rearing feeding programme CAL group received the C diet ad libitum until 1st parturition; CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition; F group received the F diet ad libitum until 1st parturition; FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition.</figDesc><table coords="6,308,13,70,10,98,01,10,13"><row><cell>Rearing feeding programme 1</cell></row></table><note coords="6,70,13,371,65,129,98,7,97;6,70,13,379,31,7,03,4,89;6,77,16,380,61,258,30,7,97;6,70,13,388,27,2,86,4,89;6,73,02,389,98,84,98,7,33;6,70,13,415,20,2,86,4,89;6,73,02,416,44,134,53,7,97;6,70,13,425,40,99,62,7,97"><p>SEM = pooled standard error of the means. a,b Means within a row not sharing any superscript are significantly different at P &lt; 0.05. 1 Rearing feeding programme: 2 Fs: 1/3[F + FC + FCF]; mean ± standard error. *Contrast significant at P &lt; 0.05.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="8,48,40,95,89,498,18,258,84"><head>Table 5</head><label>5</label><figDesc>Average reproductive performance of rabbit females at 2nd parturition according to rearing feeding programme CAL group received the C diet ad libitum until 1st parturition; CR group received the C diet ad libitum until 12 weeks and then, 140 g/day until 1st parturition; F group received the F diet ad libitum until 1st parturition; FC and FCF group received F diet ad libitum until 16 weeks and then, FC group received the C diet ad libitum until 1st parturition and FCF group the C diet ad libitum until 20 weeks and then the F diet ad libitum until 1st parturition.Interaction feeding programme × overlapping degree was significant at P &lt;0.01.</figDesc><table coords="8,48,40,111,99,498,12,172,18"><row><cell></cell><cell></cell><cell cols="3">Rearing feeding programme 1</cell><cell></cell><cell></cell><cell></cell><cell>Contrasts 2</cell><cell></cell></row><row><cell></cell><cell>CAL</cell><cell>CR</cell><cell>F</cell><cell>FC</cell><cell cols="2">FCF SEM P-value</cell><cell>CAL -CR</cell><cell>CAL -Fs</cell><cell>CR -Fs</cell></row><row><cell>No. of females</cell><cell>18</cell><cell>23</cell><cell>25</cell><cell>26</cell><cell>26</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">Interval 1st to 2nd parturition (days) 52.53 ab 49.22 a 57.52 ab 51.52 ab 58.04 b 3.22 0.0429</cell><cell cols="3">3.31 ± 4.72 -3.17 ± 4.01 -6.48 ± 3.57</cell></row><row><cell>Litter size at birth</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Total born</cell><cell cols="3">10.63 10.75 10.35</cell><cell>9.39</cell><cell cols="3">9.52 0.62 0.1334 -0.13 ± 0.97</cell><cell>0.87 ± 0.78</cell><cell>1.00 ± 0.75</cell></row><row><cell>Born alive</cell><cell cols="3">7.58 ab 7.44 ab 9.30 b</cell><cell cols="3">7.69 ab 7.08 a 0.82 0.0389</cell><cell cols="3">0.15 ± 1.28 -0.44 ± 1.02 -0.58 ± 0.99</cell></row><row><cell>Mortality at birth (%) 3</cell><cell cols="7">26.75 ab 31.91 b 11.07 a 16.25 ab 27.52 b 6.12 0.0328 -5.17 ± 9.58</cell><cell cols="2">8.03 ± 7.66 13.20 ± 7.40</cell></row><row><cell>Litter weight at birth (g)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Total born</cell><cell>566</cell><cell>577</cell><cell>555</cell><cell>539</cell><cell>536</cell><cell>31 0.1762</cell><cell>-11 ± 47</cell><cell>27 ± 38</cell><cell>39 ± 36</cell></row><row><cell>Born alive</cell><cell cols="2">419 ab 408 ab</cell><cell>515 b</cell><cell>448 ab</cell><cell>377 a</cell><cell>43 0.0155</cell><cell>11 ± 67</cell><cell>-28 ± 54</cell><cell>-39 ± 52</cell></row><row><cell>Individual weight at birth (g)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Total born</cell><cell cols="3">56.87 54.94 54.34</cell><cell cols="3">60.39 56.34 2.78 0.0803</cell><cell cols="3">1.94 ± 4.31 -0.30 ± 3.46 -2.23 ± 3.34</cell></row><row><cell>Born alive</cell><cell cols="3">57.59 55.16 55.92</cell><cell cols="3">61.31 57.66 2.97 0.1314</cell><cell cols="3">2.42 ± 4.81 -0.91 ± 3.59 -3.33 ± 3.88</cell></row></table><note coords="8,48,42,292,96,129,98,7,97;8,48,42,300,68,7,03,4,89;8,55,45,301,92,258,30,7,97;8,48,42,309,63,2,86,4,89;8,51,25,311,35,85,35,7,33;8,48,42,336,56,2,86,4,89;8,51,25,337,81,140,66,7,97;8,48,42,345,52,2,86,4,89"><p><p>SEM = pooled standard error of the means. a,b Means within a row not sharing any superscript are significantly different at P &lt; 0.05. 1 Rearing feeding programme: 2 Fs = 1/3(F + FC + FCF); mean ± standard error.</p>3</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0" coords="2,51,25,525,99,234,29,7,48;2,48,42,535,06,21,48,7,33"><p>In vivo determination of DE and DP was performed in Martínez-Paredes et al.(2012).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1" coords="4,48,42,67,02,313,21,9,62"><p>Martínez-Paredes, Savietto, Ródenas, Cervera, Blas, Brecchia, Boiti and Pascual   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors thank the <rs type="funder">Spanish Ministry of Education and Science</rs> (Project <rs type="grantNumber">AGL2006-07596</rs>) for the economic support to conduct this study.</p></div>
+<div><head>Declaration of interest</head><p>Author declares no conflicts of interest of any sort.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Wvd2cub">
+					<idno type="grant-number">AGL2006-07596</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>All experimental procedures were approved by the Animal Welfare Ethics Committee of the UPV, which follows Spanish Royal Decree 1201/2005 on the protection and use of animals for scientific purposes and carried out following the advice for applied nutrition research in rabbits according to the European Group on Rabbit Nutrition <ref type="bibr" coords="9,410,86,481,20,125,35,9,35" target="#b6">(Fernández-Carmona et al., 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Software and data repository source</head><p>Data is property of the UPV and may be available from the authors upon request.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,309,43,589,83,237,08,7,33;9,309,43,598,84,237,13,7,33;9,309,43,607,80,237,14,7,33;9,309,43,616,76,93,83,7,33" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Long-term implications of feed energy source in different genetic types of reproductive rabbit females: I. Resource acquisition and allocation</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Arnau-Bonachera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Martínez-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Ródenas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1867" to="1876" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,309,43,628,72,237,17,7,33;9,309,43,637,68,174,17,7,33" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Association of Official Analytical Chemist</title>
+	</analytic>
+	<monogr>
+		<title level="j">AOAC</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="1999">1999</date>
+			<pubPlace>Gaithersburg, MD, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Official methods of analysis. th edition, 5th revision</note>
+</biblStruct>
+
+<biblStruct coords="9,309,43,649,64,237,12,7,33;9,309,43,658,19,237,13,7,97;9,309,43,667,56,237,13,7,33;9,309,43,676,52,161,21,7,33" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effects of restricted feeding during rearing, combined with a delayed first insemination, on reproductive activity of rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bonnano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Mazza</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Di</forename><surname>Grigoli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Alicata</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 8th World Rabbit Congress</title>
+		<meeting>the 8th World Rabbit Congress<address><addrLine>Puebla, México</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004-09-10">2004. 10 September 2004</date>
+			<biblScope unit="page" from="224" to="230" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,309,43,688,48,237,08,7,33;9,309,43,697,44,237,11,7,33;9,309,43,706,40,237,09,7,33;9,309,43,715,41,175,84,7,33" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hormonal and metabolic adaptation to casting: effects on the hypothalamic-pituitary-ovarian axis and reproductive performance of rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Brecchia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bonanno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Galeati</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Federici</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Maranesi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Gobbetti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Zerani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Boiti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Domestic Animal Endocrinology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="105" to="122" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,309,43,727,38,237,11,7,33;9,309,43,736,33,237,14,7,33;9,309,43,745,29,180,76,7,33" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Dietary carbohydrates and insulin sensitivity: a review of the evidence and clinical implications</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">E</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Vale</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kgmm</forename><surname>Alberti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Mathers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Clinical Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1072" to="1085" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,309,43,757,26,237,11,7,33;9,309,43,766,21,226,84,7,33;10,48,42,96,71,237,13,7,33;10,48,42,105,67,237,11,7,33;10,48,42,114,63,54,40,7,33" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Federation Internationale de Lacterie 1993. Determination de la teneur en azote. FIL Standard: 20B. Secrétariat General Federation Internationale de Lacterie</title>
+		<author>
+			<persName coords=""><forename type="first">De</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Mateos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nutrition of the rabbit</title>
+		<editor>
+			<persName><forename type="first">Blas</forename><surname>De</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Wiseman</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Wallingford, UK; Brussels, Belgium</addrLine></address></meeting>
+		<imprint>
+			<publisher>CABI Publishing</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="222" to="232" />
+		</imprint>
+	</monogr>
+	<note>Feed formulation</note>
+</biblStruct>
+
+<biblStruct coords="10,48,42,127,10,237,15,7,33;10,48,42,136,06,237,14,7,33;10,48,42,145,02,158,95,7,33" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Recommendations and guidelines for applied nutrition experiments in rabbits</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Fernández-Carmona</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Gidenne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Xiccato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>García</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Rabbit Science</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="209" to="228" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,42,157,49,237,14,7,33;10,48,42,166,45,237,11,7,33;10,48,42,175,41,237,07,7,33;10,48,42,184,37,24,92,7,33" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Advances in predicting nutrient partitioning in the dairy cow: recognizing the central role of genotype and its expression through time</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">C</forename><surname>Friggens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Brun-Lafleur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Faverdin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Sauvant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><forename type="middle">O</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="89" to="101" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>suppl. 1</note>
+</biblStruct>
+
+<biblStruct coords="10,48,42,196,84,237,15,7,33;10,48,42,205,80,237,15,7,33" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Statistical analysis of repeated measures data using SAS procedures</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">C</forename><surname>Littell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">R</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">B</forename><surname>Ammerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1216" to="1231" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,42,217,76,237,15,7,33;10,48,42,226,72,237,11,7,33;10,48,42,235,68,152,82,7,33" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Feed restriction of pregnant nulliparous rabbit does: consequences on reproductive performance and maternal behaviour</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">F</forename><surname>Manal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tony</forename><forename type="middle">Ma</forename><surname>Ezzo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><forename type="middle">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Reproduction Science</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="179" to="186" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,42,248,15,237,18,7,33;10,48,42,257,11,237,15,7,33;10,48,42,266,07,205,21,7,33" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effects of feeding programme on the performance and energy balance of nulliparous rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Martínez-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Ródenas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Martínez-Vallespín</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Brecchia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Boiti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1086" to="1095" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,42,278,54,237,12,7,33;10,48,42,287,50,237,08,7,33;10,48,42,296,05,215,27,7,97" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Early development and reproductive lifespan of rabbit females: implications of growth rate, rearing diet and body condition at first mating</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Martínez-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Ródenas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Savietto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2347" to="2355" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,43,308,93,237,12,7,33;10,48,43,317,48,237,09,7,97;10,48,43,326,85,52,59,7,33" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Influence of diet used before and after the first mating on reproductive performance of rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Nizza</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Di</forename><surname>Meo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Rabbit Science</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="107" to="110" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,43,338,81,237,16,7,33;10,48,43,347,77,237,09,7,33;10,48,43,356,73,237,10,7,33;10,48,43,365,75,28,99,7,33" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ultrasound measurements of perirenal fat thickness to estimate the body condition of reproducing rabbit does in different physiological states</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Piquer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Quevedo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Rabbit Science</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="7" to="31" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,43,377,65,237,14,7,33;10,48,43,386,67,237,07,7,33;10,48,43,395,63,210,54,7,33" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The use of ultrasound measurement of perirenal fat thickness to estimate changes in body condition of young female rabbits</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Castella</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fernández-Carmona J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="435" to="442" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48,44,407,59,237,08,7,33;10,48,44,416,55,237,14,7,33;10,48,44,425,51,156,22,7,33" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effect of high fat diets on the performance, milk yield and milk composition of multiparous rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fernández-Carmona J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="151" to="162" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>suppl. 1</note>
+</biblStruct>
+
+<biblStruct coords="10,48,44,437,47,237,09,7,33;10,48,44,446,43,232,40,7,33;10,309,46,96,74,237,08,7,33;10,309,46,105,70,237,12,7,33;10,309,46,114,66,150,84,7,33" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Resources allocation in reproductive rabbit does: a review of feeding and genetic strategies for suitable performances</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fernández-Carmona J ;</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Savietto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Baselga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Rabbit Science</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="123" to="144" />
+			<date type="published" when="2002">2002. 2013</date>
+		</imprint>
+	</monogr>
+	<note>World Rabbit Science</note>
+</biblStruct>
+
+<biblStruct coords="10,309,46,126,62,237,12,7,33;10,309,46,135,58,237,09,7,33;10,309,46,144,13,237,11,7,97;10,309,46,153,55,28,78,7,33" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of selection for litter size and feeding programme on the performance of young rabbit females during rearing and first pregnancy</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Quevedo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Blas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Baselga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Costa</forename><forename type="middle">C</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="161" to="168" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309,46,165,46,237,11,7,33;10,309,46,174,48,237,15,7,33;10,309,46,183,43,237,10,7,33;10,309,46,192,39,187,84,7,33" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of feed restriction or feeding high-fibre diet during the rearing period on body composition, serum parameters and productive performance of rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">G</forename><surname>Rebollar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Pereda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">F</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Millán</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">L</forename><surname>Lorenzo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Nicodemus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Feed Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="67" to="76" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309,46,204,36,237,09,7,33;10,309,46,212,90,237,16,7,97;10,309,46,222,27,237,13,7,33;10,309,46,231,23,95,45,7,33" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of feeding program during rearing and age at first insemination on performances during subsequent reproduction in young rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Rommers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Meijerhof</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jptm</forename><surname>Noordhuizen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Kemp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reproduction Nutrition and Development</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="321" to="332" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309,46,243,20,237,15,7,33;10,309,46,252,15,237,11,7,33;10,309,46,261,11,43,92,7,33;10,309,46,273,08,237,11,7,33;10,309,46,282,03,86,59,7,33" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Enfermedades metabólicas</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Rosell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Statistical Analysis System (SAS) 2002. SAS/SAT user&apos;s guide</title>
+		<meeting><address><addrLine>Mundiprensa, Madrid, Spain; Cary, NC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>SAS Institute Inc</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="399" to="454" />
+		</imprint>
+	</monogr>
+	<note>Enfermedades del conejo (ed. JM Rosell)</note>
+</biblStruct>
+
+<biblStruct coords="10,309,46,294,00,237,16,7,33;10,309,46,302,96,237,12,7,33;10,309,46,311,97,237,10,7,33;10,309,46,320,93,61,04,7,33" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Different resource allocation strategies result from selection for litter size at weaning in rabbit does</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Savietto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cervera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Ródenas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Martínez-Paredes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Baselga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>García-Diego</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">C</forename><surname>Friggens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="618" to="628" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>suppl. 4</note>
+</biblStruct>
+
+<biblStruct coords="10,309,46,332,89,237,13,7,33;10,309,46,341,85,237,09,7,33;10,309,46,350,81,237,11,7,33;10,309,46,359,77,237,12,7,33;10,309,46,368,71,40,23,7,33" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Comparaison de deux programmes alimentaires pour la préparation des futures reproductrices</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Verdelhan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Bourdillon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Huirtaurd</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Lédan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Renouf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Roulleau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Salaun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11émes Journées de la Recherche Cunicole</title>
+		<meeting>the 11émes Journées de la Recherche Cunicole<address><addrLine>Paris, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005-11-30">2005. 29-30 November 2005</date>
+			<biblScope unit="page" from="119" to="122" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309,46,380,67,237,05,7,33;10,309,46,389,63,237,02,7,33;10,309,45,398,59,237,09,7,33;10,309,45,407,60,29,57,7,33" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effet de la concentration énergétique de l&apos;alimentation sur les pertes embryonnaires et foetales chez la lapine</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Viudes-De-Castro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Santacreu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">S</forename><surname>Vicente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reproduction Nutrition and Development</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="529" to="534" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,309,45,419,51,237,10,7,33;10,309,45,428,53,237,10,7,33;10,309,45,437,49,237,08,7,33;10,309,45,446,44,28,78,7,33" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effect of postweaning feeding on the performance and energy balance of female rabbits at different physiological states</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Xiccato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Bernardini</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Castellini</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dalle</forename><surname>Zotte</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Queaque</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">I</forename><surname>Trocino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Science</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="416" to="426" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

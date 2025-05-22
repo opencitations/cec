@@ -31,6 +31,7 @@
   "ibid.": [{"ORTH": "ibid.", "NORM": "in the same place"}],
   "Ibid.": [{"ORTH": "Ibid.", "NORM": "In the same place"}],
   "Inc.": [{"ORTH": "Inc.", "NORM": "Incorporated"}],
+  "incl.": [{"ORTH": "incl.", "NORM": "included"}],
   "Max.": [{"ORTH": "Max.", "NORM": "Maximum"}],
   "max.": [{"ORTH": "max.", "NORM": "maximum"}],
   "Min.": [{"ORTH": "Min.", "NORM": "Minimum"}],
@@ -82,6 +83,8 @@
   "Uncond.": [{"ORTH": "Uncond.", "NORM": "Unconditioned"}],
   "U.S.": [{"ORTH": "U.S.", "NORM": "United States"}],
   "U.S.A.": [{"ORTH": "U.S.A.", "NORM": "United States of America"}],
+  "viz.": [{"ORTH": "viz.", "NORM": "namely"}],
+  "Viz.": [{"ORTH": "Viz.", "NORM": "namely"}],
   "vol.": [{"ORTH": "vol.", "NORM": "volume"}],
   "Vol.": [{"ORTH": "Vol.", "NORM": "Volume"}],
   "VOL.": [{"ORTH": "VOL.", "NORM": "VOLUME"}],
@@ -97,5 +100,9 @@
   "Sept.": [{"ORTH": "Sept.", "NORM": "September"}],
   "Oct.": [{"ORTH": "Oct.", "NORM": "October"}],
   "Nov.": [{"ORTH": "Nov.", "NORM": "November"}],
-  "Dec.":[{"ORTH": "Dec.", "NORM": "December"}]
+  "Dec.":[{"ORTH": "Dec.", "NORM": "December"}],
+  "[": [{"ORTH": "[", "NORM": "["}],
+  "]": [{"ORTH": "]", "NORM": "]"}],
+  "(": [{"ORTH": "(", "NORM": "("}],
+  ")": [{"ORTH": ")", "NORM": ")"}]
 }

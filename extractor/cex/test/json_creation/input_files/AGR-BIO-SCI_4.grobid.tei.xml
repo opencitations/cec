@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ethylene and Phloem Signals Are Involved in the Regulation of Responses to Fe and P Deficiencies in Roots of Strategy I Plants</title>
+				<funder ref="#_xTD4Jwy #_gkuMhjQ">
+					<orgName type="full">&quot;Junta de Andalucía</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_8YshB5B #_tbd8Q7d">
+					<orgName type="full">&quot;Ministerio de Economía y Competitividad</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Córdoba (Spain)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Regional Development Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Company TimacAgro Spain (Roullier Group</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-10-10">10 October 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,175,49,313,08,60,17,8,39"><forename type="first">Carlos</forename><surname>Lucena</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany, Ecology and Plant Physiology</orgName>
+								<orgName type="institution">Universidad de Córdoba</orgName>
+								<address>
+									<addrLine>Campus de Excelencia Internacional Agroalimentario CeiA3</addrLine>
+									<settlement>Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,248,11,313,08,56,68,8,39"><forename type="first">Rafael</forename><surname>Porras</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">IFAPA</orgName>
+								<address>
+									<settlement>Centro Alameda del Obispo Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,313,71,313,08,63,57,8,39"><forename type="first">María</forename><forename type="middle">J</forename><surname>García</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany, Ecology and Plant Physiology</orgName>
+								<orgName type="institution">Universidad de Córdoba</orgName>
+								<address>
+									<addrLine>Campus de Excelencia Internacional Agroalimentario CeiA3</addrLine>
+									<settlement>Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,386,19,313,08,76,62,8,39"><forename type="first">Esteban</forename><surname>Alcántara</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Agronomy</orgName>
+								<orgName type="institution">Universidad de Córdoba</orgName>
+								<address>
+									<addrLine>Campus de Excelencia Internacional Agroalimentario CeiA3</addrLine>
+									<settlement>Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,175,49,324,08,87,38,8,39"><forename type="first">Rafael</forename><surname>Pérez-Vicente</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany, Ecology and Plant Physiology</orgName>
+								<orgName type="institution">Universidad de Córdoba</orgName>
+								<address>
+									<addrLine>Campus de Excelencia Internacional Agroalimentario CeiA3</addrLine>
+									<settlement>Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,271,78,324,08,85,65,8,39"><forename type="first">Ángel</forename><forename type="middle">M</forename><surname>Zamarreño</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Environmental Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Sciences</orgName>
+								<orgName type="institution">Universidad de Navarra</orgName>
+								<address>
+									<settlement>Pamplona (Navarra</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,366,36,324,08,56,83,8,39"><forename type="first">Eva</forename><surname>Bacaicoa</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Environmental Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Sciences</orgName>
+								<orgName type="institution">Universidad de Navarra</orgName>
+								<address>
+									<settlement>Pamplona (Navarra</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,432,11,324,08,86,85,8,39"><forename type="first">José</forename><forename type="middle">M</forename><surname>García-Mina</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Environmental Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Sciences</orgName>
+								<orgName type="institution">Universidad de Navarra</orgName>
+								<address>
+									<settlement>Pamplona (Navarra</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,175,49,335,08,61,87,8,39"><forename type="first">Aaron</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Louisiana State University</orgName>
+								<address>
+									<addrLine>Baton Rouge</addrLine>
+									<region>LA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,262,02,335,08,86,69,8,39"><forename type="first">Francisco</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Agronomy</orgName>
+								<orgName type="institution">Universidad de Córdoba</orgName>
+								<address>
+									<addrLine>Campus de Excelencia Internacional Agroalimentario CeiA3</addrLine>
+									<settlement>Córdoba</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,101,16,359,00,53,94,6,50"><forename type="first">Wolfgang</forename><surname>Schmidt</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,106,47,369,00,49,15,6,50"><forename type="first">Academia</forename><surname>Sinica</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,120,48,433,00,35,60,6,50"><forename type="first">Jitender</forename><surname>Giri</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Algarve</orgName>
+								<address>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">National Institute of Plant Genome Research (NIPGR)</orgName>
+								<address>
+									<addrLine>Porras Pérez-Vicente</addrLine>
+									<settlement>Lucena García Alcántara Zamarreño García-Mina</settlement>
+									<region>Bacaicoa</region>
+									<country>India Smith</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ethylene and Phloem Signals Are Involved in the Regulation of Responses to Fe and P Deficiencies in Roots of Strategy I Plants</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-10-10">10 October 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E6178ACA1FB2CEC916B25219B763E49D</idno>
+					<idno type="DOI">10.3389/fpls.2019.01237</idno>
+					<note type="submission">This article was submitted to Plant Nutrition, a section of the journal Frontiers in Plant Science Received: 31 January 2019 Accepted: 05 September 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-04-06T15:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ethylene</term>
+					<term>iron</term>
+					<term>phloem</term>
+					<term>phosphorus</term>
+					<term>signals</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Iron (Fe) and phosphorus (P) are two essential mineral nutrients whose acquisition by plants presents important environmental and economic implications. Both elements are abundant in most soils but scarcely available to plants. To prevent Fe or P deficiency dicot plants initiate morphological and physiological responses in their roots aimed to specifically acquire these elements. The existence of common signals in Fe and P deficiency pathways suggests the signaling factors must act in conjunction with distinct nutrient-specific signals in order to confer tolerance to each deficiency. Previous works have shown the existence of cross talk between responses to Fe and P deficiency, but details of the associated signaling pathways remain unclear. Herein, the impact of foliar application of either P or Fe on P and Fe responses was studied in P-or Fe-deficient plants of Arabidopsis thaliana, including mutants exhibiting altered Fe or P homeostasis. Ferric reductase and acid phosphatase activities in roots were determined as well as the expression of genes related to P and Fe acquisition. The results obtained showed that Fe deficiency induces the expression of P acquisition genes and phosphatase activity, whereas P deficiency induces the expression of Fe acquisition genes and ferric reductase activity, although only transitorily. Importantly, these responses were reversed upon foliar application of either Fe or P on nutrient-starved plants. Taken together, the results reveal interactions between P-and Fe-related phloem signals originating in the shoots that likely interact with hormones in the roots to initiate adaptive mechanisms to tolerate deficiency of each nutrient.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="595.276" lry="779.528"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Iron (Fe) and phosphorus (P) are two essential elements for plant growth <ref type="bibr" coords="2,99,51,95,95,69,75,9,60" target="#b33">(Marschner, 1995)</ref>. Both elements are abundant in most soils but are present in chemical forms generally not available to plants. As a result, plants enhance acquisition of Fe and P through morphological and physiological responses in their roots. Deficiency of either nutrient initiates similar root responses, such as development of subapical root hairs or cluster roots and the acidification of the rhizosphere or the production of organic acids <ref type="bibr" coords="2,154,58,176,45,77,61,9,60" target="#b31">(Lucena et al., 2015;</ref><ref type="bibr" coords="2,235,10,176,45,53,76,9,60;2,45,08,187,95,20,41,9,60" target="#b52">Song and Liu, 2015;</ref><ref type="bibr" coords="2,68,70,187,95,63,92,9,60" target="#b41">Neumann, 2016;</ref><ref type="bibr" coords="2,135,83,187,95,72,33,9,60" target="#b51">Stetter et al., 2017;</ref><ref type="bibr" coords="2,211,38,187,95,77,49,9,60" target="#b3">Bhosale et al., 2018;</ref><ref type="bibr" coords="2,45,08,199,45,72,03,9,60" target="#b32">Lucena et al., 2018)</ref>. A defining feature of Strategy I plants is the need to reduce Fe(III), the most abundant form of Fe in soils, to Fe(II), prior to acquisition. In Arabidopsis, this Fe(III) reduction is catalyzed by a ferric reductase (EC 1.16.1.17) encoded by the FRO2 gene, whereas Fe(II) uptake is mediated by a transporter encoded by the IRT1 gene <ref type="bibr" coords="2,149,41,256,95,110,86,9,60" target="#b55">(Walker and Connolly, 2008;</ref><ref type="bibr" coords="2,263,21,256,95,25,66,9,60;2,45,08,268,45,44,77,9,60" target="#b24">Ivanov et al., 2012)</ref>. Both genes are up-regulated under Fe deficiency and are activated by specific bHLH transcription factors, which are also up regulated by Fe deficiency. These bHLH transcription factors include FIT, bHLH38, bHLH39, and others in Arabidopsis <ref type="bibr" coords="2,45,08,314,45,69,12,9,60" target="#b63">(Yuan et al., 2008;</ref><ref type="bibr" coords="2,116,92,314,45,72,06,9,60" target="#b24">Ivanov et al., 2012;</ref><ref type="bibr" coords="2,191,70,314,45,93,21,9,60" target="#b4">Brumbarova et al., 2015)</ref>. Some of the physiological responses to phosphate (Pi) starvation include the up-regulation of Pi transporters (e.g. AtPht1;4, also named AtPT2) and of phosphatase activities (e.g. AtPAP17, also named AtACP5) <ref type="bibr" coords="2,128,70,360,45,72,92,9,60" target="#b66">(Zhang et al., 2014)</ref>. <ref type="bibr" coords="2,208,12,360,45,80,75,9,60" target="#b11">del Pozo et al. (1999)</ref> purified and sequenced the N-terminal region of a Pi starvation induced acid phosphatase (encoded by the AtPAP17 gene) from Arabidopsis thaliana. PAP17 shares the characteristics of type 5 acid phosphatases, a class of purple acid phosphatases (PAP) stimulated under low P availability. Recent studies have demonstrated that secretion of PAPs can facilitate utilization of organic P in the rhizosphere <ref type="bibr" coords="2,155,97,440,95,70,97,9,60" target="#b58">(Wang et al., 2009;</ref><ref type="bibr" coords="2,229,44,440,95,59,42,9,60;2,45,08,452,45,20,41,9,60" target="#b44">Robinson et al., 2012;</ref><ref type="bibr" coords="2,67,65,452,45,69,03,9,60" target="#b35">Mehra et al., 2017)</ref>.</p><p>Studies in recent years have demonstrated an important role of MYB type transcription factors on the expression of genes that initiate responses to Fe or P deficiency. AtMYB72 increases its transcription under Fe deficiency and is involved in some Fe deficiency responses <ref type="bibr" coords="2,128,86,509,95,78,62,9,60" target="#b13">(García et al., 2010)</ref>. Most transcription factors that induce P deficiency responses belong to the MYB family <ref type="bibr" coords="2,72,12,532,95,75,71,9,60" target="#b39">(Müller et al., 2007)</ref>. Of particular note, the Arabidopsis MYB transcription factors AtPHR1 and AtPHR2 ("Phosphate Starvation Response" 1 and 2 respectively), are crucial for P deficiency signaling <ref type="bibr" coords="2,125,31,567,45,75,38,9,60" target="#b48">(Rubio et al., 2001;</ref><ref type="bibr" coords="2,204,37,567,45,84,50,9,60;2,45,08,578,95,20,41,9,60" target="#b12">Franco-Zorrilla et al., 2004;</ref><ref type="bibr" coords="2,67,65,578,95,64,60,9,60" target="#b54">Todd et al., 2004;</ref><ref type="bibr" coords="2,134,40,578,95,60,59,9,60" target="#b1">Bari et al., 2006;</ref><ref type="bibr" coords="2,197,15,578,95,69,03,9,60" target="#b35">Mehra et al., 2017)</ref>.</p><p>In previous works, it has been found that P deficiency induces the expression of Fe-related genes; that Fe deficiency induces the expression of P-related genes and that both deficiencies induce the expression of ethylene-related genes (reviewed in <ref type="bibr" coords="2,253,80,624,95,35,06,9,60;2,45,08,636,45,33,28,9,60">García et al., 2015;</ref><ref type="bibr" coords="2,80,34,636,45,71,52,9,60" target="#b31">Lucena et al., 2015;</ref><ref type="bibr" coords="2,153,83,636,45,70,85,9,60" target="#b32">Lucena et al., 2018)</ref>. Taken together, these results suggest the existence of cross talk between Fe and P deficiency. The upregulation of Fe acquisition genes under P deficiency is generally associated to the increased accumulation of Fe in leaves <ref type="bibr" coords="2,98,87,682,45,89,08,9,60" target="#b56">(Wang Y. H. et al., 2002;</ref><ref type="bibr" coords="2,189,77,682,45,71,54,9,60" target="#b36">Misson et al., 2005;</ref><ref type="bibr" coords="2,263,13,682,45,25,73,9,60;2,45,08,693,95,45,54,9,60" target="#b23">Hirsch et al., 2006;</ref><ref type="bibr" coords="2,94,27,693,95,69,98,9,60" target="#b62">Ward et al., 2008;</ref><ref type="bibr" coords="2,167,90,693,95,73,56,9,60" target="#b67">Zheng et al., 2009;</ref><ref type="bibr" coords="2,245,11,693,95,43,76,9,60" target="#b0">Abel, 2011;</ref><ref type="bibr" coords="2,45,08,705,45,94,86,9,60" target="#b43">Perea-García et al., 2013;</ref><ref type="bibr" coords="2,142,43,705,45,63,54,9,60" target="#b59">Wang et al., 2014</ref><ref type="bibr" coords="2,205,97,705,45,78,94,9,60" target="#b32">, Lucena et al., 2018)</ref>. On the other hand, P fertilization excess causes Fe chlorosis in calcareous soils <ref type="bibr" coords="2,368,20,74,28,80,75,9,60" target="#b45">(Romera et al., 1992;</ref><ref type="bibr" coords="2,451,99,74,28,97,66,9,60;2,305,87,85,78,20,41,9,60" target="#b49">Sánchez-Rodriguez et al., 2013;</ref><ref type="bibr" coords="2,329,23,85,78,72,65,9,60" target="#b22">Henry et al., 2017)</ref> and Fe deficiency affects P content in leaves <ref type="bibr" coords="2,330,37,97,28,58,33,9,60" target="#b9">(de Kock, 1955)</ref>.</p><p>Either work in the nineties revealed links between ethylene and responses to deficiencies of Fe <ref type="bibr" coords="2,435,99,120,28,113,66,9,60" target="#b46">(Romera and Alcántara, 1994)</ref> and P <ref type="bibr" coords="2,330,68,131,78,71,63,9,60" target="#b2">(Borch et al., 1999)</ref>. Although the regulation of the genes related to these responses is not totally understood, ethylene has since been implicated in the activation of both Fe-related genes (AtFIT, AtFRO2, and AtIRT1; <ref type="bibr" coords="2,422,10,166,28,73,98,9,60" target="#b29">Lucena et al., 2006;</ref><ref type="bibr" coords="2,498,88,166,28,50,77,9,60;2,305,87,177,78,20,41,9,60" target="#b31">Lucena et al., 2015;</ref><ref type="bibr" coords="2,328,78,177,78,73,12,9,60" target="#b32">Lucena et al., 2018;</ref><ref type="bibr" coords="2,404,41,177,78,70,81,9,60" target="#b14">García et al., 2011;</ref><ref type="bibr" coords="2,477,72,177,78,71,93,9,60" target="#b17">García et al., 2015)</ref> and P-related genes (AtPht1;4 and AtPAP17; <ref type="bibr" coords="2,487,09,189,28,62,56,9,60" target="#b26">Lei et al., 2011;</ref><ref type="bibr" coords="2,305,87,200,78,72,39,9,60" target="#b47">Roldán et al., 2013)</ref>. In all cases, the activating effect of ethylene was dependent on the Fe or P status of the plants <ref type="bibr" coords="2,498,15,212,28,51,50,9,60;2,305,87,223,78,20,41,9,60" target="#b14">(García et al., 2011;</ref><ref type="bibr" coords="2,329,48,223,78,59,63,9,60" target="#b26">Lei et al., 2011;</ref><ref type="bibr" coords="2,392,32,223,78,63,91,9,60" target="#b41">Neumann, 2016;</ref><ref type="bibr" coords="2,459,43,223,78,59,83,9,60" target="#b28">Liu et al., 2017)</ref>, which suggests the involvement of signals other than ethylene in gene activation <ref type="bibr" coords="2,344,74,246,78,70,08,9,60" target="#b15">(García et al., 2013)</ref>. <ref type="bibr" coords="2,420,16,246,78,69,69,9,60" target="#b15">García et al. (2013)</ref> showed that the foliar application of Fe blocked the expression of Fe-acquisition genes in the Arabidopsis wild-type cultivar Col-0 but not in the Arabidopsis opt3-2 mutant, which suggests the existence of a Fe-related repressive signal moving in the phloem. This mutant harbors a T-DNA insertion in the AtOPT3 promoter resulting in reduced AtOPT3 expression <ref type="bibr" coords="2,431,01,315,78,76,57,9,60" target="#b50">(Stacey et al., 2008)</ref>. Recently, AtOPT3 has been implicated in the transport of Fe ions into the phloem <ref type="bibr" coords="2,353,04,338,78,67,20,9,60" target="#b65">(Zhai et al., 2014)</ref>. In relation to ethylene, the opt3 mutant produces more ACC in Fe-sufficient roots than the wildtype cultivar Col-0 <ref type="bibr" coords="2,380,46,361,78,73,63,9,60">(García et al., 2018)</ref>. In agreement with this, it also presents constitutive activation of several ethylene-related genes in Fe-sufficient roots <ref type="bibr" coords="2,415,40,384,78,76,69,9,60">(García et al., 2018)</ref>. These results suggest that a Fe-related repressive signal entering the phloem through OPT3 blocks ethylene synthesis in roots (Figure <ref type="figure" coords="2,542,74,407,78,3,46,9,60" target="#fig_10">9</ref>; <ref type="bibr" coords="2,305,87,419,28,69,09,9,60">García et al., 2018)</ref>.</p><p>The Arabidopsis pho2 mutant is impaired in the sensing of P-related phloem signals coming from leaves to roots and overaccumulates Pi in leaves under Pi-replete conditions <ref type="bibr" coords="2,530,50,453,78,19,15,9,60;2,305,87,465,28,45,44,9,60" target="#b1">(Bari et al., 2006;</ref><ref type="bibr" coords="2,354,91,465,28,83,65,9,60" target="#b8">Chiou and Lin, 2011)</ref>. Micrografting experiments revealed that a pho2 root genotype is sufficient to yield leaf Pi over-accumulation <ref type="bibr" coords="2,395,35,488,28,71,87,9,60" target="#b1">(Bari et al., 2006)</ref>. PHO2 encodes an ubiquitin-conjugating E2 enzyme, that targets proteins involved in P acquisition, like Pht1;4, and P loading into the xylem, like PHO1, for degradation (Figure <ref type="figure" coords="2,425,49,522,78,3,46,9,60" target="#fig_10">9</ref>; <ref type="bibr" coords="2,434,30,522,78,79,19,9,60" target="#b8">Chiou and Lin, 2011;</ref><ref type="bibr" coords="2,515,39,522,78,34,26,9,60;2,305,87,534,28,20,41,9,60" target="#b27">Liu et al., 2012;</ref><ref type="bibr" coords="2,329,66,534,28,67,32,9,60" target="#b21">Ham et al., 2018;</ref><ref type="bibr" coords="2,400,37,534,28,69,68,9,60">Wang et al., 2018)</ref>. Probably, PHO2 is also implicated in the regulation of PPAs protein stability <ref type="bibr" coords="2,524,44,545,78,25,21,9,60;2,305,87,557,28,55,07,9,60" target="#b61">(Wang and Liu, 2018)</ref>. Under P deficiency, increased miRNA399, that participates in the cleavage of PHO2 mRNA, enhances plant P acquisition and translocation by reducing the level of PHO2 protein (Figure <ref type="figure" coords="2,369,22,591,78,3,46,9,60" target="#fig_10">9</ref>; <ref type="bibr" coords="2,379,49,591,78,83,58,9,60" target="#b8">Chiou and Lin, 2011;</ref><ref type="bibr" coords="2,466,43,591,78,60,95,9,60" target="#b27">Liu et al., 2012;</ref><ref type="bibr" coords="2,530,74,591,78,18,91,9,60;2,305,87,603,28,48,85,9,60" target="#b21">Ham et al., 2018;</ref><ref type="bibr" coords="2,360,03,603,28,75,44,9,60">Wang et al., 2018)</ref>. miRNA399 is upregulated earlier in shoots than in roots and it has been proposed that its movement through the phloem acts as a systemic signal. In this sense, PHO2 is recognized as a systemic root sensor of shootderived P-related signals <ref type="bibr" coords="2,400,68,649,28,82,60,9,60" target="#b8">(Chiou and Lin, 2011)</ref>.</p><p>The role of signals besides ethylene in the regulation of Fe and P acquisition genes is also supported by the fact that the Arabidopsis constitutive ethylene mutant ctr1 does not present constitutive expression of either Fe-related genes <ref type="bibr" coords="2,497,38,695,28,52,28,9,60;2,305,87,706,78,21,53,9,60" target="#b16">(García et al., 2014)</ref> or P-related genes <ref type="bibr" coords="2,396,94,706,78,59,05,9,60" target="#b26">(Lei et al., 2011)</ref> when grown in complete nutrient solution. Among the non-ethylene signals involved in the regulation of Fe-or P-related genes have been proposed a Fe-peptide <ref type="bibr" coords="3,89,50,85,78,78,61,9,60" target="#b15">(García et al., 2013)</ref> and the miRNA399 described above <ref type="bibr" coords="3,68,76,97,28,63,49,9,60" target="#b42">(Pant et al., 2009;</ref><ref type="bibr" coords="3,133,86,97,28,68,77,9,60" target="#b25">Kumar et al., 2017)</ref>, both moving through the phloem. These signals could interact with ethylene and confer specificity to the responses to Fe or P deficiency, avoiding the induction of the specific responses when ethylene increases due to other nutrient deficiencies or stresses. Besides the specificity conferred by these non-ethylene signals, ethylene itself could confer specificity to the responses to Fe or P deficiency by acting through different signaling pathways in each case. For example, P deficiency did not induce the expression of P-related genes in the Arabidopsis ethylene insensitive mutants ein2 and etr1 <ref type="bibr" coords="3,251,59,200,78,37,27,9,60;3,45,08,212,28,19,74,9,60" target="#b26">(Lei et al., 2011)</ref>, whereas Fe deficiency induced the expression of Fe-related genes in both mutants <ref type="bibr" coords="3,133,77,223,78,77,30,9,60" target="#b29">(Lucena et al., 2006;</ref><ref type="bibr" coords="3,213,88,223,78,71,03,9,60" target="#b15">García et al., 2013)</ref>. Taken together, the above results indicate that ethylene could regulate different nutrient responses by acting in conjunction with other signals and also by acting through different signaling pathways. More knowledge of the specific aspects of the regulation by ethylene of the responses to these deficiencies is necessary to understand the interactions between Fe and P. In this work we have further studied the existence of cross talks between the responses to Fe and P deficiency, taking into account the time course of both deficiencies and the existence of cross talks between Fe and P phloem signals. For this, we have studied Fe and P deficiency responses in A. thaliana Col-0, opt3-2, and pho2 mutants, impaired in the transport of Fe through the phloem (opt3-2) or P homeostasis (pho2). The results obtained show that Fe deficiency induces the expression of P acquisition genes and phosphatase activity while P deficiency transitorily induces the expression of Fe acquisition genes and ferric reductase activity. Moreover, the foliar application of either Fe or P diminished the phosphatase activity and the expression of P-related genes in P deficient plants and the ferric reductase activity in Fe deficient plants. Taken together, the results show additional interactions between P and Fe signals originating in the shoots, and suggest that Fe-or P-related phloem signals can interact with ethylene for the regulation of the responses to their deficiencies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plant Material, Growth Conditions and Treatments</head><p>To analyze the effect of Fe or P deficiency and its interactions with Fe or P phloem signals on the induction of Fe or P deficiency responses and the expression of Fe or P acquisition genes, we used wild-type Arabidopsis [A. thaliana (L.) Heynh ecotype Columbia Col-0] and two Arabidopsis mutants [opt3-2 (characterized by <ref type="bibr" coords="3,113,10,626,28,70,44,9,60" target="#b50">Stacey et al., 2008)</ref> and pho2 (characterized by <ref type="bibr" coords="3,45,08,637,78,104,40,9,60" target="#b10">Delhaize and Randall, 1995)</ref>], which are affected in the transport of Fe (opt3-2) or sensing of P-related signals (pho2) in the phloem. Seeds of the A. thaliana mutants used in this study were obtained from Dr. Stacey (opt3-2) and Dr. Smith (coauthor of this research work; pho2). Arabidopsis plants were grown under controlled conditions as previously described <ref type="bibr" coords="3,215,38,695,28,73,49,9,60" target="#b29">(Lucena et al., 2006;</ref><ref type="bibr" coords="3,45,08,706,78,74,81,9,60" target="#b30">Lucena et al., 2007)</ref>. Briefly, seeds were germinated and, when appropriate, seedlings were transferred to individual containers of 70 ml volume with complete nutrient solution continuously aerated. The nutrient solution had the following composition: 2 mM Ca(NO 3 ) 2 , 0.75 mM K 2 SO 4 , 0.5 mM KH 2 PO 4 , 0.65 mM MgSO 4 , 50 μM KCl, 10 μM H 3 BO 3 , 1 μM MnSO 4 , 0.5 μM CuSO 4 , 0.5 μM ZnSO 4 , 0.05 μM (NH 4 ) 6 Mo 7 O 24 , and 20 μM Fe-EDDHA. When plants were 45-days-old, they were transferred from this complete nutrient solution to the different treatments. Nutrient solutions were renewed every week previously to the treatments but not during the treatments.</p><p>The treatments imposed were: Control: complete nutrient solution with 40 μM FeEDDHA and P; -Fe: nutrient solution without Fe for 2 days; -P: nutrient solution without P (0.5 mM KH 2 PO 4 was not added to the nutrient solution, instead 0.5 mM KCl was added) for 7 days; -Fe-P: nutrient solution without Fe (the last 2 days) and without P for 7 days. The duration of the treatments was of 2 days for Fe deficiency and of 7 days for P deficiency because this is the time (in our experimental conditions of hydroponic culture system) for plants to exhibit maximal induction of their Fe or P acquisition genes. After these periods of time (2 days without Fe and 7 days without P) plants were remove for different assessments. Six replicates were used per each control or deficiency treatment.</p><p>In some treatments, the shoots were sprayed with 0.05% FeSO 4 or 0.35% KH 2 PO 4 , both dissolved in deionized water, just 24 h before the end of the assay. A hand pressure sprayer was used for the foliar treatments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acid Phosphatase Activity Determination</head><p>It was determined as previously described <ref type="bibr" coords="3,476,86,403,28,72,80,9,60;3,305,87,414,78,19,74,9,60" target="#b64">(Zakhleniuk et al., 2001)</ref>. Briefly, roots of intact plants were placed in Petri dishes containing a solution with 5-bromo-4-chloro-3′-indolyphosphate p-toluidine salt (BCIP) 0.01% (w/v) for 4 h. Blue color of roots is higher with increased acid phosphatase activity. After 4 h, photographs of roots were taken with a stereoscopic microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Root Ferric Reductase Activity Determination</head><p>It was determined as previously described <ref type="bibr" coords="3,471,67,515,28,77,98,9,60" target="#b29">(Lucena et al., 2006;</ref><ref type="bibr" coords="3,305,87,526,78,71,55,9,60" target="#b30">Lucena et al., 2007)</ref>. Briefly, intact plants were placed in a Fe(III) reduction assay solution containing Fe(III)-EDTA and Ferrozine for 60 min. The ferric reductase activity was determined spectrophotometrically by measuring the absorbance (562 nm) of the Fe(II)-Ferrozine complex and using an extinction coefficient of 29,800 M -1 cm -1 . After the reduction assay, roots were excised and weighed, and the results were expressed on a root fresh weight basis. Finally, the roots were collected and kept at -80ºC for subsequent analysis of mRNA levels. Each experiment was repeated at least twice and representative results are presented. Data are given as means ± SE (n = 6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of Root ACC Content</head><p>The extraction, purification, and quantification of ACC (1-aminocyclopropane-1-carboxylic acid) was carried out using the method described by <ref type="bibr" coords="3,439,37,706,78,74,58,9,60" target="#b38">Mora et al. (2012)</ref>. Briefly, ACC of roots was extracted with 20 μl of d 4 ACC [3 μg/ml in acetonitrile/acetic acid 0.2% (90/10)] and 3 ml of MeOH/H 2 O/ HCOOH (15/4/1, v/v/v) at -20°C. Purification was carried out using a Strata C18-E cartridge (Ref 8B-S001-FBJ, Phenomenex, Torrance, CA, USA) preconditioned with 4 ml of methanol and 2 ml of MeOH/H 2 O/HCOOH (15/4/1, v/v/v). Finally the eluted fraction was centrifuged (10,000 rpm, 8 min) and injected in the LC/MS/MS systems, so ACC was quantified by HPLC linked to a 3200 QTRAP LC/MS/MS system (Applied Biosystems/MDS Sciex, Ontario, Canada), equipped with a turbo ion spray interface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>qRT-PCR Analysis</head><p>Roots were ground to a fine powder with a mortar and pestle in liquid nitrogen. Total RNA was extracted using the Tri Reagent solution (Molecular Research Center, Inc., Cincinnati, OH) according to the manufacturer's instructions. M-MLV reverse transcriptase (Promega, Madison, WI) was used to generate cDNA with 3 μg of total RNA from roots as template and random hexamers or oligo dT(20) as primers. Prior to cDNA synthesis, RNA was treated with DNAse to eliminate possible contamination by genomic DNA, being DNase inactivated later, adding 50 mM EDTA. Negative controls included all reaction components except M-MLV enzyme. One tenth of each RT reaction was used as PCR template.</p><p>The study of gene expression by qRT-PCR was performed using a qRT-PCR Bio-Rad (CFX connect), and the SYBR Green Bio-RAD PCR Master Mix, following the manufacturer's instructions. SAND1 and YLS8 genes were used as reference genes to normalize the results of qRT-PCR. The Pfaffl method was used to calculate the relative expression levels. Primer pairs for Arabidopsis genes were designed as follows: (5´-3´) AtFRO2F (TGG TTG CCA CAT CTG CGT AT); AtFRO2R (TCG ATA TGG TGT GGC GAC TT); AtIRT1F (TGT CTC TTT TGC AAT CTG TCC A); AtIRT1R (AGG AGC TCC AAC ACC AAT CA); AtPAP17F (CCT CCA AGT ACG TTT CAT CGA TCC); AtPAP17R (CCG TGG CGG ACA TTA ACG AT).AtPht1;4F (CTT TTT CGG GTG GCT TGG TG); AtPht1;4R (AGC TTT TGG CTC ATG TCC GA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>All experiments were repeated at least twice and representative results are presented. A nonlinear regression test was applied to verify the relationship between number of hours under P deficiency conditions, genes expression and ferric reductase activity. The best regression model was chosen from many combinations of terms based, Akaike information criterion modified for small data sets, the model standard deviation and the coefficient of determination (R 2 ). The analysis was performer by using analytical software 10.</p><p>The values of qRT-PCR represent the mean ± SE of three independent biological replicates. The values of other determinations (ferric reductase activity or ACC concentration) represent the mean ± SE of six replicates. Within each gene or genotype, different letters indicate significant differences (P &lt; 0.05) among treatments using one-way analysis of variance (ANOVA) followed by a Duncan's multiple range test. Dunnett's test was also used when one or several mutants were compared with the WT for the +Fe treatment and when different treatments were compared with a control. In this latter case, ** indicate significant differences (P &lt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>P Deficiency Induces the Enhancement of Ferric Reductase Activity and the Expression of Fe Acquisition Genes</head><p>The early effect of P deficiency on ferric reductase activity and on AtFRO2 and AtIRT1 expression (both are Fe acquisition genes) in Arabidopsis wild-type Columbia (Col-0) plants is shown in Figure <ref type="figure" coords="4,305,87,246,28,3,36,9,60" target="#fig_0">1</ref>. Just 3-6 h after transferring the plants to P deficiency conditions, both the ferric reductase activity and the Fe acquisition genes AtFRO2 and AtIRT1 were induced (Figures <ref type="figure" coords="4,467,53,269,28,18,75,9,60" target="#fig_0">1A-D</ref>). The induction observed progressively decreased after 6 h of deficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fe Deficiency Induces Acid Phosphatase Activity and the Expression of P Acquisition Genes</head><p>In relation to the P acquisition genes, both AtPht1;4 and AtPAP17 transcripts were detected in roots of Fe deficient plants compared to the control plants after 2 days of deficiency (Figure <ref type="figure" coords="4,490,77,368,78,3,27,9,60" target="#fig_1">2</ref>). Fe deficiency also induced phosphatase activity after 2 days (see Figure <ref type="figure" coords="4,514,05,380,28,8,17,9,60" target="#fig_6">5A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACC Concentration is Higher in Both opt3-2 and pho2 Roots Than in Col-0 Roots</head><p>To look further into the relationship of ethylene with both deficiencies (see Introduction section; <ref type="bibr" coords="4,447,33,456,78,102,32,9,60" target="#b40">Nagarajan and Smith, 2012;</ref><ref type="bibr" coords="4,305,87,468,28,66,65,9,60" target="#b31">Lucena et al., 2015)</ref>, the effect of Fe, P, or Fe and P deficiency on ACC (an ethylene precursor) production was determined. As shown in Figure <ref type="figure" coords="4,332,61,491,28,3,36,9,60" target="#fig_2">3</ref>, both opt3-2 and pho2 mutant roots exhibited higher ACC concentrations than Col-0 roots in all treatments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fe or P Foliar Applications Has a Differential Inhibitory Effect on Ferric Reductase Activity in Col-0 Plants or in opt3-2 and pho2 Mutant Plants</head><p>To study the cross talk between shoot Fe and P derived signals, we studied the effect of foliar applications of Fe or P on both Feand P-physiological responses. At first, the effects of the foliar applications of Fe or P on the ferric reductase activity was studied in Fe-, P-, and Fe-P-deficient plants of Col-0 and of the opt3-2 and pho2 mutants (Figure <ref type="figure" coords="4,409,16,637,78,3,28,9,60" target="#fig_5">4</ref>). These mutants are affected in the transport of Fe (opt3-2) or sensing of P-related signals (pho2) in the phloem. The induction of ferric reductase activity caused by -Fe (2 days) or -Fe-P (the last 2 days and 7 days, respectively) deficient treatments was drastically inhibited by the foliar application of Fe and, to a lesser extent, by the foliar application of P (Figure <ref type="figure" coords="4,533,31,695,28,8,17,9,60" target="#fig_5">4A</ref>).      The inhibition caused by the foliar application of either Fe or P was less in the opt3-2 mutant, which exhibits constitutive induction of Fe responses (Figure <ref type="figure" coords="7,112,45,85,78,7,84,9,60" target="#fig_5">4B</ref>). In the pho2 mutant, the foliar application of Fe inhibited the induction of the ferric reductase activity caused by the -Fe or -Fe-P treatments while the foliar application of P did not (Figure <ref type="figure" coords="7,74,79,120,28,8,03,9,60" target="#fig_5">4C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fe or P Foliar Applications Has a Differential Inhibitory Effect on Acid Phosphatase Activity and on the Expression of AtPAP17 in Col-0 Plants or in opt3-2 and pho2 Mutant Plants</head><p>The effects of the foliar application of Fe or P on the acid phosphatase activity and on the expression of AtPAP17 was studied in Fe, P, and Fe-P deficient plants of Col-0 (Figure <ref type="figure" coords="7,280,78,235,28,4,04,9,60" target="#fig_6">5</ref>) and of the opt3-2 (Figure <ref type="figure" coords="7,415,71,62,78,4,04,9,60" target="#fig_7">6</ref>) and pho2 mutants (Figure <ref type="figure" coords="7,539,35,62,78,3,43,9,60" target="#fig_8">7</ref>). All deficiency treatments applied caused induction of the phosphatase activity (Figure <ref type="figure" coords="7,427,98,85,78,9,89,9,60" target="#fig_6">5A</ref>) and AtPAP17 expression (Figure <ref type="figure" coords="7,338,63,97,28,9,46,9,60" target="#fig_6">5B</ref>) in Col-0 plants. Just 2 and 7 days under Fe or P deficiency, respectively, were enough to induce both the phosphatase activity and AtPAP17 expression (Figures <ref type="figure" coords="7,305,87,131,78,13,72,9,60" target="#fig_6">5A,</ref><ref type="figure" coords="7,322,91,131,78,3,87,9,60">B</ref>). These inductions were strongly inhibited by the foliar application of either Fe or P (Figures <ref type="figure" coords="7,453,71,143,28,13,72,9,60" target="#fig_6">5A,</ref><ref type="figure" coords="7,470,24,143,28,3,87,9,60">B</ref>). The induction of both phosphatase activity and AtPAP17 expression in opt3-2 and pho2 was detected in -P and -Fe-P treatments, but not -Fe treatment (Figures <ref type="figure" coords="7,380,76,177,78,4,75,9,60" target="#fig_7">6</ref> and <ref type="figure" coords="7,404,26,177,78,3,43,9,60" target="#fig_8">7</ref>). In contrast to Col-0, the inhibitory effect of the foliar application of Fe or P on the induction of both phosphatase activity and AtPAP17 expression did not occur in either mutant (Figures <ref type="figure" coords="7,397,26,212,28,13,72,9,60" target="#fig_7">6A,</ref><ref type="figure" coords="7,413,78,212,28,6,05,9,60">B</ref> and <ref type="figure" coords="7,439,79,212,28,13,72,9,60" target="#fig_8">7A,</ref><ref type="figure" coords="7,456,30,212,28,3,87,9,60">B</ref>). It could appreciate a slightly inhibitory effect of the foliar application of both Fe and P, only in -Fe-P treatment of opt3-2 mutant plants (Figure <ref type="figure" coords="7,533,26,235,28,8,20,9,60" target="#fig_7">6B</ref>). In general, phosphatase activity and AtPAP17 expression levels were strongly correlated (Figures <ref type="figure" coords="8,174,88,579,20,13,72,9,60" target="#fig_6">5A,</ref><ref type="figure" coords="8,190,85,579,20,8,26,9,60">B,</ref><ref type="figure" coords="8,201,36,579,20,13,72,9,60" target="#fig_7">6A,</ref><ref type="figure" coords="8,217,33,579,20,4,13,9,60">B</ref>, and <ref type="figure" coords="8,244,46,579,20,13,72,9,60" target="#fig_8">7A,</ref><ref type="figure" coords="8,260,43,579,20,3,87,9,60">B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>opt3-2 Roots Present Constitutive Activation of Fe Acquisition Genes Under Complete Nutrient Solution but Not of P Acquisition Genes</head><p>The results presented above suggest the existence of cross talk between Fe and P deficiency responses. However, this does not exclude the existence of specific signals that confer specificity to each deficiency. To analyze this possibility, we determined the expression of both Fe and P acquisition genes in the opt3-2 mutant, which presents constitutive expression of Fe acquisition genes, even when grown under Fe sufficient conditions <ref type="bibr" coords="8,475,22,579,20,74,43,9,60" target="#b50">(Stacey et al., 2008;</ref><ref type="bibr" coords="8,305,87,590,70,65,27,9,60" target="#b15">García et al., 2013)</ref>. As shown in Figures <ref type="figure" coords="8,453,21,590,70,13,24,9,60" target="#fig_9">8A,</ref><ref type="figure" coords="8,468,17,590,70,4,01,9,60">B</ref>, this mutant exhibits almost constitutive activation of Fe acquisition genes in the different treatments. However, the P acquisition genes are not constitutively activated. They are only induced under P or Fe and P deficiency conditions (Figures <ref type="figure" coords="8,379,27,636,70,12,96,9,60" target="#fig_9">8C,</ref><ref type="figure" coords="8,394,01,636,70,4,10,9,60">D</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Previous works have shown the existence of cross talk between the responses to Fe and P deficiency in such a way that P deficiency induces the expression of Fe responses and Fe deficiency induces the expression of P responses. Those works have preferentially analyzed the expression of Fe-and P-related genes and Fe and P content in leaves <ref type="bibr" coords="9,199,73,581,08,63,14,9,60" target="#b9">(de Kock, 1955;</ref><ref type="bibr" coords="9,266,65,581,08,22,22,9,60;9,45,08,592,58,44,07,9,60">Wang et al., 2002;</ref><ref type="bibr" coords="9,91,69,592,58,74,93,9,60" target="#b36">Misson et al., 2005;</ref><ref type="bibr" coords="9,169,16,592,58,72,82,9,60" target="#b23">Hirsch et al., 2006;</ref><ref type="bibr" coords="9,244,51,592,58,44,36,9,60;9,45,08,604,08,20,79,9,60" target="#b62">Ward et al., 2008;</ref><ref type="bibr" coords="9,68,79,604,08,72,49,9,60" target="#b67">Zheng et al., 2009;</ref><ref type="bibr" coords="9,144,20,604,08,43,79,9,60" target="#b0">Abel, 2011;</ref><ref type="bibr" coords="9,190,90,604,08,97,96,9,60" target="#b43">Perea-García et al., 2013;</ref><ref type="bibr" coords="9,45,08,615,58,70,44,9,60" target="#b59">Wang et al., 2014)</ref>. However, no studies have investigated the effect of each deficiency on some activities related to the other deficiency, such as ferric reductase activity (encoded by the AtFRO2 gene in Arabidopsis) or phosphatase activity (encoded by the AtPAP17 gene and other related genes in Arabidopsis). We think that, besides gene expression, it is important to determine these activities to better understand the cross talk between Fe and P deficiency because of the possible effects of post-transcriptional regulation. Additionally, we consider it important to study the time course of each deficiency on the induction of genes related to the other deficiency and the possible cross talk between shoot derived signals associated with each deficiency.</p><p>In this work, similar to previous works (see above), the results obtained show that P deficiency can induce the expression of some Fe acquisition genes, like AtFRO2 and AtIRT1 (Figures <ref type="figure" coords="9,305,87,650,08,13,43,9,60" target="#fig_0">1C,</ref><ref type="figure" coords="9,323,75,650,08,4,72,9,60">D</ref>; <ref type="bibr" coords="9,337,65,650,08,74,05,9,60">Wang et al., 2002;</ref><ref type="bibr" coords="9,416,14,650,08,80,05,9,60" target="#b36">Misson et al., 2005;</ref><ref type="bibr" coords="9,500,65,650,08,49,00,9,60;9,305,87,661,58,19,94,9,60" target="#b59">Wang et al., 2014)</ref>, while Fe deficiency can induce the expression of some P acquisition genes, like AtPht1;4 and AtPAP17 (Figure <ref type="figure" coords="9,539,35,673,08,3,43,9,60" target="#fig_1">2</ref>). These results match with others obtained by microarray analysis showing an early transcriptional response of both AtPht1;4 and AtPAP17 to Fe deficiency (1-3 days growing without Fe) in roots of Arabidopsis plants <ref type="bibr" coords="10,150,05,432,42,77,73,9,60" target="#b53">(Thimm et al., 2001)</ref>. The induction of the Fe acquisition genes by P deficiency occurred early, after 3 h (AtFRO2) and 6 h (AtIRT1) of the deficiency treatment, and then the induction tended to disappear (Figures <ref type="figure" coords="10,234,15,466,92,13,44,9,60" target="#fig_0">1C,</ref><ref type="figure" coords="10,250,13,466,92,4,26,9,60">D</ref>), which suggests the presence of specific Fe inhibitory signals. Moreover, the ferric reductase activity was induced only transitorily (Figures <ref type="figure" coords="10,80,57,501,42,13,72,9,60" target="#fig_0">1A,</ref><ref type="figure" coords="10,96,74,501,42,4,69,9,60">B</ref>) and decreased faster than the expression of the AtFRO2 gene (Figures <ref type="figure" coords="10,133,41,512,92,13,43,9,60" target="#fig_0">1C,</ref><ref type="figure" coords="10,149,04,512,92,4,26,9,60">D</ref>), suggesting the possible existence of a post-transcriptional regulation by Fe <ref type="bibr" coords="10,221,48,524,42,67,39,9,60;10,45,08,535,92,19,94,9,60" target="#b6">(Connolly et al., 2003)</ref>. In relation to Fe deficiency, it induced the expression of P acquisition genes and phosphatase activity after 2 days of deficiency (Figures <ref type="figure" coords="10,120,15,558,92,4,75,9,60" target="#fig_1">2</ref> and <ref type="figure" coords="10,142,43,558,92,3,43,9,60" target="#fig_6">5</ref>), even before the induction caused by P deficiency itself (Figure <ref type="figure" coords="10,147,07,570,42,3,43,9,60" target="#fig_6">5</ref>). The induction of the phosphatase activity by Fe deficiency (Figure <ref type="figure" coords="10,176,58,581,92,9,89,9,60" target="#fig_6">5A</ref>) was not as transitory as the induction of ferric reductase by P deficiency (Figure <ref type="figure" coords="10,271,82,593,42,8,52,9,60" target="#fig_0">1A</ref>). This result is somewhat surprising since the induction of phosphatase activity is a response traditionally associated with P deficiency <ref type="bibr" coords="10,86,04,627,92,64,40,9,60" target="#b1">(Bari et al., 2006;</ref><ref type="bibr" coords="10,152,59,627,92,56,27,9,60" target="#b26">Lei et al., 2011)</ref>. The possible role of phosphatase activity on Fe nutrition is not known and warrants further investigation.</p><p>The existence of cross talk between the responses to Fe and P deficiency could be associated with common signals in the activation of both nutrient deficiency responses, such as ethylene <ref type="bibr" coords="10,45,08,696,92,111,66,9,60" target="#b40">(Nagarajan and Smith, 2012;</ref><ref type="bibr" coords="10,160,13,696,92,73,42,9,60" target="#b17">García et al., 2015;</ref><ref type="bibr" coords="10,236,93,696,92,51,95,9,60;10,305,87,420,92,20,41,9,60" target="#b31">Lucena et al., 2015;</ref><ref type="bibr" coords="10,328,82,420,92,75,99,9,60" target="#b52">Song and Liu, 2015;</ref><ref type="bibr" coords="10,407,35,420,92,63,25,9,60" target="#b41">Neumann, 2016;</ref><ref type="bibr" coords="10,473,14,420,92,72,56,9,60" target="#b32">Lucena et al., 2018)</ref>, nitric oxide (NO; <ref type="bibr" coords="10,377,73,432,42,121,44,9,60" target="#b20">Graziano and Lamattina, 2007;</ref><ref type="bibr" coords="10,502,78,432,42,46,87,9,60;10,305,87,443,92,21,53,9,60" target="#b34">Meng et al., 2012)</ref> and auxin <ref type="bibr" coords="10,371,95,443,92,71,21,9,60" target="#b7">(Chen et al., 2010;</ref><ref type="bibr" coords="10,446,17,443,92,70,85,9,60" target="#b37">Miura et al., 2011;</ref><ref type="bibr" coords="10,520,04,443,92,29,61,9,60;10,305,87,455,42,45,93,9,60" target="#b3">Bhosale et al., 2018)</ref>. In relation to ethylene, the results presented in Figure <ref type="figure" coords="10,334,55,466,92,4,75,9,60" target="#fig_2">3</ref> show that opt3-2 and pho2, which exhibit constitutive Fe or P responses, respectively, have greater ACC content in roots than Col-0. Since both mutants are affected in the transport of Fe (opt3-2) or in the sensing of P-related signals (pho2) in the phloem <ref type="bibr" coords="10,337,67,512,92,65,26,9,60" target="#b1">(Bari et al., 2006;</ref><ref type="bibr" coords="10,405,55,512,92,70,47,9,60" target="#b15">García et al., 2013)</ref>, their higher ACC accumulation suggests that phloem-Fe signals and phloem-P signals can inhibit directly, or indirectly, ACC synthesis and, presumably, ethylene synthesis. These phloem signals should come from the shoots, as previously suggested <ref type="bibr" coords="10,480,31,558,92,69,34,9,60" target="#b5">(Buhtz et al., 2010;</ref><ref type="bibr" coords="10,305,87,570,42,69,09,9,60" target="#b15">García et al., 2013)</ref>.</p><p>To study the possible cross talk of Fe and P shoot-derived signals with the responses to both deficiencies, we sprayed leaves of Col-0, opt3-2 and pho2 plants with Fe or P, and analyzed their effects in roots. The foliar application of Fe inhibited the ferric reductase activity in Col-0 (Figure <ref type="figure" coords="10,398,57,627,92,9,58,9,60" target="#fig_5">4A</ref>) and in the pho2 mutant (Figure <ref type="figure" coords="10,535,57,627,92,9,39,9,60" target="#fig_5">4C</ref>) while it had less effect in the opt3-2 mutant (Figure <ref type="figure" coords="10,495,23,639,42,7,84,9,60" target="#fig_5">4B</ref>). This latter effect agrees with previous results <ref type="bibr" coords="10,433,95,650,92,71,97,9,60" target="#b15">(García et al., 2013)</ref>. Curiously, the foliar application of P also inhibited the ferric reductase activity in Col-0 plants, less than the Fe application (Figure <ref type="figure" coords="10,501,62,673,92,8,17,9,60" target="#fig_5">4A</ref>), but had no effect on pho2 (Figure <ref type="figure" coords="10,405,88,685,42,9,38,9,60" target="#fig_5">4C</ref>) and hardly in opt3-2 (Figure <ref type="figure" coords="10,533,97,685,42,7,84,9,60" target="#fig_5">4B</ref>). These results suggest that there are Fe and P shoot-derived signals moving through the phloem that are inhibitory and that both Fe and P signals are interrelated. This interrelation is further supported when analysing phosphatase activity and the expression of one of its encoding genes, AtPAP17. As shown in Figure <ref type="figure" coords="11,245,34,656,04,3,36,9,60" target="#fig_6">5</ref>, the foliar application of either Fe or P drastically inhibited the phosphatase activity and AtPAP17 expression in Col-0. However, neither Fe nor P application appreciably inhibited these P responses in either mutant (Figures <ref type="figure" coords="11,78,24,702,04,4,75,9,60" target="#fig_7">6</ref> and <ref type="figure" coords="11,100,42,702,04,3,27,9,60" target="#fig_8">7</ref>).</p><p>Despite the existence of common signals involved in the activation of responses to both nutrient deficiencies, like ethylene (Figure <ref type="figure" coords="11,336,87,644,54,3,27,9,60" target="#fig_2">3</ref>), and the cross talk between shoot-derived signals (see previous paragraph), some results presented in this work suggest the existence of specific signals that block the activation of the responses to one deficiency when the deficiency is caused by the other element. For example, the expression of Fe acquisition genes is almost constitutively activated in the opt3-2 mutant (Figures <ref type="figure" coords="11,536,41,702,04,8,83,9,60" target="#fig_9">8A</ref>,      <ref type="figure" coords="12,45,08,62,78,4,57,9,60">B</ref>) while the expression of P acquisition genes is not (Figures <ref type="figure" coords="12,275,91,62,78,12,96,9,60" target="#fig_9">8C,</ref><ref type="figure" coords="12,45,08,74,28,4,10,9,60">D</ref>). This suggests that the absence of the phloem-Fe signal related to OPT3 depresses the expression of Fe acquisition genes <ref type="bibr" coords="12,241,29,85,78,47,57,9,60;12,45,08,97,28,20,77,9,60" target="#b15">(García et al., 2013)</ref> but not that of P acquisition genes, probably because there are specific P signals that block it.</p><p>According to the results obtained in this study we propose a Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes (Figure <ref type="figure" coords="12,96,24,154,78,3,28,9,60" target="#fig_10">9</ref>). Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because it inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where it suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP).</p><p>In conclusion, the results obtained in this work further support the cross talk between Fe and P deficiency responses since Fe deficiency induces the expression of P acquisition genes and the phosphatase activity, and P deficiency induces the expression of Fe acquisition genes and the ferric reductase activity. In most cases, like the induction of Fe acquisition genes and ferric reductase activity by P deficiency, this occurs very transitorily, probably due to the existence of Fe-related inhibitory signals and because of the post-transcriptional regulation of FRO2 by Fe. The cross talk between both deficiencies could be related to the existence of common signals, like ethylene, implicated in the activation of their responses. Besides ethylene, the results obtained with the foliar application of Fe or P show additional interactions between P and Fe inhibitory signals coming from the shoots, and suggest that Fe-or P-related phloem signals could interact with ethylene in the regulation of the responses to their deficiencies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,51,10,395,93,481,31,6,52;5,51,10,405,43,478,07,6,50;5,51,10,414,93,488,26,6,52;5,51,10,424,43,487,38,6,50;5,51,10,433,93,492,12,6,50;5,51,10,443,23,439,06,6,73;5,75,16,67,81,444,96,315,12"><head>FIGURE 1 |</head><label>1</label><figDesc>FIGURE 1 | Effect of P deficiency on ferric reductase activity (A) and on AtFRO2 and AtIRT1 expression (both are Fe acquisition genes) (C) in Arabidopsis wild-type Columbia plants (Col-0). Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without P for 3, 6, 12, or 24 h. For ferric reductase activity (A), data are given as means ± SE (n = 6). (C) qRT-PCR was performed using total RNA from roots as template and gene-specific primers to amplify partial cDNAs of AtFRO2 and AtIRT1. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Data represent the mean ± SE of three independent biological replicates and two technical replicates. A nonlinear regression test was applied over ferric reductase activity (B) R 2 = 0.995; standard deviation = 27.33 and over AtFRO2 expression (D) R 2 = 0.966; standard deviation = 0.246.</figDesc><graphic coords="5,75,16,67,81,444,96,315,12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,50,83,616,61,208,72,6,52;5,50,83,626,11,205,41,6,50;5,50,83,635,61,218,50,6,50;5,50,83,645,11,224,32,6,50;5,50,83,654,61,227,42,6,50;5,50,83,664,11,223,74,6,50;5,50,83,673,61,213,65,6,50;5,50,83,683,11,225,80,6,50;5,50,83,692,61,220,44,6,50;5,50,83,702,11,222,64,6,50;5,54,54,482,17,224,88,121,44"><head>FIGURE 2 |</head><label>2</label><figDesc>FIGURE2| Effect of Fe deficiency on AtPht1;4 and AtPAP17 expression (both are P acquisition genes), in Arabidopsis wild-type Columbia plants (Col-0). Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without Fe for 2 days. Quantitative RT-PCR was performed using total RNA from roots as template and gene-specific primers to amplify partial cDNAs of AtPht1;4 and AtPAP17. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Relative expression was calculated in relation to Control. Data represent the mean ± SE of three independent biological replicates and two technical replicates. Within each gene, bars with different letters indicate significant differences (P &lt; 0.05).</figDesc><graphic coords="5,54,54,482,17,224,88,121,44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,311,60,635,73,219,40,6,52;5,311,60,645,23,225,21,6,50;5,311,60,654,73,214,05,6,50;5,311,60,664,23,226,37,6,50;5,311,60,673,73,221,09,6,50;5,311,60,683,23,226,66,6,50;5,311,60,692,73,230,02,6,50;5,311,60,702,23,158,64,6,50;5,310,51,482,33,234,48,140,40"><head>FIGURE 3 |</head><label>3</label><figDesc>FIGURE3| Effect of Fe-, P-or Fe-and P-deficiency on ACC production in Arabidopsis wild-type Col-0, opt3-2 and pho2 plants. Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without Fe, P, or Fe and P for 2 days. ACC production of roots was determined as previously described Mora et al. (2012). Data represent the mean ± SE (n = 6). Within each genotype, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the +Fe from Col-0, opt3-2 and pho2 is also indicated: **P &lt; 0.05.</figDesc><graphic coords="5,310,51,482,33,234,48,140,40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,311,60,635,73,219,40,6,52;5,311,60,645,23,225,21,6,50;5,311,60,654,73,214,05,6,50;5,311,60,664,23,226,37,6,50;5,311,60,673,73,221,09,6,50;5,311,60,683,23,226,66,6,50;5,311,60,692,73,230,02,6,50;5,311,60,702,23,158,64,6,50"><head></head><label></label><figDesc>FIGURE3| Effect of Fe-, P-or Fe-and P-deficiency on ACC production in Arabidopsis wild-type Col-0, opt3-2 and pho2 plants. Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without Fe, P, or Fe and P for 2 days. ACC production of roots was determined as previously described Mora et al. (2012). Data represent the mean ± SE (n = 6). Within each genotype, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the +Fe from Col-0, opt3-2 and pho2 is also indicated: **P &lt; 0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="5,311,60,635,73,219,40,6,52;5,311,60,645,23,225,21,6,50;5,311,60,654,73,214,05,6,50;5,311,60,664,23,226,37,6,50;5,311,60,673,73,221,09,6,50;5,311,60,683,23,226,66,6,50;5,311,60,692,73,230,02,6,50;5,311,60,702,23,158,64,6,50"><head></head><label></label><figDesc>FIGURE3| Effect of Fe-, P-or Fe-and P-deficiency on ACC production in Arabidopsis wild-type Col-0, opt3-2 and pho2 plants. Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without Fe, P, or Fe and P for 2 days. ACC production of roots was determined as previously described Mora et al. (2012). Data represent the mean ± SE (n = 6). Within each genotype, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the +Fe from Col-0, opt3-2 and pho2 is also indicated: **P &lt; 0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="6,50,83,664,01,490,24,6,52;6,50,83,673,51,480,52,6,52;6,50,83,683,01,478,35,6,50;6,50,83,692,51,489,91,7,47;6,50,83,702,01,371,16,6,50;6,156,01,67,81,282,72,583,20"><head>FIGURE 4 |</head><label>4</label><figDesc>FIGURE 4 | Effect of the foliar application of Fe or P on the ferric reductase activity of Fe-, P-or Fe-and P-deficient Arabidopsis wild-type Col-0 (A), opt3-2 (B) and pho2 (C) plants. opt3-2 and pho2 are mutants affected in the transport of Fe (opt3-2) or sensing of P-related signals (pho2) in the phloem, respectively. Deficient treatment were: without Fe (-Fe) for 2 days; without P (-P), for 7 days; and without Fe and P (-Fe-P) (-Fe the last 2 days and -P for 7 days). Some of the plants were sprayed with 0.05% FeSO 4 or 0.35% KH 2 PO 4 just 24 h before the end of the assay. One day later, the ferric reductase activity was determined. Data are given as means ± SE (n = 6). Within each deficiency treatment, bars with different letters indicate significant differences (P &lt; 0.05).</figDesc><graphic coords="6,156,01,67,81,282,72,583,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="7,50,83,654,87,481,08,6,52;7,50,83,664,37,478,57,6,50;7,50,83,673,87,481,19,6,50;7,50,83,683,37,487,97,6,50;7,50,83,692,87,481,98,6,50;7,50,83,702,37,360,90,6,50;7,139,21,280,67,316,32,361,20"><head>FIGURE 5 |</head><label>5</label><figDesc>FIGURE5| Effect of the foliar application of Fe or P on acid phosphatase activity (A) and on the expression of its encoding gene, AtPAP17 (B), in Fe-, Por Fe-and P-deficient Arabidopsis wild-type Col-0 plants. For acid phosphatase activity determination, roots of intact plants were incubated in a solution containing a phosphated organic substrate (BCIP), for 4 h. Quantitative RT-PCR was performed using total RNA from roots as template and gene-specific primer to amplify partial cDNAs of AtPAP17. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Data represent the mean ± SE of three independent biological replicates and two technical replicates. Within each deficiency treatment, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the control treatments is also indicated: **P &lt; 0.05.</figDesc><graphic coords="7,139,21,280,67,316,32,361,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="8,50,83,490,73,490,26,6,52;8,50,83,500,23,488,38,6,50;8,50,83,509,73,483,17,6,50;8,50,83,519,23,488,76,6,50;8,50,83,528,73,478,97,6,50;8,50,83,538,23,390,02,6,50;8,119,89,67,81,354,96,409,92"><head>FIGURE 6 |</head><label>6</label><figDesc>FIGURE 6 | Effect of the foliar application of Fe or P on acid phosphatase activity (A) and on the expression of its encoding gene, AtPAP17 (B), in Fe-, P-or Fe and P-deficient Arabidopsis opt3-2 mutant plants. This mutant is impaired in the phloematic transport of Fe. For acid phosphatase activity determination, roots of intact plants were incubated in a solution containing a phosphated organic substrate (BCIP), for 4 h. Quantitative RT-PCR was performed using total RNA from roots as template and gene-specific primer to amplify partial cDNAs of AtPAP17. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Data represent the mean ± SE of three independent biological replicates and two technical replicates. Within each deficiency treatment, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the control treatments is also indicated: **P &lt; 0.05.</figDesc><graphic coords="8,119,89,67,81,354,96,409,92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="9,50,83,469,61,478,56,6,52;9,50,83,479,11,488,10,6,50;9,50,83,488,61,491,90,6,50;9,50,83,498,11,472,17,6,50;9,50,83,507,61,485,31,6,50;9,50,83,517,11,486,43,6,50;9,50,83,526,61,33,70,6,50;9,130,33,67,81,334,08,388,80"><head>FIGURE 7 |</head><label>7</label><figDesc>FIGURE 7 | Effect of the foliar application of Fe or P on acid phosphatase activity (A) and on the expression of its encoding gene, AtPAP17 (B), in Fe-, P-or Fe-and P-deficient Arabidopsis pho2 mutant plants. This mutant is affected on sensing of P-related signals (pho2) in the phloem. For acid phosphatase activity determination, roots of intact plants were incubated in a solution containing a phosphated organic substrate (BCIP), for 4 h. Quantitative RT-PCR was performed using total RNA from roots as template and gene-specific primer to amplify partial cDNAs of AtPAP17. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Data represent the mean ± SE of three independent biological replicates and two technical replicates. Within each deficiency treatment, bars with different letters indicate significant differences (P &lt; 0.05). Significant difference between the control treatments is also indicated: **P &lt; 0.05.</figDesc><graphic coords="9,130,33,67,81,334,08,388,80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="10,50,83,347,45,475,58,6,52;10,50,83,356,95,477,89,6,50;10,50,83,366,45,476,81,6,50;10,50,83,375,95,482,23,6,50;10,50,83,385,45,402,97,6,50;10,84,73,67,81,425,28,266,64"><head>FIGURE 8 |</head><label>8</label><figDesc>FIGURE 8 | Effect of Fe-, P-or Fe-and P-deficiency on P acquisition gene expression (C and D) and Fe acquisition gene expression (A and B) in Arabidopsis opt3-2 mutant plants. Plants were grown in a complete nutrient solution and some of them transferred to nutrient solution without Fe, P, or Fe and P for 2 days. Quantitative RT-PCR was performed using total RNA from roots as template and gene-specific primers to amplify partial cDNAs of AtPht1;4, AtPAP17, AtFRO2 and AtIRT1. SAND1 and YLS8 were used as reference genes to normalize the results obtained by qRT-PCR. Data represent the mean ± SE of three independent biological replicates and two technical replicates. Within each gene, bars with different letters indicate significant differences (P &lt; 0.05).</figDesc><graphic coords="10,84,73,67,81,425,28,266,64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="11,50,83,500,57,490,52,6,52;11,50,83,510,07,485,99,6,50;11,50,83,519,57,478,36,6,50;11,50,83,529,07,479,08,6,50;11,50,83,538,57,482,49,6,50;11,50,83,548,07,475,75,6,50;11,50,83,557,57,484,53,6,50;11,50,83,567,07,471,74,6,50;11,50,83,576,57,492,34,6,50;11,50,83,586,07,486,40,8,10"><head>FIGURE 9 |</head><label>9</label><figDesc>FIGURE9| Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes. Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP). In green are components whose expression, activity and/or content is known to increase under Fe or P deficiency while in red are components whose expression, activity and/or content is known to increase under Fe or P sufficiency. For more details, see text. (à: promotion; 〒: inhibition). Working model based on<ref type="bibr" coords="11,400,53,586,07,62,64,6,50" target="#b8">Chiou and Lin (2011)</ref> andGarcía et al. (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="11,50,83,500,57,490,52,6,52;11,50,83,510,07,485,99,6,50;11,50,83,519,57,478,36,6,50;11,50,83,529,07,479,08,6,50;11,50,83,538,57,482,49,6,50;11,50,83,548,07,475,75,6,50;11,50,83,557,57,484,53,6,50;11,50,83,567,07,471,74,6,50;11,50,83,576,57,492,34,6,50;11,50,83,586,07,486,40,8,10"><head></head><label></label><figDesc>FIGURE9| Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes. Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP). In green are components whose expression, activity and/or content is known to increase under Fe or P deficiency while in red are components whose expression, activity and/or content is known to increase under Fe or P sufficiency. For more details, see text. (à: promotion; 〒: inhibition). Working model based on<ref type="bibr" coords="11,400,53,586,07,62,64,6,50" target="#b8">Chiou and Lin (2011)</ref> andGarcía et al. (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12" coords="11,50,83,500,57,490,52,6,52;11,50,83,510,07,485,99,6,50;11,50,83,519,57,478,36,6,50;11,50,83,529,07,479,08,6,50;11,50,83,538,57,482,49,6,50;11,50,83,548,07,475,75,6,50;11,50,83,557,57,484,53,6,50;11,50,83,567,07,471,74,6,50;11,50,83,576,57,492,34,6,50;11,50,83,586,07,486,40,8,10"><head></head><label></label><figDesc>FIGURE9| Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes. Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP). In green are components whose expression, activity and/or content is known to increase under Fe or P deficiency while in red are components whose expression, activity and/or content is known to increase under Fe or P sufficiency. For more details, see text. (à: promotion; 〒: inhibition). Working model based on<ref type="bibr" coords="11,400,53,586,07,62,64,6,50" target="#b8">Chiou and Lin (2011)</ref> andGarcía et al. (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="11,50,83,500,57,490,52,6,52;11,50,83,510,07,485,99,6,50;11,50,83,519,57,478,36,6,50;11,50,83,529,07,479,08,6,50;11,50,83,538,57,482,49,6,50;11,50,83,548,07,475,75,6,50;11,50,83,557,57,484,53,6,50;11,50,83,567,07,471,74,6,50;11,50,83,576,57,492,34,6,50;11,50,83,586,07,486,40,8,10"><head></head><label></label><figDesc>FIGURE9| Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes. Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP). In green are components whose expression, activity and/or content is known to increase under Fe or P deficiency while in red are components whose expression, activity and/or content is known to increase under Fe or P sufficiency. For more details, see text. (à: promotion; 〒: inhibition). Working model based on<ref type="bibr" coords="11,400,53,586,07,62,64,6,50" target="#b8">Chiou and Lin (2011)</ref> andGarcía et al. (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14" coords="11,50,83,500,57,490,52,6,52;11,50,83,510,07,485,99,6,50;11,50,83,519,57,478,36,6,50;11,50,83,529,07,479,08,6,50;11,50,83,538,57,482,49,6,50;11,50,83,548,07,475,75,6,50;11,50,83,557,57,484,53,6,50;11,50,83,567,07,471,74,6,50;11,50,83,576,57,492,34,6,50;11,50,83,586,07,486,40,8,10;11,98,89,67,81,396,96,419,76"><head></head><label></label><figDesc>FIGURE9| Working Model to explain the role of ethylene and P-related and Fe-related phloem signals on the regulation of Fe and P acquisition genes. Once inside roots, Fe (black arrows) is translocated to leaves through the xylem, bound to citrate (provided by the FRD3 transporter). In shoots, some Fe can enter the phloem through the OPT3 transporter, and moves back to roots probably bound to a chelating agent (Fe)?. In roots, this Fe? can be sensed by the Brutus protein (BTS) that blocks the expression of the Fe acquisition genes FRO2 and IRT1, probably because inhibits the synthesis of ethylene (ET), which has been involved in their upregulation. P (blue arrows) is absorbed through P transporters, like Pht1;4, and then loaded into the xylem through transporters like PHO1. Under P deficiency, miR399 in shoots increases and moves through the phloem to roots where suppresses PHO2. PHO2 participates in the degradation of Pht1;4 and PHO1, and probably inhibits ethylene synthesis. Consequently, under P deficiency, the suppression of PHO2 by miR399 can permit the stabilization of Pht1;4 and PHO1, and the synthesis of ethylene, which has been involved in the upregulation of Pht1;4 and PAP17, encoding a phosphatase (PAP). In green are components whose expression, activity and/or content is known to increase under Fe or P deficiency while in red are components whose expression, activity and/or content is known to increase under Fe or P sufficiency. For more details, see text. (à: promotion; 〒: inhibition). Working model based on<ref type="bibr" coords="11,400,53,586,07,62,64,6,50" target="#b8">Chiou and Lin (2011)</ref> andGarcía et al. (2018).</figDesc><graphic coords="11,98,89,67,81,396,96,419,76" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,426,44,742,49,123,20,6,50;2,45,08,742,49,137,86,6,50"><p>October 2019 | Volume 10 | Article 1237 Frontiers in Plant Science | www.frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Dr. Joaquin Romero</rs>, of the <rs type="funder">University of Córdoba (Spain)</rs>, for his support and valuable contribution in the statistical analysis of results.</p></div>
+			</div>
+			<div type="funding">
+<div><head>FUNDING</head><p>This work was supported by the <rs type="funder">European Regional Development Fund</rs> from the <rs type="funder">European Union</rs>, the <rs type="funder">"Ministerio de Economía y Competitividad</rs>" (Projects <rs type="grantNumber">AGL2013-40822-R</rs> and <rs type="grantNumber">AGL2015-65104-P</rs>); the <rs type="funder">"Junta de Andalucía</rs>" (Research Groups <rs type="grantNumber">AGR115</rs> and <rs type="grantNumber">BIO159</rs>) and the economic contribution of the <rs type="funder">Company TimacAgro Spain (Roullier Group</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_8YshB5B">
+					<idno type="grant-number">AGL2013-40822-R</idno>
+				</org>
+				<org type="funding" xml:id="_tbd8Q7d">
+					<idno type="grant-number">AGL2015-65104-P</idno>
+				</org>
+				<org type="funding" xml:id="_xTD4Jwy">
+					<idno type="grant-number">AGR115</idno>
+				</org>
+				<org type="funding" xml:id="_gkuMhjQ">
+					<idno type="grant-number">BIO159</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>CL and FR designed the experiments after discussions with JG-M and MG; RP and MG conducted the laboratory work; ÁZ and EB determined ACC; AS, EA, RP-V, and CL wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest:</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,45,08,490,26,243,78,7,58;12,55,08,499,76,118,50,7,58" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phosphate sensing in root development</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Abel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pbi.2011.04.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="303" to="309" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,509,26,243,75,7,58;12,55,08,518,76,233,79,7,58;12,55,08,528,26,82,29,7,58" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">PHO2, microRNA399, and PHR1 define a phosphate-pathway in plants</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Bari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">D</forename><surname>Pant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Stitt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">R</forename><surname>Scheible</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.106.079707</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="988" to="999" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,537,76,243,78,7,58;12,55,08,547,26,233,78,7,58;12,55,08,556,76,181,33,7,58" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ethylene: a regulator of root architectural responses to soil phosphorus availability</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Borch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">J</forename><surname>Bouma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-3040.1999.00405.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Environ</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="425" to="431" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,566,26,243,81,7,58;12,55,08,575,76,233,78,7,58;12,55,08,585,26,233,79,7,58;12,55,08,594,76,86,96,7,58" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A mechanistic framework for auxin dependent Arabidopsis root hair elongation to low external phosphate</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Bhosale</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Giri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">K</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">F</forename><surname>Giehl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Traini</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-03851-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1409" to="1417" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,604,26,243,79,7,58;12,55,08,613,76,233,78,7,58;12,55,08,623,26,57,77,7,58" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms governing Arabidopsis iron uptake</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Brumbarova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Ivanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tplants.2014.11.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="124" to="133" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,632,76,243,80,7,58;12,55,08,642,26,233,78,7,58;12,55,08,651,76,77,00,7,58" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Phloem small RNAs, nutrient stress responses, and systemic mobility</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Buhtz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Pieritz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Kehr</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2229-10-64</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">64</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,661,26,243,79,7,58;12,55,08,670,76,233,81,7,58;12,55,08,680,26,233,79,7,58;12,55,08,689,76,132,61,7,58" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Overexpression of the FRO2 ferric chelate reductase confers tolerance to growth on low iron and uncovers posttranscriptional control</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">L</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">H</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Grotz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">L</forename><surname>Prichard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">L</forename><surname>Guerinot</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.103.025122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="1102" to="1110" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,45,08,699,26,243,79,7,58;12,55,08,708,76,233,81,7,58;12,315,87,471,14,233,78,7,58;12,315,87,480,64,96,50,7,58" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Nitric oxide acts downstream of auxin to trigger root ferric-chelate reductase activity in response to iron deficiency in Arabidopsis thaliana</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">W</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">H</forename><surname>Mo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.110.161109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="810" to="819" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,490,14,243,77,7,58;12,315,87,499,64,233,78,7,58;12,315,87,509,14,98,29,7,58" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Network in sensing phosphate availability in plants</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">J</forename><surname>Chiou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">I</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-arplant-042110-103849</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="185" to="206" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,518,64,243,78,7,58;12,315,87,528,14,110,33,7,58" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Iron nutrition of plants at high pH</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">C</forename><surname>De Kock</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00010694-195503000-00001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Sci</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="167" to="175" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,537,64,243,79,7,58;12,315,87,547,14,233,78,7,58;12,315,87,556,64,37,89,7,58" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Characterization of a phosphate accumulator mutant of Arabidopsis thaliana</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Delhaize</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">J</forename><surname>Randall</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.107.1.207</idno>
+		<idno>doi: 10.1104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="107" to="108" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,566,14,243,76,7,58;12,315,87,575,64,233,78,7,58;12,315,87,585,14,233,80,7,58;12,315,87,594,64,233,77,7,58;12,315,87,604,14,107,86,7,58" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A type 5 acid phosphatase gene from Arabidopsis thaliana is induced by phosphate starvation and by som other types of phosphate mobilising/oxidative stress conditions</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Del Pozo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Allona</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Rubio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Leyva</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>De La Peña</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Aragoncillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-313X.1999.00562.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="579" to="589" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,613,64,243,81,7,58;12,315,87,623,14,233,77,7,58;12,315,87,632,64,177,85,7,58" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The transcriptional control of plant responses to phosphate limitation</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Franco-Zorrilla</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Bustos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Linhares</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Leyva</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Paz-Ares</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jxb/erh009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="285" to="293" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,642,14,243,75,7,58;12,315,87,651,64,233,77,7,58;12,315,87,661,14,233,78,7,58;12,315,87,670,64,71,17,7,58" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ethylene and nitric oxide involvement in the up-regulation of key genes related to iron acquisition and homeostasis in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jxb/erq203</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="3885" to="3899" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305,87,680,14,243,78,7,58;12,315,87,689,64,233,77,7,58;12,315,87,699,14,233,79,7,58;12,315,87,708,64,113,77,7,58" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A new model involving ethylene, nitric oxide and Fe to explain the regulation of Fe-acquisition genes in Strategy I plants</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Suárez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.plaphy.2011.01.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="537" to="544" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,62,63,243,79,7,58;13,55,08,72,13,233,81,7,58;13,55,08,81,63,233,78,7,58;13,55,08,91,13,57,56,7,58" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Shoot to root communication is necessary to control the expression of iron-acquisition genes in Strategy I plants</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">G</forename><surname>Stacey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Stacey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Villar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00425-012-1757-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="65" to="75" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,100,63,243,77,7,58;13,55,08,110,13,233,78,7,58;13,55,08,119,63,233,77,7,58;13,55,08,129,13,233,78,7,58" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Hypoxia and bicarbonate could block the expression of iron acquisition genes in Strategy I plants by affecting ethylene synthesis and signaling in different ways</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García-Mateo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">L</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ppl.12076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Plant</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="95" to="106" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,138,63,243,75,7,58;13,55,08,148,13,233,77,7,58;13,55,08,157,63,216,99,7,58" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Ethylene and the regulation of physiological and morphological responses to nutrient deficiencies</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.15.00708</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="51" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,167,13,243,78,7,58;13,55,08,176,63,6,80,7,58" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Corpas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Á</forename><surname>Zamarreño</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,61,88,176,63,226,97,7,58;13,55,08,186,13,233,79,7,58;13,55,08,195,63,121,61,7,58" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A shoot Fe pathway requiring the OPT3 transporter controls GSNO reductase and ethylene in Arabidopsis thaliana roots</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2018.01325</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1325" to="1341" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,205,13,243,76,7,58;13,55,08,214,63,233,78,7,58;13,55,08,224,13,161,49,7,58" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Nitric oxide accumulation is required for molecular and physiological responses to iron deficiency in tomato roots</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Graziano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Lamattina</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-313X.2007.03283.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="949" to="960" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,233,63,243,79,7,58;13,55,08,243,13,233,78,7,58" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Insights into plant phosphate sensing and signaling</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">K</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">J</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copbio.2017.07.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opi. Biotech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,252,63,243,79,7,58;13,55,08,262,13,233,78,7,58;13,55,08,271,63,119,59,7,58" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Growth response of herbaceous ornamental to phosphorus fertilization</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">B</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Mccall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">E</forename><surname>Whipker</surname></persName>
+		</author>
+		<idno type="DOI">10.21273/HORTSCI12256-17</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hortscience</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1362" to="1367" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,281,13,243,79,7,58;13,55,08,290,63,233,77,7,58;13,55,08,300,13,233,78,7,58" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Phosphate deficiency promotes modification of iron distribution in Arabidopsis plants</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Floriani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Chiarenza</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Richaud</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Nussaume</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biochi.2006.05.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimic</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="1767" to="1771" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,309,63,243,81,7,58;13,55,08,319,13,233,79,7,58;13,55,08,328,63,99,10,7,58" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Fitting into the harsh reality: regulation of iron-deficiency responses in dicotyledonous plants</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Brumbarova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mp/ssr065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Plant</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="27" to="42" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,338,13,243,82,7,58;13,55,08,347,63,233,78,7,58;13,55,08,357,13,99,71,7,58" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Involvement of Small RNAs in phosphorus and sulfur sensing, and stress: current update</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">K</forename><surname>Trivedi</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2017.00285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">285</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,366,63,243,75,7,58;13,55,08,376,13,233,79,7,58;13,55,08,385,63,233,78,7,58;13,55,08,395,13,202,38,7,58" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ethylene is involved in regulation of phosphate starvation-induced gene expression and production of acid phosphatases and anthocyanin in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">S</forename><surname>Karthikeyan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Bressan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">G</forename><surname>Raghothama</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-8137.2010.03555.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">New Phytol</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="1084" to="1095" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,404,63,243,78,7,58;13,55,08,414,13,233,80,7,58;13,55,08,423,63,209,56,7,58" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">PHO2-dependent degradation of PHO1 modulates phosphate homeostasis in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Y</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">I</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">Y</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1105/tpc.112.096636</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2168" to="2183" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,433,13,243,82,7,58;13,55,08,442,63,233,78,7,58;13,55,08,452,13,233,78,7,58;13,55,08,461,63,50,88,7,58" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Ethylene response factor AtERF72 negatively regulates Arabidopsis thaliana response to iron deficiency</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2017.04.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="862" to="868" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,471,13,243,81,7,58;13,55,08,480,63,233,79,7,58;13,55,08,489,74,233,78,7,98;13,55,08,499,63,129,56,7,58" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Ethylene could influence ferric reductase, iron transporter and H + -ATPase gene expression by affecting FER (or FER-like) gene activity</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">M</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Morales</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jxb/erl189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="4145" to="4154" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,509,13,243,78,7,58;13,55,08,518,63,233,76,7,58;13,55,08,528,13,233,78,7,58;13,55,08,537,63,126,85,7,58" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Bicarbonate blocks the expression of several genes involved in the physiological responses to Fe deficiency of Strategy I plants</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">L</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/FP07136</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1002" to="1009" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,547,13,243,79,7,58;13,55,08,556,63,233,77,7,58;13,55,08,566,13,214,08,7,58" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Ethylene participates in the regulation of Fe deficiency responses in Strategy I plants and in rice</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2015.01056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1056</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,575,63,243,79,7,58;13,55,08,585,13,233,79,7,58;13,55,08,594,63,162,54,7,58" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Similarities and differences in the acquisition of Fe and P by dicot plants</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lucena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Porras</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romena</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pérez-Vicente</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/agronomy8080148</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Agronomy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="148" to="163" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,604,13,243,79,7,58;13,55,08,613,63,48,86,7,58" xml:id="b33">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Marschner</surname></persName>
+		</author>
+		<title level="m">Mineral nutrition of higher plants. 2</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>nd ed edition</note>
+</biblStruct>
+
+<biblStruct coords="13,45,08,623,13,243,83,7,58;13,55,08,632,63,233,78,7,58;13,55,08,642,13,233,78,7,58;13,55,08,651,63,155,07,7,58" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Nitric oxide is the shared signalling molecule in phosphorus-and iron deficiency-induced formation of cluster roots in white lupin (Lupinus albus)</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><forename type="middle">B</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">X</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/aob/mcs024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Bot</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="1055" to="1064" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,661,13,243,79,7,58;13,55,08,670,63,233,80,7,58;13,55,08,680,13,173,35,7,58" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Improvement in phosphate acquisition and utilization by a secretory purple acid phosphatase (OsPAP21b) in rice</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Mehra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">K</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Giri</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/pbi.12699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Biotech. J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1054" to="1067" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,45,08,689,63,243,76,7,58;13,55,08,699,13,233,80,7,58;13,315,87,62,63,233,80,7,58;13,315,87,72,13,226,27,7,58" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A genome-wide transcriptional analysis using Arabidopsis thaliana Affymetrix gene chips determined plant responses to phosphate deprivation</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Misson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">G</forename><surname>Raghothama</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Jouhet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Block</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Bligny</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0505266102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. Biol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="11934" to="11939" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,81,63,243,78,7,58;13,315,87,91,13,233,79,7,58;13,315,87,100,63,233,78,7,58;13,315,87,110,13,43,38,7,58" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">SIZ1 regulation of phosphate starvation induced root architecture remodeling involves the control of auxin accumulation</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Miura</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">B</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yoo</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.110.165191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1000" to="1012" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,119,63,243,79,7,58;13,315,87,129,13,233,79,7,58;13,315,87,138,63,233,76,7,58;13,315,87,148,13,227,80,7,58" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The humic acid-induced changes in the root concentration of nitric oxide, IAA and ethylene do not explain the changes in root architecture caused by humic acid in cucumber</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Baigorri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Bacaicoa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Zamarreño</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>García-Mina</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.envexpbot.2011.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="24" to="32" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,157,63,243,77,7,58;13,315,87,167,13,233,79,7,58;13,315,87,176,63,233,78,7,58;13,315,87,186,13,43,38,7,58" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Genome wide analysis of the Arabidopsis leaf transcriptome reveals interaction of phosphate and sugar metabolism</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Morant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Jarmer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">H</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.106.090167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="156" to="171" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,195,63,243,79,7,58;13,315,87,205,13,233,78,7,58;13,315,87,214,63,60,18,7,58" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Ethylene´s role in phosphate starvation: more than just a root growth regulator</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">K</forename><surname>Nagarajan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pcp/pcr186</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="277" to="286" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,224,13,243,81,7,58;13,315,87,233,63,233,78,7,58;13,315,87,243,13,46,59,7,58" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The role of ethylene in plant adaptations for phosphate acquisition in soils-A review</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Neumann</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2015.01224</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1224</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,252,63,243,81,7,58;13,315,87,262,13,233,78,7,58;13,315,87,271,63,233,80,7,58;13,315,87,281,13,211,51,7,58" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Identification of nutrient-responsive Arabidopsis and rapeseed microARNs by comprehensive real-time polymerase chain reaction profiling and small RNA sequencing</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">D</forename><surname>Pant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Musialak-Lange</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Nuc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Buhtz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Kehr</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.109.139139</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="1541" to="1555" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,290,63,243,79,7,58;13,315,87,300,13,233,78,7,58;13,315,87,309,63,233,81,7,58;13,315,87,319,13,214,71,7,58" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Arabidopsis copper transport protein COPT2 participates in the cross talk between iron deficiency responses and low-phosphate</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Perea-García</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>García-Molina</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Andres-Colas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Vera-Sirera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Perez-Amador</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Puig</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.112.212407</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="180" to="194" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,328,63,243,73,7,58;13,315,87,338,13,233,81,7,58;13,315,87,347,63,233,78,7,58;13,315,87,357,13,192,87,7,58" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The secreted purple acid phosphatase isozymes AtPAP12 and AtPAP26 play a pivotal role in extracellular phosphate-scavenging by Arabidopsis thaliana</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">T</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">A</forename><surname>Del Vecchio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>Zins</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jxb/ers309</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="6531" to="6542" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,366,63,243,79,7,58;13,315,87,376,13,233,77,7,58;13,315,87,385,63,233,79,7,58;13,315,87,395,13,89,69,7,58" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Effects of bicarbonate, phosphate and high pH on the reducing capacity of Fe-deficient sunflower and cucumber plants</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcantara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">D</forename><surname>De La Guardia</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01904169209364418</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plant Nutr</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,404,63,243,80,7,58;13,315,87,414,13,233,78,7,58;13,315,87,423,63,155,05,7,58" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Iron-deficiency stress responses in cucumber (Cucumis sativus L.) roots. A possible role for ethylene?</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Romera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Alcántara</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.105.4.1133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="1133" to="1138" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,433,13,243,79,7,58;13,315,87,442,63,233,78,7,58;13,315,87,452,13,66,94,7,58" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ethylene and the responses of plants to phosphate deficiency</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Roldán</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Dinh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">T</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/aobpla/plt013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AoB PLANTS</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,461,63,243,78,7,58;13,315,87,471,13,233,80,7,58;13,315,87,480,63,233,79,7,58;13,315,87,490,13,59,82,7,58" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A conversed MYB transcription factor involved in phosphate starvation both in vascular plants and in unicellular algae</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Rubio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Linhares</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Solano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">C</forename><surname>Martín</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Leyva</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.204401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2122" to="2133" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,499,63,243,78,7,58;13,315,87,509,13,233,78,7,58;13,315,87,518,63,118,03,7,58" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Phosphate aggravates iron chlorosis in carbonate-iron oxide systems</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">R</forename><surname>Sánchez-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">C</forename><surname>Del Campillo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Torrent</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11104-013-1785-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Soil</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="31" to="42" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,528,13,243,78,7,58;13,315,87,537,63,233,80,7,58;13,315,87,547,13,233,77,7,58;13,315,87,556,63,69,17,7,58" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The Arabidopsis AtOPT3 protein functions in metal homeostasis and movement of iron to developing seeds</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">G</forename><surname>Stacey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">E</forename><surname>Mcclain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Remley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">E</forename><surname>Rogers</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.107.108183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="589" to="601" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,566,13,243,76,7,58;13,315,87,575,63,224,81,7,58" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Increased root hair density by loss of WRKY6 in Arabidopsis thaliana</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">G</forename><surname>Stetter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Benz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Ludewig</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.2891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Peer J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">2891</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,585,13,243,76,7,58;13,315,87,594,63,155,41,7,58" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Ethylene and plant responses to phosphate deficiency</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2015.00796</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">796</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,604,13,243,76,7,58;13,315,87,613,63,233,78,7,58;13,315,87,623,13,199,11,7,58" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Response of Arabidopsis to iron deficiency stress as revealed by microarray analysis</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Thimm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Essigmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kloska</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Altmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">J</forename><surname>Buckhout</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.010191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1030" to="1043" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,632,63,243,75,7,58;13,315,87,642,13,233,77,7,58;13,315,87,651,63,213,37,7,58" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Transcripts of MYB-like genes respond to phosphorus and nitrogen deprivation in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">D</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">E</forename><surname>Hoyos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Polacco</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00425-004-1305-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="1003" to="1009" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,661,13,243,79,7,58;13,315,87,670,63,233,78,7,58;13,315,87,680,13,76,47,7,58" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Time to pump iron: iron-deficiency mechanisms of higher plants</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">L</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">L</forename><surname>Connolly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pbi.2008.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="530" to="535" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,305,87,689,63,243,76,7,58;13,315,87,699,13,233,78,7,58;14,55,08,62,63,233,77,7,58;14,55,08,72,13,196,86,7,58" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Rapid introduction of regulatory and transporter genes in response to phosphorus, potassium, and iron deficiencies in tomato roots. Evidence for cross talk and root/rhizospheremediated signals</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">F</forename><surname>Garvin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">V</forename><surname>Kochian</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.008854</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">1370</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,81,63,243,82,7,58;14,55,08,91,13,155,86,7,58" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Ethylene biosynthesis and networks</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">L C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">R</forename><surname>Ecker</surname></persName>
+		</author>
+		<idno type="DOI">10.1105/tpc.001768</idno>
+	</analytic>
+	<monogr>
+		<title level="m">S131-S151</title>
+		<imprint>
+			<date type="published" when="2002">2002. 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,100,63,243,76,7,58;14,55,08,110,13,233,78,7,58;14,55,08,119,63,96,50,7,58" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Overexpressing AtPAP15 enhances phosphorus efficiency in soybean</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">L</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.109.138891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="233" to="240" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,129,13,243,79,7,58;14,55,08,138,63,233,77,7,58;14,55,08,148,13,233,80,7,58;14,55,08,157,63,153,00,7,58" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The regulatory network of cluster-root function and development in phosphate deficient white lupin (Lupinus albus) identified by transcriptome sequencing</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Straub</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kania</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Ludewig</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ppl.12187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Plant</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="323" to="338" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,167,13,243,76,7,58;14,55,08,176,63,233,79,7,58;14,55,08,186,13,117,03,7,58" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of phosphate transport and in higher plants</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2017.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Cell Develop. Biol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="114" to="122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,195,63,243,77,7,58;14,55,08,205,13,233,79,7,58;14,55,08,214,63,103,23,7,58" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Functions and regulation of phosphate starvationinduced secreted acid phosphatases in higher plants</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.plantsci.2018.03.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="108" to="116" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,224,13,243,81,7,58;14,55,08,233,63,233,78,7,58;14,55,08,243,13,233,78,7,58;14,55,08,252,63,45,18,7,58" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The effect of iron on the primary root elongation of Arabidopsis during phosphate deficiency</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">T</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Lahner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Yakubova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">E</forename><surname>Salt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">G</forename><surname>Raghothama</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.108.118562</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="1181" to="1191" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,45,08,262,13,243,73,7,58;14,55,08,271,63,233,76,7,58;14,55,08,281,13,233,78,7,58;14,55,08,290,63,31,85,7,58" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">FIT interacts with AtbHLH38 and AtbHLH39 in regulating iron uptake gene expression for iron homeostasis in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cr.2008.26</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="385" to="397" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305,87,62,63,243,79,7,58;14,315,87,72,13,233,78,7,58;14,315,87,81,63,71,75,7,58" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Pho3: a phosphorusdeficient mutant of Arabidopsis thaliana (L.) Heynh</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><forename type="middle">V</forename><surname>Zakhleniuk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Raines</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">C</forename><surname>Lloyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s004250000450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="529" to="534" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305,87,91,13,243,78,7,58;14,315,87,100,63,233,75,7,58;14,315,87,110,13,233,78,7,58;14,315,87,119,63,143,90,7,58" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">OPT3 is a Phloem-specific iron transporter that is essential for systemic iron and redistriburtion of iron and cadmium in Arabidopsis</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">R</forename><surname>Gayomba</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">K</forename><surname>Vimalakumari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Piñeros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Craft</surname></persName>
+		</author>
+		<idno type="DOI">10.1105/tpc.114.123737</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2249" to="2264" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305,87,129,13,243,75,7,58;14,315,87,138,63,233,78,7,58;14,315,87,148,13,84,16,7,58" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms underlying phosphate sensing, and adaptation in plants</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>William</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jipb.12163</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Integrative Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="192" to="220" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305,87,157,63,243,78,7,58;14,315,87,167,13,233,79,7,58;14,315,87,176,63,167,10,7,58" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Physiological and transcriptome analysis of iron and phosphorus interaction in rice seedlings</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Narsai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Giraud</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1104/pp.109.141051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="262" to="274" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

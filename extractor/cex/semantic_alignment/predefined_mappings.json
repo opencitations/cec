@@ -1,9 +1,10 @@
 {
-  "literature review": "Related Works",
-  "methods": "Methods and Materials",
-  "method": "Methods and Materials",
-  "material": "Methods and Materials",
-  "materials": "Methods and Materials",
-  "conclusion": "Conclusion",
-  "conclusions": "Conclusion"
+  "literature review": ["Related Works"],
+  "methods and materials": ["Methods", "Materials"],
+  "method and material": ["Methods", "Materials"],
+  "conclusion": ["Conclusion"],
+  "conclusions": ["Conclusion"],
+  "previous work": ["Related Works"],
+  "previous works": ["Related Works"],
+  "results and discussion": ["Results", "Discussion"]
 }

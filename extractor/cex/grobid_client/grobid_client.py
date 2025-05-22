@@ -55,8 +55,10 @@ class GrobidClient(ApiClient):
         """
         Load the json configuration
         """
-        config_json = open(path).read()
-        self.config = json.loads(config_json)
+
+        with open(path, "r", encoding="utf-8") as f:
+            self.config = json.load(f)
+
 
     def _test_server_connection(self):
         """Test if the server is up and running."""
