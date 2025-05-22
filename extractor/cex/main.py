@@ -19,7 +19,7 @@ from datetime import datetime
 import concurrent.futures
 from wtforms.validators import NumberRange
 import zstandard as zstd
-from .settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, PROCESSING_FOLDER
+from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, PROCESSING_FOLDER
 
 def get_all_files(folder_path):
     files = []
