@@ -1,8 +1,8 @@
 import argparse
 import os
 import datetime
-from extractor.cex.main import get_all_files_by_type, upload_manifest
-from extractor.cex.combined import PDFProcessor
+from main import get_all_files_by_type, upload_manifest
+from combined import PDFProcessor
 import zipfile
 import concurrent.futures
 import shutil

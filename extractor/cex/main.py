@@ -13,7 +13,7 @@ from os import makedirs, sep, walk
 from os.path import basename, exists, isdir
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
-from extractor.cex.combined import PDFProcessor
+from combined import PDFProcessor
 import zipfile
 from datetime import datetime
 import concurrent.futures
@@ -263,7 +263,7 @@ def create_app():
 
         return send_from_directory(download_location, filename, as_attachment=True)
 
-    from extractor.cex.api.routes import api_blueprint
+    from api.routes import api_blueprint
     app.register_blueprint(api_blueprint, url_prefix='/api')
 
     from flask import Blueprint, send_from_directory
