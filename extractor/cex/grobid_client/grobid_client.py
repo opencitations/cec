@@ -4,13 +4,13 @@ Grobid Python Client
 
 This version uses the standard ThreadPoolExecutor for parallelizing the
 concurrent calls to the GROBID services.  Given the limits of
-ThreadPoolExecutor (input stored in memory, blocking Executor.map until the 
-whole input is acquired), it works with batches of PDF of a size indicated 
-in the config.json file (default is 1000 entries). We are moving from first 
-batch to the second one only when the first is entirely processed - which 
-means it is slightly sub-optimal, but should scale better. Working without 
-batch would mean acquiring a list of millions of files in directories and 
-would require something scalable too (e.g. done in a separate thread), 
+ThreadPoolExecutor (input stored in memory, blocking Executor.map until the
+whole input is acquired), it works with batches of PDF of a size indicated
+in the config.json file (default is 1000 entries). We are moving from first
+batch to the second one only when the first is entirely processed - which
+means it is slightly sub-optimal, but should scale better. Working without
+batch would mean acquiring a list of millions of files in directories and
+would require something scalable too (e.g. done in a separate thread),
 which is not implemented for the moment.
 
 """
@@ -32,12 +32,12 @@ class ServerUnavailableException(Exception):
 
 class GrobidClient(ApiClient):
 
-    def __init__(self, grobid_server='localhost', 
-                 batch_size=1000, 
-                 coordinates=["persName", "figure", "ref", "biblStruct", "formula", "s" ], 
+    def __init__(self, grobid_server='localhost',
+                 batch_size=1000,
+                 coordinates=["persName", "figure", "ref", "biblStruct", "formula", "s" ],
                  sleep_time=5,
                  timeout=60,
-                 config_path=None, 
+                 config_path=None,
                  check_server=True):
         self.config = {
             'grobid_server': grobid_server,
@@ -55,7 +55,7 @@ class GrobidClient(ApiClient):
         """
         Load the json configuration
         """
-
+        
         with open(path, "r", encoding="utf-8") as f:
             self.config = json.load(f)
 
@@ -216,7 +216,7 @@ class GrobidClient(ApiClient):
                 selected_process = self.process_pdf
                 if service == 'processCitationList':
                     selected_process = self.process_txt
-                
+
                 r = executor.submit(
                     selected_process,
                     service,
@@ -277,7 +277,7 @@ class GrobidClient(ApiClient):
                 {"Expires": "0"},
             )
         }
-        
+
         the_url = self.get_server_url(service)
 
         # set the GROBID parameters

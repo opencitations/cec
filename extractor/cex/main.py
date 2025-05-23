@@ -13,13 +13,13 @@ from os import makedirs, sep, walk
 from os.path import basename, exists, isdir
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
-from extractor.cex.combined import PDFProcessor
+from combined import PDFProcessor
 import zipfile
 from datetime import datetime
 import concurrent.futures
 from wtforms.validators import NumberRange
 import zstandard as zstd
-from .settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, PROCESSING_FOLDER
+from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, PROCESSING_FOLDER
 
 def get_all_files(folder_path):
     files = []
@@ -148,7 +148,7 @@ class UploadFileForm(FlaskForm):
 
 
 def create_app():
-    PREFIX="/"
+    PREFIX="/cex/"
 
     # change to default as:
     # PREFIX="/"
@@ -263,8 +263,8 @@ def create_app():
 
         return send_from_directory(download_location, filename, as_attachment=True)
 
-    from extractor.cex.api.routes import api_blueprint
-    app.register_blueprint(api_blueprint, url_prefix='/api')
+    from api.routes import api_blueprint
+    app.register_blueprint(api_blueprint, url_prefix=PREFIX+'api')
 
     from flask import Blueprint, send_from_directory
 
