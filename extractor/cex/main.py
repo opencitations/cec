@@ -264,7 +264,7 @@ def create_app():
         return send_from_directory(download_location, filename, as_attachment=True)
 
     from api.routes import api_blueprint
-    app.register_blueprint(api_blueprint, url_prefix='/api')
+    app.register_blueprint(api_blueprint, url_prefix=PREFIX+'api')
 
     from flask import Blueprint, send_from_directory
 
