@@ -1024,10 +1024,8 @@ class PDFProcessor:
                 # aligning headings
                 if align_headings:
                     current_stage = "Aligning headings"
-                    json_files = [el for el in os.listdir(self.output_intermediate_dir) if
-                                  el.endswith(".json") and el.startswith(str(pdf_filename).replace(".pdf", ""))]
-                    if json_files:
-                        json_file_path = os.path.join(self.output_intermediate_dir, json_files[0])
+                    json_file_path = os.path.join(self.output_intermediate_dir, str(pdf_filename).replace(".pdf", ".json"))
+                    if json_file_path:
                         try:
                             run(json_file_path,
                                 ["Introduction", "Related Work", "Methods", "Materials", "Results", "Discussion", "Conclusion"],
