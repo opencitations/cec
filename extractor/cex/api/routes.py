@@ -9,8 +9,8 @@ import os
 import json
 from flask import Blueprint, request, jsonify, current_app, url_for, send_file, after_this_request, send_from_directory
 from werkzeug.utils import secure_filename
-from extractor.cex.combined import PDFProcessor
-from extractor.cex.semantic_alignment.align_headings import run
+from combined import PDFProcessor
+from semantic_alignment.align_headings import run
 import logging
 import datetime
 import traceback

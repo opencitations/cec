@@ -8,8 +8,8 @@ from html5lib.constants import namespaces
 from lxml import etree
 from spacy.lang.am.examples import sentences
 
-from extractor.cex.combined import TEIXMLtoJSONConverter
-from extractor.cex.settings import *
+from combined import TEIXMLtoJSONConverter
+from settings import *
 import shutil
 
 ROOT_DIR = Path(__file__).resolve().parent.parent  # Adjust based on your project structure

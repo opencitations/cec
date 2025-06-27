@@ -1,6 +1,6 @@
-# Citation Extraction and Classifier
+# Citation Extractor and Classifier
 
-The Citation Extraction and Classifier is  a software that performs the automatic annotation of in-text citations in academic papers provided in PDF. 
+The Citation Extractor and Classifier is  a software that performs the automatic annotation of in-text citations in academic papers provided in PDF. 
 
 It is developed within the [GraspOS EU project](https://graspos.eu/). 
 

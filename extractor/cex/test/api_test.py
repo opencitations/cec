@@ -7,7 +7,7 @@ import zipfile
 from pathlib import Path
 
 
-from extractor.cex.main import create_app
+from main import create_app
 from werkzeug.datastructures import FileStorage
 
 ROOT_DIR = Path(__file__).resolve().parent.parent  # Adjust based on your project structure

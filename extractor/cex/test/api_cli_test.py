@@ -7,7 +7,7 @@ import zipfile
 import json
 import argparse
 from pathlib import Path
-from extractor.cex.api.api_cli import create_zip_file, delete_files, process_pdf_file, main
+from api.api_cli import create_zip_file, delete_files, process_pdf_file, main
 
 ROOT_DIR = Path(__file__).resolve().parent.parent  # Adjust based on your project structure
 BASE = os.path.join(ROOT_DIR, "test", "api_cli")
@@ -56,7 +56,7 @@ class TestScriptFunctions(unittest.TestCase):
         self.assertFalse(os.path.exists(sample_file_1))
         self.assertTrue(os.path.exists(zip_path))
 
-    @patch("extractor.cex.api.api_cli.PDFProcessor")
+    @patch("api.api_cli.PDFProcessor")
     def test_process_pdf_file(self, mock_processor):
         # Mock the process_pdf method
         mock_instance = mock_processor.return_value
@@ -69,8 +69,8 @@ class TestScriptFunctions(unittest.TestCase):
         self.assertEqual(result["status"], "processed")
         self.assertEqual(result["filename"], "sample.pdf")
 
-    @patch("extractor.cex.api.api_cli.get_all_files_by_type", return_value=(["sample.pdf"], [], None))
-    @patch("extractor.cex.api.api_cli.process_pdf_file", return_value={"filename": "sample.pdf", "status": "processed"})
+    @patch("api.api_cli.get_all_files_by_type", return_value=(["sample.pdf"], [], None))
+    @patch("api.api_cli.process_pdf_file", return_value={"filename": "sample.pdf", "status": "processed"})
     @patch("argparse.ArgumentParser.parse_args")
     def test_main_integration(self, mock_args, mock_process_pdf, mock_get_all_files):
         # Mock the arguments
@@ -94,7 +94,7 @@ class TestScriptFunctions(unittest.TestCase):
 
 
 
-    @patch("extractor.cex.api.api_cli.get_all_files_by_type", return_value=([], ["unsupported.txt"], None))
+    @patch("api.api_cli.get_all_files_by_type", return_value=([], ["unsupported.txt"], None))
     @patch("argparse.ArgumentParser.parse_args")
     def test_unsupported_files(self, mock_args, mock_get_all_files):
         # Mock the arguments

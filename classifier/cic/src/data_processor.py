@@ -69,9 +69,7 @@ class DataProcessor:
     def generate_mapping(self):
         """
         Maps each datapoint to a specific id.
-        """
-        mapped_data = dict(zip(self.ids, self.data))
-        """
+
         MAPPED DATA FORMAT:
         {
             1: {
@@ -85,35 +83,39 @@ class DataProcessor:
             ...
         }
         """
+        mapped_data = dict(zip(self.ids, self.data))
         return mapped_data
     
 def read_json(json_file):
     try:
+        # forse può generare errore se non tutte le entry hanno la stessa struttura.
+        # nel caso l'ultima richieda simple format e quelle prima no
+        # ma forse non da errore, DA CONTROLLARE
         data = json.load(json_file)
         simple_format_check = True
         for id in data:
+            if not isinstance(data[id], dict):
+                raise ValueError(f"Invalid entry format for ID {id}. Each entry must be a dictionary.")
+
+            keys = data[id].keys()
+            if len(keys) < 2:
+                raise ValueError(f"Invalid JSON file, the number of keys is not correct for ID {id}. The keys must be at least 'SECTION' and 'CITATION' in each entry.")
+            if 'SECTION' not in keys or 'CITATION' not in keys:
+                raise ValueError(f"Invalid JSON file, missing keys for ID {id}. Each entry must contain 'SECTION' and 'CITATION' keys.")
             if len(data[id]) > 2:
                 simple_format_check = False
-            elif len(data[id]) == 2:
-                pass
-            else:
-                raise ValueError("Invalid JSON file, the number of keys is not correct. The keys must be at least 'SECTION' and 'CITATION' in each entry.")
-            if 'SECTION' not in data[id] or 'CITATION' not in data[id]:
-                raise ValueError("Invalid JSON file, not all the necessary keys are present. At least 'SECTION' and 'CITATION' must be present in each entry.")
-        
+
         if simple_format_check:
             return data
         else:
-            if not simple_format_check:
-                clean_data = {}
-                temporary_data = data
-                for id in data:
-                    clean_data[id] = {}
-                    clean_data[id]['SECTION'] = data[id]['SECTION']
-                    clean_data[id]['CITATION'] = data[id]['CITATION']
-                return (clean_data, temporary_data)
-        print("Data loaded from JSON:", data)
-        return data
+            clean_data = {}
+            temporary_data = data
+            for id in data:
+                clean_data[id] = {}
+                clean_data[id]['SECTION'] = data[id]['SECTION']
+                clean_data[id]['CITATION'] = data[id]['CITATION']
+            return (clean_data, temporary_data)
+        
     except json.JSONDecodeError:
         raise ValueError("Invalid JSON file")
 

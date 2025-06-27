@@ -4,7 +4,7 @@ import re
 import spacy
 
 from collections import defaultdict, deque
-from extractor.cex.settings import *
+from settings import *
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 
