@@ -1,22 +1,12 @@
-from os import makedirs, sep, walk
-from os.path import basename, exists, isdir
+
 import shutil
-import tarfile
-import pathlib
 import zipfile
-import zstandard as zstd
 import os
-import json
 from flask import Blueprint, request, jsonify, current_app, url_for, send_file, after_this_request, send_from_directory
 from werkzeug.utils import secure_filename
-from extractor.cex.combined import PDFProcessor
-from extractor.cex.semantic_alignment.align_headings import run
 import logging
 import datetime
-import traceback
-from settings import PREDEFINED_MAPPINGS_PATH
 from utils import get_all_files_by_type, upload_manifest, process_pdf_file
-from cleanup import clean_folder
 import concurrent.futures
 import uuid
 
