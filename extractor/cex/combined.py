@@ -7,7 +7,7 @@ import rdflib
 
 from oc_ocdm.graph.entities.bibliographic import DiscourseElement
 
-from extractor.cex.grobid_client.grobid_client import GrobidClient
+from grobid_client.grobid_client import GrobidClient
 from lxml import etree
 import json
 import re
@@ -17,8 +17,8 @@ from oc_ocdm.graph import GraphSet
 from datetime import datetime
 from rdflib import URIRef
 import uuid
-from extractor.cex.semantic_alignment.align_headings import run
-from extractor.cex.settings import *
+from semantic_alignment.align_headings import run
+from settings import *
 
 
 class TEIXMLtoJSONConverter:

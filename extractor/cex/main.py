@@ -7,14 +7,9 @@ from werkzeug.utils import secure_filename
 import os
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired
-import zipfile
-from datetime import datetime
-import concurrent.futures
-from wtforms.validators import NumberRange
 from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER
 from cleanup import register_cleanup, clean_folder
 from utils import get_all_files_by_type, upload_manifest, process_pdf_file
-
 
 class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])
@@ -25,7 +20,7 @@ class UploadFileForm(FlaskForm):
 
 
 def create_app():
-    PREFIX="/"
+    PREFIX="/cex/"
 
     # change to default as:
     # PREFIX="/"

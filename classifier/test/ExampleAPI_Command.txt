@@ -1,0 +1,10 @@
+
+
+# (1) via CURL
+curl -X POST -F 'file=@/absolute/path/to/json_to_cls.zip' -F 'mode=mixed' "http://127.0.0.1:5000/api/classify" --output results_file_prova_CEC.zip
+
+# (2) run Test
+cic_test.sh <API_URL> <INPUT_DIR>
+
+## e.g. 
+cic_test.sh http://test.opencitations.net:81/cic input_dir

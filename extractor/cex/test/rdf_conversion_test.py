@@ -9,7 +9,7 @@ import os
 
 import rdflib
 from SPARQLWrapper import SPARQLWrapper, JSON
-from extractor.cex.combined import TEIXMLtoRDFConverter, PDFProcessor
+from combined import TEIXMLtoRDFConverter, PDFProcessor
 import requests
 from rdflib import Graph, URIRef
 from oc_ocdm import Storer
