@@ -13,14 +13,16 @@ RUN apt-get update && \
     build-essential && \
     rm -rf /var/lib/apt/lists/*
 
-# Imposta la working directory
+# Set the working directory
 WORKDIR /app
 
-# Copia i file dalla cartella classifier nella working directory
+# Copy files from the classifier folder into the working directory
 COPY ./classifier /app/classifier
 
-# Installa le dipendenze Python
+# Install Python dependencies
 RUN pip install --no-cache-dir -r /app/classifier/requirements.txt
 
-# Comando per avviare l'applicazione
+WORKDIR /app/classifier
+
+# Command to start the application
 CMD ["python", "-m", "cic.main", "--src_path", "/app/classifier/cic/src"]
