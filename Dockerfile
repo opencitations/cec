@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # Ensure Python output is unbuffered
 ENV PYTHONUNBUFFERED=1
@@ -25,4 +25,4 @@ RUN pip install --no-cache-dir -r /app/classifier/requirements.txt
 WORKDIR /app/classifier
 
 # Command to start the application
-CMD ["python", "-m", "cic.main", "--src_path", "/app/classifier/cic/src"]
+CMD ["python", "-m", "cic.main", "--src_path", "/app/classifier/cic/src", "--prefix", "/cic"]
