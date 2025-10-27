@@ -1,13 +1,13 @@
 # Base image
-FROM python:3.9-slim
+FROM python:3.11-slim
 
-# Prevent Python from writing pyc files and ensure output is unbuffered
+# Set environment variables for Flask
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    FLASK_RUN_HOST=0.0.0.0 \
-    FLASK_RUN_PORT=5000
+    SRC_PATH=/app/classifier/cic/src \
+    URL_PREFIX=/cic
 
 # Install system dependencies
 RUN apt-get update && \
@@ -38,5 +38,13 @@ WORKDIR /app/classifier
 # Expose port
 EXPOSE 5000
 
-# Run the application
-CMD ["python", "-m", "cic.main", "--src_path", "/app/classifier/cic/src", "--prefix", "/cic"]
+# Run with Gunicorn (production-ready)
+CMD ["gunicorn", \
+     "--workers", "1", \
+     "--bind", "0.0.0.0:5000", \
+     "--timeout", "300", \
+     "--chdir", "/app/classifier", \
+     "--access-logfile", "-", \
+     "--error-logfile", "-", \
+     "--log-level", "info", \
+     "cic.main:app"]
