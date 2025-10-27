@@ -23,9 +23,14 @@ if __name__ == '__main__':
     parser.add_argument('--src_path', required=True, help='Path to src folder.')
     parser.add_argument('--prefix', required=True, help='Aplication Prefix')
     args = parser.parse_args()
-
+    
     # Create the app with user-provided SRC_PATH
     app = create_app(args.src_path, args.prefix)
-
+    
+    # Get host and port from environment or use defaults
+    host = os.getenv('FLASK_RUN_HOST', '0.0.0.0')
+    port = int(os.getenv('FLASK_RUN_PORT', 5000))
+    debug = os.getenv('FLASK_DEBUG', 'True').lower() == 'true'
+    
     # Run the app
-    app.run(debug=True)
+    app.run(debug=debug, host=host, port=port)
