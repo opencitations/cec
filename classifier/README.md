@@ -104,6 +104,77 @@ The Docker build process is fully automated via GitHub Actions (`.github/workflo
    - If not, builds and pushes a new image with that version tag
 3. **Version Management**: To create a new Docker image version, Edit the version file ---> classifier/docker_version.txt
 
+## Running the Docker Container
+
+### Prerequisites
+
+Before running the container, ensure you have:
+- Docker installed on your system
+- Models directory with the following structure [ *Version 1* models required]:
+```
+  models/
+  ├── NoSections/
+  │   └── [model files for classification without sections]
+  └── Sections/
+      └── [model files for classification with sections]
+```
+
+### Option 1: Docker Run Command
+```bash
+docker run -d \
+  -p 5000:5000 \
+  --memory="32g" \
+  -v '/your_local_PATH/models:/app/classifier/cic/src/models' \
+  opencitations/oc_cec_classifier:1.1.0_V1
+```
+
+**Parameters:**
+- `-d`: Run container in detached mode
+- `-p 5000:5000`: Map port 5000 (host:container)
+- `--memory="32g"`: Set memory limit to 32GB
+- `-v`: Mount local models directory to container
+  - Replace `/your_local_PATH/models` with your actual models path
+  - Can be absolute (`/home/user/models`) or relative (`./models`)
+
+### Option 2: Docker Compose
+
+Create a `docker-compose.yml` file:
+```yaml
+services:
+  cic-classifier:
+    image: opencitations/oc_cec_classifier:1.1.0_V1
+    container_name: cic-classifier
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount local models directory to container
+      # Replace with your actual models path (absolute or relative)
+      - /your_local_PATH/models:/app/classifier/cic/src/models
+    deploy:
+      resources:
+        limits:
+          memory: 32G
+        reservations:
+          memory: 16G
+    restart: unless-stopped
+```
+
+**Start the service:**
+```bash
+docker compose up -d
+```
+
+**Check logs:**
+```bash
+docker compose logs -f cic-classifier
+```
+
+**Stop the service:**
+```bash
+docker compose down
+```
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
