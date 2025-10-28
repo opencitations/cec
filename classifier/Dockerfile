@@ -20,13 +20,13 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Copy requirements first for better layer caching
-COPY ./classifier/requirements.txt /app/requirements.txt
+COPY ./requirements.txt /app/requirements.txt
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 # Copy the entire classifier directory
-COPY ./classifier /app/classifier
+COPY ./ /app/classifier
 
 # Create directories for models (to be mounted or downloaded later)
 RUN mkdir -p /app/classifier/cic/src/models/NoSections \
@@ -42,7 +42,7 @@ EXPOSE 5000
 CMD ["gunicorn", \
      "--workers", "1", \
      "--bind", "0.0.0.0:5000", \
-     "--timeout", "300", \
+     "--timeout", "900", \
      "--chdir", "/app/classifier", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
