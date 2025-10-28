@@ -79,6 +79,30 @@ Highlighted mdoels are the resulting classifiers of this project. The **WS** mod
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Docker Deployment
+
+This project uses automated Docker image building and deployment to Docker Hub through GitHub Actions.
+
+### Docker Image Structure
+
+The classifier component is containerized using Docker. The image includes:
+- Python 3.11 slim base image
+- All required dependencies (PyTorch, Transformers, Flask, etc.)
+- Gunicorn as production WSGI server
+- Citation Intent Classifier module
+
+### Automated Build Process
+
+The Docker build process is fully automated via GitHub Actions (`.github/workflows/classifier-build.yaml`). 
+
+**How it works:**
+
+1. **Version Control**: The Docker image version is defined in `classifier/docker_version.txt`
+2. **Automatic Build**: When you push to `main` branch, the workflow:
+   - Reads the version from `docker_version.txt`
+   - Checks if the image already exists on Docker Hub
+   - If not, builds and pushes a new image with that version tag
+3. **Version Management**: To create a new Docker image version, Edit the version file ---> classifier/docker_version.txt
 
 ## Contributing
 

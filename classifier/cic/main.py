@@ -17,15 +17,26 @@ def create_app(src_path, prefix = "/cic"):
 
     return app
 
+
+# Create app instance for Gunicorn (uses environment variables)
+src_path = os.getenv('SRC_PATH', '/app/classifier/cic/src')
+prefix = os.getenv('URL_PREFIX', '/cic')
+app = create_app(src_path, prefix)
+
+
 if __name__ == '__main__':
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Run Flask application.')
     parser.add_argument('--src_path', required=True, help='Path to src folder.')
     parser.add_argument('--prefix', required=True, help='Aplication Prefix')
     args = parser.parse_args()
-
-    # Create the app with user-provided SRC_PATH
-    app = create_app(args.src_path, args.prefix)
-
-    # Run the app
-    app.run(debug=True)
+    
+    # Override with CLI args if provided
+    if args.src_path or args.prefix:
+        app = create_app(
+            args.src_path or src_path,
+            args.prefix or prefix
+        )
+    
+    # Run with Flask dev server
+    app.run(host='0.0.0.0', port=5000, debug=False)
