@@ -53,30 +53,30 @@ class PredictorManager:
                 "xlnet-base-cased",
                 [
                     [
-                        os.path.join(self.SRC_PATH, "models", "Sections", "SciBERT_method_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "Sections", "SciBERT_background_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "Sections", "SciBERT_result_model.pt")
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_SciBERT_met.pt"), #"SciBERT_method_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_SciBERT_bkg.pt"), #"SciBERT_background_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_SciBERT_res.pt") #"SciBERT_result_model.pt")
                     ],
                     [
-                        os.path.join(self.SRC_PATH, "models", "Sections", "XLNet_method_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "Sections", "XLNet_background_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "Sections", "XLNet_result_model.pt")
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_XLNet_met.pt"), #"XLNet_method_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_XLNet_bkg.pt"), #"XLNet_background_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "WS_XLNet_res.pt") #"XLNet_result_model.pt")
                     ],
                 ],
                 [
                     [
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_SciBERT_method_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_SciBERT_background_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_SciBERT_result_model.pt")
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_SciBERT_met.pt"), #"NoSec_SciBERT_method_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_SciBERT_bkg.pt"), #"NoSec_SciBERT_background_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_SciBERT_res.pt") #"NoSec_SciBERT_result_model.pt")
                     ],
                     [
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_XLNet_method_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_XLNet_background_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "NoSections", "NoSec_XLNet_result_model.pt")
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_XLNet_met.pt"), #"NoSec_XLNet_method_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_XLNet_bkg.pt"), #"NoSec_XLNet_background_model.pt"),
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WS_XLNet_res.pt") #"NoSec_XLNet_result_model.pt")
                     ],
                 ],
-                os.path.join(self.SRC_PATH, "models", "Sections", "MetaClassifierSections.pth"),
-                os.path.join(self.SRC_PATH, "models", "NoSections", "MetaClassifierNoSections.pth"),
+                os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "FFNN_SciCiteWS.pth"), #"MetaClassifierSections.pth"),
+                os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "FFNN_SciCiteWoS.pth"), #"MetaClassifierNoSections.pth"),
             )
             self.logger.info("Predictor instantiated successfully.")
             self.manifest_dict["Initialization"] = {

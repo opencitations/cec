@@ -1,0 +1,76 @@
+.
+├── cic
+│   ├── __init__.py
+│   ├── blueprints
+│   │   ├── __init__.py
+│   │   ├── cic_api.py
+│   │   └── web_interface.py
+│   ├── main.py
+│   ├── predictor_manager.py
+│   ├── README.md
+│   ├── sh
+│   │   ├── check-and-run.sh
+│   │   ├── log.txt
+│   │   ├── README.md
+│   │   ├── run.sh
+│   │   └── stop.sh
+│   ├── src
+│   │   ├── __init__.py
+│   │   ├── binary_classifiers.py
+│   │   ├── data_processor.py
+│   │   ├── metaclassifiers.py
+│   │   ├── models
+│   │   │   ├── ModelsWithoutSections
+│   │   │   │   ├── FFNN_SciCiteWoS.pth
+│   │   │   │   ├── WoS_SciBERT_bkg.pt
+│   │   │   │   ├── WoS_SciBERT_met.pt
+│   │   │   │   ├── WoS_SciBERT_res.pt
+│   │   │   │   ├── WoS_XLNet_bkg.pt
+│   │   │   │   ├── WoS_XLNet_met.pt
+│   │   │   │   └── WoS_XLNet_res.pt
+│   │   │   ├── ModelsWithSections
+│   │   │   │   ├── FFNN_SciCiteWS.pth
+│   │   │   │   ├── WS_SciBERT_bkg.pt
+│   │   │   │   ├── WS_SciBERT_met.pt
+│   │   │   │   ├── WS_SciBERT_res.pt
+│   │   │   │   ├── WS_XLNet_bkg.pt
+│   │   │   │   ├── WS_XLNet_met.pt
+│   │   │   │   └── WS_XLNet_res.pt
+│   │   │   └── README.md
+│   │   └── predictor.py
+│   ├── static
+│   │   ├── css
+│   │   │   ├── classifier.css
+│   │   │   └── index.css
+│   │   ├── img
+│   │   │   ├── graspos_white.svg
+│   │   │   ├── graspos.svg
+│   │   │   ├── oc_white.svg
+│   │   │   └── oc.svg
+│   │   └── js
+│   │       ├── classifier.js
+│   │       └── conf.js
+│   ├── templates
+│   │   ├── classifier.html
+│   │   └── index.html
+│   └── utils
+│       ├── __init__.py
+│       ├── file_processing.py
+│       └── response_helpers.py
+├── clean_tree.txt
+├── README.md
+├── requirements.txt
+└── test
+    ├── cic_test.py
+    ├── cic_test.sh
+    ├── ExampleAPI_Command.txt
+    ├── input_dir
+    │   ├── CorrectResults
+    │   │   └── Results_ZIP.zip
+    │   └── json_to_cls.zip
+    ├── script_test_file.sh
+    ├── script_test_payload.sh
+    ├── test_file.json
+    └── test_payload.json
+
+17 directories, 57 files
