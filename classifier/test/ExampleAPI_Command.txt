@@ -1,7 +1,21 @@
 
 
 # (1) via CURL
-curl -X POST -F 'file=@/absolute/path/to/json_to_cls.zip' -F 'mode=mixed' "http://127.0.0.1:5000/api/classify" --output results_file_prova_CEC.zip
+# (1.a) JSON file
+
+curl -X POST http://127.0.0.1:5000/cic/api/classify \
+     -H "X-Request-Source: cli" \
+     -F "file=@/absolute/path/to/test_file.json" \
+     -F "mode=WS"
+
+# (1.b) Archive [you have to specify "-o" as the file where you want to save your results]
+
+curl -X POST http://127.0.0.1:5000/cic/api/classify \
+  -H "X-Request-Source: cli" \
+  -F "file=@/absolute/path/to/json_to_cls.zip" \
+  -F "mode=WS" \
+  -o /absolute/path/to/results.zip
+
 
 # (2) run Test
 cic_test.sh <API_URL> <INPUT_DIR>

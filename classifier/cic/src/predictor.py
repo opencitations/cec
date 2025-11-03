@@ -110,36 +110,37 @@ class Predictor:
 
     def load_metaclassifier(self):
         """
-        Load the metaclassifier model.
+        Load the metaclassifier model (compat: accetta sia checkpoint wrappati con 'model_state_dict' sia state_dict puri)
         """
+        def _load_into(model, ckpt_path):
+            checkpoint = torch.load(ckpt_path, map_location=self.device)  # weights_only=False di default
+            # Usa la stessa logica dell'eval in training
+            if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint:
+                state = checkpoint["model_state_dict"]
+            else:
+                state = checkpoint
+            # (opzionale ma utile) gestisci il caso DataParallel: rimuovi 'module.' se presente
+            if isinstance(state, dict) and any(k.startswith("module.") for k in state.keys()):
+                state = {k[len("module."):] if k.startswith("module.") else k: v for k, v in state.items()}
+            model.load_state_dict(state)     # strict=True default
+            return model.to(self.device).eval()
+
         if self.case != "M":
             if self.case == "WS":
                 metaclassifier = MetaClassifierSection()
-                checkpoint = torch.load(self.SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
-                metaclassifier.load_state_dict(checkpoint['model_state_dict'])
-                metaclassifier = metaclassifier.to(self.device).eval()
-                return metaclassifier
+                return _load_into(metaclassifier, self.SECTIONS_metaclassifier_state_dict_path)
 
             elif self.case == "WoS":
                 metaclassifier = MetaClassifierNoSection()
-                checkpoint = torch.load(self.NO_SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
-                metaclassifier.load_state_dict(checkpoint['model_state_dict'])
-                metaclassifier = metaclassifier.to(self.device).eval()
-                return metaclassifier
-        else:
-            SECTIONS_metaclassifier = MetaClassifierSection()
-            SECTIONS_checkpoint = torch.load(self.SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
-            SECTIONS_metaclassifier.load_state_dict(SECTIONS_checkpoint['model_state_dict'])
-            SECTIONS_metaclassifier = SECTIONS_metaclassifier.to(self.device).eval()
+                return _load_into(metaclassifier, self.NO_SECTIONS_metaclassifier_state_dict_path)
 
-            NO_SECTIONS_metaclassifier = MetaClassifierNoSection()
-            NO_SECTIONS_checkpoint = torch.load(self.NO_SECTIONS_metaclassifier_state_dict_path, map_location=self.device)
-            NO_SECTIONS_metaclassifier.load_state_dict(NO_SECTIONS_checkpoint['model_state_dict'])
-            NO_SECTIONS_metaclassifier = NO_SECTIONS_metaclassifier.to(self.device).eval()
-            
+        else:
+            SECTIONS_metaclassifier = _load_into(MetaClassifierSection(), self.SECTIONS_metaclassifier_state_dict_path)
+            NO_SECTIONS_metaclassifier = _load_into(MetaClassifierNoSection(), self.NO_SECTIONS_metaclassifier_state_dict_path)
             return (SECTIONS_metaclassifier, NO_SECTIONS_metaclassifier)
 
         raise ValueError(f"Invalid case: {self.case}.\nExpected one of: {self.valid_cases}")
+
 
 
     def tokenize(self):

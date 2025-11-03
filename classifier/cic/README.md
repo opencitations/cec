@@ -43,10 +43,8 @@ The **Citation Intent Classifier** is made up of a web application and an API de
 
 ```plaintext
 project_root/
-├── ExampleAPI_Command.txt
-├── README.md
+.
 ├── cic
-│   ├── README.md
 │   ├── __init__.py
 │   ├── blueprints
 │   │   ├── __init__.py
@@ -54,9 +52,11 @@ project_root/
 │   │   └── web_interface.py
 │   ├── main.py
 │   ├── predictor_manager.py
+│   ├── README.md
 │   ├── sh
-│   │   ├── README.md
 │   │   ├── check-and-run.sh
+│   │   ├── log.txt
+│   │   ├── README.md
 │   │   ├── run.sh
 │   │   └── stop.sh
 │   ├── src
@@ -65,33 +65,33 @@ project_root/
 │   │   ├── data_processor.py
 │   │   ├── metaclassifiers.py
 │   │   ├── models
-│   │   │   ├── NoSections
-│   │   │   │   ├── MetaClassifierNoSections.pth
-│   │   │   │   ├── NoSec_SciBERT_background_model.pt
-│   │   │   │   ├── NoSec_SciBERT_method_model.pt
-│   │   │   │   ├── NoSec_SciBERT_result_model.pt
-│   │   │   │   ├── NoSec_XLNet_background_model.pt
-│   │   │   │   ├── NoSec_XLNet_method_model.pt
-│   │   │   │   └── NoSec_XLNet_result_model.pt
-│   │   │   ├── README.md
-│   │   │   └── Sections
-│   │   │       ├── MetaClassifierSections.pth
-│   │   │       ├── SciBERT_background_model.pt
-│   │   │       ├── SciBERT_method_model.pt
-│   │   │       ├── SciBERT_result_model.pt
-│   │   │       ├── XLNet_background_model.pt
-│   │   │       ├── XLNet_method_model.pt
-│   │   │       └── XLNet_result_model.pt
+│   │   │   ├── ModelsWithoutSections
+│   │   │   │   ├── FFNN_SciCiteWoS.pth
+│   │   │   │   ├── WoS_SciBERT_bkg.pt
+│   │   │   │   ├── WoS_SciBERT_met.pt
+│   │   │   │   ├── WoS_SciBERT_res.pt
+│   │   │   │   ├── WoS_XLNet_bkg.pt
+│   │   │   │   ├── WoS_XLNet_met.pt
+│   │   │   │   └── WoS_XLNet_res.pt
+│   │   │   ├── ModelsWithSections
+│   │   │   │   ├── FFNN_SciCiteWS.pth
+│   │   │   │   ├── WS_SciBERT_bkg.pt
+│   │   │   │   ├── WS_SciBERT_met.pt
+│   │   │   │   ├── WS_SciBERT_res.pt
+│   │   │   │   ├── WS_XLNet_bkg.pt
+│   │   │   │   ├── WS_XLNet_met.pt
+│   │   │   │   └── WS_XLNet_res.pt
+│   │   │   └── README.md
 │   │   └── predictor.py
 │   ├── static
 │   │   ├── css
 │   │   │   ├── classifier.css
 │   │   │   └── index.css
 │   │   ├── img
-│   │   │   ├── graspos.svg
 │   │   │   ├── graspos_white.svg
-│   │   │   ├── oc.svg
-│   │   │   └── oc_white.svg
+│   │   │   ├── graspos.svg
+│   │   │   ├── oc_white.svg
+│   │   │   └── oc.svg
 │   │   └── js
 │   │       ├── classifier.js
 │   │       └── conf.js
@@ -102,7 +102,12 @@ project_root/
 │       ├── __init__.py
 │       ├── file_processing.py
 │       └── response_helpers.py
-└── requirements.txt
+├── clean_tree.txt
+├── README.md
+├── requirements.txt
+└── test
+    ├── ...
+    ├── ...
 ```
 
 ## Setup and Installation
@@ -214,7 +219,11 @@ Open a web browser and navigate to the [classifier website](http://test.opencita
 #### Basic Example Usage with `curl`
 
 ```bash
-curl -X POST -F "file=@$INPUT_DIR/compression_test.zip" -F "mode=M" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_XZ.zip"
+curl -X POST \
+  -F "file=@/path/to/input/compression_test.zip" \
+  -F "mode=M" \
+  "http://127.0.0.1:5000/cic/api/classify" \
+  -o "/path/to/output/Result_XZ.zip"
 ```
 
 More than this, the `/cic/api/classify` endpoint accepts **two types** of request bodies: JSON and form-based file uploads.
@@ -271,6 +280,7 @@ curl -X POST http://127.0.0.1:5000/cic/api/classify \
 ```
 
 *Supported file types include .json, .zip, .tar, .gz, .bz2, .xz, and .7z.*
+**If you pass an archive, remember to include the output file.zip and its path as `-o`**
 
 :arrow_right: **In Option 2, mode must be passed as a separate form field (not embedded inside the file).**
 

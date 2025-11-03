@@ -8,6 +8,13 @@ from cic.blueprints.cic_api import api_bp
 def create_app(src_path, prefix = "/cic"):
     app = Flask(__name__, static_url_path=prefix+'/static', static_folder="static")
 
+    # Do not sort JSON keys; preserve insertion order for frontend
+    app.config["JSON_SORT_KEYS"] = False           # Flask ≤ 2.2
+    try:
+        app.json.sort_keys = False                 # Flask 2.3+
+    except Exception:
+        pass
+
     # Configuration of SRC_PATH in the app
     app.config['SRC_PATH'] = src_path
 
