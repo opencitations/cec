@@ -366,6 +366,9 @@ JSON files to be classified must contain citation organized with the same underl
 }
 ```
 
+## Docker compose
+See this file **DOCKER_HOW_TO.md**
+
 ## Notes and Best Practices
 
 - **Data Format**: Ensure that all JSON files follow the required structure for the classifier to work properly.
