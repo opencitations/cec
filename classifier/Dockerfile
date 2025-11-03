@@ -29,8 +29,8 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 COPY ./ /app/classifier
 
 # Create directories for models (to be mounted or downloaded later)
-RUN mkdir -p /app/classifier/cic/src/models/NoSections \
-    && mkdir -p /app/classifier/cic/src/models/Sections
+RUN mkdir -p /app/classifier/cic/src/models/ModelsWithoutSections \
+    && mkdir -p /app/classifier/cic/src/models/ModelsWithSections
 
 # Set working directory to where the cic module is located
 WORKDIR /app/classifier
