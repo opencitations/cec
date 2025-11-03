@@ -72,7 +72,7 @@ class PredictorManager:
                     [
                         os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_XLNet_met.pt"), #"NoSec_XLNet_method_model.pt"),
                         os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_XLNet_bkg.pt"), #"NoSec_XLNet_background_model.pt"),
-                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WS_XLNet_res.pt") #"NoSec_XLNet_result_model.pt")
+                        os.path.join(self.SRC_PATH, "models", "ModelsWithoutSections", "WoS_XLNet_res.pt") #"NoSec_XLNet_result_model.pt")
                     ],
                 ],
                 os.path.join(self.SRC_PATH, "models", "ModelsWithSections", "FFNN_SciCiteWS.pth"), #"MetaClassifierSections.pth"),
