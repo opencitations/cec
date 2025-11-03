@@ -8,7 +8,7 @@
 
 <br />
 <div align="center">
-  <h1 align="center">Citation Intent Classifier [Current Release: Alpha]</h1>
+  <h1 align="center">Citation Intent Classifier [Release Candidate]</h1>
 </div>
 
 ## About The Project
