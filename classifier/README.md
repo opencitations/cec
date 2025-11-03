@@ -110,7 +110,9 @@ The Docker build process is fully automated via GitHub Actions (`.github/workflo
 
 Before running the container, ensure you have:
 - Docker installed on your system
-- Models directory with the following structure [ *Version 1* models required]:
+- Models directory with the following structure:
+
+*Version 1* models required:
 ```
   models/
   ├── NoSections/
@@ -118,6 +120,15 @@ Before running the container, ensure you have:
   └── Sections/
       └── [model files for classification with sections]
 ```
+*Version 2* models required:
+```
+  models/
+  ├── ModelsWithoutSections/
+  │   └── [model files for classification without sections]
+  └── ModelsWithSections/
+      └── [model files for classification with sections]
+```
+
 
 ### Option 1: Docker Run Command
 ```bash
@@ -135,44 +146,11 @@ docker run -d \
 - `-v`: Mount local models directory to container
   - Replace `/your_local_PATH/models` with your actual models path
   - Can be absolute (`/home/user/models`) or relative (`./models`)
+- `1.1.0_V1` : For Version 2 use this version -> 1.2.1_V2
 
 ### Option 2: Docker Compose
 
-Create a `docker-compose.yml` file:
-```yaml
-services:
-  cic-classifier:
-    image: opencitations/oc_cec_classifier:1.1.0_V1
-    container_name: cic-classifier
-    ports:
-      - "5000:5000"
-    volumes:
-      # Mount local models directory to container
-      # Replace with your actual models path (absolute or relative)
-      - /your_local_PATH/models:/app/classifier/cic/src/models
-    deploy:
-      resources:
-        limits:
-          memory: 32G
-        reservations:
-          memory: 16G
-    restart: unless-stopped
-```
-
-**Start the service:**
-```bash
-docker compose up -d
-```
-
-**Check logs:**
-```bash
-docker compose logs -f cic-classifier
-```
-
-**Stop the service:**
-```bash
-docker compose down
-```
+See this file **DOCKER_HOW_TO.md**
 
 
 ## Contributing
