@@ -1,12 +1,16 @@
+
 import logging
 import shutil
+import zipfile
+from datetime import datetime
+from concurrent.futures import as_completed, ProcessPoolExecutor
 from flask import Flask, render_template, send_from_directory, after_this_request, jsonify, url_for
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField, IntegerField
 from werkzeug.utils import secure_filename
 import os
 from wtforms.fields.simple import BooleanField
-from wtforms.validators import InputRequired
+from wtforms.validators import InputRequired, NumberRange
 from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER
 from cleanup import register_cleanup, clean_folder
 from utils import get_all_files_by_type, upload_manifest, process_pdf_file
@@ -20,7 +24,7 @@ class UploadFileForm(FlaskForm):
 
 
 def create_app():
-    PREFIX="/cex/"
+    PREFIX="/"
 
     # change to default as:
     # PREFIX="/"
@@ -62,11 +66,11 @@ def create_app():
             manifest = []
             if pdf_files:
                 # Parallel processing of PDF files
-                with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
+                with ProcessPoolExecutor(max_workers=max_workers) as executor:
                     future_to_pdf = {
                         executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf): pdf for pdf
                         in pdf_files}
-                    for future in concurrent.futures.as_completed(future_to_pdf):
+                    for future in as_completed(future_to_pdf):
                         pdf = future_to_pdf[future]
                         try:
                             # Collect the result (manifest_info) from each worker process

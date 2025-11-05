@@ -6,6 +6,7 @@
   "approx.": [{"ORTH": "approx.", "NORM": "approximately"}],
   "avg.": [{"ORTH": "avg.", "NORM": "average"}],
   "Avg.": [{"ORTH": "Avg.", "NORM": "Average"}],
+  "cal.": [{"ORTH": "cal.", "NORM": "cal"}],
   "ca.": [{"ORTH": "ca.", "NORM": "around"}],
   "cf.":  [{"ORTH": "cf.", "NORM": "compare"}],
   "cfr.": [{"ORTH": "cfr.", "NORM": "compare"}],
@@ -104,5 +105,6 @@
   "[": [{"ORTH": "[", "NORM": "["}],
   "]": [{"ORTH": "]", "NORM": "]"}],
   "(": [{"ORTH": "(", "NORM": "("}],
-  ")": [{"ORTH": ")", "NORM": ")"}]
+  ")": [{"ORTH": ")", "NORM": ")"}],
+  "[formula]": [{"ORTH": "[formula]", "NORM": "[formula]"}]
 }

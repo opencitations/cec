@@ -61,9 +61,12 @@ class TEIXMLtoJSONConverter:
         try:
             nlp = spacy.load("en_core_web_sm")
         except OSError:
-            print("Model not found. Installing en_core_web_trf model")
+            print("Model not found. Installing en_core_web_sm model")
             spacy.cli.download("en_core_web_sm")
             nlp = spacy.load("en_core_web_sm")
+
+        nlp.disable_pipe("parser")
+        nlp.enable_pipe("senter")
 
         nlp = self.customize_tokenizer(nlp)
         protected_text = self.protect_formulas(text, formula_map)  # Protegge le formule
@@ -72,7 +75,7 @@ class TEIXMLtoJSONConverter:
         return self.restore_formulas(sentences, formula_map)  # Ripristina le formule
 
     def build_dict_ref_citkey(self, xml, ns):
-        refs = xml.xpath(".//tei:div/tei:p/tei:ref[@type='bibr']", namespaces=ns)
+        refs = xml.xpath(".//tei:p/tei:ref[@type='bibr']", namespaces=ns)
         refs_in_notes = xml.xpath(".//tei:note//tei:ref[@type='bibr']", namespaces=ns)
         refs_in_figures = xml.xpath(
     ".//tei:figure/tei:figDesc/tei:ref[@type='bibr'] | .//tei:figure/tei:note//tei:ref[@type='bibr']",
@@ -86,12 +89,14 @@ class TEIXMLtoJSONConverter:
 
     def find_sentences_in_div(self, div, dict_to_check, ns, formula_map):
         # Extract all text from the <div> tag, including references
-        text_to_segment = div.xpath(""".//tei:p/text() | .//tei:p/tei:ref""", namespaces=ns)
+        text_to_segment = div.xpath(".//tei:p/text() | .//tei:p/tei:ref | .//tei:formula", namespaces=ns)
         processed_text = []
         for elem in text_to_segment:
             if isinstance(elem, etree._Element):  # <ref> tags
                 if elem.tag == f"{{{ns['tei']}}}ref" and elem.get("type") == "bibr" and elem in dict_to_check:
                     processed_text.append(dict_to_check[elem])
+                elif elem.tag == f"{{{ns['tei']}}}formula":
+                    processed_text.append("[formula]")
                 else:
                     if elem.text:
                         processed_text.append(elem.text)
@@ -108,21 +113,19 @@ class TEIXMLtoJSONConverter:
             return self.test_model_segmentation(cleaned_text, formula_map)
         return []
 
+    def merge_leading_citations(self, sentences):
+        for i in range(1, len(sentences)):
+            preceding_sentence = sentences[i - 1]
+            cit_el = re.search(r"^(cit\d+\s*)+", sentences[i])
+            if cit_el and preceding_sentence.endswith('.'):
+                cit_el_text = cit_el.group()
+                sentences[i - 1] = f"{preceding_sentence} {cit_el_text}".strip()
+                sentences[i] = sentences[i].replace(cit_el_text, '', 1).lstrip()
+        return sentences
+
     def find_sentences_in_div_superscripts(self, div, dict_to_check, ns, formula_map):
         sentences_to_modify = self.find_sentences_in_div(div, dict_to_check, ns, formula_map)
-        for i, sentence in enumerate(sentences_to_modify):
-            if i > 0:
-                # Check if the citation is at the start of the sentence and preceding sentence ends with a period
-                preceding_sentence = sentences_to_modify[i-1]
-                # this will match also following citations at the beginning of the sentence
-                cit_el = re.search(r"^(cit\d+\s*)+", sentence)
-                if cit_el and sentences_to_modify[i-1].endswith('.'):
-                    cit_el_text = cit_el.group()
-                    new_preceding_sentence = "%s %s" % (preceding_sentence, cit_el_text)
-                    new_sentence = sentence.replace(cit_el_text, '')
-                    sentences_to_modify[i] = new_sentence
-                    sentences_to_modify[i-1] = new_preceding_sentence.strip()
-        return sentences_to_modify
+        return self.merge_leading_citations(sentences_to_modify)
 
     # Function to replace matches
     def replace_citations(self, sentence, ref_citkey_dict):
@@ -186,7 +189,7 @@ class TEIXMLtoJSONConverter:
         else:
             return title
     
-    def find_sentences_in_figure(self, figure, dict_to_check, ns, formula_map):
+    def find_sentences_in_figure(self, figure, dict_to_check, ns, formula_map, superscripts):
         # Extract all text from the <div> tag, including references
         # Extract all text and <ref> from figDesc and note elements
         # Parse XML
@@ -219,8 +222,12 @@ class TEIXMLtoJSONConverter:
             # Remove unnecessary whitespaces inside parentheses
             cleaned_text = re.sub(r'\(\s*(.*?)\s*\)', r'(\1)', cleaned_text)
             
-            return self.test_model_segmentation(cleaned_text, formula_map)
-            
+            sentences = self.test_model_segmentation(cleaned_text, formula_map)
+            if superscripts:
+                return self.merge_leading_citations(sentences)
+            else:
+                return sentences
+
         return []
 
     def convert_to_json(self):
@@ -312,10 +319,19 @@ class TEIXMLtoJSONConverter:
             # Checks if any foot-type references in the div match the set of known notes containing citations.
             # If they match, extracts additional sentences from those notes.
             if notes_text_with_refs:
-                notes_text_in_div = [note.text for note in div.findall(".//tei:ref[@type='foot']", namespaces=ns)]
-                if notes_text_in_div:
+                notes_target_in_div = [
+                        note.get("target") for note in div.findall(".//tei:ref[@type='foot']", namespaces=ns)
+                    ] + [
+                        note.get("target") for note in div.findall(".//tei:ref[@type='footnote']", namespaces=ns)
+                    ] + [
+                        note.get("target") for note in div.findall(".//tei:ref[@type='endnote']", namespaces=ns)
+                    ] + [
+                        note.get("target") for note in div.findall(".//tei:ref[@type='end']", namespaces=ns)
+                    ]
+                if notes_target_in_div:
+                    notes_target_in_div = [el.replace("#", "") for el in notes_target_in_div]
                     for el in list(notes_text_with_refs):
-                        if el in notes_text_in_div:
+                        if el in notes_target_in_div:
                             note_with_refs = root.find(f""".//tei:note[@xml:id="{el}"]""", namespaces={
                                                         "tei": "http://www.tei-c.org/ns/1.0",
                                                         "xml": "http://www.w3.org/XML/1998/namespace"
@@ -350,25 +366,15 @@ class TEIXMLtoJSONConverter:
         sentences_from_figures = set()
         
         figs_with_refs = list()
-        seen_coords = set()
+        #seen_coords = set()
         refs_in_figs = root.findall(".//tei:figure//tei:ref[@type='bibr']", namespaces=ns)
         if refs_in_figs:
             for ref in refs_in_figs:
                 fig = ref.xpath("./ancestor::tei:figure[1]", namespaces=ns)[0]  # Move up to the <figure> parent
-                
-                # Get the coords attribute (or default to None)
-                coords = fig.get("coords")
-
-                # Skip if we've already seen this coords value
-                if coords in seen_coords:
-                    continue
-
-                # Otherwise, record it
-                seen_coords.add(coords)
                 figs_with_refs.append(fig)
         
         for fig in figs_with_refs:
-            sentences_from_figures.update(set(self.find_sentences_in_figure(fig, ref_citkey_dict, ns, formula_map)))
+            sentences_from_figures.update(set(self.find_sentences_in_figure(fig, ref_citkey_dict, ns, formula_map, superscipts)))
 
         sentences_from_figures_list = list(sentences_from_figures)
         
@@ -406,15 +412,27 @@ class TEIXMLtoJSONConverter:
                             target_attr = ref.get("target")  # Extract the target attribute
                             if target_attr:
                                 target[cit] = target_attr.replace('#', '')
-                        
+
+        # Reassign citation keys in insertion order
+        renumbered_citations = {}
+        old_to_new = {}
+        for new_index, (old_key, value) in enumerate(citations.items(), start=1):
+            new_key = f"cit{new_index}"
+            renumbered_citations[new_key] = value
+            old_to_new[old_key] = new_key  # Map old to new key for RDF
 
         # Save results to JSON
         with open(self.output_json_file, "w", encoding="utf-8") as json_file:
-            json.dump(citations, json_file, indent=2, ensure_ascii=False)
+            json.dump(renumbered_citations, json_file, indent=2, ensure_ascii=False)
 
         if self.create_rdf:
+            renumbered_target = {}
+            for old_key, new_key in old_to_new.items():
+                if old_key in target:
+                    renumbered_target[new_key] = target[old_key]
+
             with open(self.output_target_file, "w", encoding="utf-8") as target_file:
-                json.dump(target, target_file, indent=2)
+                json.dump(renumbered_target, target_file, indent=2)
 
 class TEIXMLtoRDFConverter:
 

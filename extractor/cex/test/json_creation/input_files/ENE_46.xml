@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating Code Biases for Criticality Safety Applications with Few Relevant Benchmarks</title>
+				<funder ref="#_Gshje7s">
+					<orgName type="full">U.S. Department of Energy</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Taylor &amp; Francis</publisher>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-05-20"/>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Christopher</forename><forename type="middle">M</forename><surname>Perfetti</surname></persName>
+							<email>cperfetti@unm.edu</email>
+							<idno type="ORCID">0000-0002-5230-1302</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">University of New Mexico</orgName>
+								<address>
+									<addrLine>MSC01 1120</addrLine>
+<addrLine>1 University of New Mexico</addrLine>
+<settlement>Albuquerque</settlement>
+<region>New Mexico</region>
+<postCode>87131</postCode>
+<country>USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bradley</forename><forename type="middle">T</forename><surname>Rearden</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<addrLine>P.O. Box 2008</addrLine>
+<addrLine>MS 6170</addrLine>
+<settlement>Oak Ridge</settlement>
+<region>Tennessee</region>
+<postCode>37831</postCode>
+<country>USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating Code Biases for Criticality Safety Applications with Few Relevant Benchmarks</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nuclear Science and Engineering</title>
+						<title level="j" type="abbrev">Nuclear Science and Engineering</title>
+						<idno type="ISSN">0029-5639</idno>
+						<idno type="eISSN">1943-748X</idno>
+						<imprint>
+							<publisher>Taylor &amp; Francis</publisher>
+							<biblScope unit="volume">193</biblScope>
+							<biblScope unit="issue">10</biblScope>
+							<biblScope unit="page" from="1090" to="1128"/>
+							<date type="published" when="2019-05-20"/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">996A87723C077165631FE0613027E8A1</idno>
+					<idno type="DOI">10.1080/00295639.2019.1604048</idno>
+					<note type="submission">Received December 10, 2018 Accepted for Publication April 4, 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Criticality safety</term>
+					<term>upper subcriticality limit</term>
+					<term>sensitivity analysis</term>
+					<term>Monte Carlo</term>
+					<term>computational bias estimation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Criticality safety analyses rely on the availability of relevant benchmark experiments to determine justifiable margins of subcriticality. When a target application lacks neutronically similar benchmark experiments, validation studies must provide justification to the regulator that the impact of modeling and simulation limitations is well understood for the application and often must provide additional subcritical margin to ensure safe operating conditions. This study estimated the computational bias in the critical eigenvalue for several criticality safety applications supported by only a few relevant benchmark experiments. The accuracy of the following three methods for predicting computational biases was evaluated: the Upper Subcritical Limit STATisticS (USLSTATS) trending analysis method; the Whisper nonparametric method; and TSURFER, which is based on the generalized linear least-squares technique. These methods were also applied to estimate computational biases and recommended upper subcriticality limits for several critical experiments with known biases and for several cases from a blind benchmark study. The methods are evaluated based on both the accuracy of their predicted computation bias and upper subcriticality limit estimates, as well as on the consistency of the methods' estimates, as the model parameters, covariance data libraries, and set of available benchmark data were varied. Data assimilation methods typically have not been used for criticality safety licensing activities, and this study explores a methodology to address concerns regarding the reliability of such methods in criticality safety bias prediction applications.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Criticality safety analyses rely on the availability of relevant benchmark experiments to determine justifiable safety margins of subcriticality. These margins of subcriticality exist to account for any bias that may occur in computational tools due to approximations in radiation transport methods, inaccuracies in the underlying nuclear data, or any other approximations inherent to a computational model. When a target application lacks similar benchmark experiments, validation studies must provide justification to the regulator that the impact of modeling and simulation limitations is well understood for the application. This study estimates the computational bias in the critical eigenvalue for several criticality safety applications for which only a few relevant benchmark experiments are available.</p><p>The degree of similarity between benchmark experiments and a target application can be assessed by sensitivity and uncertainty analysis methods. The sensitivity coefficient for a response-here the critical eigenvalue k to an input parameter Σ x -is defined as</p><formula xml:id="formula_0">S k;Σ x ¼ qk = k qΣ x = Σ x :<label>(1)</label></formula><p>These sensitivity coefficients describe how changes or uncertainties in the input parameters affect the eigenvalue of a system. These sensitivities can account for uncertainty in the mass, density, or geometry of materials in an integral experiment, and in the field of criticality safety, these uncertain parameters are typically nuclear data parameters (i.e., nuclear cross sections, the energy distribution of fission neutrons, etc.). Once the sensitivity coefficients are known for a given application and given benchmark experiment, the sandwich equation, given in Eq. ( <ref type="formula" target="#formula_1">2</ref>), can be applied to estimate the amount of nuclear data-induced uncertainty σ 2 k 1 ;k 2 that is shared between the benchmark experiment and the application eigenvalues (k 1 and k 2 , respectively):</p><formula xml:id="formula_1">σ 2 k 1 ; k 2 ¼ S k 1 Σ x Á Cov Σ x ; Σ y Á S T k 2 Σ y ;<label>(2)</label></formula><p>where Cov Σ x ;Σ y is the matrix or nuclear cross-section covariance (i.e., uncertainty) data. Having obtained the uncertainty shared between the benchmark and application systems, the similarity coefficient c k can be calculated for the two systems <ref type="bibr" target="#b0">1</ref> :</p><formula xml:id="formula_2">c k ¼ σ 2 k 1 ;k 2 σ k 1 σ k 2 ;<label>(3)</label></formula><p>where σ k 1 and σ k 2 are the data-induced uncertainties in the eigenvalues of systems 1 and 2, respectively. This c k coefficient is analogous to a Pearson coefficient of correlation <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> and describes the fraction of nuclear data-induced uncertainty that is shared between the benchmark experiment and the application. Criticality safety analyses typically use high-fidelity Monte Carlo radiation transport simulations to estimate the critical eigenvalue of a system. Because of the high fidelity inherent to these neutron transport methods, any bias or disagreement encountered between the computed and experimental eigenvalues is typically attributed to errors or deficiencies in the underlying nuclear data. Therefore, a benchmark experiment that shares the same sources of nuclear data-induced uncertainty with an application is likely to encounter a computational bias in its eigenvalue that is similar to the bias in the application. Thus, examining c k similarity coefficients provides a defensible approach for identifying benchmark experiments that can be used to estimate the computation bias in (and thus validate) a target application. <ref type="bibr" target="#b0">1</ref></p><p>Studies by Broadhead et al. and Scaglione et al. suggest that an application should have at least 20 experiments with ck values greater than 0.80 (Refs. <ref type="bibr" target="#b0">1</ref> and <ref type="bibr" target="#b3">4</ref>); guidance from the U.S. Nuclear Regulatory Commission recommends that criticality safety analysts have access to multiple experiments with c k values in excess of 0.90 or 0.95 (Ref. <ref type="bibr" target="#b4">5</ref>). If a sufficient number of similar experiments do not exist, the licensee must justify that the most important sources of uncertainty have been accounted for in the application and/or provide additional margin of subcriticality (MOS).</p><p>The nuclear data covariance library available in the SCALE code system from Oak Ridge National Laboratory (ORNL) has become an industry standard source of covariance data for sensitivity and uncertainty analysis. <ref type="bibr" target="#b5">6</ref> An updated version of this data library was included in the recent SCALE 6.2 release, and although ORNL nuclear data scientists have greater confidence in the updated nuclear data uncertainty estimates, this new library has also reduced the c k values between applications and benchmarks for burnup credit systems. <ref type="bibr" target="#b6">7</ref> Although some systems actually experienced an increase in c k values using the updated SCALE 6.2 covariance data, some systems that previously produced c k values indicating a significant degree of similarity (i.e., c k &gt; 0:80) are now being found to be less similar (e.g., c k &lt; 0:70). These changes raise questions as to whether or not the previous criticality safety guidance of c k &gt; 0:80 was valid, whether the new covariance data are preferable to the lower-quality but application-tested legacy data, or whether it is sustainable to develop best practices for validation that depend on nuclear data that are subject to change.</p><p>This study estimates computational biases and upper subcritical limits (USLs) for several application systems where few relevant benchmark experiments are available. Three methods for estimating computational biases were investigated in the scope of this study:</p><p>1. trending analysis methods using the similarity coefficient as the independent variable <ref type="bibr" target="#b7">8</ref> 2. the nonparametric, extreme value theory Whisper method <ref type="bibr" target="#b8">9</ref> 3. the data assimilation-based TSURFER method. <ref type="bibr" target="#b9">10</ref> Within the SCALE code system, <ref type="bibr" target="#b5">6</ref> trending analysis is implemented in the Upper Subcritical Limit STATisticS (USLSTATS) code, and the generalized linear leastsquares (GLLS) data assimilation method is implemented in the TSURFER code. An independent implementation of the Whisper methodology was developed to obtain Whisper method results, as discussed in Sec. V. The application cases explored in this study include 15 cases with unknown biases from the Uncertainty Analysis for Criticality Safety Assessment (UACSA) Phase V benchmark study. <ref type="bibr" target="#b10">11</ref> Because it is difficult to assess the performance of these validation methods using only blind benchmarks, ten application cases with known biases were also examined in this study. For the blind benchmark cases, emphasis is placed on methods that produce consistent bias estimates when various subsets of benchmark experiments are considered and when different covariance data libraries are used. Finally, this study addresses existing concerns on whether data assimilation methods can produce reliable computational bias and USL estimates. In particular, this study explores approaches to improve the rigor of data assimilation methods by addressing concerns regarding the ability of data assimilation methods to 1. mitigate the impact of inconsistent or erroneous experimental benchmark data</p><p>2. treat correlations between benchmark experiment evaluations</p><p>3. produce consistent bias estimates given an evolving library of nuclear data uncertainties</p><p>4. converge to a unique (and not significantly underdetermined) solution</p><p>5. estimate 95/95 tolerance intervals for USLs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. APPLICATION CASE AND BENCHMARK EXPERIMENT SPECIFICATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II.A. Application Case Specifications</head><p>The application systems examined in this study are intended to cover a range of material compositions and neutron spectra and include 4 cases from the UACSA Phase I benchmark study <ref type="bibr" target="#b11">12</ref> with known computational biases; 6 additional cases from the "International Handbook of Evaluated Criticality Safety Benchmark Experiments" [International Criticality Safety Benchmark Evaluation Project (ICSBEP) Handbook] <ref type="bibr" target="#b12">13</ref> with known computational biases; and 15 cases from the more recent UACSA Phase V specifications, <ref type="bibr" target="#b10">11</ref> which do not have known biases. The Phase I applications are all benchmarks with known computational biases and are in the ICSBEP Handbook. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> The known benchmark cases were selected to include experiments in which the ratios of calculated and experimental (C/E) eigenvalues (C/E values) disagree either the most or the least when compared to the average C/E values from experiments with similar characteristics, as described in Table <ref type="table" target="#tab_0">I</ref>. Analyzing cases with the most and the least disagreement in C/E values evaluates whether the bias prediction methods perform well for cases with average and extreme computational biases, respectively.</p><p>The 15 UACSA Phase V application cases are spheres of mixed oxide (MOX) powder that contain some moisture and are reflected by a 20-cm-thick water reflector. The Pu-U ratio in the MOX powder varies across the application cases, as does the isotopic composition of the uranium and plutonium. Complete experiment specifications can be found in Ref. <ref type="bibr" target="#b10">11</ref> for these cases and are summarized in Table <ref type="table" target="#tab_0">II</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II.B. Reference Benchmark Experiments</head><p>A total of 281 benchmark cases spanning a variety of neutron spectra and material compositions was considered for this validation study. These benchmark cases were primarily selected from ORNL's VALID library of quality assurance (QA) pedigree input decks, <ref type="bibr" target="#b13">14</ref> although some inputs were developed from the non-QA inputs distributed with the ICSBEP Handbook evaluations. <ref type="bibr" target="#b12">13</ref> Additionally, this study considered 11 cases from the Bol'shoy Fizicheskiy Stand (Russian transcription: Big Physical Facility) (BFS)-MOX series of experiments <ref type="bibr" target="#b14">15</ref> both because highfidelity experimental covariance information is available for these cases (as discussed in Sec. VI.B.3) and because these cases were designed to produce high-similarity coefficients for MOX applications similar to those in the UACSA Phase V study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II.C. Modeling and Simulation Tools</head><p>All Monte Carlo simulations were performed using the KENO Monte Carlo code in the SCALE code system, and all sensitivity coefficient calculations were performed using the continuous-energy (CE) TSUNAMI-3D code, also in SCALE. The CE TSUNAMI-3D simulations generally used the Iterated Fission Probability (IFP) method <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> with ten latent generations, although several cases produced a substantial memory footprint when using the IFP method and were instead simulated using CE TSUNAMI's CLUTCH method. <ref type="bibr" target="#b16">17</ref> The choice of sensitivity method should not affect the accuracy of the sensitivity coefficients; the main difference between the methods is that it was easier to generate inputs for the IFP cases, although they produced significantly larger memory footprints than analogous CLUTCH calculations. All simulations were performed using ENDF/B-VII.1 cross sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II.D. Identifying Relevant Benchmark Experiments</head><p>The first phase of the UACSA Phase V benchmark study involved identifying which of the potential benchmark experiments shared a high degree of similarity with the application cases. This was accomplished by calculating c k similarity coefficients with the TSUNAMI-IP code in the SCALE code system. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b5">6</ref> Current licensing guidance recommends that licensees identify at least 20 benchmark experiments with c k values of 0.80 or higher; ideally, cases should offer c k values of 0.90 or higher. Figure <ref type="figure" target="#fig_0">1</ref> shows the c k values, ordered from smallest to largest, that were computed for the library of 281 benchmark experiments using both the SCALE 6.0 44-group cross-section covariance data library and the newly released SCALE 6.2 56-group covariance data <ref type="bibr" target="#b5">6</ref> ; the red lines in Fig. <ref type="figure" target="#fig_0">1</ref> represent the minimum c k for which an experiment is generally considered representative (0.80). Figure <ref type="figure" target="#fig_0">1</ref> shows that very few of the benchmark experiments produced c k values greater than 0.80 and that even fewer produced c k values greater than 0.90. As shown in Fig. <ref type="figure" target="#fig_1">2</ref>, only two of the application cases resulted in a sufficient number of similar experiments to satisfy licensing criteria, and very few benchmark experiments were identified as highly similar (c k &gt; 0.90) or very highly similar (c k &gt; 0.95). Figure <ref type="figure" target="#fig_1">2</ref> also highlights the concerns with moving to the 56-group covariance data library for calculating similarity, as none of the application cases found a sufficient number of similar benchmark experiments when using 56-group covariance data. Furthermore, the application that produced the highest number of acceptably similar benchmark experiments identified only ten relevant experiments, all with similarity coefficients less than 0.90.</p><p>The difficulty encountered in validating these application cases is exacerbated because several of the benchmark experiments that were found to be sufficiently similar may not be reliable experiments. Although many of the similar experiments originated from the BFS-MOX experiment series, the other main source of similar experiments was the plutonium composition, mixed-spectrum experiments PU-COMP-MIXED-001 and PU-COMP-MIXED-002 (herein referred to as the PCM cases, for convenience). These PCM experiments are of questionable quality because they produce an unusually large range of C/E values (between 0.97 and 1.04). It is unusual for critical experiments to produce C/E values that are so far from 1.0, which suggests that these experimental evaluations may include some errors. In fact, methods for detecting inconsistent or erroneous experiments (discussed in more detail in Sec. VI.B.1) have consistently suggested that the PCM experiments should not be included in validation studies. Omitting the PCM cases from these studies significantly reduces the number of relevant experiments available for the unknown bias application  cases. Figure <ref type="figure" target="#fig_2">3</ref> shows that omitting the PCM cases from the similarity assessment results in none of the application cases finding a suitable number of relevant benchmark experiments for validation. In fact, omitting the PCM cases causes 11 of the 15 application cases to produce no suitably similar benchmarks when using 56-group covariance data. This lack of relevant benchmark experiments highlights the challenge of validating these difficult application cases, especially when using the new 56-group covariance data library.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. BIAS PREDICTION METHODOLOGIES</head><p>Having noted the difficulty in performing validation for the UACSA Phase V benchmark application cases and having identified several potential benchmark experiments for performing validation, this study next sought to estimate computational biases and determine justifiable USLs for the application cases. The computational bias β, or simply "bias" for short, was defined in this study as the difference between the simulation-predicted calc and experimental exp eigenvalues for a system:</p><formula xml:id="formula_3">β ¼ k calc À k exp :<label>(4)</label></formula><p>This definition implies that a positive bias is conservative, as it causes modeling and simulation tools to overestimate the true eigenvalue for that system, and that a negative bias causes such tools to underestimate the system eigenvalue.</p><p>The USL is defined as the maximum predicted k eff for which there is reasonable assurance that a system will be subcritical within an acceptable margin given the known biases and uncertainties associated with the modeling techniques, codes, and data used to calculate k eff (Ref. <ref type="bibr" target="#b7">8</ref>). The USL is commonly defined as</p><formula xml:id="formula_4">USL ¼ 1 À Δk margin þ e β À Δβ ;<label>(5)</label></formula><p>where Δβ is the uncertainty in the bias and Δk margin is some additional administrative margin of error. <ref type="bibr" target="#b7">8</ref> Because a positive bias may lead to a USL that is greater than one, systems that produce a positive bias often assume a bias of zero for additional conservatism in USL estimates; that is,</p><formula xml:id="formula_5">e β ¼ min 0; β f g :<label>(6)</label></formula><p>Because Δk margin depends on the facility, desired level of conservatism, and several other potentially arbitrary factors, it was assumed to equal zero throughout this study; typical administrative subcriticality margins are generally between 0.02 and 0.05. The methods discussed in this study sometimes refer to a MOS, which is simply equal to 1 minus the USL for a system:</p><formula xml:id="formula_6">MOS ¼ 1 À USL :<label>(7)</label></formula><p>Having defined the bias and USL terminology, we will now discuss several approaches for estimating computational biases and will compare their effectiveness in determining biases for the known and unknown bias benchmark application cases. Because the UACSA Phase V benchmark exercise is a blind study, preference is given to methods that produce the most consistent bias and USL estimates when using different subsets of benchmark experiments and different covariance data libraries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. USLSTATS TRENDING METHOD ANALYSIS</head><p>USLSTATS is a generic parameter trending analysis code developed at ORNL (Refs. <ref type="bibr" target="#b5">6</ref> and <ref type="bibr" target="#b7">8</ref>) that uses the results of benchmark experiments to estimate the bias present in modeling and simulation tools for application cases. To perform USLSTATS simulations, a user enters values for a trending parameter for each benchmark experiment, and USLSTATS then develops a linear regression fit and confidence intervals for the benchmark experiment C/E values given the provided data. USLSTATS extrapolates this trend to estimate the bias and USL for application cases.</p><p>The c k similarity coefficients, commonly used as trending parameters in USLSTATS, are the only trending parameters examined in this study (using both 44-group and 56-group covariance data). When trending on c k values, USLSTATS estimates quantities by extrapolating the C/E regression fit to a value of c k ¼ 1. This extrapolation is chosen to estimate the computation bias because assuming that errors in the nuclear data predominantly drive computational bias, any benchmark that shares all sources of neutronic uncertainty with an application would be expected to experience the same computational bias.</p><p>Before the advent of TSUNAMI sensitivity analysis methods, trending analysis bias estimation methods typically drew trends from any model parameter that adequately described the physics of the application and produced a noticeable trend, such as the energy of the average lethargy of neutrons causing fission, a system's fuel-to-moderator ratio, the ratio of the number of uranium atoms to the number of uranium and plutonium atoms in a system, the lattice pitch of fuel assemblies, etc. Since the advent of TSUNAMI, c k is considered by some to be a highly representative parameter for estimating computational biases using trending methods. Examining c k considers to which nuclear cross-section data an application case is most sensitive, which cross-section data contain the highest degree of uncertainty, and how much of the nuclear data-induced uncertainty is shared between the target application and the library of benchmark experiments. However, these trending methods generally rely on the availability of a significant number of sufficiently similar benchmark experiments to accurately predict the computational bias for an application.</p><p>Figure <ref type="figure" target="#fig_3">4</ref> shows a sample USLSTATS bias estimation trend produced with benchmark experiment c k and C/E values. Having developed a trend and estimated the C/E for the target application, the relative bias for this application is estimated as</p><formula xml:id="formula_7">Relative Bias ¼ C=E ( Þ extrapolated À 1 :<label>(8)</label></formula><p>The absolute bias β for this case is then simply the relative bias multiplied by the extrapolated experimental eigenvalue estimate.</p><p>The USLSTATS method estimates the bias uncertainty term Δβ in Eq. ( <ref type="formula" target="#formula_4">5</ref>) using the confidence interval W . USLSTATS has two main methods for estimating this confidence interval: the "confidence band with administrative margin" approach, and the "single-sided uniform width closed interval" approach. Because the single-sided approach cannot extrapolate its confidence interval to a value outside of the c k values provided in the benchmark data, it cannot be used for developing trends on c k values and is not discussed in this study. This confidence interval is determined by the relationship <ref type="bibr" target="#b7">8</ref></p><formula xml:id="formula_8">W ¼ max w x min ( Þ; w x max ( Þ f g ;<label>(9)</label></formula><p>where</p><formula xml:id="formula_9">w x ( Þ ¼ t 1Àγ 1 s p 1 þ 1 n þ x À x ( Þ 2 P i¼1;n x i À x ( Þ 2 " # 1 2 ;<label>(10)</label></formula><p>and where n = number of benchmark experiments used in the linear fit t 1Àγ 1 = Student's t-distribution statistics for a 1 À γ 1 confidence interval with n À 2 degrees of freedom x = mean value of parameter x s p = pooled standard deviation for the set of benchmark experiments.</p><p>This pooled standard deviation is obtained by combining the variance of the regression fit s 2 k x ( Þ with s 2 w , the combination of the experimental uncertainties, and the average Monte Carlo variance of the benchmark experiments, where</p><formula xml:id="formula_10">s 2 p ¼ s 2 k x ( Þ þ s 2 w<label>(11)</label></formula><p>and</p><formula xml:id="formula_11">s 2 w ¼ 1 n X i¼1;n σ 2 i :<label>(12)</label></formula><p>Using a pooled variance estimate in Eq. ( <ref type="formula" target="#formula_9">10</ref>) accounts for both the uncertainty present in each individual benchmark data C/E estimate and the spread of C/E values among the benchmark data points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV.A. USLSTATS Results: Known Bias Cases</head><p>To examine the effectiveness of USLSTATS trending methods for predicting the bias of the application cases, a library of 281 sensitivity profiles was developed from various critical experiments that used different materials, spectral conditions, configurations, and reflector materials. These sensitivity profiles, generated with the CE-TSUNAMI-3D code and ENDF-BVII.1 cross sections, were used to generate c k values on which USLSTATS trends were developed. As shown in Fig. <ref type="figure" target="#fig_0">1</ref>, these trends generally consisted of clusters of data points with similar ck values. In general, these cluster groups occurred for ck values of ck &lt; 0.20, 0.20 &lt; ck &lt; 0.65, and ck &gt; 0.65; when using 56-group covariance data, the ck threshold of 0.65 shifted to ck &gt; 0.55.</p><p>It is challenging to know which experiments to include and exclude in a bias prediction trending analysis. Including low-similarity experiments is frequently not effective because they likely share little similarity to the application system and significantly influence the bias calculated via the linear regression trend. Previous studies have suggested that trending analysis methods should only include experiments with c k &gt; 0:80, but this basis for comparison has come into question given the recent changes to nuclear covariance data that reduce the availability of significantly similar experiments for some applications. <ref type="bibr" target="#b6">7</ref></p><p>To address these considerations, this study performed USLSTATS calculations using several different c k thresholds for the experiments included in the trend. Additionally, these calculations were performed using the legacy SCALE 44-group covariance data and the new SCALE 6.2 56-group covariance data to examine the impact of these covariance data changes on the reliability and consistency of USLSTATS predictions.</p><p>Because USLSTATS contains no inherent mechanism for identifying inconsistent or erroneous experiments (this task is left to the criticality safety analyst), the USLSTATS analysis in this study was performed both with and without the possibly incorrect PCM experiments to examine the impact of including these potentially erroneous data. As discussed later, the TSURFER data assimilation methods identified the PCM cases as being inconsistent and excluded them from the analysis.</p><p>Table <ref type="table" target="#tab_2">III</ref> compares the relative biases, in units of percent-mil (pcm), that were predicted for the known bias applications by USLSTATS using c k values generated with 56-group covariance data and no PCM cases. Table <ref type="table" target="#tab_2">III</ref> also lists the number of benchmark experiment cases that satisfied the c k threshold for developing each USLSTATS trend and "σ" values that describe by how many standard deviations the predicted biases disagreed with the reference, known biases. These standard deviations were computed using only the uncertainty in the reference relative bias and did not consider the uncertainty in the USLSTATS linear regression fits. Although not representative of the true disagreement between the bias estimates, the USLSTATS regression fit uncertainties were ignored because linear regressions that produce a poor fit (e.g., because of an insufficient number of relevant experiment cases) generally produce a large standard deviation for the predicted bias. Propagating this larger standard deviation to the benchmark bias comparison will reduce the number of standard deviations by which the prediction disagrees from the reference, making a poorer fit seem more accurate.</p><p>Table <ref type="table" target="#tab_2">III</ref> also includes the best results from the TSURFER relative bias calculations, which are discussed in Sec. VI.C. Table <ref type="table" target="#tab_2">III</ref> estimates the average disagreement between the benchmark and computed bias estimates by taking the root-mean-square (rms) average of the number of standard deviations of disagreement produced for each application case.</p><p>Figure <ref type="figure" target="#fig_4">5</ref> shows the relative bias estimates that were produced by USLSTATS using various c k thresholds, covariance data, and experiment selections.</p><p>Table <ref type="table" target="#tab_2">III</ref> shows that the USLSTATS trending method was generally effective at predicting computational biases when including cases with c k &gt; 0:80. This trend was not true when a sufficient number of experimental benchmarks failed to meet this c k threshold, such as when an application contained very few similar experiments (i.e., IEU-MET-FAST-007-001) or when the c k threshold was raised high enough to exclude most experiments (i.e., several of the c k &gt; 0:95 cases).</p><p>USLSTATS produced accurate biases for most of the applications regardless of the c k threshold selected, and a threshold of c k &gt; 0:80 was needed to produce accurate bias estimates for only three cases: HEU-MET-FAST -086-005, LEU-COMP-THERM-010-001, and PU-SOL-THERM-011-003. As discussed in Table <ref type="table" target="#tab_0">I</ref>, these three applications were selected as outlier cases, meaning that their C/E values showed the most disagreement compared to the average C/E values for experiments in the HEU-MET-FAST, LEU-COMP-THERM, and PU-SOL-THERM series. These results suggest that c k thresholds may be necessary only for outlier cases. Unfortunately, applications with unknown biases will not have the luxury of knowing whether the case is an outlier a priori.</p><p>It is also not immediately clear whether the disagreement produced for the outlier cases occurs because higher-similarity experiments are needed to draw a trend for these cases or because the experimental description for these cases contains some error. For example, in the PU-SOL-THERM-011-003 case, the USLSTATS and TSURFER results generally agree on a much smaller bias than is given by the reference case, disagreeing with the reference by about 2σ in all cases. Excluding the PCM cases has no effect on the computed bias for the HEU-MET-FAST and LEU-COMP-THERM application cases, but it has some small impact on the predicted biases for the PU-MET-FAST cases, as shown in Fig. <ref type="figure" target="#fig_4">5</ref>. The PCM cases produced small-similarity coefficients (generally c k &lt; 0:20) for the HEU-MET-FAST and LEU-COMP-THERM cases and substantially larger coefficients for the PU-SOL-THERM cases (c k e 0:90). In all cases the PU-SOL-THERM applications contained a large enough number of experiment cases (at least 49) with c k &gt; 0:95 to mostly offset the impact of the inconsistent PCM experiments. On average, the bias estimates for the PU-SOL-THERM cases differed from the reference biases by 218 pcm (0.22σ), which is not a meaningful difference compared to the uncertainty in the computational bias.</p><p>On average, the USLSTATS 44-group results differed from the 56-group results by 123 pcm (1.09σ) when including the PCM experiments and by 111 pcm (0.94σ) when excluding the PCM experiments. This disagreement is somewhat significant, but it is again difficult to interpret its true impact due to the significant degree of uncertainty in the reference computational biases.</p><p>The sensitivity of the USLSTATS bias estimates appears to depend on the number of high-similarity experiments included in the trending analysis. The PU-SOL-THERM cases included at least 49 highsimilarity (c k &gt; 0:95Þ experiments and saw relatively stable fluctuations in bias predictions using various c k thresholds. On the other hand, the HEU-MET-FAST, IEU-MET-FAST, and LEU-COMP-THERM cases included fewer higher-similarity experiments and produced bias predictions that varied significantly in magnitude (and sign) for different c k thresholds.</p><p>Because of the relatively large uncertainty in the reference bias estimates, it was not clear which USLSTATS trend produced the most accurate bias estimate. Multiple trends produce good bias estimates, but the trend that used a threshold of c k &gt; 0:80, 56-group covariance data, and no PCM experiments was selected as the best USLSTATS trend. Several other trends produced very similar, but slightly smaller, disagreement with the reference results, but the 56-group covariance data were selected because they comprise the most recent and highest-fidelity covariance data library in SCALE, and the c k &gt; 0:80 threshold was selected to allow more experiment cases to be included than for the c k &gt; 0:90 threshold.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV.B. USLSTATS Results: UACSA Phase V Unknown Bias Cases</head><p>Table <ref type="table" target="#tab_3">IV</ref> gives the results of the USLSTATS relative bias predictions for the UACSA Phase V applications using 56-group covariance data and no PCM experiments. It is difficult to comment on the accuracy of the UACSA Phase V bias predictions because the true bias for these applications is unknown, but the USLSTATS bias predictions were observed to vary significantly as a function of the c k threshold. This is likely due to the very small number of high-similarity experiments available for the UACSA Phase V application cases. In fact, none of the benchmark experiments produced a c k greater than 0.95 using 56-group covariance data, and very few cases produced c k &gt; 0:80 (the typical threshold for including experiments in a USLSTATS calculation). This lack of similar experiments is especially concerning because several of the benchmark experiments (the BFS cases) were performed specifically to validate the wet MOX powder cases in the UACSA Phase V benchmark study. <ref type="bibr" target="#b14">15</ref> Moving to the lower-fidelity, 44-group covariance data results in a much higher number of significantly similar experiments: On average, the 44-group covariance data produce ten more experiments with c k &gt; 0:80 than the 56-group covariance data (five more cases if the PCM cases are excluded). Furthermore, the 44-group covariance data produce on average 128 more cases with c k &gt; 0:65 than the 56-group covariance data produce with their lower threshold of c k &gt; 0:55 (this number changes to 107 cases when excluding the PCM cases).</p><p>The lack of high-similarity benchmark experiments is also reflected by the significant variance in the USLSTATS relative bias estimates in Fig. <ref type="figure" target="#fig_5">6</ref>. The 44-group covariance data cases showed somewhat less variability than the 56-group cases, likely due to the higher c k values produced by the 44-group covariance data. Except for several cases (mostly using 44-group covariance data), there is little evidence to suggest that a sufficient number of highly similar experiments are available for the USLSTATS trends to produce consistent bias estimates for the UACSA Phase V application cases, and we thus cannot conclude that the USLSTATS trending methods produce accurate bias estimates for the UACSA Phase V application cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV.C. USLSTATS USL Estimates</head><p>Figures <ref type="figure" target="#fig_6">7</ref> and <ref type="figure" target="#fig_7">8</ref> show the USL estimates produced by the USLSTATS method for the known and unknown bias cases, respectively. As expected, cases with fewer similar experiments (and thus larger bias uncertainties) in Figs. <ref type="figure" target="#fig_4">5</ref> and <ref type="figure" target="#fig_5">6</ref> produced larger, more conservative USL estimates. Although the bias estimates in Figs. <ref type="figure" target="#fig_6">7</ref> and <ref type="figure" target="#fig_7">8</ref> showed a great deal of variability, the USLSTATS USL estimates were a great deal more consistent across simulations with different c k thresholds, different covariance data, and different subsets of benchmark experiments. The USL estimates were especially consistent for the application cases where a substantial number of highsimilarity benchmark experiments existed [i.e., the PU-SOL-THERM (plutonium solution with thermal spectra) cases, particularly with 44-group covariance data] and showed more variation for cases with fewer significantly similar experiments [i.e., the HEU-MET-FAST (fast highly enriched fast uranium metal systems), IEU-MET-FAST (intermediate-enrichment fast metal systems), LEU-COMP-THERM (lowenriched uranium thermal spectrum), and unknown bias cases]. A good deal of this consistency may not be due to strength in the USLSTATS method but rather due to how the relative bias estimates were analyzed. This analysis expressed the bias estimates in terms of pcm, which necessitated multiplying them by a factor of 100 000, and strongly highlighted any difference in the bias estimates. A 1000-pcm difference in bias estimates would certainly be noticeable in Figs. <ref type="figure" target="#fig_4">5</ref> and <ref type="figure" target="#fig_5">6</ref> but is masked to a greater degree in Figs. <ref type="figure" target="#fig_6">7</ref> and <ref type="figure" target="#fig_7">8</ref> (although this difference is still very significant for criticality safety concerns). Several application cases produced much smaller USL estimates than the USLs that were reported for most cases, but these cases generally included very few benchmark experiments in their USLSTATS calculations. Developing and including more highsimilarity experiments may raise the USLs for these cases more closely to the USLs produced for most of the other cases.</p><p>Overall, the USL estimates were less sensitive to the choice of USLSTATS simulation parameters than the computational bias estimates. This should instill confidence in the ability of these methods to estimate USLs because user value judgments do not appear to significantly affect the USL values, particularly when a high number of highsimilarity benchmark experiments are available. On the other hand, it is tempting to interpret the consistency of the USL estimates as justification to set a universal USL of 0.97, ignoring the possibility that the bias and USL estimates could change significantly for other application cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. WHISPER NONPARAMETRIC METHOD ANALYSIS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V.A. Whisper Methodology</head><p>The Whisper method, originally developed by Kiedrowski et al., is a weighted, nonparametric, extreme value theory method for estimating computational biases and USLs (Ref. <ref type="bibr" target="#b8">9</ref>). When performing its analysis, the Whisper method assigns each benchmark experiment a weight that is related to the experiment's degree of similarity to a target application, which is computed as</p><formula xml:id="formula_12">w exp: ¼ max 0; c k;exp: À c k;acc: À Á c k;max: À c k;acc: À Á ( ) ;<label>(13)</label></formula><p>where ck,exp: = ck value for a benchmark experiment ck,max: = maximum ck from all available experiments ck,acc: = smallest ck that has been deemed acceptable for including a benchmark in the validation analysis.</p><p>Benchmarks can have a maximum weight of one. As described in detail by Kiedrowski et al., these weights can then be used to estimate the computational bias by estimating the mean of a weighted, extreme value probability density function <ref type="bibr" target="#b8">9</ref> (pdf). Making use of this extreme value pdf provides an intentional degree of conservatism when estimating the computational bias because this bias estimate is dictated predominantly by the benchmark experiments with the most conservative bias estimates. Thus, the Whisper method is not intended to estimate the true bias in the computational methods in the same way as the USLSTATS and TSURFER methods but rather the maximum likely conservative bias.</p><p>Despite this distinct interpretation of the computational bias, the Whisper method provides several advantages over the USLSTATS trending approach. For example, the USLSTATS method assumes that the benchmark C/E values are normally distributed around the residuals of the computational bias trend line. Benchmark data that do not follow such a normal distribution violates the USLSTATS assumptions for calculating its confidence interval and is a condition that must be monitored during USLSTATS simulations. Although Whisper assumes that the C/E estimate and uncertainty follow a normal distribution for each individual benchmark experiment, it makes no assumptions regarding the distribution of the collective benchmark data when estimating computational biases and prediction intervals.</p><p>Another advantage provided by the Whisper method is that adding experiments will generally only make the method more conservative. Because the extreme value pdf is driven by the most conservative data points, including experiments that are less extreme than the most conservative cases generally does not affect the extreme value pdf or the Whisper bias estimates. In fact, adding additional experiments cannot directly produce a less conservative bias estimate and can only do so indirectly by changing the weights assigned to the experiments that contribute predominantly to the bias estimate.</p><p>As mentioned above, Whisper estimates the most likely conservative bias in a target application instead of the true computational bias suggested by the benchmark experiment data. Although this extra degree of conservatism is likely useful for criticality safety validation, this distinction complicates comparing the accuracy of Whisper bias estimates with those produced by USLSTATS, TSURFER, or the true reference bias estimates. Thus, poor agreement with reference relative bias data does not indicate inaccuracy in the Whisper method.</p><p>Selecting the minimum acceptable c k for including benchmark experiments is a potential difficulty that Whisper shares with the USLSTATS approach. As with the USLSTATS results, this study examines the impact that changing c k;acc: has on the results of Whisper bias and USL estimates by performing Whisper calculations using several different c k thresholds.</p><p>This study also examined an approach for selecting the number of benchmark experiments that has been adopted by the Whisper development team at Los Alamos National Laboratory <ref type="bibr" target="#b17">18</ref> (LANL). Kiedrowski et al. propose including benchmark experiments until the cumulative weight of all experiments exceeds some minimum value w req :</p><formula xml:id="formula_13">w req ¼ w min þ w penalty Â 1 À c k;max À Á ;<label>(14)</label></formula><p>where w min and w penalty have been determined empirically to equal 25 and 100, respectively. <ref type="bibr" target="#b8">9</ref> The approach adopted by the Whisper development team is to select c k;acc: by lowering its value until enough experiments can be included to provide a cumulative weight of at least w req . This approach is designed to include more benchmark experiments (and thus produce more conservative computational bias estimates) for applications that are not exceptionally similar to any available benchmark experiments. All Whisper calculations presented in this study were performed using an independent implementation of the Whisper methodology in a C++ code.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V.B. Whisper Results: Known Bias Cases</head><p>Table <ref type="table" target="#tab_4">V</ref> and Fig. <ref type="figure" target="#fig_8">9</ref> show the relative bias estimates produced by the Whisper implementation. Table <ref type="table" target="#tab_4">V</ref> gives the bias estimates (in red), with the cutoff weight ck,acc, which is indicated by italic typeface, that was determined using the LANL Whisper development team's c k threshold selection method.</p><p>The relative bias estimates produced by Whisper disagree significantly with the reference computational biases, but as discussed in Sec. V.A, the Whisper bias estimates are meant to represent the most likely conservative estimate of the computational bias and not the most likely estimate of the computational bias. As also discussed previously, lowering the c k threshold and including more benchmark experiments in the Whisper calculation were observed to always produce a more conservative bias estimate than when using fewer experiments.</p><p>In some cases, the LANL method for selecting the c k threshold produced a less conservative (i.e., less negative) bias estimate than the predetermined c k threshold approaches; in other cases, it produced a more conservative bias estimate. The LANL method produced less conservative bias estimates for application cases with a larger number of highly similar experiments (i.e., the PU-SOL-THERM cases) and produced more conservative bias estimates for cases with few highly similar experiments (the HEU-MET-FAST cases). In both cases this behavior is desirable and speaks to the strength of this approach, as one would hope for a more conservative bias estimate for application cases with few similar experiments and for less conservatism when a substantial number of highly similar benchmark experiments are available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V.C. Whisper Results: UACSA Phase V Unknown Bias Cases</head><p>Figure <ref type="figure" target="#fig_9">10</ref> shows the relative bias estimates produced by the Whisper implementation for the UACSA Phase V unknown bias application cases. The Whisper bias estimates were generally more consistent than those produced by the USLSTATS method, especially for application cases with a greater number of highly similar experiments (i.e., the PU-SOL-THERM cases), and were very consistent when different covariance data libraries or sets of benchmark experiments were used. The main factor that influenced the Whisper bias estimates was the selection of the c k threshold, and the bias predictions varied significantly for the cases with higher c k thresholds and fewer available experiments. The LANL approach for setting this threshold generally produced bias estimates that were similar in magnitude for all application cases, all covariance data libraries, and all sets of benchmark experiments.</p><p>In almost all cases these Whisper bias estimates were similar in magnitude to the most conservative bias that was observed in the library of benchmark experiments; in fact, one could produce computational bias estimates that are not substantially different from those produced by the Whisper method by simply setting the computational bias to equal this most conservative bias. On average, the Whisper development team's approach for selecting experiments to include in the calculation produces bias estimates that disagree with the maximum bias from the benchmark experiments by 418 pcm for the known bias cases and by 155 pcm for the unknown bias cases. Simply choosing the most conservative bias available in benchmark experiment data would generally produce a computational bias estimate that is similar to what is produced by Whisper. Again, this conservatism may be desirable in criticality safety validation studies but does not accurately reflect the true computational bias present in the application cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V.D. Whisper USL Estimates</head><p>Although the interpretation of computational bias differs among Whisper, USLSTATS, and TSURFER, Whisper can produce an estimate of the subcritical calculational margin that can be interpreted similarly to that produced by USLSTATS. For Whisper, the calculational margin m satisfies the relation</p><formula xml:id="formula_14">F m ( Þ ¼ q ;<label>(15)</label></formula><p>where F is the extreme value theory cumulative distribution function (cdf) and q is a user-specified degree of confidence (here chosen to equal 0.95). Unlike in the USLSTATS method, the Whisper-estimated computational bias is never directly used to determine the calculational margin, and the computational biases present in the benchmark data instead affect the determination of the calculational margin via the extreme value theory cdf. The Whisper method separates the MOS from Eq. ( <ref type="formula" target="#formula_4">5</ref>) into several components when computing USL estimates:</p><formula xml:id="formula_15">MOS ¼ MOS code þ MOS data þ m :<label>(16)</label></formula><p>The MOS code term represents additional margin that is added to account for any undetected code errors or bugs in the sensitivity analysis and radiation transport tools. Kiedrowski et al. suggest setting this term to equal 0.005, but for the purposes of this study, MOS code will be set to equal zero (although this choice may not be desirable for production-level criticality safety validation exercises).</p><p>The MOS data term accounts for uncertainty in the subcritical margin that is introduced due to uncertainty and errors in the nuclear data. In principle, the impact of errors in the nuclear data should be reflected in the benchmark experiment C/E values, and thus, the calculational margin m should already capture the impact of these errors. Nonetheless, Kiedrowski et al. propose to include this additional MOS for an intentional, additional level of conservatism. <ref type="bibr" target="#b8">9</ref> As proposed by Kiedrowski et al., the MOS data term was set to equal the residual uncertainty present in the bias for the application cases following a GLLS data assimilation calculation (here, a TSURFER simulation). This residual bias uncertainty term is discussed further in Sec. VI.A, but in short, it represents the degree of computational bias that could not be explained by the GLLS data assimilation process. The Whisper results shown here have computed the MOS data term using TSURFER simulations with a chisquared filtering threshold of 3.0, 56 uncorrelated experiments, and the same covariance data library that was used for its respective Whisper simulation. As discussed in Sec. VI, these TSURFER parameters correspond to the TSURFER simulation that produced the most accurate computational bias estimates.</p><p>Figures <ref type="figure" target="#fig_10">11</ref> and <ref type="figure" target="#fig_11">12</ref> show the USL estimates produced by the Whisper method for the known and unknown bias application cases, respectively. Overall, the trends observed for the Whisper bias estimates generally held true for the Whisper USL estimates: Application cases with fewer high-similarity experiments produced smaller, more conservative USL estimates, and including additional benchmark experiments only lowered the USL estimates.</p><p>The Whisper USL estimates were generally quite similar to the bias estimates produced by USLSTATS. The Whisper USL estimates were close to 0.98 for the known bias cases and slightly above 0.97 for the unknown bias application cases. Whisper produced somewhat more conservative USL estimates for the PU-SOL-THERM cases and the unknown bias cases, which are discussed in more detail in Sec. V, but in general, the two methods produced similar USL estimates. One limitation present in the USLSTATS results was that the method could not produce bias or USL estimates for cases with few similar experiments. This limitation was not present in the Whisper results, which obtained bias and USL estimates for all application cases using the LANL c k threshold selection method. When a significant number of highly similar experiments were not available, the LANL approach was still able to obtain bias and USL predictions by including additional, lower-similarity experiments and introducing an additional level of conservatism.</p><p>As with the relative bias estimates, the Whisper USL estimates were generally observed to be significantly more consistent than the USLSTATS USL estimates. The Whisper USL estimates varied minimally across different application cases, covariance data libraries, and subsets of benchmark experiments. The user-defined c k threshold accounts for the majority of the variance between Whisper USL estimates, and the LANL approach for setting the c k threshold produced USL estimates that varied minimally across different application cases. Section VII evaluates the consistency of the Whisper bias and USL estimates in greater detail. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. TSURFER DATA ASSIMILATION METHOD ANALYSIS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.A. TSURFER Data Assimilation Methodology</head><p>The TSURFER code estimates computational biases by comparing the results of experimental benchmarks and computational simulations using GLLS methodology. <ref type="bibr" target="#b9">10</ref> By using sensitivity coefficients to predict the impact of a cross-section perturbation, this methodology solves for a set of adjusted nuclear data that minimizes disagreement between computed and experimental benchmark results. Figure <ref type="figure" target="#fig_12">13</ref> shows a sample application of this methodology in which the C/E values of a suite of benchmark experiments have been improved by solving for a set of multigroup adjustments to cross-section data, several of which are shown in Fig. <ref type="figure" target="#fig_13">14</ref>.</p><p>After TSURFER has assimilated experimental benchmark data and produced a recommended set of nuclear data adjustments, these adjustments can predict the likely computational bias present in an application by combining them with the sensitivity coefficients for the target application. This bias is equal to the Δk eff produced by combining the TSURFER-recommended cross-section adjustments with the sensitivity coefficients for the application. Because these sensitivity coefficients are available with a high degree of resolution (as a function of energy, reaction, isotope, etc.), TSURFER can generate detailed information on the sources of computational bias in an application, as shown in Fig. <ref type="figure" target="#fig_14">15</ref>.</p><p>When solving for cross-section adjustments, TSURFER considers both the uncertainty in the cross-section data and the experimental benchmark results by computing a chisquared value:</p><formula xml:id="formula_16">χ 2 ¼ Σ 0 À Σ ( Þ t C Σ;Σ À Á À1 Σ 0 À Σ ( Þ þ R 0 À R ( Þ t C R;R À Á À1 R 0 À R ( Þ;<label>(17)</label></formula><p>where C Σ;Σ is the covariance data matrix for the cross-section data Σ and C R;R is the matrix of experimental correlation coefficients for the experimental results R. TSURFER solves for an adjusted set of cross-section data Σ 0 and experimental results R 0 by solving for a set of cross-section and experimental result adjustments that minimize χ 2 . Thus, when TSURFER solves for an adjusted set of cross sections to minimize bias with experimental results, it ensures that no cross-section data or experimental results receive unrealistically large adjustments relative to the uncertainty associated with their estimates. As described further by Williams et al., <ref type="bibr" target="#b9">10</ref> this data assimilation process also reduces the uncertainty present in the adjusted cross-section data C Σ 0 ;Σ 0 , thus reducing the impact of nuclear data-induced uncertainty in the computed responses. These postadjustment covariance data can be combined with the sensitivity coefficients for benchmark or application cases via the sandwich rule to estimate the degree of nuclear data-induced uncertainty that remains in the eigenvalue for these cases after the TSURFER adjustment. This residual uncertainty information is commonly referred to as the bias uncertainty and is used by the Whisper method to estimate the MOS data term. It should be emphasized that the TSURFER bias uncertainty is determined differently than the USLSTATS bias uncertainty, although the terms share the same name. This bias uncertainty term should approach zero for TSURFER calculations that contain an ideal set of benchmark experiment data to perfectly explain the sources of all computational biases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B. Guaranteeing the Fidelity of TSURFER Calculations</head><p>While several criticality safety analysts have expressed concern in the confidence of TSURFER simulation results, it is generally straightforward to ascertain when USLSTATS trending calculations are producing unreliable results: Either the confidence interval in the USLSTATS results will be large, or visual inspection of the trend will convey poorly correlated trend data. This type of analysis is more difficult with TSURFER calculations, which have not traditionally produced confidence intervals with bias estimates. This study investigated the reliability of TSURFER calculation results by addressing concerns regarding TSURFER's ability to</p><p>1. mitigate the impact of inconsistent or erroneous experimental benchmark data</p><p>2. treat correlations between benchmark experiment evaluations</p><p>3. produce consistent bias estimates given an evolving library of nuclear data uncertainties</p><p>4. converge to a unique (and not underdetermined) solution</p><p>5. estimate 95/95 confidence intervals for USLs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.1. Mitigating the Impact of Inconsistent Experiments</head><p>The GLLS method assumes that experimental results are correct when performing data assimilation, but in reality, errors in experimental results and descriptions do exist, and including erroneous experimental data can result in inaccurate data adjustments and bias predictions. Fortunately, TSURFER contains several approaches for detecting inconsistent or erroneous experimental data so that it can be omitted from the data assimilation calculation. <ref type="bibr" target="#b9">10</ref> Of these approaches, the delta chi-squared approach is generally regarded as the most effective experiment filtering method. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b9">10</ref> The delta chi-squared approach computes the χ 2 value given in Eq. ( <ref type="formula" target="#formula_16">17</ref>) using all experiments (χ 2</p><p>All Exp: ) and then computes the change in χ 2 that occurs when each individual experiment is omitted from the data assimilation χ 2</p><p>Omit Exp:i ; that is,</p><formula xml:id="formula_17">Δχ 2 i ¼ χ 2 All Exp: À χ 2 Omit Exp:i :<label>(18)</label></formula><p>If Δχ 2 i is very large, then experiment i dictates the outcome of the data adjustment by an unusually large amount. It is possible that the C/E for experiment i just happens to very clearly identify nuclear data biases, but this is unlikely when the library of available experiments is substantial and covers a diverse array of material and spectral conditions. It is more likely that the large Δχ 2 i indicates inconsistent experiment results and that this experiment should be excluded from the data assimilation.</p><p>The default Δχ 2 i threshold in TSURFER for filtering an experiment is Δχ 2 i &gt; 1:2, but this threshold may be too strict in some cases. Therefore, this study performed all TSURFER calculations three times using Δχ 2 i thresholds of Δχ 2 i &gt; 1:2 (default), Δχ 2 i &gt; 3:0; and no Δχ 2 i filtering.</p><p>The delta chi-squared approach is the default inconsistent experiment filtering method in TSURFER and was used for all TSURFER simulations in this study. This filtering method consistently identified the previously discussed PCM experiments as being inconsistent or erroneous, which caused them to be excluded automatically from all TSURFER simulations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.2. Treating Correlations Between Benchmark Experiment Evaluations</head><p>When the GLLS methodology reads benchmark experiment results, it might be assumed that these results are completely uncorrelated when solving for a crosssection data adjustment. This is typically untrue, as a series of critical experiments is routinely performed using the same facilities and materials but with slightly different geometric configurations, reflector materials, etc. The sources of correlation among experimental results can be considered by TSURFER data assimilations and is represented by the term C R;R in Eq. ( <ref type="formula" target="#formula_16">17</ref>), but failing to properly describe the correlation between these experiments can result in poor TSURFER results. <ref type="bibr" target="#b18">19</ref> Significant efforts have been made to estimate correlation coefficients for critical experiments, but large gaps remain in the experimental correlation coefficient data, and there are standing questions regarding how to estimate these coefficients properly. <ref type="bibr" target="#b19">20</ref></p><p>To bypass the impact of these missing correlation coefficients, all TSURFER calculations in this study used purely uncorrelated experimental results. To identify the uncorrelated experimental results, the ICSBEP Handbook was perused, and all potentially correlated experiments were identified. Potentially correlated experiments were classified as any two experiments that shared any of the same materials or that were performed at the same critical experiment facility as part of the same experiment series. This stringent criterion significantly reduced the number of experiments available for TSURFER calculations-the approximately 400 critical experiments available in the ORNL VALID library <ref type="bibr" target="#b13">14</ref> were reduced to 56 uncorrelated experiments.</p><p>Several other uncorrelated experiments not available in the ORNL VALID library were identified in the ICSBEP library. <ref type="bibr" target="#b13">14</ref> For these experiments, the sample experiment model inputs provided in the ICSBEP Handbook were used to generate sensitivity coefficients for TSURFER. Including these experiments increased the total number of uncorrelated experiments to 81. The ICSBEP Handbook does not guarantee the fidelity of these inputs, and it is possible that several errors were included in these inputs. Furthermore, most of these inputs used substantially older versions of KENO, so significant modification was necessary to convert them to the modern SCALE 6.2 KENO/CE TSUNAMI-3D format. This additional input modification introduced yet another potential source of error for the experiments' computed results. Because it was not known if these experiment models included errors, all TSURFER calculations were performed with the 56 experiments from VALID, as well as with all 81 available experiments.</p><p>Detailed experimental correlation coefficient information was available for one set of experiments, the BFS cases, and was included in all TSURFER calculations. <ref type="bibr" target="#b14">15</ref></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.3. Stability of Results with Various Nuclear Covariance Data Libraries</head><p>Uncertainty exists in the cross-section covariance data just as it exists in the cross sections themselves. TSURFER data assimilation relies on having accurate covariance data when calculating χ 2 , and it is possible that errors in the cross-section covariance data can impact the accuracy of TSURFER calculations. As discussed previously, recent changes to the cross-section covariance data have significantly impacted the benchmark c k values, and there is reason to suspect that these changes may also affect the results of TSURFER data adjustments.</p><p>It is unclear exactly how sensitive TSURFER results are to the cross-section covariance data, and this study explores its potential impact by performing TSURFER calculations using both 44-group and 56-group covariance data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.4. Convergence of TSURFER Data Adjustment Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.4.a. Methodology for Evaluating TSURFER Convergence</head><p>Perhaps the most significant question regarding the reliability of TSURFER methods is whether a TSURFER simulation has included enough benchmark experiments to obtain a converged bias estimate. TSURFER bins the crosssection data into a multigroup format when performing a data adjustment (typically using either 44 or 56 groups), but this group collapse still results in many thousands of unknown variables and possibly a significantly underdetermined data adjustment. Thus, a TSURFER analysis must ensure that the data adjustment process has converged to the true bias estimate and that adding additional benchmark experiment data does not significantly alter the solution.</p><p>This study examined the convergence of its TSURFER simulations by resimulating the TSURFER data assimilation using different subsets of the benchmark experiment data and checking whether the bias predictions change significantly. TSURFER simulations were performed multiple times using randomly sampled subsets of the library of uncorrelated experiments, and the number of experiments in each subset was varied. Overall, the TSURFER convergence simulations omitted between one experiment and nearly all experiments, and 50 random realizations were performed for each number of experiments. Figure <ref type="figure" target="#fig_15">16a</ref> shows the results of a sample TSURFER convergence study, and each data point in Fig. <ref type="figure" target="#fig_15">16a</ref> represents the estimated relative bias from a TSURFER simulation using a random selection of benchmark experiment data. As the number of integral experiments included in the TSURFER simulation increases, the random TSURFER bias predictions approach the final prediction of the TSURFER simulation using all available experiments. Because many of the data points overlap in the Fig. <ref type="figure" target="#fig_15">16a</ref> scatter plot, a histogram heat map (Fig. <ref type="figure" target="#fig_15">16b</ref>) was generally the preferred means for examining TSURFER bias convergence. The TSURFER simulations generally required at least five benchmark experiments to complete the GLLS adjustment, which results in missing data points for TSURFER simulations that used few benchmark experiments in Fig. <ref type="figure" target="#fig_15">16</ref>.</p><p>Substituting a different subset of benchmark experiments should not significantly affect the bias predictions of a TSURFER calculation that is well converged. Furthermore, well-converged simulations should produce bias convergence plots where the result has reached an asymptotic value with a slope of 0, and there should be no difference between this asymptotic bias estimate and the estimate from the final TSURFER calculation using all available experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.4.b. Evaluation of TSURFER Calculation Convergence</head><p>Figure <ref type="figure" target="#fig_16">17</ref> shows the TSURFER bias convergence plots for the known bias cases, and Fig. <ref type="figure" target="#fig_17">18</ref> shows these plots for the unknown bias cases. These cases were computed using 56-group covariance data, the default TSURFER χ 2 filter, and the 56 experiments from the ORNL VALID library. Based on these plots, the TSURFER bias estimates appear to be converged for all known bias cases. Several cases are very clearly converged (e.g., the LEU-COMP-THERM cases), but the PU-SOL-THERM cases produced a far greater spread in the relative bias estimates. The bias estimates for the PU-SOL-THERM cases asymptote toward the result of the final TSURFER calculation with a slope of nearly zero and thus appear to be converged, but it may be helpful to include more benchmark experiments that are similar to PU-SOL-THERM in the TSURFER analysis to reduce the spread in the TSURFER bias estimates. A quantitative assessment of the TSURFER relative bias estimates is presented in Table <ref type="table" target="#tab_5">VI</ref>.</p><p>Several of the UACSA Phase V unknown bias TSURFER simulations in Fig. <ref type="figure" target="#fig_17">18</ref> appear to have obtained converged bias estimates, but in many cases it may be helpful to include more benchmark experiments. Many of the bias estimates appear to asymptote toward the final TSURFER relative bias estimate, but these asymptotes generally have not reached a near-zero slope. Increasing the number of experiments in the TSURFER simulations to include all 81 experiments generally improves the convergence of the TSURFER bias estimates, but in some instances this nonzero slope was still present. Therefore, this study concludes that including additional benchmark experiments would improve the convergence of the TSURFER relative bias estimates for the unknown bias cases, and it may also improve the accuracy of these bias estimates. The TSURFER relative bias estimates for the known bias cases appear to be converged.</p><p>Figures <ref type="figure" target="#fig_18">19</ref> and <ref type="figure" target="#fig_19">20</ref> provide additional insight on the convergence of the TSURFER simulations by examining the convergence of the TSURFER postadjustment uncertainty for the known and unknown bias cases, respectively. Again, this adjusted uncertainty describes the nuclear data-induced uncertainty in the application cases via the sandwich equation using the adjusted covariance data produced by the TSURFER data assimilation C Σ 0 ;Σ 0 . The trends observed by examining these adjusted uncertainties were similar to those observed when examining the relative bias estimates.</p><p>The IEU-MET-FAST-007-001 case in Fig. <ref type="figure" target="#fig_18">19</ref> demonstrates the advantage of also examining convergence plots of the postadjustment uncertainty estimates. The IEU-MET-FAST-007-001 results in Fig. <ref type="figure" target="#fig_16">17</ref> appear somewhat converged no matter how many benchmark experiments are included, but the results in Fig. <ref type="figure" target="#fig_18">19</ref> suggest otherwise, indicating that the IEU-MET-FAST -007-001 bias uncertainty estimates jump to a different mean value when more than approximately 30 benchmark experiments are included. This bimodal behavior suggests that the TSURFER adjustment results shift significantly when using more than about 30 experiments (presumably to a more realistic adjustment) and is a phenomenon that would not have been detected for this application case if only the analysis was limited to bias convergence plots.</p><p>Other than the IEU-MET-FAST-007-001 case, all trends observed by examining these adjusted uncertainties were similar to that which was observed when examining the relative bias estimates.</p><p>Figure <ref type="figure" target="#fig_20">21</ref> shows the results of the TSURFER simulations using 56-group covariance data with all 81 benchmark experiments and no χ 2 filtering. Applying χ 2 filtering would often significantly change the TSURFER bias estimates, and in many cases omitting χ 2 filtering  would produce TSURFER bias estimates that appear to be converging between two bimodal values. This bimodal behavior was usually more apparent when examining the convergence of the TSURFER postadjustment experiment uncertainties than when examining the bias estimates themselves. Examining the convergence of the bias estimates with χ 2 filtering suggests that the unfiltered bias estimates were initially converging to the correct bias estimates when using a low number of experiment cases, but when more cases were used, these estimates shifted to the second presumably incorrect value. This shift occurs because including all experiments without χ 2 filtering allows the flawed or inconsistent experiments to unduly influence the TSURFER bias predictions, resulting in erroneous predictions. Thus, incorporating some degree of χ 2 filtering was found necessary to ensure accurate TSURFER relative bias estimates.</p><p>The trends observed in the convergence plots for the 44-group covariance data results were similar to those observed using the 56-group data for all cases discussed above. The convergence was slightly stronger in the 44-group TSURFER results than in the 56-group results, which might be expected because the 44-group covariance data contain a smaller number of unknown variables for the data assimilation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.B.5. Estimating 95/95 Tolerance Intervals</head><p>The last remaining issue for improving confidence in the TSURFER method is to estimate 95/95 tolerance intervals for TSURFER subcritical margin estimates. The 95/95 tolerance interval corresponds to a range that bounds 95% of benchmark experiment data with a confidence level of 95% (Ref. <ref type="bibr" target="#b20">21</ref>). Calculating 95/95 tolerance intervals for subcriticality is typically required of criticality safety validation analyses and is relatively straightforward for USLSTATS calculations (represented by the W parameter), but it is not clear how to estimate this quantity in TSURFER calculations.</p><p>One approach for estimating the tolerance interval of the TSURFER results is to assume that the TSURFER bias predictions follow a normal distribution with uncertainty equal to the residual TSURFER bias uncertainty σ β (also referred to as the bias uncertainty). If this assumption is made, the MOS can be estimated as</p><formula xml:id="formula_18">MOS ¼ max 0; Àβ ( Þþκσ β ;<label>(19)</label></formula><p>where κ is a single-sided tolerance factor for the 95/95 tolerance interval where a percentage p of the benchmarks is bounded with confidence level q and is given by <ref type="bibr" target="#b20">21</ref></p><formula xml:id="formula_19">κ ¼ z p ( Þ þ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi z p ( Þ 2 À ab q a ;<label>(20)</label></formula><formula xml:id="formula_20">a ¼ 1 À z q ( Þ 2 2 N À 1 ( Þ ;<label>(21)</label></formula><p>and</p><formula xml:id="formula_21">b ¼ z p ( Þ 2 À z q ( Þ 2 N ;<label>(22)</label></formula><p>where N is the number of experiments included and z x ( Þ is the inverse of the normal cdf with probability x.</p><p>There are several challenges with using this approach to estimate the TSURFER 95/95 tolerance interval. The first challenge is that these formulas assume that the bias estimates follow a normal distribution, which may not be true. Another concern is that the TSURFER bias uncertainties are subject to change, as discussed in Secs. VI.A and VI.B.4, and are generally much smaller postadjustment than the preadjustment uncertainties. Criticality safety analysts may be wary about estimating the MOS with a postadjustment uncertainty that is 80% smaller than the original nuclear data-induced uncertainty unless there is a great deal of confidence in the results of the TSURFER simulation.</p><p>An additional concern unaccounted for in the traditional 95/95 tolerance interval approach is that the TSURFER calculation may not have included enough benchmark experiments to converge to the true bias and calculational margin estimates. Ideally, a TSURFER tolerance interval should also account for the noise present in the TSURFER bias estimates as more benchmark experiments are included and the bias estimates converge, as discussed in Sec. VI.B.4. This study proposes to compute a tolerance interval that accounts for this convergence uncertainty by using nonparametric methods to compute the highest (and thus most conservative) credible MOS from the data points in the TSURFER bias convergence plots. Each of the data points in these plots is associated with a bias uncertainty, which is included in the nonparametric calculations, and each data point was assigned an equal weight of 1.0. The probability threshold corresponding to the highest credible MOS for the TSURFER USL estimates (0.95) was equal to the threshold set for the Whisper USL predictions in Sec. V.D. Because the final convergence of the TSURFER bias estimates is poorly represented by simulations that use only a few data points, the TSURFER USL estimates only included the random simulations with the five most integral experiments (e.g., USL estimates for the TSURFER simulations with 56 independent VALID experiments included the random TSURFER bias estimates using between 51 and 55 benchmark integral experiments).</p><p>In some cases, TSURFER bias estimates were so distinctly positive that the nonparametric TSURFER calculational margins were negative, resulting in USLs above 1.0. To incorporate an additional level of conservatism and prevent such high USLs, this work chose to set the TSURFER USLs to the larger value of the nonparametric USL and the traditional normal distribution USL from Eq. ( <ref type="formula" target="#formula_18">19</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.C. TSURFER Results: Known Bias Cases</head><p>Table <ref type="table" target="#tab_5">VI</ref> compares the relative biases, in units of pcm, that were predicted for the known bias applications by TSURFER using various sets of covariance data, benchmark experiments, and inconsistent experiment filtering options with the reference and best USLSTATS bias estimates. These bias estimates are also shown in Fig. <ref type="figure" target="#fig_21">22</ref>.</p><p>Table <ref type="table" target="#tab_5">VI</ref> also lists σ values that describe by how many standard deviations the predicted biases disagreed with the reference, known biases. As with the previous USLSTATS results, these standard deviations were computed using only the uncertainty in the reference relative bias and did not account for the uncertainty in the TSURFER bias estimates.</p><p>As observed for the USLSTATS results, some significant disagreement exists between the TSURFER results and the reference biases for the three outlier cases with known biases: HEU-MET-FAST-086-005, LEU-COMP-THERM-010-001, and PU-SOL-THERM -011-003. TSURFER simulations were performed again using these three outlier cases as benchmark experiments rather than as applications, and the χ 2 filter suggested omitting the LEU-COMP-THERM-010-001 and PU-SOL-THERM-011-003 cases due to possible inconsistency in their experimental results. This suggests that the disagreement observed between the reference and TSURFER/USLSTATS bias estimates for these two cases may be due to errors in the experimental benchmarks.</p><p>Despite the strong convergence data in Fig. <ref type="figure" target="#fig_16">17</ref>, some TSURFER simulations failed to predict the relative bias for the HEU-MET-FAST-086-005 case with a high degree of accuracy. Some bimodal behavior is visible in the convergence plot for TSURFER's adjusted response uncertainty in Fig. <ref type="figure" target="#fig_18">19</ref>, possibly indicating inadequate TSURFER convergence for this case. The exact cause of this inaccuracy is unclear, but relaxing the χ 2 filter tolerance generally allowed TSURFER to include enough relevant experiments to accurately estimate the relative bias for this application. These results suggest that TSURFER's default χ 2 threshold of 1.2 may interfere with the accuracy of the TSURFER simulations by inappropriately omitting consistent benchmark experiments.</p><p>In general, TSURFER produced relative bias estimates that agreed well with the reference bias estimates for nonoutlier cases. The agreement observed for the TSURFER results was slightly worse than that observed for the best USLSTATS cases, but the TSURFER results that produced the worst agreement with the reference biases produced disagreement comparable to that observed for the USLSTATS c k &gt; 0:55 and c k &gt; 0:65 cases. The TSURFER simulation that used 56-group covariance data, the 56 ORNL VALID experiments, and a χ 2 &gt; 3:0 threshold was selected to represent the best TSURFER results as discussed in Sec. VI. Completely removing χ 2 filtering slightly improved the rms agreement with the reference biases, but this case was not selected as having the best TSURFER results due to inconsistencies observed for the unknown bias predictions presented in Secs. VI.B.4 and VI.D.</p><p>Overall, the TSURFER relative bias predictions for the known bias cases shown in Fig. <ref type="figure" target="#fig_21">22</ref> appeared to be more self-consistent than the USLSTATS bias predictions obtained. The TSURFER relative bias predictions always produced bias estimates having a smaller degree of uncertainty. Section VII examines the variance of all three methods in greater detail.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.D. TSURFER Results: UACSA Phase V Unknown Bias Cases</head><p>Figure <ref type="figure" target="#fig_22">23</ref> gives the relative bias estimates produced by TSURFER for the UACSA Phase V unknown bias cases.</p><p>It is difficult to draw conclusions on the accuracy of the TSURFER UACSA Phase V bias predictions because the biases for these cases are unknown. Instead, the performance of these methods is measured by examining their consistency when input parameters are changed. However, it was noted that the unknown bias cases were significantly more sensitive to the χ 2 thresholds for detecting inconsistent experiments than the known bias cases. Presumably, this occurs because the unknown bias cases contain very few high-similarity benchmark cases, and lowering an overly restrictive threshold for χ 2 filtering allows TSURFER to include experiments that describe the sources of bias in the unknown bias cases. The filtering threshold has less of an effect for the known bias cases with high-similarity coefficients because multiple high-similarity experiments exist for most of the known bias cases. Furthermore, Cases 3, 6, 9, 12, and 15 of the unknown bias applications saw smaller changes to the bias estimates when using different χ 2 methods, and these cases also possessed the largest number of high-similarity benchmark experiments (and produced better convergence in Fig. <ref type="figure" target="#fig_17">18</ref>).</p><p>The TSURFER relative bias estimates for the UACSA unknown bias cases in Fig. <ref type="figure" target="#fig_22">23</ref> were found to be more self-consistent than the USLSTATS bias estimates that were obtained. While the USLSTATS bias estimates varied wildly depending on the number of similar experiments available for the trending analysis and the c k threshold used to develop the USLSTATS trend, the TSURFER results appeared relatively insensitive to their simulation options. The consistency of these methods is discussed in more detail in Sec. VII.</p><p>The TSURFER results were also not observed to vary significantly when moving from 44-group covariance data to 56-group covariance data, although the 44-group results showed slightly stronger bias convergence. Although no reference relative biases exist for the UACSA Phase V cases, the much greater degree of self-consistency that was observed in the TSURFER simulations combined with the comparable accuracy between the TSURFER and USLSTATS simulations for the known bias cases provides a strong argument for the TSURFER results to be treated as the reference bias estimates for the unknown bias application cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI.E. TSURFER USL Estimates</head><p>Figures <ref type="figure" target="#fig_23">24</ref> and <ref type="figure" target="#fig_24">25</ref> show the TSURFER USL estimates for the known and unknown bias application cases, respectively. The 44-group covariance data TSURFER results generally produced higher USLs than the 56-group results, and it was observed that the 56-group results almost always produced larger bias uncertainty estimates and larger nonparametric margin estimates than the 44-group simulations. Both observations suggest that the 44-group TSURFER results were more finely converged than the 56-group results and that the 56-group TSURFER results would benefit from including additional benchmark experiments. The higher degree of convergence in the 44-group results is also observed in Sec. VI.B.4 and presumably occurs because the 44-group simulations contain fewer unknown parameters for which to solve.</p><p>Figures <ref type="figure" target="#fig_25">26</ref> and <ref type="figure" target="#fig_26">27</ref> compare USL estimates from the USLSTATS, Whisper, and TSURFER methods for the known and unknown bias applications, respectively. The data in Figs. <ref type="figure" target="#fig_25">26</ref> and Fig. <ref type="figure" target="#fig_26">27</ref> were computed using 56-group covariance data and using the input parameters that produced the best bias estimates for each method. The TSURFER results generally produced less variance for different simulation parameters and covariance data libraries than the Whisper and USLSTATS methods. This was not entirely unexpected, as the TSURFER method also produced more consistent computational bias estimates. Although the TSURFER USLs varied less significantly between different simulation options, they were observed to vary more between each application case than the Whisper results (and also the USLSTATS results, when a sufficient number of highly similar experiments existed), where the USL estimates were the application cases that could almost share the same USL. It is difficult to say which method produced superior USL estimates, but it seems more reasonable for the USLs to vary between the application cases (as was the case with TSURFER) than to have a "blanket" USL that was similar for all application cases (as it was for Whisper and USLSTATS).</p><p>The TSURFER results were observed to consistently produce higher USL estimates than the Whisper and USLSTATS methods. These higher USLs are not surprising, as the USLSTATS approach produced relative large bias uncertainty estimates for several cases (particularly for cases where few high-similarity experiments were available) and because the TSURFER approach contained a smaller degree of intentional conservatism than the Whisper method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. METHOD CONSISTENCY EVALUATION</head><p>Comparisons of the variance of bias and USL estimates from the USLSTATS, Whisper, and TSURFER methods have thus far been qualitative. Tables <ref type="table" target="#tab_6">VII</ref> and <ref type="table" target="#tab_7">VIII</ref> show the standard deviation of bias and USL estimates, respectively, that were produced by the bias prediction methods using different input parameters. The results presented in Tables <ref type="table" target="#tab_6">VII</ref> and <ref type="table" target="#tab_7">VIII</ref> would certainly be subject to change if these simulations were repeated using more or less extreme variations of the input parameters, and the goal of this comparison is to identify basic trends on the degree of variance present in each bias prediction method.</p><p>As shown in Tables <ref type="table" target="#tab_6">VII</ref> and <ref type="table" target="#tab_7">VIII</ref>, the USLSTATS method produced bias and USL estimates that varied significantly more than those produced by the Whisper and TSURFER methods. Including some degree of χ 2 filtering generally reduced the variance of TSURFER estimates, and only considering Whisper simulations with a cumulative experiment weight that exceeded w req significantly reduced the variance of Whisper estimates. These TSURFER and Whisper simulations produced bias and USL estimates with the lowest degree of variance, and also with a very similar degree of variance. TSURFER relative bias estimates generally had slightly less variance than Whisper bias estimates, and Whisper USL estimates generally had slightly less variance than TSURFER USL estimates, but overall, these estimates between the two methods shared a very similar degree of variance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. CONCLUSIONS</head><p>This study compared the accuracy of relative bias predictions for integral criticality experiments produced by the USLSTATS trending method, the Whisper nonparametric method, and the TSURFER data assimilation method. The USLSTATS and TSURFER methods produced accurate bias estimates for criticality experiments with known biases, although the significant degree of uncertainty in the reference relative biases made it difficult to draw conclusions on each method's performance. The best USLSTATS bias predictions were slightly more accurate than those produced by the TSURFER method for application cases with known biases, although the USLSTATS simulations required a sufficiently large number (generally at least 20 or 40) of sufficiently similar (c k &gt; 0:80) benchmark experiments to produce accurate bias estimates. The Whisper method did not produce accurate bias estimates for the known bias application cases-not because of deficiency in the method but because the method is designed intentionally to produce more conservative estimates of the true bias.</p><p>In all cases the Whisper and TSURFER simulations produced relative bias estimates that were significantly more consistent than those produced by USLSTATS, which produced very high variance bias estimates for cases where few highly similar experiments were available. The TSURFER simulation results did not appear to be substantially sensitive to the covariance data library that was used in the data assimilation, and they were somewhat sensitive to the χ 2 filtering approach. The Whisper simulations were somewhat sensitive to the number of benchmark experiments included in the calculation, but Whisper generally produced bias estimates that were close to the maximum conservative bias present in the benchmark experiment data. Similar trends in consistency were observed for the USL estimates produced by each method.</p><p>Although it is difficult to draw conclusions on the accuracy of these methods for application cases with unknown biases, the significantly higher consistency in the Whisper and TSURFER relative estimates suggests that their results merit more confidence. Although the Whisper bias estimates were generally close to the maximum conservative bias present in the application cases, the TSURFER biases tended to vary more with each application, as might be expected of true estimates of the computational bias. These results suggest that the TSURFER data assimilation approach can effectively combine information regarding the sources of nuclear data-induced biases from different benchmark experiments, even if the experiments are not highly similar to the application of interest.</p><p>As discussed in Sec. VI.B.4, including more experimental cases in this study and improving the convergence of TSURFER bias estimates could improve confidence in the accuracy of the TSURFER bias estimates for the UACSA Phase V cases. Including reaction rate benchmark experiments instead of only using a set of purely criticality benchmark experiments may be an effective approach for obtaining additional benchmark experiments, <ref type="bibr" target="#b21">22</ref> especially given the recently developed Monte Carlo code reaction rate sensitivity capabilities. <ref type="bibr" target="#b22">23</ref></p></div>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Ordered similarity coefficients for the UACSA Phase V application cases using (a) SCALE 6.0 44-group covariance data and (b) SCALE 6.2 56-group covariance data.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Number of benchmark experiments that produced
+significant ck values.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Number of benchmark experiments (excluding the PCM cases) that produced significant c k values.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. A sample USLSTATS trend.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. USLSTATS relative bias predictions for applications with known biases.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. USLSTATS relative bias predictions for UACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig.7. USLSTATS USL predictions for known bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig.8. USLSTATS USL predictions for UACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Whisper relative bias predictions for applications with known biases.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Whisper relative bias predictions for UACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc>Fig.11. Whisper USL predictions for the known bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Whisper USL predictions for UACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Benchmark C/E values before and after a sample TSURFER data assimilation.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. Recommended cross-section adjustments generated by the sample TSURFER data assimilation presented in Fig. <ref type="figure" target="#fig_12">13</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 15 .</head><label>15</label><figDesc>Fig. 15. High-fidelity information from TSURFER on the sources of bias in an application.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 16 .</head><label>16</label><figDesc>Fig. 16. Examining the convergence of a sample TSURFER calculation using (a) a scatter plot and (b) a histogram heat map.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. 17 .</head><label>17</label><figDesc>Fig. 17. Convergence of TSURFER relative bias estimates for the known bias cases using 56-group covariance data and the 56 ORNL VALID experiments.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 18 .</head><label>18</label><figDesc>Fig. 18. Convergence of TSURFER relative bias estimates for the UACSA Phase V unknown bias cases using 56-group covariance data and the 56 ORNL VALID experiments.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Fig. 19 .</head><label>19</label><figDesc>Fig. 19. Convergence of TSURFER adjusted eigenvalue uncertainty estimates for the known bias cases using 56-group covariance data and the 56 ORNL VALID experiments.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Fig. 20 .</head><label>20</label><figDesc>Fig. 20. Convergence of TSURFER adjusted eigenvalue uncertainty estimates for the UACSA Phase V unknown bias cases using 56-group covariance data and the 56 ORNL VALID experiments.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Fig. 21 .</head><label>21</label><figDesc>Fig. 21. Examining the convergence of TSURFER estimates with no χ 2 filtering.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Fig. 22 .</head><label>22</label><figDesc>Fig. 22. TSURFER relative bias estimates for the known bias cases.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Fig. 23 .</head><label>23</label><figDesc>Fig. 23. TSURFER relative bias estimates for UACSA Phase V unknown bias cases.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Fig. 24 .</head><label>24</label><figDesc>Fig. 24. TSURFER USL predictions for the known bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Fig. 25 .</head><label>25</label><figDesc>Fig. 25. TSURFER USL predictions for UACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Fig. 26 .</head><label>26</label><figDesc>Fig. 26. Comparison of USL predictions for the known bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Fig. 27 .</head><label>27</label><figDesc>Fig. 27. Comparison of USL predictions forcUACSA Phase V unknown bias applications.</figDesc><graphic type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE I</head><label>I</label><figDesc>The Known Bias Application Cases Selected for This Study</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE II</head><label>II</label><figDesc>UACSA Phase V Application Case Dimensions and Number Densities*</figDesc><note><p>* In units of atoms/b‧cm3. From Ref. <ref type="bibr" target="#b10">11</ref>.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE III</head><label>III</label><figDesc>Comparison of Relative Bias Estimates for Known Bias Applications Using USLSTATS with 56-Group Covariance Data and No PCM (PU-COMP-MIXED) Cases 1098 PERFETTI and REARDEN • CODE BIASES FOR CRITICALITY SAFETY APPLICATIONS</figDesc><table/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE IV</head><label>IV</label><figDesc>Comparison of UACSA Phase V Application Relative Bias Estimates (PCM) Produced Using USLSTATS with 56-Group Covariance Data and No PCM (PU-COMP-MIXED) Cases</figDesc><note><p>a NA = Not enough cases to perform USL Calculation.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table V</head><label>V</label><figDesc>Comparison of Relative Bias Estimates for Known Bias Applications Using the Whisper Method with 56-Group Covariance Data and No PCM (PU-COMP-MIXED) Cases</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>TABLE VI</head><label>VI</label><figDesc>Comparison of Known Bias Application Relative Bias Estimates Produced Using TSURFER with Various Simulation Parameters*</figDesc><note><p>*Relative bias estimates in units of pcm.</p><p>a NA = Not enough cases to perform USL Calculation.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>TABLE VII</head><label>VII</label><figDesc>Standard Deviation of Relative Bias Estimates from the Various Bias Prediction Methods*</figDesc><note><p>*Relative bias estimates in units of pcm.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>TABLE VIII</head><label>VIII</label><figDesc>Standard Deviation of USL Estimates from the Various USL Prediction Methods*</figDesc><note><p>*USL estimates in units of pcm.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This paper has been authored by <rs type="institution">UT-Battelle, LLC</rs>, under contract <rs type="grantNumber">DE-AC05-00OR22725</rs> with the <rs type="funder">U.S. Department of Energy</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Gshje7s">
+					<idno type="grant-number">DE-AC05-00OR22725</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORCID</head><p>Christopher M. Perfetti <ref type="url" target="http://orcid.org/0000-0002-5230-1302">http://orcid.org/0000-0002-5230-1302</ref></p></div>
+			</div>			
+			<div type="references">
+
+				<listBibl>
+	
+	<biblStruct type="article" xml:id="b0">
+		<analytic>
+			<author>
+				<persName>
+					<surname>BROADHEAD</surname>
+					<forename type="first">B</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="a">Sensitivity- and Uncertainty-Based Criticality Safety Validation Techniques</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2004">2004</date>
+				<biblScope unit="volume">146</biblScope>
+				<biblScope unit="page" from="340" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>	
+	
+	<biblStruct type="article" xml:id="b1">
+		<analytic>
+			<author>
+				<persName>
+					<surname>GALTON</surname>
+					<forename>F</forename>
+				</persName>
+			</author>
+			<title level="a">Regression Towards Mediocrity in Hereditary Stature</title>
+		</analytic>
+		<monogr>
+			<title level="j">J. Anthro. Inst. Great Britain and Ireland</title>
+			<imprint>
+				<date when="1886">1886</date>
+				<biblScope unit="volume">15</biblScope>
+				<biblScope unit="page" from="246" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b2">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PEARSON</surname>
+					<forename>K</forename>
+				</persName>
+			</author>
+			<title level="a">Notes on Regression and Inheritance in the Case of Two Parents</title>
+		</analytic>
+		<monogr>
+			<title level="j">Proc. R. Soc. London</title>
+			<imprint>
+				<date when="1895">1895</date>
+				<biblScope unit="volume">58</biblScope>
+				<biblScope unit="page" from="240" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b3">
+		<monogr>
+			<author>
+				<persName>
+					<surname>SCAGLIONE</surname>
+					<forename type="first">J</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="m">An Approach for Validating Actinide and Fission Product Burnup Credit Criticality Safety Analyses—Criticality (keff) Predictions</title>
+			<imprint>
+				<date when="2012">2012</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b4">
+		<monogr>
+			<author>U.S.Nuclear Regulatory Commission, Office of Nuclear Material Safety and Safeguards, Division of Fuel Cycle Safety and Safeguards</author>
+			<title level="m">Justification for Minimum Margin of Subcriticality for Safety</title>
+			<imprint>
+				<date when="2006">2006</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b5">
+		<monogr>
+			<title level="m">SCALE Code System</title>
+			<editor>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</editor>
+			<editor>
+				<persName>
+					<surname>JESSEE</surname>
+					<forename type="first">M</forename><forename type="middle">A</forename>
+				</persName>
+			</editor>
+			<imprint>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="conference" xml:id="b6">
+		<analytic>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="a">Development and Testing of Neutron Cross Section Covariance Data for SCALE 6.2</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Int. Conf. Nuclear Criticality Safety</title>
+			<imprint>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b7">
+		<monogr>
+			<author>
+				<persName>
+					<surname>LICHTENWALTER</surname>
+					<forename type="first">J</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<title level="m">Criticality Benchmark Guide for Light-Water-Reactor Fuel in Transportation and Storage Packages</title>
+			<imprint>
+				<date when="1997">1997</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b8">
+		<analytic>
+			<author>
+				<persName>
+					<surname>KIEDROWSKI</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="a">Whisper: Sensitivity/ Uncertainty-Based Computational Methods and Software for Determining Baseline Upper Subcritical Limits</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2015">2015</date>
+				<biblScope unit="volume">181</biblScope>
+				<biblScope unit="page" from="17" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b9">
+		<monogr>
+			<author>
+				<persName>
+					<surname>WILLIAMS</surname>
+					<forename type="first">M</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">TSURFER: An Adjustment Code to Determine Biases and Uncertainties in Nuclear System Responses by Consolidating Differential Data and Benchmark Integral Experiments</title>
+			<imprint>
+				<date when="2009">2009</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="manual" xml:id="b10">
+		<monogr>
+			<author>
+				<persName>
+					<surname>SANTAMARINA</surname>
+					<forename>A</forename>
+				</persName>
+			</author>
+			<title level="m">Benchmark Phase-V Blind Benchmark on MOX Wet Powders</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Working Party on Nuclear Criticality Safety</publisher>
+				<date when="2015">2015</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="manual" xml:id="b11">
+		<monogr>
+			<author>
+				<persName>
+					<surname>IVANOVA</surname>
+					<forename>T</forename>
+				</persName>
+			</author>
+			<title level="m">Specifications for Benchmark Exercises of Phase 1: Comparison of Uncertainty Analysis Methods for Criticality Safety Assessment</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee</publisher>
+				<date when="2008">2008</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="manual" xml:id="b12">
+		<monogr>
+			<title level="m">International Handbook of Evaluated Criticality Safety Benchmark Experiments</title>
+			<imprint>
+				<publisher>Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="technical-report" xml:id="b13">
+		<monogr>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="j">Criticality Safety Validation of SCALE 6.1</title>
+			<imprint>
+				<date when="2011">2011</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="conference" xml:id="b14">
+		<monogr>
+			<author>
+				<persName>
+					<surname>IVANOV</surname>
+					<forename>E</forename>
+				</persName>
+			</author>
+			<title level="a">Approach and Issues of Covariance Matrix Establishment for Systems with Variable Spectra</title>
+			<imprint>
+				<date from="2016-03-09" to="2016-03-11">March 9–11, 2016</date>
+			</imprint>
+			<note>presented at Workshop on Integral Experiment Covariance Data for Criticality Safety Validation</note>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="grey-literature" xml:id="b15">
+		<monogr><author>
+				<persName>
+					<surname>KIEDROWSKI</surname>
+					<forename type="first">B</forename><forename type="middle">C</forename>
+				</persName>
+			</author>
+			<title level="m">Adjoint Weighting for Continuous- Energy Monte Carlo Radiation Transport</title>
+			<imprint>
+				<publisher>University of Wisconsin</publisher>
+				<date when="2009">2009</date>
+			</imprint>
+			<note>PhD Dissertation</note>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b16">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PERFETTI</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<title level="a">SCALE Continuous-Energy Eigenvalue Sensitivity Coefficient Calculations</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">182</biblScope>
+				<biblScope unit="page" from="332" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="grey-literature" xml:id="b17">
+		<monogr>
+			<author>
+				<persName>
+					<surname>BROWN</surname>
+					<forename type="first">F</forename><forename type="middle">B</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>RISING</surname>
+					<forename type="first">M</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>ALWIN</surname>
+					<forename type="first">J</forename><forename type="middle">L</forename>
+				</persName>
+			</author>
+			<title level="m">Lecture Notes on Criticality Safety Validation Using MCNP &amp; Whisper</title>
+			<imprint>
+				<publisher>Los Alamos National Laboratory</publisher>
+				<date when="2016">2016</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b18">
+		<analytic>
+			<author>
+				<persName>
+					<surname>ROBERTS</surname>
+					<forename type="first">J</forename><forename type="middle">A</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>WILSON</surname>
+					<forename type="first">P</forename><forename type="middle">H</forename>
+				</persName>
+			</author>
+			<title level="a">Determination and Application of Partial Biases in Criticality Safety Validation</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2013">2013</date>
+				<biblScope unit="volume">173</biblScope>
+				<biblScope unit="page" from="43" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="conference" xml:id="b19">
+		<analytic>
+			<author>
+				<persName>
+					<surname>MARSHALL</surname>
+					<forename type="first">W</forename><forename type="middle">J</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>PEVEY</surname>
+					<forename type="first">R</forename><forename type="middle">E</forename>
+				</persName>
+			</author>
+			<title level="a">Determination of Critical Experiment Correlations for Experiments Involving Arrays of Low-Enriched Fuel Rods</title>
+		</analytic>
+		<monogr>
+			<title level="m">Proc. Nuclear Criticality Safety Division (NCSD 2017)</title>
+			<imprint>
+				<date when="2017">2017</date>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="series" xml:id="b20">
+		<monogr>
+			<author>
+				<persName>
+					<surname>NATRELLA</surname>
+					<forename type="first">M</forename><forename type="middle">G</forename>
+				</persName>
+			</author>
+			<title level="m">Experimental Statistics</title>
+			<imprint>
+				<publisher>U.S. Department of Commerce</publisher>
+				<date when="1963">1963</date>
+			</imprint>
+		</monogr>
+		<series>
+			<title level="s">National Bureau of Standards Handbook</title>
+			<biblScope unit="volume">91</biblScope>
+		</series>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b21">
+		<analytic>
+			<author>
+				<persName>
+					<surname>SALVATORES</surname>
+					<forename>M</forename>
+				</persName>
+			</author>
+			<title level="a">Methods and Issues for the Combined Use of Integral Experiments and Covariance Data: Results of a NEA International Collaborative Study</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Data Sheets</title>
+			<imprint>
+				<date when="2014">2014</date>
+				<biblScope unit="volume">118</biblScope>
+				<biblScope unit="page" from="38" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+	
+	<biblStruct type="article" xml:id="b22">
+		<analytic>
+			<author>
+				<persName>
+					<surname>PERFETTI</surname>
+					<forename type="first">C</forename><forename type="middle">M</forename>
+				</persName>
+			</author>
+			<author>
+				<persName>
+					<surname>REARDEN</surname>
+					<forename type="first">B</forename><forename type="middle">T</forename>
+				</persName>
+			</author>
+			<title level="a">Development of a Generalized Perturbation Theory Method for Sensitivity Analysis Using Continuous-Energy Monte Carlo Methods</title>
+		</analytic>
+		<monogr>
+			<title level="j">Nucl. Sci. Eng.</title>
+			<imprint>
+				<date when="2016">2016</date>
+				<biblScope unit="volume">182</biblScope>
+				<biblScope unit="page" from="354" to=""/>
+			</imprint>
+		</monogr>
+	</biblStruct>
+		
+	</listBibl>
+
+		
+	</div>
+		</back>
+	</text>
+</TEI>
