@@ -1,0 +1,31 @@
+services:
+  grobid:
+    image: lfoppiano/grobid:0.8.2-crf
+    container_name: grobid
+    init: true
+    ports:
+      - "8070:8070"
+    deploy:
+      resources:
+        limits:
+          memory: 32G
+          cpus: '6'
+        reservations:
+          memory: 16G
+          cpus: '2'
+    volumes:
+      - ./citation_model/model.wapiti:/opt/grobid/grobid-home/models/citation/model.wapiti
+      - ./segmentation_model/model.wapiti:/opt/grobid/grobid-home/models/segmentation/model.wapiti
+    restart: unless-stopped
+
+  extractor:
+    image: opencitations/oc_cec_extractor:1.0.0
+    container_name: cec_extractor
+    init: true
+    ports:
+      - "5001:5001"
+    volumes:
+      - ../models:/app/classifier/cic/src/models:rw
+    restart: unless-stopped
+    depends_on:
+      - grobid
