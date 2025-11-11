@@ -23,11 +23,13 @@ class TestJSONCreation(unittest.TestCase):
     input_file3 = os.path.join(INPUT_FOLDER, "NOTES-8.grobid.tei.xml")
     input_file4 = os.path.join(INPUT_FOLDER, "AGR-BIO-SCI_4.grobid.tei.xml")
     input_file5 = os.path.join(INPUT_FOLDER, "ART-HUM_5.grobid.tei.xml")
+    input_file6 = os.path.join(INPUT_FOLDER, "ENE_46.xml")
     output_file = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_3.json")
     output_file2 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_EV1.json")
     output_file3 = os.path.join(OUTPUT_FOLDER, "NOTES-8.json")
     output_file4 = os.path.join(OUTPUT_FOLDER, "AGR-BIO-SCI_4.json")
     output_file5 = os.path.join(OUTPUT_FOLDER, "ART-HUM_5.json")
+    output_file6 = os.path.join(OUTPUT_FOLDER, "ENE_46.json")
     auxiliar_file = SPECIAL_CASES_PATH
 
     @classmethod
@@ -38,6 +40,7 @@ class TestJSONCreation(unittest.TestCase):
         cls.json_converter3 = TEIXMLtoJSONConverter(cls.input_file3, cls.output_file3, cls.auxiliar_file, False)
         cls.json_converter4 = TEIXMLtoJSONConverter(cls.input_file4, cls.output_file4, cls.auxiliar_file, False)
         cls.json_converter5 = TEIXMLtoJSONConverter(cls.input_file5, cls.output_file5, cls.auxiliar_file, False)
+        cls.json_converter6 = TEIXMLtoJSONConverter(cls.input_file6, cls.output_file6, cls.auxiliar_file, False)
         cls.ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
     @classmethod
@@ -60,9 +63,8 @@ class TestJSONCreation(unittest.TestCase):
         with open(self.output_file3, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
             self.assertTrue(
-    any(entry.get("CITATION") == 'For a design process that prioritizes exact optimisation, see [15].' 
-        for entry in data.values())
-)
+         any(entry.get("CITATION") == 'For a design process that prioritizes exact optimisation, see [15].'
+        for entry in data.values()))
             
     def test_figure_caption_deduplication(self):
         self.json_converter4.convert_to_json()
@@ -78,7 +80,10 @@ class TestJSONCreation(unittest.TestCase):
         all_sections = set([entry['SECTION'] for entry in data.values()])
         self.assertTrue('Section Untitled 1' in all_sections and 'Section Untitled 2' in all_sections)
 
-        
+    def test_sentence_with_formulas(self):
+        self.json_converter6.convert_to_json()
+        with open(self.output_file6, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
 
 
 if __name__ == "__main__":
