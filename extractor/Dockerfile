@@ -25,12 +25,6 @@ COPY cex/requirements.txt /app/requirements.txt
 # Install Python dependencies
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Install grobid_client_python
-RUN git clone https://github.com/kermitt2/grobid_client_python && \
-    cd grobid_client_python && \
-    python3 setup.py install && \
-    cd ..
-
 # Copy the entire extractor directory
 COPY ./cex /app/extractor
 
