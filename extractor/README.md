@@ -9,9 +9,10 @@ This page describes the Citation Extraction Service (CEX) component, aiming to i
 ## Technical Overview
 
 The CEX project utilizes **GROBID**, a machine learning library designed to extract, parse, and restructure raw documents, such as PDFs, into structured XML/TEI-encoded documents. 
-Specifically, it leverages GROBID's citation and segmentation models, both trained on new data.
-**Citation model** -> **Model 5** from Pagnotta, O. (2024). CEX Project - trained GROBID citation models. Zenodo. [https://doi.org/10.5281/zenodo.10529709](https://doi.org/10.5281/zenodo.10529709)
-**Segmentation model** -> **Model 2** from Soricetti, M. (2025). CEX Project - Trained Grobid segmentation models. Zenodo. [https://doi.org/10.5281/zenodo.17549454](https://doi.org/10.5281/zenodo.17549454)
+
+Specifically, it leverages GROBID's citation and segmentation models, both trained on new data. \
+**Citation model** -> **Model 5** from Pagnotta, O. (2024). CEX Project - trained GROBID citation models. Zenodo. [https://doi.org/10.5281/zenodo.10529709](https://doi.org/10.5281/zenodo.10529709) \
+**Segmentation model** -> **Model 2** from Soricetti, M. (2025). CEX Project - Trained Grobid segmentation models. Zenodo. [https://doi.org/10.5281/zenodo.17549454](https://doi.org/10.5281/zenodo.17549454) 
 
 In this setup, the GROBID Python Client is configured to use the `processFulltextDocument` option rather than `processReferences`. This choice aligns with the service's objective of processing the entire text to extract and isolate sentences that contain citations, which are then used as input for the classifier. 
 
