@@ -25,3 +25,4 @@ flask
 flask_wtf
 lxml
 spacy
+gunicorn>=21.2.0

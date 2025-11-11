@@ -2,7 +2,7 @@
     "mode": "WS",
     "data": [
       ["Introduction", "This method is based on Smith et al. (2020)."],
-      ["", "Our results build upon recent work."]
+      ["", "Compared to prior work, our model achieves higher accuracy."]
     ]
   }
   

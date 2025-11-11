@@ -156,10 +156,9 @@ def create_app():
 
     return app
 
-
+# Create the Flask app that works with Gunicorn
 app = create_app()
 register_cleanup(UPLOAD_FOLDER, DOWNLOAD_FOLDER)
 
 if __name__ == '__main__':
-    app.run(port=5001)
-
+    app.run(host='0.0.0.0', port=5001, debug=False)
