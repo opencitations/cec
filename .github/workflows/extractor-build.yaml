@@ -1,4 +1,4 @@
-name: Classifier  ->  Docker Build and Push
+name: Extractor  ->  Docker Build and Push
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
 
 env:
-  SERVIZIO_OC: oc_cec_classifier
+  SERVIZIO_OC: oc_cec_extractor
   DOCKER_REGISTRY: opencitations
 
 jobs:
@@ -21,11 +21,11 @@ jobs:
     - name: Read version from docker_version.txt
       id: get_version
       run: |
-        if [ ! -f classifier/docker_version.txt ]; then
+        if [ ! -f extractor/docker_version.txt ]; then
           echo "Error: docker_version.txt file not found"
           exit 1
         fi
-        VERSION=$(cat classifier/docker_version.txt | tr -d '\n\r' | xargs)
+        VERSION=$(cat extractor/docker_version.txt | tr -d '\n\r' | xargs)
         if [ -z "$VERSION" ]; then
           echo "Error: empty version in docker_version.txt"
           exit 1
@@ -69,7 +69,7 @@ jobs:
       run: |
         echo "Building image: ${{ env.DOCKER_REGISTRY }}/${{ env.SERVIZIO_OC }}:${VERSION}"
         
-        cd classifier
+        cd extractor
         docker build --no-cache -t ${{ env.DOCKER_REGISTRY }}/${{ env.SERVIZIO_OC }}:${VERSION} .
         sleep 1
         
