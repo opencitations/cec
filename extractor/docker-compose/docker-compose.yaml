@@ -24,8 +24,6 @@ services:
     init: true
     ports:
       - "5001:5001"
-    volumes:
-      - ../models:/app/classifier/cic/src/models:rw
     restart: unless-stopped
     depends_on:
       - grobid
