@@ -106,7 +106,7 @@
             var formData = new FormData(this);
 
             // Send data to the Flask server using fetch API
-            fetch('/', {
+            fetch('{{ url_for("home") }}', {
                 method: 'POST',
                 body: formData
             })
