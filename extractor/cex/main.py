@@ -139,9 +139,9 @@ def create_app():
 
         return send_from_directory(download_location, filename, as_attachment=True)
     
-    @app.route(PREFIX+'/sample/<filename>', methods=['GET'])
+    @app.route(PREFIX+'/downloads/sample/<filename>', methods=['GET'])
     def download_sample(filename):
-        sample_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'downloads', 'sample')
+        sample_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER'], 'sample')
         return send_from_directory(sample_location, filename, as_attachment=True)
 
     from api.routes import api_blueprint
