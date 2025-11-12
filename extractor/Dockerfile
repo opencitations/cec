@@ -6,7 +6,8 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    URL_PREFIX=/cex
+    URL_PREFIX=/cex \
+    GROBID_URL=http://grobid:8070 
 
 
 # Install system dependencies
