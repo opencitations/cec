@@ -6,6 +6,7 @@ The Citation Extractor and Classifier (CEC) is a software that performs automati
 
 This page describes the Citation Extraction Service (CEX) component, aiming to isolate the bibliographic references from a scholarly article to perform further analysis more easily and quickly. The process in the extractor proceeds as follows: starting from a PDF, the input file is processed, resulting in a structured output (TEI-XML format). From the output, a JSON file containing the citations’ sentences and the name of the section in which they appear is created and passed to CIC, which further elaborates and annotates them with their citation function.
 
+
 ## Technical Overview
 
 The CEX project utilizes **GROBID**, a machine learning library designed to extract, parse, and restructure raw documents, such as PDFs, into structured XML/TEI-encoded documents. 
