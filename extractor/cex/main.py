@@ -4,7 +4,7 @@ import shutil
 import zipfile
 from datetime import datetime
 from concurrent.futures import as_completed, ProcessPoolExecutor
-from flask import Flask, render_template, send_from_directory, after_this_request, jsonify, url_for
+from flask import Flask, render_template, send_from_directory, after_this_request, jsonify, url_for, Blueprint
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField, IntegerField
 from werkzeug.utils import secure_filename
@@ -142,17 +142,18 @@ def create_app():
     from api.routes import api_blueprint
     app.register_blueprint(api_blueprint, url_prefix=PREFIX+'api')
 
-    from flask import Blueprint, send_from_directory
-
     docs_blueprint = Blueprint('docs', __name__)
 
-    @app.route('/openapi.json')
+    @docs_blueprint.route('/openapi.json')
     def openapi():
         return send_from_directory('docs', 'openapi.json')
 
-    @app.route('/docs')
+    @docs_blueprint.route('/docs')
     def swagger_ui():
         return render_template('swagger.html')
+    
+    # Register the docs blueprint with the specified prefix
+    app.register_blueprint(docs_blueprint, url_prefix=PREFIX)
 
     return app
 
