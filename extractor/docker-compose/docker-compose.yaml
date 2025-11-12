@@ -24,6 +24,8 @@ services:
     init: true
     ports:
       - "5001:5001"
+    environment:
+      - GROBID_URL=http://grobid:8070
     restart: unless-stopped
     depends_on:
       - grobid

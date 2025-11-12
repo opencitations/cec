@@ -24,7 +24,7 @@ class UploadFileForm(FlaskForm):
 
 
 def create_app():
-    PREFIX="/"
+    PREFIX="/cex"
 
     # change to default as:
     # PREFIX="/"
