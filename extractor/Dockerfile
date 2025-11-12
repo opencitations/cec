@@ -17,16 +17,13 @@ RUN apt-get update && \
     curl
 
 # Set working directory
-WORKDIR /app
+WORKDIR /app/extractor/cex
 
 # Copy the entire extractor directory
-COPY ./cex /app/extractor/cex
+COPY ./cex .
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r /app/extractor/cex/requirements.txt
-
-# Set working directory to extractor
-WORKDIR /app/extractor
+RUN pip install --no-cache-dir -r ./requirements.txt
 
 # Expose port
 EXPOSE 5001
@@ -39,4 +36,4 @@ CMD ["gunicorn", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
      "--log-level", "debug", \
-     "cex.main:app"]
+     "main:app"]
