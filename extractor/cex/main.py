@@ -117,7 +117,7 @@ def create_app():
 
 
 
-    @app.route(PREFIX+'/download/<filename>', methods=['GET'])
+    @app.route(PREFIX+'/downloads/<filename>', methods=['GET'])
     def download_file(filename):
         download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER'])
 
