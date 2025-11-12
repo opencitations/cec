@@ -19,16 +19,13 @@ RUN apt-get update && \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first for better layer caching
-COPY cex/requirements.txt /app/requirements.txt
+# Copy the entire extractor directory
+COPY ./cex /app/extractor/cex
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/extractor/cex/requirements.txt
 
-# Copy the entire extractor directory
-COPY ./cex /app/extractor
-
-# Set working directory to where the cic module is located
+# Set working directory to extractor
 WORKDIR /app/extractor
 
 # Expose port
@@ -39,8 +36,7 @@ CMD ["gunicorn", \
      "--workers", "1", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
-     "--chdir", "/app/extractor", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
-     "--log-level", "info", \
-     "main:app"]
+     "--log-level", "debug", \
+     "cex.main:app"]
