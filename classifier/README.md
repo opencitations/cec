@@ -135,7 +135,7 @@ docker run -d \
   -p 5000:5000 \
   --memory="32g" \
   -v '/your_local_PATH/models:/app/classifier/cic/src/models' \
-  opencitations/oc_cec_classifier:1.1.0_V1
+  opencitations/oc_cec_classifier:1.2.2_V2
 ```
 
 **Parameters:**
@@ -145,7 +145,7 @@ docker run -d \
 - `-v`: Mount local models directory to container
   - Replace `/your_local_PATH/models` with your actual models path
   - Can be absolute (`/home/user/models`) or relative (`./models`)
-- `1.1.0_V1` : For Version 2 use this version -> 1.2.1_V2
+- `1.2.2_V2` : For Version 1 use this version -> 1.1.0_V1
 
 ### Option 2: Docker Compose
 
