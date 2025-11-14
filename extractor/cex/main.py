@@ -118,8 +118,25 @@ def create_app():
 
     @app.route(PREFIX+'/sample/<filename>', methods=['GET'])
     def download_sample(filename):
-        sample_location = os.path.join(app.root_path, app.config['SAMPLE_FOLDER'])
-        return send_from_directory(sample_location, filename, as_attachment=True)
+        try:
+            sample_location = os.path.join(app.root_path, app.config['SAMPLE_FOLDER'])
+            full_path = os.path.join(sample_location, filename)
+            
+            app.logger.info(f"=== DEBUG SAMPLE ===")
+            app.logger.info(f"app.root_path: {app.root_path}")
+            app.logger.info(f"SAMPLE_FOLDER config: {app.config['SAMPLE_FOLDER']}")
+            app.logger.info(f"sample_location: {sample_location}")
+            app.logger.info(f"full_path: {full_path}")
+            app.logger.info(f"File exists: {os.path.exists(full_path)}")
+            app.logger.info(f"Dir exists: {os.path.exists(sample_location)}")
+            
+            if os.path.exists(sample_location):
+                app.logger.info(f"Files in dir: {os.listdir(sample_location)}")
+            
+            return send_from_directory(sample_location, filename, as_attachment=True)
+        except Exception as e:
+            app.logger.error(f"Error in download_sample: {e}", exc_info=True)
+            raise
 
     @app.route(PREFIX+'/downloads/<filename>', methods=['GET'])
     def download_file(filename):
