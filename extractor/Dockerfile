@@ -33,7 +33,7 @@ EXPOSE 5001
 
 # Run with Gunicorn con preload_app
 CMD ["gunicorn", \
-     "--workers", "2", \
+     "--workers", "4", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
      "--access-logfile", "-", \
