@@ -10,7 +10,7 @@ from werkzeug.utils import secure_filename
 import os
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired, NumberRange
-from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER
+from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, SAMPLE_FOLDER
 from cleanup import register_cleanup, clean_folder
 from utils import get_all_files_by_type, upload_manifest, process_pdf_file
 
