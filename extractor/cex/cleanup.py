@@ -33,5 +33,3 @@ def register_cleanup(*folders):
 
     signal.signal(signal.SIGINT, handle_exit_signal)
     signal.signal(signal.SIGTERM, handle_exit_signal)
-
-

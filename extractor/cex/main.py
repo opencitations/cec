@@ -1,4 +1,3 @@
-
 import logging
 import shutil
 import zipfile
@@ -11,7 +10,7 @@ from werkzeug.utils import secure_filename
 import os
 from wtforms.fields.simple import BooleanField
 from wtforms.validators import InputRequired, NumberRange
-from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER
+from settings import UPLOAD_FOLDER, DOWNLOAD_FOLDER, SAMPLE_FOLDER
 from cleanup import register_cleanup, clean_folder
 from utils import get_all_files_by_type, upload_manifest, process_pdf_file
 
@@ -36,17 +35,19 @@ def create_app():
     app.config['SECRET_KEY'] = 'supersecretkey'
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
+    app.config['SAMPLE_FOLDER'] = SAMPLE_FOLDER
 
     os.makedirs(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exist_ok=True)
     os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
+    
 
     @app.route(PREFIX,methods=['GET', "POST"])
     @app.route(PREFIX+'/home', methods=['GET', 'POST'])
 
     def home():
 
-        clean_folder(app.config['UPLOAD_FOLDER'])
-        clean_folder(app.config['DOWNLOAD_FOLDER'])
+        clean_folder(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']))
+        clean_folder(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']))
 
         os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
@@ -57,10 +58,9 @@ def create_app():
             max_workers = form.max_workers.data
             perform_alignment = form.agree.data
             create_rdf = form.agree2.data
-            save_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['UPLOAD_FOLDER'], secure_filename(file.filename))  # Then save the file
+            save_location = os.path.join(app.root_path, app.config['UPLOAD_FOLDER'], secure_filename(file.filename))  # Then save the file
             file.save(save_location)
-            download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)),
-                                             app.config['DOWNLOAD_FOLDER'])  # Then save the file
+            download_location = os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER'])  # Then save the file
 
             pdf_files, unsupported_file_types, targz_fd = get_all_files_by_type(save_location, ".pdf", app.config['UPLOAD_FOLDER'])
             manifest = []
@@ -81,15 +81,16 @@ def create_app():
                             manifest.append(manifest_info)
 
             #empty static/files
+            upload_folder_path = os.path.join(app.root_path, app.config['UPLOAD_FOLDER'])
             files=[]
             dir=[]
-            for entry in os.scandir(app.config['UPLOAD_FOLDER']):
+            for entry in os.scandir(upload_folder_path):
                 if entry.is_file():
                     files.append(entry.name)
                 elif entry.is_dir():
                     dir.append(entry)
             for file in files:
-                os.remove(os.path.join(app.config['UPLOAD_FOLDER'], file))
+                os.remove(os.path.join(upload_folder_path, file))
             for x in dir:
                 shutil.rmtree(x)
 
@@ -116,18 +117,18 @@ def create_app():
         return render_template('index.html', form=form)
 
 
-    @app.route(PREFIX+'/downloads/sample/<filename>', methods=['GET'])
+    @app.route(PREFIX+'/sample/<filename>', methods=['GET'])
     def download_sample(filename):
-        sample_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER'], 'sample')
+        sample_location = os.path.join(app.root_path, app.config['SAMPLE_FOLDER'])
         return send_from_directory(sample_location, filename, as_attachment=True)
 
     @app.route(PREFIX+'/downloads/<filename>', methods=['GET'])
     def download_file(filename):
-        download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER'])
+        download_location = os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER'])
 
         @after_this_request
         def delete_zip(response):
-            folder_path = DOWNLOAD_FOLDER
+            folder_path = os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER'])
             files = []
             dir = []
             for entry in os.scandir(folder_path):
