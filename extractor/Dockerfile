@@ -23,8 +23,7 @@ WORKDIR /app/extractor/cex
 COPY ./cex/requirements.txt .
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt && \
-    python -m spacy download en_core_web_lg
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY ./cex .
@@ -39,7 +38,7 @@ EXPOSE 5001
 
 # Run with Gunicorn con preload_app
 CMD ["gunicorn", \
-     "--workers", "4", \
+     "--workers", "2", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
      "--preload", \
