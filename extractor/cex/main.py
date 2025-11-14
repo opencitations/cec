@@ -38,6 +38,7 @@ def create_app():
 
     os.makedirs(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exist_ok=True)
     os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
+    
 
     @app.route(PREFIX,methods=['GET', "POST"])
     @app.route(PREFIX+'/home', methods=['GET', 'POST'])
@@ -45,7 +46,7 @@ def create_app():
     def home():
 
         clean_folder(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']))
-        clean_folder(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']))
+        clean_folder(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exclude=['sample'])
 
         os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
