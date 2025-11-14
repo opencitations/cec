@@ -28,11 +28,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY ./cex .
 
-# Create non-root
-RUN useradd -m -u 1000 appuser && \
-    chown -R appuser:appuser /app
-USER appuser
-
 # Expose port
 EXPOSE 5001
 
@@ -41,7 +36,6 @@ CMD ["gunicorn", \
      "--workers", "2", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
-     "--preload", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
      "--log-level", "info", \
