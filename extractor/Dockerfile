@@ -19,14 +19,14 @@ RUN apt-get update && \
 # Set working directory
 WORKDIR /app/extractor/cex
 
-# Copy solo requirements per sfruttare la cache Docker
+# Copy requirements file
 COPY ./cex/requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt && \
-    python -m spacy download en_core_web_lg==3.7.1
+    python -m spacy download en_core_web_lg
 
-# Copy il resto del codice (dopo l'installazione per cache layer)
+# Copy application code
 COPY ./cex .
 
 # Create non-root
