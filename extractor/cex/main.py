@@ -46,7 +46,7 @@ def create_app():
     def home():
 
         clean_folder(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']))
-        clean_folder(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']), exclude=['sample'])
+        clean_folder(os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER']))
 
         os.makedirs('output', exist_ok=True)
         form = UploadFileForm()
@@ -116,9 +116,9 @@ def create_app():
         return render_template('index.html', form=form)
 
 
-    @app.route(PREFIX+'/downloads/sample/<filename>', methods=['GET'])
+    @app.route(PREFIX+'/sample/<filename>', methods=['GET'])
     def download_sample(filename):
-        sample_location = os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER'], 'sample')
+        sample_location = os.path.join(app.root_path, app.config['SAMPLE_FOLDER'])
         return send_from_directory(sample_location, filename, as_attachment=True)
 
     @app.route(PREFIX+'/downloads/<filename>', methods=['GET'])

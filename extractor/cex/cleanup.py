@@ -1,3 +1,4 @@
+
 import os
 import shutil
 import logging
@@ -5,14 +6,10 @@ import atexit
 import signal
 import sys
 
-def clean_folder(folder_path, exclude=None):
-    if exclude is None:
-        exclude = []
+def clean_folder(folder_path):
     if not os.path.exists(folder_path):
         return
     for entry in os.scandir(folder_path):
-        if entry.name in exclude:
-            continue
         try:
             if entry.is_file():
                 os.remove(entry.path)
