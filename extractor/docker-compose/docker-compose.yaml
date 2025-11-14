@@ -19,7 +19,7 @@ services:
     restart: unless-stopped
 
   extractor:
-    image: opencitations/oc_cec_extractor:1.1.2
+    image: opencitations/oc_cec_extractor:1.1.3
     container_name: cec_extractor
     init: true
     ports:

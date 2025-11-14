@@ -24,11 +24,11 @@ class UploadFileForm(FlaskForm):
 
 
 def create_app():
-    PREFIX="/"
+    PREFIX="/cex"
 
     # change to default as:
     # PREFIX="/"
-    app = Flask(__name__, static_url_path=PREFIX+'static', static_folder="static")
+    app = Flask(__name__, static_url_path=PREFIX+'/static', static_folder="static")
 
     # Set up logging
     logging.basicConfig(level=logging.DEBUG)
@@ -41,7 +41,7 @@ def create_app():
     os.makedirs(os.path.join(app.root_path, app.config['UPLOAD_FOLDER']), exist_ok=True)
 
     @app.route(PREFIX,methods=['GET', "POST"])
-    @app.route(PREFIX+'home', methods=['GET', 'POST'])
+    @app.route(PREFIX+'/home', methods=['GET', 'POST'])
 
     def home():
 
@@ -117,7 +117,7 @@ def create_app():
 
 
 
-    @app.route(PREFIX+'download/<filename>', methods=['GET'])
+    @app.route(PREFIX+'/download/<filename>', methods=['GET'])
     def download_file(filename):
         download_location = os.path.join(os.path.abspath(os.path.dirname(__file__)), app.config['DOWNLOAD_FOLDER'])
 
@@ -140,17 +140,17 @@ def create_app():
         return send_from_directory(download_location, filename, as_attachment=True)
 
     from api.routes import api_blueprint
-    app.register_blueprint(api_blueprint, url_prefix=PREFIX+'api')
+    app.register_blueprint(api_blueprint, url_prefix=PREFIX+'/api')
 
     from flask import Blueprint, send_from_directory
 
     docs_blueprint = Blueprint('docs', __name__)
 
-    @app.route('/openapi.json')
+    @app.route(PREFIX+'/openapi.json')
     def openapi():
         return send_from_directory('docs', 'openapi.json')
 
-    @app.route('/docs')
+    @app.route(PREFIX+'/docs')
     def swagger_ui():
         return render_template('swagger.html')
 
