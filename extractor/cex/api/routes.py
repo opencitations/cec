@@ -11,7 +11,6 @@ import concurrent.futures
 import uuid
 
 api_blueprint = Blueprint('api', __name__)
-PREFIX="/"
 
 
 @api_blueprint.route('/extractor', methods=['POST', 'GET'])
@@ -102,7 +101,7 @@ def create_zip_file(download_location, request_id):
 
 
 
-@api_blueprint.route(PREFIX + '/download/<folder>/<filename>', methods=['GET'])
+@api_blueprint.route('/download/<folder>/<filename>', methods=['GET'])
 def download_file(folder, filename):
     try:
         download_location = os.path.join(current_app.config['DOWNLOAD_FOLDER'], folder)

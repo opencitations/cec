@@ -40,7 +40,7 @@ EXPOSE 5000
 
 # Run with Gunicorn (production-ready)
 CMD ["gunicorn", \
-     "--workers", "1", \
+     "--workers", "4", \
      "--bind", "0.0.0.0:5000", \
      "--timeout", "900", \
      "--chdir", "/app/classifier", \

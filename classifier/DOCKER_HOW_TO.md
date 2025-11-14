@@ -49,7 +49,7 @@ Insert the following content:
 ```yaml
 services:
   cic-classifier:
-    image: opencitations/oc_cec_classifier:1.2.1_V2
+    image: opencitations/oc_cec_classifier:1.2.2_V2
     container_name: cic-classifier
     ports:
       - "5000:5000"

@@ -8,5 +8,5 @@ PREDEFINED_MAPPINGS_PATH = ROOT_DIR / 'cex/semantic_alignment/predefined_mapping
 SPECIAL_CASES_PATH = ROOT_DIR / 'cex/special_cases.json'
 CONFIG_PATH = ROOT_DIR / 'cex/config.json'
 UPLOAD_FOLDER = ROOT_DIR / 'cex/static/files'
-DOWNLOAD_FOLDER = ROOT_DIR / 'cex/static/output'
+DOWNLOAD_FOLDER = ROOT_DIR / 'cex/downloads'
 PROCESSING_FOLDER = ROOT_DIR / 'cex/static/processing'

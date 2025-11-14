@@ -48,6 +48,10 @@ class GrobidClient(ApiClient):
         }
         if config_path:
             self._load_config(config_path)
+       
+        # override grobid server if environment variable is set
+        self.config['grobid_server'] = os.environ.get('GROBID_URL', self.config['grobid_server'])
+        
         if check_server:
             self._test_server_connection()
 

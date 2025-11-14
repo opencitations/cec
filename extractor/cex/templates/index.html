@@ -17,8 +17,7 @@
 
   <header class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="#">CITATION EXTRACTOR – CEX</a>
-    <a class="navbar-item" href="http://127.0.0.1:5001/docs" target="_blank" rel="noopener noreferrer">API DOCUMENTATION</a>
-
+    <a class="navbar-item" href="{{ url_for('docs.swagger_ui') }}" target="_blank" rel="noopener noreferrer">API DOCUMENTATION</a>
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,10 +62,10 @@
       <p id="pdflist">
           <h4>Some sample PDFs you can use to test the service:</h4>
           <ul>
-              <li><a href="{{ url_for('download_file', filename='AGR-BIO-SCI_3.pdf') }}">PDF_1</a></li>
-              <li><a href="{{ url_for('download_file', filename='DEC-SCI_31.pdf') }}">PDF_2</a></li>
-              <li><a href="{{ url_for('download_file', filename='MUL_79.pdf') }}">PDF_3</a></li>
-              <li><a href="{{ url_for('download_file', filename='SOC-SCI_103.pdf') }}">PDF_4</a></li>
+              <li><a href="{{ url_for('download_sample', filename='AGR-BIO-SCI_3.pdf') }}">PDF_1</a></li>
+              <li><a href="{{ url_for('download_sample', filename='DEC-SCI_31.pdf') }}">PDF_2</a></li>
+              <li><a href="{{ url_for('download_sample', filename='MUL_79.pdf') }}">PDF_3</a></li>
+              <li><a href="{{ url_for('download_sample', filename='SOC-SCI_103.pdf') }}">PDF_4</a></li>
           </ul>
       </p>
     </section>
@@ -107,7 +106,7 @@
             var formData = new FormData(this);
 
             // Send data to the Flask server using fetch API
-            fetch('/', {
+            fetch('{{ url_for("home") }}', {
                 method: 'POST',
                 body: formData
             })

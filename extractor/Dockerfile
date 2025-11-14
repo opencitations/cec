@@ -6,7 +6,8 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    URL_PREFIX=/cex
+    URL_PREFIX=/cex \
+    GROBID_URL=http://grobid:8070 
 
 
 # Install system dependencies
@@ -17,30 +18,23 @@ RUN apt-get update && \
     curl
 
 # Set working directory
-WORKDIR /app
-
-# Copy requirements first for better layer caching
-COPY cex/requirements.txt /app/requirements.txt
-
-# Install Python dependencies
-RUN pip install --no-cache-dir -r /app/requirements.txt
+WORKDIR /app/extractor/cex
 
 # Copy the entire extractor directory
-COPY ./cex /app/extractor
+COPY ./cex .
 
-# Set working directory to where the cic module is located
-WORKDIR /app/extractor
+# Install Python dependencies
+RUN pip install --no-cache-dir -r ./requirements.txt
 
 # Expose port
 EXPOSE 5001
 
 # Run with Gunicorn (production-ready)
 CMD ["gunicorn", \
-     "--workers", "1", \
+     "--workers", "4", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
-     "--chdir", "/app/extractor", \
      "--access-logfile", "-", \
      "--error-logfile", "-", \
-     "--log-level", "info", \
+     "--log-level", "debug", \
      "main:app"]

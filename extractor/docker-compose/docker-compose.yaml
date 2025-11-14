@@ -19,11 +19,13 @@ services:
     restart: unless-stopped
 
   extractor:
-    image: opencitations/oc_cec_extractor:1.1.0
+    image: opencitations/oc_cec_extractor:1.0.4
     container_name: cec_extractor
     init: true
     ports:
       - "5001:5001"
+    environment:
+      - GROBID_URL=http://grobid:8070
     restart: unless-stopped
     depends_on:
       - grobid
