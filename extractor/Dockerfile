@@ -31,7 +31,7 @@ EXPOSE 5001
 
 # Run with Gunicorn (production-ready)
 CMD ["gunicorn", \
-     "--workers", "1", \
+     "--workers", "4", \
      "--bind", "0.0.0.0:5001", \
      "--timeout", "900", \
      "--access-logfile", "-", \
