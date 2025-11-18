@@ -28,8 +28,8 @@ services:
     deploy:
       resources:
         limits:
-          memory: 32G
-          cpus: '6'
+          memory: 16G
+          cpus: '4'
         reservations:
           memory: 8G
           cpus: '2'
@@ -55,7 +55,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 32G
+          memory: 16G
         reservations:
           memory: 4G
     restart: unless-stopped
@@ -65,13 +65,12 @@ services:
 
 ## Commands
 ```bash
-docker compose up -d      # Start
-docker compose logs -f    # View logs
-docker compose down       # Stop and remove
+docker compose up -d      # Run the docker-compose.yaml
+docker compose down       # Stop all the containers
 docker compose restart    # Restart all
 ```
 
 ## Services
 
-- Classifier: http://localhost:5000
-- Extractor: http://localhost:5001
+- Classifier: http://localhost:5000/cic
+- Extractor: http://localhost:5001/cex
