@@ -41,6 +41,12 @@ services:
     init: true
     ports:
       - "5001:5001"
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 2G
     environment:
       - GROBID_URL=http://grobid:8070
     restart: unless-stopped
