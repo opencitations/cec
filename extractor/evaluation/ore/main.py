@@ -5,14 +5,12 @@ Orchestrates the complete workflow:
 1. download_xml.py      → Download JATS XML files from ORE
 2. create_corpus.py     → Process XML, download PDFs, transform to TEI
 3. create_predictions.py → Send PDFs to CEX API, get predictions
-4. correct_citations_rapidfuzz.py → Correct page number mismatches using RapidFuzz
 
 Usage:
     python pipeline_unified.py --all                    # Run all steps
     python pipeline_unified.py --step download          # Run only download
     python pipeline_unified.py --step corpus            # Run only corpus creation
     python pipeline_unified.py --step predictions       # Run only predictions
-    python pipeline_unified.py --step corrections       # Run only corrections
     python pipeline_unified.py --step corpus --step predictions  # Run multiple steps
 """
 import asyncio
