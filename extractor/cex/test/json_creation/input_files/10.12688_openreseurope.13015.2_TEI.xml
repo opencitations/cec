@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <text>
+      <body>
+         <div type="intro">
+            <head n="1">Introduction</head>
+            <p>Transmission electron microscopy (TEM) is one of the most versatile and powerful experimental tools for the imaging and diffraction of structures ranging from the micrometer scale with sub-Ångström resolution now routinely achievable in modern aberration corrected instruments. In TEM, information about the sample structure is encoded in the scattering of the electron waves by the full electromagnetic potential of the specimen, which is dominated by the atomic electrostatic potentials. These potentials include the contribution of the screened nuclear cores as well as the valence electron density of the sample, and since valence electrons are responsible for binding the material together, studying them is of significant scientific interest.</p>
+            <p>The modern electron microscope should be an ideal tool for the high-resolution imaging of charge redistribution caused by chemical bonding, but these measurements are a challenge because only a small fraction of the total electrons in a material participate in bonding, and because the dense cores dominate the scattering signal. However, as improvements in instrumentation and techniques continue rapidly, this is likely to increasingly change, as evidenced by the surging popularity of techniques such as four-dimensional scanning transmission electron microscopy (4D-STEM) combined with ptychography in materials science, and cryogenic microcrystal electron diffraction in structural biology.</p>
+            <p>To reliably quantify subtle differences in the scattering signal, precise alignment of the instrument and a careful comparison between theoretical models and experiments are required. The use of image simulations has long aided this process, and many excellent codes have been developed. However, these have exclusively relied on the independent atom model (IAM), which approximates the specimen potential as a superposition of isolated atoms, completely neglecting chemical bonding. A growing number of studies are going beyond the IAM by calculating the potential using density functional theory (DFT)<ref type="bibr" target="#ref-1">1</ref><ref type="bibr" target="#ref-2">2</ref><ref type="bibr" target="#ref-3">3</ref><ref type="bibr" target="#ref-4">4</ref><ref type="bibr" target="#ref-5">5</ref><ref type="bibr" target="#ref-6">6</ref><ref type="bibr" target="#ref-7">7</ref>. As expected, these studies find a better agreement for a range of different materials when comparing to measurements that are sensitive to valence electron density, such as holography and various forms of phase-contrast imaging.</p>
+            <p>The most common image simulation method is the multislice algorithm, and there is no shortage of codes implementing it<ref type="bibr" target="#ref-8">8</ref><ref type="bibr" target="#ref-9">9</ref><ref type="bibr" target="#ref-10">10</ref><ref type="bibr" target="#ref-11">11</ref><ref type="bibr" target="#ref-12">12</ref><ref type="bibr" target="#ref-13">13</ref><ref type="bibr" target="#ref-14">14</ref><ref type="bibr" target="#ref-15">15</ref><ref type="bibr" target="#ref-16">16</ref><ref type="bibr" target="#ref-17">17</ref><ref type="bibr" target="#ref-18">18</ref><ref type="bibr" target="#ref-19">19</ref>, though the degree of support and documentation varies widely. Implementations have remained largely similar for a good while, apart from some iterative improvements. One significant recent development has been to use one (or more) graphics processing units (GPUs) for accelerating the calculations. In terms of methods, the most important recent advancement is the development of the PRISM algorithm, which massively accelerates scanning TEM (STEM) simulations<ref type="bibr" target="#ref-20">20</ref>.</p>
+            <p>Here, we present the abTEM code, which is a new multislice image simulation package created to seamlessly merge DFT and other atomistic modeling methods with electron scattering simulations, providing a much easier way of performing TEM simulations with an ab initio description of bonding. We have implemented both the multislice and PRISM algorithms to simulate all the standard imaging modes.</p>
+            <p>abTEM is further distinguished from existing codes by its pure Python implementation and focus on user extendability. We show that thanks to the effective utilization of open-source libraries, the performance of abTEM is as good or even better compared to similar codes implemented in programming languages that have traditionally been considered superior in performance, such as C or Fortran. abTEM already includes fast GPU implementations of all of its algorithms on widely used NVidia GPUs, and support for products from AMD is planned for the near future.</p>
+            <p>abTEM is an open-source project under the GPLv3 license, and we welcome contributions via our open<ref type="external" target="https://github.com/jacobjma/abTEM">Github repository</ref>
+               <ref type="bibr" target="#ref-21">21</ref>. Documentation and code examples are found<ref type="external" target="https://abtem.readthedocs.io/en/latest/index.html">online</ref>. The code was announced at the M&amp;M 2020 meeting<ref type="bibr" target="#ref-22">22</ref>, and it supersedes and replaces our earlier P yQSTEM code<ref type="bibr" target="#ref-6">6</ref>.</p>
+            <p>This article is organized as follows: in<ref type="other" target="#s2">Section 2</ref>, we discuss the physical methodology behind abTEM, including its implementation of the multislice electron scattering algorithm, IAM and ab initio potentials, the PRISM algorithm, and inelastic and thermal diffuse scattering. Next, in<ref type="other" target="#s3">Section 3</ref>we give brief remarks on our implementation details, followed by illustrative code examples. In<ref type="other" target="#s4">Section 4</ref>, we discuss in turn programmatic modularity, dependencies and availability, interactive dashboards, and finally GPU memory management. We then turn to actual use cases in<ref type="other" target="#s5">Section 5</ref>, providing novel results on systems that highlight how easy it is to use ab initio electrostatic potentials and how fast and efficient abTEM is. Finally, we end with a brief conclusion in<ref type="other" target="#s6">Section 6</ref>, including features that we plan to develop next.</p>
+         </div>
+         <div type="methods">
+            <head n="2">Methods and algorithms</head>
+            <div>
+               <head n="2.1">Multislice</head>
+               <p>The multislice algorithm can be used to simulate any kind of TEM measurement: what differs is only how the input wave function of the electron probe is defined and how the scattered exit wave function is detected. Since the multislice algorithm is conceptually quite simple and discussed in detail elsewhere<ref type="bibr" target="#ref-8">8</ref>, we provide only a brief sketch of the method here.</p>
+               <p>In the multislice algorithm, the specimen electrostatic potential is divided into thin slices along the beam propagation direction (which by abTEM convention is the z axis). Scattering is calculated by alternating so-called phase object transmission through each slice with propagation of the wave to the next. For an electron wave n impinging on slice number n, this can be expressed as</p>
+               <formula type="display" id="e1">
+                  <math display="block" id="math1">
+                     <mrow>
+                        <msub>
+                           <mrow>
+                              <mo stretchy="false">(</mo>
+                              <mi>n</mi>
+                              <mo>+</mo>
+                              <mn>1</mn>
+                              <mo stretchy="false">)</mo>
+                           </mrow>
+                        </msub>
+                        <mo>=</mo>
+                        <mi>p</mi>
+                        <mo>*</mo>
+                        <mo stretchy="false">(</mo>
+                        <msub>
+                           <mi>n</mi>
+                        </msub>
+                        <msub>
+                           <mi>t</mi>
+                           <mi>n</mi>
+                        </msub>
+                        <mo stretchy="false">)</mo>
+                        <mo>,</mo>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>where p is the Fresnel free-space propagator, * represents the convolution operation, and the transmission function t n is defined as</p>
+               <formula type="display" id="e2">
+                  <math display="block" id="math2">
+                     <mrow>
+                        <msub>
+                           <mi>t</mi>
+                           <mi>n</mi>
+                        </msub>
+                        <mo stretchy="false">(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo stretchy="false">)</mo>
+                        <mo>=</mo>
+                        <mi>exp</mi>
+                        <mo>⁡</mo>
+                        <mspace width="0.2em"/>
+                        <mo stretchy="false">(</mo>
+                        <mi>i</mi>
+                        <mi>σ</mi>
+                        <msub>
+                           <mi>V</mi>
+                           <mi>n</mi>
+                        </msub>
+                        <mo stretchy="false">(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo stretchy="false">)</mo>
+                        <mo stretchy="false">)</mo>
+                        <mo>,</mo>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>where i is the imaginary unit, σ is the interaction constant dependent on the electron wavelength λ, and</p>
+               <formula type="display" id="e3">
+                  <math display="block" id="math3">
+                     <mspace width="6em"/>
+                     <mrow>
+                        <msub>
+                           <mi>V</mi>
+                           <mi>n</mi>
+                        </msub>
+                        <mo stretchy="false">(</mo>
+                        <mi>x</mi>
+                        <mo>,</mo>
+                        <mi>y</mi>
+                        <mo stretchy="false">)</mo>
+                        <mo>=</mo>
+                        <mstyle displaystyle="true">
+                           <mrow>
+                              <msubsup>
+                                 <mo>∫</mo>
+                                 <mrow>
+                                    <msub>
+                                       <mi>z</mi>
+                                       <mi>n</mi>
+                                    </msub>
+                                 </mrow>
+                                 <mrow>
+                                    <msub>
+                                       <mi>z</mi>
+                                       <mi>n</mi>
+                                    </msub>
+                                    <mo>+</mo>
+                                    <mtext>Δ</mtext>
+                                    <mi>z</mi>
+                                 </mrow>
+                              </msubsup>
+                              <mrow>
+                                 <mi>V</mi>
+                                 <mo stretchy="false">(</mo>
+                                 <mi>x</mi>
+                                 <mo>,</mo>
+                                 <mi>y</mi>
+                                 <mo>,</mo>
+                                 <mi>z</mi>
+                                 <mo stretchy="false">)</mo>
+                                 <mi>d</mi>
+                                 <mi>z</mi>
+                              </mrow>
+                           </mrow>
+                        </mstyle>
+                        <mspace width="8em"/>
+                        <mo stretchy="false">(</mo>
+                        <mn>1</mn>
+                        <mo stretchy="false">)</mo>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>is the n’th projected potential slice with thickness ∆ z.</p>
+               <p>The convolution is conveniently calculated as a multiplication in Fourier space via a succession of a forward and an inverse Fourier transform. Another Fourier transform is needed to bandwidth-limit the transmission function and the Fresnel propagator to 2 /3 of the Nyquist frequency to avoid aliasing artifacts<ref type="bibr" target="#ref-8">8</ref>.</p>
+               <p>The Fourier transforms are carried out efficiently using the fast Fourier transform algorithm implemented in the efficient FFTW<ref type="bibr" target="#ref-23">23</ref>and cuFFT libraries on CPU and CUDA-enabled GPUs, respectively.</p>
+            </div>
+            <div>
+               <head n="2.2">Potentials</head>
+               <p>The electrostatic potential of a specimen determines how transmitting electrons scatter and thus connects the properties of the material to the resulting images or diffraction patterns. Conversely, by directly analyzing scattered intensities or comparing them to simulations of the specimen electrostatic potential, the properties of the sample can be deduced. Fundamentally, the electrostatic potential is directly derived from the electron density of the atoms in a specimen, which is described by their quantum mechanical many-body wave function.</p>
+               <p>Since this cannot be analytically solved except for the very simplest of molecules, various approximations have been developed, such as early Hartree-Fock-Slater and Dirac-Fock formalisms. In the context of electron scattering, these highly accurate but computationally extremely expensive techniques can be used to parametrize (IAMs). However, there is increasing interest in a fully ab initio approach to calculating the specimen potential<ref type="bibr" target="#ref-22">22</ref>. The most widely used and powerful such method is DFT, where the many-body problem of N electrons with 3 N spatial coordinates is reduced to a variational solution for the three spatial coordinates of the electron density.</p>
+               <p>While abTEM is designed explicitly for ab initio potentials, IAM potentials can in many cases be sufficient or useful: for example, typical annular dark-field contrast in STEM is dominated by nuclear scattering and thus well described by the IAM, and in general, comparing images or diffraction patterns simulated with ab initio potentials to the IAM allows the effects of chemical bonding to be elucidated. Thus, abTEM supports common parametrized IAM potentials in addition to its integration with DFT methods.</p>
+            </div>
+            <div>
+               <head n="2.3">Parametrized potentials</head>
+               <p>A potential parametrization, as pioneered by Doyle and Turner<ref type="bibr" target="#ref-24">24</ref>, is a numerical fit to atomic electron scattering factors calculated from first principles, describing the radial dependence of the potential for each element. abTEM supports two of the most accurate recent parametrizations: that by Lobato and Van Dyck<ref type="bibr" target="#ref-25">25</ref>(which is the abTEM default) and by Kirkland<ref type="bibr" target="#ref-8">8</ref>.</p>
+               <p>Building upon earlier work Weickenmeier and Kohl<ref type="bibr" target="#ref-26">26</ref>as well as Peng et al.<ref type="bibr" target="#ref-27">27</ref>, Kirkland accurately fitted a combination of Gaussians and Lorentzians to Dirac-Fock scattering factors, providing a widely used and robust parametrization that was distributed digitally from 1998 onwards. In 2014, Lobato and Van Dyck improved the quality of the fit further, using hydrogen’s analytical non-relativistic electron scattering factors as basis functions to enable the correct inclusion of all physical constraints, providing to date the most accurate universal neutral atom parameter set<ref type="bibr" target="#ref-25">25</ref>. For a comparison of several parametrizations to each other as well as quantitative experimental data for 2D materials, please see Ref.<ref type="bibr" target="#ref-6">6</ref>.</p>
+               <p>2.3.1 ab initio potentials. Although the ground-state electron density for all electrons could be numerically solved in DFT, the description of electron wave functions near the nuclei is computationally very expensive, and thus most practical approaches have adopted some partition between the core and valence regions. While reference methods such as linearized full-potential augmented plane waves (FLAPW) are very accurate, their computational expense limits them to around a hundred atoms, which is insufficient for most TEM simulations.</p>
+               <p>In recent years, pseudopotential<ref type="bibr" target="#ref-28">28</ref>and projector-augmented wave (PAW) methods<ref type="bibr" target="#ref-29">29</ref>have offered much greater computational efficiency. In both, the core electrons are not described explicitly but replaced by a smooth pseudo-density in the former, and in the latter by smooth analytical projector functions in the core region. The PAW method is arguably better suited for obtaining efficient and accurate ab initio all-electron electrostatic potentials, since inverting the projector functions allows the true core electron density to be analytically recovered (for an extended discussion, see Ref.<ref type="bibr" target="#ref-22">22</ref>). As such, this is the approach chosen for abTEM, specifically via the grid-based DFT code GPAW.</p>
+               <p>In the PAW formalism<ref type="bibr" target="#ref-29">29</ref>, the total charge density ρ( r) is a sum of the squared explicitly computed all-electron valence wave functions, the (frozen) core electron density derived from the PAW projector functions, and the nuclei that are treated as point charges. The charge density is divided into a smooth part ( r) plus corrections for each atom a: ρ a( r) − ( r), where the smooth part is given as pseudo wave functions and pseudo core charges. We can obtain the electrostatic potential v( r) by solving the Poisson equation in two separated steps for the pseudo part and within the atomic augmentation spheres, and finally adding smeared nuclear charges to avoid the corrections diverging as −Z a/r near the nuclei in the total charge density.</p>
+               <formula type="inline">
+                  <math display="inline" id="M1">
+                     <mover accent="true">
+                        <mi>ρ</mi>
+                        <mo>˜</mo>
+                     </mover>
+                  </math>
+               </formula>
+               <p>( r) plus corrections for each atom a: ρ a( r) − ( r), where the smooth part is given as pseudo wave functions and pseudo core charges. We can obtain the electrostatic potential v( r) by solving the Poisson equation in two separated steps for the pseudo part and within the atomic augmentation spheres, and finally adding smeared nuclear charges to avoid the corrections diverging as −Z a/r near the nuclei in the total charge density.</p>
+               <formula type="inline">
+                  <math display="inline" id="M2">
+                     <mrow>
+                        <msup>
+                           <mover accent="true">
+                              <mi>ρ</mi>
+                              <mo>˜</mo>
+                           </mover>
+                           <mi>a</mi>
+                        </msup>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>( r), where the smooth part is given as pseudo wave functions and pseudo core charges. We can obtain the electrostatic potential v( r) by solving the Poisson equation in two separated steps for the pseudo part and within the atomic augmentation spheres, and finally adding smeared nuclear charges to avoid the corrections diverging as −Z a/r near the nuclei in the total charge density.</p>
+               <p>The wavefunctions, electron density, and potential are described on real-space numerical grids, whose density controls the accuracy of the calculation (though not in a variational manner, unlike in traditional plane-wave bases also supported by GPAW). A detailed description of the code is given in Refs.<ref type="bibr" target="#ref-30">30</ref>,<ref type="bibr" target="#ref-31">31</ref>, while the all-electron electrostatic potentials derived from it are described in our earlier work in Ref.<ref type="bibr" target="#ref-6">6</ref>.</p>
+               <p>It is worth noting that like other codes, abTEM currently uses only the electro static potential, whereas electrons in truth interact with both electric and magnetic fields via the Lorentz force. This approximation is well justified by the fact that magnetic interactions are much weaker, but there is emerging interest in multislice simulations that also account for magnetism<ref type="bibr" target="#ref-32">32</ref>. An ab initio approach is obviously ideally suited for such modeling, and our integration with the highly scalable GPAW code makes large magnetic domains or nanostructures feasible to treat from first principles.</p>
+               <p>2.3.2 Potential slicing. The multislice method requires a mathematical slicing of the potential into xy planes as given by<ref type="other" target="#e1">Equation 1</ref>. abTEM implements two alternative methods for projecting the potential: the formally correct finite numerical integrals, and a less accurate but commonly used and much faster method of using analytically solvable infinite integrals.</p>
+               <p>The finite projection method is based on evaluating the singular potential functions in real space. The singularities are removed by effectively convolving the 3D potential with a Gaussian whose standard deviation is equal to the real-space grid spacing. This is implemented using the convolution theorem; the 3D scattering factor is multiplied by a Gaussian, and the resulting radial function is Fourier-transformed to obtain the a radial potential function without a singularity.</p>
+               <p>We evaluate the the finite numerical projection integrals in<ref type="other" target="#e1">Equation 1</ref>following the work of Lobato and Van Dyck<ref type="bibr" target="#ref-13">13</ref>. The integrals are handled by the double exponential Tanh–Sinh quadrature<ref type="bibr" target="#ref-33">33</ref>, which is designed for accurate evaluation of functions with endpoint singularities. Integrals across the sharply peaked cores are split into two integrals at the atomic position and the number of weights and nodes of the quadrature are determined such that the error is smaller than a given tolerance using a worst-case error estimate.</p>
+               <p>Instead of performing the expensive integral at each grid point, it is calculated along a radial line and interpolated on the simulation grid. Due to the rapid change of the atomic potentials near the core, the evaluation points of the integrals are geometrically spaced. The potential is set to zero outside a cutoff radius, determined for each atomic species such the error is smaller than a given tolerance. The use of the cut-off radius creates a discontinuity, hence we use a tapering cut-off function.</p>
+               <p>For simulations with thousands of atoms, a large proportion of the integrals are likely to be almost identical, and thus a cache is automatically used for saving the integrals and reusing their results if integration limits are identical within a given tolerance.</p>
+               <p>The potential slices are calculated in parallel using multithreading on both GPUs and CPUs. If the entire potential is too large to hold in memory, it is possible to calculate a smaller number of slices as they are needed. The maximum number of slices calculated in parallel is automatically estimated based on available system memory.</p>
+               <p>Most other codes use only the infinite projection method for calculating the projected potential, which assigns the infinite projection of each atom to a single slice. The fastest method of implementing this is by placing delta functions at the atomic positions and convolving the superposition with analytical potentials<ref type="bibr" target="#ref-11">11</ref>. The convolution is efficiently evaluated by multiplying the Fourier-transformed superposition of delta functions with the 2D scattering factors, thereby also avoiding the issue of real-space singularities. The result is divided by a Sinc function to compensate for the finite size of the discretized delta functions.</p>
+               <p>This infinite projection method is up to 100 times faster than using finite projection integrals. The error can be up to a few percent in regions between the atoms, but much less when nuclear scattering is dominant. An example in our<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">online repository</ref>explores these differences<ref type="bibr" target="#ref-21">21</ref>.</p>
+            </div>
+            <div>
+               <head n="2.4">PRISM</head>
+               <p>Although it is universally applicable and conceptually simple, the multislice algorithm is not very efficient for large-scale STEM simulations, where the electron probe scans across the specimen: while the atomic potentials can be reused for different probe positions, the remainder of the calculation must be run independently. For STEM simulations consisting of thousands or even millions of probe positions, this is very costly. This problem is directly addressed by the recently developed PRISM algorithm<ref type="bibr" target="#ref-16">16</ref>,<ref type="bibr" target="#ref-20">20</ref>.</p>
+               <p>The PRISM algorithm takes advantage of the fact that the electron probe can be expressed as a plane-wave expansion. Using the linearity of the multislice algorithm with respect to the wave function, the individual plane-wave basis functions can be propagated through the specimen independently. The set of plane waves at the exit surface, defined as the scattering matrix, can be coherently summed to calculate a scattered probe. The position and aberrations of the scattered probe can be chosen by multiplying each plane wave, ϕ nm, by an appropriate complex coefficient prior to summation:</p>
+               <formula type="display" id="e4">
+                  <math display="block" id="math4">
+                     <mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi>r</mi>
+                        <mo>,</mo>
+                        <msub>
+                           <mi>r</mi>
+                           <mn>0</mn>
+                        </msub>
+                        <mo stretchy="false">)</mo>
+                        <mo>=</mo>
+                        <mstyle displaystyle="true">
+                           <munder>
+                              <mo>∑</mo>
+                              <mrow>
+                                 <mi>n</mi>
+                                 <mi>m</mi>
+                              </mrow>
+                           </munder>
+                           <mrow>
+                              <msub>
+                                 <mi mathvariant="bold-italic">α</mi>
+                                 <mrow>
+                                    <mi>n</mi>
+                                    <mi>m</mi>
+                                 </mrow>
+                              </msub>
+                              <mo stretchy="false">(</mo>
+                              <msub>
+                                 <mi>r</mi>
+                                 <mn>0</mn>
+                              </msub>
+                              <mo stretchy="false">)</mo>
+                              <msub>
+                                 <mi>ϕ</mi>
+                                 <mrow>
+                                    <mi>n</mi>
+                                    <mi>m</mi>
+                                 </mrow>
+                              </msub>
+                              <mo stretchy="false">(</mo>
+                              <mi>r</mi>
+                              <mo stretchy="false">)</mo>
+                              <mo>,</mo>
+                              <mspace width="1.2em"/>
+                              <msub>
+                                 <mi>ϕ</mi>
+                                 <mrow>
+                                    <mi>n</mi>
+                                    <mi>m</mi>
+                                 </mrow>
+                              </msub>
+                              <mspace width="0.3em"/>
+                              <mo>=</mo>
+                              <mi>exp</mi>
+                              <mo>⁡</mo>
+                              <mo stretchy="false">(</mo>
+                              <mo>−</mo>
+                              <mn>2</mn>
+                              <mi>π</mi>
+                              <mi>i</mi>
+                              <msub>
+                                 <mi mathvariant="bold-italic">q</mi>
+                                 <mrow>
+                                    <mi>n</mi>
+                                    <mi>m</mi>
+                                 </mrow>
+                              </msub>
+                              <mo>⋅</mo>
+                              <mspace width="0.2em"/>
+                              <mi mathvariant="bold-italic">r</mi>
+                              <mo stretchy="false">)</mo>
+                              <mo>,</mo>
+                           </mrow>
+                        </mstyle>
+                        <mspace width="1em"/>
+                        <mo stretchy="false">(</mo>
+                        <mn>2</mn>
+                        <mo stretchy="false">)</mo>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>where the coefficient, αnm, depends on the aberrations and the desired probe position r0. The wave vector, q nm, must fulfill</p>
+               <formula type="display" id="e5">
+                  <math display="block" id="math5">
+                     <mrow>
+                        <msub>
+                           <mi mathvariant="bold-italic">q</mi>
+                           <mrow>
+                              <mi>n</mi>
+                              <mi>m</mi>
+                           </mrow>
+                        </msub>
+                        <mo>=</mo>
+                        <mo stretchy="false">(</mo>
+                        <mi>n</mi>
+                        <mi>f</mi>
+                        <msub>
+                           <mo>Δ</mo>
+                           <mi>q</mi>
+                        </msub>
+                        <mo>,</mo>
+                        <mi>m</mi>
+                        <mi>f</mi>
+                        <msub>
+                           <mo>Δ</mo>
+                           <mi>q</mi>
+                        </msub>
+                        <mo stretchy="false">)</mo>
+                        <mo>,</mo>
+                     </mrow>
+                     <mspace width="18em"/>
+                     <mo stretchy="false">(</mo>
+                     <mn>3</mn>
+                     <mo stretchy="false">)</mo>
+                  </math>
+               </formula>
+               <p>where Δ q is the Fourier space pixel size, the integer f is the interpolation factor, and the integers m and n represents the plane-wave index fulfilling</p>
+               <formula type="display" id="e6">
+                  <math display="block" id="math6">
+                     <mspace width="6em"/>
+                     <mrow>
+                        <msqrt>
+                           <mrow>
+                              <msup>
+                                 <mi>m</mi>
+                                 <mn>2</mn>
+                              </msup>
+                              <mo>+</mo>
+                              <msup>
+                                 <mi>n</mi>
+                                 <mn>2</mn>
+                              </msup>
+                           </mrow>
+                        </msqrt>
+                        <mi>f</mi>
+                        <mo>λ</mo>
+                        <mtext>Δ</mtext>
+                        <mi>q</mi>
+                        <mspace width="0.3em"/>
+                        <mo>≤</mo>
+                        <mspace width="0.2em"/>
+                        <msub>
+                           <mi>α</mi>
+                           <mrow>
+                              <mi>m</mi>
+                              <mi>a</mi>
+                              <mi>x</mi>
+                           </mrow>
+                        </msub>
+                        <mo>,</mo>
+                        <mspace width="11em"/>
+                        <mo stretchy="false">(</mo>
+                        <mn>4</mn>
+                        <mo stretchy="false">)</mo>
+                     </mrow>
+                  </math>
+               </formula>
+               <p>where α max is the probe convergence semi-angle. The size of the basis is naturally limited by the aperture and can be further reduced by a factor of f2 at the cost of accuracy. Increasing the interpolation factor, and thus keeping only every f'th coefficient in Fourier space, corresponds to tiling the probe f times in real space, hence the interpolation factor should be chosen such that the tiled probes does not interact. To aid users abTEM implements methods for estimating the error and choosing an appropriate level of interpolation.</p>
+               <p>When the interpolation factor is greater than one, the result needs to be cropped so only the desired probe and not its repetitions are included. Due to the memory-size of the scattering matrix the computational cost of the cropping operation is non-trivial. In the original implementation<ref type="bibr" target="#ref-16">16</ref>, the scattering matrix is cropped before the sum reduction in<ref type="other" target="#e4">Equation 2</ref>is performed, ensuring that a minimum number of operations are necessary. Our algorithm differs by cropping after performing the reduction for a batch of positions: a chunk of the scattering matrix, large enough for calculating all positions in the batch, is selected and if necessary, is transferred to the GPU. The coefficients for the entire batch are calculated, and the reduction is performed simultaneously for all positions in the batch using multithreaded parallelization. Lastly, the cropping is performed on the much smaller reduced array.</p>
+               <p>Our implementation requires more floating-point operations than strictly necessary, but calculations are performed with fewer memory transfers and expensive kernel launches from Python. To minimize excess work, probe-position batches are taken as compact squares in order to have as much overlap of the necessary parts of the scattering matrix as possible. This implementation has the unusual feature that its speed does not necessarily increase monotonically with the batch size: The amount of excess work increases with the batch size, so once full thread utilization is reached, further increase of the batch size may degrade the performance.</p>
+               <p>In<ref type="other" target="#s5">Section 5</ref>, we directly compare the abTEM implementation of PRISM to the Prismatic code<ref type="bibr" target="#ref-16">16</ref>, demonstrating the highly competitive performance of our pure Python code.</p>
+            </div>
+            <div>
+               <head n="2.5">Inelastic scattering</head>
+               <p>The basic version of the multislice algorithm assumes that the electron beam scatters only elastically. In real materials, the electrons also undergo inelastic energy loss, which affects their interference and contributes to backgrounds. Furthermore, the atoms of the target are not static but in constant motion due to zero-point vibrations and thermal phonon occupations.</p>
+               <p>Inelastic scattering can be approximately modeled using an absorptive potential<ref type="bibr" target="#ref-34">34</ref>, where the imaginary part of a complex electrostatic potential is used to describe the loss of electrons from the elastic channel. However, in this approach, the inelastically interacting electrons are simply removed from an otherwise purely elastic scattering calculation. Although this is computationally efficient, the method’s serious weaknesses are that the electron flux is not conserved, and high-angle scattering is underestimated. For the case of phonon scattering, this limitation is overcome in the widely used frozen phonon model (see below).</p>
+               <p>The frozen phonon model has become standard in most multislice programs. However, there is also increasing interest in explicitly simulating spectra for low energy losses, which can be theoretically quite challenging<ref type="bibr" target="#ref-35">35</ref>,<ref type="bibr" target="#ref-36">36</ref>. Very recently, Zeiger and Rusz developed a novel method for modeling low-loss electron energy-loss spectroscopy (EELS) based on molecular dynamics and multislice simulations<ref type="bibr" target="#ref-37">37</ref>, for which our code is ideally suited. Moving up in energy, plasmon scattering is, to our knowledge, not included in any publicly available code, perhaps because they are less important for high-angle scattering<ref type="bibr" target="#ref-38">38</ref>. Plasmon modeling following a Monte Carlo method by Mendis<ref type="bibr" target="#ref-39">39</ref>is planned for a future release.</p>
+               <p>Finally, inner-shell ionization is of particular interest as a spectroscopic fingerprint of elements and their bonding. EELS, including dynamical scattering, can be modeled by combining multislice simulations with the transition potentials for the elements of interest<ref type="bibr" target="#ref-12">12</ref>. Simulating EEL spectrum images used to be extremely computationally demanding, but recently a much faster method was developed by Brown<ref type="bibr" target="#ref-40">40</ref>. These algorithms are currently being implemented into abTEM, further improving its ab initio capabilities.</p>
+               <p>2.5.1 Thermal diffuse scattering. Thermal diffuse scattering (TDS), or electron-phonon scattering, is important both in STEM and high-resolution TEM (HRTEM) and is responsible for features including diffuse backgrounds and Kikuchi lines as well as for a large part of the annular dark-field signal<ref type="bibr" target="#ref-41">41</ref>. The most common and successful method for simulating TDS with dynamical scattering is the frozen phonon model. Its basic idea relies on a rather classical picture where each electron sees a different configuration of atoms displaced from equilibrium by thermal vibrations. Despite its simplicity, the model’s accuracy has been substantiated both theoretically<ref type="bibr" target="#ref-42">42</ref>and numerically by comparison to a fully quantum mechanical model in the standard Born–Oppenheimer approximation<ref type="bibr" target="#ref-43">43</ref>.</p>
+               <p>The frozen phonon structures are usually created by independently displacing each atom according to a Gaussian distribution with a fixed width depending on the element, i.e., following the approximate Einstein model. A more accurate thermal ensemble can be directly generated through molecular dynamics simulations at a given temperature<ref type="bibr" target="#ref-44">44</ref>. In abTEM this is facilitated through the Atomic Simulation Environment (ASE)<ref type="bibr" target="#ref-45">45</ref>, which interfaces with several popular MD codes. abTEM’s<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">example library</ref>include a single-worksheet demonstration of using the high-performance classical MD code LAMMPS<ref type="bibr" target="#ref-46">46</ref>through ASE in conjunction with abTEM.</p>
+            </div>
+         </div>
+         <div>
+            <head n="3">Implementation</head>
+            <div>
+               <head n="3.1">Python</head>
+               <p>Most multislice codes have a somewhat rigid character, using a graphical user interface or input files to control the execution of binaries written in compiled languages such as Fortran and C. A distinguishing feature of abTEM is that all tasks are accomplished by writing and running Python scripts. Python is a dynamically typed programming language with clear and expressive syntax. It can be used for writing everything from small scripts to large programs and libraries like abTEM itself. The Python language has continually gained popularity for scientific computing for the past two decades, thanks in particular to its extensive and broad base of open-source libraries. In the TEM community, this includes packages such as H yperS py<ref type="bibr" target="#ref-47">47</ref>and P y4DSTEM<ref type="bibr" target="#ref-48">48</ref>.</p>
+               <p>Some multislice codes have a Python or MATLAB scripting interface<ref type="bibr" target="#ref-13">13</ref>,<ref type="bibr" target="#ref-16">16</ref>, but the level of interactivity rarely goes beyond automation of input and output of fixed simulation modes. Our previous effort in providing a Python interface to the powerful multislice code QSTEM went somewhat further, but the actual simulations were still not performed by P yQSTEM itself<ref type="bibr" target="#ref-6">6</ref>. Now, abTEM relies on external Python libraries only to handle atoms and DFT calculations, or to enhance its numerical performance.</p>
+               <p>abTEM also differs from earlier codes by not directly implementing any common imaging modes, but invites the user instead to mix and match objects to construct the desired simulation. The design patterns used by abTEM thus take inspiration from object-oriented scientific codes, particularly ASE<ref type="bibr" target="#ref-45">45</ref>, which is also used for importing and manipulating atomic structures and interfacing with other atomistic simulation codes. The idea behind this approach is that the user operates using understandable concepts from physics instead of computational details. abTEM provides Python classes like<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Waves</monospace>that store the wave function as a N umP y array, and implements methods like<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">multislice</monospace>for propagating the wave function. In<ref type="figure" target="#f1">Figure 1</ref>, we show common objects the user can expect to interact with.</p>
+            </div>
+            <div>
+               <head n="3.2">Modularity</head>
+               <p>A key design principle in object-oriented programming is to keep different objects independent, improving readability and simplifying further development as contributors only need familiarity with a fraction of the codebase. The objects in<ref type="figure" target="#f1">Figure 1</ref>are divided into categories, and the objects within a category are generally made to be interchangeable. To use similar classes interchangeably in conjunction with others requires that the classes follow a template. A considerable amount of thought has gone into creating templates that allow flexibility to implement new functionality with the minimum effort. Further, since all code is open source in Python, this is highly accessible even for non-expert users.</p>
+               <p>Each of the classes shown in<ref type="figure" target="#f1">Figure 1</ref>is a subclass of an abstract base class. Any new class within that category is required to implement some basic methods and properties. For example, any detector should implement a minimum of two methods: the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">allocate_measurement</monospace>method for creating an array in memory or as an HDF5 file for storing the results, and the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">detect</monospace>method for taking a wave function object and returning a corresponding measurement. A detector following this pattern is automatically compatible with any other algorithm implemented in abTEM.</p>
+            </div>
+            <div>
+               <head n="3.3">Performance and dependencies</head>
+               <p>Dynamic interpreted languages such as Python are attractive for domain experts and scientists trying out new ideas. However, the performance of the interpreter is often a barrier to high performance. To mitigate this, N umP y is one of the most important scientific libraries in the Python ecosystem as it provides a multi-dimensional array (<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ndarray</monospace>) object that has become the foundation of efficient numeric computation in Python. If an operation can be performed with a single call to a N umP y function, the performance matches the underlying implementation in C. However, this is not always possible, and scientific codes often rely on Python C extensions to efficiently implement custom computation. For example, the DFT code GPAW<ref type="external" target="https://wiki.fysik.dtu.dk/gpaw/devel/devel.html#statistics">consists</ref>of about 90% Python with a small amount of computationally demanding functionality implemented in C.</p>
+               <p>The process of writing a Python C extension can be error-prone due to the difficulty of manually managing the reference counts of Python objects and generally requires a lot of ‘boilerplate’ code, even for simple use cases. Further, the inclusion of compiled code complicates the release of cross-platform programs, as it requires the user to be familiar with code-compilation or the maintainer to provide precompiled binaries. abTEM achieves high performance without C extensions by using the N umba library<ref type="bibr" target="#ref-49">49</ref>, which is a just-in-time Python compiler that focuses on scientific and array-oriented computing. N umba analyzes and optimizes Python code and then uses the LLVM compiler library to generate machine code with a performance similar to that of C.</p>
+               <p>Python’s recent popularity in machine learning has led to the release of high-performance libraries for GPU-accelerated calculations. According to our benchmarks, pre-eminent GPU libraries’ speed is largely identical for performance-critical FFT and matrix multiplication operations. Our choice to use C uP y<ref type="bibr" target="#ref-50">50</ref>comes down to its compatibility with N umpy: C uP y can in most cases be used as a drop-in replacement, while users without access to a compatible GPU can install abTEM without it. Due to C uP y limitations, abTEM currently only supports Nvidia’s CUDA toolkit on Windows and Linux, requiring an NVidia graphics card – all GPU multislice programs currently require CUDA, apart from the STEM cl package<ref type="bibr" target="#ref-18">18</ref>, which uses the non-proprietary OpenCL framework. However, OpenCL is, according to our testing, slower than CUDA. abTEM will soon expand to support AMD ROCm GPUs on Linux following the next release of C uP y, which is expected to deliver AMD support. We hope that support for Apple Silicon will soon follow.</p>
+               <p>abTEM currently offers only limited multi-CPU/GPU parallelization, requiring the user to distribute the work across multiple CPU/GPU workers and gather the results afterwards. For example, one can assign each worker a fraction of the frozen phonon configurations and add up the results after they are done. Our<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">online repository</ref>
+                  <ref type="bibr" target="#ref-21">21</ref>demonstrates multi-CPU parallelization using the commonly available Message Passing Interface (MPI), utilizing the excellent mpi4 py library and parallel HDF5 to support parallelized filesystem access. We expect to further improve parallelization in the near future.</p>
+            </div>
+            <div>
+               <head n="3.4">GPU memory management</head>
+               <p>The arrays used to store the potential or scattering matrix may be too large to fit into limited GPU memory. Hence, recent multislice applications have emphasized the importance of asynchronous memory transfer, whereby memory transfer and kernel execution are performed simultaneously<ref type="bibr" target="#ref-16">16</ref>,<ref type="bibr" target="#ref-18">18</ref>.</p>
+               <p>Since we prefer to keep abTEM as simple as possible, we use serial memory transfer and kernel execution. We focus instead on using batching to limit the memory transfers and ensure high GPU utilization. Both FFTW and cuFFT support batch FFTs, whereby multiple Fourier transforms of the same size can be computed simultaneously. Hence, a number of wave functions are propagated simultaneously in the multislice algorithm. For small batch sizes, memory transfer is indeed a considerable overhead, but this generally disappears as the batch size grows. In HRTEM, only a single wave function is propagated, hence batching is not possible; however, in this case there is no memory to transfer, since each slice is only used once and calculated on the fly on the GPU. For large simulations, memory constraints may limit the batch size, but we generally did not find memory transfer to be a significant bottleneck.</p>
+            </div>
+         </div>
+         <div>
+            <head n="4">Operation</head>
+            <div>
+               <head n="4.1">Minimum system requirements</head>
+               <p>Although a powerful system is recommended for real work, any modern laptop will meet the minimum requirements for running abTEM. It is also possible to run for teaching and demonstration purposes using free cloud computing services, such as Binder<ref type="bibr" target="#ref-51">51</ref>.</p>
+            </div>
+            <div>
+               <head n="4.2">Code examples</head>
+               <p>To demonstrate the use of abTEM, we show a few basic examples below, with many more found in our online repository<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">online repository</ref>
+                  <ref type="bibr" target="#ref-21">21</ref>. We start with a simple example showing how to combine objects together for a HRTEM simulation:</p>
+               <p>
+                  <preformat xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orientation="portrait" position="float" preformat-type="computer code" xml:space="preserve">
+                        <styled-content style="font-size:15px;color:#008000;">from</styled-content> 
+                        <styled-content style="font-size:15px;color:#0000FF;">ase.io</styled-content> 
+                        <styled-content style="font-size:15px;color:#008000;">import</styled-content> 
+                        <styled-content style="font-size:15px;color:#000000;">read</styled-content>
+
+                        <styled-content style="font-size:15px;color:#008000;">from</styled-content> 
+                        <styled-content style="font-size:15px;color:#0000FF;">abTEM</styled-content> 
+                        <styled-content style="font-size:15px;color:#008000;">import</styled-content> 
+                        <styled-content style="font-size:15px;color:#000000;">PlaneWave, CTF</styled-content>
+
+                        <styled-content style="font-size:15px;color:#000000;">atoms</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">read(</styled-content>
+                        <styled-content style="font-size:15px;color:#BA2121;">'atoms.cif'</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">)</styled-content>
+
+                        <styled-content style="font-size:15px;color:#000000;">plane_wave</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">PlaneWave(sampling</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=0.01</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">, energy</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=300e3</styled-content>)<styled-content style="font-size:15px;color:#000000;">exit_wave</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">plane_wave</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">multislice(atoms)</styled-content>
+
+                        <styled-content style="font-size:15px;color:#000000;">ctf</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">CTF(defocus</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=200</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">, focal_spread</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=40</styled-content>)<styled-content style="font-size:15px;color:#000000;">image_wave</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">ctf</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">apply(exit_wave)</styled-content>
+
+                        <styled-content style="font-size:15px;color:#000000;">image</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">image_wave</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">intensity()</styled-content>
+                    </preformat>
+               </p>
+               <p>A structure file is imported as an ASE<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Atoms</monospace>object; the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">read</monospace>method supports a multitude of popular<ref type="external" target="https://wiki.fysik.dtu.dk/ase/ase/io/io.html">file formats</ref>. The incoming wave function is defined as a plane wave and propagated through the structure using the multislice algorithm, with the default IAM potential implicitly applied. abTEM follows the ASE unit convention with Å used for spatial variables and eV for energies. The wave function is transferred to the image plane using a contrast transfer function (CTF), where the intensity is calculated to obtain the final image. In such functions, the angular unit of mrad is used.</p>
+               <p>The example could be easily modified to instead simulate electron diffraction by using the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">diffraction_pattern</monospace>method as the final step, and further to simulate convergent-beam electron diffraction (CBED) by using<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Probe</monospace>to define the incoming wave function. The contrast transfer function includes partial coherence through the widely-used quasi-coherent approximation<ref type="bibr" target="#ref-8">8</ref>; examples of the correct incoherent summation can be found in the<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">online repository</ref>.</p>
+               <p>Next, we show the code for a basic annular dark field STEM simulation:</p>
+               <p>
+                  <preformat xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orientation="portrait" position="float" preformat-type="computer code" xml:space="preserve">
+                        <styled-content style="font-size:15px;color:#008000;">from</styled-content> 
+                        <styled-content style="font-size:15px;color:#0000FF;">ase</styled-content> 
+                        <styled-content style="font-size:15px;color:#008000;">import</styled-content> 
+                        <styled-content style="font-size:15px;color:#000000;">Atoms</styled-content>
+
+                        <styled-content style="font-size:15px;color:#008000;">from</styled-content> 
+                        <styled-content style="font-size:15px;color:#0000FF;">abTEM</styled-content> 
+                        <styled-content style="font-size:15px;color:#008000;">import</styled-content> 
+                        <styled-content style="font-size:15px;color:#000000;">Probe, Potential, GridScan, AnnularDetector atoms</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>Atoms(<styled-content style="font-size:15px;color:#BA2121;">'C'</styled-content>)<styled-content style="font-size:15px;color:#000000;">atoms</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">center(vacuum</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=10</styled-content>)<styled-content style="font-size:15px;color:#000000;">potential</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">Potential(atoms, slice_thickness</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=0.5</styled-content>)<styled-content style="font-size:15px;color:#000000;">probe</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>Probe(sampling<styled-content style="font-size:15px;color:#666666;">=0.01</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">, energy</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=300e3</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">, semiangle_cutoff</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=30</styled-content>) scan<styled-content style="font-size:15px;color:#666666;">=</styled-content>GridScan(start<styled-content style="font-size:15px;color:#666666;">=</styled-content>(<styled-content style="font-size:15px;color:#666666;">0</styled-content>,<styled-content style="font-size:15px;color:#666666;">0</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">), end</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>potential<styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">extent, sampling</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=0.1</styled-content>)<styled-content style="font-size:15px;color:#000000;">detector</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">AnnularDetector(inner</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=70</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">, outer</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=180</styled-content>)<styled-content style="font-size:15px;color:#000000;">adf_signal</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">=</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">probe</styled-content>
+                        <styled-content style="font-size:15px;color:#666666;">.</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">scan(scan, detector, potential)</styled-content>
+                    </preformat>
+               </p>
+               <p>This example creates a single C atom at the center of a 10 ×10 ×10 Å simulation cell. Whereas previously the default method for calculating the potential was used, we explicitly set the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Potential</monospace>object to define how this is done. The incoming wave function is now defined as a probe, and for detecting the exit wave functions, an annular dark field detector is defined. Using a<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PixelatedDetector</monospace>in place of an<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">AnnularDetector</monospace>can change a simulation from annular dark field STEM to 4D-STEM, and the PRISM algorithm could be used instead of multislice by simply replacing the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Probe</monospace>object with<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SMatrix</monospace>.</p>
+               <p>The downside of our approach is that it may not be immediately obvious for new users how to combine the objects to achieve the desired simulation mode. To assist these users, the abTEM repository contains an expanding<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/examples">example library</ref>implementing common (and some less common) image simulations. Users can download the notebooks and modify them; this could be as easy as changing the imported structure file.</p>
+            </div>
+            <div>
+               <head n="4.3">Cross-platform interactive notebooks</head>
+               <p>Given the visual nature of image simulations, a particularly attractive way of using abTEM is through<ref type="external" target="https://jupyter.org/">Jupyter notebooks</ref>. This web application allows users to create and share documents that contain live code, visualizations and narrative text. The notebooks are composed of cells, each of which may contain the code for accomplishing a subtask. To facilitate a visual workflow, most of the classes in abTEM implement a method for creating a quick visualization of each subtask; for example a heatmap of the projected potential or the profile of an electron probe. The mix of code, explanatory text and visualizations immediately provides documentation of the simulation, allowing others to understand and reproduce it.</p>
+               <p>Thus, abTEM is designed to be used via scripts, in an interactive Python session, or in a Jupyter notebook. Since these are cross-platform tools, support for popular operating systems including Linux, MacOS and Windows is easy to offer and maintain. Nonetheless, we recognize that this is not always the optimal way of interacting with code. Relying on new tools from the data science community developed for interactive data analysis, abTEM also supports the creation of small web applications embedded in a Jupyter notebook.</p>
+               <p>For example, the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">apply</monospace>method of the<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTF</monospace>class has an “interact” keyword that, if set to true, opens an interactive visualization of the resulting image. The ability to change the defocus and spherical aberrations using a simple slider and seeing the image update provides quick intuitive understanding of the effects and interplay of the parameters.</p>
+               <p>The tools for creating notebook-embedded interactive visualizations can with little effort also be used for creating simple web applications that are straight-forward to deploy on a server. This could be useful for teaching, as it enables users to experiment with simulating TEM images with only a web browser.</p>
+            </div>
+         </div>
+         <div>
+            <head n="5">Use cases</head>
+            <p>Finally, we turn to realistic simulation use cases. These calculations were performed using a consumer-grade desktop PC running Linux (Ubuntu 20.04.1) equipped with an 8-core Intel Core i9-9900K processor and 32 GB of memory and a NVidia RTX 2080 Ti graphics card with 2944 cores and 11 GB of graphics memory. Jupyter notebooks for completely recreating each example are<ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/articles">available online</ref>, where we plan to collect all publication-related open code.</p>
+            <div>
+               <head n="5.1">Comparing IAM to ab initio for hBN</head>
+               <p>In our first example, we illustrate the effect of valence bonding by comparing IAM and DFT potentials for the simulation of hexagonal boron nitride (hBN), whose strong ionicity makes it an ideal test case. As has been previously noted, while annular dark field (ADF) contrast is rather insensitive to bonding, both bright field (BF) contrast (previously measured using HRTEM<ref type="bibr" target="#ref-2">2</ref>) and electron diffraction (ED) intensities (measured with parallel illumination HRTEM<ref type="bibr" target="#ref-6">6</ref>) do show marked quantitative differences; very recently, this was also confirmed by ptychography<ref type="bibr" target="#ref-52">52</ref>. abTEM makes such comparisons extremely easy to make, not to mention facilitating the use of ab initio potentials in the first place.</p>
+               <p>We create an orthogonal periodic unit cell of hBN using the ASE constructor for graphene with the lattice constant of hBN and replacing the C atoms with B and N, and create both IAM and DFT scattering potentials, the latter requiring a cheap GPAW plane wave calculation for converging the valence electron density. We then simulate a STEM experiment at an electron energy of 80 keV and a probe convergence semi-angle of 31.5 mrad, with two detectors: a BF detector with a semi-angular range of 0 to 16 mrad, and a high-angle ADF detector for the range 95 to 126 mrad.</p>
+               <p>We scan over the entire cell at the Nyquist sampling for the highest computational efficiency, here corresponding to a real-space spacing of 0.3 Å, allowing us to interpolate the measured images down to the sampling of the potential (0.04 Å) without introducing artifacts. Images can further be easily tiled to display larger fields of view or calculate diffraction patterns, and interpolated line profiles plotted to facilitate quantitative comparisons.</p>
+               <p>
+                  <ref type="figure" target="#f2">Figure 2</ref>shows our simulated results. As expected, the ADF contrast is almost entirely insensitive to the potential, but a reduction of the N atom scattering intensity by about 5% due to charge redistribution is visible in the BF contrast. The same effect also reduces the intensity of the first diffraction order in the simulation based on the DFT potential. Thus, as is being increasingly recognized<ref type="bibr" target="#ref-22">22</ref>, effects due to charge redistribution can be measured using modern TEM methods – and readily simulated using abTEM.</p>
+            </div>
+            <div>
+               <head n="5.2">4D-STEM ptychography of MoS 2</head>
+               <p>In our second example, we attempt to computationally reproduce recent 4D-STEM experiments on MoS 2, where different measurements are reconstructed from a fast pixelated direct electron detector<ref type="bibr" target="#ref-53">53</ref>. The modular design of abTEM makes it easy to directly model 4D-STEM experiments, and we have implemented both integrated center of mass (iCoM) measurements<ref type="bibr" target="#ref-54">54</ref>and the popular ePIE phase reconstruction algorithm<ref type="bibr" target="#ref-55">55</ref>in Python to facilitate such simulations.</p>
+               <p>We create a periodic orthogonal 4 ×4 ×1 MoS 2 supercell, and create a vacancy by deleting one S atom from the top layer. We then create an IAM scattering potential and a scanning probe with parameters corresponding to the experiment<ref type="bibr" target="#ref-53">53</ref>: an electron energy of 80 keV, probe convergence semi-angle of 21.4 mrad, defocus corresponding to the given chromatic aberration parameters, a reasonable amount of residual spherical aberration and focal spread, and some residual astigmatism to try and mimic the experimental contrast. The scan area is chosen to closely reproduce the experimental field of view.</p>
+               <p>We define two<monospace xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PixelatedDetectors</monospace>with different spatial samplings (0.21 Å for BF, ADF, and iCoM, and 0.45 Å for ptychography). The Experimental signal is emulated using Poisson noise with an electron dose of 6 ×10 6 e – / Å2. Additionally, we define a BF detector with a semi-angular range of 0 to 21.4 mrad and an ADF detector for the range 64.2 to 85.6 mrad, which are post-integrated from the 4D-STEM measurement alongside the iCoM signal. For the phase reconstruction, we run five iterations of the ePIE algorithm. Diffractograms are calculated from the measured images using a built-in method.</p>
+               <p>
+                  <ref type="figure" target="#f3">Figure 3</ref>shows our simulated results, which mimic the experimental<ref type="figure" target="#f2">Figure 2</ref>in Ref.<ref type="bibr" target="#ref-53">53</ref>. According to our testing, for a rigid semiconducting material such as MoS 2, neither the inclusion of structural relaxation or using an ab initio electrostatic potential would affect the results significantly. Note that we did not apply any thermal averaging in this simple example, which would reduce the contrast of S 2 columns compared to the S vacancy, bringing the results into better agreement with the experimental data<ref type="bibr" target="#ref-53">53</ref>.</p>
+            </div>
+            <div>
+               <head n="5.3">CBED and ED with MD phonons</head>
+               <p>In our third example, we examine the effect of phonon correlations on TDS in CBED and ED patterns. The example demonstrates how abTEM can be used in conjunction with a MD code to calculate accurate thermal ensembles for use in a frozen phonon calculation. The example also demonstrates the performance of abTEM with respect to imaging modes that only require a single wave propagation, and hence where calculating the IAM potential is a substantial part of the overall computational cost.</p>
+               <p>We create a sample structure of crystalline silicon in the [100] zone axis, with a 200 ×200 ×1303 Å 3 supercell containing 2.6 million atoms. The thermal ensemble is simulated using molecular dynamics with the Tersoff<ref type="bibr" target="#ref-56">56</ref>force field implemented in LAMMPS, and periodic boundary conditions are applied in all directions. We obtain 16 phonon snapshots after equilibration at 300K for 50 ps, chosen at time intervals exceeding the expected phonon correlation time (10 ps). The available four rotation and two inversion symmetries are used to effectively simulate a total of 128 configurations.</p>
+               <p>The wave function is sampled at 0.025 Å/pixel and the potential is sliced with a thickness 0.1 Å, corresponding to sampling the potential on a voxel grid of size 4096 ×4096 ×13000. The slices are chosen so thin to accurately portray features that depend on the 3D symmetry of the crystal. This could also be accomplished by slicing the potential at the crystal planes<ref type="bibr" target="#ref-57">57</ref>, but that would neglect the 3D nature of the phonons. The potential is calculated on-the-fly using standard infinite projection integrals. On GPU, a batch size of six slices is automatically selected by the program, whereas all CPU threads are already fully engaged without slice parallelization.</p>
+               <p>The multislice simulation of each frozen phonon configuration took 182 s on GPU and 85 min on CPU, not including the MD simulation. The time spent on calculating the potential and wave propagation was approximately equal, as was reported in the description of the potential algorithm<ref type="bibr" target="#ref-11">11</ref>. Note that in this comparison, the calculation of the transmission function from the potential is counted as wave propagation.</p>
+               <p>For comparison, we calculate the equivalent CBED pattern using the Einstein model. The standard deviation of the Gaussian distributions of each atomic position are set to 0.126 Å to match that found for the MD thermal ensembles.<ref type="figure" target="#f4">Figure 4</ref>shows that the Einstein model and the more accurate MD model are quantitatively different, as has been discussed before<ref type="bibr" target="#ref-44">44</ref>,<ref type="bibr" target="#ref-58">58</ref>. The correlation of atomic vibrations in the crystal results in more scattering around the Bragg reflections, and the Einstein model overestimates the low-angle diffuse background. At medium-to-high scattering angles the Einstein model provides good agreement with the MD result, whereas a fully elastic model without any phonon images severely underestimates high-angle scattering.</p>
+            </div>
+            <div>
+               <head n="5.4">Large-scale STEM simulations</head>
+               <p>In our final example, we show how abTEM is capable of performing extremely large STEM simulations using the PRISM algorithm. We examine the speed of this algorithm compared to multislice, as well as the speed of abTEM’s pure Python PRISM algorithm to P rismatic, which is an open-source C++/CUDA package using asynchronous memory transfer. To our knowledge, of the two existing codes implementing PRISM, P rismatic and P yM ultislice<ref type="bibr" target="#ref-16">16</ref>,<ref type="bibr" target="#ref-19">19</ref>, the former released by the original developers of the algorithm is faster.</p>
+               <p>We simulate a STEM image of a decahedral gold nanoparticle with 20324 atoms. The supercell is 136 ×136 ×118 Å 3, and a grid of 4096 ×4096 pixels was used, corresponding to a real-space sampling of 0.033 Å or maximum anti-aliased scattering angle of 419 mrad; the slice thickness was 1.0 Å. The convergence semi-angle is set to 25 mrad, thus this probe requires a basis set of 20849 plane waves to represent (or more than 1 Tb of memory) and hence interpolation is required. We set the interpolation factor to 16, resulting in a basis set of just 81 plane waves, with an effective probe window of 8.5 ×8.5 Å 2 and a maximum error of 1.2% compared to standard multislice, which is about the same error as is introduced by using 1.0 Å as opposed to 0.5 Å slices.</p>
+               <p>The probe is scanned at the Nyquist frequency (here 0.42 Å per pixel), resulting in a total of 106276 probe positions. The calculations took 73 s per frozen phonon configuration on GPU and 1224 s on CPU. The scattering matrix was stored in CPU memory in both calculations and the potential was calculated on the fly, as keeping both the potential and scattering matrix in memory was not possible. For comparison, using multislice the same calculation took around 96000 s ( ∼1 day) on GPU and 2220000 s ( ∼25 days) on CPU, though with a precalculated potential. This shows that PRISM was 1315 times faster on GPU and 1813 times on CPU, in line with the findings of the original authors<ref type="bibr" target="#ref-20">20</ref>.</p>
+               <p>The PRISM algorithm requires two steps: propagating the scattering matrix using the multislice algorithm and reducing the scattering matrix at each probe position. In all of the calculations above, the multislice propagation was the more expensive step. For large simulations, this step is unlikely to suffer much from the overhead of calling the FFTW and cuFFT libraries from Python and hence not suffer from our pure Python approach. It is also difficult to see how to significantly further improve the performance of this step.</p>
+               <p>In<ref type="figure" target="#f5">Figure 5</ref>, we benchmark abTEM against P rismatic for the simulation of differently sized decahedral nanoparticles. The size of the simulation supercell was varied, while keeping the real space sampling and number of plane waves in the probe constant at the values given above. abTEM was consistently up to twice as fast compared to P rismatic on our benchmark system using either GPU and CPU algorithms.</p>
+               <p>Note that P rismatic uses a factor of 2 antialiasing aperture, while abTEM uses a factor of 3 /2. Hence, the maximum scattering angle in abTEM is 25% higher. It also has the ability to calculate the potential on the fly, whereas P rismatic always precalculates the potential: the simulation of largest nanoparticle system shown in<ref type="figure" target="#f5">Figure 5(a)</ref>was not possible using P rismatic on our hardware as the potential could not fit into memory. We do acknowledge that P rismatic has multi-CPU and -GPU support, and thus is likely to outperform abTEM on other hardware. Nonetheless, it is clear from this comparison that abTEM performs exceedingly well despite its pure Python implementation.</p>
+            </div>
+         </div>
+         <div type="conclusions">
+            <head n="6">Conclusion</head>
+            <p>We have presented a new multislice simulation code called abTEM. The program was created to integrate atomistic simulation codes with the multislice algorithm in order to meet the demands of improved accuracy and flexibility posed by ongoing experimental advances. abTEM is written entirely in Python and has all the benefits that entail, and we have demonstrated that it is as fast as a highly optimized C++ code thanks to effective use of modern open-source software libraries. Python is also becoming important on the experimental side thanks to the Nion S wift<ref type="external" target="https://nionswift.readthedocs.io/en/stable/">microscope control software</ref>, enabling full integration of all aspects of the modern TEM research workflow. Notably, Python scripting has also been recently enabled for the Gatan Microscopy Suite<ref type="bibr" target="#ref-59">59</ref>.</p>
+            <p>abTEM is under active open development and is made to be easily extendable. We expect to significantly improve multi-CPU and -GPU parallelization in the near future, including support for AMD graphics cards following the next release of C uP y. In terms of new simulation modes, our current focus is on improving the description of inelastic energy loss, and we are specifically working on implementing core losses following the work of Brown<ref type="bibr" target="#ref-40">40</ref>and phonon losses following that of Zeiger and Rusz<ref type="bibr" target="#ref-37">37</ref>. We have also taken some initial steps towards implementing plasmon losses following the approach of Mendis<ref type="bibr" target="#ref-39">39</ref>.</p>
+            <p>The code is now fully functional and ready for scientific work. We hope to entice experts in the field to try it out and join us in implementing new features, but are especially keen to enable experimentalists to complement their work by easily accessible simulations. Our ultimate goal is a fully ab initio description of all aspects of TEM simulation.</p>
+         </div>
+         <div>
+            <head>Data availability</head>
+            <p>All data underlying the results are available as part of the article and no additional source data are required.</p>
+            <p>All presented figures can be reproduced with the open code available from:</p>
+            <p>
+               <ref type="external" target="https://github.com/jacobjma/abTEM/tree/master/articles/2021_ORE_abTEM">https://github.com/jacobjma/abTEM/tree/master/articles/2021_ORE_abTEM</ref>
+               <ref type="bibr" target="#ref-21">21</ref>.</p>
+         </div>
+         <div>
+            <head>Software availability</head>
+            <p>Documentation and code examples available from:<ref type="external" target="https://abtem.readthedocs.io/en/latest/index.html">https://abtem.readthedocs.io/en/latest/index.html</ref>
+            </p>
+            <p>Source code available from:<ref type="external" target="https://github.com/jacobjma/abTEM">https://github.com/jacobjma/abTEM</ref>
+            </p>
+            <p>Archived source code at time of publication:<ref type="external" target="https://doi.org/10.5281/zenodo.4767986">https://doi.org/10.5281/zenodo.4767986</ref>
+               <ref type="bibr" target="#ref-21">21</ref>.</p>
+            <p>License:<ref type="external" target="https://opensource.org/licenses/GPL-3.0">GNU General Public License version 3</ref>
+            </p>
+         </div>
+         <figure xml:id="f1">
+            <head>Figure 1.</head>
+            <label>1</label>
+            <figDesc>The modular design of abTEM is enabled by Python classes that implement physically meaningful concepts. Consistent object-oriented design allows new instances of these classes to be easily implemented as our code grows or new techniques or instrumentation become available.</figDesc>
+            <graphic url="https://openreseurope-files.f1000.com/manuscripts/14825/6c536aa4-8711-479a-a233-68394e559c74_figure1.gif" orientation="portrait" position="float"/>
+         </figure>
+         <figure xml:id="f2">
+            <head>Figure 2.</head>
+            <label>2</label>
+            <figDesc>Comparison of independent atom model (IAM) and density functional theory (DFT) scattering potentials for hBN.Annular dark-field (ADF) images based on the ( a) IAM and ( b) DFT, with ( c) line profiles plotted over the N and B sites. ( d, e) Corresponding bright-field (BF) images and ( f) line profiles. ( g, h) Corresponding electron diffraction (ED) patterns displayed on a logarithmic scale derived from tiled images, and ( i) line profiles through the first two diffraction orders. While the ADF contrast is nearly completely insensitive to valence bonding, both BF contrast (see Ref. 2 for an experimental measurement) and the ED intensities (see Ref. 6 for an experimental measurement) do show a marked difference due to charge redistribution in this highly ionic compound that is not described by the IAM.</figDesc>
+            <graphic url="https://openreseurope-files.f1000.com/manuscripts/14825/6c536aa4-8711-479a-a233-68394e559c74_figure2.gif" orientation="portrait" position="float"/>
+         </figure>
+         <figure xml:id="f3">
+            <head>Figure 3.</head>
+            <label>3</label>
+            <figDesc>4D-STEM simulations of MoS 2 with a single S vacancy.( a)–( c) Bright-field, annular dark field (ADF), and integrated center of mass (iCoM) (0.21 Å sampling) measurements and ( d) ptychographic phase reconstruction (0.45 Å sampling), all derived from pixelated detector measurements with applied Poisson noise. ( e)–( h) Diffractograms displayed on logarithmic scale calculated from the images and colored with the color map ‘afmhot’ with a cyan color set for the brightest values. For the experimental work that inspired this example, see Ref. 53.</figDesc>
+            <graphic url="https://openreseurope-files.f1000.com/manuscripts/14825/6c536aa4-8711-479a-a233-68394e559c74_figure3.gif" orientation="portrait" position="float"/>
+         </figure>
+         <figure xml:id="f4">
+            <head>Figure 4.</head>
+            <label>4</label>
+            <figDesc>Convergent-beam electron diffraction (CBED) simulation with thermal diffuse scattering.( a)–( b) Calculated CBED patterns for Si[100] at 100 keV with an aperture of 9.4 mrad. ( a) Calculated using molecular dynamics (MD) and ( b) calculated using an Einstein model. In ( a) more of the higher order disks are visible. ( c)–( d) The rotationally averaged electron diffraction patterns for Si[100] at 100 keV.</figDesc>
+            <graphic url="https://openreseurope-files.f1000.com/manuscripts/14825/6c536aa4-8711-479a-a233-68394e559c74_figure4.gif" orientation="portrait" position="float"/>
+         </figure>
+         <figure xml:id="f5">
+            <head>Figure 5.</head>
+            <label>5</label>
+            <figDesc>( a) High-angle annular dark-field STEM image of a decahedral nanoparticle consisting of more than 10 5 atoms, simulated in 15 s using abTEM’s GPU-accelerated PRISM algorithm. ( b– c) The time required for simulating a nanoparticle as a function of the size of system. ( b) Calculation time for simulating a decahedral nanoparticle, as a function of system size given as as the number of pixels on each side of the simulation grid. The calculation for the largest nanoparticle is left out for Prismatic as this simulation was not possible due to running out of memory.</figDesc>
+            <graphic url="https://openreseurope-files.f1000.com/manuscripts/14825/6c536aa4-8711-479a-a233-68394e559c74_figure5.gif" orientation="portrait" position="float"/>
+         </figure>
+      </body>
+      <back>
+         <div type="acknowledgement">
+            <head>Acknowledgements</head>
+            <title xmlns="" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Acknowledgements</title>
+            <p>J.M. and T.S. acknowledge computational resources provided by the Vienna Scientific Cluster. We are deeply indebted to the many authors that contribute to the vibrant scientific Python ecosystem.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
