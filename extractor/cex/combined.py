@@ -230,6 +230,70 @@ class TEIXMLtoJSONConverter:
 
         return []
 
+    def return_heads_to_use(self, head_elements):
+        roman_pattern = re.compile('''^((?=.)M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*)([A-Za-z0-9]+\.*)*\s+''')
+
+        # Global stats
+        head_texts = [(h.text or "").strip() for h in head_elements]
+
+        head_n_attribute = sum("n" in h.attrib for h in head_elements)
+        head_no_n_attribute = sum("n" not in h.attrib for h in head_elements)
+
+        head_roman = sum(1 for t in head_texts if roman_pattern.search(t))
+        head_no_roman = sum(1 for t in head_texts if not roman_pattern.search(t))
+
+        use_n_attribute = head_n_attribute >= (head_no_n_attribute + head_n_attribute) / 2
+        use_roman_numeration = head_roman >= (head_no_roman + head_roman) / 2
+
+        heads_to_use = dict()
+
+        for i, head in enumerate(head_elements):
+            head_text = (head.text or "").strip()
+
+            # 1) Case: numeric @n is the dominant convention
+            if use_n_attribute:
+                if "n" in head.attrib:
+                    n = head.get("n", "")
+                    n_parts = [p for p in n.split(".") if p]
+
+                    # First-level only: e.g. "1", "2" but not "1.1"
+                    if len(n_parts) == 1:
+                        # Remove leading numeric pattern from the visible heading text
+                        if re.search(r'\b\d+(\.\d+)+\b', head_text):
+                            split_string = re.split(r'\b\d+(\.\d+)+\b', head_text)
+                            split_string = [s.strip() for s in split_string if s.strip()]
+                            if split_string:
+                                heads_to_use[head_text] = split_string[0]
+                            else:
+                                heads_to_use[head_text] = head_text
+                        else:
+                            heads_to_use[head_text] = head_text
+                else:
+                    # Heuristic: skip “lonely” heads if neighbors have @n
+                    prev_has_n = i > 0 and "n" in head_elements[i - 1].attrib
+                    next_has_n = i < len(head_elements) - 1 and "n" in head_elements[i + 1].attrib
+                    if prev_has_n and next_has_n:
+                        continue
+                    # keep some special cases (e.g. Availability)
+                    else:
+                        heads_to_use[head_text] = head_text
+
+            # 2) Case: Roman numerals are the dominant convention
+            elif use_roman_numeration:
+                m = roman_pattern.search(head_text)
+                if m:
+                    prefix = m.group().strip()
+                    cleaned = head_text.replace(prefix, "", 1).strip()
+                    heads_to_use[head_text] = cleaned or head_text
+                else:
+                    heads_to_use[head_text] = head_text
+
+            # 3) Fallback: just use the text as is
+            else:
+                heads_to_use[head_text] = head_text
+
+        return heads_to_use
+
     def convert_to_json(self):
 
         tree = etree.parse(self.xml_file)
@@ -243,17 +307,7 @@ class TEIXMLtoJSONConverter:
         # Precompute common elements
         ref_citkey_dict = self.build_dict_ref_citkey(tree, ns)
         head_elements = root.findall(".//tei:div/tei:head", namespaces=ns)
-        has_n_attribute = any("n" in head.attrib for head in head_elements)
-        roman_pattern = r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+'
-        has_roman_numeration = any(re.search(roman_pattern, (head.text or "").strip()) for head in head_elements)
-        head_n_attribute = sum("n" in head.attrib for head in head_elements)
-        head_no_n_attribute = sum("n" not in head.attrib for head in head_elements)
-        head_roman = sum(
-            1 for head in head_elements if re.search(roman_pattern, (head.text or "").strip())
-        )
-        head_no_roman = sum(
-            1 for head in head_elements if not re.search(roman_pattern, (head.text or "").strip())
-        )
+        heads_to_use = self.return_heads_to_use(head_elements)
 
         # Find notes with in-text reference pointers
         notes_text_with_refs = set()
@@ -278,34 +332,8 @@ class TEIXMLtoJSONConverter:
             head = div.find("./tei:head", namespaces=ns)
             if head is not None:
                 head_text = head.text.strip() if head.text else ""
-                if has_n_attribute:
-                    if head_n_attribute >= (head_no_n_attribute+head_n_attribute)/2:
-                        if 'n' in head.attrib:
-                            n = head.get("n")
-                            n_parts = n.split(".")
-                            if '' in n_parts:
-                                n_parts.remove('')
-                            if len(n_parts) == 1:
-                                if re.search(r'\b\d+(\.\d+)+\b', head_text):
-                                    split_string = re.split(r'\b\d+(\.\d+)+\b', head_text)
-                                    split_string = [substring.strip() for substring in split_string]
-                                    last_head = split_string[0].strip()
-                                else:
-                                    last_head = head_text
-                    else:
-                        last_head=head_text
-                elif has_roman_numeration:
-                    if head_roman >= (head_no_roman+head_roman)/2:
-                        if re.search(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+', head_text):
-                            pattern = re.compile(r'^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.*\s+')
-                            match = pattern.search(head_text)
-                            if match:
-                                match = match.group().strip()
-                                last_head = head_text.replace(match, "")
-                    else:
-                        last_head=head_text
-                else:
-                    last_head = head_text
+                if head_text in heads_to_use:
+                    last_head = heads_to_use.get(head_text)
             else:
                 head_text= f'''Section Untitled {i}'''
                 last_head = head_text
