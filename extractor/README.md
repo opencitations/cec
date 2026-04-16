@@ -73,7 +73,7 @@ flask run --host=0.0.0.0 --port=5001
 ### Endpoint
 
 ```
-POST /api/extractor
+POST /cex/api/extractor
 Content-Type: multipart/form-data
 ```
 ### Form Fields
@@ -87,7 +87,7 @@ Content-Type: multipart/form-data
 ### 📤 Example: Uploading Multiple PDFs with CURL
 
 ```
-curl -X POST http://127.0.0.1:5001/api/extractor \
+curl -X POST http://127.0.0.1:5001/cex/api/extractor \
   -F "input_files_or_archives=@/path/to/file1.pdf" \
   -F "input_files_or_archives=@/path/to/file2.pdf" \
   -F "perform_alignment=true" \
@@ -100,13 +100,13 @@ curl -X POST http://127.0.0.1:5001/api/extractor \
 
 ```
 {
-  "download_url": "http://127.0.0.1:5001/api/download/processed_pdfs_...zip"
+  "download_url": "http://127.0.0.1:5001/cex/api/download/<request-id>/processed_pdfs_...zip"
 }
 ```
 ### Download the Zip File
 
 ```
-curl -O "http://127.0.0.1:5001/api/download/processed_pdfs_..."
+curl -O "http://127.0.0.1:5001/cex/api/download/<request-id>/processed_pdfs_..."
 ```
 
 ### Using the CLI
