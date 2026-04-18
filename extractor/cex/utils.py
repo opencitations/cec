@@ -121,15 +121,11 @@ def upload_manifest(manifest_list, processing_location):
     with open(os.path.join(processing_location, "manifest.json"), 'w') as file:
         json.dump(manifest_list, file, indent=4)
 
-def process_pdf_file(pdf, download_location, perform_alignment, create_rdf):
+def process_pdf_file(pdf, download_location, perform_alignment, create_rdf, consolidate=False):
     processor = PDFProcessor(input_pdf_path=pdf, output_tei_path=download_location,
                              output_json_path=download_location)
     try:
-        if create_rdf:
-            create_rdf = True
-        if perform_alignment:
-            perform_alignment = True
-        manifest_info = processor.process_pdf(perform_alignment, create_rdf)
+        manifest_info = processor.process_pdf(perform_alignment, create_rdf, consolidate)
 
     except Exception as e:
         manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}

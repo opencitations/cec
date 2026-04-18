@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Bulk citation extraction + enrichment via the CEC extractor service.
+"""Bulk citation extraction via the CEC extractor service.
 
-Sends PDFs to the extractor API (which calls GROBID with consolidateHeader +
-consolidateCitations enabled by default) and unpacks the returned zip per file.
-Detects GROBID's CrossRef rate-limit hits via `docker logs grobid` and retries
-indefinitely with exponential backoff until the PDF succeeds.
+Sends PDFs to the extractor API and unpacks the returned zip per file.
+Consolidation against CrossRef is opt-in (`--consolidate`): disabled by
+default to avoid the HTTP 429 bursts that GROBID triggers on papers with
+many references.
 
 Stdlib only. Assumes the docker-compose stack in this repo is running
 (grobid + extractor on localhost:5001).
@@ -15,30 +15,22 @@ from __future__ import annotations
 import argparse
 import json
 import mimetypes
-import os
 import shutil
-import subprocess
 import sys
 import tempfile
 import time
 import uuid
 import zipfile
-from datetime import datetime, timedelta, timezone
+from os import walk
 from pathlib import Path
 from typing import Sequence
 from urllib import request as urlrequest
-from urllib.error import HTTPError, URLError
 
 
 BASE_URL = "http://localhost:5001"
 API_PATH = "/cex/api/extractor"
 PDF_MIME = "application/pdf"
 TIMEOUT = 1800
-GROBID_CONTAINER = "grobid"
-RETRY_INITIAL = 10.0
-RETRY_FACTOR = 3.0
-RETRY_MAX = 1800.0
-RATE_LIMIT_PATTERN = "Consolidation service returns error (429)"
 
 
 def iter_pdfs(input_path: Path) -> list[Path]:
@@ -49,7 +41,7 @@ def iter_pdfs(input_path: Path) -> list[Path]:
     if not input_path.is_dir():
         raise ValueError(f"input does not exist: {input_path}")
     pdfs: list[Path] = []
-    for root, _, files in os.walk(input_path):
+    for root, _, files in walk(input_path):
         for name in files:
             if name.lower().endswith(".pdf") and not name.startswith("."):
                 pdfs.append((Path(root) / name).resolve())
@@ -124,28 +116,22 @@ def _flatten_timestamp_dir(out_dir: Path, stem: str) -> None:
             child.rmdir()
 
 
-def _grobid_saw_rate_limit(since: datetime) -> bool:
-    since_str = since.strftime("%Y-%m-%dT%H:%M:%SZ")
-    proc = subprocess.run(
-        ["docker", "logs", GROBID_CONTAINER, "--since", since_str],
-        capture_output=True, text=True, timeout=30, check=False,
-    )
-    blob = (proc.stdout or "") + (proc.stderr or "")
-    return RATE_LIMIT_PATTERN in blob
+def process_one(pdf: Path, output_root: Path, consolidate: bool) -> None:
+    out_dir = output_root / pdf.stem
+    if out_dir.exists():
+        shutil.rmtree(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-
-def _do_extraction(pdf: Path, out_dir: Path) -> None:
     fields = {
         "perform_alignment": "false",
         "create_rdf": "false",
+        "consolidate": "true" if consolidate else "false",
         "max_workers": "1",
     }
     api_url = f"{BASE_URL.rstrip('/')}{API_PATH}"
     payload = _http_post(api_url, pdf, fields)
 
-    download_url = payload.get("download_url")
-    if not download_url:
-        raise RuntimeError(f"no download_url in response: {payload}")
+    download_url = payload["download_url"]
     download_url = _normalize_download_url(download_url)
 
     with tempfile.NamedTemporaryFile(suffix=".zip", delete=False) as tmp:
@@ -168,41 +154,14 @@ def _do_extraction(pdf: Path, out_dir: Path) -> None:
                 raise RuntimeError(f"extractor error: {entry.get('error')}")
 
 
-def process_one(pdf: Path, output_root: Path) -> None:
-    out_dir = output_root / pdf.stem
-    attempt = 0
-    while True:
-        if out_dir.exists():
-            shutil.rmtree(out_dir)
-        out_dir.mkdir(parents=True, exist_ok=True)
-
-        t0 = datetime.now(timezone.utc) - timedelta(seconds=2)
-        try:
-            _do_extraction(pdf, out_dir)
-            extract_ok = True
-        except (HTTPError, URLError, zipfile.BadZipFile, TimeoutError,
-                RuntimeError, json.JSONDecodeError) as exc:
-            print(f"  extraction error on {pdf.name}: {exc}")
-            extract_ok = False
-
-        if extract_ok and not _grobid_saw_rate_limit(t0):
-            return
-
-        sleep_for = min(RETRY_INITIAL * (RETRY_FACTOR ** attempt), RETRY_MAX)
-        reason = "rate limit" if extract_ok else "extraction failure"
-        print(f"  {reason} on {pdf.name}: retry #{attempt + 1} in {sleep_for:.0f}s")
-        time.sleep(sleep_for)
-        attempt += 1
-
-
-def run(pdfs: list[Path], output_root: Path) -> None:
+def run(pdfs: list[Path], output_root: Path, consolidate: bool) -> None:
     output_root.mkdir(parents=True, exist_ok=True)
     started = time.monotonic()
     total = len(pdfs)
     print(f"processing {total} PDF(s)")
 
     for i, pdf in enumerate(pdfs, start=1):
-        process_one(pdf, output_root)
+        process_one(pdf, output_root, consolidate)
         elapsed = time.monotonic() - started
         print(f"[{i}/{total}] ok  {pdf.name}  ({elapsed:.1f}s)")
 
@@ -213,6 +172,10 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     p.add_argument(
         "-o", "--output", type=Path, default=Path("cec_output"),
         help="output directory (default: ./cec_output)",
+    )
+    p.add_argument(
+        "--consolidate", action="store_true",
+        help="enable CrossRef consolidation (disabled by default; expect HTTP 429 on large batches)",
     )
     return p.parse_args(argv)
 
@@ -227,7 +190,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     if not pdfs:
         print("no PDFs found", file=sys.stderr)
         return 1
-    run(pdfs, args.output.resolve())
+    run(pdfs, args.output.resolve(), args.consolidate)
     print(f"done: {len(pdfs)} ok")
     return 0
 

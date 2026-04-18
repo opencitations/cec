@@ -1040,7 +1040,7 @@ class PDFProcessor:
         # Check if actual file counts match expected counts
         return actual_counts == required_counts
 
-    def process_pdf(self, align_headings=False, create_rdf=False):
+    def process_pdf(self, align_headings=False, create_rdf=False, consolidate=False):
         input_pdf_path = [self.input_pdf_path]
         output = self.output_tei_path
         pdf_filename = os.path.basename(input_pdf_path[0])
@@ -1051,7 +1051,10 @@ class PDFProcessor:
         try:
             # grobid extraction
             current_stage = "Generating TEI/XML file"
-            input_pdf_path, output_tei_path = self.create_xml_tei()
+            input_pdf_path, output_tei_path = self.create_xml_tei(
+                consolidate_citations=consolidate,
+                consolidate_header=consolidate,
+            )
             generated_xml = True
 
         except Exception as e:

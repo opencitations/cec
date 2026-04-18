@@ -43,6 +43,7 @@ def api_process_file():
 
     perform_alignment = request.form.get('perform_alignment', 'false').lower() == 'true'
     create_rdf = request.form.get('create_rdf', 'false').lower() == 'true'
+    consolidate = request.form.get('consolidate', 'false').lower() == 'true'
     max_workers = int(request.form.get('max_workers', 1))
 
     pdfs_to_process = set()
@@ -64,7 +65,7 @@ def api_process_file():
     if pdfs_to_process:
         with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
             future_to_pdf = {
-                executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf): pdf
+                executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf, consolidate): pdf
                 for pdf in pdfs_to_process
             }
             for future in concurrent.futures.as_completed(future_to_pdf):

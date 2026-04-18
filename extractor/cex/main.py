@@ -18,6 +18,7 @@ class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])
     agree = BooleanField("Perform semantic alignment of sections' headings")
     agree2 = BooleanField("Generate JSONld file")
+    consolidate = BooleanField("Enable CrossRef consolidation (may hit rate limits)")
     submit = SubmitField("Process File")
     max_workers = IntegerField('Max Workers', default=1, validators=[NumberRange(min=1, max=50)])
 
@@ -58,6 +59,7 @@ def create_app():
             max_workers = form.max_workers.data
             perform_alignment = form.agree.data
             create_rdf = form.agree2.data
+            consolidate = form.consolidate.data
             save_location = os.path.join(app.root_path, app.config['UPLOAD_FOLDER'], secure_filename(file.filename))  # Then save the file
             file.save(save_location)
             download_location = os.path.join(app.root_path, app.config['DOWNLOAD_FOLDER'])  # Then save the file
@@ -68,7 +70,7 @@ def create_app():
                 # Parallel processing of PDF files
                 with ProcessPoolExecutor(max_workers=max_workers) as executor:
                     future_to_pdf = {
-                        executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf): pdf for pdf
+                        executor.submit(process_pdf_file, pdf, download_location, perform_alignment, create_rdf, consolidate): pdf for pdf
                         in pdf_files}
                     for future in as_completed(future_to_pdf):
                         pdf = future_to_pdf[future]

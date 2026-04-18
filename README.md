@@ -18,13 +18,14 @@ Create `docker-compose.yaml`:
 ```yaml
 services:
   grobid:
-    image: opencitations/oc_cec_grobid:1.1.0
+    image: opencitations/oc_cec_grobid:1.2.0
     container_name: grobid
     init: true
     ports:
       - "8070:8070"
     environment:
       - CROSSREF_MAILTO=your.email@example.org
+      - GROBID_CONCURRENCY=1
     deploy:
       resources:
         limits:
@@ -35,7 +36,7 @@ services:
           cpus: '2'
 
   extractor:
-    image: opencitations/oc_cec_extractor:1.0.4
+    image: opencitations/oc_cec_extractor:1.1.0
     container_name: cec_extractor
     init: true
     ports:
@@ -66,10 +67,6 @@ services:
 
 **Adjust CPU and RAM based on your hardware.**
 
-## CrossRef mailto (required)
-
-GROBID enriches bibliographic references by querying CrossRef. Without a valid contact email the requests fall in the anonymous pool and get throttled with HTTP 429 (Too Many Requests), causing missing authors, ORCIDs and DOIs in the output. Replace `your.email@example.org` in the `CROSSREF_MAILTO` variable with a real address before starting the stack.
-
 ## Commands
 ```bash
 docker compose up -d      # Run the docker-compose.yaml
@@ -87,7 +84,10 @@ docker compose restart    # Restart all
 `scripts/bulk_extract.py` runs the extractor API over a folder of PDFs and unpacks each result under `cec_output/<pdf_stem>/`. It uses the Python standard library only and assumes the Docker Compose stack is running on `localhost:5001`.
 
 ```bash
-python scripts/bulk_extract.py path/to/pdfs          # batch a directory
-python scripts/bulk_extract.py paper.pdf             # single file
-python scripts/bulk_extract.py path/to/pdfs -o out   # custom output dir
+python scripts/bulk_extract.py path/to/pdfs                # batch a directory
+python scripts/bulk_extract.py paper.pdf                   # single file
+python scripts/bulk_extract.py path/to/pdfs -o out         # custom output dir
+python scripts/bulk_extract.py path/to/pdfs --consolidate  # enable CrossRef enrichment
 ```
+
+By default the script does not query CrossRef: references are parsed straight from the PDF and returned as they appear. Consolidation is opt-in because GROBID fires CrossRef requests in parallel within every single PDF, and those bursts still hit HTTP 429 even on the polite pool (the parallelism is hardcoded in GROBID's Java source). If you pass `--consolidate`, replace `your.email@example.org` in `CROSSREF_MAILTO` with a real address first, so the requests land in the polite pool.

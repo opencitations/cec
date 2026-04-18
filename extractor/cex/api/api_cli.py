@@ -27,15 +27,11 @@ def create_zip_file(download_location, zip_name):
 
     return zip_path
 
-def process_pdf_file(pdf, download_location, perform_alignment, create_rdf):
+def process_pdf_file(pdf, download_location, perform_alignment, create_rdf, consolidate=False):
     processor = PDFProcessor(input_pdf_path=pdf, output_tei_path=download_location,
                              output_json_path=download_location)
     try:
-        if create_rdf:
-            create_rdf = True
-        if perform_alignment:
-            perform_alignment = True
-        manifest_info = processor.process_pdf(perform_alignment, create_rdf)
+        manifest_info = processor.process_pdf(perform_alignment, create_rdf, consolidate)
 
     except Exception as e:
         manifest_info = {"filename": os.path.basename(pdf), "status": "error", "error": str(e)}
@@ -61,6 +57,7 @@ def main():
     parser.add_argument('--zip_name', help='Name of the output zip file', required=False, default="")
     parser.add_argument('--perform_alignment', action='store_true', help='Whether to perform semantic alignment')
     parser.add_argument('--create_rdf', help='Whether to generate a JSONld file')
+    parser.add_argument('--consolidate', action='store_true', help='Enable GROBID consolidation against CrossRef (disabled by default)')
     parser.add_argument('--max_workers', help='to set the number of worker threads', default=1)
 
     args = parser.parse_args()
@@ -103,7 +100,7 @@ def main():
         max_workers = int(args.max_workers)
         with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
             future_to_pdf = {
-                executor.submit(process_pdf_file, pdf, download_location, args.perform_alignment, args.create_rdf): pdf for pdf
+                executor.submit(process_pdf_file, pdf, download_location, args.perform_alignment, args.create_rdf, args.consolidate): pdf for pdf
                 in pdfs_to_process}
             for future in concurrent.futures.as_completed(future_to_pdf):
                 pdf = future_to_pdf[future]

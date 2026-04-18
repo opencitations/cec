@@ -48,6 +48,7 @@ Content-Type: multipart/form-data
 | `input_files_or_archives` | file    | yes      | One or more PDF files or compressed archives (`.zip`, `.zst`, `.tar.gz`) |
 | `perform_alignment`       | boolean | no       | `true` or `false` (default `false`)                                  |
 | `create_rdf`              | boolean | no       | `true` or `false` (default `false`)                                  |
+| `consolidate`             | boolean | no       | `true` or `false` (default `false`). Enables GROBID's CrossRef consolidation of the header and bibliographical references. Disabled by default: GROBID fires CrossRef lookups in parallel and runs into HTTP 429 on papers with many references. When enabled, set a real address in `CROSSREF_MAILTO` to land in the polite pool |
 | `max_workers`             | integer | no       | Number of parallel worker processes                                  |
 
 ### Upload example
@@ -58,6 +59,7 @@ curl -X POST http://127.0.0.1:5001/cex/api/extractor \
   -F "input_files_or_archives=@/path/to/file2.pdf" \
   -F "perform_alignment=true" \
   -F "create_rdf=true" \
+  -F "consolidate=true" \
   -F "max_workers=2"
 ```
 
