@@ -20,11 +20,13 @@ Create `docker-compose.yaml`:
 ```yaml
 services:
   grobid:
-    image: opencitations/grobid-cec:1.0.0
+    image: opencitations/oc_cec_grobid:1.1.0
     container_name: grobid
     init: true
     ports:
       - "8070:8070"
+    environment:
+      - CROSSREF_MAILTO=your.email@example.org
     deploy:
       resources:
         limits:
@@ -33,7 +35,6 @@ services:
         reservations:
           memory: 8G
           cpus: '2'
-    restart: unless-stopped
 
   extractor:
     image: opencitations/oc_cec_extractor:1.0.4
@@ -49,7 +50,6 @@ services:
           memory: 2G
     environment:
       - GROBID_URL=http://grobid:8070
-    restart: unless-stopped
     depends_on:
       - grobid
 
@@ -64,10 +64,13 @@ services:
           memory: 16G
         reservations:
           memory: 4G
-    restart: unless-stopped
 ```
 
 **Adjust CPU and RAM based on your hardware.**
+
+## CrossRef mailto (required)
+
+GROBID enriches bibliographic references by querying CrossRef. Without a valid contact email the requests fall in the anonymous pool and get throttled with HTTP 429 (Too Many Requests), causing missing authors, ORCIDs and DOIs in the output. Replace `your.email@example.org` in the `CROSSREF_MAILTO` variable with a real address before starting the stack.
 
 ## Commands
 ```bash
