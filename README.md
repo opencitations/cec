@@ -81,3 +81,13 @@ docker compose restart    # Restart all
 
 - Classifier: http://localhost:5000/cic
 - Extractor: http://localhost:5001/cex
+
+## Bulk extraction
+
+`scripts/bulk_extract.py` runs the extractor API over a folder of PDFs and unpacks each result under `cec_output/<pdf_stem>/`. It uses the Python standard library only and assumes the Docker Compose stack is running on `localhost:5001`.
+
+```bash
+python scripts/bulk_extract.py path/to/pdfs          # batch a directory
+python scripts/bulk_extract.py paper.pdf             # single file
+python scripts/bulk_extract.py path/to/pdfs -o out   # custom output dir
+```

@@ -26,3 +26,5 @@ extractor/cex/doc/
 extractor/cex/build/
 extractor/cex/dist/
 extractor/cex/grobid_client_python.egg-info/
+pdfs
+docker-compose.yaml
