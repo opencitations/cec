@@ -35,7 +35,7 @@ CONFIG = {
         'xslt': 'jats-to-tei.xsl',            # Path to the XSLT stylesheet
     },
     'cex_api': {
-        'url': 'http://localhost:8000/api',   # CEX Extractor API URL
+        'url': 'http://localhost:5001/cex/api', # CEX Extractor API URL
         'timeout': 480,                       # Timeout in seconds per PDF
     }
 }

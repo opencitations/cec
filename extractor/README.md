@@ -26,67 +26,33 @@ In this setup, the GROBID Python Client is configured to use the `processFulltex
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running, follow these simple example steps.
+The extractor runs via Docker Compose: see the [root README](../README.md) for the ready-to-use stack with the prebuilt `opencitations/oc_cec_grobid` and `opencitations/oc_cec_extractor` images.
 
-### Development environment
-- **Java**: OpenJDK 17  
-  ```sh
-  openjdk version "17.0.11" 2024-04-16
-  OpenJDK Runtime Environment (build 17.0.11+9-Ubuntu-122.04.1)
-  OpenJDK 64-Bit Server VM (build 17.0.11+9-Ubuntu-122.04.1, mixed mode, sharing)
-- **Gradle**: Version 0.8.0
-
-### Installation
-
-**Note all operations must be done as root `su`**
-
-### Init Grobid
-* Clone the Grobid repo (https://github.com/kermitt2/grobid.git) into `cex/src/`
-* Update the directory with the corresponding model from `extractor/cex/src/train_data`: (1) `grobid-home/models/citation`, (2) `grobid-trainer/resources/dataset/citation`
-* Substitute the model in `grobid-home/models/citation` with **model5.wapiti** from Pagnotta, O. (2024). CEX Project - trained GROBID citation models. Zenodo. [https://doi.org/10.5281/zenodo.10529709](https://doi.org/10.5281/zenodo.10529709), renaming it as model.wapiti.
-* Update the directory `grobid-trainer/resources/dataset/citation/corpus ` with all the TEI-XML annotated files from Pagnotta, O. (2024). CEX Project - GROBID annotation aligned Gold Standard (Versione 1) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10529646](https://doi.org/10.5281/zenodo.10529646).
-* run grobid `./gradlew run` from `cec/extractor/cex/src/grobid`
-
-### Prepare/Run the python service
-* create a python virtual env `python -m venv <your_venv>`
-* activate venv: `source <your_venv>/bin/activate`
-* install libs: `cd cex | pip -r requirements.txt`
-* run the app: `python main.py`
-
-**Configuration:**
-To change the `PREFIX` variables go to **cex/main.py**. 
-Default is set to `PREFIX = /cex/`
+To swap the GROBID citation or segmentation models with your own, see [`docker-compose/README.md`](docker-compose/README.md), which provides an alternative Compose file that mounts custom model files as volumes.
 
 ## Using the API
-This project provides two ways, other than the web interface, to extract data from PDF files:
 
-- ✅ A **Flask API** that accepts PDF files via HTTP POST requests
-- 🧰 A **Command-Line Interface (CLI)** for local batch processing
+With the Docker Compose stack running, the extractor listens on `http://127.0.0.1:5001/cex`.
 
-### Starting the server
-Ensure your Flask app is configured correctly and then start it:
-
-```
-export FLASK_APP=your_app.py
-flask run --host=0.0.0.0 --port=5001
-```
 ### Endpoint
 
 ```
 POST /cex/api/extractor
 Content-Type: multipart/form-data
 ```
-### Form Fields
-| Field Name              | Type    | Required | Description                                      |
-|-------------------------|---------|----------|--------------------------------------------------|
-| `input_files_or_archives` | file    | ✅        | One or more PDF files or compressed archives (.ZIP, .ZST, .TAR.GZ)    |
-| `perform_alignment`     | boolean | ❌        | `true` or `false` (default is `false`)           |
-| `create_rdf`            | boolean | ❌        | `true` or `false` (default is `false`)           |
-| `max_workers`           | integer | ❌        | Number of parallel worker processes              |
 
-### 📤 Example: Uploading Multiple PDFs with CURL
+### Form fields
 
-```
+| Field                     | Type    | Required | Description                                                         |
+|---------------------------|---------|----------|---------------------------------------------------------------------|
+| `input_files_or_archives` | file    | yes      | One or more PDF files or compressed archives (`.zip`, `.zst`, `.tar.gz`) |
+| `perform_alignment`       | boolean | no       | `true` or `false` (default `false`)                                  |
+| `create_rdf`              | boolean | no       | `true` or `false` (default `false`)                                  |
+| `max_workers`             | integer | no       | Number of parallel worker processes                                  |
+
+### Upload example
+
+```bash
 curl -X POST http://127.0.0.1:5001/cex/api/extractor \
   -F "input_files_or_archives=@/path/to/file1.pdf" \
   -F "input_files_or_archives=@/path/to/file2.pdf" \
@@ -95,33 +61,22 @@ curl -X POST http://127.0.0.1:5001/cex/api/extractor \
   -F "max_workers=2"
 ```
 
-### 📥 Response
- Returns  a  `200 OK` JSON:
+### Response
 
-```
+`200 OK` JSON:
+
+```json
 {
   "download_url": "http://127.0.0.1:5001/cex/api/download/<request-id>/processed_pdfs_...zip"
 }
 ```
-### Download the Zip File
 
-```
-curl -O "http://127.0.0.1:5001/cex/api/download/<request-id>/processed_pdfs_..."
+### Download the ZIP
+
+```bash
+curl -O "http://127.0.0.1:5001/cex/api/download/<request-id>/processed_pdfs_...zip"
 ```
 
-### Using the CLI
-
-You can also run the extractor directly from the command line:
-
-```
-python extractor/cex/api/api_cli.py \
-  /full/path/to/first.pdf /full/path/to/second.pdf \
-  --download_folder=temp/downloads \
-  --zip_name=result.zip \
-  --perform_alignment \
-  --create_rdf=true \
-  --max_workers=2
-```
 ## Evaluation
 
 For the evaluation of CEX tool a GoldStandard has been created (Soricetti, M. (2025). CEX Project - GoldStandard Fulltext [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16310561](https://doi.org/10.5281/zenodo.16310561).
@@ -140,8 +95,7 @@ For the evaluation of CEX tool a GoldStandard has been created (Soricetti, M. (2
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-If you have any suggestion that would make this project better, please fork the repo and create a pull request. If this sounds too complex, you can simply open an issue with the tag "enhancement". Don't forget to give the project a star!
+Open an issue or a pull request on GitHub. For larger changes, discuss the approach in an issue first.
 
 ## License
 

@@ -5,9 +5,9 @@
 #ENVs
 CITATION_MODEL_URL='https://zenodo.org/records/10529709/files/trained%20models.zip?download=1'
 CITATION_MODEL_SUBDIR='trained models'
-CITATION_MODEL_VERSION='model2.wapiti'
+CITATION_MODEL_VERSION='model5.wapiti'
 SEGMENTATION_MODEL_URL='https://zenodo.org/records/17549454/files/grobid_trained_segmentation_models.zip?download=1'
-SEGMENTATION_MODEL_VERSION='model5.wapiti'
+SEGMENTATION_MODEL_VERSION='model2.wapiti'
 
 #------------------------------------------------------------------
 

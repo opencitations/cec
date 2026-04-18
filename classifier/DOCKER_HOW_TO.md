@@ -1,14 +1,18 @@
-# How to Use the Classifier with Docker Compose
+# Classifier with externally mounted models
+
+This guide covers the `opencitations/oc_cec_classifier:1.2.2_V2` image, which does not bundle the ensemble model weights: they must be downloaded separately and mounted into the container.
+
+If you just want to run the classifier without this extra setup, use the `V2_full` image from the [root README](../README.md) instead: that variant already contains the weights.
 
 ## Prerequisites
 
-First, make sure you have Docker and Docker Compose installed on your system.
+Docker and Docker Compose installed.
 
-## Download Models
+## Download the models
 
-Download the models from here (make sure to select **VERSION 2**):
-   - **Ensemble Model Without Section Titles**: [EnsIntWos](https://doi.org/10.5281/zenodo.11652578)
-   - **Ensemble Model With Section Titles**: [EnsIntWS](https://doi.org/10.5281/zenodo.11653642)
+Download the V2 model archives from Zenodo:
+   - **ModelsWithoutSections (WoS)**: https://doi.org/10.5281/zenodo.14989091
+   - **ModelsWithSections (WS)**: https://doi.org/10.5281/zenodo.14989192
 
 ## Setup Models Directory
 

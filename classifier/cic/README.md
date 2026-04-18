@@ -3,7 +3,7 @@
 
 # Citation Intent Classifier [Release Candidate]
 
-**Comprehensive Guide and Documentation**
+Usage guide and API reference.
 
 ---
 
@@ -11,34 +11,17 @@
 
 - [Introduction](#introduction)
 - [Folder Structure](#folder-structure)
-- [Setup and Installation](#setup-and-installation)
-  - [Prerequisites](#prerequisites)
-  - [Installation Steps](#installation-steps)
-- [Running the Application Locally](#running-the-application-locally)
+- [Running the Classifier](#running-the-classifier)
 - [Using the Web Interface](#using-the-web-interface)
-  - [Access the Web Interface](#access-the-web-interface)
-  - [Classify Text Manually](#classify-text-manually)
-  - [Upload a JSON File](#upload-a-json-file)
 - [Using the API](#using-the-api)
-  - [API Endpoints](#api-endpoints)
-  - [Request Parameters](#request-parameters)
-  - [Usage with `curl`](#usage-with-curl)
-    - [Classify Text Data](#classify-text-data)
-    - [Upload a JSON File](#upload-a-json-file-1)
-- [Testing with Shell Script](#testing-with-shell-script)
-  - [Script Content](#script-content)
-  - [Modifying the Script](#modifying-the-script)
-  - [Making the Script Executable](#making-the-script-executable)
-  - [Executing the Script](#executing-the-script)
 - [JSON File Format](#json-file-format)
-- [Notes and Best Practices](#notes-and-best-practices)
 - [Acknowledgements](#acknowledgements)
 
 ---
 
 ## Introduction
 
-The **Citation Intent Classifier** is made up of a web application and an API designed to classify citation contexts within research papers. Utilizing pre-trained language models, it analyzes citations to determine the intent of the author when citing.
+The Citation Intent Classifier is a web application and API that classifies citation contexts in research papers. It uses pre-trained language models to determine the author's intent in citing.
 
 ## Folder Structure
 
@@ -74,15 +57,14 @@ project_root/
 │   │   │   │   ├── WoS_XLNet_bkg.pt
 │   │   │   │   ├── WoS_XLNet_met.pt
 │   │   │   │   └── WoS_XLNet_res.pt
-│   │   │   ├── ModelsWithSections
-│   │   │   │   ├── FFNN_SciCiteWS.pth
-│   │   │   │   ├── WS_SciBERT_bkg.pt
-│   │   │   │   ├── WS_SciBERT_met.pt
-│   │   │   │   ├── WS_SciBERT_res.pt
-│   │   │   │   ├── WS_XLNet_bkg.pt
-│   │   │   │   ├── WS_XLNet_met.pt
-│   │   │   │   └── WS_XLNet_res.pt
-│   │   │   └── README.md
+│   │   │   └── ModelsWithSections
+│   │   │       ├── FFNN_SciCiteWS.pth
+│   │   │       ├── WS_SciBERT_bkg.pt
+│   │   │       ├── WS_SciBERT_met.pt
+│   │   │       ├── WS_SciBERT_res.pt
+│   │   │       ├── WS_XLNet_bkg.pt
+│   │   │       ├── WS_XLNet_met.pt
+│   │   │       └── WS_XLNet_res.pt
 │   │   └── predictor.py
 │   ├── static
 │   │   ├── css
@@ -111,67 +93,11 @@ project_root/
     ├── ...
 ```
 
-## Setup and Installation
+## Running the Classifier
 
-### Prerequisites
+The classifier runs via Docker Compose. See the [root README](../../README.md) for the full stack (uses the `V2_full` image with the model weights baked in), or [../DOCKER_HOW_TO.md](../DOCKER_HOW_TO.md) for the classifier-only setup with externally mounted weights.
 
-- **Python 3.9 or higher**
-- **`pip` package manager**
-
-### Installation Steps
-
-1. **Clone the Repository**
-
-    ```bash
-    git clone https://github.com/opencitations/cec.git
-    cd cec/classifier
-    ```
-
-2. **Create a Virtual Environment (Optional but Recommended)**
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install Required Packages**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Download Model Files**
-
-    Download and place the pre-trained model files in the appropriate directories as shown in the folder structure. Ensure that the `models/` directory contains all necessary `.pt` and `.pth` files (7 models each dir).</br>Download links:
-   - **Ensemble Model Without Section Titles**: [EnsIntWos](https://doi.org/10.5281/zenodo.11652578)
-   - **Ensemble Model With Section Titles**: [EnsIntWS](https://doi.org/10.5281/zenodo.11653642)
-
-## Running the Application Locally
-
-To run the application locally, you need to specify the path to the `src` directory, which contains the necessary source code and models.
-Do it after installation and within the classifier directory, as shown above.
-
-```bash
-python -m cic.main --src_path "/absolute/path/to/cic/src"
-```
-
-**Note:** Replace `"/absolute/path/to/cic/src"` with the actual absolute path to your `cic/src` directory.
-
-- **Example:**
-
-    If your project is located at `/home/user/projects/cec`, the command would be:
-
-    ```bash
-    python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src"
-    ```
-
-    If prefix is requested then use `"/cic"` as follows:
-
-    ```bash
-    python -m cic.main --src_path "/home/user/projects/cec/classifier/cic/src" --prefix "/cic"
-    ```
-
-The application will start running locally by default.
+Once the stack is running, the API listens on `http://127.0.0.1:5000/cic` and the web interface on `http://127.0.0.1:5000/cic/classifier`.
 
 ## Using the Web Interface
 
@@ -197,14 +123,11 @@ Open a web browser and navigate to the [classifier website](http://test.opencita
 
 ## Using the API
 
-> [!NOTE]  
-> All the examples are presented with the local endpoint: `http://127.0.0.1:5000/`.</br>
-> To interact with the live API, replace the base URL with the production endpoint:
-> `http://137.204.64.4:81/`.
+Examples below target the local endpoint `http://127.0.0.1:5000`. Replace the base URL with your deployment URL if different.
 
 ### API Endpoints
 
-- **POST** `/api/classify`: Classify citation contexts provided in the request.
+- `POST /cic/api/classify`: Classify citation contexts provided in the request.
 
 ### Request Parameters
 
@@ -285,72 +208,17 @@ curl -X POST http://127.0.0.1:5000/cic/api/classify \
 
 :arrow_right: **In Option 2, mode must be passed as a separate form field (not embedded inside the file).**
 
-## Testing with Shell Script
+### Batch testing
 
-To automate testing of the API with various compressed files, you can use the provided shell script, which presents different compression formats. Adapt it to your needs.
-
-### Script Content
+A ready-to-use test script is available at [`classifier/test/cic_test.sh`](../test/cic_test.sh). It submits several archive formats against a given base URL:
 
 ```bash
-#!/bin/bash
-
-# Define base directories
-INPUT_DIR="/path/to/your/input_directory"
-OUTPUT_DIR="$INPUT_DIR/Results"
-
-# Ensure the output directory exists
-mkdir -p "$OUTPUT_DIR"
-
-# FOLDERS
-
-echo "Processing ZIP file..."
-curl -X POST -F "file=@$INPUT_DIR/json_to_classify.zip" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Results_ZIP.zip"
-
-echo "Processing TAR file..."
-curl -X POST -F "file=@$INPUT_DIR/json_to_classify.tar" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Results_TAR.zip"
-
-echo "Processing 7Z file..."
-curl -X POST -F "file=@$INPUT_DIR/json_to_classify.7z" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Results_7Z.zip"
-
-# SINGLE FILES
-
-echo "Processing BZ2 file..."
-curl -X POST -F "file=@$INPUT_DIR/compression_test.json.bz2" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_BZ2.zip"
-
-echo "Processing GZ file..."
-curl -X POST -F "file=@$INPUT_DIR/compression_test.json.gz" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_GZ.zip"
-
-echo "Processing XZ file..."
-curl -X POST -F "file=@$INPUT_DIR/compression_test.json.xz" -F "mode=mixed" "http://127.0.0.1:5000/api/classify" --output "$OUTPUT_DIR/Result_XZ.zip"
-
-echo "All API tests completed successfully."
+./cic_test.sh http://127.0.0.1:5000/cic /path/to/input_directory
 ```
 
-### Modifying the Script
+The base URL must include the `/cic` prefix; the script appends `/api/classify` internally.
 
-- **`INPUT_DIR`**: Change `"/path/to/your/input_directory"` to the path where your input files are located.
-- **`OUTPUT_DIR`**: By default, it creates a `Results` directory inside your input directory to store the outputs. You can change this if desired.
-
-### Making the Script Executable
-
-1. Save the script to a file, for example, `test_api.sh`.
-2. Make the script executable:
-
-    ```bash
-    chmod +x test_api.sh
-    ```
-
-### Executing the Script
-
-Run the script using the following command:
-
-```bash
-./test_api.sh
-```
-
-Ensure that the server is running before executing the script.
-
-## JSON File Format:
+## JSON File Format
 JSON files to be classified must contain citation organized with the same underlying structure, composed by `SECTION` and `CITATION` at least.
 `SECTION` may also contain an empty value - empty string - while `CITATION` cannot be empty. Finally, beside this structure it is possible to include additional metadata which will be maintained and returned together with classification results, but will not be taken into account for the classification process.
 
@@ -367,15 +235,6 @@ JSON files to be classified must contain citation organized with the same underl
 }
 ```
 
-## Docker compose
-See this file **DOCKER_HOW_TO.md**
-
-## Notes and Best Practices
-
-- **Data Format**: Ensure that all JSON files follow the required structure for the classifier to work properly.
-- **Error Handling**: The application provides manifest files detailing any errors encountered during processing.
-- **Logging**: Logs are essential for debugging. Check the application logs if you encounter issues.
-
 ## Acknowledgements
 
-This project utilizes several open-source libraries and pre-trained models. We acknowledge the contributors of these resources for their work.
+This project uses open-source libraries and pre-trained models. We acknowledge the contributors of these resources.

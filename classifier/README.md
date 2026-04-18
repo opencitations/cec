@@ -78,86 +78,17 @@ Highlighted models are the resulting classifiers of this project. The **WS** mod
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Docker Deployment
+## Running the Classifier
 
-This project uses automated Docker image building and deployment to Docker Hub through GitHub Actions.
+The classifier runs via Docker Compose. See the [root README](../README.md) for the full stack (GROBID + extractor + classifier), which uses the `V2_full` image with the ensemble model weights already included.
 
-### Docker Image Structure
+For a smaller image without baked-in models (tag `1.2.2_V2`) that reads the weights from a host volume, see [DOCKER_HOW_TO.md](DOCKER_HOW_TO.md).
 
-The classifier component is containerized using Docker. The image includes:
-- Python 3.11 slim base image
-- All required dependencies (PyTorch, Transformers, Flask, etc.)
-- Gunicorn as production WSGI server
-- Citation Intent Classifier module
-
-### Automated Build Process
-
-The Docker build process is fully automated via GitHub Actions (`.github/workflows/classifier-build.yaml`). 
-
-**How it works:**
-
-1. **Version Control**: The Docker image version is defined in `classifier/docker_version.txt`
-2. **Automatic Build**: When you push to `main` branch, the workflow:
-   - Reads the version from `docker_version.txt`
-   - Checks if the image already exists on Docker Hub
-   - If not, builds and pushes a new image with that version tag
-3. **Version Management**: To create a new Docker image version, Edit the version file ---> classifier/docker_version.txt
-
-## Running the Docker Container
-
-### Prerequisites
-
-Before running the container, ensure you have:
-- Docker installed on your system
-- Models directory with the following structure:
-
-*Version 1* models required:
-```
-  models/
-  ├── NoSections/
-  │   └── [model files for classification without sections]
-  └── Sections/
-      └── [model files for classification with sections]
-```
-*Version 2* models required:
-```
-  models/
-  ├── ModelsWithoutSections/
-  │   └── [model files for classification without sections]
-  └── ModelsWithSections/
-      └── [model files for classification with sections]
-```
-
-
-### Option 1: Docker Run Command
-```bash
-docker run -d \
-  -p 5000:5000 \
-  --memory="32g" \
-  -v '/your_local_PATH/models:/app/classifier/cic/src/models' \
-  opencitations/oc_cec_classifier:1.2.2_V2
-```
-
-**Parameters:**
-- `-d`: Run container in detached mode
-- `-p 5000:5000`: Map port 5000 (host:container)
-- `--memory="32g"`: Set memory limit to 32GB
-- `-v`: Mount local models directory to container
-  - Replace `/your_local_PATH/models` with your actual models path
-  - Can be absolute (`/home/user/models`) or relative (`./models`)
-- `1.2.2_V2` : For Version 1 use this version -> 1.1.0_V1
-
-### Option 2: Docker Compose
-
-See this file **DOCKER_HOW_TO.md**
-
+For API usage, endpoints and request formats, see [cic/README.md](cic/README.md).
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have any suggestion that would make this project better, please fork the repo and create a pull request. If this sounds too complex, you can simply open an issue with the tag "enhancement".
-Don't forget to give the project a star!
+Open an issue or a pull request on GitHub. For larger changes, discuss the approach in an issue first.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
